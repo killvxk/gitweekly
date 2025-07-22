@@ -65,3 +65,15 @@ https://github.com/ZathuraDbg/ZathuraDbg
 
 https://github.com/NSG650/BugCheck2Linux
 
+https://github.com/mojtabafalleh/emulator
+
+https://github.com/binsnake/KUBERA
+
+https://github.com/momo5502/sogen
+
+https://github.com/lifting-bits/remill
+
+https://github.com/brew02/BudgetEPT
+
+https://github.com/brew02/FastPFHook
+

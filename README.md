@@ -39,3 +39,7 @@ https://github.com/Teach2Breach/stargate
 
 https://github.com/Whitecat18/Rust-for-Malware-Development
 
+https://github.com/badhive/stitch
+
+https://github.com/x86byte/Obfusk8
+

@@ -49,3 +49,19 @@ https://github.com/NaC-L/Mergen
 
 https://github.com/bitdefender/bddisasm
 
+https://github.com/x86matthew/WinVisor
+
+https://github.com/NSG650/NtDOOM
+
+https://github.com/brunodev85/winlator
+
+https://github.com/OFFTKP/felix86
+
+https://github.com/NSG650/Polaris
+
+https://github.com/cnlohr/mini-rv32ima
+
+https://github.com/ZathuraDbg/ZathuraDbg
+
+https://github.com/NSG650/BugCheck2Linux
+

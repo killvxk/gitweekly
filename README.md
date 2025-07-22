@@ -27,3 +27,15 @@ https://github.com/caprinux/rel-fuscate
 
 https://github.com/EgeBalci/evilreplay
 
+https://github.com/lin-snow/Ech0
+
+https://github.com/NanmiCoder/MediaCrawler
+
+https://github.com/AlmondOffSec/DCOMRunAs
+
+https://github.com/EasyTier/EasyTier
+
+https://github.com/Teach2Breach/stargate
+
+https://github.com/Whitecat18/Rust-for-Malware-Development
+

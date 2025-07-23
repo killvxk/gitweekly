@@ -79,3 +79,5 @@ https://github.com/brew02/BudgetEPT
 
 https://github.com/brew02/FastPFHook
 
+https://github.com/gimli-rs/object
+

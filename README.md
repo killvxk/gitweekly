@@ -81,3 +81,7 @@ https://github.com/brew02/FastPFHook
 
 https://github.com/gimli-rs/object
 
+https://github.com/0x00spor3/PayloadPDF
+
+https://github.com/Godakash007/Steganogrphy-Tool
+

@@ -120,3 +120,9 @@ https://github.com/Bareflank/microv
 
 https://github.com/x86matthew/WinVisor
 
+https://github.com/tandasat/WPBT-Builder
+
+https://github.com/Push3AX/GrabAccess
+
+https://github.com/xsh3llsh0ck/Calamity
+

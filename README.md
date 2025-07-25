@@ -99,3 +99,23 @@ https://github.com/0xTriboulet/scepter-rs
 
 https://github.com/tenclass/mvisor
 
+https://github.com/fleroviux/lunatic
+
+https://github.com/mgi24/HyperVGPUPartition
+
+https://github.com/chubbymaggie/capstone2llvmir
+
+https://github.com/StrikerX3/virt86
+
+https://github.com/x86matthew/WoWMIPS
+
+https://github.com/Midi12/whse
+
+https://github.com/smallsun107/AndroidShell
+
+https://github.com/udosteinberg/NOVA
+
+https://github.com/Bareflank/microv
+
+https://github.com/x86matthew/WinVisor
+

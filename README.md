@@ -87,6 +87,13 @@ https://github.com/Godakash007/Steganogrphy-Tool
 
 https://github.com/jerryscript-project/jerryscript
 
-
 https://github.com/gloriouslegacy/ezDrvBAK
+
+https://github.com/iHongRen/hpack
+
+https://github.com/MatheuZSecurity/RingReaper
+
+https://github.com/femvoi/pg-disabler
+
+https://github.com/0xTriboulet/scepter-rs
 

@@ -12,6 +12,8 @@ https://github.com/0xTriboulet/T-1
 
 https://github.com/valium007/BareSVM
 
+https://github.com/SergiusTheBest/FindWDK
+
 https://github.com/noahware/apic
 
 https://github.com/noahware/darken-anticheat

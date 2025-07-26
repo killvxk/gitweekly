@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/jnz/q3vm
+
 https://github.com/brunodev85/winlator
 
 https://github.com/0xTriboulet/T-1
@@ -125,4 +127,6 @@ https://github.com/tandasat/WPBT-Builder
 https://github.com/Push3AX/GrabAccess
 
 https://github.com/xsh3llsh0ck/Calamity
+
+https://github.com/SamuelTulach/SecureFakePkg
 

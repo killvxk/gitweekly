@@ -138,3 +138,12 @@ https://github.com/FastVM/minivm
 
 https://github.com/DymOK93/KTL
 
+https://github.com/ntoskrnl7/crtsys
+
+https://github.com/ntoskrnl7/ldk
+
+https://github.com/ntoskrnl7/ext
+
+https://github.com/ntoskrnl7/win32-ex
+
+https://github.com/FunkyFr3sh/cnc-ddraw

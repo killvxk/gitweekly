@@ -6,6 +6,8 @@ https://github.com/jnz/q3vm
 
 https://github.com/brunodev85/winlator
 
+https://github.com/Jamesits/dropWPBT
+
 https://github.com/0xTriboulet/T-1
 
 https://github.com/valium007/BareSVM
@@ -129,4 +131,6 @@ https://github.com/Push3AX/GrabAccess
 https://github.com/xsh3llsh0ck/Calamity
 
 https://github.com/SamuelTulach/SecureFakePkg
+
+https://github.com/FastVM/minivm
 

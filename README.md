@@ -147,3 +147,6 @@ https://github.com/ntoskrnl7/ext
 https://github.com/ntoskrnl7/win32-ex
 
 https://github.com/FunkyFr3sh/cnc-ddraw
+
+https://github.com/coolcode/musix
+

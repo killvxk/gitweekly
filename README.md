@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/baerwang/openapi-rs
+
 https://github.com/jnz/q3vm
 
 https://github.com/brunodev85/winlator
@@ -155,4 +157,14 @@ https://github.com/mg-chao/snow-shot
 https://github.com/tweedegolf/mailcrab
 
 https://github.com/rustmailer/rustmailer
+
+https://github.com/hvhghv/se-script
+
+https://github.com/colanode/colanode
+
+https://github.com/shanleiguang/vRain
+
+https://github.com/littleCareless/dish-ai-commit
+
+https://github.com/geosmart/lumma
 

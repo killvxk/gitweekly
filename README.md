@@ -152,3 +152,7 @@ https://github.com/coolcode/musix
 
 https://github.com/mg-chao/snow-shot
 
+https://github.com/tweedegolf/mailcrab
+
+https://github.com/rustmailer/rustmailer
+

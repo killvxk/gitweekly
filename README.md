@@ -150,3 +150,5 @@ https://github.com/FunkyFr3sh/cnc-ddraw
 
 https://github.com/coolcode/musix
 
+https://github.com/mg-chao/snow-shot
+

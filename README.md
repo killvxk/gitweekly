@@ -168,3 +168,9 @@ https://github.com/littleCareless/dish-ai-commit
 
 https://github.com/geosmart/lumma
 
+https://github.com/winsiderss/systeminformer
+
+https://github.com/PKRoma/ProcessHacker
+
+https://github.com/aws/s2n-tls
+

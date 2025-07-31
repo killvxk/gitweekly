@@ -186,3 +186,7 @@ https://github.com/PKRoma/ProcessHacker
 
 https://github.com/aws/s2n-tls
 
+https://github.com/rasta-mouse/Crystal-Loaders
+
+https://github.com/logangoins/soapy
+

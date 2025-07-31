@@ -4,6 +4,18 @@
 # 收集的项目地址
 https://github.com/baerwang/openapi-rs
 
+https://github.com/whokilleddb/sinister-vsix
+
+https://github.com/wariv/DarkLnk
+
+https://github.com/9001/copyparty
+
+https://github.com/dacort/s3grep
+
+https://github.com/awgh/ratnet-rs
+
+https://github.com/awgh/ratnet
+
 https://github.com/jnz/q3vm
 
 https://github.com/brunodev85/winlator

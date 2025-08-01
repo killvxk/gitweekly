@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/baerwang/openapi-rs
 
+https://github.com/sligter/LandPPT
+
 https://github.com/whokilleddb/sinister-vsix
 
 https://github.com/wariv/DarkLnk

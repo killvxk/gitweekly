@@ -190,5 +190,7 @@ https://github.com/rasta-mouse/Crystal-Loaders
 
 https://github.com/logangoins/soapy
 
+https://github.com/law-chain-hot/websocket-devtools
+
 https://github.com/cycraft-corp/BinaryAnalysisMCPs
 

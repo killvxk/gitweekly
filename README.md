@@ -196,3 +196,9 @@ https://github.com/law-chain-hot/websocket-devtools
 
 https://github.com/cycraft-corp/BinaryAnalysisMCPs
 
+https://github.com/MaskerPRC/everything-ai-chat
+
+https://github.com/justlovemaki/AIClient-2-API
+
+https://github.com/sansan0/TrendRadar
+

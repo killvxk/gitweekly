@@ -202,3 +202,11 @@ https://github.com/justlovemaki/AIClient-2-API
 
 https://github.com/sansan0/TrendRadar
 
+https://github.com/focus-creative-games/obfuz
+
+https://github.com/loyaltypollution/ida2llvm
+
+https://github.com/SamuelTulach/unxorer
+
+https://github.com/fuqiuluo/android-wuwa
+

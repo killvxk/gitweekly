@@ -210,3 +210,5 @@ https://github.com/SamuelTulach/unxorer
 
 https://github.com/fuqiuluo/android-wuwa
 
+https://github.com/nashaofu/xcap
+

@@ -216,3 +216,13 @@ https://github.com/fuqiuluo/android-wuwa
 
 https://github.com/nashaofu/xcap
 
+https://github.com/zodiacon/windowskernelprogrammingbook2e
+
+https://github.com/zodiacon/winnativeapibooksamples
+
+https://github.com/zhaotianff/WindowsProgramming
+
+https://github.com/ProgrammingFonts/ProgrammingFonts
+
+https://github.com/avakar/vcrtl
+

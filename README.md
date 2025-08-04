@@ -4,6 +4,10 @@
 # 收集的项目地址
 https://github.com/baerwang/openapi-rs
 
+https://github.com/quickjs-ng/quickjs
+
+https://github.com/hackerai-tech/PentestGPT
+
 https://github.com/sligter/LandPPT
 
 https://github.com/whokilleddb/sinister-vsix

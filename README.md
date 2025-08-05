@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/NHAS/wag
+
 https://github.com/0xlane/ollvm-rust
 
 https://github.com/m3rcer/IRvana

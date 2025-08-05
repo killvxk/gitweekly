@@ -236,3 +236,5 @@ https://github.com/avakar/vcrtl
 
 https://github.com/DosX-dev/obfus.h
 
+https://github.com/Eonian-Sharp/pulse
+

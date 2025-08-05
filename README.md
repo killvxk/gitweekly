@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/m3rcer/IRvana
+
 https://github.com/baerwang/openapi-rs
 
 https://github.com/quickjs-ng/quickjs

@@ -8,6 +8,8 @@ https://github.com/0xlane/ollvm-rust
 
 https://github.com/m3rcer/IRvana
 
+https://github.com/MrRoy09/VMwhere
+
 https://github.com/baerwang/openapi-rs
 
 https://github.com/quickjs-ng/quickjs

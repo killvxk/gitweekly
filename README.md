@@ -12,6 +12,8 @@ https://github.com/m3rcer/IRvana
 
 https://github.com/MrRoy09/VMwhere
 
+https://github.com/steveiliop56/tinyauth
+
 https://github.com/baerwang/openapi-rs
 
 https://github.com/quickjs-ng/quickjs
@@ -243,3 +245,10 @@ https://github.com/Eonian-Sharp/pulse
 https://github.com/AmberWolfCyber/NachoVPN
 
 https://github.com/jarro2783/cxxopts
+
+https://github.com/packetd/packetd
+
+https://github.com/fish2018/pansou
+
+https://github.com/xyTom/snippai
+

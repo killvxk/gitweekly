@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/NHAS/wag
 
+https://github.com/AmintaCCCP/GithubStarsManager
+
 https://github.com/0xlane/ollvm-rust
 
 https://github.com/m3rcer/IRvana

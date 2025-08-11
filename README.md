@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/NHAS/wag
 
+https://github.com/gmh5225/ampa.sys-exp
+
 https://github.com/AmintaCCCP/GithubStarsManager
 
 https://github.com/0xlane/ollvm-rust

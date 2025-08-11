@@ -4,6 +4,24 @@
 # 收集的项目地址
 https://github.com/NHAS/wag
 
+https://github.com/Mbed-TLS/mbedtls
+
+https://github.com/LadybirdBrowser/ladybird
+
+https://github.com/LekKit/RVVM
+
+https://github.com/rui314/mold
+
+https://github.com/ascon/ascon-c
+
+https://github.com/olafhartong/BamboozlEDR
+
+https://github.com/praetorian-inc/ChromeAlone
+
+https://github.com/heiher/hev-socks5-tunnel
+
+https://github.com/heiher/hev-socks5-core
+
 https://github.com/yhkl-dev/NaviCLI
 
 https://github.com/xiaobox/mdeditor
@@ -256,5 +274,11 @@ https://github.com/packetd/packetd
 
 https://github.com/fish2018/pansou
 
+https://github.com/Zero-Tang/NoirVisor
+
 https://github.com/xyTom/snippai
+
+https://github.com/HyperDbg/HyperDbg
+
+https://github.com/dobin/RedEdr
 

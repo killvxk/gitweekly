@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/NHAS/wag
 
+https://github.com/FFRI/ShadeBIOS
+
 https://github.com/Mbed-TLS/mbedtls
 
 https://github.com/LadybirdBrowser/ladybird

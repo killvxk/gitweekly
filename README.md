@@ -6,6 +6,8 @@ https://github.com/NHAS/wag
 
 https://github.com/FFRI/ShadeBIOS
 
+https://github.com/praetorian-inc/turnt
+
 https://github.com/Mbed-TLS/mbedtls
 
 https://github.com/LadybirdBrowser/ladybird

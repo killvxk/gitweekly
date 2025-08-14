@@ -6,6 +6,12 @@ https://github.com/NHAS/wag
 
 https://github.com/FFRI/ShadeBIOS
 
+https://github.com/NeoMaster831/kurasagi
+
+https://github.com/NeoMaster831/ntksp
+
+https://github.com/NeoMaster831/hyro
+
 https://github.com/praetorian-inc/turnt
 
 https://github.com/Mbed-TLS/mbedtls

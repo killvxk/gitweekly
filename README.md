@@ -294,6 +294,8 @@ https://github.com/dobin/RedEdr
 
 https://github.com/jd-opensource/arkdecompiler
 
+https://github.com/unkvolism/Solemn
+
 https://github.com/comsec-group/bprc
 
 https://github.com/coroutine-cfop/cfop

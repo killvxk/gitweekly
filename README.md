@@ -6,6 +6,8 @@ https://github.com/robinroy03/videoeditor
 
 https://github.com/miroslavpejic85/p2p
 
+https://github.com/mjl-/mox
+
 https://github.com/YILS-LIN/short-video-factory
 
 https://github.com/NHAS/wag

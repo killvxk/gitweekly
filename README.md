@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/0x4m4/hexstrike-ai
+
 https://github.com/robinroy03/videoeditor
 
 https://github.com/miroslavpejic85/p2p

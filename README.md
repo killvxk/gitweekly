@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/0x4m4/hexstrike-ai
 
+https://github.com/sensepost/bloatware-pwn
+
 https://github.com/charmbracelet/crush
 
 https://github.com/csandker/InterProcessCommunication-Samples

@@ -6,6 +6,12 @@ https://github.com/0x4m4/hexstrike-ai
 
 https://github.com/charmbracelet/crush
 
+https://github.com/csandker/InterProcessCommunication-Samples
+
+https://github.com/praetorian-inc/oauthseeker
+
+https://github.com/m8sec/Dispatch
+
 https://github.com/robinroy03/videoeditor
 
 https://github.com/miroslavpejic85/p2p

@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/TecharoHQ/anubis
 
+https://github.com/bgreenwell/doxx
+
 https://github.com/yoavst/ida-ios-helper
 
 https://github.com/0x4m4/hexstrike-ai

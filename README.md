@@ -4,6 +4,10 @@
 # 收集的项目地址
 https://github.com/TecharoHQ/anubis
 
+https://github.com/googleprojectzero/TinyInst
+
+https://github.com/JonathanSalwan/ttexplore
+
 https://github.com/bgreenwell/doxx
 
 https://github.com/yoavst/ida-ios-helper

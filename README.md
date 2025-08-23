@@ -344,3 +344,10 @@ https://github.com/80r1ng/DoDo-Dump
 
 https://github.com/kingkongshot/prompts
 
+https://github.com/GitDzreal93/clean-your-mac
+
+https://github.com/AnYi-0/Translator
+
+https://github.com/leeguooooo/claude-code-usage-bar
+
+https://github.com/Blushyes/coro-code

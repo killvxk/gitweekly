@@ -374,3 +374,7 @@ https://github.com/2x7EQ13/CreateProcessAsPPL
 
 https://github.com/Lavender-exe/Shellcrypt
 
+https://github.com/kleiton0x00/RtlHijack
+
+https://github.com/trickster0/PrimitiveInjection
+

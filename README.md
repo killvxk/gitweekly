@@ -8,6 +8,8 @@ https://github.com/walnuthq/soldb
 
 https://github.com/TecharoHQ/anubis
 
+https://github.com/poppopjmp/VMDragonSlayer
+
 https://github.com/MorDavid/BruteForceai
 
 https://github.com/automazeio/claude-code-for-power-users

@@ -370,3 +370,5 @@ https://github.com/whokilleddb/function-collections
 
 https://github.com/2x7EQ13/CreateProcessAsPPL
 
+https://github.com/Lavender-exe/Shellcrypt
+

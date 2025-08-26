@@ -366,4 +366,5 @@ https://github.com/automazeio/ccpm
 
 https://github.com/print3M/dllshimmer
 
+https://github.com/whokilleddb/function-collections
 

@@ -6,6 +6,10 @@ https://github.com/doocs/md
 
 https://github.com/TecharoHQ/anubis
 
+https://github.com/MorDavid/BruteForceai
+
+https://github.com/automazeio/claude-code-for-power-users
+
 https://github.com/googleprojectzero/TinyInst
 
 https://github.com/JonathanSalwan/ttexplore

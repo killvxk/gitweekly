@@ -353,3 +353,9 @@ https://github.com/AnYi-0/Translator
 https://github.com/leeguooooo/claude-code-usage-bar
 
 https://github.com/Blushyes/coro-code
+
+https://github.com/0xJs/BlockEDRTraffic
+
+https://github.com/automazeio/ccpm
+
+

@@ -378,6 +378,10 @@ https://github.com/kleiton0x00/RtlHijack
 
 https://github.com/amimo/dcc
 
+https://github.com/austinzq/mcpssh
 
 https://github.com/trickster0/PrimitiveInjection
+
+https://github.com/austinzq/mcprdp
+
 

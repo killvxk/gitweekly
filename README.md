@@ -384,4 +384,12 @@ https://github.com/trickster0/PrimitiveInjection
 
 https://github.com/austinzq/mcprdp
 
+https://github.com/nanbingxyz/daily-commit-summarizer
+
+https://github.com/MatrixSeven/file-transfer-go
+
+https://github.com/Zheng-Changfu/naive-ui-pro
+
+https://github.com/control-theory/gonzo
+
 

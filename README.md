@@ -421,3 +421,9 @@ https://github.com/0xflux/Hells-Hollow
 https://github.com/tinygo-org/tinygo
 
 https://github.com/avaneev/lzav
+
+https://github.com/avaneev/prvhash
+
+https://github.com/avaneev/komihash
+
+

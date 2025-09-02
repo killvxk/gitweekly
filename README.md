@@ -428,4 +428,6 @@ https://github.com/avaneev/prvhash
 
 https://github.com/avaneev/komihash
 
+https://github.com/bytecode77/r77-rootkit
+
 

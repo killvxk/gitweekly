@@ -14,6 +14,8 @@ https://github.com/wufhex/Mystic-xorstr
 
 https://github.com/Fare9/MyCCompiler
 
+https://github.com/PascalBeyer/Headerless-C-Compiler
+
 https://github.com/whokilleddb/Limelighter
 
 https://github.com/whokilleddb/BRC4-BOF-Artillery

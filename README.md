@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/Alon-Alush/AlushPacker
+
 https://github.com/ManulMap/malstring
 
 https://github.com/wufhex/Mystic-xorstr

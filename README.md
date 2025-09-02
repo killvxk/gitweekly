@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/Alon-Alush/AlushPacker
 
+https://github.com/Fatmike-GH/Fatpack
+
 https://github.com/ManulMap/malstring
 
 https://github.com/wufhex/Mystic-xorstr

@@ -440,4 +440,11 @@ https://github.com/winapps-org/winapps
 
 https://github.com/wendy7756/AI-Video-Transcriber
 
+https://github.com/alex3O/BYOVD-DriverKiller
+
+https://github.com/AmberWolfCyber/UpSkope
+
+https://github.com/scrt/PowerChell
+
+https://github.com/almounah/PowerChell
 

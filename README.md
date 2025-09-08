@@ -430,4 +430,12 @@ https://github.com/avaneev/komihash
 
 https://github.com/bytecode77/r77-rootkit
 
+https://github.com/TibixDev/winboat
+
+https://github.com/Siriusmart/youtube-tui
+
+https://github.com/DrizzleTime/Foxel
+
+https://github.com/winapps-org/winapps
+
 

@@ -438,4 +438,6 @@ https://github.com/DrizzleTime/Foxel
 
 https://github.com/winapps-org/winapps
 
+https://github.com/wendy7756/AI-Video-Transcriber
+
 

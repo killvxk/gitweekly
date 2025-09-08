@@ -450,3 +450,5 @@ https://github.com/scrt/PowerChell
 
 https://github.com/almounah/PowerChell
 
+https://github.com/xaitax/NTSleuth
+

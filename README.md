@@ -457,5 +457,9 @@ https://github.com/xaitax/NTSleuth
 # 有趣的文章
 
 #### vibe-coding带来的新问题
+
 https://www.netspi.com/blog/executive-blog/web-application-pentesting/vibe-coding-a-pentesters-dream/
 
+#### electron app上进行后门化
+
+https://blog.trailofbits.com/2025/09/03/subverting-code-integrity-checks-to-locally-backdoor-signal-1password-slack-and-more/

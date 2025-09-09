@@ -476,6 +476,15 @@ https://github.com/herumi/xbyak
 
 https://github.com/herumi/s_xbyak
 
+https://github.com/gabriel-sztejnworcel/schannel-tls-cpp
+
+https://github.com/gabriel-sztejnworcel/pipe-intercept
+
+https://github.com/gabriel-sztejnworcel/smb2tcp
+
+https://github.com/gabriel-sztejnworcel/WinRpcSample
+
+https://github.com/gabriel-sztejnworcel/tcpproxy
 
 # 有趣的文章
 

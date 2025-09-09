@@ -477,3 +477,8 @@ https://www.netspi.com/blog/executive-blog/web-application-pentesting/vibe-codin
 #### electron app上进行后门化
 
 https://blog.trailofbits.com/2025/09/03/subverting-code-integrity-checks-to-locally-backdoor-signal-1password-slack-and-more/
+
+#### windows虚拟化 安全系统调用的桥接
+
+https://connormcgarr.github.io/secure-calls-and-skbridge/
+

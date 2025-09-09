@@ -486,3 +486,7 @@ https://blog.trailofbits.com/2025/09/03/subverting-code-integrity-checks-to-loca
 
 https://connormcgarr.github.io/secure-calls-and-skbridge/
 
+#### exploit不可利用的漏洞
+
+https://jhftss.github.io/Exploiting-the-Impossible/
+

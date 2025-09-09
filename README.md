@@ -493,3 +493,9 @@ https://jhftss.github.io/Exploiting-the-Impossible/
 #### Dinvoke+Syscall的玩法
 
 https://offensivedefence.co.uk/posts/dinvoke-syscalls/
+
+#### 垃圾代码生成引擎
+
+https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/
+
+

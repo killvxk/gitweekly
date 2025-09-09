@@ -454,3 +454,8 @@ https://github.com/almounah/PowerChell
 
 https://github.com/xaitax/NTSleuth
 
+# 有趣的文章
+
+#### vibe-coding带来的新问题
+https://www.netspi.com/blog/executive-blog/web-application-pentesting/vibe-coding-a-pentesters-dream/
+

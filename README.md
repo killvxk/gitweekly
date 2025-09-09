@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/tijme/dittobytes
 
+https://github.com/magisterquis/sneaky_remap
+
 https://github.com/msuiche/elegant-bouncer
 
 https://github.com/Workday/raw-disk-parser

@@ -4,6 +4,14 @@
 # 收集的项目地址
 https://github.com/msuiche/elegant-bouncer
 
+https://github.com/msuiche/LiveCloudKd
+
+https://github.com/MagnetForensics/Hibr2Bin
+
+https://github.com/connormcgarr/Vtl1Mon
+
+https://github.com/connormcgarr/SkBridge
+
 https://github.com/mandatoryprogrammer/thermoptic
 
 https://github.com/itm4n/Pentest-Windows

@@ -6,6 +6,8 @@ https://github.com/tijme/dittobytes
 
 https://github.com/magisterquis/sneaky_remap
 
+https://github.com/f0rw4rd/tls-preloader
+
 https://github.com/msuiche/elegant-bouncer
 
 https://github.com/Workday/raw-disk-parser

@@ -490,3 +490,6 @@ https://connormcgarr.github.io/secure-calls-and-skbridge/
 
 https://jhftss.github.io/Exploiting-the-Impossible/
 
+#### dinvoke+syscall的玩法
+
+https://offensivedefence.co.uk/posts/dinvoke-syscalls/

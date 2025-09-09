@@ -472,6 +472,11 @@ https://github.com/almounah/PowerChell
 
 https://github.com/xaitax/NTSleuth
 
+https://github.com/herumi/xbyak
+
+https://github.com/herumi/s_xbyak
+
+
 # 有趣的文章
 
 #### vibe-coding带来的新问题

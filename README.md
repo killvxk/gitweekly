@@ -14,6 +14,8 @@ https://github.com/weizhiao/rust-dlopen
 
 https://github.com/dslee2022/SignatureKid
 
+https://github.com/taisuii/rusda
+
 https://github.com/magisterquis/sneaky_remap
 
 https://github.com/f0rw4rd/tls-preloader

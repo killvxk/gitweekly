@@ -500,6 +500,9 @@ https://github.com/gabriel-sztejnworcel/tcpproxy
 
 https://github.com/pocketpy/pocketpy
 
+https://github.com/AlbatrossHook/AlbatrossAndroid
+
+https://github.com/AlbatrossHook/AlbatrossServer
 
 # 有趣的文章
 

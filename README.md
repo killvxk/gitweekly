@@ -8,6 +8,10 @@ https://github.com/JJK96/PIClin
 
 https://github.com/jonpalmisc/limoncello
 
+https://github.com/weizhiao/rust-elfloader
+
+https://github.com/weizhiao/rust-dlopen
+
 https://github.com/magisterquis/sneaky_remap
 
 https://github.com/f0rw4rd/tls-preloader

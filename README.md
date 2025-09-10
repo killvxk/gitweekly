@@ -498,6 +498,9 @@ https://github.com/gabriel-sztejnworcel/WinRpcSample
 
 https://github.com/gabriel-sztejnworcel/tcpproxy
 
+https://github.com/pocketpy/pocketpy
+
+
 # 有趣的文章
 
 #### vibe-coding带来的新问题

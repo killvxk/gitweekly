@@ -506,6 +506,16 @@ https://github.com/AlbatrossHook/AlbatrossAndroid
 
 https://github.com/AlbatrossHook/AlbatrossServer
 
+https://github.com/MatrixSeven/file-transfer-go
+
+https://github.com/control-theory/gonzo
+
+https://github.com/drl990114/MarkFlowy
+
+https://github.com/plutoprint/plutoprint
+
+
+
 # 有趣的文章
 
 #### vibe-coding带来的新问题
@@ -537,5 +547,6 @@ https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/
 #### Typora替代品
 
 https://markflowy.vercel.app/zh
+
 
 

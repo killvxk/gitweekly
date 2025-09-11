@@ -532,4 +532,10 @@ https://offensivedefence.co.uk/posts/dinvoke-syscalls/
 
 https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/
 
+# 有趣的工具
+
+#### Typora替代品
+
+https://markflowy.vercel.app/zh
+
 

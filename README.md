@@ -6,6 +6,8 @@ https://github.com/tijme/dittobytes
 
 https://github.com/JJK96/PIClin
 
+https://github.com/Zhalslar/astrbot_plugin_QQAdmin
+
 https://github.com/jonpalmisc/limoncello
 
 https://github.com/weizhiao/rust-elfloader

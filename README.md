@@ -591,5 +591,9 @@ https://lazytyper.com/zh
 
 https://pocketbase.io/
 
+#### AI操作小红书的工具
+
+https://www.haha.ai/xiaohongshu-mcp
+
 
 

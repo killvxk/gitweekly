@@ -566,5 +566,9 @@ https://nuclearplayer.com/
 
 https://malai.sh/hello-tcp/
 
+#### 语音码字工具
+
+https://lazytyper.com/zh
+
 
 

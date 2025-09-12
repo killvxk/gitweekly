@@ -524,6 +524,8 @@ https://github.com/xpzouying/xiaohongshu-mcp
 
 https://github.com/andreafabrizi/Dropbox-Uploader
 
+https://github.com/70sh1/eddy
+
 
 
 # 有趣的文章

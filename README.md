@@ -549,6 +549,11 @@ https://offensivedefence.co.uk/posts/dinvoke-syscalls/
 
 https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/
 
+#### TinyLLM 从入门到入土
+
+https://skyzh.github.io/tiny-llm/preface.html
+
+
 # 有趣的工具
 
 #### Typora替代品

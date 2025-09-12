@@ -526,6 +526,8 @@ https://github.com/andreafabrizi/Dropbox-Uploader
 
 https://github.com/70sh1/eddy
 
+https://github.com/70sh1/Vaultea
+
 
 
 # 有趣的文章

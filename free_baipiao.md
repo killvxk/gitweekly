@@ -11,6 +11,11 @@ https://dash.domain.digitalplat.org/auth/login?next=%2F
 
 ## 白嫖一个vps
 
+教育账户直接白嫖linuxone就行了
+https://linuxone.cloud.marist.edu/#/login
+
+
+
 ```
 almond.sh和deepnote 都可以，
 deepnote的docker是带root，可以apt update && apt install tmate -y安装tmate然后用tmate回弹一个ssh session来做一些操作

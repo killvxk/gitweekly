@@ -556,11 +556,13 @@ https://markflowy.vercel.app/zh
 
 https://www.wenshushu.cn/
 
-#### 音乐播放器
+#### 音乐播放器，重点是没有广告
 
 https://nuclearplayer.com/
 
+#### 告别python的http-server，并支持内网对外分享的工具
 
+https://malai.sh/hello-tcp/
 
 
 

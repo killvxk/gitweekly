@@ -571,5 +571,9 @@ https://malai.sh/hello-tcp/
 
 https://lazytyper.com/zh
 
+#### 宝塔替代品，一个文件全搞定！
+
+https://pocketbase.io/
+
 
 

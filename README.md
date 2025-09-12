@@ -522,6 +522,9 @@ https://github.com/AkiraBit/PicSharp
 
 https://github.com/xpzouying/xiaohongshu-mcp
 
+https://github.com/andreafabrizi/Dropbox-Uploader
+
+
 
 # 有趣的文章
 

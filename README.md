@@ -520,6 +520,7 @@ https://github.com/WenzWenzWenz/DelphiReSym
 
 https://github.com/AkiraBit/PicSharp
 
+https://github.com/xpzouying/xiaohongshu-mcp
 
 
 # 有趣的文章

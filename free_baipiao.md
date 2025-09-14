@@ -25,3 +25,7 @@ PS :
 ```
 
 
+## 白嫖一个私有化邮件服务器
+
+https://doc.skymail.ink/guide/via-ui.html
+

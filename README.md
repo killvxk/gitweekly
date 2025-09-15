@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/T3nb3w/ComDotNetExploit
+
 https://github.com/MayerDaniel/profiler-lateral-movement
 
 https://github.com/Faisal-P27/DCOM-Lateral-Movement-Payload

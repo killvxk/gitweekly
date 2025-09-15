@@ -4,6 +4,12 @@
 # 收集的项目地址
 https://github.com/MayerDaniel/profiler-lateral-movement
 
+https://github.com/Faisal-P27/DCOM-Lateral-Movement-Payload
+
+https://github.com/rtecCyberSec/BitlockMove
+
+https://github.com/rtecCyberSec/SpeechRuntimeMove
+
 https://github.com/tijme/dittobytes
 
 https://github.com/JJK96/PIClin

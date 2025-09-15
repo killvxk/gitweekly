@@ -530,6 +530,8 @@ https://github.com/70sh1/Vaultea
 
 https://github.com/fathyb/carbonyl
 
+https://github.com/oiweiwei/go-msrpc
+
 https://github.com/facebookresearch/CUTracer
 
 

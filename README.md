@@ -8,6 +8,8 @@ https://github.com/exjam/xbox360-emu
 
 https://github.com/axelmierczuk/tenrec
 
+https://github.com/kr0tt/EarlyExceptionHandling
+
 https://github.com/domcyrus/rustnet
 
 https://github.com/0x4D31/finch

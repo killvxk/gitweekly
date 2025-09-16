@@ -4,6 +4,12 @@
 # 收集的项目地址
 https://github.com/magisterquis/lutlol
 
+https://github.com/exjam/xbox360-emu
+
+https://github.com/axelmierczuk/tenrec
+
+https://github.com/domcyrus/rustnet
+
 https://github.com/0x4D31/finch
 
 https://github.com/0x4D31/galah

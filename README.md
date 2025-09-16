@@ -605,6 +605,9 @@ https://skyzh.github.io/tiny-llm/preface.html
 
 https://rastamouse.me/modular-pic-c2-agents-reprise/
 
+#### Linux的smb 0-click RCE？
+
+https://www.willsroot.io/2025/09/ksmbd-0-click.html
 
 
 # 有趣的工具

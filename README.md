@@ -12,6 +12,12 @@ https://github.com/rtecCyberSec/BitlockMove
 
 https://github.com/rtecCyberSec/SpeechRuntimeMove
 
+https://github.com/SySS-Research/diffalayze
+
+https://github.com/irctrakz/wgslirp
+
+https://github.com/irctrakz/docker-wireguard-tiny
+
 https://github.com/tijme/dittobytes
 
 https://github.com/JJK96/PIClin

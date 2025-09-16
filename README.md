@@ -6,6 +6,8 @@ https://github.com/magisterquis/lutlol
 
 https://github.com/exjam/xbox360-emu
 
+https://github.com/Wack0/maciNTosh
+
 https://github.com/axelmierczuk/tenrec
 
 https://github.com/kr0tt/EarlyExceptionHandling

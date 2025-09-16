@@ -609,6 +609,10 @@ https://rastamouse.me/modular-pic-c2-agents-reprise/
 
 https://www.willsroot.io/2025/09/ksmbd-0-click.html
 
+#### 基于WSUS的中继
+
+https://trustedsec.com/blog/wsus-is-sus-ntlm-relay-attacks-in-plain-sight
+
 
 # 有趣的工具
 

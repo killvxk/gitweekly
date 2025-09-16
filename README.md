@@ -601,6 +601,11 @@ https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/
 
 https://skyzh.github.io/tiny-llm/preface.html
 
+#### 现代PIC的C2开发技巧
+
+https://rastamouse.me/modular-pic-c2-agents-reprise/
+
+
 
 # 有趣的工具
 

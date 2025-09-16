@@ -629,6 +629,11 @@ https://blog.compass-security.com/2025/05/bypassing-bitlocker-encryption-bitpixi
 
 https://blog.syss.com/posts/bitpixie/
 
+#### 使用开源工具前要好好读一读代码
+
+https://blacksnufkin.github.io/posts/opsec-offensive-code-review/
+
+
 
 # 有趣的工具
 

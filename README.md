@@ -2,6 +2,12 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/magisterquis/lutlol
+
+https://github.com/0x4D31/finch
+
+https://github.com/0x4D31/galah
+
 https://github.com/T3nb3w/ComDotNetExploit
 
 https://github.com/MayerDaniel/profiler-lateral-movement
@@ -12,11 +18,17 @@ https://github.com/rtecCyberSec/BitlockMove
 
 https://github.com/rtecCyberSec/SpeechRuntimeMove
 
+https://github.com/zero2504/COMouflage
+
 https://github.com/SySS-Research/diffalayze
 
 https://github.com/irctrakz/wgslirp
 
 https://github.com/irctrakz/docker-wireguard-tiny
+
+https://github.com/TwoSevenOneT/WSASS
+
+https://github.com/Kudaes/MFTool
 
 https://github.com/tijme/dittobytes
 

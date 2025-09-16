@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/andigandhi/bitpixie
 
+https://github.com/Aorimn/dislocker
+
 https://github.com/magisterquis/lutlol
 
 https://github.com/exjam/xbox360-emu

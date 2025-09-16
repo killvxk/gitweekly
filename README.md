@@ -617,6 +617,16 @@ https://www.willsroot.io/2025/09/ksmbd-0-click.html
 
 https://trustedsec.com/blog/wsus-is-sus-ntlm-relay-attacks-in-plain-sight
 
+#### bitlocker的一些文章
+
+https://neodyme.io/de/blog/bitlocker_why_no_fix/#secure-boot---how-does-it-even-work
+
+https://neodyme.io/de/blog/bitlocker_screwed_without_a_screwdriver/#teaser
+
+https://blog.compass-security.com/2025/05/bypassing-bitlocker-encryption-bitpixie-poc-and-winpe-edition/
+
+https://blog.syss.com/posts/bitpixie/
+
 
 # 有趣的工具
 

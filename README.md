@@ -5,6 +5,10 @@
 
 https://github.com/comsec-group/phoenix
 
+https://github.com/comsec-group/vmscape
+
+https://github.com/vercel-labs/dev3000
+
 https://github.com/andigandhi/bitpixie
 
 https://github.com/Aorimn/dislocker

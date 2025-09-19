@@ -4,6 +4,10 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/0xthirteen/WMI_Proc_Dump
+
+https://github.com/0xthirteen/mtprocess
+
 https://github.com/0xf00sec/Aether
 
 https://github.com/0xf00sec/MachExec

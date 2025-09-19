@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/eythaann/Seelen-UI
 
+https://github.com/sshllm/sshai
+
 https://github.com/Michael-A-Kuykendall/shimmy
 
 https://github.com/comsec-group/phoenix

@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/heimao-box/pwnpasi
+
 https://github.com/0xf00sec/Aether
 
 https://github.com/0xf00sec/MachExec

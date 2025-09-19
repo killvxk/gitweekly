@@ -665,6 +665,10 @@ https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-g
 
 # 有趣的工具
 
+#### AI将pdf变成视频教学
+
+https://pdftovideo.ai
+
 #### Typora替代品
 
 https://markflowy.vercel.app/zh

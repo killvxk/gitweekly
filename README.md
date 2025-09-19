@@ -695,5 +695,10 @@ https://www.haha.ai/xiaohongshu-mcp
 
 https://www.onlook.com/
 
+#### 全栈监控平台
+
+https://app.highlight.io/sign_in
+
+
 
 

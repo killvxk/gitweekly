@@ -2,6 +2,10 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/0xf00sec/Aether
+
+https://github.com/0xf00sec/MachExec
+
 https://github.com/Forceu/Gokapi
 
 https://github.com/dis0rder0x00/obex

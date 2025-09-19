@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/coder/httpjail
+
 https://github.com/eythaann/Seelen-UI
 
 https://github.com/sshllm/sshai

@@ -641,6 +641,10 @@ https://blog.syss.com/posts/bitpixie/
 
 https://blacksnufkin.github.io/posts/opsec-offensive-code-review/
 
+#### LED生成随机数
+
+https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-generation/
+
 
 
 # 有趣的工具

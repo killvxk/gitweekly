@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/coder/httpjail
 
+https://github.com/AikidoSec/safe-chain
+
 https://github.com/eythaann/Seelen-UI
 
 https://github.com/sshllm/sshai

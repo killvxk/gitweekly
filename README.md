@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/Wra7h/FlavorTown
+
 https://github.com/Hexorg/Ouroboros
 
 https://github.com/0xthirteen/WMI_Proc_Dump

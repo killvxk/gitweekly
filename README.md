@@ -6,6 +6,18 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/Wra7h/FlavorTown
 
+https://github.com/riddleling/iOS-OCR-Server
+
+https://github.com/AIPexStudio/AIPex
+
+https://github.com/WuChenDi/dropply
+
+https://github.com/nashaofu/shell360
+
+https://github.com/vikiboss/60s
+
+https://github.com/Hzao/PocketChest
+
 https://github.com/Hexorg/Ouroboros
 
 https://github.com/0xthirteen/WMI_Proc_Dump

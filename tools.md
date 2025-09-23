@@ -49,3 +49,8 @@ https://withoutbg.com/
 #### AI 实时换脸
 
 https://wan.video/
+
+#### 手机App自动化操作
+
+https://droidrun.ai/
+

@@ -695,6 +695,14 @@ https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-g
 
 https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/
 
+#### Windows内核漏洞利用技巧
+
+https://mdanilor.github.io/posts/hevd-1/
+
+https://connormcgarr.github.io/hvci/
+
+https://connormcgarr.github.io/km-shadow-stacks/
+
 # 有趣的工具
 
 #### AI将pdf变成视频教学

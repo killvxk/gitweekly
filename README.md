@@ -4,6 +4,12 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/ghostty-org/ghostty
+
+https://github.com/initstring/TTPx
+
+
+
 https://github.com/Wra7h/FlavorTown
 
 https://github.com/riddleling/iOS-OCR-Server
@@ -683,7 +689,9 @@ https://blacksnufkin.github.io/posts/opsec-offensive-code-review/
 
 https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-generation/
 
+#### CVE-2025-55241 新型域环境最强漏洞
 
+https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/
 
 # 有趣的工具
 

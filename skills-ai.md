@@ -55,6 +55,20 @@ https://github.com/AgentSmithers/x64DbgMCPServer
 
 https://github.com/pansila/mcp_server_gdb
 
+https://github.com/signal-slot/mcp-gdb
+
+https://github.com/svnscha/mcp-windbg
+
+### 逆向mcp
+
+https://github.com/axelmierczuk/tenrec
+
+https://github.com/cycraft-corp/BinaryAnalysisMCPs
+
+## MCP安全
+
+https://github.com/johnhalloran321/mcpSafetyScanner
+
 
 
 

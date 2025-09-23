@@ -8,7 +8,7 @@ https://github.com/ghostty-org/ghostty
 
 https://github.com/initstring/TTPx
 
-
+https://github.com/KingOfTheNOPs/Get-NetNTLM
 
 https://github.com/Wra7h/FlavorTown
 
@@ -736,6 +736,10 @@ https://www.onlook.com/
 #### 全栈监控平台
 
 https://app.highlight.io/sign_in
+
+#### 去掉图片背景的小工具
+
+https://withoutbg.com/
 
 
 

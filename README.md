@@ -8,6 +8,8 @@ https://github.com/ghostty-org/ghostty
 
 https://github.com/initstring/TTPx
 
+https://github.com/KingOfTheNOPs/cookie-monster
+
 https://github.com/KingOfTheNOPs/Get-NetNTLM
 
 https://github.com/Wra7h/FlavorTown

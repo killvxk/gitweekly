@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/0xsp-SRD/ZigStrike
+
 https://github.com/ghostty-org/ghostty
 
 https://github.com/initstring/TTPx

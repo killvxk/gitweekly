@@ -8,6 +8,8 @@ https://github.com/0xsp-SRD/ZigStrike
 
 https://github.com/ghostty-org/ghostty
 
+https://github.com/TwoSevenOneT/EDR-Freeze
+
 https://github.com/initstring/TTPx
 
 https://github.com/KingOfTheNOPs/cookie-monster

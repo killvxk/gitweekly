@@ -65,6 +65,10 @@ https://github.com/axelmierczuk/tenrec
 
 https://github.com/cycraft-corp/BinaryAnalysisMCPs
 
+### android和ios的操作mcp
+
+https://github.com/droidrun/droidrun
+
 ## MCP安全
 
 https://github.com/johnhalloran321/mcpSafetyScanner

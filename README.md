@@ -6,6 +6,16 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/0xsp-SRD/ZigStrike
 
+https://github.com/cocomelonc/meow
+
+https://github.com/netbiosX/Checklists
+
+https://github.com/vobst/BPFVol3
+
+https://github.com/Aabyss-Team/ARL
+
+https://github.com/massgravel/Microsoft-Activation-Scripts
+
 https://github.com/ghostty-org/ghostty
 
 https://github.com/TwoSevenOneT/EDR-Freeze

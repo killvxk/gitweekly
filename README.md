@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/ac3ss0r/cvm.h
 
+https://github.com/zer1t0/shellnova
+
 https://github.com/ac3ss0r/obfusheader.h
 
 https://github.com/hackerhouse-opensource/OffensiveLua

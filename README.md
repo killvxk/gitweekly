@@ -6,6 +6,14 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/ac3ss0r/cvm.h
 
+https://github.com/obitouka/InstagramPrivSniffer
+
+https://github.com/Atmosphere-NX/Atmosphere
+
+https://github.com/DosX-dev/Astral-PE
+
+https://github.com/DosX-dev/PEBLoader.h
+
 https://github.com/zer1t0/shellnova
 
 https://github.com/ac3ss0r/obfusheader.h

@@ -4,6 +4,10 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/ac3ss0r/cvm.h
+
+https://github.com/ac3ss0r/obfusheader.h
+
 https://github.com/hackerhouse-opensource/OffensiveLua
 
 https://github.com/pandaadir05/re-architect

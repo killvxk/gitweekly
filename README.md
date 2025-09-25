@@ -10,6 +10,8 @@ https://github.com/obitouka/InstagramPrivSniffer
 
 https://github.com/Atmosphere-NX/Atmosphere
 
+https://github.com/Atmosphere-NX/Atmosphere-libs
+
 https://github.com/DosX-dev/Astral-PE
 
 https://github.com/DosX-dev/PEBLoader.h

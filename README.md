@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/hackerhouse-opensource/OffensiveLua
+
 https://github.com/pandaadir05/re-architect
 
 https://github.com/g3tsyst3m/undertheradar

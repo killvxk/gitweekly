@@ -4,6 +4,16 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/g3tsyst3m/undertheradar
+
+https://github.com/assetnote/hopgoblin
+
+https://github.com/NUL0x4C/EtwSessionHijacking
+
+https://github.com/hackerhouse-opensource/SetupHijack
+
+https://github.com/dyne/cjit
+
 https://github.com/0xsp-SRD/ZigStrike
 
 https://github.com/cocomelonc/meow

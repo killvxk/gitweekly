@@ -57,3 +57,7 @@ https://droidrun.ai/
 #### AI 智能视频字幕生成器
 
 https://caption.flycut.co/en
+
+#### 有人把一切放在x-cmd里了，终端的one-piece
+
+https://cn.x-cmd.com/

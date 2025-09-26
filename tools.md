@@ -61,3 +61,13 @@ https://caption.flycut.co/en
 #### 有人把一切放在x-cmd里了，终端的one-piece
 
 https://cn.x-cmd.com/
+
+#### GPU监控
+
+https://www.gpukill.com/
+
+#### 探索网络拓扑
+
+https://atlasdemo.vnerd.nl/
+
+

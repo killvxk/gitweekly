@@ -54,3 +54,6 @@ https://wan.video/
 
 https://droidrun.ai/
 
+#### AI 智能视频字幕生成器
+
+https://caption.flycut.co/en

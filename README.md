@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/iamthefrogy/frogy2.0
 
+https://github.com/beehive-lab/mambo
+
 https://github.com/trustedsec/Titanis
 
 https://github.com/iKeepLearn/db-back-tool

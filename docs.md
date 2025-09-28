@@ -69,3 +69,8 @@ https://mdanilor.github.io/posts/hevd-1/
 https://connormcgarr.github.io/hvci/
 
 https://connormcgarr.github.io/km-shadow-stacks/
+
+#### Android 逆向
+
+https://www.ragingrock.com/AndroidAppRE/
+

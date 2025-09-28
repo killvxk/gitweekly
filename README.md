@@ -8,6 +8,8 @@ https://github.com/iamthefrogy/frogy2.0
 
 https://github.com/beehive-lab/mambo
 
+https://github.com/M0nster3/OneLong
+
 https://github.com/trustedsec/Titanis
 
 https://github.com/iKeepLearn/db-back-tool

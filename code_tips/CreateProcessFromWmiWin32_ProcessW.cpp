@@ -16,8 +16,7 @@ DWORD CreateProcessFromWmiWin32_ProcessW(_In_ LPCWSTR BinaryPath)
 	DWORD dwError = ERROR_SUCCESS;
 
 	CoInitializeEx(0, COINIT_MULTITHREADED);
-	//if (!SUCCEEDED(Result))
-	//	goto EXIT_ROUTINE;
+
 
 	Result = CoCreateInstance(CLSID_WbemLocator, NULL, 1, IID_IWbemLocator, (LPVOID*)&Locator);
 	if (!SUCCEEDED(Result))

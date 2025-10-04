@@ -4,6 +4,16 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/xwlan/dprobe
+
+https://github.com/Tserith/Parasite
+
+https://github.com/LabGuy94/Diskjacker
+
+https://github.com/Sha0/winvblock
+
+https://github.com/Dragonette2233/disk_cleaner
+
 https://github.com/zhongyang219/TrafficMonitor
 
 https://github.com/msgbyte/tailchat

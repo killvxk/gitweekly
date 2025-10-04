@@ -74,5 +74,7 @@ https://atlasdemo.vnerd.nl/
 
 https://midnight-commander.org/
 
+#### Everything的开源免费替换
 
+https://www.flowlauncher.com/
 

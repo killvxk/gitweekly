@@ -78,3 +78,8 @@ https://midnight-commander.org/
 
 https://www.flowlauncher.com/
 
+#### not only IM时代的开源IM，tailchat真的优秀
+
+https://tailchat.msgbyte.com/
+
+

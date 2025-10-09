@@ -84,4 +84,8 @@ https://tailchat.msgbyte.com/
 
 https://yinxin630.github.io/fiora/
 
+#### 远程办公还能打游戏的跨时代工具Parsec
+
+https://parsec.app/
+
 

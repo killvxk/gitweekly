@@ -4,6 +4,10 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/goichot/OverLAPS
+
+https://github.com/dis0rder0x00/obex
+
 https://github.com/xwlan/dprobe
 
 https://github.com/trustedsec/Titanis

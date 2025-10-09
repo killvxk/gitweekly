@@ -77,3 +77,8 @@ https://www.ragingrock.com/AndroidAppRE/
 #### 滥用Azure Service Bus基础架构创建加密隧道
 
 https://hackerhermanos.com/azbridge/
+
+#### 基于AI的anti分析加载器
+
+https://specterops.io/blog/2025/10/03/ai-gated-loader-teaching-code-to-decide-before-it-acts/
+

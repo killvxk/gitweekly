@@ -12,6 +12,8 @@ https://github.com/dis0rder0x00/obex
 
 https://github.com/xwlan/dprobe
 
+https://github.com/Hack-BitGod/AndroidHack_BackDoor
+
 https://github.com/trustedsec/Titanis
 
 https://github.com/Tserith/Parasite

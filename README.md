@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/xwlan/dprobe
 
+https://github.com/trustedsec/Titanis
+
 https://github.com/Tserith/Parasite
 
 https://github.com/LabGuy94/Diskjacker

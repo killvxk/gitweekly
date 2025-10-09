@@ -74,3 +74,6 @@ https://connormcgarr.github.io/km-shadow-stacks/
 
 https://www.ragingrock.com/AndroidAppRE/
 
+#### 滥用Azure Service Bus基础架构创建加密隧道
+
+https://hackerhermanos.com/azbridge/

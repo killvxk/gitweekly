@@ -6,6 +6,10 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/Michael-A-Kuykendall/shimmy
 
+https://github.com/looplj/axonhub
+
+https://github.com/NativeMindBrowser/NativeMindExtension
+
 https://github.com/goichot/OverLAPS
 
 https://github.com/dis0rder0x00/obex

@@ -88,4 +88,20 @@ https://yinxin630.github.io/fiora/
 
 https://parsec.app/
 
+#### OCR 工具 Web纯享
+
+https://scribeocr.com/
+
+#### python注释到文档的自动化
+
+https://pdoc.dev/
+
+#### web版的ps
+
+https://paint.sumo.app/
+
+#### 为你的app做一些上架的图片
+
+https://www.appshots.top/editor
+
 

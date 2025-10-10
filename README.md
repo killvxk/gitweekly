@@ -12,6 +12,8 @@ https://github.com/looplj/axonhub
 
 https://github.com/NativeMindBrowser/NativeMindExtension
 
+https://github.com/toolswatch/blackhat-arsenal-tools
+
 https://github.com/goichot/OverLAPS
 
 https://github.com/dis0rder0x00/obex

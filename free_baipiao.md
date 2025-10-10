@@ -34,3 +34,8 @@ https://doc.skymail.ink/guide/via-ui.html
 ### 第二种
 使用CF的隧道，然后本地部署https://github.com/roundcube/roundcubemail-docker
 其他也是用resend和CF邮件routing catch-all，好处是比较快
+
+## 白嫖AI
+
+https://free.stockai.trade/
+

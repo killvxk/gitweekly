@@ -104,4 +104,8 @@ https://paint.sumo.app/
 
 https://www.appshots.top/editor
 
+#### 播放器
+
+https://xmpro.netlify.app/
+
 

@@ -112,4 +112,12 @@ https://xmpro.netlify.app/
 
 https://ivi.cx/
 
+#### AI编辑工具
+
+https://edit0.com/zh
+
+#### 快速将web应用编程真app
+
+https://sveinbjorn.org/platypus
+
 

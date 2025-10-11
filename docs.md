@@ -62,6 +62,10 @@ https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-g
 
 https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/
 
+#### git clone又来洞了
+
+https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984
+
 #### Windows内核漏洞利用技巧
 
 https://mdanilor.github.io/posts/hevd-1/

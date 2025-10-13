@@ -35,11 +35,11 @@ unsigned char* ReadMemory(LPVOID addrOf, int sizeofVal)
 
 void WriteMemory(LPVOID dst, unsigned char* src,int sizeofVal) 
 {
-  const auto module = GetModuleHandleA("ntdll.dll");
+  	const auto module = GetModuleHandleA("ntdll.dll");
 	const auto RtlFillMemory = GetProcAddress(module, "RtlFillMemory");
 	const auto RtlExitUserThread = GetProcAddress(module, "RtlExitUserThread");
 	const auto RtlInitializeBitMapEx = GetProcAddress(module, "RtlInitializeBitMapEx");
-  const auto hProc = NtGetCurrentProcess();
+  	const auto hProc = NtGetCurrentProcess();
 
 	HANDLE hThread2 = NULL;
 	NtCreateThreadEx(&hThread2, THREAD_ALL_ACCESS, NULL, , RtlExitUserThread, (PVOID)0x00000000, TRUE, NULL, NULL, NULL, NULL);

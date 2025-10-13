@@ -17,3 +17,8 @@ https://github.com/pwn1sher/CS-BOFs
 https://github.com/0x3rhy/BypassCredGuard-BOF
 
 https://github.com/muhammadmehdi1656/ldap_bofs
+
+https://github.com/Henkru/cs-token-vault
+
+https://github.com/nickzer0/PersisTask-BOF
+

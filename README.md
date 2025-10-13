@@ -8,6 +8,10 @@ https://github.com/Michael-A-Kuykendall/shimmy
 
 https://github.com/frkngksl/ExportHider
 
+https://github.com/pythonplayer396/evil-droid
+
+https://github.com/Yuragy/Bypass-Protection0x00
+
 https://github.com/looplj/axonhub
 
 https://github.com/NativeMindBrowser/NativeMindExtension

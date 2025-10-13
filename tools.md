@@ -108,6 +108,9 @@ https://www.appshots.top/editor
 
 https://xmpro.netlify.app/
 
+https://blog.upx8.com/4875
+
+
 #### WebClip打包，把网站变成手机app
 
 https://ivi.cx/

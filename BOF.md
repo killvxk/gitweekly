@@ -8,3 +8,12 @@ https://github.com/trustedsec/CS-Situational-Awareness-BOF
 
 https://github.com/qwqdanchun/ScreenShot-BOF
 
+https://github.com/trustedsec/CS-Remote-OPs-BOF
+
+https://github.com/baiyies/ScreenshotBOFPlus
+
+https://github.com/pwn1sher/CS-BOFs
+
+https://github.com/0x3rhy/BypassCredGuard-BOF
+
+https://github.com/muhammadmehdi1656/ldap_bofs

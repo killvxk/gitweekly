@@ -134,3 +134,8 @@ https://voltagent.dev/
 #### 新时代的逆向工具
 
 https://github.com/pandaadir05/re-architect
+
+#### 混淆分析工具【binaryNinja的插件】
+
+https://github.com/mrphrazer/obfuscation_analysis
+

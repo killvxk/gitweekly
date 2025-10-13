@@ -1,5 +1,9 @@
 # 有趣的工具
 
+#### 终端染色工具
+
+https://github.com/garabik/grc
+
 #### AI将pdf变成视频教学
 
 https://pdftovideo.ai

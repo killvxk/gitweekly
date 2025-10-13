@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/Michael-A-Kuykendall/shimmy
 
+https://github.com/mrexodia/RiscyWorkshop
+
 https://github.com/frkngksl/ExportHider
 
 https://github.com/pythonplayer396/evil-droid

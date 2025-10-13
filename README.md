@@ -8,6 +8,8 @@ https://github.com/Michael-A-Kuykendall/shimmy
 
 https://github.com/mrexodia/RiscyWorkshop
 
+https://github.com/DavyLandman/portable8439
+
 https://github.com/Acebond/ReverseSocks5
 
 https://github.com/dobin/SuperMega

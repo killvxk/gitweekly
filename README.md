@@ -12,6 +12,8 @@ https://github.com/DavyLandman/portable8439
 
 https://github.com/DavyLandman/compact25519
 
+https://github.com/philanc/luazen
+
 https://github.com/Acebond/ReverseSocks5
 
 https://github.com/dobin/SuperMega

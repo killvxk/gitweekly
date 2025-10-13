@@ -8,6 +8,8 @@ https://github.com/Michael-A-Kuykendall/shimmy
 
 https://github.com/mrexodia/RiscyWorkshop
 
+https://github.com/dobin/SuperMega
+
 https://github.com/frkngksl/ExportHider
 
 https://github.com/pythonplayer396/evil-droid

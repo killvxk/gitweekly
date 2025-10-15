@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/Michael-A-Kuykendall/shimmy
 
+https://github.com/iBotPeaches/Apktool
+
 https://github.com/mrexodia/RiscyWorkshop
 
 https://github.com/DavyLandman/portable8439

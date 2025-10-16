@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/nevergiveup-c/obfuscxx
 
+https://github.com/bata24/gef
+
 https://github.com/Michael-A-Kuykendall/shimmy
 
 https://github.com/Tib3rius/AutoRecon

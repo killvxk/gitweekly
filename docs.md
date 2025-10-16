@@ -1,5 +1,9 @@
 # 有趣的文章
 
+#### Linux 二进制101指南
+
+https://r1ru.github.io/categories/binary-exploitation-101/
+
 #### Linux 内核exploit开发指南
 
 https://r1ru.github.io/categories/linux-kernel-exploitation/

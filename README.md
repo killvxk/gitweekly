@@ -14,6 +14,8 @@ https://github.com/iBotPeaches/Apktool
 
 https://github.com/AndnixSH/APKToolGUI
 
+https://github.com/nevergiveup-c/krnl-shm-comm
+
 https://github.com/weak1337/NO_ACCESS_Protection
 
 https://github.com/hotline1337/page_no_access

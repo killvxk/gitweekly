@@ -1,5 +1,9 @@
 # 有趣的文章
 
+#### Linux 内核exploit开发指南
+
+https://r1ru.github.io/categories/linux-kernel-exploitation/
+
 #### vibe-coding带来的新问题
 
 https://www.netspi.com/blog/executive-blog/web-application-pentesting/vibe-coding-a-pentesters-dream/

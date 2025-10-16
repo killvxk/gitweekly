@@ -4,11 +4,21 @@
 # 收集的项目地址
 https://github.com/heimao-box/pwnpasi
 
+https://github.com/nevergiveup-c/obfuscxx
+
 https://github.com/Michael-A-Kuykendall/shimmy
 
 https://github.com/Tib3rius/AutoRecon
 
 https://github.com/iBotPeaches/Apktool
+
+https://github.com/AndnixSH/APKToolGUI
+
+https://github.com/weak1337/NO_ACCESS_Protection
+
+https://github.com/hotline1337/page_no_access
+
+https://github.com/gmh5225/no-access-protection-x86
 
 https://github.com/mrexodia/RiscyWorkshop
 

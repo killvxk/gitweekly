@@ -4,6 +4,10 @@
 
 https://github.com/garabik/grc
 
+#### GPU监视页面
+
+https://psalias2006.github.io/gpu-hot/
+
 #### AI将pdf变成视频教学
 
 https://pdftovideo.ai

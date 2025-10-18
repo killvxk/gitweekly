@@ -147,3 +147,9 @@ https://github.com/pandaadir05/re-architect
 
 https://github.com/mrphrazer/obfuscation_analysis
 
+#### 提供server端并轻量化的远程桌面操作
+
+https://www.crossdesk.cn/
+
+
+

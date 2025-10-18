@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/nevergiveup-c/obfuscxx
 
+https://github.com/karpathy/nanochat
+
 https://github.com/NICUP14/DebDroid
 
 https://github.com/bata24/gef

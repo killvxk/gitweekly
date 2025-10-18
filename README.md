@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/nevergiveup-c/obfuscxx
 
+https://github.com/NICUP14/DebDroid
+
 https://github.com/bata24/gef
 
 https://github.com/Michael-A-Kuykendall/shimmy

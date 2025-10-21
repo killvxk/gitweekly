@@ -12,6 +12,8 @@ https://github.com/0xf00sec/Aether
 
 https://github.com/googleprojectzero/ktrw
 
+https://github.com/rasta-mouse/GadgetHunter
+
 https://github.com/karpathy/nanochat
 
 https://github.com/NICUP14/DebDroid

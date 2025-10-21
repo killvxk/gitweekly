@@ -1,5 +1,10 @@
 # 有趣的工具
 
+####  Burp Suite Pro 的免费替代品
+
+https://hetty.xyz/
+
+
 #### 终端染色工具
 
 https://github.com/garabik/grc

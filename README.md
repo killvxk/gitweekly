@@ -570,6 +570,8 @@ https://github.com/aws/s2n-tls
 
 https://github.com/rasta-mouse/Crystal-Loaders
 
+https://github.com/rasta-mouse/Crystal-Kit
+
 https://github.com/logangoins/soapy
 
 https://github.com/law-chain-hot/websocket-devtools

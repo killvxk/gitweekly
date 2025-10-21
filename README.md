@@ -8,6 +8,8 @@ https://github.com/nevergiveup-c/obfuscxx
 
 https://github.com/pwardle/ReflectiveLoader
 
+https://github.com/0xf00sec/Aether
+
 https://github.com/googleprojectzero/ktrw
 
 https://github.com/karpathy/nanochat

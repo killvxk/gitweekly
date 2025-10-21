@@ -97,3 +97,8 @@ https://specterops.io/blog/2025/10/03/ai-gated-loader-teaching-code-to-decide-be
 #### MeetC2的新招AWS-X-Ray
 
 https://medium.com/@dhiraj_mishra/ghost-in-the-cloud-weaponizing-aws-x-ray-for-command-control-7539d60f1d77
+
+#### ebpf Rootkit 分析
+
+https://www.synacktiv.com/en/publications/linkpro-ebpf-rootkit-analysis
+

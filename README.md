@@ -6,6 +6,10 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/nevergiveup-c/obfuscxx
 
+https://github.com/pwardle/ReflectiveLoader
+
+https://github.com/googleprojectzero/ktrw
+
 https://github.com/karpathy/nanochat
 
 https://github.com/NICUP14/DebDroid

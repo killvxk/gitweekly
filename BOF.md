@@ -22,3 +22,5 @@ https://github.com/Henkru/cs-token-vault
 
 https://github.com/nickzer0/PersisTask-BOF
 
+https://github.com/logangoins/BadTakeover-BOF
+

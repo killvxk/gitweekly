@@ -171,3 +171,7 @@ https://vert.sh/
 
 https://github.com/dmtrKovalenko/odiff
 
+#### Solona + AI
+
+https://kit.sendai.fun/
+

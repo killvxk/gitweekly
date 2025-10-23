@@ -4,7 +4,6 @@
 
 https://hetty.xyz/
 
-
 #### 终端染色工具
 
 https://github.com/garabik/grc
@@ -167,4 +166,8 @@ https://font.subf.dev/zh-cn/
 #### 文件转换工具
 
 https://vert.sh/
+
+#### 图片对比工具
+
+https://github.com/dmtrKovalenko/odiff
 

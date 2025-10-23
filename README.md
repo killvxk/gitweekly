@@ -780,7 +780,11 @@ https://github.com/peasead/windows-sandbox-to-elastic
 
 https://github.com/peasead/elastic-container
 
+https://github.com/cutecatsandvirtualmachines/DDMA
 
+https://github.com/GetRektBoy724/KPDB
+
+https://github.com/cutecatsandvirtualmachines/idevicerestore
 
 
 

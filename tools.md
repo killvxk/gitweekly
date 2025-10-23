@@ -156,5 +156,11 @@ https://github.com/mrphrazer/obfuscation_analysis
 
 https://www.crossdesk.cn/
 
+#### 面向人类的标记语言：Human-oriented Markup Language
 
+https://huml.io/
+
+#### Maple Mono字体
+
+https://font.subf.dev/zh-cn/
 

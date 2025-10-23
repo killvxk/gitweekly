@@ -1,0 +1,11 @@
+https://github.com/bi-zone/rdtsc-checkvirt-poc
+https://github.com/a0rtega/pafish
+https://github.com/joesecurity/pafishmacro
+https://github.com/hfiref0x/VMDE
+https://github.com/LordNoteworthy/al-khaser
+https://github.com/AlicanAkyol/sems
+https://github.com/ntddk/blue
+https://github.com/sysopfb/VM_Timing_Detect
+https://github.com/vysec/genHTA
+https://github.com/CheckPointSW/InviZzzible
+https://github.com/Arvanaghi/CheckPlease

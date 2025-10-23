@@ -106,3 +106,7 @@ https://www.synacktiv.com/en/publications/linkpro-ebpf-rootkit-analysis
 
 https://swisskyrepo.github.io/InternalAllTheThings/
 
+#### LLVM PASS 教学
+
+https://shadowshell.io/phantom-pass/
+

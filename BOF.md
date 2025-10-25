@@ -26,3 +26,5 @@ https://github.com/logangoins/BadTakeover-BOF
 
 https://github.com/Octoberfest7/Inline-Execute-PE
 
+https://github.com/MrAle98/BOF-RunPE
+

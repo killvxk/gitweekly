@@ -175,3 +175,7 @@ https://github.com/dmtrKovalenko/odiff
 
 https://kit.sendai.fun/
 
+#### 015 文件临时分享工具
+
+https://send.fudaoyuan.icu/?type=file
+

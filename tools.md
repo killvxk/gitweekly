@@ -213,3 +213,7 @@ https://github.com/lintsinghua/XCodeReviewer
 
 https://www.endlesswiki.com/wiki/main_page
 
+#### 基于LLM的聊天bot
+
+https://github.com/yincongcyincong/MuseBot
+

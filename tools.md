@@ -194,3 +194,9 @@ https://nashaofu.github.io/shell360/
 #### 免费的AI剪辑工具
 
 https://aicrop.app/#upload
+
+#### 免费的AI图片生成工具
+
+https://freeaiimage.net/zh/
+
+

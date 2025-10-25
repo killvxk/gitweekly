@@ -110,3 +110,6 @@ https://swisskyrepo.github.io/InternalAllTheThings/
 
 https://shadowshell.io/phantom-pass/
 
+#### CVE-2025-59287 分析与poc
+
+https://hawktrace.com/blog/CVE-2025-59287

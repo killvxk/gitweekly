@@ -179,3 +179,18 @@ https://kit.sendai.fun/
 
 https://send.fudaoyuan.icu/?type=file
 
+#### 新一代压缩算法
+
+https://openzl.org/
+
+#### 将网站转换成RSS订阅
+
+https://feed-me-up-scotty.vincenttunru.com/
+
+#### 开源的SSH客户端
+
+https://nashaofu.github.io/shell360/
+
+#### 免费的AI剪辑工具
+
+https://aicrop.app/#upload

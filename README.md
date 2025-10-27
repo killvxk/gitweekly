@@ -792,6 +792,10 @@ https://github.com/GetRektBoy724/KPDB
 
 https://github.com/cutecatsandvirtualmachines/idevicerestore
 
+https://github.com/0xHossam/HuffLoader
+
+
+
 
 
 

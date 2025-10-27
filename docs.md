@@ -1,5 +1,9 @@
 # 有趣的文章
 
+#### 关于hollows 注入的分析
+
+https://trustedsec.com/blog/the-nightmare-of-proc-hollows-exe
+
 #### Linux 二进制101指南
 
 https://r1ru.github.io/categories/binary-exploitation-101/

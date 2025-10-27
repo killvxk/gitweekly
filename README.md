@@ -6,6 +6,8 @@ https://github.com/heimao-box/pwnpasi
 
 https://github.com/NiTianErXing666/SmallVmp
 
+https://github.com/VirtualAlllocEx/HWBP-DEP-Bypass
+
 https://github.com/lum8rjack/caddy-c2
 
 https://github.com/nevergiveup-c/obfuscxx

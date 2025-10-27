@@ -30,3 +30,5 @@ https://github.com/MrAle98/BOF-RunPE
 
 https://github.com/CCob/BOF.NET
 
+https://github.com/0xTriboulet/InlineExecuteEx
+

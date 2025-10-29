@@ -1,5 +1,9 @@
 # 有趣的文章
 
+#### 蓝牙漏洞分析
+
+https://www.synacktiv.com/en/publications/paint-it-blue-attacking-the-bluetooth-stack
+
 #### Windows ARM64 Internals
 
 https://connormcgarr.github.io/arm64-windows-internals-basics/

@@ -1,5 +1,9 @@
 # 有趣的工具
 
+#### Slice 代码审计工具
+
+https://noperator.dev/posts/slice/
+
 ####  Burp Suite Pro 的免费替代品
 
 https://hetty.xyz/

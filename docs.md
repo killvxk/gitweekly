@@ -1,5 +1,9 @@
 # 有趣的文章
 
+#### bitlocker 破解与建议
+
+https://www.errno.fr/Bitlocker_TPM_and_PIN_privesc
+
 #### 蓝牙漏洞分析
 
 https://www.synacktiv.com/en/publications/paint-it-blue-attacking-the-bluetooth-stack

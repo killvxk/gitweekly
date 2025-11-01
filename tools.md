@@ -1,5 +1,9 @@
 # 有趣的工具
 
+#### PandaWiki AI知识库新方法
+
+https://github.com/chaitin/PandaWiki
+
 #### Slice 代码审计工具
 
 https://noperator.dev/posts/slice/

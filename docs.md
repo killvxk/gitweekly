@@ -1,4 +1,7 @@
 # 有趣的文章
+#### 简易创建一个基于AI的EDR
+
+https://tierzerosecurity.co.nz/2025/04/14/edv.html
 
 #### 自动化寻找可利用的RPC
 

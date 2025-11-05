@@ -1,4 +1,7 @@
 # 有趣的文章
+#### wfp 阻止EDR
+
+https://ryan.framinan.net/blog/silentbutdeadly
 
 #### bitlocker 破解与建议
 

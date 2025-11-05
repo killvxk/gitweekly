@@ -34,3 +34,5 @@ https://github.com/0xTriboulet/InlineExecuteEx
 
 https://github.com/TierZeroSecurity/teams-cookies-bof
 
+https://github.com/mwnickerson/COMHijackBOF
+

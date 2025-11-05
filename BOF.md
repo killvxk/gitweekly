@@ -32,3 +32,5 @@ https://github.com/CCob/BOF.NET
 
 https://github.com/0xTriboulet/InlineExecuteEx
 
+https://github.com/TierZeroSecurity/teams-cookies-bof
+

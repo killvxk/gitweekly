@@ -806,4 +806,8 @@ https://github.com/mudler/edgevpn
 
 https://github.com/jazz-it/dline
 
+https://github.com/warpnet/MS-RPC-Fuzzer
+
+https://github.com/warpnet/COM-Fuzzer
+
 

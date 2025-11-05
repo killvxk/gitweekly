@@ -1,4 +1,9 @@
 # 有趣的工具
+
+#### 更精巧的libc
+
+https://keithp.com/picolibc/
+
 #### PIC 代码开发工具
 
 https://tradecraftgarden.org/index.html

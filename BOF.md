@@ -36,3 +36,6 @@ https://github.com/TierZeroSecurity/teams-cookies-bof
 
 https://github.com/mwnickerson/COMHijackBOF
 
+https://github.com/0xRedpoll/WhatsAppKeyBOF
+
+https://github.com/0xRedpoll/SignalKeyBOF

@@ -1,4 +1,13 @@
 # 有趣的文章
+
+#### 自动化寻找可利用的RPC
+
+https://www.incendium.rocks/posts/Automating-MS-RPC-Vulnerability-Research/
+
+#### 自动化寻找可利用的COM
+
+https://www.incendium.rocks/posts/Automating-COM-Vulnerability-Research/
+
 #### wfp 阻止EDR
 
 https://ryan.framinan.net/blog/silentbutdeadly

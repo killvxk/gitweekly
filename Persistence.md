@@ -14,6 +14,7 @@ https://docs.openssl.org/master/man7/openssl-env/#description
 #### Qt的那个
 ```
 QT_PLUGIN_PATH
+QT_DEBUG_PLUGINS
 ```
 
 #### 老黄的CUDA和NVTX

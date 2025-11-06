@@ -1,4 +1,8 @@
 # 有趣的文章
+#### AI改变逆向工程
+
+https://research.checkpoint.com/2025/generative-ai-for-reverse-engineering/
+
 #### 简易创建一个基于AI的EDR
 
 https://tierzerosecurity.co.nz/2025/04/14/edv.html

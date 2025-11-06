@@ -74,5 +74,9 @@ https://github.com/droidrun/droidrun
 https://github.com/johnhalloran321/mcpSafetyScanner
 
 
+## VMWARE的MCP
+
+https://github.com/yeahdongcn/vmware-fusion-mcp-server
+
 
 

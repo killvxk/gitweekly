@@ -1,4 +1,8 @@
 # 有趣的工具
+#### MCP万能助手
+
+https://mcpsuperassistant.ai/
+
 #### 网络拓扑结构扫描工具
 
 https://netvisor.io/

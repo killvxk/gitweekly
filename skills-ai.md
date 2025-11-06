@@ -84,6 +84,10 @@ https://github.com/gandli/vmware-workstation-pro-mcp-server
 
 https://github.com/Cosmicjedi/windows-admin-mcp
 
+## Linux MCP
+
+https://github.com/Cosmicjedi/linux-administration-mcp
+
 
 
 

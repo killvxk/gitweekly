@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 牛逼的操作方案
+
+https://github.com/Techlm77/LinuxPlay
+
 #### MCP万能助手
 
 https://mcpsuperassistant.ai/

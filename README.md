@@ -812,4 +812,6 @@ https://github.com/warpnet/COM-Fuzzer
 
 https://github.com/picolibc/picolibc
 
+https://github.com/frankheat/frida-jdwp-loader
+
 

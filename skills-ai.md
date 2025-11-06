@@ -78,5 +78,11 @@ https://github.com/johnhalloran321/mcpSafetyScanner
 
 https://github.com/yeahdongcn/vmware-fusion-mcp-server
 
+## Windows MCP
+
+https://github.com/Cosmicjedi/windows-admin-mcp
+
+
+
 
 

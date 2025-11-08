@@ -1,5 +1,5 @@
 # 有趣的工具
-#### AI翻译工具
+#### 基于大语言模型的轻量级本地文件翻译工具
 
 https://github.com/xunbu/docutranslate
 

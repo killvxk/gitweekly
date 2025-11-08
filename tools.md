@@ -4,6 +4,9 @@
 
 https://www.qiluo.vip/
 
+#### FileBrowser在线文件管理器
+
+https://github.com/gtsteffaniak/filebrowser
 
 #### C语言的一次编译就跨平台方案
 

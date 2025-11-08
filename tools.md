@@ -1,4 +1,8 @@
 # 有趣的工具
+#### AI翻译工具
+
+https://github.com/xunbu/docutranslate
+
 #### 基于大模型和 RAG 的智能问数系统
 
 https://sqlbot.org/

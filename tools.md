@@ -1,4 +1,9 @@
 # 有趣的工具
+
+#### photoshop的免费平替
+
+https://www.affinity.studio/
+
 #### 牛逼的操作方案
 
 https://github.com/Techlm77/LinuxPlay

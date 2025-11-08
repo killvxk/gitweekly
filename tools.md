@@ -1,5 +1,9 @@
 # 有趣的工具
 
+#### C语言的一次编译就跨平台方案
+
+https://justine.lol/cosmopolitan/index.html
+
 #### github提交构造图形工具
 
 https://github.com/zmrlft/GreenWall

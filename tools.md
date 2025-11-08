@@ -1,4 +1,7 @@
 # 有趣的工具
+#### 基于大模型和 RAG 的智能问数系统
+
+https://sqlbot.org/
 
 #### 用AI构造的AI Agent
 

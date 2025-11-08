@@ -1,5 +1,10 @@
 # 有趣的工具
 
+#### Rust版ruoyi
+
+https://www.qiluo.vip/
+
+
 #### C语言的一次编译就跨平台方案
 
 https://justine.lol/cosmopolitan/index.html

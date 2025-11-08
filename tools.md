@@ -1,5 +1,13 @@
 # 有趣的工具
 
+#### 用AI构造的AI Agent
+
+https://github.com/minmaxflow/mini-kode
+
+#### 完整的多说话人语音生成 Web 应用
+
+https://github.com/zhao-kun/VibeVoiceFusion
+
 #### Rust版ruoyi
 
 https://www.qiluo.vip/

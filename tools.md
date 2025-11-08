@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 深度阅读与智能辅助完美结合
+
+https://paperburner.viwoplus.site/views/landing/landing-page.html
+
 #### 基于大语言模型的轻量级本地文件翻译工具
 
 https://github.com/xunbu/docutranslate

@@ -1,4 +1,9 @@
 # 有趣的工具
+
+#### 完全不同其他浏览器结构的浏览器
+
+https://ladybird.org/
+
 #### 深度阅读与智能辅助完美结合
 
 https://paperburner.viwoplus.site/views/landing/landing-page.html

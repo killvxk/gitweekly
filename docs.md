@@ -1,4 +1,9 @@
 # 有趣的文章
+#### Linux后门技术 binfmt_misc
+
+https://dfir.ch/posts/today_i_learned_binfmt_misc/
+
+
 #### AI改变逆向工程
 
 https://research.checkpoint.com/2025/generative-ai-for-reverse-engineering/

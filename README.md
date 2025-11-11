@@ -2,6 +2,16 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/diversenok/DiaSymbolView
+
+https://github.com/MorDavid/donpwner
+
+https://github.com/litemars/hARMless
+
+https://github.com/R3DRUN3/magnet
+
+
+
 https://github.com/heimao-box/pwnpasi
 
 https://github.com/NiTianErXing666/SmallVmp

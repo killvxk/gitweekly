@@ -2,6 +2,10 @@
 
 https://github.com/AdServerKill/cookie-monster
 
+https://github.com/KickedDroid/bof_oxide
+
+https://github.com/KickedDroid/loadstar
+
 https://github.com/Tw1sm/SQL-BOF
 
 https://github.com/trustedsec/CS-Situational-Awareness-BOF

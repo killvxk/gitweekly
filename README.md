@@ -825,3 +825,6 @@ https://github.com/picolibc/picolibc
 https://github.com/frankheat/frida-jdwp-loader
 
 https://github.com/ShallowFeather/KDemu
+
+https://github.com/burrowers/garble
+

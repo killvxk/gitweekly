@@ -1,5 +1,9 @@
 # 有趣的工具
 
+#### 次世代的OSINT 
+
+https://www.flowsint.io/
+
 #### 命令行todo list
 
 https://github.com/handlebargh/yatto/

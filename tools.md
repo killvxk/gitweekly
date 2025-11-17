@@ -1,4 +1,8 @@
-# 有趣的工具
+# 有趣的工具、
+#### 魔镜，基于AI的魔镜（魔镜魔镜，告诉我谁才是世界上最美丽的女人）
+
+https://magicmirror.builders/
+
 #### 又一个知识库 
 
 https://davia.ai/

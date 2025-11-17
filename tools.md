@@ -1,4 +1,19 @@
 # 有趣的工具
+#### 又一个知识库 
+
+https://davia.ai/
+
+#### 白噪音app
+
+https://github.com/Tosencen/XMSLEEP
+
+#### 新一代CRM
+
+https://cordys.cn/
+
+#### 基于大模型的可视化网页构建平台
+
+https://docs.upage.ai/
 
 #### 次世代的OSINT 
 

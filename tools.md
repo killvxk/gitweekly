@@ -1,4 +1,8 @@
 # 有趣的工具
+#### c/c++的垃圾回收
+
+https://www.hboehm.info/gc/
+
 #### 像git一样增量备份的工具
 
 https://restic.net/

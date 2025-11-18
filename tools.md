@@ -1,4 +1,8 @@
-# 有趣的工具、
+# 有趣的工具
+#### 像git一样增量备份的工具
+
+https://restic.net/
+
 #### 魔镜，基于AI的魔镜（魔镜魔镜，告诉我谁才是世界上最美丽的女人）
 
 https://magicmirror.builders/

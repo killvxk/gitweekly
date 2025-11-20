@@ -1,4 +1,8 @@
 # 有趣的工具
+#### SQX 隐私浏览
+
+https://sqrx.com/
+
 #### c/c++的垃圾回收
 
 https://www.hboehm.info/gc/

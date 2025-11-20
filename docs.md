@@ -1,4 +1,8 @@
 # 有趣的文章
+#### 苹果持久化
+
+https://pberba.github.io/security/2025/11/11/macos-infection-vector-applescript-bypass-gatekeeper/
+
 #### 云持久化
 
 https://whiteknightlabs.com/2025/11/11/understanding-cloud-persistence-how-attackers-maintain-access-using-google-cloud-functions/

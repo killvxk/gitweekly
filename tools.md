@@ -1,4 +1,9 @@
 # 有趣的工具
+#### AI大黑客
+
+https://www.hacktron.ai/
+
+
 #### json比较工具
 
 https://jsondiff.com/

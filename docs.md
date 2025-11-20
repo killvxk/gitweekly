@@ -1,4 +1,8 @@
 # 有趣的文章
+#### musl的内存分配
+
+https://nickb.dev/blog/default-musl-allocator-considered-harmful-to-performance/
+
 #### Linux后门技术 binfmt_misc
 
 https://dfir.ch/posts/today_i_learned_binfmt_misc/

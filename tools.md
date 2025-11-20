@@ -1,4 +1,8 @@
 # 有趣的工具
+#### ida命令行版终于来了 
+
+https://hex-rays.com/blog/introducing-hcli
+
 #### AI大黑客
 
 https://www.hacktron.ai/

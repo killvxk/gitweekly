@@ -1,5 +1,9 @@
 # 有趣的文章
-#### musl的内存分配
+#### 塔子又出新问题了！CVE-2025-64446
+
+https://labs.watchtowr.com/when-the-impersonation-function-gets-used-to-impersonate-users-fortinet-fortiweb-auth-bypass/
+
+#### rust的musl的内存分配
 
 https://nickb.dev/blog/default-musl-allocator-considered-harmful-to-performance/
 

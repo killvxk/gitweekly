@@ -1,4 +1,13 @@
 # 有趣的文章
+#### 云持久化
+
+https://whiteknightlabs.com/2025/11/11/understanding-cloud-persistence-how-attackers-maintain-access-using-google-cloud-functions/
+
+#### 试图教会我在arm上ROP出RCE的文章
+
+https://modzero.com/en/blog/no-leak-no-problem/
+
+
 #### 塔子又出新问题了！CVE-2025-64446
 
 https://labs.watchtowr.com/when-the-impersonation-function-gets-used-to-impersonate-users-fortinet-fortiweb-auth-bypass/

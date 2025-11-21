@@ -1,4 +1,8 @@
 # 有趣的工具
+#### IDA 插件有很多先进功能，什么解密什么还原什么去混淆
+
+https://github.com/KasperskyLab/hrtng
+
 #### ASCII艺术
 
 https://itoa.hex.dance/

@@ -6,6 +6,8 @@ https://github.com/KasperskyLab/hrtng
 
 https://github.com/weak1337/Alcatraz
 
+https://github.com/keowu/Ryujin
+
 https://github.com/diversenok/DiaSymbolView
 
 https://github.com/MorDavid/donpwner

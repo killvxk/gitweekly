@@ -14,6 +14,9 @@ uvx --from git+https://github.com/github/spec-kit.git specify init <项目名称
 https://gist.github.com/lexrus/21f9285cfa03fffd0c2709521f31cfe6
 
 ## 给力的MCP
+### rust windows api的mcp，有这个不会瞎写api调用
+
+https://github.com/preludeorg/windows-rs-mcp
 
 ### google搜索等搜索工作的mcp
 

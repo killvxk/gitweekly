@@ -1,4 +1,9 @@
 # 有趣的工具
+#### nix自建仓库
+
+https://github.com/zhaofengli/attic
+
+
 #### 隐私功能更强的tg
 
 https://github.com/Nekogram/Nekogram

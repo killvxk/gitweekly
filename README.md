@@ -2,6 +2,8 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/xxnuo/open-coreui
+
 https://github.com/KasperskyLab/hrtng
 
 https://github.com/weak1337/Alcatraz

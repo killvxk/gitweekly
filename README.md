@@ -2,6 +2,20 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/raghavyuva/nixopus/
+
+https://github.com/hehehai/tiny-svg
+
+https://github.com/ory/kratos
+
+https://github.com/CoreyCBurton/DripLoaderNG
+
+https://github.com/readdig/readdig
+
+https://github.com/L0rdDarkk/hexstrike-ai/tree/docker-implementation
+
+https://github.com/fish2018/YPrompt
+
 https://github.com/sansan0/TrendRadar
 
 https://github.com/Mister-leo/fssh

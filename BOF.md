@@ -43,3 +43,6 @@ https://github.com/mwnickerson/COMHijackBOF
 https://github.com/0xRedpoll/WhatsAppKeyBOF
 
 https://github.com/0xRedpoll/SignalKeyBOF
+
+https://github.com/c3r3br4t3/ShadowRDP
+

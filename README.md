@@ -4,6 +4,8 @@
 # 收集的项目地址
 https://github.com/A-Normal-User/NtSocket_NtClient_NtServer
 
+https://github.com/dis0rder0x00/ParentProcessManipulation-LNK
+
 https://github.com/SigmaHQ/sigma
 
 https://github.com/Madelena/hass-config-public

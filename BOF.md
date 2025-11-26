@@ -1,6 +1,8 @@
 # BOF
 https://github.com/CodeXTF2/WebcamBOF
 
+https://github.com/CodeXTF2/WindowSpy
+
 https://github.com/AdServerKill/cookie-monster
 
 https://github.com/KickedDroid/bof_oxide

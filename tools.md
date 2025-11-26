@@ -1,4 +1,8 @@
 # 有趣的工具
+#### psql的监视器&控制
+
+https://labs.dalibo.com/temboard
+
 #### 私有笔记
 
 https://beavernotes.com/#/

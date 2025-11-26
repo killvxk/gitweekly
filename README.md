@@ -2,6 +2,20 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/SigmaHQ/sigma
+
+https://github.com/Madelena/hass-config-public
+
+https://github.com/junron/agar
+
+https://github.com/moinulmoin/voicetypr
+
+https://github.com/ThePorgs/Exegol/
+
+https://github.com/vladmandic/sdnext/
+
+https://github.com/JPCERTCC/YAMAGoya
+
 https://github.com/raghavyuva/nixopus/
 
 https://github.com/hehehai/tiny-svg

@@ -1,4 +1,16 @@
 # 有趣的工具
+#### 私有笔记
+
+https://beavernotes.com/#/
+
+#### 新时代开发栈
+
+https://www.kusionstack.io/
+
+#### 新款的云备份工具
+
+https://gobackup.github.io/
+
 #### go实现的WAF
 
 https://caswaf.org/

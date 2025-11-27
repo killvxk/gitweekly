@@ -1,4 +1,25 @@
 # 有趣的工具
+#### AI大看板
+
+https://github.com/fy0/CodeKanban
+
+#### 现代论坛基于AI
+
+https://github.com/aiprojecthub/nodebbs
+
+
+#### 无Prompt的AI工具
+
+https://morisot.ai/
+
+#### AI输入法
+
+https://shandianshuo.cn/
+
+#### AI原生超强数据库
+
+https://www.oceanbase.ai/
+
 #### psql的监视器&控制
 
 https://labs.dalibo.com/temboard

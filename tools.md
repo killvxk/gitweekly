@@ -1,4 +1,9 @@
 # 有趣的工具
+
+#### 基于AI的售后平台 
+
+https://github.com/chaitin/KoalaQA
+
 #### AI新闻聚合工具
 
 https://github.com/yunlongwen/AI-CodeNexus

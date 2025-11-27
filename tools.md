@@ -1,4 +1,8 @@
 # 有趣的工具
+#### AI新闻聚合工具
+
+https://github.com/yunlongwen/AI-CodeNexus
+
 #### AI大看板
 
 https://github.com/fy0/CodeKanban

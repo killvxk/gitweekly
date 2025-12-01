@@ -1,4 +1,7 @@
 # 有趣的工具
+#### DNS 测试工具
+
+https://www.buildtools.net/
 
 #### 基于AI的售后平台 
 

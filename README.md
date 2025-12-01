@@ -2,6 +2,14 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+
+
+https://github.com/pythops/impala
+
+https://github.com/iDescriptor/iDescriptor
+
+https://github.com/xjasonlyu/tun2socks/
+
 https://github.com/A-Normal-User/NtSocket_NtClient_NtServer
 
 https://github.com/dis0rder0x00/ParentProcessManipulation-LNK

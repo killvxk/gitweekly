@@ -91,6 +91,9 @@ https://github.com/Cosmicjedi/windows-admin-mcp
 
 https://github.com/Cosmicjedi/linux-administration-mcp
 
+## ai任务管理
+
+https://github.com/cyanheads/atlas-mcp-server
 
 
 

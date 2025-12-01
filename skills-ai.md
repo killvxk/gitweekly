@@ -99,5 +99,9 @@ https://github.com/cyanheads/atlas-mcp-server
 
 https://github.com/microsoftdocs/mcp
 
+## 3d建模的mcp
+
+https://github.com/VxASI/blender-mcp-vxai
+
 
 

@@ -95,6 +95,9 @@ https://github.com/Cosmicjedi/linux-administration-mcp
 
 https://github.com/cyanheads/atlas-mcp-server
 
+## 微软的doc的mcp
+
+https://github.com/microsoftdocs/mcp
 
 
 

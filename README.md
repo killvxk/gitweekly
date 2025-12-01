@@ -2,7 +2,9 @@
 收集各种有趣的github项目
 
 # 收集的项目地址
+https://github.com/YYsuni/2025-blog-public
 
+https://github.com/CaviraOSS/PageLM
 
 https://github.com/pythops/impala
 

@@ -1,4 +1,9 @@
 # 有趣的文章
+
+#### js黑客
+
+https://www.stationx.net/javascript-for-hacking/
+
 #### AD hacking
 
 https://hackers-arise.com/hacking-active-directory/

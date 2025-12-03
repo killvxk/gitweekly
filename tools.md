@@ -1,4 +1,8 @@
 # 有趣的工具
+#### linux源码探索工具（挺好玩的）
+
+https://reverser.dev/linux-kernel-explorer
+
 #### 基于AI的视频浓缩
 
 https://tldw.us/

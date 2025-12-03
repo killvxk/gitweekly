@@ -1,4 +1,8 @@
 # 有趣的文章
+#### AD hacking
+
+https://hackers-arise.com/hacking-active-directory/
+
 #### 苹果持久化
 
 https://pberba.github.io/security/2025/11/11/macos-infection-vector-applescript-bypass-gatekeeper/

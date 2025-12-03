@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 区块链挖掘工具
+
+https://github.com/trailofbits/slither-mcp?tab=readme-ov-file
+
 #### TUI 音乐播放器
 
 https://github.com/Jaxx497/concertus

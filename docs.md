@@ -1,5 +1,10 @@
 # 有趣的文章
 
+#### 解密免杀即服务
+
+https://www.linkedin.com/pulse/heartcrypt-packer-service-thats-helping-ransomware-groups-mf1le
+
+
 #### js黑客
 
 https://www.stationx.net/javascript-for-hacking/

@@ -1,4 +1,8 @@
 # 有趣的工具
+#### ascii动画工具
+
+https://www.ascii-motion.com/
+
 #### linux源码探索工具（挺好玩的）
 
 https://reverser.dev/linux-kernel-explorer

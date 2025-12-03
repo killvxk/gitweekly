@@ -39,3 +39,5 @@ https://doc.skymail.ink/guide/via-ui.html
 
 https://free.stockai.trade/
 
+duck.ai
+

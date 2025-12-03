@@ -1,7 +1,26 @@
 # gitweekly
 收集各种有趣的github项目
 
+
 # 收集的项目地址
+https://github.com/SamuelZ12/TLDW
+
+https://github.com/ORB-HD/deface
+
+https://github.com/LuoGen-AI/LuoGen-agent
+
+https://github.com/prehisle/relay-pulse
+
+https://github.com/woniu9524/ParallelChat
+
+https://github.com/jlvihv/R2Uploader
+
+https://github.com/bestruirui/Alle/
+
+https://github.com/DragonChenCL/ai-doctor
+
+https://github.com/HKUDS/DeepCode
+
 https://github.com/D00Movenok/BounceBack/
 
 https://github.com/YYsuni/2025-blog-public

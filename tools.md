@@ -3,6 +3,8 @@
 
 https://github.com/trailofbits/slither-mcp?tab=readme-ov-file
 
+https://github.com/crytic/slither
+
 #### TUI 音乐播放器
 
 https://github.com/Jaxx497/concertus

@@ -1,4 +1,7 @@
 # 有趣的文章
+#### Swift的渠道获取
+
+https://swiftwithmajid.com/2025/09/16/feature-flags-in-swift/
 
 #### 解密免杀即服务
 

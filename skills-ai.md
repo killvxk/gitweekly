@@ -103,5 +103,13 @@ https://github.com/microsoftdocs/mcp
 
 https://github.com/VxASI/blender-mcp-vxai
 
+## frida自动化游戏作弊mcp
+
+https://github.com/0xhackerfren/frida-game-hacking-mcp
+
+## pcap网络数据包自动分析mcp
+
+https://github.com/0xhackerfren/Pcap-Analysis-MCP
+
 
 

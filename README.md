@@ -3,6 +3,8 @@
 
 
 # 收集的项目地址
+https://github.com/zksecurity/zkbugs
+
 https://github.com/baianjo/Douyin-Smart-Feed-Assistant
 
 https://github.com/SamuelZ12/TLDW

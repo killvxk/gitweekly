@@ -33,6 +33,8 @@ https://github.com/chaitin/KoalaQA
 #### AI新闻聚合工具
 
 https://github.com/yunlongwen/AI-CodeNexus
+https://github.com/sansan0/TrendRadar
+https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily
 
 #### AI大看板
 

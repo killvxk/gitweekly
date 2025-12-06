@@ -3,6 +3,8 @@
 
 
 # 收集的项目地址
+https://github.com/hellodigua/code996
+
 https://github.com/Xerxes-2/clewdr
 
 https://github.com/antonmedv/gitmal

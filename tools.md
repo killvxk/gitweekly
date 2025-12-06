@@ -1,4 +1,8 @@
 # 有趣的工具
+#### bp风格repeater的chrome 插件
+
+https://github.com/bscript/rep
+
 #### 终端文本编辑工具，vim不够用？
 
 https://github.com/sinelaw/fresh

@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 终端文本编辑工具，vim不够用？
+
+https://github.com/sinelaw/fresh
+
 #### 又一个看板工具，更好看呢
 
 https://www.fizzy.do/

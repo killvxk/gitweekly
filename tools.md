@@ -1,4 +1,8 @@
 # 有趣的工具
+#### git提交处理工具
+
+https://github.com/f/git-rewrite-commits
+
 #### AI手绘工具
 
 https://github.com/RanFeng/clipsketch-ai

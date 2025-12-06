@@ -111,5 +111,8 @@ https://github.com/0xhackerfren/frida-game-hacking-mcp
 
 https://github.com/0xhackerfren/Pcap-Analysis-MCP
 
+## NOVA 安全mcp
+
+https://github.com/fr0gger/proximity
 
 

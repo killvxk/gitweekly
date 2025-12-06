@@ -1,4 +1,7 @@
 # AI 使用技巧
+## banana工具
+
+https://github.com/glidea/banana-prompt-quicker
 
 ## kit
 
@@ -72,46 +75,46 @@ https://github.com/cycraft-corp/BinaryAnalysisMCPs
 
 https://github.com/droidrun/droidrun
 
-## MCP安全
+### MCP安全
 
 https://github.com/johnhalloran321/mcpSafetyScanner
 
 
-## VMWARE的MCP
+### VMWARE的MCP
 
 https://github.com/yeahdongcn/vmware-fusion-mcp-server
 
 https://github.com/gandli/vmware-workstation-pro-mcp-server
 
-## Windows MCP
+### Windows MCP
 
 https://github.com/Cosmicjedi/windows-admin-mcp
 
-## Linux MCP
+### Linux MCP
 
 https://github.com/Cosmicjedi/linux-administration-mcp
 
-## ai任务管理
+### ai任务管理
 
 https://github.com/cyanheads/atlas-mcp-server
 
-## 微软的doc的mcp
+### 微软的doc的mcp
 
 https://github.com/microsoftdocs/mcp
 
-## 3d建模的mcp
+### 3d建模的mcp
 
 https://github.com/VxASI/blender-mcp-vxai
 
-## frida自动化游戏作弊mcp
+### frida自动化游戏作弊mcp
 
 https://github.com/0xhackerfren/frida-game-hacking-mcp
 
-## pcap网络数据包自动分析mcp
+### pcap网络数据包自动分析mcp
 
 https://github.com/0xhackerfren/Pcap-Analysis-MCP
 
-## NOVA 安全mcp
+### NOVA 安全mcp
 
 https://github.com/fr0gger/proximity
 

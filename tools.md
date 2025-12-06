@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 又一个看板工具，更好看呢
+
+https://www.fizzy.do/
+
 #### markdown转成png
 
 https://github.com/nicejade/markdown2png

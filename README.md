@@ -5,6 +5,16 @@
 # 收集的项目地址
 https://github.com/Xerxes-2/clewdr
 
+https://github.com/antonmedv/gitmal
+
+https://github.com/shencangsheng/easydb_app
+
+https://github.com/TokenRollAI/webhooker
+
+https://github.com/EasyCam/Pysinfo
+
+https://github.com/tianchangNorth/pocket-mocker
+
 https://github.com/zksecurity/zkbugs
 
 https://github.com/baianjo/Douyin-Smart-Feed-Assistant

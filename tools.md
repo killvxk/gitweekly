@@ -1,4 +1,8 @@
 # 有趣的工具
+#### NC替代品
+
+https://github.com/brightio/penelope
+
 #### 区块链挖掘工具
 
 https://github.com/trailofbits/slither-mcp?tab=readme-ov-file

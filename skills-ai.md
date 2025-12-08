@@ -1,4 +1,8 @@
 # AI 使用技巧
+## CRS ai共享账号工具
+
+https://github.com/Wei-Shaw/claude-relay-service
+
 ## AI任务管理
 
 https://github.com/Dicklesworthstone/beads_viewer

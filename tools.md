@@ -1,4 +1,9 @@
 # 有趣的工具
+#### rust快速开发有orm的后端
+
+https://loco.rs/
+
+
 #### bp风格repeater的chrome 插件
 
 https://github.com/bscript/rep

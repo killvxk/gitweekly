@@ -1,4 +1,8 @@
 # 有趣的工具
+#### Web打包app
+
+https://github.com/tw93/Pake
+
 #### rust快速开发有orm的后端
 
 https://loco.rs/

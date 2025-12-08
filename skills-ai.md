@@ -1,4 +1,10 @@
 # AI 使用技巧
+## AI任务管理
+
+https://github.com/Dicklesworthstone/beads_viewer
+
+https://github.com/steveyegge/beads
+
 ## banana工具
 
 https://github.com/glidea/banana-prompt-quicker

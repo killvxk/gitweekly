@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 密码发现
+
+https://trufflesecurity.com/
+
 #### Web打包app
 
 https://github.com/tw93/Pake

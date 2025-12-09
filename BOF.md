@@ -56,3 +56,6 @@ https://github.com/xRedCodex/BofArsenal
 https://github.com/NtDallas/BOF_RunPe
 
 https://github.com/NtDallas/BOF_Spawn
+
+https://github.com/NVISOsecurity/cs2br-bof
+

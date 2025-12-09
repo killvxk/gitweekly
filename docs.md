@@ -1,4 +1,8 @@
 # 有趣的文章
+#### GRAPE位置编码的文章
+
+https://model-architectures.github.io/GRAPE/
+
 #### Rootkit的一点震撼
 
 https://matheuzsecurity.github.io/hacking/

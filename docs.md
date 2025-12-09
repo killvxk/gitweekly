@@ -1,4 +1,12 @@
 # 有趣的文章
+#### Rootkit的一点震撼
+
+https://matheuzsecurity.github.io/hacking/
+
+#### 13年历史的漏洞的利用
+
+https://kqx.io/post/qemu-nday/
+
 #### Swift的渠道获取
 
 https://swiftwithmajid.com/2025/09/16/feature-flags-in-swift/

@@ -129,3 +129,7 @@ https://github.com/0xhackerfren/Pcap-Analysis-MCP
 https://github.com/fr0gger/proximity
 
 
+### 浏览器中通过插件形式操作浏览器的的mcp
+
+https://github.com/remorses/playwriter/
+

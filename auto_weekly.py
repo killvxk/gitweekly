@@ -88,8 +88,13 @@ class WeeklyGenerator:
 
         return commits
 
-    def extract_links_from_diff(self, commit_hash: str) -> Dict[str, List[str]]:
-        """从提交diff中提取链接，按文件分类（排除weekly目录）"""
+    def extract_links_from_diff(self, commit_hash: str) -> Dict[str, List[Dict]]:
+        """从提交diff中提取链接，按文件分类（排除weekly目录）
+
+        处理逻辑：
+        - GitHub链接：desc留空，后续用AI生成
+        - 非GitHub链接：使用标题行作为desc
+        """
         cmd = [
             'git', '-C', str(self.repo_path),
             'show', commit_hash, '--format=', '--unified=0'
@@ -105,6 +110,7 @@ class WeeklyGenerator:
 
         links_by_file = defaultdict(list)
         current_file = None
+        last_title = ""  # 保存上一行的标题（用于非GitHub链接）
 
         for line in result.stdout.split('\n'):
             # 检测文件名
@@ -112,24 +118,57 @@ class WeeklyGenerator:
                 match = re.search(r'b/(.+)$', line)
                 if match:
                     current_file = match.group(1)
+                    last_title = ""
+                continue
 
-            # 提取新增的链接
-            if line.startswith('+') and not line.startswith('+++'):
-                # 排除weekly目录下的文件
-                if current_file and current_file in self.category_map:
-                    if not current_file.startswith('weekly/'):
-                        # 1. 匹配markdown链接格式: [text](https://github.com/...)
-                        markdown_pattern = r'\[([^\]]+)\]\((https://github\.com/[^\)]+)\)'
-                        markdown_matches = re.findall(markdown_pattern, line)
-                        for _, url in markdown_matches:
-                            links_by_file[current_file].append(url)
+            # 只处理新增的行
+            if not line.startswith('+') or line.startswith('+++'):
+                continue
 
-                        # 2. 匹配纯URL格式: https://github.com/...
-                        # 但排除已经在markdown链接中的URL
-                        url_pattern = r'(?<!\()https://github\.com/[^\s\)]+(?!\))'
-                        url_matches = re.findall(url_pattern, line)
-                        for url in url_matches:
-                            links_by_file[current_file].append(url)
+            # 去掉开头的+号
+            content = line[1:]
+
+            # 排除weekly目录下的文件
+            if not current_file or current_file not in self.category_map:
+                continue
+            if current_file.startswith('weekly/'):
+                continue
+
+            # 检测标题行 (#### 标题 或 ### 标题 等)
+            title_match = re.match(r'^#{1,6}\s+(.+)$', content)
+            if title_match:
+                last_title = title_match.group(1).strip()
+                continue
+
+            # 1. 匹配markdown链接格式: [text](https://...)
+            markdown_pattern = r'\[([^\]]+)\]\((https?://[^\)]+)\)'
+            markdown_matches = re.findall(markdown_pattern, content)
+            for text, url in markdown_matches:
+                if 'github.com' in url:
+                    # GitHub链接：desc留空，后续用AI生成
+                    links_by_file[current_file].append({'url': url, 'desc': ''})
+                else:
+                    # 非GitHub链接：使用markdown中的text作为desc
+                    links_by_file[current_file].append({'url': url, 'desc': text})
+
+            # 2. 匹配纯URL格式: https://...
+            markdown_urls = [m[1] for m in markdown_matches]
+            url_pattern = r'https?://[^\s\)\]>]+'
+            url_matches = re.findall(url_pattern, content)
+            for url in url_matches:
+                if url not in markdown_urls:
+                    if 'github.com' in url:
+                        # GitHub链接：desc留空，后续用AI生成
+                        links_by_file[current_file].append({'url': url, 'desc': ''})
+                    else:
+                        # 非GitHub链接：使用上一行的标题作为desc
+                        links_by_file[current_file].append({'url': url, 'desc': last_title})
+                    last_title = ""  # 使用后清空
+
+            # 如果这行不是标题也不是链接，清空last_title
+            if not title_match and not url_matches and not markdown_matches:
+                if content.strip():  # 非空行
+                    last_title = ""
 
         return dict(links_by_file)
 
@@ -165,7 +204,7 @@ class WeeklyGenerator:
 
         return {'commits': commits}
 
-    def extract_links_from_diffs(self, commits: List[Dict]) -> Dict[str, List[str]]:
+    def extract_links_from_diffs(self, commits: List[Dict]) -> Dict[str, List[Dict]]:
         """从多个提交的diff中提取链接（排除weekly目录）"""
         all_links = defaultdict(list)
 
@@ -176,7 +215,7 @@ class WeeklyGenerator:
 
         return dict(all_links)
 
-    def generate_markdown(self, week_start: str, week_end: str, weekly_data: Dict, links_by_file: Dict[str, List[str]]) -> str:
+    def generate_markdown(self, week_start: str, week_end: str, weekly_data: Dict, links_by_file: Dict[str, List[Dict]]) -> str:
         """生成周报的markdown内容"""
         content = f"# 本周更新 ({week_start} ~ {week_end})\n\n"
 
@@ -185,20 +224,33 @@ class WeeklyGenerator:
         for file, links in links_by_file.items():
             category = self.category_map.get(file, '📦 其他')
             if category not in unique_links:
-                unique_links[category] = []
-            unique_links[category].extend(list(set(links)))
+                unique_links[category] = {}
+            # 使用url作为key去重，保留desc
+            for link in links:
+                url = link['url']
+                desc = link['desc']
+                if url not in unique_links[category]:
+                    unique_links[category][url] = desc
+                elif not unique_links[category][url] and desc:
+                    # 如果已有url但没有desc，更新desc
+                    unique_links[category][url] = desc
 
         # 按分类输出
         for category in sorted(unique_links.keys()):
-            links = list(set(unique_links[category]))
-            if links:
+            links_dict = unique_links[category]
+            if links_dict:
                 content += f"\n## {category}\n\n"
                 content += "| 项目 | 说明 |\n"
                 content += "|------|------|\n"
 
-                for url in links:
-                    name = url.split('/')[-1]
-                    content += f"| [{name}]({url}) |  |\n"
+                for url, desc in links_dict.items():
+                    # 从URL提取项目名
+                    name = url.rstrip('/').split('/')[-1]
+                    # 如果desc是项目名本身，清空它让AI生成
+                    if desc and desc.lower() != name.lower():
+                        content += f"| [{name}]({url}) | {desc} |\n"
+                    else:
+                        content += f"| [{name}]({url}) |  |\n"
 
         # 统计信息
         total_commits = len(weekly_data['commits'])

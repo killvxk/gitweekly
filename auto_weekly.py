@@ -89,7 +89,7 @@ class WeeklyGenerator:
         return commits
 
     def extract_links_from_diff(self, commit_hash: str) -> Dict[str, List[str]]:
-        """从提交diff中提取链接，按文件分类"""
+        """从提交diff中提取链接，按文件分类（排除weekly目录）"""
         cmd = [
             'git', '-C', str(self.repo_path),
             'show', commit_hash, '--format=', '--unified=0'
@@ -120,10 +120,89 @@ class WeeklyGenerator:
                 matches = re.findall(pattern, line)
 
                 for text, url in matches:
+                    # 排除weekly目录下的文件，只处理category_map中的文件
                     if current_file and current_file in self.category_map:
-                        links_by_file[current_file].append(url)
+                        # 确保不是weekly目录下的文件
+                        if not current_file.startswith('weekly/'):
+                            links_by_file[current_file].append(url)
 
         return dict(links_by_file)
+
+    def get_weekly_commits(self, week_start: str, week_end: str) -> Dict:
+        """获取指定周的提交记录"""
+        cmd = [
+            'git', '-C', str(self.repo_path),
+            'log', '--pretty=format:%H|%ad|%s',
+            '--date=format:%Y-%m-%d',
+            f'--since={week_start}',
+            f'--until={week_end} 23:59:59'
+        ]
+
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+            errors='ignore'
+        )
+
+        commits = []
+        for line in result.stdout.strip().split('\n'):
+            if not line:
+                continue
+            parts = line.split('|', 2)
+            if len(parts) == 3:
+                commits.append({
+                    'hash': parts[0],
+                    'date': parts[1],
+                    'message': parts[2]
+                })
+
+        return {'commits': commits}
+
+    def extract_links_from_diffs(self, commits: List[Dict]) -> Dict[str, List[str]]:
+        """从多个提交的diff中提取链接（排除weekly目录）"""
+        all_links = defaultdict(list)
+
+        for commit in commits:
+            links_by_file = self.extract_links_from_diff(commit['hash'])
+            for file, links in links_by_file.items():
+                all_links[file].extend(links)
+
+        return dict(all_links)
+
+    def generate_markdown(self, week_start: str, week_end: str, weekly_data: Dict, links_by_file: Dict[str, List[str]]) -> str:
+        """生成周报的markdown内容"""
+        content = f"# 本周更新 ({week_start} ~ {week_end})\n\n"
+
+        # 去重并按分类组织链接
+        unique_links = {}
+        for file, links in links_by_file.items():
+            category = self.category_map.get(file, '📦 其他')
+            if category not in unique_links:
+                unique_links[category] = []
+            unique_links[category].extend(list(set(links)))
+
+        # 按分类输出
+        for category in sorted(unique_links.keys()):
+            links = list(set(unique_links[category]))
+            if links:
+                content += f"\n## {category}\n\n"
+                content += "| 项目 | 说明 |\n"
+                content += "|------|------|\n"
+
+                for url in links:
+                    name = url.split('/')[-1]
+                    content += f"| [{name}]({url}) |  |\n"
+
+        # 统计信息
+        total_commits = len(weekly_data['commits'])
+        total_links = sum(len(links) for links in unique_links.values())
+
+        content += f"\n---\n\n"
+        content += f"**统计：** 本周共 {total_commits} 次提交，新增 {total_links} 个链接。\n"
+
+        return content
 
     def generate_weekly_files(self, start_date: str = "2025-07-21") -> List[str]:
         """生成所有周报文件"""
@@ -507,6 +586,113 @@ class AutoWeeklyProcessor:
         print("🎉 所有周报处理完成！")
         print("="*60)
 
+    def process_current_week(self, max_links: int = 50):
+        """生成当前周的周报（含AI描述）"""
+        print("\n" + "="*60)
+        print("📅 生成当前周的周报")
+        print("="*60)
+
+        # 获取当前周的日期范围
+        today = datetime.now()
+        # 计算本周一（周一是0）
+        days_since_monday = today.weekday()
+        monday = today - timedelta(days=days_since_monday)
+        sunday = monday + timedelta(days=6)
+
+        week_start = monday.strftime('%Y-%m-%d')
+        week_end = sunday.strftime('%Y-%m-%d')
+
+        print(f"📊 当前周期: {week_start} ~ {week_end}")
+        print(f"📊 最多处理: {max_links} 个链接\n")
+
+        # 生成本周的周报文件
+        filename = f"weekly-{week_start}_{week_end}.md"
+        file_path = WEEKLY_DIR / filename
+
+        print(f"📝 生成周报文件: {filename}")
+
+        # 获取本周的Git提交
+        weekly_data = self.generator.get_weekly_commits(week_start, week_end)
+
+        if not weekly_data['commits']:
+            print(f"⚠️  本周 ({week_start} ~ {week_end}) 没有提交记录")
+            return
+
+        print(f"✓ 发现 {len(weekly_data['commits'])} 个提交")
+
+        # 提取所有链接
+        links_by_file = self.generator.extract_links_from_diffs(weekly_data['commits'])
+
+        # 统计总链接数
+        total_links = sum(len(links) for links in links_by_file.values())
+        print(f"✓ 提取 {total_links} 个链接")
+
+        if total_links == 0:
+            print("⚠️  本周没有新增链接")
+            return
+
+        # 生成markdown内容
+        content = self.generator.generate_markdown(week_start, week_end, weekly_data, links_by_file)
+
+        # 保存文件
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+
+        print(f"✓ 周报文件已生成: {file_path}")
+
+        # 为链接生成描述
+        print(f"\n{'='*60}")
+        print("🤖 开始为链接生成AI描述...")
+        print('='*60)
+
+        links = self.updater.extract_links_needing_descriptions(file_path)
+
+        if not links:
+            print("✅ 所有链接都已有描述")
+            return
+
+        print(f"📊 发现 {len(links)} 个需要描述的链接")
+
+        if len(links) > max_links:
+            print(f"⚠️  链接较多，本次只处理前 {max_links} 个")
+            links = links[:max_links]
+
+        descriptions = {}
+
+        for j, url in enumerate(links, 1):
+            print(f"\n  [{j}/{len(links)}] {url}")
+            print(f"    → 获取GitHub内容...")
+
+            desc = self.desc_gen.generate_description(url)
+
+            if desc:
+                print(f"    ✓ 生成: {desc}")
+                descriptions[url] = desc
+
+                # 每5个保存一次
+                if j % 5 == 0:
+                    self.desc_gen.save_cache()
+                    print(f"    💾 已保存缓存 ({j}/{len(links)})")
+            else:
+                print(f"    ✗ 生成失败")
+
+            time.sleep(1)
+
+        # 保存缓存
+        self.desc_gen.save_cache()
+
+        # 更新文件
+        if descriptions:
+            count = self.updater.update_weekly_file(file_path, descriptions)
+            print(f"\n✅ 成功更新 {count} 个描述")
+        else:
+            print(f"\n⚠️  没有成功生成任何描述")
+
+        print("\n" + "="*60)
+        print(f"🎉 当前周周报生成完成！")
+        print(f"📄 文件位置: {file_path}")
+        print("="*60)
+
     def process_all(self, start_date: str = "2025-07-21", max_links_per_week: int = 50):
         """完全自动化处理"""
         print("\n" + "="*60)
@@ -617,8 +803,9 @@ def main():
     print("1. 完全自动化（生成周报 + AI描述）")
     print("2. 仅生成周报文件（不生成描述）")
     print("3. 仅为已有周报生成描述")
+    print("4. 生成当前周的周报（含AI描述）")
 
-    choice = input("\n请输入选项 (1/2/3): ").strip()
+    choice = input("\n请输入选项 (1/2/3/4): ").strip()
 
     processor = AutoWeeklyProcessor(GIT_REPO_PATH)
 
@@ -689,6 +876,11 @@ def main():
                 print(f"✅ 成功更新 {count} 个描述\n")
             else:
                 print(f"\n⚠️  没有成功生成任何描述\n")
+
+    elif choice == "4":
+        # 生成当前周的周报
+        max_links = int(input("最多处理链接数 (默认: 50): ").strip() or "50")
+        processor.process_current_week(max_links)
 
     else:
         print("❌ 无效的选项")

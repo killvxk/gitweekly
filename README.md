@@ -3,6 +3,12 @@
 
 
 # 收集的项目地址
+https://github.com/Kotlin/kotlin-lsp
+
+https://github.com/neelsomani/symbolic-circuit-distillation
+
+https://github.com/dottxt-ai/outlines
+
 https://github.com/zitoxxx/eCaptureBurp
 
 https://github.com/polarsource/polar

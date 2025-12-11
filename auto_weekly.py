@@ -115,15 +115,20 @@ class WeeklyGenerator:
 
             # 提取新增的链接
             if line.startswith('+') and not line.startswith('+++'):
-                # 匹配markdown链接
-                pattern = r'\[([^\]]+)\]\((https://github\.com/[^\)]+)\)'
-                matches = re.findall(pattern, line)
+                # 排除weekly目录下的文件
+                if current_file and current_file in self.category_map:
+                    if not current_file.startswith('weekly/'):
+                        # 1. 匹配markdown链接格式: [text](https://github.com/...)
+                        markdown_pattern = r'\[([^\]]+)\]\((https://github\.com/[^\)]+)\)'
+                        markdown_matches = re.findall(markdown_pattern, line)
+                        for _, url in markdown_matches:
+                            links_by_file[current_file].append(url)
 
-                for text, url in matches:
-                    # 排除weekly目录下的文件，只处理category_map中的文件
-                    if current_file and current_file in self.category_map:
-                        # 确保不是weekly目录下的文件
-                        if not current_file.startswith('weekly/'):
+                        # 2. 匹配纯URL格式: https://github.com/...
+                        # 但排除已经在markdown链接中的URL
+                        url_pattern = r'(?<!\()https://github\.com/[^\s\)]+(?!\))'
+                        url_matches = re.findall(url_pattern, line)
+                        for url in url_matches:
                             links_by_file[current_file].append(url)
 
         return dict(links_by_file)

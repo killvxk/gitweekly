@@ -306,25 +306,34 @@ class WeeklyGenerator:
             # 生成内容
             content = f"# 本周更新 ({monday} ~ {sunday})\n\n"
 
-            # 去重链接
+            # 去重链接（使用字典，url为key，desc为value）
             unique_links = {}
             for file, links in week_data['links'].items():
                 category = self.category_map.get(file, '📦 其他')
                 if category not in unique_links:
-                    unique_links[category] = []
-                unique_links[category].extend(list(set(links)))
+                    unique_links[category] = {}
+                for link in links:
+                    url = link['url']
+                    desc = link['desc']
+                    if url not in unique_links[category]:
+                        unique_links[category][url] = desc
+                    elif not unique_links[category][url] and desc:
+                        unique_links[category][url] = desc
 
             # 按分类输出
             for category in sorted(unique_links.keys()):
-                links = list(set(unique_links[category]))
-                if links:
+                links_dict = unique_links[category]
+                if links_dict:
                     content += f"\n## {category}\n\n"
                     content += "| 项目 | 说明 |\n"
                     content += "|------|------|\n"
 
-                    for url in links:
-                        name = url.split('/')[-1]
-                        content += f"| [{name}]({url}) |  |\n"
+                    for url, desc in links_dict.items():
+                        name = url.rstrip('/').split('/')[-1]
+                        if desc and desc.lower() != name.lower():
+                            content += f"| [{name}]({url}) | {desc} |\n"
+                        else:
+                            content += f"| [{name}]({url}) |  |\n"
 
             # 统计信息
             total_commits = len(week_data['commits'])

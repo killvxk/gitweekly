@@ -1,4 +1,8 @@
 # 有趣的工具
+#### chrome的osint插件
+
+https://github.com/M7moudx22/OSINT-Extension
+
 #### ui布局工具
 
 https://square.lndev.me/

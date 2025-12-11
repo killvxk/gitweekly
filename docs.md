@@ -1,4 +1,8 @@
 # 有趣的文章
+#### mac 本地提权
+
+https://theevilbit.github.io/posts/localized/
+
 #### GRAPE位置编码的文章
 
 https://model-architectures.github.io/GRAPE/

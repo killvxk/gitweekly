@@ -371,6 +371,7 @@ class DescriptionGenerator:
         self.cache_dir.mkdir(exist_ok=True)
         self.cache_file = self.cache_dir / 'descriptions_cache.json'
         self.cache = self.load_cache()
+        self.dirty = False  # 标记缓存是否被修改
 
     def load_cache(self) -> Dict:
         if self.cache_file.exists():
@@ -379,8 +380,12 @@ class DescriptionGenerator:
         return {}
 
     def save_cache(self):
+        """保存缓存（只在有修改时才写入文件）"""
+        if not self.dirty:
+            return  # 没有修改，跳过写入
         with open(self.cache_file, 'w', encoding='utf-8') as f:
             json.dump(self.cache, f, ensure_ascii=False, indent=2)
+        self.dirty = False
 
     def fetch_github_content(self, url: str) -> Optional[str]:
         """获取GitHub仓库的README内容（使用raw.githubusercontent.com，无API限制）"""
@@ -537,7 +542,13 @@ class DescriptionGenerator:
         return self.cache.get(url)
 
     def generate_description(self, url: str) -> Optional[str]:
-        """生成单个URL的描述（带缓存）"""
+        """生成单个URL的描述（带缓存）
+
+        返回值:
+        - 字符串: 正常描述
+        - "__DELETED__": 链接404/不可用，应从周报中删除
+        - None: 生成失败但可以重试
+        """
         # 检查缓存
         if url in self.cache:
             return self.cache[url]
@@ -545,13 +556,17 @@ class DescriptionGenerator:
         # 获取内容
         content = self.fetch_github_content(url)
         if not content:
-            return None
+            # 缓存标记为已删除，避免重复请求404链接
+            self.cache[url] = "__DELETED__"
+            self.dirty = True
+            return "__DELETED__"
 
         # 调用AI生成描述
         description = self.call_ai_for_summary(url, content)
 
         if description and len(description) > 5:
             self.cache[url] = description
+            self.dirty = True  # 标记缓存已修改
             return description
 
         return None
@@ -578,32 +593,43 @@ class WeeklyUpdater:
 
         return links
 
-    def update_weekly_file(self, file_path: Path, descriptions: Dict[str, str]) -> int:
-        """更新周报文件"""
+    def update_weekly_file(self, file_path: Path, descriptions: Dict[str, str]) -> Tuple[int, int]:
+        """更新周报文件
+
+        返回: (更新数量, 删除数量)
+        """
         with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
+            lines = f.readlines()
 
         update_count = 0
+        delete_count = 0
+        new_lines = []
         pattern = r'\| \[([^\]]+)\]\((https://[^\)]+)\) \| ([^\|]*) \|'
 
-        def replacer(match):
-            nonlocal update_count
-            _, url, desc = match.groups()
+        for line in lines:
+            match = re.search(pattern, line)
+            if match:
+                _, url, desc = match.groups()
 
-            if (not desc.strip() or '收集的项目地址' in desc) and url in descriptions:
-                update_count += 1
-                name = url.split('/')[-1]
-                return f'| [{name}]({url}) | {descriptions[url]} |'
+                # 检查是否需要删除（404链接）
+                if url in descriptions and descriptions[url] == "__DELETED__":
+                    delete_count += 1
+                    continue  # 跳过此行，不写入新文件
 
-            return match.group(0)
+                # 检查是否需要更新描述
+                if (not desc.strip() or '收集的项目地址' in desc) and url in descriptions:
+                    if descriptions[url] != "__DELETED__":
+                        update_count += 1
+                        name = url.split('/')[-1]
+                        line = f'| [{name}]({url}) | {descriptions[url]} |\n'
 
-        updated_content = re.sub(pattern, replacer, content)
+            new_lines.append(line)
 
-        if update_count > 0:
+        if update_count > 0 or delete_count > 0:
             with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(updated_content)
+                f.writelines(new_lines)
 
-        return update_count
+        return update_count, delete_count
 
 
 class AutoWeeklyProcessor:
@@ -654,15 +680,22 @@ class AutoWeeklyProcessor:
                 # 先检查缓存
                 if self.desc_gen.is_cached(url):
                     desc = self.desc_gen.get_cached(url)
-                    print(f"    ✓ 缓存命中: {desc}")
-                    descriptions[url] = desc
+                    if desc == "__DELETED__":
+                        print(f"    ⊘ 跳过 (链接不可用)")
+                        descriptions[url] = desc  # 传递删除标记
+                    else:
+                        print(f"    ✓ 缓存命中: {desc}")
+                        descriptions[url] = desc
                     continue
 
                 # 没有缓存，需要网络请求
                 print(f"    → 获取GitHub内容...")
                 desc = self.desc_gen.generate_description(url)
 
-                if desc:
+                if desc == "__DELETED__":
+                    print(f"    ⊘ 链接不可用 (404)")
+                    descriptions[url] = desc  # 传递删除标记
+                elif desc:
                     print(f"    ✓ 生成: {desc}")
                     descriptions[url] = desc
 
@@ -679,8 +712,11 @@ class AutoWeeklyProcessor:
 
             if descriptions:
                 print(f"\n📝 更新周报文件...")
-                count = self.updater.update_weekly_file(file_path, descriptions)
-                print(f"✅ 成功更新 {count} 个描述到 {filename}")
+                updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
+                if updated > 0:
+                    print(f"✅ 成功更新 {updated} 个描述到 {filename}")
+                if deleted > 0:
+                    print(f"🗑️  删除 {deleted} 个无效链接")
             else:
                 print(f"\n⚠️  没有成功生成任何描述")
 
@@ -767,15 +803,22 @@ class AutoWeeklyProcessor:
             # 先检查缓存
             if self.desc_gen.is_cached(url):
                 desc = self.desc_gen.get_cached(url)
-                print(f"    ✓ 缓存命中: {desc}")
-                descriptions[url] = desc
+                if desc == "__DELETED__":
+                    print(f"    ⊘ 跳过 (链接不可用)")
+                    descriptions[url] = desc
+                else:
+                    print(f"    ✓ 缓存命中: {desc}")
+                    descriptions[url] = desc
                 continue
 
             # 没有缓存，需要网络请求
             print(f"    → 获取GitHub内容...")
             desc = self.desc_gen.generate_description(url)
 
-            if desc:
+            if desc == "__DELETED__":
+                print(f"    ⊘ 链接不可用 (404)")
+                descriptions[url] = desc
+            elif desc:
                 print(f"    ✓ 生成: {desc}")
                 descriptions[url] = desc
 
@@ -793,8 +836,11 @@ class AutoWeeklyProcessor:
 
         # 更新文件
         if descriptions:
-            count = self.updater.update_weekly_file(file_path, descriptions)
-            print(f"\n✅ 成功更新 {count} 个描述")
+            updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
+            if updated > 0:
+                print(f"\n✅ 成功更新 {updated} 个描述")
+            if deleted > 0:
+                print(f"🗑️  删除 {deleted} 个无效链接")
         else:
             print(f"\n⚠️  没有成功生成任何描述")
 
@@ -881,8 +927,11 @@ class AutoWeeklyProcessor:
 
             # 更新文件
             if descriptions:
-                count = self.updater.update_weekly_file(file_path, descriptions)
-                print(f"\n✅ 成功更新 {count} 个描述")
+                updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
+                if updated > 0:
+                    print(f"\n✅ 成功更新 {updated} 个描述")
+                if deleted > 0:
+                    print(f"🗑️  删除 {deleted} 个无效链接")
             else:
                 print(f"\n⚠️  没有成功生成任何描述")
 
@@ -891,7 +940,25 @@ class AutoWeeklyProcessor:
         print("="*60)
 
 
+def format_duration(seconds: float) -> str:
+    """格式化时间为可读字符串"""
+    if seconds < 60:
+        return f"{seconds:.1f}秒"
+    elif seconds < 3600:
+        minutes = int(seconds // 60)
+        secs = seconds % 60
+        return f"{minutes}分{secs:.1f}秒"
+    else:
+        hours = int(seconds // 3600)
+        minutes = int((seconds % 3600) // 60)
+        secs = seconds % 60
+        return f"{hours}小时{minutes}分{secs:.1f}秒"
+
+
 def main():
+    # 记录开始时间
+    script_start_time = time.time()
+
     # 设置控制台编码
     import sys
     if sys.platform == 'win32':
@@ -1008,8 +1075,12 @@ def main():
 
             if descriptions:
                 print(f"\n📝 更新周报文件...")
-                count = processor.updater.update_weekly_file(file_path, descriptions)
-                print(f"✅ 成功更新 {count} 个描述\n")
+                updated, deleted = processor.updater.update_weekly_file(file_path, descriptions)
+                if updated > 0:
+                    print(f"✅ 成功更新 {updated} 个描述")
+                if deleted > 0:
+                    print(f"🗑️  删除 {deleted} 个无效链接")
+                print()
             else:
                 print(f"\n⚠️  没有成功生成任何描述\n")
 
@@ -1020,6 +1091,10 @@ def main():
 
     else:
         print("❌ 无效的选项")
+
+    # 打印总运行时间
+    total_time = time.time() - script_start_time
+    print(f"\n⏱️  总运行时间: {format_duration(total_time)}")
 
 
 if __name__ == "__main__":

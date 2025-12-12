@@ -18,9 +18,12 @@ from typing import Dict, List, Optional, Tuple
 from collections import defaultdict
 
 # ============ 配置区域 ============
-# AI接口配置 - 默认使用Anthropic Claude API
-AI_API_URL = os.getenv("AI_API_URL", "https://api.anthropic.com/v1/messages")
+# AI接口配置 - 支持两种认证方式
+# 1. ANTHROPIC_API_KEY: 传统API Key认证 (x-api-key header)
+# 2. ANTHROPIC_AUTH_TOKEN: OAuth Token认证 (Authorization: Bearer header)
+AI_API_URL = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com/v1/messages")
 AI_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+AI_AUTH_TOKEN = os.getenv("ANTHROPIC_AUTH_TOKEN", "")  # OAuth token模式
 AI_MODEL = os.getenv("AI_MODEL", "claude-sonnet-4-5")  # 使用Claude Sonnet 4.5（最新最强）
 
 # Git仓库配置
@@ -468,9 +471,13 @@ class DescriptionGenerator:
                     "max_tokens": 100,
                     "messages": [{"role": "user", "content": prompt}]
                 }
-                if AI_API_KEY:
+                headers["anthropic-version"] = "2023-06-01"
+
+                # 优先使用 AUTH_TOKEN (OAuth)，否则使用 API_KEY
+                if AI_AUTH_TOKEN:
+                    headers["Authorization"] = f"Bearer {AI_AUTH_TOKEN}"
+                elif AI_API_KEY:
                     headers["x-api-key"] = AI_API_KEY
-                    headers["anthropic-version"] = "2023-06-01"
 
             elif "ollama" in AI_API_URL.lower():
                 payload = {
@@ -856,13 +863,23 @@ def main():
 ╚════════════════════════════════════════════════════════════╝
 """)
 
-    # 检查API Key
-    if not AI_API_KEY:
-        print("❌ 错误：未设置 ANTHROPIC_API_KEY 环境变量")
-        print("\n快速设置：")
-        print("  Windows: $env:ANTHROPIC_API_KEY='your-key'")
-        print("  Linux:   export ANTHROPIC_API_KEY='your-key'")
+    # 检查认证配置（支持两种方式）
+    if not AI_API_KEY and not AI_AUTH_TOKEN:
+        print("❌ 错误：未设置认证信息")
+        print("\n请设置以下任一环境变量：")
+        print("  方式1 - API Key:")
+        print("    Windows: $env:ANTHROPIC_API_KEY='your-key'")
+        print("    Linux:   export ANTHROPIC_API_KEY='your-key'")
+        print("\n  方式2 - OAuth Token:")
+        print("    Windows: $env:ANTHROPIC_AUTH_TOKEN='your-token'")
+        print("    Linux:   export ANTHROPIC_AUTH_TOKEN='your-token'")
         return
+
+    # 显示当前认证方式
+    if AI_AUTH_TOKEN:
+        print(f"🔐 认证方式: OAuth Token (ANTHROPIC_AUTH_TOKEN)")
+    else:
+        print(f"🔐 认证方式: API Key (ANTHROPIC_API_KEY)")
 
     # 选择模式
     print("\n请选择运行模式：")

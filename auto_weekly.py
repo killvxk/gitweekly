@@ -528,6 +528,14 @@ class DescriptionGenerator:
             print(f"    ✗ AI API 异常: {e}")
             return None
 
+    def is_cached(self, url: str) -> bool:
+        """检查URL是否已缓存"""
+        return url in self.cache
+
+    def get_cached(self, url: str) -> Optional[str]:
+        """获取缓存的描述"""
+        return self.cache.get(url)
+
     def generate_description(self, url: str) -> Optional[str]:
         """生成单个URL的描述（带缓存）"""
         # 检查缓存
@@ -642,8 +650,16 @@ class AutoWeeklyProcessor:
 
             for j, url in enumerate(links, 1):
                 print(f"\n  [{j}/{len(links)}] 处理: {url}")
-                print(f"    → 获取GitHub内容...")
 
+                # 先检查缓存
+                if self.desc_gen.is_cached(url):
+                    desc = self.desc_gen.get_cached(url)
+                    print(f"    ✓ 缓存命中: {desc}")
+                    descriptions[url] = desc
+                    continue
+
+                # 没有缓存，需要网络请求
+                print(f"    → 获取GitHub内容...")
                 desc = self.desc_gen.generate_description(url)
 
                 if desc:
@@ -657,7 +673,7 @@ class AutoWeeklyProcessor:
                 else:
                     print(f"    ✗ 生成失败")
 
-                time.sleep(1)
+                time.sleep(1)  # 只在网络请求后才sleep
 
             self.desc_gen.save_cache()
 
@@ -747,8 +763,16 @@ class AutoWeeklyProcessor:
 
         for j, url in enumerate(links, 1):
             print(f"\n  [{j}/{len(links)}] {url}")
-            print(f"    → 获取GitHub内容...")
 
+            # 先检查缓存
+            if self.desc_gen.is_cached(url):
+                desc = self.desc_gen.get_cached(url)
+                print(f"    ✓ 缓存命中: {desc}")
+                descriptions[url] = desc
+                continue
+
+            # 没有缓存，需要网络请求
+            print(f"    → 获取GitHub内容...")
             desc = self.desc_gen.generate_description(url)
 
             if desc:
@@ -762,7 +786,7 @@ class AutoWeeklyProcessor:
             else:
                 print(f"    ✗ 生成失败")
 
-            time.sleep(1)
+            time.sleep(1)  # 只在网络请求后才sleep
 
         # 保存缓存
         self.desc_gen.save_cache()
@@ -826,8 +850,16 @@ class AutoWeeklyProcessor:
             # 处理每个链接
             for j, url in enumerate(links, 1):
                 print(f"\n  [{j}/{len(links)}] {url}")
-                print(f"    → 获取GitHub内容...")
 
+                # 先检查缓存
+                if self.desc_gen.is_cached(url):
+                    desc = self.desc_gen.get_cached(url)
+                    print(f"    ✓ 缓存命中: {desc}")
+                    descriptions[url] = desc
+                    continue
+
+                # 没有缓存，需要网络请求
+                print(f"    → 获取GitHub内容...")
                 description = self.desc_gen.generate_description(url)
 
                 if description:
@@ -841,7 +873,7 @@ class AutoWeeklyProcessor:
                 else:
                     print(f"    ✗ 生成失败")
 
-                # 避免请求过快
+                # 避免请求过快（只在网络请求后才sleep）
                 time.sleep(1)
 
             # 保存缓存
@@ -947,8 +979,16 @@ def main():
 
             for j, url in enumerate(links, 1):
                 print(f"\n  [{j}/{len(links)}] 处理: {url}")
-                print(f"    → 获取GitHub内容...")
 
+                # 先检查缓存
+                if processor.desc_gen.is_cached(url):
+                    desc = processor.desc_gen.get_cached(url)
+                    print(f"    ✓ 缓存命中: {desc}")
+                    descriptions[url] = desc
+                    continue
+
+                # 没有缓存，需要网络请求
+                print(f"    → 获取GitHub内容...")
                 desc = processor.desc_gen.generate_description(url)
 
                 if desc:
@@ -962,7 +1002,7 @@ def main():
                 else:
                     print(f"    ✗ 生成失败")
 
-                time.sleep(1)
+                time.sleep(1)  # 只在网络请求后才sleep
 
             processor.desc_gen.save_cache()
 

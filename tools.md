@@ -1,4 +1,8 @@
 # 有趣的工具
+#### 离线音乐
+
+https://github.com/chenqimiao/qm-music
+
 #### 免费的本地网络隧道端口转发
 
 https://tunnl.gg/

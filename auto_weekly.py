@@ -21,10 +21,17 @@ from collections import defaultdict
 # AI接口配置 - 支持两种认证方式
 # 1. ANTHROPIC_API_KEY: 传统API Key认证 (x-api-key header)
 # 2. ANTHROPIC_AUTH_TOKEN: OAuth Token认证 (Authorization: Bearer header)
-AI_API_URL = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com/v1/messages")
+_BASE_URL = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
+# 自动处理URL：如果不以/messages结尾，则追加 /v1/messages 或 /messages
+if _BASE_URL.endswith("/messages"):
+    AI_API_URL = _BASE_URL
+elif _BASE_URL.endswith("/v1"):
+    AI_API_URL = _BASE_URL.rstrip("/") + "/messages"
+else:
+    AI_API_URL = _BASE_URL.rstrip("/") + "/v1/messages"
 AI_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 AI_AUTH_TOKEN = os.getenv("ANTHROPIC_AUTH_TOKEN", "")  # OAuth token模式
-AI_MODEL = os.getenv("AI_MODEL", "claude-sonnet-4-5")  # 使用Claude Sonnet 4.5（最新最强）
+AI_MODEL = os.getenv("AI_MODEL", "claude-sonnet-4-5-20250929")  # Claude Sonnet 4.5
 
 # Git仓库配置
 GIT_REPO_PATH = "f:/gitweekly"
@@ -464,8 +471,11 @@ class DescriptionGenerator:
 
             headers = {"Content-Type": "application/json"}
 
+            # 判断API类型：检查URL是否包含/v1/messages（Anthropic格式）
+            is_anthropic_format = "/v1/messages" in AI_API_URL.lower() or "anthropic.com" in AI_API_URL.lower()
+
             # 根据不同的AI接口格式调整请求
-            if "anthropic.com" in AI_API_URL.lower():
+            if is_anthropic_format:
                 payload = {
                     "model": AI_MODEL,
                     "max_tokens": 100,
@@ -500,7 +510,7 @@ class DescriptionGenerator:
             if response.status_code == 200:
                 result = response.json()
 
-                if "anthropic.com" in AI_API_URL.lower():
+                if is_anthropic_format:
                     description = result.get('content', [{}])[0].get('text', '').strip()
                 elif "ollama" in AI_API_URL.lower():
                     description = result.get('message', {}).get('content', '').strip()
@@ -510,9 +520,12 @@ class DescriptionGenerator:
                 description = description.strip('"\'').strip()
                 return description
             else:
+                print(f"    ✗ AI API 错误: HTTP {response.status_code}")
+                print(f"    ✗ 响应内容: {response.text[:200]}")
                 return None
 
         except Exception as e:
+            print(f"    ✗ AI API 异常: {e}")
             return None
 
     def generate_description(self, url: str) -> Optional[str]:

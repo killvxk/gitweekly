@@ -14,7 +14,10 @@ import subprocess
 import requests
 from pathlib import Path
 from datetime import datetime, timedelta
+from dataclasses import dataclass
+from json import JSONDecodeError
 from typing import Dict, List, Optional, Tuple
+from urllib.parse import urlparse
 from collections import defaultdict
 
 # ============ 配置区域 ============
@@ -38,6 +41,17 @@ GIT_REPO_PATH = "f:/gitweekly"
 WEEKLY_DIR = Path(GIT_REPO_PATH) / "weekly"
 CACHE_DIR = Path(GIT_REPO_PATH) / "links_cache"
 # ================================
+
+
+def _run_git(repo_path: Path, args: List[str], *, check: bool = True) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        ['git', '-C', str(repo_path), *args],
+        capture_output=True,
+        text=True,
+        encoding='utf-8',
+        errors='ignore',
+        check=check,
+    )
 
 
 class WeeklyGenerator:
@@ -67,22 +81,17 @@ class WeeklyGenerator:
 
     def get_git_log(self, since_date: str = None) -> List[Dict]:
         """获取git提交日志"""
-        cmd = [
-            'git', '-C', str(self.repo_path),
-            'log', '--pretty=format:%H|%ad|%s',
-            '--date=format:%Y-%m-%d'
-        ]
-
+        args = ['log', '--pretty=format:%H|%ad|%s', '--date=format:%Y-%m-%d']
         if since_date:
-            cmd.extend(['--since', since_date])
+            args.extend(['--since', since_date])
 
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='ignore'
-        )
+        try:
+            result = _run_git(self.repo_path, args, check=True)
+        except subprocess.CalledProcessError as e:
+            print(f"? git log ??: {e}")
+            if e.stderr:
+                print(f"   stderr: {e.stderr.strip()[:200]}")
+            return []
 
         commits = []
         for line in result.stdout.strip().split('\n'):
@@ -105,18 +114,13 @@ class WeeklyGenerator:
         - GitHub链接：desc留空，后续用AI生成
         - 非GitHub链接：使用标题行作为desc
         """
-        cmd = [
-            'git', '-C', str(self.repo_path),
-            'show', commit_hash, '--format=', '--unified=0'
-        ]
-
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='ignore'
-        )
+        try:
+            result = _run_git(self.repo_path, ['show', commit_hash, '--format=', '--unified=0'], check=True)
+        except subprocess.CalledProcessError as e:
+            print(f"? git show ??: {commit_hash}: {e}")
+            if e.stderr:
+                print(f"   stderr: {e.stderr.strip()[:200]}")
+            return {}
 
         links_by_file = defaultdict(list)
         current_file = None
@@ -184,21 +188,21 @@ class WeeklyGenerator:
 
     def get_weekly_commits(self, week_start: str, week_end: str) -> Dict:
         """获取指定周的提交记录"""
-        cmd = [
-            'git', '-C', str(self.repo_path),
-            'log', '--pretty=format:%H|%ad|%s',
+        args = [
+            'log',
+            '--pretty=format:%H|%ad|%s',
             '--date=format:%Y-%m-%d',
             f'--since={week_start}',
-            f'--until={week_end} 23:59:59'
+            f'--until={week_end} 23:59:59',
         ]
 
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='ignore'
-        )
+        try:
+            result = _run_git(self.repo_path, args, check=True)
+        except subprocess.CalledProcessError as e:
+            print(f"? git log ??: {e}")
+            if e.stderr:
+                print(f"   stderr: {e.stderr.strip()[:200]}")
+            return {'commits': []}
 
         commits = []
         for line in result.stdout.strip().split('\n'):
@@ -366,6 +370,13 @@ class WeeklyGenerator:
 class DescriptionGenerator:
     """描述生成器 - 使用AI生成项目描述"""
 
+    @dataclass(frozen=True)
+    class GithubFetchResult:
+        status: str  # ok | not_found | error | invalid
+        content: Optional[str] = None
+        http_status: Optional[int] = None
+        error: Optional[str] = None
+
     def __init__(self, cache_dir: Path):
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(exist_ok=True)
@@ -375,8 +386,16 @@ class DescriptionGenerator:
 
     def load_cache(self) -> Dict:
         if self.cache_file.exists():
-            with open(self.cache_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
+            try:
+                with open(self.cache_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except JSONDecodeError:
+                backup = self.cache_file.with_suffix(f".corrupt.{int(time.time())}.json")
+                try:
+                    self.cache_file.rename(backup)
+                except OSError:
+                    pass
+                print(f"? ?????? JSON??,????: {backup.name},?????")
         return {}
 
     def save_cache(self):
@@ -387,76 +406,97 @@ class DescriptionGenerator:
             json.dump(self.cache, f, ensure_ascii=False, indent=2)
         self.dirty = False
 
-    def fetch_github_content(self, url: str) -> Optional[str]:
-        """获取GitHub仓库的README内容（使用raw.githubusercontent.com，无API限制）"""
+    @staticmethod
+    def _parse_github_repo(url: str) -> Optional[Tuple[str, str]]:
         try:
-            if 'github.com' not in url:
-                return None
+            parsed = urlparse(url)
+        except Exception:
+            return None
 
-            parts = url.replace('https://github.com/', '').split('/')
-            if len(parts) < 2:
-                return None
+        if parsed.scheme.lower() != 'https':
+            return None
 
-            owner, repo = parts[0], parts[1]
+        netloc = (parsed.netloc or '').lower()
+        if netloc != 'github.com':
+            return None
 
-            headers = {
-                'User-Agent': 'Mozilla/5.0'
-            }
+        parts = [p for p in (parsed.path or '').split('/') if p]
+        if len(parts) < 2:
+            return None
 
-            # 1. 尝试获取仓库主页（用于提取描述）
-            repo_page_url = f"https://github.com/{owner}/{repo}"
-            try:
-                page_response = requests.get(repo_page_url, headers=headers, timeout=5)
-                description = ""
-                if page_response.status_code == 200:
-                    # 简单提取描述（在<meta property="og:description"中）
-                    import re
-                    desc_match = re.search(r'<meta property="og:description" content="([^"]*)"', page_response.text)
-                    if desc_match:
-                        description = desc_match.group(1)
-            except:
-                description = ""
+        owner = parts[0].strip()
+        repo = parts[1].strip()
+        if repo.endswith('.git'):
+            repo = repo[:-4]
 
-            # 2. 直接从raw.githubusercontent.com获取README（无API限制）
-            readme_content = ""
+        if not owner or not repo:
+            return None
 
-            # 尝试常见的README文件名
-            readme_files = ['README.md', 'readme.md', 'README.MD', 'README', 'README.txt']
+        return owner, repo
 
+    def fetch_github_content(self, url: str) -> "DescriptionGenerator.GithubFetchResult":
+        """获取GitHub仓库的README内容（使用raw.githubusercontent.com，无API限制）"""
+        repo_info = self._parse_github_repo(url)
+        if not repo_info:
+            return self.GithubFetchResult(status="invalid")
+
+        owner, repo = repo_info
+
+        headers = {
+            'User-Agent': 'Mozilla/5.0'
+        }
+
+        repo_page_url = f"https://github.com/{owner}/{repo}"
+        try:
+            page_response = requests.get(repo_page_url, headers=headers, timeout=10)
+        except requests.RequestException as e:
+            return self.GithubFetchResult(status="error", error=str(e))
+
+        if page_response.status_code == 404:
+            return self.GithubFetchResult(status="not_found", http_status=404)
+
+        description = ""
+        if page_response.status_code == 200:
+            desc_match = re.search(
+                r'<meta\\s+property="og:description"\\s+content="([^"]*)"\\s*/?>',
+                page_response.text,
+                flags=re.IGNORECASE,
+            )
+            if desc_match:
+                description = desc_match.group(1)
+
+        readme_content = ""
+        readme_files = ['README.md', 'readme.md', 'README.MD', 'README', 'README.txt']
+        for branch in ("main", "master"):
             for readme_name in readme_files:
-                raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/main/{readme_name}"
+                raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{readme_name}"
                 try:
-                    readme_response = requests.get(raw_url, headers=headers, timeout=10)
-                    if readme_response.status_code == 200:
-                        readme_content = readme_response.text[:3000]
-                        break
-                except:
-                    pass
+                    readme_response = requests.get(raw_url, headers=headers, timeout=15)
+                except requests.RequestException:
+                    continue
 
-                # 如果main分支失败，尝试master分支
-                if not readme_content:
-                    raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/master/{readme_name}"
-                    try:
-                        readme_response = requests.get(raw_url, headers=headers, timeout=10)
-                        if readme_response.status_code == 200:
-                            readme_content = readme_response.text[:3000]
-                            break
-                    except:
-                        pass
+                if readme_response.status_code == 200:
+                    readme_content = readme_response.text[:3000]
+                    break
+            if readme_content:
+                break
 
-            # 组合内容
-            if readme_content or description:
-                content = f"Repository: {owner}/{repo}\n"
-                if description:
-                    content += f"Description: {description}\n"
-                if readme_content:
-                    content += f"\nREADME (excerpt):\n{readme_content}"
-                return content
+        if readme_content or description:
+            content = f"Repository: {owner}/{repo}\n"
+            if description:
+                content += f"Description: {description}\n"
+            if readme_content:
+                content += f"\nREADME (excerpt):\n{readme_content}"
+            return self.GithubFetchResult(status="ok", content=content, http_status=page_response.status_code)
 
-            return None
+        if page_response.status_code >= 400:
+            return self.GithubFetchResult(
+                status="error",
+                http_status=page_response.status_code,
+                error=(page_response.text or "")[:200],
+            )
 
-        except Exception as e:
-            return None
+        return self.GithubFetchResult(status="error", http_status=page_response.status_code, error="No description/README found")
 
     def call_ai_for_summary(self, url: str, content: str) -> Optional[str]:
         """调用AI接口生成中文摘要"""
@@ -476,8 +516,9 @@ class DescriptionGenerator:
 
             headers = {"Content-Type": "application/json"}
 
-            # 判断API类型：检查URL是否包含/v1/messages（Anthropic格式）
-            is_anthropic_format = "/v1/messages" in AI_API_URL.lower() or "anthropic.com" in AI_API_URL.lower()
+            parsed = urlparse(AI_API_URL)
+            path = (parsed.path or "").lower().rstrip("/")
+            is_anthropic_format = path.endswith("/v1/messages") or path.endswith("/messages")
 
             # 根据不同的AI接口格式调整请求
             if is_anthropic_format:
@@ -507,7 +548,9 @@ class DescriptionGenerator:
                     "temperature": 0.7,
                     "max_tokens": 100
                 }
-                if AI_API_KEY:
+                if AI_AUTH_TOKEN:
+                    headers["Authorization"] = f"Bearer {AI_AUTH_TOKEN}"
+                elif AI_API_KEY:
                     headers["Authorization"] = f"Bearer {AI_API_KEY}"
 
             response = requests.post(AI_API_URL, json=payload, headers=headers, timeout=30)
@@ -553,16 +596,16 @@ class DescriptionGenerator:
         if url in self.cache:
             return self.cache[url]
 
-        # 获取内容
-        content = self.fetch_github_content(url)
-        if not content:
-            # 缓存标记为已删除，避免重复请求404链接
+        fetch_result = self.fetch_github_content(url)
+        if fetch_result.status == "not_found":
             self.cache[url] = "__DELETED__"
             self.dirty = True
             return "__DELETED__"
+        if fetch_result.status != "ok" or not fetch_result.content:
+            return None
 
         # 调用AI生成描述
-        description = self.call_ai_for_summary(url, content)
+        description = self.call_ai_for_summary(url, fetch_result.content)
 
         if description and len(description) > 5:
             self.cache[url] = description

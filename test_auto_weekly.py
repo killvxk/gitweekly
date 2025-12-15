@@ -33,9 +33,10 @@ def test_description():
 
     # 1. 获取内容
     print("  → 获取GitHub内容...")
-    content = desc_gen.fetch_github_content(test_url)
+    fetch_result = desc_gen.fetch_github_content(test_url)
 
-    if content:
+    if fetch_result.status == "ok" and fetch_result.content:
+        content = fetch_result.content
         print(f"  ✓ 成功获取内容 ({len(content)} 字符)")
 
         # 2. 生成描述
@@ -48,8 +49,14 @@ def test_description():
         else:
             print("  ✗ AI调用失败")
             return False
+    elif fetch_result.status == "not_found":
+        print("  ✗ 仓库不存在/404")
+        return False
     else:
-        print("  ✗ 获取内容失败")
+        status = fetch_result.status
+        http_status = fetch_result.http_status
+        suffix = f" (HTTP {http_status})" if http_status else ""
+        print(f"  ✗ 获取内容失败: {status}{suffix}")
         return False
 
 def test_update():

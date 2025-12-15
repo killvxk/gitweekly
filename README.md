@@ -3,6 +3,18 @@
 
 
 # 收集的项目地址
+https://github.com/Mowokuma/vm_str.hpp
+
+https://github.com/KingOfBugbounty/Hardcoded-Token-Hunter
+
+https://github.com/KeygraphHQ/shannon
+
+https://github.com/Mowokuma/Griffin--Notes
+
+https://github.com/akamai/patchdiff-ai
+
+https://github.com/wjcwjc77/hacker-news-agent
+
 https://github.com/outflanknl/seccomp-notify-injection
 
 https://github.com/akamai/Linux-Process-Injection

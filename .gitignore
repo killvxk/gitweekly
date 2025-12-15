@@ -1,5 +1,5 @@
-.claude/settings.local.json
-__pycache__/auto_weekly.cpython-312.pyc
-links_cache/descriptions_cache.json
-test_ai_api.py
+.claude/
+__pycache__/
+links_cache/
+test_*.py
 nul

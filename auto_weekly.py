@@ -939,6 +939,55 @@ class AutoWeeklyProcessor:
         print("🎉 所有周报处理完成！")
         print("="*60)
 
+    def commit_changes(self):
+        """提交周报文件和缓存的变更"""
+        print("\n" + "="*60)
+        print("提交周报变更")
+        print("="*60)
+
+        try:
+            # 检查变更
+            print("1. 检查 'git status'...")
+            status_result = subprocess.run(
+                ['git', '-C', str(self.repo_path), 'status', '--short'],
+                capture_output=True, text=True, encoding='utf-8', errors='ignore'
+            )
+            if not status_result.stdout.strip():
+                print("✅ 没有检测到任何变更，无需提交。")
+                return
+
+            print("检测到以下变更:")
+            print(status_result.stdout)
+
+            # 添加周报文件
+            print("2. 添加变更到暂存区...")
+            subprocess.run(
+                ['git', '-C', str(self.repo_path), 'add', 'weekly/*.md'],
+                check=True
+            )
+            subprocess.run(
+                ['git', '-C', str(self.repo_path), 'add', '-f', 'links_cache/descriptions_cache.json'],
+                check=True
+            )
+            print("  ✓ 'weekly/' 目录下的 .md 文件")
+            print("  ✓ 'links_cache/descriptions_cache.json'")
+
+            # 提交变更
+            commit_message = f"docs: weekly update {datetime.now().strftime('%Y-%m-%d')}"
+            print(f"3. 提交变更，提交信息: '{commit_message}'...")
+            subprocess.run(
+                ['git', '-C', str(self.repo_path), 'commit', '-m', commit_message],
+                check=True,
+                capture_output=True, text=True, encoding='utf-8', errors='ignore'
+            )
+            print("✅ 变更已成功提交！")
+
+        except subprocess.CalledProcessError as e:
+            print(f"❌ 提交过程中发生错误: {e}")
+            print(f"  → Stderr: {e.stderr}")
+        except Exception as e:
+            print(f"❌ 发生未知错误: {e}")
+
 
 def format_duration(seconds: float) -> str:
     """格式化时间为可读字符串"""
@@ -999,8 +1048,9 @@ def main():
     print("2. 仅生成周报文件（不生成描述）")
     print("3. 仅为已有周报生成描述")
     print("4. 生成当前周的周报（含AI描述）")
+    print("5. 提交周报变更")
 
-    choice = input("\n请输入选项 (1/2/3/4): ").strip()
+    choice = input("\n请输入选项 (1/2/3/4/5): ").strip()
 
     processor = AutoWeeklyProcessor(GIT_REPO_PATH)
 
@@ -1088,6 +1138,10 @@ def main():
         # 生成当前周的周报
         max_links = int(input("最多处理链接数 (默认: 50): ").strip() or "50")
         processor.process_current_week(max_links)
+
+    elif choice == "5":
+        # 提交周报变更
+        processor.commit_changes()
 
     else:
         print("❌ 无效的选项")

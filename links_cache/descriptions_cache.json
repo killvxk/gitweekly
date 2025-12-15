@@ -463,5 +463,11 @@
   "https://blog.upx8.com/4875": "__DELETED__",
   "https://stackoverflow.com/questions/14002954/c-programming-how-to-read-the-whole-file-contents-into-a-buffer": "__DELETED__",
   "https://ired.team/offensive-security/code-injection-process-injection/loading-and-executing-shellcode-from-portable-executable-resources": "__DELETED__",
-  "https://gist.github.com/securitytube/c956348435cc90b8e1f7": "__DELETED__"
+  "https://gist.github.com/securitytube/c956348435cc90b8e1f7": "__DELETED__",
+  "https://github.com/Mowokuma/vm_str.hpp": "C++20编译期字符串混淆库，基于虚拟机字节码运行时解密",
+  "https://github.com/KingOfBugbounty/Hardcoded-Token-Hunter": "自动检测JavaScript文件中硬编码的API密钥和敏感令牌",
+  "https://github.com/KeygraphHQ/shannon": "AI驱动的全自主Web应用渗透测试工具",
+  "https://github.com/Mowokuma/Griffin--Notes": "Griffin混淆保护技术逆向分析与工作原理研究笔记",
+  "https://github.com/akamai/patchdiff-ai": "基于LLM的多智能体CVE漏洞根因分析自动化系统",
+  "https://github.com/wjcwjc77/hacker-news-agent": "基于Claude AI的Hacker News技术资讯自动推送系统"
 }

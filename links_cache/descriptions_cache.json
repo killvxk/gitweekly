@@ -469,5 +469,14 @@
   "https://github.com/KeygraphHQ/shannon": "AI驱动的全自主Web应用渗透测试工具",
   "https://github.com/Mowokuma/Griffin--Notes": "Griffin混淆保护技术逆向分析与工作原理研究笔记",
   "https://github.com/akamai/patchdiff-ai": "基于LLM的多智能体CVE漏洞根因分析自动化系统",
-  "https://github.com/wjcwjc77/hacker-news-agent": "基于Claude AI的Hacker News技术资讯自动推送系统"
+  "https://github.com/wjcwjc77/hacker-news-agent": "基于Claude AI的Hacker News技术资讯自动推送系统",
+  "https://github.com/kozmer/aad-bofs": "Azure AD 渗透测试 BOF 工具集",
+  "https://github.com/microsoft/VibeVoice": "微软开源的实时流式语音合成AI框架",
+  "https://github.com/caido-community/screenshot-mode": "Caido 请求响应截图美化插件",
+  "https://github.com/xnl-h4ck3r/xnLinkFinder": "多源端点与参数发现工具，支持爬虫、代理导出与归档文件分析",
+  "https://github.com/numman-ali/openskills": "Claude技能系统的CLI实现工具,支持跨AI编程助手使用",
+  "https://github.com/actionstatelabs/android-action-kernel": "Android原生应用AI智能体控制开源库",
+  "https://github.com/shotgunner101/Sysmon-LOLRMM": "基于Sysmon监控Windows系统RMM工具的配置方案",
+  "https://github.com/0xPlaygrounds/rig": "Rust 构建的 LLM 应用开发框架，支持多模型与向量存储集成",
+  "https://github.com/hyperlane-dev/hyperlane-quick-start": "基于Tokio的跨平台高性能Rust HTTP服务器库"
 }

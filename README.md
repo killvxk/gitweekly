@@ -3,6 +3,20 @@
 
 
 # 收集的项目地址
+https://github.com/microsoft/VibeVoice
+
+https://github.com/caido-community/screenshot-mode
+
+https://github.com/xnl-h4ck3r/xnLinkFinder
+
+https://github.com/numman-ali/openskills
+
+https://github.com/actionstatelabs/android-action-kernel
+
+https://github.com/shotgunner101/Sysmon-LOLRMM
+
+https://github.com/0xPlaygrounds/rig
+
 https://github.com/hyperlane-dev/hyperlane-quick-start
 
 https://github.com/Mowokuma/vm_str.hpp

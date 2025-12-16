@@ -1,0 +1,21 @@
+# 自动化周报生成工具配置文件
+# 复制此文件为 config.yaml 并根据需要修改
+
+# AI接口配置
+# 注意: 环境变量优先级高于配置文件
+ai_base_url: "https://api.anthropic.com"
+ai_model: "claude-sonnet-4-5-20250929"
+
+# API认证（二选一，环境变量优先）
+# ai_api_key: "sk-ant-your-api-key"
+# ai_auth_token: "your-oauth-token"
+
+# 处理配置
+max_links_per_week: 50    # 每周最多处理的链接数
+request_delay: 1.0         # 请求间隔（秒）
+cache_save_interval: 5     # 每处理N个链接保存一次缓存
+
+# 重试配置
+retry_max_attempts: 3      # 最大重试次数
+retry_delay: 1.0           # 初始重试延迟（秒）
+retry_backoff: 2.0         # 重试延迟倍数

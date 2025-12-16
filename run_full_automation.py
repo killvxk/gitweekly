@@ -10,17 +10,19 @@ if sys.platform == 'win32':
     except:
         pass
 
-from auto_weekly import AutoWeeklyProcessor, GIT_REPO_PATH
+from auto_weekly import AutoWeeklyProcessor, get_config, logger
 
 def main():
-    print("╔" + "="*58 + "╗")
-    print("║" + " "*15 + "开始处理所有周报的描述" + " "*21 + "║")
-    print("╚" + "="*58 + "╝")
+    logger.info("╔" + "="*58 + "╗")
+    logger.info("║" + " "*15 + "开始处理所有周报的描述" + " "*21 + "║")
+    logger.info("╚" + "="*58 + "╝")
 
-    processor = AutoWeeklyProcessor(GIT_REPO_PATH)
+    # 使用配置系统（自动从当前目录获取配置）
+    config = get_config()
+    processor = AutoWeeklyProcessor(config=config)
 
     # 直接调用处理函数，不需要交互
-    processor.process_existing_weeklies(max_links_per_week=50)
+    processor.process_existing_weeklies()
 
 if __name__ == "__main__":
     main()

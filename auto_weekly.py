@@ -8,38 +8,255 @@
 """
 import re
 import os
+import sys
 import json
 import time
+import logging
 import subprocess
 import requests
+import functools
 from pathlib import Path
 from datetime import datetime, timedelta
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from json import JSONDecodeError
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Callable, Any
 from urllib.parse import urlparse
 from collections import defaultdict
 
-# ============ 配置区域 ============
-# AI接口配置 - 支持两种认证方式
-# 1. ANTHROPIC_API_KEY: 传统API Key认证 (x-api-key header)
-# 2. ANTHROPIC_AUTH_TOKEN: OAuth Token认证 (Authorization: Bearer header)
-_BASE_URL = os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
-# 自动处理URL：如果不以/messages结尾，则追加 /v1/messages 或 /messages
-if _BASE_URL.endswith("/messages"):
-    AI_API_URL = _BASE_URL
-elif _BASE_URL.endswith("/v1"):
-    AI_API_URL = _BASE_URL.rstrip("/") + "/messages"
-else:
-    AI_API_URL = _BASE_URL.rstrip("/") + "/v1/messages"
-AI_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-AI_AUTH_TOKEN = os.getenv("ANTHROPIC_AUTH_TOKEN", "")  # OAuth token模式
-AI_MODEL = os.getenv("AI_MODEL", "claude-sonnet-4-5-20250929")  # Claude Sonnet 4.5
+# ============ 日志配置 ============
+def setup_logging(log_file: Optional[str] = None, level: int = logging.INFO):
+    """配置日志系统"""
+    handlers = []
 
-# Git仓库配置
-GIT_REPO_PATH = "f:/gitweekly"
-WEEKLY_DIR = Path(GIT_REPO_PATH) / "weekly"
-CACHE_DIR = Path(GIT_REPO_PATH) / "links_cache"
+    # 控制台处理器
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(level)
+    console_format = logging.Formatter('%(message)s')
+    console_handler.setFormatter(console_format)
+    handlers.append(console_handler)
+
+    # 文件处理器（可选）
+    if log_file:
+        file_handler = logging.FileHandler(log_file, encoding='utf-8')
+        file_handler.setLevel(logging.DEBUG)
+        file_format = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(file_format)
+        handlers.append(file_handler)
+
+    logging.basicConfig(level=level, handlers=handlers)
+    return logging.getLogger(__name__)
+
+logger = setup_logging()
+
+# ============ 重试装饰器 ============
+def retry(max_attempts: int = 3, delay: float = 1.0, backoff: float = 2.0,
+          exceptions: tuple = (requests.RequestException,)):
+    """
+    重试装饰器
+
+    Args:
+        max_attempts: 最大重试次数
+        delay: 初始延迟（秒）
+        backoff: 延迟倍数（每次重试后延迟乘以此值）
+        exceptions: 需要重试的异常类型
+    """
+    def decorator(func: Callable) -> Callable:
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs) -> Any:
+            current_delay = delay
+            last_exception = None
+
+            for attempt in range(1, max_attempts + 1):
+                try:
+                    return func(*args, **kwargs)
+                except exceptions as e:
+                    last_exception = e
+                    if attempt < max_attempts:
+                        logger.warning(f"    ⚠️ 第 {attempt} 次尝试失败: {e}")
+                        logger.info(f"    ⏳ {current_delay:.1f}秒后重试...")
+                        time.sleep(current_delay)
+                        current_delay *= backoff
+                    else:
+                        logger.error(f"    ✗ 已重试 {max_attempts} 次，放弃")
+
+            raise last_exception
+        return wrapper
+    return decorator
+
+# ============ 配置管理 ============
+@dataclass
+class Config:
+    """配置类"""
+    # AI接口配置
+    ai_base_url: str = "https://api.anthropic.com"
+    ai_api_key: str = ""
+    ai_auth_token: str = ""
+    ai_model: str = "claude-sonnet-4-5-20250929"
+
+    # 路径配置
+    repo_path: Path = field(default_factory=Path.cwd)
+    weekly_dir: Path = field(default=None)
+    cache_dir: Path = field(default=None)
+
+    # 处理配置
+    max_links_per_week: int = 50
+    request_delay: float = 1.0
+    cache_save_interval: int = 5
+
+    # 重试配置
+    retry_max_attempts: int = 3
+    retry_delay: float = 1.0
+    retry_backoff: float = 2.0
+
+    def __post_init__(self):
+        """初始化后处理"""
+        if self.weekly_dir is None:
+            self.weekly_dir = self.repo_path / "weekly"
+        if self.cache_dir is None:
+            self.cache_dir = self.repo_path / "links_cache"
+
+    @property
+    def ai_api_url(self) -> str:
+        """获取完整的AI API URL"""
+        base = self.ai_base_url.rstrip("/")
+        if base.endswith("/messages"):
+            return base
+        elif base.endswith("/v1"):
+            return base + "/messages"
+        else:
+            return base + "/v1/messages"
+
+    @classmethod
+    def from_env(cls, repo_path: Optional[Path] = None) -> "Config":
+        """从环境变量加载配置"""
+        if repo_path is None:
+            repo_path = Path.cwd()
+
+        return cls(
+            ai_base_url=os.getenv("ANTHROPIC_BASE_URL", "https://api.anthropic.com"),
+            ai_api_key=os.getenv("ANTHROPIC_API_KEY", ""),
+            ai_auth_token=os.getenv("ANTHROPIC_AUTH_TOKEN", ""),
+            ai_model=os.getenv("AI_MODEL", "claude-sonnet-4-5-20250929"),
+            repo_path=repo_path,
+            max_links_per_week=int(os.getenv("MAX_LINKS_PER_WEEK", "50")),
+            request_delay=float(os.getenv("REQUEST_DELAY", "1.0")),
+        )
+
+    @classmethod
+    def from_file(cls, config_file: Path, repo_path: Optional[Path] = None) -> "Config":
+        """从配置文件加载配置"""
+        if repo_path is None:
+            repo_path = Path.cwd()
+
+        config_data = {}
+        if config_file.exists():
+            try:
+                with open(config_file, 'r', encoding='utf-8') as f:
+                    if config_file.suffix in ('.yaml', '.yml'):
+                        try:
+                            import yaml
+                            config_data = yaml.safe_load(f) or {}
+                        except ImportError:
+                            logger.warning("未安装 PyYAML，使用环境变量配置")
+                    elif config_file.suffix == '.json':
+                        config_data = json.load(f)
+            except Exception as e:
+                logger.warning(f"读取配置文件失败: {e}，使用默认配置")
+
+        # 合并环境变量（环境变量优先级更高）
+        return cls(
+            ai_base_url=os.getenv("ANTHROPIC_BASE_URL", config_data.get("ai_base_url", "https://api.anthropic.com")),
+            ai_api_key=os.getenv("ANTHROPIC_API_KEY", config_data.get("ai_api_key", "")),
+            ai_auth_token=os.getenv("ANTHROPIC_AUTH_TOKEN", config_data.get("ai_auth_token", "")),
+            ai_model=os.getenv("AI_MODEL", config_data.get("ai_model", "claude-sonnet-4-5-20250929")),
+            repo_path=repo_path,
+            max_links_per_week=int(os.getenv("MAX_LINKS_PER_WEEK", config_data.get("max_links_per_week", 50))),
+            request_delay=float(os.getenv("REQUEST_DELAY", config_data.get("request_delay", 1.0))),
+            retry_max_attempts=config_data.get("retry_max_attempts", 3),
+            retry_delay=config_data.get("retry_delay", 1.0),
+            retry_backoff=config_data.get("retry_backoff", 2.0),
+        )
+
+# 全局配置（延迟初始化）
+_config: Optional[Config] = None
+
+def get_config() -> Config:
+    """获取全局配置"""
+    global _config
+    if _config is None:
+        repo_path = Path.cwd()
+        config_file = repo_path / "config.yaml"
+        if config_file.exists():
+            _config = Config.from_file(config_file, repo_path)
+        else:
+            _config = Config.from_env(repo_path)
+    return _config
+
+def set_config(config: Config):
+    """设置全局配置"""
+    global _config
+    _config = config
+
+# ============ 进度显示 ============
+class ProgressBar:
+    """简单的进度条显示"""
+
+    def __init__(self, total: int, desc: str = "", width: int = 40):
+        self.total = total
+        self.current = 0
+        self.desc = desc
+        self.width = width
+        self.start_time = time.time()
+
+    def update(self, n: int = 1):
+        """更新进度"""
+        self.current += n
+        self._display()
+
+    def set(self, n: int):
+        """设置当前进度"""
+        self.current = n
+        self._display()
+
+    def _display(self):
+        """显示进度条"""
+        if self.total == 0:
+            return
+
+        percent = self.current / self.total
+        filled = int(self.width * percent)
+        bar = '█' * filled + '░' * (self.width - filled)
+
+        elapsed = time.time() - self.start_time
+        if self.current > 0:
+            eta = elapsed / self.current * (self.total - self.current)
+            eta_str = format_duration(eta)
+        else:
+            eta_str = "--"
+
+        # 使用 \r 回到行首，覆盖之前的输出
+        sys.stdout.write(f'\r{self.desc} |{bar}| {self.current}/{self.total} ({percent:.0%}) ETA: {eta_str}')
+        sys.stdout.flush()
+
+    def finish(self):
+        """完成进度条"""
+        self.current = self.total
+        self._display()
+        print()  # 换行
+
+
+def format_duration(seconds: float) -> str:
+    """格式化时间为可读字符串"""
+    if seconds < 60:
+        return f"{seconds:.1f}秒"
+    elif seconds < 3600:
+        minutes = int(seconds // 60)
+        secs = seconds % 60
+        return f"{minutes}分{secs:.0f}秒"
+    else:
+        hours = int(seconds // 3600)
+        minutes = int((seconds % 3600) // 60)
+        return f"{hours}小时{minutes}分"
 # ================================
 
 
@@ -377,12 +594,13 @@ class DescriptionGenerator:
         http_status: Optional[int] = None
         error: Optional[str] = None
 
-    def __init__(self, cache_dir: Path):
+    def __init__(self, cache_dir: Path, config: Optional[Config] = None):
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(exist_ok=True)
         self.cache_file = self.cache_dir / 'descriptions_cache.json'
         self.cache = self.load_cache()
         self.dirty = False  # 标记缓存是否被修改
+        self.config = config or get_config()
 
     def load_cache(self) -> Dict:
         if self.cache_file.exists():
@@ -395,7 +613,7 @@ class DescriptionGenerator:
                     self.cache_file.rename(backup)
                 except OSError:
                     pass
-                print(f"? ?????? JSON??,????: {backup.name},?????")
+                logger.warning(f"缓存文件 JSON 解析失败，已备份: {backup.name}")
         return {}
 
     def save_cache(self):
@@ -434,6 +652,24 @@ class DescriptionGenerator:
 
         return owner, repo
 
+    def _fetch_with_retry(self, url: str, headers: dict, timeout: int = 10) -> requests.Response:
+        """带重试的HTTP请求"""
+        config = self.config
+        current_delay = config.retry_delay
+
+        for attempt in range(1, config.retry_max_attempts + 1):
+            try:
+                response = requests.get(url, headers=headers, timeout=timeout)
+                return response
+            except requests.RequestException as e:
+                if attempt < config.retry_max_attempts:
+                    logger.warning(f"    ⚠️ 请求失败 (第{attempt}次): {e}")
+                    logger.info(f"    ⏳ {current_delay:.1f}秒后重试...")
+                    time.sleep(current_delay)
+                    current_delay *= config.retry_backoff
+                else:
+                    raise
+
     def fetch_github_content(self, url: str) -> "DescriptionGenerator.GithubFetchResult":
         """获取GitHub仓库的README内容（使用raw.githubusercontent.com，无API限制）"""
         repo_info = self._parse_github_repo(url)
@@ -443,12 +679,12 @@ class DescriptionGenerator:
         owner, repo = repo_info
 
         headers = {
-            'User-Agent': 'Mozilla/5.0'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         }
 
         repo_page_url = f"https://github.com/{owner}/{repo}"
         try:
-            page_response = requests.get(repo_page_url, headers=headers, timeout=10)
+            page_response = self._fetch_with_retry(repo_page_url, headers, timeout=10)
         except requests.RequestException as e:
             return self.GithubFetchResult(status="error", error=str(e))
 
@@ -458,7 +694,7 @@ class DescriptionGenerator:
         description = ""
         if page_response.status_code == 200:
             desc_match = re.search(
-                r'<meta\\s+property="og:description"\\s+content="([^"]*)"\\s*/?>',
+                r'<meta\s+property="og:description"\s+content="([^"]*)"\s*/?>',
                 page_response.text,
                 flags=re.IGNORECASE,
             )
@@ -471,7 +707,7 @@ class DescriptionGenerator:
             for readme_name in readme_files:
                 raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{readme_name}"
                 try:
-                    readme_response = requests.get(raw_url, headers=headers, timeout=15)
+                    readme_response = self._fetch_with_retry(raw_url, headers, timeout=15)
                 except requests.RequestException:
                     continue
 
@@ -498,8 +734,36 @@ class DescriptionGenerator:
 
         return self.GithubFetchResult(status="error", http_status=page_response.status_code, error="No description/README found")
 
+    def _call_ai_with_retry(self, payload: dict, headers: dict) -> requests.Response:
+        """带重试的AI API请求"""
+        config = self.config
+        current_delay = config.retry_delay
+
+        for attempt in range(1, config.retry_max_attempts + 1):
+            try:
+                response = requests.post(
+                    config.ai_api_url,
+                    json=payload,
+                    headers=headers,
+                    timeout=30
+                )
+                # 如果是速率限制错误，也需要重试
+                if response.status_code == 429:
+                    raise requests.RequestException(f"Rate limited: {response.status_code}")
+                return response
+            except requests.RequestException as e:
+                if attempt < config.retry_max_attempts:
+                    logger.warning(f"    ⚠️ AI请求失败 (第{attempt}次): {e}")
+                    logger.info(f"    ⏳ {current_delay:.1f}秒后重试...")
+                    time.sleep(current_delay)
+                    current_delay *= config.retry_backoff
+                else:
+                    raise
+
     def call_ai_for_summary(self, url: str, content: str) -> Optional[str]:
         """调用AI接口生成中文摘要"""
+        config = self.config
+
         try:
             prompt = f"""请为以下GitHub项目生成一个简洁的中文描述（15-30个汉字）。
 要求：
@@ -516,51 +780,51 @@ class DescriptionGenerator:
 
             headers = {"Content-Type": "application/json"}
 
-            parsed = urlparse(AI_API_URL)
+            parsed = urlparse(config.ai_api_url)
             path = (parsed.path or "").lower().rstrip("/")
             is_anthropic_format = path.endswith("/v1/messages") or path.endswith("/messages")
 
             # 根据不同的AI接口格式调整请求
             if is_anthropic_format:
                 payload = {
-                    "model": AI_MODEL,
+                    "model": config.ai_model,
                     "max_tokens": 100,
                     "messages": [{"role": "user", "content": prompt}]
                 }
                 headers["anthropic-version"] = "2023-06-01"
 
                 # 优先使用 AUTH_TOKEN (OAuth)，否则使用 API_KEY
-                if AI_AUTH_TOKEN:
-                    headers["Authorization"] = f"Bearer {AI_AUTH_TOKEN}"
-                elif AI_API_KEY:
-                    headers["x-api-key"] = AI_API_KEY
+                if config.ai_auth_token:
+                    headers["Authorization"] = f"Bearer {config.ai_auth_token}"
+                elif config.ai_api_key:
+                    headers["x-api-key"] = config.ai_api_key
 
-            elif "ollama" in AI_API_URL.lower():
+            elif "ollama" in config.ai_api_url.lower():
                 payload = {
-                    "model": AI_MODEL,
+                    "model": config.ai_model,
                     "messages": [{"role": "user", "content": prompt}],
                     "stream": False
                 }
             else:
                 payload = {
-                    "model": AI_MODEL,
+                    "model": config.ai_model,
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0.7,
                     "max_tokens": 100
                 }
-                if AI_AUTH_TOKEN:
-                    headers["Authorization"] = f"Bearer {AI_AUTH_TOKEN}"
-                elif AI_API_KEY:
-                    headers["Authorization"] = f"Bearer {AI_API_KEY}"
+                if config.ai_auth_token:
+                    headers["Authorization"] = f"Bearer {config.ai_auth_token}"
+                elif config.ai_api_key:
+                    headers["Authorization"] = f"Bearer {config.ai_api_key}"
 
-            response = requests.post(AI_API_URL, json=payload, headers=headers, timeout=30)
+            response = self._call_ai_with_retry(payload, headers)
 
             if response.status_code == 200:
                 result = response.json()
 
                 if is_anthropic_format:
                     description = result.get('content', [{}])[0].get('text', '').strip()
-                elif "ollama" in AI_API_URL.lower():
+                elif "ollama" in config.ai_api_url.lower():
                     description = result.get('message', {}).get('content', '').strip()
                 else:
                     description = result.get('choices', [{}])[0].get('message', {}).get('content', '').strip()
@@ -568,12 +832,12 @@ class DescriptionGenerator:
                 description = description.strip('"\'').strip()
                 return description
             else:
-                print(f"    ✗ AI API 错误: HTTP {response.status_code}")
-                print(f"    ✗ 响应内容: {response.text[:200]}")
+                logger.error(f"    ✗ AI API 错误: HTTP {response.status_code}")
+                logger.debug(f"    ✗ 响应内容: {response.text[:200]}")
                 return None
 
         except Exception as e:
-            print(f"    ✗ AI API 异常: {e}")
+            logger.error(f"    ✗ AI API 异常: {e}")
             return None
 
     def is_cached(self, url: str) -> bool:
@@ -678,104 +942,186 @@ class WeeklyUpdater:
 class AutoWeeklyProcessor:
     """完全自动化的周报处理器"""
 
-    def __init__(self, repo_path: str):
-        self.repo_path = Path(repo_path)
-        self.generator = WeeklyGenerator(repo_path)
-        self.desc_gen = DescriptionGenerator(CACHE_DIR)
-        self.updater = WeeklyUpdater(WEEKLY_DIR)
+    def __init__(self, repo_path: Optional[str] = None, config: Optional[Config] = None):
+        self.config = config or get_config()
+        self.repo_path = Path(repo_path) if repo_path else self.config.repo_path
+        self.generator = WeeklyGenerator(str(self.repo_path))
+        self.desc_gen = DescriptionGenerator(self.config.cache_dir, self.config)
+        self.updater = WeeklyUpdater(self.config.weekly_dir)
 
-    def process_existing_weeklies(self, max_links_per_week: int = 50):
+    def _process_links(self, links: List[str], max_links: int, show_progress: bool = True) -> Dict[str, str]:
+        """
+        处理链接列表，生成描述（公共方法，消除代码重复）
+
+        Args:
+            links: 需要处理的链接列表
+            max_links: 最大处理数量
+            show_progress: 是否显示进度条
+
+        Returns:
+            Dict[str, str]: URL -> 描述的映射
+        """
+        if len(links) > max_links:
+            logger.info(f"⚠️  链接较多，本次只处理前 {max_links} 个")
+            links = links[:max_links]
+
+        descriptions = {}
+        config = self.config
+
+        # 初始化进度条
+        progress = ProgressBar(len(links), desc="处理链接") if show_progress else None
+
+        for j, url in enumerate(links, 1):
+            if not show_progress:
+                logger.info(f"\n  [{j}/{len(links)}] {url}")
+
+            # 先检查缓存
+            if self.desc_gen.is_cached(url):
+                desc = self.desc_gen.get_cached(url)
+                if desc == "__DELETED__":
+                    if not show_progress:
+                        logger.info(f"    ⊘ 跳过 (链接不可用)")
+                else:
+                    if not show_progress:
+                        logger.info(f"    ✓ 缓存命中: {desc}")
+                descriptions[url] = desc
+                if progress:
+                    progress.update()
+                continue
+
+            # 没有缓存，需要网络请求
+            if not show_progress:
+                logger.info(f"    → 获取GitHub内容...")
+
+            desc = self.desc_gen.generate_description(url)
+
+            if desc == "__DELETED__":
+                if not show_progress:
+                    logger.info(f"    ⊘ 链接不可用 (404)")
+                descriptions[url] = desc
+            elif desc:
+                if not show_progress:
+                    logger.info(f"    ✓ 生成: {desc}")
+                descriptions[url] = desc
+
+                # 定期保存缓存
+                if j % config.cache_save_interval == 0:
+                    self.desc_gen.save_cache()
+                    if not show_progress:
+                        logger.info(f"    💾 已保存缓存 ({j}/{len(links)})")
+            else:
+                if not show_progress:
+                    logger.info(f"    ✗ 生成失败")
+
+            if progress:
+                progress.update()
+
+            # 只在网络请求后才sleep
+            time.sleep(config.request_delay)
+
+        if progress:
+            progress.finish()
+
+        # 最终保存缓存
+        self.desc_gen.save_cache()
+
+        return descriptions
+
+    def _process_weekly_file(self, file_path: Path, max_links: int, file_index: int = 0,
+                              total_files: int = 0, show_progress: bool = True) -> Tuple[int, int]:
+        """
+        处理单个周报文件（公共方法，消除代码重复）
+
+        Args:
+            file_path: 周报文件路径
+            max_links: 最大处理链接数
+            file_index: 当前文件索引（用于显示进度）
+            total_files: 总文件数（用于显示进度）
+            show_progress: 是否显示进度条
+
+        Returns:
+            Tuple[int, int]: (更新数量, 删除数量)
+        """
+        filename = file_path.name
+
+        if file_index > 0 and total_files > 0:
+            logger.info(f"\n{'='*60}")
+            logger.info(f"[{file_index}/{total_files}] 处理: {filename}")
+            logger.info('='*60)
+        else:
+            logger.info(f"\n处理: {filename}")
+
+        links = self.updater.extract_links_needing_descriptions(file_path)
+
+        if not links:
+            logger.info("  ✓ 所有链接都已有描述")
+            return 0, 0
+
+        logger.info(f"📊 发现 {len(links)} 个需要描述的链接")
+
+        # 处理链接
+        descriptions = self._process_links(links, max_links, show_progress)
+
+        # 更新文件
+        if descriptions:
+            logger.info(f"\n📝 更新周报文件...")
+            updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
+            if updated > 0:
+                logger.info(f"✅ 成功更新 {updated} 个描述到 {filename}")
+            if deleted > 0:
+                logger.info(f"🗑️  删除 {deleted} 个无效链接")
+            return updated, deleted
+        else:
+            logger.info(f"\n⚠️  没有成功生成任何描述")
+            return 0, 0
+
+    def process_existing_weeklies(self, max_links_per_week: int = None):
         """仅为已有周报生成描述（非交互模式）"""
-        print("\n" + "="*60)
-        print("📝 为所有已存在的周报文件生成描述")
-        print("="*60)
-        print(f"📊 每周最多处理: {max_links_per_week} 个链接\n")
+        if max_links_per_week is None:
+            max_links_per_week = self.config.max_links_per_week
 
+        logger.info("\n" + "="*60)
+        logger.info("📝 为所有已存在的周报文件生成描述")
+        logger.info("="*60)
+        logger.info(f"📊 每周最多处理: {max_links_per_week} 个链接\n")
+
+        weekly_dir = self.config.weekly_dir
         weekly_files = sorted([
-            f for f in os.listdir(str(WEEKLY_DIR))
+            f for f in os.listdir(str(weekly_dir))
             if f.startswith('weekly-') and f.endswith('.md')
         ])
 
-        print(f"发现 {len(weekly_files)} 个周报文件\n")
+        logger.info(f"发现 {len(weekly_files)} 个周报文件\n")
+
+        total_updated = 0
+        total_deleted = 0
 
         for i, filename in enumerate(weekly_files, 1):
-            file_path = WEEKLY_DIR / filename
-            print(f"\n{'='*60}")
-            print(f"[{i}/{len(weekly_files)}] 处理: {filename}")
-            print('='*60)
+            file_path = weekly_dir / filename
+            updated, deleted = self._process_weekly_file(
+                file_path, max_links_per_week,
+                file_index=i, total_files=len(weekly_files),
+                show_progress=False
+            )
+            total_updated += updated
+            total_deleted += deleted
 
-            links = self.updater.extract_links_needing_descriptions(file_path)
-            if not links:
-                print("  ✓ 已完成")
-                continue
+        logger.info("\n" + "="*60)
+        logger.info("🎉 所有周报处理完成！")
+        logger.info(f"📊 总计更新: {total_updated} 个描述，删除: {total_deleted} 个无效链接")
+        logger.info("="*60)
 
-            print(f"📊 发现 {len(links)} 个需要描述的链接")
-
-            if len(links) > max_links_per_week:
-                print(f"⚠️  本次只处理前 {max_links_per_week} 个链接")
-                links = links[:max_links_per_week]
-
-            descriptions = {}
-
-            for j, url in enumerate(links, 1):
-                print(f"\n  [{j}/{len(links)}] 处理: {url}")
-
-                # 先检查缓存
-                if self.desc_gen.is_cached(url):
-                    desc = self.desc_gen.get_cached(url)
-                    if desc == "__DELETED__":
-                        print(f"    ⊘ 跳过 (链接不可用)")
-                        descriptions[url] = desc  # 传递删除标记
-                    else:
-                        print(f"    ✓ 缓存命中: {desc}")
-                        descriptions[url] = desc
-                    continue
-
-                # 没有缓存，需要网络请求
-                print(f"    → 获取GitHub内容...")
-                desc = self.desc_gen.generate_description(url)
-
-                if desc == "__DELETED__":
-                    print(f"    ⊘ 链接不可用 (404)")
-                    descriptions[url] = desc  # 传递删除标记
-                elif desc:
-                    print(f"    ✓ 生成: {desc}")
-                    descriptions[url] = desc
-
-                    # 每5个保存一次
-                    if j % 5 == 0:
-                        self.desc_gen.save_cache()
-                        print(f"    💾 已保存缓存 ({j}/{len(links)})")
-                else:
-                    print(f"    ✗ 生成失败")
-
-                time.sleep(1)  # 只在网络请求后才sleep
-
-            self.desc_gen.save_cache()
-
-            if descriptions:
-                print(f"\n📝 更新周报文件...")
-                updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
-                if updated > 0:
-                    print(f"✅ 成功更新 {updated} 个描述到 {filename}")
-                if deleted > 0:
-                    print(f"🗑️  删除 {deleted} 个无效链接")
-            else:
-                print(f"\n⚠️  没有成功生成任何描述")
-
-        print("\n" + "="*60)
-        print("🎉 所有周报处理完成！")
-        print("="*60)
-
-    def process_current_week(self, max_links: int = 50):
+    def process_current_week(self, max_links: int = None):
         """生成当前周的周报（含AI描述）"""
-        print("\n" + "="*60)
-        print("📅 生成当前周的周报")
-        print("="*60)
+        if max_links is None:
+            max_links = self.config.max_links_per_week
+
+        logger.info("\n" + "="*60)
+        logger.info("📅 生成当前周的周报")
+        logger.info("="*60)
 
         # 获取当前周的日期范围
         today = datetime.now()
-        # 计算本周一（周一是0）
         days_since_monday = today.weekday()
         monday = today - timedelta(days=days_since_monday)
         sunday = monday + timedelta(days=6)
@@ -783,33 +1129,32 @@ class AutoWeeklyProcessor:
         week_start = monday.strftime('%Y-%m-%d')
         week_end = sunday.strftime('%Y-%m-%d')
 
-        print(f"📊 当前周期: {week_start} ~ {week_end}")
-        print(f"📊 最多处理: {max_links} 个链接\n")
+        logger.info(f"📊 当前周期: {week_start} ~ {week_end}")
+        logger.info(f"📊 最多处理: {max_links} 个链接\n")
 
         # 生成本周的周报文件
+        weekly_dir = self.config.weekly_dir
         filename = f"weekly-{week_start}_{week_end}.md"
-        file_path = WEEKLY_DIR / filename
+        file_path = weekly_dir / filename
 
-        print(f"📝 生成周报文件: {filename}")
+        logger.info(f"📝 生成周报文件: {filename}")
 
         # 获取本周的Git提交
         weekly_data = self.generator.get_weekly_commits(week_start, week_end)
 
         if not weekly_data['commits']:
-            print(f"⚠️  本周 ({week_start} ~ {week_end}) 没有提交记录")
+            logger.warning(f"⚠️  本周 ({week_start} ~ {week_end}) 没有提交记录")
             return
 
-        print(f"✓ 发现 {len(weekly_data['commits'])} 个提交")
+        logger.info(f"✓ 发现 {len(weekly_data['commits'])} 个提交")
 
         # 提取所有链接
         links_by_file = self.generator.extract_links_from_diffs(weekly_data['commits'])
-
-        # 统计总链接数
         total_links = sum(len(links) for links in links_by_file.values())
-        print(f"✓ 提取 {total_links} 个链接")
+        logger.info(f"✓ 提取 {total_links} 个链接")
 
         if total_links == 0:
-            print("⚠️  本周没有新增链接")
+            logger.warning("⚠️  本周没有新增链接")
             return
 
         # 生成markdown内容
@@ -819,191 +1164,91 @@ class AutoWeeklyProcessor:
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(content)
 
-        print(f"✓ 周报文件已生成: {file_path}")
+        logger.info(f"✓ 周报文件已生成: {file_path}")
 
         # 为链接生成描述
-        print(f"\n{'='*60}")
-        print("🤖 开始为链接生成AI描述...")
-        print('='*60)
+        logger.info(f"\n{'='*60}")
+        logger.info("🤖 开始为链接生成AI描述...")
+        logger.info('='*60)
 
-        links = self.updater.extract_links_needing_descriptions(file_path)
+        updated, deleted = self._process_weekly_file(file_path, max_links, show_progress=False)
 
-        if not links:
-            print("✅ 所有链接都已有描述")
-            return
+        logger.info("\n" + "="*60)
+        logger.info(f"🎉 当前周周报生成完成！")
+        logger.info(f"📄 文件位置: {file_path}")
+        logger.info("="*60)
 
-        print(f"📊 发现 {len(links)} 个需要描述的链接")
-
-        if len(links) > max_links:
-            print(f"⚠️  链接较多，本次只处理前 {max_links} 个")
-            links = links[:max_links]
-
-        descriptions = {}
-
-        for j, url in enumerate(links, 1):
-            print(f"\n  [{j}/{len(links)}] {url}")
-
-            # 先检查缓存
-            if self.desc_gen.is_cached(url):
-                desc = self.desc_gen.get_cached(url)
-                if desc == "__DELETED__":
-                    print(f"    ⊘ 跳过 (链接不可用)")
-                    descriptions[url] = desc
-                else:
-                    print(f"    ✓ 缓存命中: {desc}")
-                    descriptions[url] = desc
-                continue
-
-            # 没有缓存，需要网络请求
-            print(f"    → 获取GitHub内容...")
-            desc = self.desc_gen.generate_description(url)
-
-            if desc == "__DELETED__":
-                print(f"    ⊘ 链接不可用 (404)")
-                descriptions[url] = desc
-            elif desc:
-                print(f"    ✓ 生成: {desc}")
-                descriptions[url] = desc
-
-                # 每5个保存一次
-                if j % 5 == 0:
-                    self.desc_gen.save_cache()
-                    print(f"    💾 已保存缓存 ({j}/{len(links)})")
-            else:
-                print(f"    ✗ 生成失败")
-
-            time.sleep(1)  # 只在网络请求后才sleep
-
-        # 保存缓存
-        self.desc_gen.save_cache()
-
-        # 更新文件
-        if descriptions:
-            updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
-            if updated > 0:
-                print(f"\n✅ 成功更新 {updated} 个描述")
-            if deleted > 0:
-                print(f"🗑️  删除 {deleted} 个无效链接")
-        else:
-            print(f"\n⚠️  没有成功生成任何描述")
-
-        print("\n" + "="*60)
-        print(f"🎉 当前周周报生成完成！")
-        print(f"📄 文件位置: {file_path}")
-        print("="*60)
-
-    def process_all(self, start_date: str = "2025-07-21", max_links_per_week: int = 50):
+    def process_all(self, start_date: str = "2025-07-21", max_links_per_week: int = None):
         """完全自动化处理"""
-        print("\n" + "="*60)
-        print("🚀 启动完全自动化周报生成流程")
-        print("="*60)
-        print(f"📍 仓库路径: {self.repo_path}")
-        print(f"🤖 AI模型: {AI_MODEL}")
-        print(f"📊 每周最多处理: {max_links_per_week} 个链接\n")
+        if max_links_per_week is None:
+            max_links_per_week = self.config.max_links_per_week
+
+        config = self.config
+
+        logger.info("\n" + "="*60)
+        logger.info("🚀 启动完全自动化周报生成流程")
+        logger.info("="*60)
+        logger.info(f"📍 仓库路径: {self.repo_path}")
+        logger.info(f"🤖 AI模型: {config.ai_model}")
+        logger.info(f"📊 每周最多处理: {max_links_per_week} 个链接\n")
 
         # 步骤1: 生成周报文件
         generated_files = self.generator.generate_weekly_files(start_date)
 
         if not generated_files:
-            print("\n⚠️  没有可处理的周报文件")
+            logger.warning("\n⚠️  没有可处理的周报文件")
             return
 
         # 步骤2: 为每个周报生成描述
-        print("\n" + "="*60)
-        print("📝 第二步：生成项目描述并更新周报")
-        print("="*60)
+        logger.info("\n" + "="*60)
+        logger.info("📝 第二步：生成项目描述并更新周报")
+        logger.info("="*60)
+
+        weekly_dir = self.config.weekly_dir
+        total_updated = 0
+        total_deleted = 0
 
         for i, filename in enumerate(generated_files, 1):
-            file_path = WEEKLY_DIR / filename
+            file_path = weekly_dir / filename
 
-            print(f"\n{'#'*60}")
-            print(f"# [{i}/{len(generated_files)}] 处理: {filename}")
-            print(f"{'#'*60}")
+            logger.info(f"\n{'#'*60}")
+            logger.info(f"# [{i}/{len(generated_files)}] 处理: {filename}")
+            logger.info(f"{'#'*60}")
 
-            # 提取需要描述的链接
-            links = self.updater.extract_links_needing_descriptions(file_path)
+            updated, deleted = self._process_weekly_file(
+                file_path, max_links_per_week,
+                show_progress=False
+            )
+            total_updated += updated
+            total_deleted += deleted
 
-            if not links:
-                print("✅ 所有链接都已有描述")
-                continue
-
-            print(f"📊 发现 {len(links)} 个需要描述的链接")
-
-            # 限制处理数量
-            if len(links) > max_links_per_week:
-                print(f"⚠️  链接较多，本次只处理前 {max_links_per_week} 个")
-                links = links[:max_links_per_week]
-
-            descriptions = {}
-
-            # 处理每个链接
-            for j, url in enumerate(links, 1):
-                print(f"\n  [{j}/{len(links)}] {url}")
-
-                # 先检查缓存
-                if self.desc_gen.is_cached(url):
-                    desc = self.desc_gen.get_cached(url)
-                    print(f"    ✓ 缓存命中: {desc}")
-                    descriptions[url] = desc
-                    continue
-
-                # 没有缓存，需要网络请求
-                print(f"    → 获取GitHub内容...")
-                description = self.desc_gen.generate_description(url)
-
-                if description:
-                    print(f"    ✓ 生成: {description}")
-                    descriptions[url] = description
-
-                    # 每5个保存一次
-                    if j % 5 == 0:
-                        self.desc_gen.save_cache()
-                        print(f"    💾 已保存缓存 ({j}/{len(links)})")
-                else:
-                    print(f"    ✗ 生成失败")
-
-                # 避免请求过快（只在网络请求后才sleep）
-                time.sleep(1)
-
-            # 保存缓存
-            self.desc_gen.save_cache()
-
-            # 更新文件
-            if descriptions:
-                updated, deleted = self.updater.update_weekly_file(file_path, descriptions)
-                if updated > 0:
-                    print(f"\n✅ 成功更新 {updated} 个描述")
-                if deleted > 0:
-                    print(f"🗑️  删除 {deleted} 个无效链接")
-            else:
-                print(f"\n⚠️  没有成功生成任何描述")
-
-        print("\n" + "="*60)
-        print("🎉 所有周报处理完成！")
-        print("="*60)
+        logger.info("\n" + "="*60)
+        logger.info("🎉 所有周报处理完成！")
+        logger.info(f"📊 总计更新: {total_updated} 个描述，删除: {total_deleted} 个无效链接")
+        logger.info("="*60)
 
     def commit_changes(self):
         """提交周报文件和缓存的变更"""
-        print("\n" + "="*60)
-        print("提交周报变更")
-        print("="*60)
+        logger.info("\n" + "="*60)
+        logger.info("提交周报变更")
+        logger.info("="*60)
 
         try:
             # 检查变更
-            print("1. 检查 'git status'...")
+            logger.info("1. 检查 'git status'...")
             status_result = subprocess.run(
                 ['git', '-C', str(self.repo_path), 'status', '--short'],
                 capture_output=True, text=True, encoding='utf-8', errors='ignore'
             )
             if not status_result.stdout.strip():
-                print("✅ 没有检测到任何变更，无需提交。")
+                logger.info("✅ 没有检测到任何变更，无需提交。")
                 return
 
-            print("检测到以下变更:")
-            print(status_result.stdout)
+            logger.info("检测到以下变更:")
+            logger.info(status_result.stdout)
 
             # 添加周报文件
-            print("2. 添加变更到暂存区...")
+            logger.info("2. 添加变更到暂存区...")
             subprocess.run(
                 ['git', '-C', str(self.repo_path), 'add', 'weekly/*.md'],
                 check=True
@@ -1012,47 +1257,32 @@ class AutoWeeklyProcessor:
                 ['git', '-C', str(self.repo_path), 'add', '-f', 'links_cache/descriptions_cache.json'],
                 check=True
             )
-            print("  ✓ 'weekly/' 目录下的 .md 文件")
-            print("  ✓ 'links_cache/descriptions_cache.json'")
+            logger.info("  ✓ 'weekly/' 目录下的 .md 文件")
+            logger.info("  ✓ 'links_cache/descriptions_cache.json'")
 
             # 提交变更
             commit_message = f"docs: weekly update {datetime.now().strftime('%Y-%m-%d')}"
-            print(f"3. 提交变更，提交信息: '{commit_message}'...")
+            logger.info(f"3. 提交变更，提交信息: '{commit_message}'...")
             subprocess.run(
                 ['git', '-C', str(self.repo_path), 'commit', '-m', commit_message],
                 check=True,
                 capture_output=True, text=True, encoding='utf-8', errors='ignore'
             )
-            print("✅ 变更已成功提交！")
+            logger.info("✅ 变更已成功提交！")
 
         except subprocess.CalledProcessError as e:
-            print(f"❌ 提交过程中发生错误: {e}")
-            print(f"  → Stderr: {e.stderr}")
+            logger.error(f"❌ 提交过程中发生错误: {e}")
+            logger.error(f"  → Stderr: {e.stderr}")
         except Exception as e:
-            print(f"❌ 发生未知错误: {e}")
-
-
-def format_duration(seconds: float) -> str:
-    """格式化时间为可读字符串"""
-    if seconds < 60:
-        return f"{seconds:.1f}秒"
-    elif seconds < 3600:
-        minutes = int(seconds // 60)
-        secs = seconds % 60
-        return f"{minutes}分{secs:.1f}秒"
-    else:
-        hours = int(seconds // 3600)
-        minutes = int((seconds % 3600) // 60)
-        secs = seconds % 60
-        return f"{hours}小时{minutes}分{secs:.1f}秒"
+            logger.error(f"❌ 发生未知错误: {e}")
 
 
 def main():
+    """主函数"""
     # 记录开始时间
     script_start_time = time.time()
 
-    # 设置控制台编码
-    import sys
+    # 设置控制台编码 (Windows)
     if sys.platform == 'win32':
         try:
             import codecs
@@ -1060,47 +1290,53 @@ def main():
         except:
             pass
 
-    print("""
+    logger.info("""
 ╔════════════════════════════════════════════════════════════╗
 ║         完全自动化周报生成工具                              ║
 ║   Git历史 → 周报生成 → AI描述 → 自动更新                   ║
 ╚════════════════════════════════════════════════════════════╝
 """)
 
+    # 初始化配置
+    config = get_config()
+
     # 检查认证配置（支持两种方式）
-    if not AI_API_KEY and not AI_AUTH_TOKEN:
-        print("❌ 错误：未设置认证信息")
-        print("\n请设置以下任一环境变量：")
-        print("  方式1 - API Key:")
-        print("    Windows: $env:ANTHROPIC_API_KEY='your-key'")
-        print("    Linux:   export ANTHROPIC_API_KEY='your-key'")
-        print("\n  方式2 - OAuth Token:")
-        print("    Windows: $env:ANTHROPIC_AUTH_TOKEN='your-token'")
-        print("    Linux:   export ANTHROPIC_AUTH_TOKEN='your-token'")
+    if not config.ai_api_key and not config.ai_auth_token:
+        logger.error("❌ 错误：未设置认证信息")
+        logger.info("\n请设置以下任一环境变量：")
+        logger.info("  方式1 - API Key:")
+        logger.info("    Windows: $env:ANTHROPIC_API_KEY='your-key'")
+        logger.info("    Linux:   export ANTHROPIC_API_KEY='your-key'")
+        logger.info("\n  方式2 - OAuth Token:")
+        logger.info("    Windows: $env:ANTHROPIC_AUTH_TOKEN='your-token'")
+        logger.info("    Linux:   export ANTHROPIC_AUTH_TOKEN='your-token'")
         return
 
-    # 显示当前认证方式
-    if AI_AUTH_TOKEN:
-        print(f"🔐 认证方式: OAuth Token (ANTHROPIC_AUTH_TOKEN)")
+    # 显示当前配置
+    if config.ai_auth_token:
+        logger.info(f"🔐 认证方式: OAuth Token (ANTHROPIC_AUTH_TOKEN)")
     else:
-        print(f"🔐 认证方式: API Key (ANTHROPIC_API_KEY)")
+        logger.info(f"🔐 认证方式: API Key (ANTHROPIC_API_KEY)")
+
+    logger.info(f"📍 仓库路径: {config.repo_path}")
+    logger.info(f"🤖 AI模型: {config.ai_model}")
 
     # 选择模式
-    print("\n请选择运行模式：")
-    print("1. 完全自动化（生成周报 + AI描述）")
-    print("2. 仅生成周报文件（不生成描述）")
-    print("3. 仅为已有周报生成描述")
-    print("4. 生成当前周的周报（含AI描述）")
-    print("5. 提交周报变更")
+    logger.info("\n请选择运行模式：")
+    logger.info("1. 完全自动化（生成周报 + AI描述）")
+    logger.info("2. 仅生成周报文件（不生成描述）")
+    logger.info("3. 仅为已有周报生成描述")
+    logger.info("4. 生成当前周的周报（含AI描述）")
+    logger.info("5. 提交周报变更")
 
     choice = input("\n请输入选项 (1/2/3/4/5): ").strip()
 
-    processor = AutoWeeklyProcessor(GIT_REPO_PATH)
+    processor = AutoWeeklyProcessor(config=config)
 
     if choice == "1":
         # 完全自动化
         start_date = input("起始日期 (默认: 2025-07-21): ").strip() or "2025-07-21"
-        max_links = int(input("每周最多处理链接数 (默认: 50): ").strip() or "50")
+        max_links = int(input(f"每周最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
         processor.process_all(start_date, max_links)
 
     elif choice == "2":
@@ -1109,77 +1345,14 @@ def main():
         processor.generator.generate_weekly_files(start_date)
 
     elif choice == "3":
-        # 仅生成描述
-        print("\n此模式将为所有已存在的周报文件生成描述")
-        max_links = int(input("每周最多处理链接数 (默认: 50): ").strip() or "50")
-
-        weekly_files = sorted([
-            f for f in os.listdir(WEEKLY_DIR)
-            if f.startswith('weekly-') and f.endswith('.md')
-        ])
-
-        for i, filename in enumerate(weekly_files, 1):
-            file_path = WEEKLY_DIR / filename
-            print(f"\n{'='*60}")
-            print(f"[{i}/{len(weekly_files)}] 处理: {filename}")
-            print('='*60)
-
-            links = processor.updater.extract_links_needing_descriptions(file_path)
-            if not links:
-                print("✓ 该文件所有链接都已有描述\n")
-                continue
-
-            print(f"📊 发现 {len(links)} 个需要描述的链接")
-
-            if len(links) > max_links:
-                print(f"⚠️  本次只处理前 {max_links} 个链接")
-                links = links[:max_links]
-
-            descriptions = {}
-
-            for j, url in enumerate(links, 1):
-                print(f"\n  [{j}/{len(links)}] 处理: {url}")
-
-                # 先检查缓存
-                if processor.desc_gen.is_cached(url):
-                    desc = processor.desc_gen.get_cached(url)
-                    print(f"    ✓ 缓存命中: {desc}")
-                    descriptions[url] = desc
-                    continue
-
-                # 没有缓存，需要网络请求
-                print(f"    → 获取GitHub内容...")
-                desc = processor.desc_gen.generate_description(url)
-
-                if desc:
-                    print(f"    ✓ 生成: {desc}")
-                    descriptions[url] = desc
-
-                    # 每5个保存一次
-                    if j % 5 == 0:
-                        processor.desc_gen.save_cache()
-                        print(f"    💾 已保存缓存 ({j}/{len(links)})")
-                else:
-                    print(f"    ✗ 生成失败")
-
-                time.sleep(1)  # 只在网络请求后才sleep
-
-            processor.desc_gen.save_cache()
-
-            if descriptions:
-                print(f"\n📝 更新周报文件...")
-                updated, deleted = processor.updater.update_weekly_file(file_path, descriptions)
-                if updated > 0:
-                    print(f"✅ 成功更新 {updated} 个描述")
-                if deleted > 0:
-                    print(f"🗑️  删除 {deleted} 个无效链接")
-                print()
-            else:
-                print(f"\n⚠️  没有成功生成任何描述\n")
+        # 仅生成描述（使用重构后的方法，消除代码重复）
+        logger.info("\n此模式将为所有已存在的周报文件生成描述")
+        max_links = int(input(f"每周最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
+        processor.process_existing_weeklies(max_links)
 
     elif choice == "4":
         # 生成当前周的周报
-        max_links = int(input("最多处理链接数 (默认: 50): ").strip() or "50")
+        max_links = int(input(f"最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
         processor.process_current_week(max_links)
 
     elif choice == "5":
@@ -1187,11 +1360,11 @@ def main():
         processor.commit_changes()
 
     else:
-        print("❌ 无效的选项")
+        logger.error("❌ 无效的选项")
 
     # 打印总运行时间
     total_time = time.time() - script_start_time
-    print(f"\n⏱️  总运行时间: {format_duration(total_time)}")
+    logger.info(f"\n⏱️  总运行时间: {format_duration(total_time)}")
 
 
 if __name__ == "__main__":

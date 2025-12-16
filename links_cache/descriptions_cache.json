@@ -493,5 +493,6 @@
   "https://github.com/DominicBreuker/pspy": "无需root权限的Linux进程监控工具",
   "https://github.com/kozmer/sigdream": "基于SROP的Linux进程内存加密混淆工具",
   "https://github.com/kozmer/silentpulse": "Linux平台事件驱动的睡眠混淆技术POC实现",
-  "https://github.com/kozmer/rspy": "Rust实现的Linux进程监控工具，支持D-Bus通信"
+  "https://github.com/kozmer/rspy": "Rust实现的Linux进程监控工具，支持D-Bus通信",
+  "https://github.com/RistBS/grimreaper": "基于APC的改进型内存混淆保护工具"
 }

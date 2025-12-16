@@ -3,6 +3,38 @@
 
 
 # 收集的项目地址
+https://github.com/19h/chernobog
+
+https://github.com/yz9yt/BugTrace-AI
+
+https://github.com/donlon/cloudflare-error-page
+
+https://github.com/MatheuZSecurity/Singularity
+
+https://github.com/RistBS/grimreaper
+
+https://github.com/productdevbook/port-killer
+
+https://github.com/ucsb-mlsec/VulnLLM-R
+
+https://github.com/HKUDS/AnyTool
+
+https://github.com/nexxeln/opencode-config
+
+https://github.com/DePasqualeOrg/mlx-swift-audio
+
+https://github.com/simstudioai/sim
+
+https://github.com/klezVirus/Moonwalk--
+
+https://github.com/DominicBreuker/pspy
+
+https://github.com/kozmer/sigdream
+
+https://github.com/kozmer/silentpulse
+
+https://github.com/kozmer/rspy
+
 https://github.com/microsoft/VibeVoice
 
 https://github.com/caido-community/screenshot-mode

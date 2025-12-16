@@ -478,5 +478,20 @@
   "https://github.com/actionstatelabs/android-action-kernel": "Android原生应用AI智能体控制开源库",
   "https://github.com/shotgunner101/Sysmon-LOLRMM": "基于Sysmon监控Windows系统RMM工具的配置方案",
   "https://github.com/0xPlaygrounds/rig": "Rust 构建的 LLM 应用开发框架，支持多模型与向量存储集成",
-  "https://github.com/hyperlane-dev/hyperlane-quick-start": "基于Tokio的跨平台高性能Rust HTTP服务器库"
+  "https://github.com/hyperlane-dev/hyperlane-quick-start": "基于Tokio的跨平台高性能Rust HTTP服务器库",
+  "https://github.com/19h/chernobog": "IDA Pro反混淆插件，专门对抗Hikari LLVM代码混淆保护",
+  "https://github.com/yz9yt/BugTrace-AI": "基于生成式AI的Web安全漏洞分析与渗透测试工具套件",
+  "https://github.com/donlon/cloudflare-error-page": "Cloudflare 风格错误页面生成器",
+  "https://github.com/MatheuZSecurity/Singularity": "隐蔽性Linux内核级Rootkit，支持进程隐藏与权限提升",
+  "https://github.com/productdevbook/port-killer": "macOS 菜单栏端口管理工具，快速查找并终止占用端口的进程",
+  "https://github.com/ucsb-mlsec/VulnLLM-R": "基于推理的漏洞检测专用大语言模型",
+  "https://github.com/HKUDS/AnyTool": "通用AI智能体工具编排层,支持快速检索与自动化执行",
+  "https://github.com/nexxeln/opencode-config": "Claude AI 代码助手的多工具配置与多智能体协作框架",
+  "https://github.com/DePasqualeOrg/mlx-swift-audio": "基于MLX的Swift音频处理库，支持多模型语音合成与识别",
+  "https://github.com/simstudioai/sim": "可视化AI智能体工作流构建与部署平台",
+  "https://github.com/klezVirus/Moonwalk--": "栈回溯欺骗与内存加密结合的恶意代码隐藏技术",
+  "https://github.com/DominicBreuker/pspy": "无需root权限的Linux进程监控工具",
+  "https://github.com/kozmer/sigdream": "基于SROP的Linux进程内存加密混淆工具",
+  "https://github.com/kozmer/silentpulse": "Linux平台事件驱动的睡眠混淆技术POC实现",
+  "https://github.com/kozmer/rspy": "Rust实现的Linux进程监控工具，支持D-Bus通信"
 }

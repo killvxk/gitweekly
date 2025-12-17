@@ -1,4 +1,8 @@
 # 有趣的文章
+#### 桌面窗口管理器数组越界 LPE
+
+https://maccarita.com/posts/idesaster/
+
 #### Windows 中的隐秘驱动程序加载
 
 https://whiteknightlabs.com/2025/11/25/discreet-driver-loading-in-windows/

@@ -3,6 +3,22 @@
 
 
 # 收集的项目地址
+https://github.com/umpolungfish/byvalver
+
+https://github.com/umpolungfish/noseeum
+
+https://github.com/umpolungfish/purl_diver
+
+https://github.com/umpolungfish/toxoglosser
+
+https://github.com/lsecqt/Find-AdminAccess
+
+https://github.com/Offensium/SCOM-Deployment-with-Ansible-and-Terraform
+
+https://github.com/breakfix/SharpSCOM
+
+https://github.com/pberba/applescript-decompiler
+
 https://github.com/kaitranntt/ccs
 
 https://github.com/19h/chernobog

@@ -1,4 +1,16 @@
 # 有趣的文章
+#### IDEsaster：AI IDE 中的新型漏洞类
+
+https://maccarita.com/posts/idesaster/
+
+#### DEVCORE 的 Synology BeeStation RCE 及一种新型 SQLite 注入 RCE 技术 (CVE-2024-50629~50631)
+
+https://kiddo-pwn.github.io/blog/2025-11-30/writing-sync-popping-cron
+
+#### SOAPwn: 通过 HTTP 客户端代理和 WSDL 入侵 .NET Framework 应用程序
+
+https://labs.watchtowr.com/soapwn-pwning-net-framework-applications-through-http-client-proxies-and-wsdl/
+
 #### 深入了解一个 Android 在野 DNG 漏洞
 
 https://projectzero.google/2025/12/android-itw-dng.html

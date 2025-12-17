@@ -61,3 +61,5 @@ https://github.com/NtDallas/BOF_Spawn
 
 https://github.com/NVISOsecurity/cs2br-bof
 
+https://github.com/P0142/LDAP-Bof-Collection
+

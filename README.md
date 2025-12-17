@@ -3,6 +3,8 @@
 
 
 # 收集的项目地址
+https://github.com/EndrewDev/Crystal-Kit
+
 https://github.com/rushter/SigStrike
 
 https://github.com/echQoQ/RustSL

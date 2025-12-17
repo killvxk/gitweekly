@@ -494,5 +494,22 @@
   "https://github.com/kozmer/sigdream": "基于SROP的Linux进程内存加密混淆工具",
   "https://github.com/kozmer/silentpulse": "Linux平台事件驱动的睡眠混淆技术POC实现",
   "https://github.com/kozmer/rspy": "Rust实现的Linux进程监控工具，支持D-Bus通信",
-  "https://github.com/RistBS/grimreaper": "基于APC的改进型内存混淆保护工具"
+  "https://github.com/RistBS/grimreaper": "基于APC的改进型内存混淆保护工具",
+  "https://github.com/amergamer/BOF_Spawn": "Cobalt Strike进程注入与shellcode执行工具",
+  "https://github.com/loland/inlineExecute": "Cobalt Strike内联执行.NET程序集的BOF工具",
+  "https://github.com/9Insomnie/async_bof": "Cobalt Strike异步BOF框架，实现隐蔽的系统监控与事件追踪",
+  "https://github.com/Soups71/TIMESTOMP_BOF": "Cobalt Strike BOF时间戳伪造工具",
+  "https://github.com/P0142/LDAP-Bof-Collection": "LDAP域渗透BOF工具集，用于AD枚举与权限提升",
+  "https://github.com/rushter/SigStrike": "Cobalt Strike信标解析与爬虫工具",
+  "https://github.com/echQoQ/RustSL": "Rust开发的模块化免杀框架，支持多种加密与反沙箱策略",
+  "https://github.com/mandiant/gostringungarbler": "Go二进制字符串反混淆工具，解密garble加密字符串",
+  "https://github.com/umpolungfish/byvalver": "自动清除Shellcode恶意字符并保持功能的命令行工具",
+  "https://github.com/umpolungfish/noseeum": "基于Unicode字符的模块化攻击与混淆框架",
+  "https://github.com/umpolungfish/purl_diver": "跨平台PE文件shellcode提取命令行工具",
+  "https://github.com/umpolungfish/toxoglosser": "基于Golang的Windows 64位进程注入与EDR绕过工具",
+  "https://github.com/lsecqt/Find-AdminAccess": "域内管理员权限扫描工具，自动探测可管理的主机",
+  "https://github.com/Offensium/SCOM-Deployment-with-Ansible-and-Terraform": "使用Terraform和Ansible自动化部署SCOM监控系统",
+  "https://github.com/breakfix/SharpSCOM": "C# 实现的 SCOM 管理工具，支持代理注册和凭据解密",
+  "https://github.com/pberba/applescript-decompiler": "AppleScript只读脚本反编译工具",
+  "https://github.com/kaitranntt/ccs": "Claude多账户与AI模型切换管理工具"
 }

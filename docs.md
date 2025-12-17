@@ -1,4 +1,8 @@
 # 有趣的文章
+#### JS-Tap：为红队武器化 JavaScript
+
+https://trustedsec.com/blog/js-tap-weaponizing-javascript-for-red-teams
+
 #### 桌面窗口管理器数组越界 LPE
 
 https://maccarita.com/posts/idesaster/

@@ -511,5 +511,6 @@
   "https://github.com/Offensium/SCOM-Deployment-with-Ansible-and-Terraform": "使用Terraform和Ansible自动化部署SCOM监控系统",
   "https://github.com/breakfix/SharpSCOM": "C# 实现的 SCOM 管理工具，支持代理注册和凭据解密",
   "https://github.com/pberba/applescript-decompiler": "AppleScript只读脚本反编译工具",
-  "https://github.com/kaitranntt/ccs": "Claude多账户与AI模型切换管理工具"
+  "https://github.com/kaitranntt/ccs": "Claude多账户与AI模型切换管理工具",
+  "https://github.com/EndrewDev/Crystal-Kit": "Cobalt Strike规避技术增强工具集"
 }

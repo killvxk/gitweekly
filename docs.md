@@ -1,4 +1,8 @@
 # 有趣的文章
+#### Windows 中的隐秘驱动程序加载
+
+https://whiteknightlabs.com/2025/11/25/discreet-driver-loading-in-windows/
+
 #### IDEsaster：AI IDE 中的新型漏洞类
 
 https://maccarita.com/posts/idesaster/

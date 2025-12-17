@@ -1,4 +1,12 @@
 # BOF
+https://github.com/amergamer/BOF_Spawn
+
+https://github.com/loland/inlineExecute
+
+https://github.com/9Insomnie/async_bof
+
+https://github.com/Soups71/TIMESTOMP_BOF
+
 https://github.com/kozmer/aad-bofs
 
 https://github.com/CodeXTF2/WebcamBOF

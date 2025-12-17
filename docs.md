@@ -1,7 +1,11 @@
 # 有趣的文章
-#### 深入剖析 NSO 零点击 iMessage 漏洞
+#### 深入了解一个 Android 在野 DNG 漏洞
 
 https://projectzero.google/2025/12/android-itw-dng.html
+
+#### 深入剖析 NSO 零点击 iMessage 漏洞
+
+https://projectzero.google/2021/12/a-deep-dive-into-nso-zero-click.html
 
 #### mac 本地提权
 

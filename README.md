@@ -3,6 +3,14 @@
 
 
 # 收集的项目地址
+https://github.com/tasselx/Keyden
+
+https://github.com/hezhizheng/go-wxpush
+
+https://github.com/ghost-him/ZeroLaunch-rs
+
+https://github.com/WCY-dt/MrRSS
+
 https://github.com/lintsinghua/DeepAudit
 
 https://github.com/bscott/chat-tails

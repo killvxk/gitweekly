@@ -512,5 +512,7 @@
   "https://github.com/breakfix/SharpSCOM": "C# 实现的 SCOM 管理工具，支持代理注册和凭据解密",
   "https://github.com/pberba/applescript-decompiler": "AppleScript只读脚本反编译工具",
   "https://github.com/kaitranntt/ccs": "Claude多账户与AI模型切换管理工具",
-  "https://github.com/EndrewDev/Crystal-Kit": "Cobalt Strike规避技术增强工具集"
+  "https://github.com/EndrewDev/Crystal-Kit": "Cobalt Strike规避技术增强工具集",
+  "https://github.com/lintsinghua/DeepAudit": "AI多智能体代码漏洞挖掘系统，支持自动化审计与PoC验证",
+  "https://github.com/bscott/chat-tails": "基于Tailscale的终端聊天服务器，支持netcat直连"
 }

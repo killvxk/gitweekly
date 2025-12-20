@@ -3,6 +3,16 @@
 
 
 # 收集的项目地址
+https://github.com/eranshir/claude-central
+
+https://github.com/ineesdv/Tangled
+
+https://github.com/boonzy00/ringmpsc
+
+https://github.com/kriuchkov/tock
+
+https://github.com/pthom/litgen
+
 https://github.com/tasselx/Keyden
 
 https://github.com/hezhizheng/go-wxpush

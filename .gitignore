@@ -6,3 +6,4 @@ docs/
 *.bak
 tests/run_full_automation.py
 GEMINI.md
+CLAUDE.md

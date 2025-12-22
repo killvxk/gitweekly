@@ -49,7 +49,7 @@
 | [使用开源工具前要好好读一读代码](https://blacksnufkin.github.io/posts/opsec-offensive-code-review/) | 攻击工具代码审查与操作安全检测规避指南 |
 | [LED生成随机数](https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-generation/) | 基于微型LED强度波动的超高速量子随机数生成器 |
 | [CVE-2025-55241 新型域环境最强漏洞](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/) | Entra ID Actor令牌跨租户权限提升漏洞研究 |
-| [git clone又来洞了](https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984) |  |
+| [git clone又来洞了](https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984) | SSH ProxyCommand命令注入漏洞分析与利用技术 |
 | [Windows内核漏洞利用技巧](https://mdanilor.github.io/posts/hevd-1/) | Windows内核栈溢出漏洞利用教程与实战 |
 | [Android 逆向](https://www.ragingrock.com/AndroidAppRE/) | Android应用逆向工程入门教程与实战指南 |
 | [滥用Azure Service Bus基础架构创建加密隧道](https://hackerhermanos.com/azbridge/) | Azure中继桥工具的红队渗透利用与隐蔽C2通道构建技术 |

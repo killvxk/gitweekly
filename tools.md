@@ -4,12 +4,6 @@
 |------|------|
 | [离线音乐](https://github.com/chenqimiao/qm-music) | 基于Subsonic协议的轻量级私有云音乐服务器 |
 | [免费的本地网络隧道端口转发](https://tunnl.gg/) | 基于SSH的零安装本地服务反向隧道工具 |
-| [linux的任务管理器](https://gitlab.com/mission-center-devs/mission-center) | 我无法访问该 GitLab 链接来获取项目的详细信息。提供的内容只有"Loading"，没有实际的项目描述信息。
-
-为了生成准确的中文描述，我需要了解项目的以下信息：
-- 项目的主要功能
-- 使用的技术栈
-- 项目类 |
 | [chrome的osint插件](https://github.com/M7moudx22/OSINT-Extension) | 快速开源情报侦察的Chrome浏览器扩展工具 |
 | [ui布局工具](https://square.lndev.me/) | 基于 shadcn/ui 的开源精美布局组件库 |
 | [密码发现工具](https://trufflesecurity.com/) | 自动检测和修复泄露密钥的开源安全软件平台 |
@@ -54,7 +48,7 @@
 | [c/c++的垃圾回收](https://www.hboehm.info/gc/) | C/C++保守式垃圾回收器实现库 |
 | [像git一样增量备份的工具](https://restic.net/) | 现代化加密备份工具，支持增量备份与多平台存储 |
 | [魔镜，基于AI的魔镜（魔镜魔镜，告诉我谁才是世界上最美丽的女人）](https://magicmirror.builders/) | 基于树莓派的开源模块化智能魔镜平台 |
-| [又一个知识库](https://davia.ai/) |  |
+| [又一个知识库](https://davia.ai/) | AI驱动的团队知识库自动化文档生成工具 |
 | [白噪音app](https://github.com/Tosencen/XMSLEEP) | 基于 Jetpack Compose 的白噪音助眠 Android 应用 |
 | [新一代CRM](https://cordys.cn/) | 集信息化、数字化、智能化的开源AI客户关系管理系统 |
 | [基于大模型的可视化网页构建平台](https://docs.upage.ai/) | 基于大模型的可视化网页构建平台，支持自然语言生成网页 |
@@ -129,7 +123,7 @@
 | [免费的AI图片生成工具](https://freeaiimage.net/zh/) | AI图像生成与编辑工具，文本转图像完全免费 |
 | [隧道工具](https://www.gsocket.io/) | 穿透防火墙和NAT的端到端加密全局套接字工具 |
 | [easytier.cn](https://easytier.cn/) | 基于Rust开发的去中心化SD-WAN组网工具 |
-| [rustvnt.com](https://rustvnt.com/) |  |
+| [rustvnt.com](https://rustvnt.com/) | 基于Rust开发的高性能虚拟局域网组网工具 |
 | [基于LLM的代码审计工具](https://github.com/lintsinghua/XCodeReviewer) | AI驱动的多智能体代码漏洞审计与PoC验证平台 |
 | [基于LLM的无限wiki](https://www.endlesswiki.com/wiki/main_page) | 基于大语言模型实时生成的协作式百科全书系统 |
 | [基于LLM的聊天bot](https://github.com/yincongcyincong/MuseBot) | 多平台AI聊天机器人，集成主流LLM与即时通讯工具 |

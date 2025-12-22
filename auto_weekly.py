@@ -1208,8 +1208,13 @@ class SourceFileUpdater:
         # 从URL提取名称作为回退
         return url.rstrip('/').split('/')[-1]
 
-    def _group_urls_by_section(self, file_path: Path) -> Dict[str, List[Tuple[str, str]]]:
-        """按章节分组URL，返回 {section_title: [(url, original_title), ...]}"""
+    def _group_urls_by_section(self, file_path: Path) -> Dict[str, List[Tuple[str, str, str]]]:
+        """按章节分组URL，返回 {section_title: [(url, original_title, existing_desc), ...]}
+
+        支持两种格式:
+        1. 原始格式: #### 标题 + URL单独一行
+        2. 表格格式: | [标题](URL) | 描述 |
+        """
         content = file_path.read_text(encoding='utf-8')
         lines = content.split('\n')
 
@@ -1232,13 +1237,24 @@ class SourceFileUpdater:
                 current_title = title_match.group(1).strip()
                 continue
 
-            # 检测URL
+            # 检测表格行格式: | [标题](URL) | 描述 |
+            table_match = re.match(r'^\|\s*\[([^\]]+)\]\((https?://[^\)]+)\)\s*\|\s*(.*?)\s*\|$', stripped)
+            if table_match:
+                title = table_match.group(1).strip()
+                url = table_match.group(2).strip()
+                existing_desc = table_match.group(3).strip()
+                if current_section not in sections:
+                    sections[current_section] = []
+                sections[current_section].append((url, title, existing_desc))
+                continue
+
+            # 检测URL（原始格式）
             url_match = re.match(r'^(https?://[^\s]+)$', stripped)
             if url_match:
                 url = url_match.group(1)
                 if current_section not in sections:
                     sections[current_section] = []
-                sections[current_section].append((url, current_title or url.split('/')[-1]))
+                sections[current_section].append((url, current_title or url.split('/')[-1], ""))
                 current_title = ""  # 重置标题
 
         return sections
@@ -1268,12 +1284,13 @@ class SourceFileUpdater:
         updated = 0
         deleted = 0
 
-        for section, url_pairs in sections.items():
+        for section, url_tuples in sections.items():
             # 先统计本章节有效的URL数量
             valid_rows = []
             section_deleted = 0
 
-            for url, title in url_pairs:
+            for url, title, existing_desc in url_tuples:
+                # 优先使用新生成的描述，否则保留已有描述
                 desc = descriptions.get(url, "")
 
                 if desc == "__DELETED__":
@@ -1282,6 +1299,9 @@ class SourceFileUpdater:
 
                 if desc:
                     updated += 1
+                elif existing_desc:
+                    # 保留已有描述（表格格式中已有的）
+                    desc = existing_desc
                 else:
                     desc = ""  # 保留空描述
 

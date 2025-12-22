@@ -3,6 +3,22 @@
 
 
 # 收集的项目地址
+https://github.com/qualcomm/qcom-usb-kernel-drivers
+
+https://github.com/LyalinDotCom/ScreenshotExtension
+
+https://github.com/Maldev-Academy/GitHubDeviceCodePhishing
+
+https://github.com/TanStack/store
+
+https://github.com/Blaizzy/mlx-audio
+
+https://github.com/vaivaswatha/debugir
+
+https://github.com/JumpsecLabs/TokenFlare
+
+https://github.com/aiclientproxy/proxycast
+
 https://github.com/eranshir/claude-central
 
 https://github.com/ineesdv/Tangled

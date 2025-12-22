@@ -71,3 +71,5 @@ https://github.com/NVISOsecurity/cs2br-bof
 
 https://github.com/P0142/LDAP-Bof-Collection
 
+https://github.com/jhalon/cSessionHop
+

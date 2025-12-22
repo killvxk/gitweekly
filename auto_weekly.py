@@ -594,6 +594,13 @@ class DescriptionGenerator:
         http_status: Optional[int] = None
         error: Optional[str] = None
 
+    @dataclass(frozen=True)
+    class WebFetchResult:
+        status: str  # ok | not_found | error
+        content: Optional[str] = None
+        http_status: Optional[int] = None
+        error: Optional[str] = None
+
     def __init__(self, cache_dir: Path, config: Optional[Config] = None):
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(exist_ok=True)
@@ -651,6 +658,14 @@ class DescriptionGenerator:
             return None
 
         return owner, repo
+
+    def is_github_url(self, url: str) -> bool:
+        """判断是否为GitHub URL"""
+        try:
+            parsed = urlparse(url)
+            return parsed.netloc.lower() == 'github.com'
+        except Exception:
+            return False
 
     def _fetch_with_retry(self, url: str, headers: dict, timeout: int = 10) -> requests.Response:
         """带重试的HTTP请求"""
@@ -733,6 +748,17 @@ class DescriptionGenerator:
             )
 
         return self.GithubFetchResult(status="error", http_status=page_response.status_code, error="No description/README found")
+
+    def fetch_web_content(self, url: str) -> "DescriptionGenerator.WebFetchResult":
+        """获取非GitHub网页内容"""
+        fetcher = WebContentFetcher(self.config)
+        result = fetcher.fetch_web_content(url)
+        return self.WebFetchResult(
+            status=result.status,
+            content=result.content,
+            http_status=result.http_status,
+            error=result.error
+        )
 
     def _call_ai_with_retry(self, payload: dict, headers: dict) -> requests.Response:
         """带重试的AI API请求"""
@@ -849,22 +875,28 @@ class DescriptionGenerator:
         return self.cache.get(url)
 
     def generate_description(self, url: str) -> Optional[str]:
-        """生成单个URL的描述（带缓存）
+        """生成单个URL的描述（带缓存）- 支持GitHub和普通网页
 
         返回值:
         - 字符串: 正常描述
-        - "__DELETED__": 链接404/不可用，应从周报中删除
+        - "__DELETED__": 链接404/不可用，应从文件中删除
         - None: 生成失败但可以重试
         """
         # 检查缓存
         if url in self.cache:
             return self.cache[url]
 
-        fetch_result = self.fetch_github_content(url)
+        # 根据URL类型选择抓取方式
+        if self.is_github_url(url):
+            fetch_result = self.fetch_github_content(url)
+        else:
+            fetch_result = self.fetch_web_content(url)
+
         if fetch_result.status == "not_found":
             self.cache[url] = "__DELETED__"
             self.dirty = True
             return "__DELETED__"
+
         if fetch_result.status != "ok" or not fetch_result.content:
             return None
 
@@ -877,6 +909,201 @@ class DescriptionGenerator:
             return description
 
         return None
+
+
+class WebContentFetcher:
+    """网页内容抓取器 - 智能提取非GitHub网页的正文内容"""
+
+    @dataclass(frozen=True)
+    class FetchResult:
+        status: str  # ok | not_found | error
+        content: Optional[str] = None
+        http_status: Optional[int] = None
+        error: Optional[str] = None
+
+    def __init__(self, config: Optional[Config] = None):
+        self.config = config or get_config()
+        # 需要移除的标签
+        self._remove_tags = {'script', 'style', 'nav', 'header', 'footer', 'aside', 'noscript', 'iframe'}
+        # 正文容器优先级
+        self._content_selectors = ['article', 'main', '.post-content', '.article-content', '.entry-content', '#content']
+
+    def _extract_title(self, html: str) -> str:
+        """提取页面标题"""
+        import re
+        # 尝试 <title>
+        match = re.search(r'<title[^>]*>([^<]+)</title>', html, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()
+        # 尝试 <h1>
+        match = re.search(r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()
+        return ""
+
+    def _extract_meta_description(self, html: str) -> str:
+        """提取 meta description"""
+        import re
+        match = re.search(
+            r'<meta\s+name=["\']description["\']\s+content=["\']([^"\']+)["\']',
+            html, re.IGNORECASE
+        )
+        if match:
+            return match.group(1).strip()
+        # 尝试另一种顺序
+        match = re.search(
+            r'<meta\s+content=["\']([^"\']+)["\']\s+name=["\']description["\']',
+            html, re.IGNORECASE
+        )
+        if match:
+            return match.group(1).strip()
+        return ""
+
+    def _extract_og_description(self, html: str) -> str:
+        """提取 Open Graph description"""
+        import re
+        match = re.search(
+            r'<meta\s+property=["\']og:description["\']\s+content=["\']([^"\']+)["\']',
+            html, re.IGNORECASE
+        )
+        if match:
+            return match.group(1).strip()
+        match = re.search(
+            r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:description["\']',
+            html, re.IGNORECASE
+        )
+        if match:
+            return match.group(1).strip()
+        return ""
+
+    def _remove_unwanted_tags(self, html: str) -> str:
+        """移除不需要的标签及其内容"""
+        import re
+        for tag in self._remove_tags:
+            html = re.sub(
+                rf'<{tag}[^>]*>.*?</{tag}>',
+                '', html, flags=re.IGNORECASE | re.DOTALL
+            )
+            # 自闭合标签
+            html = re.sub(rf'<{tag}[^>]*/>', '', html, flags=re.IGNORECASE)
+        return html
+
+    def _extract_text_from_html(self, html: str) -> str:
+        """从HTML中提取纯文本"""
+        import re
+        # 移除所有标签
+        text = re.sub(r'<[^>]+>', ' ', html)
+        # 处理HTML实体
+        text = text.replace('&nbsp;', ' ')
+        text = text.replace('&lt;', '<')
+        text = text.replace('&gt;', '>')
+        text = text.replace('&amp;', '&')
+        text = text.replace('&quot;', '"')
+        # 合并多个空白字符
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
+
+    def _extract_main_content(self, html: str) -> str:
+        """智能提取正文内容"""
+        import re
+
+        # 先移除干扰标签
+        cleaned_html = self._remove_unwanted_tags(html)
+
+        # 尝试找到正文容器
+        content = ""
+
+        # 1. 尝试 <article>
+        match = re.search(r'<article[^>]*>(.*?)</article>', cleaned_html, re.IGNORECASE | re.DOTALL)
+        if match:
+            content = match.group(1)
+
+        # 2. 尝试 <main>
+        if not content:
+            match = re.search(r'<main[^>]*>(.*?)</main>', cleaned_html, re.IGNORECASE | re.DOTALL)
+            if match:
+                content = match.group(1)
+
+        # 3. 尝试带有 content/post/article 类名的 div
+        if not content:
+            match = re.search(
+                r'<div[^>]*class=["\'][^"\']*(?:content|post|article|entry)[^"\']*["\'][^>]*>(.*?)</div>',
+                cleaned_html, re.IGNORECASE | re.DOTALL
+            )
+            if match:
+                content = match.group(1)
+
+        # 4. 回退到 body
+        if not content:
+            match = re.search(r'<body[^>]*>(.*?)</body>', cleaned_html, re.IGNORECASE | re.DOTALL)
+            if match:
+                content = match.group(1)
+            else:
+                content = cleaned_html
+
+        # 提取纯文本
+        text = self._extract_text_from_html(content)
+        return text
+
+    def fetch_web_content(self, url: str) -> "WebContentFetcher.FetchResult":
+        """抓取网页内容并智能提取正文"""
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5,zh-CN;q=0.3',
+        }
+
+        try:
+            response = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+
+            if response.status_code == 404:
+                return self.FetchResult(status="not_found", http_status=404)
+
+            if response.status_code >= 400:
+                return self.FetchResult(
+                    status="error",
+                    http_status=response.status_code,
+                    error=f"HTTP {response.status_code}"
+                )
+
+            html = response.text
+
+            # 提取各部分内容
+            title = self._extract_title(html)
+            meta_desc = self._extract_meta_description(html)
+            og_desc = self._extract_og_description(html)
+            main_content = self._extract_main_content(html)
+
+            # 组合内容
+            content_parts = []
+            if title:
+                content_parts.append(f"Title: {title}")
+            if meta_desc:
+                content_parts.append(f"Meta Description: {meta_desc}")
+            elif og_desc:
+                content_parts.append(f"Description: {og_desc}")
+            if main_content:
+                # 限制正文长度
+                truncated = main_content[:3000]
+                content_parts.append(f"\nContent:\n{truncated}")
+
+            if not content_parts:
+                return self.FetchResult(
+                    status="error",
+                    http_status=response.status_code,
+                    error="No extractable content"
+                )
+
+            return self.FetchResult(
+                status="ok",
+                content="\n".join(content_parts),
+                http_status=response.status_code
+            )
+
+        except requests.Timeout:
+            return self.FetchResult(status="error", error="Request timeout")
+        except requests.RequestException as e:
+            return self.FetchResult(status="error", error=str(e))
 
 
 class WeeklyUpdater:
@@ -939,6 +1166,159 @@ class WeeklyUpdater:
         return update_count, delete_count
 
 
+class SourceFileUpdater:
+    """源文件更新器 - 更新 docs.md/README.md 等源文件为表格格式"""
+
+    # 需要处理的源文件列表
+    SOURCE_FILES = ['docs.md', 'README.md', 'tools.md', 'BOF.md', 'skills-ai.md']
+
+    def __init__(self):
+        pass
+
+    def extract_urls(self, file_path: Path) -> List[str]:
+        """从文件中提取所有URL"""
+        urls = []
+        content = file_path.read_text(encoding='utf-8')
+
+        # 匹配独立行的URL
+        url_pattern = r'^(https?://[^\s]+)$'
+        for match in re.finditer(url_pattern, content, re.MULTILINE):
+            urls.append(match.group(1).strip())
+
+        # 匹配markdown链接格式
+        md_pattern = r'\[([^\]]+)\]\((https?://[^\)]+)\)'
+        for match in re.finditer(md_pattern, content):
+            url = match.group(2).strip()
+            if url not in urls:
+                urls.append(url)
+
+        return urls
+
+    def _extract_title_from_context(self, content: str, url: str) -> str:
+        """从URL上下文提取标题"""
+        lines = content.split('\n')
+        for i, line in enumerate(lines):
+            if url in line:
+                # 向上查找最近的标题行
+                for j in range(i - 1, max(0, i - 5), -1):
+                    title_match = re.match(r'^#{1,6}\s+(.+)$', lines[j].strip())
+                    if title_match:
+                        return title_match.group(1).strip()
+                break
+        # 从URL提取名称作为回退
+        return url.rstrip('/').split('/')[-1]
+
+    def _group_urls_by_section(self, file_path: Path) -> Dict[str, List[Tuple[str, str]]]:
+        """按章节分组URL，返回 {section_title: [(url, original_title), ...]}"""
+        content = file_path.read_text(encoding='utf-8')
+        lines = content.split('\n')
+
+        sections = {}
+        current_section = "默认"
+        current_title = ""
+
+        for line in lines:
+            stripped = line.strip()
+
+            # 检测一级或二级标题作为章节
+            section_match = re.match(r'^(#{1,2})\s+(.+)$', stripped)
+            if section_match:
+                current_section = section_match.group(2).strip()
+                continue
+
+            # 检测三级及以下标题作为条目标题
+            title_match = re.match(r'^#{3,6}\s+(.+)$', stripped)
+            if title_match:
+                current_title = title_match.group(1).strip()
+                continue
+
+            # 检测URL
+            url_match = re.match(r'^(https?://[^\s]+)$', stripped)
+            if url_match:
+                url = url_match.group(1)
+                if current_section not in sections:
+                    sections[current_section] = []
+                sections[current_section].append((url, current_title or url.split('/')[-1]))
+                current_title = ""  # 重置标题
+
+        return sections
+
+    def update_source_file(self, file_path: Path, descriptions: Dict[str, str]) -> Tuple[int, int]:
+        """更新源文件为表格格式
+
+        返回: (更新数量, 删除数量)
+        """
+        sections = self._group_urls_by_section(file_path)
+
+        if not sections:
+            return 0, 0
+
+        # 读取原始文件获取主标题
+        original_content = file_path.read_text(encoding='utf-8')
+        main_title_match = re.match(r'^#\s+(.+)$', original_content, re.MULTILINE)
+        main_title = main_title_match.group(1) if main_title_match else file_path.stem
+
+        # 创建备份文件
+        backup_path = file_path.with_suffix(file_path.suffix + '.bak')
+        backup_path.write_text(original_content, encoding='utf-8')
+        logger.info(f"  📦 已创建备份: {backup_path.name}")
+
+        # 构建新内容
+        new_lines = [f"# {main_title}\n"]
+        updated = 0
+        deleted = 0
+
+        for section, url_pairs in sections.items():
+            # 先统计本章节有效的URL数量
+            valid_rows = []
+            section_deleted = 0
+
+            for url, title in url_pairs:
+                desc = descriptions.get(url, "")
+
+                if desc == "__DELETED__":
+                    section_deleted += 1
+                    continue
+
+                if desc:
+                    updated += 1
+                else:
+                    desc = ""  # 保留空描述
+
+                # 使用URL最后一段作为显示名称
+                display_name = title or url.rstrip('/').split('/')[-1]
+                valid_rows.append(f"| [{display_name}]({url}) | {desc} |\n")
+
+            deleted += section_deleted
+
+            # 跳过空章节（所有URL都被删除的情况）
+            if not valid_rows:
+                continue
+
+            # 添加章节标题
+            if section != main_title and section != "默认":
+                new_lines.append(f"\n## {section}\n")
+
+            # 添加表格
+            new_lines.append("\n| 文章 | 简介 |")
+            new_lines.append("\n|------|------|\n")
+            new_lines.extend(valid_rows)
+
+        # 写入文件
+        file_path.write_text(''.join(new_lines), encoding='utf-8')
+
+        return updated, deleted
+
+    def get_source_files(self, repo_path: Path) -> List[Path]:
+        """获取需要处理的源文件列表"""
+        files = []
+        for filename in self.SOURCE_FILES:
+            file_path = repo_path / filename
+            if file_path.exists():
+                files.append(file_path)
+        return files
+
+
 class AutoWeeklyProcessor:
     """完全自动化的周报处理器"""
 
@@ -948,6 +1328,7 @@ class AutoWeeklyProcessor:
         self.generator = WeeklyGenerator(str(self.repo_path))
         self.desc_gen = DescriptionGenerator(self.config.cache_dir, self.config)
         self.updater = WeeklyUpdater(self.config.weekly_dir)
+        self.source_updater = SourceFileUpdater()
 
     def _process_links(self, links: List[str], max_links: int, show_progress: bool = True) -> Dict[str, str]:
         """
@@ -1227,6 +1608,84 @@ class AutoWeeklyProcessor:
         logger.info(f"📊 总计更新: {total_updated} 个描述，删除: {total_deleted} 个无效链接")
         logger.info("="*60)
 
+    def process_source_files(self, max_links: int = None):
+        """处理源文件（docs.md, README.md 等）- 生成描述并转换为表格格式"""
+        if max_links is None:
+            max_links = self.config.max_links_per_week
+
+        logger.info("\n" + "="*60)
+        logger.info("📄 处理源文件（生成描述并转换为表格格式）")
+        logger.info("="*60)
+
+        # 获取源文件列表
+        source_files = self.source_updater.get_source_files(self.repo_path)
+
+        if not source_files:
+            logger.warning("⚠️  未找到需要处理的源文件")
+            return
+
+        logger.info(f"📊 发现 {len(source_files)} 个源文件")
+        for f in source_files:
+            logger.info(f"   - {f.name}")
+        logger.info("")
+
+        total_updated = 0
+        total_deleted = 0
+
+        for i, file_path in enumerate(source_files, 1):
+            logger.info(f"\n{'='*60}")
+            logger.info(f"[{i}/{len(source_files)}] 处理: {file_path.name}")
+            logger.info('='*60)
+
+            # 提取URL
+            urls = self.source_updater.extract_urls(file_path)
+
+            if not urls:
+                logger.info("  ✓ 没有需要处理的URL")
+                continue
+
+            logger.info(f"📊 发现 {len(urls)} 个URL")
+
+            # 限制处理数量
+            if len(urls) > max_links:
+                logger.info(f"⚠️  链接较多，本次只处理前 {max_links} 个")
+                urls = urls[:max_links]
+
+            # 生成描述
+            descriptions = {}
+            progress = ProgressBar(len(urls), desc="处理URL")
+
+            for url in urls:
+                # 检查缓存
+                if self.desc_gen.is_cached(url):
+                    desc = self.desc_gen.get_cached(url)
+                else:
+                    desc = self.desc_gen.generate_description(url)
+                    time.sleep(self.config.request_delay)
+
+                if desc:
+                    descriptions[url] = desc
+
+                progress.update()
+
+            progress.finish()
+
+            # 保存缓存
+            self.desc_gen.save_cache()
+
+            # 更新源文件
+            if descriptions:
+                logger.info(f"\n📝 更新源文件为表格格式...")
+                updated, deleted = self.source_updater.update_source_file(file_path, descriptions)
+                logger.info(f"✅ 更新 {updated} 个描述，删除 {deleted} 个无效链接")
+                total_updated += updated
+                total_deleted += deleted
+
+        logger.info("\n" + "="*60)
+        logger.info("🎉 源文件处理完成！")
+        logger.info(f"📊 总计更新: {total_updated} 个描述，删除: {total_deleted} 个无效链接")
+        logger.info("="*60)
+
     def commit_changes(self):
         """提交周报文件和缓存的变更"""
         logger.info("\n" + "="*60)
@@ -1328,8 +1787,9 @@ def main():
     logger.info("3. 仅为已有周报生成描述")
     logger.info("4. 生成当前周的周报（含AI描述）")
     logger.info("5. 提交周报变更")
+    logger.info("6. 处理源文件（docs.md等转表格 + AI描述）")
 
-    choice = input("\n请输入选项 (1/2/3/4/5): ").strip()
+    choice = input("\n请输入选项 (1/2/3/4/5/6): ").strip()
 
     processor = AutoWeeklyProcessor(config=config)
 
@@ -1358,6 +1818,15 @@ def main():
     elif choice == "5":
         # 提交周报变更
         processor.commit_changes()
+
+    elif choice == "6":
+        # 处理源文件
+        logger.info("\n此模式将处理 docs.md、README.md 等源文件")
+        logger.info("  - 提取所有URL（GitHub + 普通网页）")
+        logger.info("  - 使用AI生成中文简介")
+        logger.info("  - 转换为表格格式")
+        max_links = int(input(f"\n最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
+        processor.process_source_files(max_links)
 
     else:
         logger.error("❌ 无效的选项")

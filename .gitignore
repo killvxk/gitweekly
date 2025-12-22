@@ -1,6 +1,8 @@
 .claude/
 __pycache__/
-test_*.py
+test*.py
 nul
 docs/
 *.bak
+tests/run_full_automation.py
+GEMINI.md

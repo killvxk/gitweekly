@@ -1054,5 +1054,15 @@
   "https://github.com/FULLSHADE/WarFox/": "__DELETED__",
   "https://github.com/Teach2Breach/Tempest": "基于Rust编写的命令与控制框架（C2）",
   "https://github.com/vari-sh/RedTeamGrimoire": "红队渗透测试工具集与攻击技术代码库",
-  "https://github.com/vari-sh/ipaFridaInjector": "iOS应用Frida注入工具，支持非越狱设备动态分析"
+  "https://github.com/vari-sh/ipaFridaInjector": "iOS应用Frida注入工具，支持非越狱设备动态分析",
+  "https://github.com/zerosum0x0/koadic": "__DELETED__",
+  "https://github.com/sasqwatch/ViolentFungus-C2": "跨平台C2远控框架，支持多协议通信与代理中继",
+  "https://github.com/TheRipperJhon/Void_RAT": "基于图形界面的远程管理工具(RAT)教育项目",
+  "https://github.com/killvxk/serpentine": "基于RESTful API的Windows远程管理工具(RAT)",
+  "https://github.com/PeterG75/redViper": "基于Reddit通信的C2远控框架概念验证",
+  "https://github.com/killvxk/WarFox": "基于HTTPS信标的Windows木马与多层代理C2框架",
+  "https://github.com/bopin2020/WARFOX-C2": "基于HTTPS的Windows植入程序与多层代理C2框架",
+  "https://github.com/gavz/MacC2": "基于Python的macOS后渗透控制工具,用于蓝队检测能力建设",
+  "https://github.com/compr00t/RedC2": "C#编写的命令与控制(C2)框架开发教学项目",
+  "https://github.com/killvxk/RedC2": "C#编写的命令控制(C2)框架开发教学项目"
 }

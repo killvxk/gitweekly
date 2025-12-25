@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [impacket-dcom](https://github.com/sud0Ru/impacket-dcom) | 适配Windows 10/11的Impacket DCOM远程执行工具 |
+| [NauthNRPC](https://github.com/sud0Ru/NauthNRPC) | 无需认证枚举域用户和域信息的渗透测试工具 |
+| [NauthNRPC](https://github.com/sud0Ru/NauthNRPC) | 无需认证枚举域用户和域信息的渗透测试工具 |
+| [zigbee-linkkey-hasher](https://github.com/klsecservices/zigbee-linkkey-hasher) | Zigbee链路密钥哈希计算工具 |
+| [templui](https://github.com/templui/templui) | 基于 Go 和 templ 构建的可定制 UI 组件库 |
+| [mquickjs](https://github.com/bellard/mquickjs) | 面向嵌入式系统的超轻量级JavaScript引擎 |
+| [fasterPython](https://github.com/tomtyiu/fasterPython) | 面向AI领域的Python性能优化工具库 |
 | [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
 | [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
 | [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 自动将文档、GitHub仓库和PDF转换为Claude AI技能包的工具 |

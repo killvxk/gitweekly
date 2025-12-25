@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [#use-vulnerability-scanner](https://osv.dev/#use-vulnerability-scanner) | 开源软件漏洞数据库与扫描工具平台 |
+| [chat.z.ai](https://chat.z.ai/) | 基于GLM-4模型的免费AI对话平台 |
 | [离线音乐](https://github.com/chenqimiao/qm-music) | 基于Subsonic协议的轻量级私有云音乐服务器 |
 | [免费的本地网络隧道端口转发](https://tunnl.gg/) | 基于SSH的零安装本地服务反向隧道工具 |
 | [chrome的osint插件](https://github.com/M7moudx22/OSINT-Extension) | 快速开源情报侦察的Chrome浏览器扩展工具 |

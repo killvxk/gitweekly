@@ -821,5 +821,13 @@
   "https://github.com/Yayoi-cs/fastDbg": "x86_64架构原生与QEMU内核调试器，支持ELF格式调试",
   "https://github.com/aahmad097/AlternativeShellcodeExec": "通过回调函数执行Shellcode的替代技术实现",
   "https://github.com/rottaj/obfuscator-llvm": "LLVM代码混淆器插件，支持LLVM 19版本的汇编层级混淆",
-  "https://github.com/Yuri-NagaSaki/CattoPic": "基于Cloudflare的无服务器图床服务，支持格式转换与标签管理"
+  "https://github.com/Yuri-NagaSaki/CattoPic": "基于Cloudflare的无服务器图床服务，支持格式转换与标签管理",
+  "https://github.com/sud0Ru/impacket-dcom": "适配Windows 10/11的Impacket DCOM远程执行工具",
+  "https://github.com/sud0Ru/NauthNRPC": "无需认证枚举域用户和域信息的渗透测试工具",
+  "https://github.com/klsecservices/zigbee-linkkey-hasher": "Zigbee链路密钥哈希计算工具",
+  "https://github.com/templui/templui": "基于 Go 和 templ 构建的可定制 UI 组件库",
+  "https://github.com/bellard/mquickjs": "面向嵌入式系统的超轻量级JavaScript引擎",
+  "https://github.com/tomtyiu/fasterPython": "面向AI领域的Python性能优化工具库",
+  "https://osv.dev/#use-vulnerability-scanner": "开源软件漏洞数据库与扫描工具平台",
+  "https://chat.z.ai/": "基于GLM-4模型的免费AI对话平台"
 }

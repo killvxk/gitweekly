@@ -4,6 +4,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
+| [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
+| [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 自动将文档、GitHub仓库和PDF转换为Claude AI技能包的工具 |
+| [cclsp](https://github.com/ktnyt/cclsp) | Claude Code的LSP集成工具，提供智能代码导航和重构功能 |
+| [libdave](https://github.com/discord/libdave) | Discord音视频端到端加密协议库 |
+| [mactop](https://github.com/metaspartan/mactop) | 专为 Apple Silicon 芯片设计的终端系统监控工具 |
+| [GH_AntiDebug_Bypass_Practice_Tool](https://github.com/guidedhacking/GH_AntiDebug_Bypass_Practice_Tool) | 反调试技术绕过实战练习工具 |
+| [TPUv2](https://github.com/WilliamZhang20/TPUv2) | 支持浮点运算的迷你TPU芯片设计 |
+| [zsync](https://github.com/andrewgazelka/zsync) | 基于内容寻址和增量传输的SSH双向文件同步工具 |
+| [fastDbg](https://github.com/Yayoi-cs/fastDbg) | x86_64架构原生与QEMU内核调试器，支持ELF格式调试 |
+| [AlternativeShellcodeExec](https://github.com/aahmad097/AlternativeShellcodeExec) | 通过回调函数执行Shellcode的替代技术实现 |
+| [obfuscator-llvm](https://github.com/rottaj/obfuscator-llvm) | LLVM代码混淆器插件，支持LLVM 19版本的汇编层级混淆 |
+| [CattoPic](https://github.com/Yuri-NagaSaki/CattoPic) | 基于Cloudflare的无服务器图床服务，支持格式转换与标签管理 |
 | [qcom-usb-kernel-drivers](https://github.com/qualcomm/qcom-usb-kernel-drivers) | 高通USB内核驱动支持多平台设备连接 |
 | [ScreenshotExtension](https://github.com/LyalinDotCom/ScreenshotExtension) | macOS屏幕截图AI扩展，支持窗口锁定与视觉调试 |
 | [GitHubDeviceCodePhishing](https://github.com/Maldev-Academy/GitHubDeviceCodePhishing) | GitHub设备码钓鱼攻击模拟工具 |

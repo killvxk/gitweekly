@@ -810,5 +810,16 @@
   "https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984": "SSH ProxyCommand命令注入漏洞分析与利用技术",
   "https://davia.ai/": "AI驱动的团队知识库自动化文档生成工具",
   "https://rustvnt.com/": "基于Rust开发的高性能虚拟局域网组网工具",
-  "https://github.com/The-Z-Labs/bof-launcher": "跨平台BOF文件加载执行库，支持内存隐藏和多语言集成"
+  "https://github.com/The-Z-Labs/bof-launcher": "跨平台BOF文件加载执行库，支持内存隐藏和多语言集成",
+  "https://github.com/yusufkaraaslan/Skill_Seekers": "自动将文档、GitHub仓库和PDF转换为Claude AI技能包的工具",
+  "https://github.com/ktnyt/cclsp": "Claude Code的LSP集成工具，提供智能代码导航和重构功能",
+  "https://github.com/discord/libdave": "Discord音视频端到端加密协议库",
+  "https://github.com/metaspartan/mactop": "专为 Apple Silicon 芯片设计的终端系统监控工具",
+  "https://github.com/guidedhacking/GH_AntiDebug_Bypass_Practice_Tool": "反调试技术绕过实战练习工具",
+  "https://github.com/WilliamZhang20/TPUv2": "支持浮点运算的迷你TPU芯片设计",
+  "https://github.com/andrewgazelka/zsync": "基于内容寻址和增量传输的SSH双向文件同步工具",
+  "https://github.com/Yayoi-cs/fastDbg": "x86_64架构原生与QEMU内核调试器，支持ELF格式调试",
+  "https://github.com/aahmad097/AlternativeShellcodeExec": "通过回调函数执行Shellcode的替代技术实现",
+  "https://github.com/rottaj/obfuscator-llvm": "LLVM代码混淆器插件，支持LLVM 19版本的汇编层级混淆",
+  "https://github.com/Yuri-NagaSaki/CattoPic": "基于Cloudflare的无服务器图床服务，支持格式转换与标签管理"
 }

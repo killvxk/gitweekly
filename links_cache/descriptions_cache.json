@@ -1052,5 +1052,7 @@
   "https://github.com/D1rkMtr/VirusTotalC2": "__DELETED__",
   "https://github.com/KadeDev/Void-RAT": "__DELETED__",
   "https://github.com/FULLSHADE/WarFox/": "__DELETED__",
-  "https://github.com/Teach2Breach/Tempest": "基于Rust编写的命令与控制框架（C2）"
+  "https://github.com/Teach2Breach/Tempest": "基于Rust编写的命令与控制框架（C2）",
+  "https://github.com/vari-sh/RedTeamGrimoire": "红队渗透测试工具集与攻击技术代码库",
+  "https://github.com/vari-sh/ipaFridaInjector": "iOS应用Frida注入工具，支持非越狱设备动态分析"
 }

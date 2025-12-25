@@ -2,13 +2,10 @@
 
 ## 收集的项目地址
 
-https://github.com/vari-sh/RedTeamGrimoire
-
-https://github.com/vari-sh/ipaFridaInjector
-
-
 | 文章 | 简介 |
 |------|------|
+| [RedTeamGrimoire](https://github.com/vari-sh/RedTeamGrimoire) | 红队渗透测试工具集与攻击技术代码库 |
+| [ipaFridaInjector](https://github.com/vari-sh/ipaFridaInjector) | iOS应用Frida注入工具，支持非越狱设备动态分析 |
 | [impacket-dcom](https://github.com/sud0Ru/impacket-dcom) | 适配Windows 10/11的Impacket DCOM远程执行工具 |
 | [NauthNRPC](https://github.com/sud0Ru/NauthNRPC) | 无需认证枚举域用户和域信息的渗透测试工具 |
 | [NauthNRPC](https://github.com/sud0Ru/NauthNRPC) | 无需认证枚举域用户和域信息的渗透测试工具 |

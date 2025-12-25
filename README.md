@@ -2,6 +2,11 @@
 
 ## 收集的项目地址
 
+https://github.com/vari-sh/RedTeamGrimoire
+
+https://github.com/vari-sh/ipaFridaInjector
+
+
 | 文章 | 简介 |
 |------|------|
 | [impacket-dcom](https://github.com/sud0Ru/impacket-dcom) | 适配Windows 10/11的Impacket DCOM远程执行工具 |

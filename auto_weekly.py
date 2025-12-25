@@ -287,7 +287,8 @@ class WeeklyGenerator:
             'skills-ai.md': '🤖 AI使用技巧',
             'docs.md': '📚 收集的文章',
             'free.md': '🎁 免费资源',
-            'pico.md': '🔌 PICO工具'
+            'pico.md': '🔌 PICO工具',
+            'C2.md': '🎮 C2框架'
         }
 
     def get_week_range(self, date_str: str) -> Tuple[str, str]:
@@ -1171,7 +1172,7 @@ class SourceFileUpdater:
     """源文件更新器 - 更新 docs.md/README.md 等源文件为表格格式"""
 
     # 需要处理的源文件列表
-    SOURCE_FILES = ['docs.md', 'README.md', 'tools.md', 'BOF.md', 'skills-ai.md', 'pico.md']
+    SOURCE_FILES = ['docs.md', 'README.md', 'tools.md', 'BOF.md', 'skills-ai.md', 'pico.md', 'C2.md']
 
     def __init__(self):
         pass

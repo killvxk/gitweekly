@@ -1086,5 +1086,9 @@
   "https://github.com/Codennnn/Green-Wall": "GitHub 贡献图生成与年度报告可视化工具",
   "https://github.com/AI4Engr/MADOLA": "数学符号驱动的编程语言，集成计算、文档与代码生成",
   "https://github.com/taotao7/termdev": "终端版Chrome开发者工具，支持日志、网络和JS调试",
-  "https://github.com/sipeed/NanoKVM": "基于RISC-V的开源IP-KVM远程计算机控制设备"
+  "https://github.com/sipeed/NanoKVM": "基于RISC-V的开源IP-KVM远程计算机控制设备",
+  "https://github.com/pwnfuzz/diffrays": "基于IDA Pro的二进制补丁差异分析工具",
+  "https://github.com/ekwek1/soprano": "超轻量级实时文本转语音模型，仅80M参数实现2000倍实时速率",
+  "https://github.com/lbjlaq/Antigravity-Manager": "基于 Tauri v2 的 Antigravity 多账号管理与 API 网关工具",
+  "https://github.com/HacktronAI/skills": "AI安全测试技能扩展库，支持漏洞挖掘与渗透测试工作流"
 }

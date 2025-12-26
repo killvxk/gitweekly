@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [soprano](https://github.com/ekwek1/soprano) | 超轻量级实时文本转语音模型，仅80M参数实现2000倍实时速率 |
+| [Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) | 基于 Tauri v2 的 Antigravity 多账号管理与 API 网关工具 |
+| [skills](https://github.com/HacktronAI/skills) | AI安全测试技能扩展库，支持漏洞挖掘与渗透测试工作流 |
 | [cpp-linter.github.io](https://cpp-linter.github.io/) | C/C++代码静态分析与格式检查工具集 |
 | [octopus](https://github.com/bestruirui/octopus) | 个人LLM API聚合与负载均衡服务平台 |
 | [vexor](https://github.com/scarletkc/vexor) | 基于语义向量的文件与代码智能搜索引擎 |

@@ -4,6 +4,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [diffrays](https://github.com/pwnfuzz/diffrays) | 基于IDA Pro的二进制补丁差异分析工具 |
 | [AndroidTransToolPlus](https://github.com/huanfeng/AndroidTransToolPlus) | 基于AI的Android多语言资源翻译工具 |
 | [Alertivity](https://github.com/nobbbbby/Alertivity) | macOS 系统资源监控与性能预警菜单栏工具 |
 | [edge-next-starter](https://github.com/TangSY/edge-next-starter) | Next.js + Cloudflare 全栈开发脚手架，集成边缘运行时与完整 CI/CD |

@@ -1090,5 +1090,10 @@
   "https://github.com/pwnfuzz/diffrays": "基于IDA Pro的二进制补丁差异分析工具",
   "https://github.com/ekwek1/soprano": "超轻量级实时文本转语音模型，仅80M参数实现2000倍实时速率",
   "https://github.com/lbjlaq/Antigravity-Manager": "基于 Tauri v2 的 Antigravity 多账号管理与 API 网关工具",
-  "https://github.com/HacktronAI/skills": "AI安全测试技能扩展库，支持漏洞挖掘与渗透测试工作流"
+  "https://github.com/HacktronAI/skills": "AI安全测试技能扩展库，支持漏洞挖掘与渗透测试工作流",
+  "https://github.com/mertdas/PrivKit": "Windows权限提升漏洞检测的Beacon Object File工具集",
+  "https://github.com/hahwul/smugglex": "基于Rust的HTTP请求走私漏洞扫描工具",
+  "https://github.com/mrgoonie/claudekit-cli": "ClaudeKit项目脚手架CLI工具，支持快速创建和更新",
+  "https://github.com/tw93/Mole": "Mac系统深度清理与性能优化工具",
+  "https://github.com/mertdas/ClearEventlogBOF": "清除Windows事件日志的BOF攻击模块"
 }

@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [claudekit-cli](https://github.com/mrgoonie/claudekit-cli) | ClaudeKit项目脚手架CLI工具，支持快速创建和更新 |
+| [Mole](https://github.com/tw93/Mole) | Mac系统深度清理与性能优化工具 |
 | [soprano](https://github.com/ekwek1/soprano) | 超轻量级实时文本转语音模型，仅80M参数实现2000倍实时速率 |
 | [Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) | 基于 Tauri v2 的 Antigravity 多账号管理与 API 网关工具 |
 | [skills](https://github.com/HacktronAI/skills) | AI安全测试技能扩展库，支持漏洞挖掘与渗透测试工作流 |

@@ -4,6 +4,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PrivKit](https://github.com/mertdas/PrivKit) | Windows权限提升漏洞检测的Beacon Object File工具集 |
+| [smugglex](https://github.com/hahwul/smugglex) | 基于Rust的HTTP请求走私漏洞扫描工具 |
 | [diffrays](https://github.com/pwnfuzz/diffrays) | 基于IDA Pro的二进制补丁差异分析工具 |
 | [AndroidTransToolPlus](https://github.com/huanfeng/AndroidTransToolPlus) | 基于AI的Android多语言资源翻译工具 |
 | [Alertivity](https://github.com/nobbbbby/Alertivity) | macOS 系统资源监控与性能预警菜单栏工具 |

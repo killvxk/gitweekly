@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cpp-linter.github.io](https://cpp-linter.github.io/) | C/C++代码静态分析与格式检查工具集 |
+| [octopus](https://github.com/bestruirui/octopus) | 个人LLM API聚合与负载均衡服务平台 |
+| [vexor](https://github.com/scarletkc/vexor) | 基于语义向量的文件与代码智能搜索引擎 |
+| [tada](https://github.com/LoadShine/tada) | 离线优先的AI增强型任务管理应用，支持Markdown编辑与日历视图 |
+| [miniCC](https://github.com/TokenRollAI/miniCC) | 极简AI编程助手，演示工具调用、子代理与MCP机制 |
+| [Rote](https://github.com/Rabithua/Rote) | 具有开放API和自托管支持的个人笔记系统 |
+| [infographic](https://github.com/antvis/infographic) | AI驱动的信息图表生成与渲染框架 |
+| [questionnaire_web](https://github.com/chenbz777/questionnaire_web) | 基于Vue3的离线问卷表单设计与渲染组件库 |
+| [Green-Wall](https://github.com/Codennnn/Green-Wall) | GitHub 贡献图生成与年度报告可视化工具 |
+| [MADOLA](https://github.com/AI4Engr/MADOLA) | 数学符号驱动的编程语言，集成计算、文档与代码生成 |
+| [termdev](https://github.com/taotao7/termdev) | 终端版Chrome开发者工具，支持日志、网络和JS调试 |
+| [NanoKVM](https://github.com/sipeed/NanoKVM) | 基于RISC-V的开源IP-KVM远程计算机控制设备 |
 | [#use-vulnerability-scanner](https://osv.dev/#use-vulnerability-scanner) | 开源软件漏洞数据库与扫描工具平台 |
 | [chat.z.ai](https://chat.z.ai/) | 基于GLM-4模型的免费AI对话平台 |
 | [离线音乐](https://github.com/chenqimiao/qm-music) | 基于Subsonic协议的轻量级私有云音乐服务器 |

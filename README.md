@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AndroidTransToolPlus](https://github.com/huanfeng/AndroidTransToolPlus) | 基于AI的Android多语言资源翻译工具 |
+| [Alertivity](https://github.com/nobbbbby/Alertivity) | macOS 系统资源监控与性能预警菜单栏工具 |
+| [edge-next-starter](https://github.com/TangSY/edge-next-starter) | Next.js + Cloudflare 全栈开发脚手架，集成边缘运行时与完整 CI/CD |
+| [clock-dashboard](https://github.com/teojs/clock-dashboard) | 基于 Vue3 的多功能天气时钟看板，支持智能家居控制 |
+| [boxlite](https://github.com/boxlite-labs/boxlite) | 嵌入式微型虚拟机运行时，无需守护进程运行Docker镜像沙箱 |
+| [Podtrace](https://github.com/gma1k/Podtrace) | 基于 eBPF 的 Kubernetes 应用全栈诊断与可观测性工具 |
+| [Founding](https://github.com/SenSecurity/Founding) | 恶意软件加载器生成工具，支持多种加密混淆和隐蔽执行技术 |
 | [RedTeamGrimoire](https://github.com/vari-sh/RedTeamGrimoire) | 红队渗透测试工具集与攻击技术代码库 |
 | [ipaFridaInjector](https://github.com/vari-sh/ipaFridaInjector) | iOS应用Frida注入工具，支持非越狱设备动态分析 |
 | [impacket-dcom](https://github.com/sud0Ru/impacket-dcom) | 适配Windows 10/11的Impacket DCOM远程执行工具 |

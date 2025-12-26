@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [asan-pt1-en](https://hackyboiz.github.io/2025/12/25/millet/asan-pt1-en/) | 内存错误检测工具AddressSanitizer实现原理与使用指南 |
+| [loggingsucks.com](https://loggingsucks.com/) | 日志优化指南：用宽事件改进可观测性 |
+| [avideo-security-vulnerabilities](https://chocapikk.com/posts/2025/avideo-security-vulnerabilities/) | AVideo视频平台关键漏洞链式利用与安全审计分析 |
 | [JS-Tap：为红队武器化 JavaScript](https://trustedsec.com/blog/js-tap-weaponizing-javascript-for-red-teams) | 红队JavaScript武器化工具：窃取输入、截屏和网络数据 |
 | [桌面窗口管理器数组越界 LPE](https://maccarita.com/posts/idesaster/) | AI集成开发环境安全漏洞研究与新型攻击链分析 |
 | [Windows 中的隐秘驱动程序加载](https://whiteknightlabs.com/2025/11/25/discreet-driver-loading-in-windows/) | Windows隐蔽驱动加载技术研究与漏洞利用分析 |

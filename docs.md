@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [gospoof-turning-attacks-into-intel](https://www.blackhillsinfosec.com/gospoof-turning-attacks-into-intel/) | 网络欺骗工具，伪装开放端口捕获攻击者情报 |
+| [checkmk](https://pentest.party/posts/2025/checkmk/) | Checkmk监控系统的横向渗透利用技术研究 |
+| [ntdoc.m417z.com](https://ntdoc.m417z.com/) | Windows NT原生API在线文档和开发参考手册 |
 | [asan-pt1-en](https://hackyboiz.github.io/2025/12/25/millet/asan-pt1-en/) | 内存错误检测工具AddressSanitizer实现原理与使用指南 |
 | [loggingsucks.com](https://loggingsucks.com/) | 日志优化指南：用宽事件改进可观测性 |
 | [avideo-security-vulnerabilities](https://chocapikk.com/posts/2025/avideo-security-vulnerabilities/) | AVideo视频平台关键漏洞链式利用与安全审计分析 |

@@ -1095,5 +1095,13 @@
   "https://github.com/hahwul/smugglex": "基于Rust的HTTP请求走私漏洞扫描工具",
   "https://github.com/mrgoonie/claudekit-cli": "ClaudeKit项目脚手架CLI工具，支持快速创建和更新",
   "https://github.com/tw93/Mole": "Mac系统深度清理与性能优化工具",
-  "https://github.com/mertdas/ClearEventlogBOF": "清除Windows事件日志的BOF攻击模块"
+  "https://github.com/mertdas/ClearEventlogBOF": "清除Windows事件日志的BOF攻击模块",
+  "https://www.blackhillsinfosec.com/gospoof-turning-attacks-into-intel/": "网络欺骗工具，伪装开放端口捕获攻击者情报",
+  "https://pentest.party/posts/2025/checkmk/": "Checkmk监控系统的横向渗透利用技术研究",
+  "https://ntdoc.m417z.com/": "Windows NT原生API在线文档和开发参考手册",
+  "https://github.com/connormcgarr/EATGuard": "导出地址表保护缓解技术的内核驱动实现",
+  "https://github.com/TrackerControl/tracker-control-android": "安卓应用追踪器监控与拦截工具",
+  "https://github.com/abusoww/tuxmate": "Linux多发行版批量应用安装脚本生成器",
+  "https://github.com/b-aaz/xlibre-ports": "将 XLibre 移植到 FreeBSD 和 DragonFlyBSD 系统",
+  "https://github.com/ege-adam/mo-cat-studio": "AI驱动的多人3D动作捕捉系统，从视频生成GLB动画文件"
 }

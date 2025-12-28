@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [tracker-control-android](https://github.com/TrackerControl/tracker-control-android) | 安卓应用追踪器监控与拦截工具 |
+| [tuxmate](https://github.com/abusoww/tuxmate) | Linux多发行版批量应用安装脚本生成器 |
+| [xlibre-ports](https://github.com/b-aaz/xlibre-ports) | 将 XLibre 移植到 FreeBSD 和 DragonFlyBSD 系统 |
+| [mo-cat-studio](https://github.com/ege-adam/mo-cat-studio) | AI驱动的多人3D动作捕捉系统，从视频生成GLB动画文件 |
 | [claudekit-cli](https://github.com/mrgoonie/claudekit-cli) | ClaudeKit项目脚手架CLI工具，支持快速创建和更新 |
 | [Mole](https://github.com/tw93/Mole) | Mac系统深度清理与性能优化工具 |
 | [soprano](https://github.com/ekwek1/soprano) | 超轻量级实时文本转语音模型，仅80M参数实现2000倍实时速率 |

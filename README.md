@@ -4,6 +4,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [EATGuard](https://github.com/connormcgarr/EATGuard) | 导出地址表保护缓解技术的内核驱动实现 |
 | [PrivKit](https://github.com/mertdas/PrivKit) | Windows权限提升漏洞检测的Beacon Object File工具集 |
 | [smugglex](https://github.com/hahwul/smugglex) | 基于Rust的HTTP请求走私漏洞扫描工具 |
 | [diffrays](https://github.com/pwnfuzz/diffrays) | 基于IDA Pro的二进制补丁差异分析工具 |

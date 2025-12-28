@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [agentic-threat-hunting-framework](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) | 智能威胁狩猎框架,具备记忆学习与自主行动能力 |
+| [evmesh](https://github.com/mrinalxdev/evmesh) | 基于向量时钟的分布式数据库因果一致性协议原型 |
+| [MiniMax-M2.1](https://huggingface.co/MiniMaxAI/MiniMax-M2.1) | MiniMax自研多模态大语言模型M2.1版本 |
+| [MiniMax-M2.1-GGUF](https://huggingface.co/unsloth/MiniMax-M2.1-GGUF) | MiniMax-M2.1模型的GGUF量化格式版本 |
 | [tracker-control-android](https://github.com/TrackerControl/tracker-control-android) | 安卓应用追踪器监控与拦截工具 |
 | [tuxmate](https://github.com/abusoww/tuxmate) | Linux多发行版批量应用安装脚本生成器 |
 | [xlibre-ports](https://github.com/b-aaz/xlibre-ports) | 将 XLibre 移植到 FreeBSD 和 DragonFlyBSD 系统 |

@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [BOF2shellcode](https://github.com/FalconForceTeam/BOF2shellcode) | 将CobaltStrike BOF文件转换为原始shellcode的工具 |
 | [ClearEventlogBOF](https://github.com/mertdas/ClearEventlogBOF) | 清除Windows事件日志的BOF攻击模块 |
 | [bof-launcher](https://github.com/The-Z-Labs/bof-launcher) | 跨平台BOF文件加载执行库，支持内存隐藏和多语言集成 |
 | [BOF_Spawn](https://github.com/amergamer/BOF_Spawn) | Cobalt Strike进程注入与shellcode执行工具 |

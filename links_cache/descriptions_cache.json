@@ -1103,5 +1103,18 @@
   "https://github.com/TrackerControl/tracker-control-android": "安卓应用追踪器监控与拦截工具",
   "https://github.com/abusoww/tuxmate": "Linux多发行版批量应用安装脚本生成器",
   "https://github.com/b-aaz/xlibre-ports": "将 XLibre 移植到 FreeBSD 和 DragonFlyBSD 系统",
-  "https://github.com/ege-adam/mo-cat-studio": "AI驱动的多人3D动作捕捉系统，从视频生成GLB动画文件"
+  "https://github.com/ege-adam/mo-cat-studio": "AI驱动的多人3D动作捕捉系统，从视频生成GLB动画文件",
+  "https://github.com/synacktiv/GroupPolicyBackdoor": "组策略对象(GPO)渗透利用与隐蔽操控框架",
+  "https://github.com/dis0rder0x00/stillepost": "利用Chromium浏览器作为C2流量代理的渗透测试工具",
+  "https://github.com/hwbp/LazyHook": "基于硬件断点的无痕API Hook框架，可绕过行为分析系统检测",
+  "https://github.com/Print3M/DllShimmer": "DLL劫持武器化工具，可后门任意DLL函数且不影响程序运行",
+  "https://github.com/hwbp/CLR-Unhook": ".NET运行时CLR反Hook工具，绕过EDR/AV对程序集加载的监控",
+  "https://github.com/synacktiv/laravel-crypto-killer": "Laravel应用解密机制漏洞利用工具",
+  "https://github.com/MorDavid/BruteForceAI": "基于LLM的智能登录暴力破解渗透测试工具",
+  "https://github.com/MorDavid/FlareTunnel": "基于Cloudflare Workers的IP轮换代理隧道系统",
+  "https://github.com/Nebulock-Inc/agentic-threat-hunting-framework": "智能威胁狩猎框架,具备记忆学习与自主行动能力",
+  "https://github.com/mrinalxdev/evmesh": "基于向量时钟的分布式数据库因果一致性协议原型",
+  "https://huggingface.co/MiniMaxAI/MiniMax-M2.1": "MiniMax自研多模态大语言模型M2.1版本",
+  "https://huggingface.co/unsloth/MiniMax-M2.1-GGUF": "MiniMax-M2.1模型的GGUF量化格式版本",
+  "https://github.com/FalconForceTeam/BOF2shellcode": "将CobaltStrike BOF文件转换为原始shellcode的工具"
 }

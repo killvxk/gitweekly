@@ -4,6 +4,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GroupPolicyBackdoor](https://github.com/synacktiv/GroupPolicyBackdoor) | 组策略对象(GPO)渗透利用与隐蔽操控框架 |
+| [BugTrace-AI](https://github.com/yz9yt/BugTrace-AI) | 基于生成式AI的Web安全漏洞分析与渗透测试工具套件 |
+| [stillepost](https://github.com/dis0rder0x00/stillepost) | 利用Chromium浏览器作为C2流量代理的渗透测试工具 |
+| [LazyHook](https://github.com/hwbp/LazyHook) | 基于硬件断点的无痕API Hook框架，可绕过行为分析系统检测 |
+| [DllShimmer](https://github.com/Print3M/DllShimmer) | DLL劫持武器化工具，可后门任意DLL函数且不影响程序运行 |
+| [CLR-Unhook](https://github.com/hwbp/CLR-Unhook) | .NET运行时CLR反Hook工具，绕过EDR/AV对程序集加载的监控 |
+| [laravel-crypto-killer](https://github.com/synacktiv/laravel-crypto-killer) | Laravel应用解密机制漏洞利用工具 |
+| [BruteForceAI](https://github.com/MorDavid/BruteForceAI) | 基于LLM的智能登录暴力破解渗透测试工具 |
+| [FlareTunnel](https://github.com/MorDavid/FlareTunnel) | 基于Cloudflare Workers的IP轮换代理隧道系统 |
 | [EATGuard](https://github.com/connormcgarr/EATGuard) | 导出地址表保护缓解技术的内核驱动实现 |
 | [PrivKit](https://github.com/mertdas/PrivKit) | Windows权限提升漏洞检测的Beacon Object File工具集 |
 | [smugglex](https://github.com/hahwul/smugglex) | 基于Rust的HTTP请求走私漏洞扫描工具 |

@@ -1116,5 +1116,16 @@
   "https://github.com/mrinalxdev/evmesh": "基于向量时钟的分布式数据库因果一致性协议原型",
   "https://huggingface.co/MiniMaxAI/MiniMax-M2.1": "MiniMax自研多模态大语言模型M2.1版本",
   "https://huggingface.co/unsloth/MiniMax-M2.1-GGUF": "MiniMax-M2.1模型的GGUF量化格式版本",
-  "https://github.com/FalconForceTeam/BOF2shellcode": "将CobaltStrike BOF文件转换为原始shellcode的工具"
+  "https://github.com/FalconForceTeam/BOF2shellcode": "将CobaltStrike BOF文件转换为原始shellcode的工具",
+  "https://github.com/sapdragon/syscalls-cpp": "C++20头文件库，实现隐蔽系统调用与反检测机制",
+  "https://github.com/rkbennett/od_import": "支持HTTP/FTP/SMB协议的Python远程内存模块导入工具",
+  "https://github.com/rkbennett/pyobject_inject": "Python对象内存注入执行Shellcode工具",
+  "https://github.com/rkbennett/pybof": "用Python加载并执行Beacon对象文件的模块",
+  "https://github.com/tonisives/ovim": "macOS 全局 Vim 模式编辑器，支持原位编辑与 Neovim 弹窗",
+  "https://github.com/nguyenphutrong/quotio": "macOS菜单栏AI助手统一管理工具，支持多账号配额追踪",
+  "https://github.com/pranshuparmar/witr": "进程启动原因分析工具，追溯系统进程运行的因果链",
+  "https://github.com/g0ldencybersec/gungnir": "实时监控CT日志发现新域名的安全侦察工具",
+  "https://github.com/EvotecIT/O365Essentials": "Office 365/Azure非官方API管理工具PowerShell模块",
+  "https://github.com/WinMin/ida-pro-mcp": "基于MCP协议的IDA Pro AI逆向工程助手",
+  "https://github.com/chriselgee/ObviousDNSC2": "基于DNS协议的Python命令控制框架"
 }

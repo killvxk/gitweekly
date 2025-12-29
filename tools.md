@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ovim](https://github.com/tonisives/ovim) | macOS 全局 Vim 模式编辑器，支持原位编辑与 Neovim 弹窗 |
+| [quotio](https://github.com/nguyenphutrong/quotio) | macOS菜单栏AI助手统一管理工具，支持多账号配额追踪 |
+| [witr](https://github.com/pranshuparmar/witr) | 进程启动原因分析工具，追溯系统进程运行的因果链 |
+| [gungnir](https://github.com/g0ldencybersec/gungnir) | 实时监控CT日志发现新域名的安全侦察工具 |
+| [O365Essentials](https://github.com/EvotecIT/O365Essentials) | Office 365/Azure非官方API管理工具PowerShell模块 |
 | [agentic-threat-hunting-framework](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) | 智能威胁狩猎框架,具备记忆学习与自主行动能力 |
 | [evmesh](https://github.com/mrinalxdev/evmesh) | 基于向量时钟的分布式数据库因果一致性协议原型 |
 | [MiniMax-M2.1](https://huggingface.co/MiniMaxAI/MiniMax-M2.1) | MiniMax自研多模态大语言模型M2.1版本 |

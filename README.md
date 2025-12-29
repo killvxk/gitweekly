@@ -4,6 +4,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [syscalls-cpp](https://github.com/sapdragon/syscalls-cpp) | C++20头文件库，实现隐蔽系统调用与反检测机制 |
+| [od_import](https://github.com/rkbennett/od_import) | 支持HTTP/FTP/SMB协议的Python远程内存模块导入工具 |
+| [pyobject_inject](https://github.com/rkbennett/pyobject_inject) | Python对象内存注入执行Shellcode工具 |
+| [pybof](https://github.com/rkbennett/pybof) | 用Python加载并执行Beacon对象文件的模块 |
 | [GroupPolicyBackdoor](https://github.com/synacktiv/GroupPolicyBackdoor) | 组策略对象(GPO)渗透利用与隐蔽操控框架 |
 | [BugTrace-AI](https://github.com/yz9yt/BugTrace-AI) | 基于生成式AI的Web安全漏洞分析与渗透测试工具套件 |
 | [stillepost](https://github.com/dis0rder0x00/stillepost) | 利用Chromium浏览器作为C2流量代理的渗透测试工具 |

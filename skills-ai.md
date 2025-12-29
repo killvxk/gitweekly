@@ -29,6 +29,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ida-pro-mcp](https://github.com/WinMin/ida-pro-mcp) | 基于MCP协议的IDA Pro AI逆向工程助手 |
 | [rust windows api的mcp，有这个不会瞎写api调用](https://github.com/preludeorg/windows-rs-mcp) | Rust Windows API 文档搜索 MCP 服务器 |
 | [google搜索等搜索工作的mcp](https://github.com/mrkrsl/web-search-mcp) | 本地大语言模型的网络搜索MCP服务器 |
 | [context7](https://context7.com/) | 为LLM和AI代码编辑器生成最新文档上下文的工具 |

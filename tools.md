@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [sub2api](https://github.com/Wei-Shaw/sub2api) | AI订阅共享中转平台，统一管理Claude/GPT/Gemini接口配额 |
 | [ovim](https://github.com/tonisives/ovim) | macOS 全局 Vim 模式编辑器，支持原位编辑与 Neovim 弹窗 |
 | [quotio](https://github.com/nguyenphutrong/quotio) | macOS菜单栏AI助手统一管理工具，支持多账号配额追踪 |
 | [witr](https://github.com/pranshuparmar/witr) | 进程启动原因分析工具，追溯系统进程运行的因果链 |

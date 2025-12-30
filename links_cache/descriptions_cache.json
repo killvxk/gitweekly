@@ -1128,5 +1128,14 @@
   "https://github.com/EvotecIT/O365Essentials": "Office 365/Azure非官方API管理工具PowerShell模块",
   "https://github.com/WinMin/ida-pro-mcp": "基于MCP协议的IDA Pro AI逆向工程助手",
   "https://github.com/chriselgee/ObviousDNSC2": "基于DNS协议的Python命令控制框架",
-  "https://github.com/Wei-Shaw/sub2api": "AI订阅共享中转平台，统一管理Claude/GPT/Gemini接口配额"
+  "https://github.com/Wei-Shaw/sub2api": "AI订阅共享中转平台，统一管理Claude/GPT/Gemini接口配额",
+  "https://codex-7.gitbook.io/codexs-terminal-window/red-team/cobalt-strike/building-custom-c2-channels-by-hooking-wininet": "基于WinINET API钩子实现自定义C2通信信道",
+  "https://xploitbengineer.github.io/CVE-2025-21479": "三星S23 Qualcomm GPU微码漏洞利用分析",
+  "https://nickmonad.blog/2025/static-allocation-with-zig-kv/": "Zig语言实现静态内存分配的键值存储服务器",
+  "https://github.com/vinaypamnani/wmie": "Windows WMI管理浏览器，支持查询、编辑和监控WMI对象",
+  "https://github.com/AnandChowdhary/continuous-claude": "Claude AI 自动化循环执行工具，支持自主创建 PR 并合并",
+  "https://github.com/apple/ml-sharp": "单目图像秒级高质量3D视图合成系统",
+  "https://github.com/tinygrad/tinygrad": "轻量级深度学习框架，集成张量计算、自动微分与编译器",
+  "https://github.com/asterinas/asterinas": "Rust编写的Linux兼容安全高性能操作系统内核",
+  "https://github.com/XiaomingX/awesome-seo-tools": "精选SEO优化工具集合，涵盖关键词研究、外链分析、技术优化等领域"
 }

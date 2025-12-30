@@ -4,6 +4,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [wmie](https://github.com/vinaypamnani/wmie) | Windows WMI管理浏览器，支持查询、编辑和监控WMI对象 |
 | [syscalls-cpp](https://github.com/sapdragon/syscalls-cpp) | C++20头文件库，实现隐蔽系统调用与反检测机制 |
 | [od_import](https://github.com/rkbennett/od_import) | 支持HTTP/FTP/SMB协议的Python远程内存模块导入工具 |
 | [pyobject_inject](https://github.com/rkbennett/pyobject_inject) | Python对象内存注入执行Shellcode工具 |

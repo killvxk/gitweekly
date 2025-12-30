@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [building-custom-c2-channels-by-hooking-wininet](https://codex-7.gitbook.io/codexs-terminal-window/red-team/cobalt-strike/building-custom-c2-channels-by-hooking-wininet) | 基于WinINET API钩子实现自定义C2通信信道 |
+| [CVE-2025-21479](https://xploitbengineer.github.io/CVE-2025-21479) | 三星S23 Qualcomm GPU微码漏洞利用分析 |
+| [static-allocation-with-zig-kv](https://nickmonad.blog/2025/static-allocation-with-zig-kv/) | Zig语言实现静态内存分配的键值存储服务器 |
 | [gospoof-turning-attacks-into-intel](https://www.blackhillsinfosec.com/gospoof-turning-attacks-into-intel/) | 网络欺骗工具，伪装开放端口捕获攻击者情报 |
 | [checkmk](https://pentest.party/posts/2025/checkmk/) | Checkmk监控系统的横向渗透利用技术研究 |
 | [ntdoc.m417z.com](https://ntdoc.m417z.com/) | Windows NT原生API在线文档和开发参考手册 |

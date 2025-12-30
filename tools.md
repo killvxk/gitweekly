@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [continuous-claude](https://github.com/AnandChowdhary/continuous-claude) | Claude AI 自动化循环执行工具，支持自主创建 PR 并合并 |
+| [ml-sharp](https://github.com/apple/ml-sharp) | 单目图像秒级高质量3D视图合成系统 |
+| [tinygrad](https://github.com/tinygrad/tinygrad) | 轻量级深度学习框架，集成张量计算、自动微分与编译器 |
+| [asterinas](https://github.com/asterinas/asterinas) | Rust编写的Linux兼容安全高性能操作系统内核 |
+| [awesome-seo-tools](https://github.com/XiaomingX/awesome-seo-tools) | 精选SEO优化工具集合，涵盖关键词研究、外链分析、技术优化等领域 |
 | [sub2api](https://github.com/Wei-Shaw/sub2api) | AI订阅共享中转平台，统一管理Claude/GPT/Gemini接口配额 |
 | [ovim](https://github.com/tonisives/ovim) | macOS 全局 Vim 模式编辑器，支持原位编辑与 Neovim 弹窗 |
 | [quotio](https://github.com/nguyenphutrong/quotio) | macOS菜单栏AI助手统一管理工具，支持多账号配额追踪 |

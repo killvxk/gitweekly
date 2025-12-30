@@ -328,6 +328,31 @@ Checklist:
 - 禁止将 memory/plan 文件存放在项目根目录或其他位置
 - 首次使用时自动创建目录结构
 
+### Plan Lifecycle (Mandatory)
+
+#### 语言要求
+- **计划文件和执行总结必须使用中文编写**
+
+#### 完成计划后
+- **必须先保存计划文件**到 `docs/plan/{feature-id}-plan.md`
+- 计划文件应包含：
+  - 问题描述/需求背景
+  - 解决方案概述
+  - 修改清单（文件、函数、预期变更）
+  - 兼容性考虑
+  - 状态检查列表（待办项）
+- 用户确认后再开始执行
+
+#### 计划执行完成后
+- **必须将执行总结写入** `docs/memory/session-{date}.md`
+- 总结应包含：
+  - 完成的任务描述
+  - 提交记录（commit hash + message）
+  - 关键代码变更（文件:行号 + 修改内容）
+  - 代码审查发现的问题及修复
+  - 技术决策（ADR 格式）
+- 如有多个功能，按序号分节记录
+
 ### Before Any Code Changes
 - 必须完成并通过评审：`docs/requirements.md` 与 `docs/design.md`
 
@@ -363,6 +388,8 @@ Checklist:
 - Microsoft 技术问题使用 context7（应使用 Microsoft Learn）
 - Rust crate 问题使用 context7（应使用 doc.rs）
 - 其他开源库问题使用 Microsoft Learn（应使用 context7）
+- **未保存计划文件就开始执行代码变更**
+- **计划执行完成后未写入 memory 总结**
 
 ---
 

@@ -2,6 +2,20 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Krawl](https://github.com/BlessedRebuS/Krawl) | 云原生蜜罐服务器，通过欺骗性页面和金丝雀令牌检测恶意爬虫 |
+| [Handy](https://github.com/cjpais/Handy) | 离线开源语音转文字应用，支持全局快捷键转录 |
+| [rlm](https://github.com/alexzhang13/rlm) | 递归语言模型推理库，支持无限长上下文处理 |
+| [LinaCodec](https://github.com/ysharma3501/LinaCodec) | 高压缩率神经音频编解码器，支持语音模型 |
+| [vibe-kanban](https://github.com/BloopAI/vibe-kanban) | AI代码助手任务编排与可视化看板管理工具 |
+| [ida-claude-code-plugins](https://github.com/HexRaysSA/ida-claude-code-plugins) | IDA Pro 逆向工程中集成 Claude AI 辅助分析的插件 |
+| [AIMachDec](https://github.com/s3rg0x/AIMachDec) | 基于LLM的IDA插件，将ARM64汇编转换为C/OC/Swift伪代码 |
+| [Kiroshi](https://github.com/not1cyyy/Kiroshi) | IDA Pro插件：静态检测Windows二进制文件中的反作弊特征 |
+| [ida-spotlight](https://github.com/dyussekeyev/ida-spotlight) | IDA Pro 函数优先级分类插件，快速定位恶意代码关键函数 |
+| [KnAIght](https://github.com/WKL-Sec/KnAIght) | AI提示词混淆工具，绕过生成式AI内容检测系统 |
+| [qemu-wasm](https://github.com/ktock/qemu-wasm) | 基于WebAssembly的浏览器端QEMU虚拟机实现 |
+| [sleepless-agent](https://github.com/context-machine-lab/sleepless-agent) | 基于Claude的全天候AI任务代理系统，通过Slack自动处理任务并创建PR |
+| [mt7622-qemu-vm](https://github.com/mellow-hype/mt7622-qemu-vm) | 联发科MT7622网卡驱动QEMU虚拟化调试环境 |
+| [tailsnitch](https://github.com/Adversis/tailsnitch) | Tailscale安全配置审计工具，检测权限错误配置与安全漏洞 |
 | [continuous-claude](https://github.com/AnandChowdhary/continuous-claude) | Claude AI 自动化循环执行工具，支持自主创建 PR 并合并 |
 | [ml-sharp](https://github.com/apple/ml-sharp) | 单目图像秒级高质量3D视图合成系统 |
 | [tinygrad](https://github.com/tinygrad/tinygrad) | 轻量级深度学习框架，集成张量计算、自动微分与编译器 |

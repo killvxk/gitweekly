@@ -4,6 +4,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [silph](https://github.com/almounah/silph) | 内存中转储LSA、SAM和DCC2凭据的隐蔽式密码收集工具 |
+| [scorch](https://github.com/professor-moody/scorch) | 微软System Center Orchestrator渗透测试工具包，支持凭证提取与自动化攻击 |
+| [EDR-GhostLocker](https://github.com/zero2504/EDR-GhostLocker) | 基于AppLocker机制实现EDR安全防护绕过工具 |
+| [NeuroSploit](https://github.com/CyberSecurityUP/NeuroSploit) | AI驱动的自动化渗透测试框架 |
+| [Vectored-Exception-Handling-Squared](https://github.com/0xflux/Vectored-Exception-Handling-Squared) | 基于向量异常处理的隐蔽代码执行技术实现 |
+| [FsquirtCPLPoC](https://github.com/mhaskar/FsquirtCPLPoC) | 利用Windows LOLBin技术的DLL劫持攻击PoC |
 | [wmie](https://github.com/vinaypamnani/wmie) | Windows WMI管理浏览器，支持查询、编辑和监控WMI对象 |
 | [syscalls-cpp](https://github.com/sapdragon/syscalls-cpp) | C++20头文件库，实现隐蔽系统调用与反检测机制 |
 | [od_import](https://github.com/rkbennett/od_import) | 支持HTTP/FTP/SMB协议的Python远程内存模块导入工具 |

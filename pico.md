@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [crystal-palace-vsc](https://github.com/rasta-mouse/crystal-palace-vsc) | VSCode扩展：Crystal Palace规范文件语法高亮与代码片段支持 |
 | [Crystal-Kit](https://github.com/rasta-mouse/Crystal-Kit) | Cobalt Strike渗透框架规避检测工具包 |
 | [Crystal-Loaders](https://github.com/rasta-mouse/Crystal-Loaders) | Cobalt Strike位置无关代码加载器集合 |
 | [execute-assembly-pico](https://github.com/ofasgard/execute-assembly-pico) | 内存中执行.NET程序集的位置无关代码实现 |

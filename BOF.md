@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Remote-BOF-Runner](https://github.com/pard0p/Remote-BOF-Runner) | Havoc框架远程执行Beacon对象文件的扩展工具 |
 | [BOF2shellcode](https://github.com/FalconForceTeam/BOF2shellcode) | 将CobaltStrike BOF文件转换为原始shellcode的工具 |
 | [ClearEventlogBOF](https://github.com/mertdas/ClearEventlogBOF) | 清除Windows事件日志的BOF攻击模块 |
 | [bof-launcher](https://github.com/The-Z-Labs/bof-launcher) | 跨平台BOF文件加载执行库，支持内存隐藏和多语言集成 |

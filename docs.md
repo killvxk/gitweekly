@@ -2,6 +2,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [kernel_of_doom](https://www.archcloudlabs.com/projects/kernel_of_doom/) | 定制极简Linux内核启动Doom游戏的技术实验 |
+| [zyrox](https://peterr.dev/blogs/zyrox/) | 基于LLVM的原生代码混淆插件，提升反逆向工程能力 |
+| [TP-Link-Tapo-C200-Hardcoded-Keys-Buffer-Overflows-and-Privacy-in-the-Era-of-AI-Assisted-Reverse-Engineering](https://www.evilsocket.net/2025/12/18/TP-Link-Tapo-C200-Hardcoded-Keys-Buffer-Overflows-and-Privacy-in-the-Era-of-AI-Assisted-Reverse-Engineering/) | TP-Link摄像头逆向工程与安全漏洞分析 |
+| [windows-arm64-interrupts](https://connormcgarr.github.io/windows-arm64-interrupts/) | Windows ARM64中断机制深度解析与实现原理 |
+| [yet-another-dcom-object-for-command-execution-part-2](https://sud0ru.ghost.io/yet-another-dcom-object-for-command-execution-part-2/) | 利用DCOM对象执行命令的横向移动技术研究 |
+| [vectored-exception-handling-squared-rust](https://fluxsec.red/vectored-exception-handling-squared-rust) | 基于硬件断点和VEH的Rust反调试与代码拦截技术实现 |
+| [CVE-2025-43530](https://jhftss.github.io/CVE-2025-43530/) | macOS VoiceOver私有API的TCC权限绕过漏洞利用分析 |
+| [bof-cocktails](https://rastamouse.me/bof-cocktails/) | 将规避技术直接嵌入BOF的PIC框架 |
+| [capd](https://blog.zsec.uk/capd/) | 基于CloudFlare Workers的红队条件访问载荷投递系统 |
+| [licenseplate](https://www.jack.bio/blog/licenseplate) | 用TypeScript自动化批量查询稀有车牌号可用性的工具 |
+| [what-i-seek-pentester.html](https://simondotsh.com/infosec/2026/01/04/what-i-seek-pentester.html) | 渗透测试人员职业发展与技能要求指南 |
 | [building-custom-c2-channels-by-hooking-wininet](https://codex-7.gitbook.io/codexs-terminal-window/red-team/cobalt-strike/building-custom-c2-channels-by-hooking-wininet) | 基于WinINET API钩子实现自定义C2通信信道 |
 | [CVE-2025-21479](https://xploitbengineer.github.io/CVE-2025-21479) | 三星S23 Qualcomm GPU微码漏洞利用分析 |
 | [static-allocation-with-zig-kv](https://nickmonad.blog/2025/static-allocation-with-zig-kv/) | Zig语言实现静态内存分配的键值存储服务器 |

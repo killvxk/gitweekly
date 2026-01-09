@@ -2,6 +2,28 @@
 
 | 文章 | 简介 |
 |------|------|
+| [rootkit-detection-ebpf-time-trace](https://github.com/ait-aecid/rootkit-detection-ebpf-time-trace) | 基于eBPF时间追踪检测Rootkit文件隐藏行为 |
+| [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code 持久化Markdown规划技能插件 |
+| [websocket](https://github.com/coder/websocket) | Go语言极简WebSocket库，支持零依赖和并发写入 |
+| [ToolShell](https://github.com/LuemmelSec/ToolShell) | SharePoint未授权远程代码执行漏洞利用工具 |
+| [obsidian-skills](https://github.com/kepano/obsidian-skills) | 为Obsidian提供Claude AI技能集成工具 |
+| [poly-sdk](https://github.com/cyl19970726/poly-sdk) | Polymarket统一TypeScript SDK，集成交易、行情、智能资金分析与链上操作 |
+| [angrop](https://github.com/angr/angrop) | 基于符号执行的ROP利用链自动生成工具 |
+| [SimpleMem](https://github.com/aiming-lab/SimpleMem) | 基于语义无损压缩的LLM智能体高效终身记忆系统 |
+| [evil-opencode](https://github.com/WinMin/evil-opencode) | 移除LLM安全限制的开源代码智能体 |
+| [cc-slack](https://github.com/yuya-takeyama/cc-slack) | 在 Slack 中交互使用 Claude Code CLI 的集成工具 |
+| [ccdd](https://github.com/2234839/ccdd) | Claude Code 任务完成通知系统（支持飞书/Telegram/手环震动） |
+| [ralph](https://github.com/snarktank/ralph) | 基于PRD自动循环执行的AI代理开发工具 |
+| [ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Claude Code自主开发循环工具，智能退出检测与速率限制 |
+| [vibeship-spawner-skills](https://github.com/vibeforge1111/vibeship-spawner-skills) | Claude终端智能体技能库，提供462个生产级专业技能模块 |
+| [Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | 低显存AI视频生成工具，支持多种开源视频生成模型 |
+| [awesome-claude-skills](https://github.com/Chat2AnyLLM/awesome-claude-skills) | Claude技能精选列表，涵盖开发、运维、AI等领域 |
+| [neko](https://github.com/m1k1o/neko) | 基于Docker和WebRTC的自托管虚拟浏览器 |
+| [walrus](https://github.com/jerkeyray/walrus) | Go语言实现的预写日志（WAL）持久化键值存储系统 |
+| [claude-code-showcase](https://github.com/ChrisWiles/claude-code-showcase) | Claude Code 配置示例：技能、代理和自动化工作流最佳实践 |
+| [simple-llm](https://github.com/naklecha/simple-llm) | 从零构建的极简LLM推理引擎，支持异步批处理和CUDA优化 |
+| [zedis](https://github.com/vicanso/zedis) | 基于 Rust 和 GPUI 的高性能 GPU 加速 Redis 客户端 |
+| [tin](https://github.com/dadlerj/tin) | AI编程对话版本控制系统，基于Git管理对话线程与代码变更 |
 | [Krawl](https://github.com/BlessedRebuS/Krawl) | 云原生蜜罐服务器，通过欺骗性页面和金丝雀令牌检测恶意爬虫 |
 | [Handy](https://github.com/cjpais/Handy) | 离线开源语音转文字应用，支持全局快捷键转录 |
 | [rlm](https://github.com/alexzhang13/rlm) | 递归语言模型推理库，支持无限长上下文处理 |

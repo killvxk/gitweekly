@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026](https://www.outflank.nl/blog/2026/01/07/patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026/) |  |
+| [tutorial-dll-sideloading-and-function-proxying-with-shellcodepack-bddd197c8814](https://blog.balliskit.com/tutorial-dll-sideloading-and-function-proxying-with-shellcodepack-bddd197c8814) |  |
+| [esxi-vm-escape-exploit](https://www.huntress.com/blog/esxi-vm-escape-exploit) | ESXi虚拟机逃逸零日漏洞利用分析 |
+| [predator-ios-malware-surveillance-framework-part-1](https://blog.reversesociety.co/blog/2025/predator-ios-malware-surveillance-framework-part-1) | iOS间谍软件Predator监控框架逆向工程技术分析 |
 | [kernel_of_doom](https://www.archcloudlabs.com/projects/kernel_of_doom/) | 定制极简Linux内核启动Doom游戏的技术实验 |
 | [zyrox](https://peterr.dev/blogs/zyrox/) | 基于LLVM的原生代码混淆插件，提升反逆向工程能力 |
 | [TP-Link-Tapo-C200-Hardcoded-Keys-Buffer-Overflows-and-Privacy-in-the-Era-of-AI-Assisted-Reverse-Engineering](https://www.evilsocket.net/2025/12/18/TP-Link-Tapo-C200-Hardcoded-Keys-Buffer-Overflows-and-Privacy-in-the-Era-of-AI-Assisted-Reverse-Engineering/) | TP-Link摄像头逆向工程与安全漏洞分析 |

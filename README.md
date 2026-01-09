@@ -4,6 +4,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Paicord](https://github.com/llsc12/Paicord) | 基于SwiftUI开发的原生Discord第三方客户端 |
+| [SysmonConfigPusher2](https://github.com/Antonlovesdnb/SysmonConfigPusher2) | Sysmon配置集中管理与批量部署工具 |
+| [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI) | 强制移除Windows 11系统AI组件和隐私追踪功能的脚本工具 |
+| [CVE-2026-21858](https://github.com/Chocapikk/CVE-2026-21858) | n8n工作流自动化平台未授权文件读取到远程代码执行漏洞利用链 |
 | [silph](https://github.com/almounah/silph) | 内存中转储LSA、SAM和DCC2凭据的隐蔽式密码收集工具 |
 | [scorch](https://github.com/professor-moody/scorch) | 微软System Center Orchestrator渗透测试工具包，支持凭证提取与自动化攻击 |
 | [EDR-GhostLocker](https://github.com/zero2504/EDR-GhostLocker) | 基于AppLocker机制实现EDR安全防护绕过工具 |

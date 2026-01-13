@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [gpui-markup](https://github.com/so1ve/gpui-markup) | 基于 Rust 的声明式 GPUI 应用界面构建 DSL |
+| [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Claude Code 复利工程插件：通过计划、执行、审查和知识沉淀提升开发效率 |
+| [ccpm](https://github.com/kaldown/ccpm) | Claude Code 插件管理器，提供 TUI 界面和命令行工具 |
+| [makepad-skills](https://github.com/ZhangHanDong/makepad-skills) | 基于Makepad框架的AI辅助Rust跨平台UI开发技能库 |
+| [agent-browser](https://github.com/vercel-labs/agent-browser) | AI智能体专用的无头浏览器自动化命令行工具 |
+| [cai](https://github.com/aliasrobotics/cai) | AI安全框架，专注于网络安全威胁检测与防护 |
+| [flashingestor](https://github.com/Macmod/flashingestor) | Active Directory数据采集与BloodHound导入TUI工具 |
+| [clearcat.lingxiangtools.top](https://clearcat.lingxiangtools.top/) | AI驱动的在线图片水印去除与图像修复工具 |
+| [Claude-Ally-Health](https://github.com/huifer/Claude-Ally-Health) | 基于Claude AI的个人健康档案管理系统，支持医疗报告识别与用药分析 |
+| [pdfcraft](https://github.com/PDFCraftTool/pdfcraft) | 浏览器端全功能PDF工具箱，隐私安全的文档处理解决方案 |
+| [cloudimgs](https://github.com/qazzxxx/cloudimgs) | 无数据库极简图床，支持NAS部署与API开放接口 |
+| [gitstats](https://github.com/shenxianpeng/gitstats) | Git仓库数据可视化统计分析工具 |
+| [baihu-panel](https://github.com/engigu/baihu-panel) | 基于Go和Vue3的轻量级定时任务管理面板 |
+| [ZenOps](https://github.com/opsre/ZenOps) | 基于钉钉飞书企微的自然语言运维资源查询机器人 |
+| [lazycat-terminal](https://github.com/manateelazycat/lazycat-terminal) | 基于GTK4的高性能终端模拟器，支持多标签页、分屏和透明背景 |
+| [skills-manager-client](https://github.com/buzhangsan/skills-manager-client) | Claude Code Skills 桌面管理工具，支持安装、浏览和安全扫描 |
+| [www.dongni.xin](https://www.dongni.xin/) | 网络安全CTF竞赛资讯与新闻聚合平台 |
 | [rootkit-detection-ebpf-time-trace](https://github.com/ait-aecid/rootkit-detection-ebpf-time-trace) | 基于eBPF时间追踪检测Rootkit文件隐藏行为 |
 | [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Claude Code 持久化Markdown规划技能插件 |
 | [websocket](https://github.com/coder/websocket) | Go语言极简WebSocket库，支持零依赖和并发写入 |

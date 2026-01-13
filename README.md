@@ -4,6 +4,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | 基于SMTP协议伪装的高速隐蔽隧道代理工具 |
+| [ecapture](https://github.com/gojue/ecapture) | 基于eBPF无需证书捕获SSL/TLS明文通信的工具 |
+| [katana](https://github.com/saintly2k/katana) | 基于Mirai的DDoS僵尸网络攻击工具（教学用途） |
+| [ReflectiveNtdll](https://github.com/reveng007/ReflectiveNtdll) | 基于内存映射NTDLL实现EDR绕过的反射加载工具 |
+| [NTDLLReflection](https://github.com/SaadAhla/NTDLLReflection) | 通过远程加载反射型NTDLL绕过用户态EDR钩子检测 |
+| [vanitygen-plusplus](https://github.com/10gic/vanitygen-plusplus) | 支持100多种加密货币的虚荣地址生成工具 |
+| [Founding](https://github.com/SenSecurity/Founding) | 恶意软件加载器生成工具，支持多种加密混淆和隐蔽执行技术 |
+| [MaskCracker](https://github.com/learnerLj/MaskCracker) | Metamask钱包密码破解安全测试工具 |
+| [Zen-C](https://github.com/z-libs/Zen-C) | 类型推断、模式匹配的现代C语言编译器 |
+| [ntloader](https://github.com/grub4dos/ntloader) | 支持NT6+系统WIM/VHD/VHDX镜像的多平台启动加载器 |
+| [w11_shadow_copies](https://github.com/ricardojoserf/w11_shadow_copies) | Windows 11 卷影复制管理工具，通过VSS API实现创建删除功能 |
+| [EDRStartupHinder](https://github.com/TwoSevenOneT/EDRStartupHinder) | 红队工具：通过DLL重定向阻止EDR和杀毒软件启动 |
+| [SysmonCommunityGuide](https://github.com/trustedsec/SysmonCommunityGuide) | Sysmon系统监控工具社区使用指南与配置最佳实践 |
+| [santamon](https://github.com/0x4D31/santamon) | 基于Santa端点安全遥测的轻量级macOS威胁检测代理 |
+| [cc-agent](https://github.com/JeanBonBeurre34/cc-agent) | 基于Go的远程命令执行代理工具 |
+| [kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) | 支持56+格式的多语言文档智能解析框架 |
+| [HaE](https://github.com/gh0stkey/HaE) | 安全测试中HTTP消息和文件的高亮与提取框架 |
 | [Paicord](https://github.com/llsc12/Paicord) | 基于SwiftUI开发的原生Discord第三方客户端 |
 | [SysmonConfigPusher2](https://github.com/Antonlovesdnb/SysmonConfigPusher2) | Sysmon配置集中管理与批量部署工具 |
 | [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI) | 强制移除Windows 11系统AI组件和隐私追踪功能的脚本工具 |

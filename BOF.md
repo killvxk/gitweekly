@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [dumpguard_bof](https://github.com/0xedh/dumpguard_bof) | 提取Windows会话NTLMv1哈希的BOF工具 |
+| [ClipboardStealBOF](https://github.com/incursi0n/ClipboardStealBOF) | Cobalt Strike剪贴板历史窃取与控制BOF工具 |
+| [nanorobeus](https://github.com/wavvs/nanorobeus) | Kerberos票据管理的COFF/BOF渗透测试工具 |
 | [Remote-BOF-Runner](https://github.com/pard0p/Remote-BOF-Runner) | Havoc框架远程执行Beacon对象文件的扩展工具 |
 | [BOF2shellcode](https://github.com/FalconForceTeam/BOF2shellcode) | 将CobaltStrike BOF文件转换为原始shellcode的工具 |
 | [ClearEventlogBOF](https://github.com/mertdas/ClearEventlogBOF) | 清除Windows事件日志的BOF攻击模块 |

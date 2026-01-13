@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [evasive-remote-memory-write-22e6ddc89517](https://medium.com/@s12deff/evasive-remote-memory-write-22e6ddc89517) |  |
+| [0022](https://bugs.pwno.io/0022) | PostgreSQL数据库WAIT FOR LSN功能数组越界漏洞分析 |
+| [elf-binary](https://nutcrackerssecurity.github.io/posts/elf-binary/) | ELF二进制文件格式解析与结构分析教程 |
+| [serving-carbonara](https://shomy.is-a.dev/blog/article/serving-carbonara) | MediaTek芯片bootloader解锁漏洞分析与利用研究 |
 | [patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026](https://www.outflank.nl/blog/2026/01/07/patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026/) |  |
 | [tutorial-dll-sideloading-and-function-proxying-with-shellcodepack-bddd197c8814](https://blog.balliskit.com/tutorial-dll-sideloading-and-function-proxying-with-shellcodepack-bddd197c8814) |  |
 | [esxi-vm-escape-exploit](https://www.huntress.com/blog/esxi-vm-escape-exploit) | ESXi虚拟机逃逸零日漏洞利用分析 |

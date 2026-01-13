@@ -1,5 +1,6 @@
 .claude/
 __pycache__/
+report/
 test*.py
 nul
 docs/

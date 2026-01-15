@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ShaderToHuman](https://github.com/electronicarts/ShaderToHuman) | HLSL/GLSL着色器调试库，支持打印和可视化调试 |
+| [drzero](https://github.com/facebookresearch/drzero) | 无训练数据的自进化搜索智能体框架 |
+| [skills](https://github.com/huggingface/skills) | AI/ML 任务技能定义库，支持多种编程助手工具互操作 |
+| [Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote) | 多平台远程控制Claude Code的消息通知与命令交互工具 |
+| [ralph-tui](https://github.com/subsy/ralph-tui) | AI编码代理自动化任务编排终端工具 |
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | AI驱动的跨平台UI/UX设计智能技能库 |
+| [agentx](https://github.com/agentsdance/agentx) | 统一管理多AI代理的MCP服务器和技能插件的CLI工具 |
+| [zeroshot](https://github.com/covibes/zeroshot) | 基于多智能体协作的自主代码开发与验证CLI工具 |
+| [WellAlly-health](https://github.com/huifer/WellAlly-health) | 基于Claude AI的个人健康档案管理系统 |
+| [claude-code-gemini-manager-skill](https://github.com/alchemiststudiosDOTai/claude-code-gemini-manager-skill) | Claude管理Gemini协作编码的AI代理插件 |
+| [design-plugin](https://github.com/0xdesign/design-plugin) | Claude代码插件：快速生成多个UI设计方案并迭代优化 |
+| [OpenDecoder](https://github.com/fengranMark/OpenDecoder) | 融合文档质量指标的RAG增强型LLM解码框架 |
 | [gpui-markup](https://github.com/so1ve/gpui-markup) | 基于 Rust 的声明式 GPUI 应用界面构建 DSL |
 | [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Claude Code 复利工程插件：通过计划、执行、审查和知识沉淀提升开发效率 |
 | [ccpm](https://github.com/kaldown/ccpm) | Claude Code 插件管理器，提供 TUI 界面和命令行工具 |

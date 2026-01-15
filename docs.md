@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [command-and-evade-turlas-kazuar-v3-loader](https://r136a1.dev/2026/01/14/command-and-evade-turlas-kazuar-v3-loader/) | Turla组织Kazuar v3加载器恶意软件分析报告 |
+| [hitcon-2025](https://sylvie.fyi/posts/hitcon-2025/) | 利用BMP多语言文件实现远程代码执行的CTF挑战 |
+| [bind-link-edr-tampering](https://ipurple.team/2025/12/01/bind-link-edr-tampering/) | 利用Bind Link API重定向EDR文件夹实现安全绕过 |
+| [edr-silencing](https://ipurple.team/2026/01/12/edr-silencing/) | 通过防火墙规则阻断EDR云端通信的攻防技术研究 |
 | [evasive-remote-memory-write-22e6ddc89517](https://medium.com/@s12deff/evasive-remote-memory-write-22e6ddc89517) |  |
 | [0022](https://bugs.pwno.io/0022) | PostgreSQL数据库WAIT FOR LSN功能数组越界漏洞分析 |
 | [elf-binary](https://nutcrackerssecurity.github.io/posts/elf-binary/) | ELF二进制文件格式解析与结构分析教程 |

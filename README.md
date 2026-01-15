@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [SEP-Exhaustion-Kernel-Panic](https://github.com/zeroxjf/SEP-Exhaustion-Kernel-Panic) | iOS/macOS SEP固件资源耗尽型内核崩溃漏洞 |
+| [MSRC-PatchReview](https://github.com/f-bader/MSRC-PatchReview) | 微软安全补丁月度分析PowerShell工具 |
+| [FrankensteinAPCInjection](https://github.com/S12cybersecurity/FrankensteinAPCInjection) | 利用现有句柄和内存区域的隐蔽Windows进程注入技术 |
+| [Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac) | Mac系统NTFS磁盘读写挂载管理工具 |
+| [HappyIDA](https://github.com/HappyIDA/HappyIDA) | IDA Pro反编译器增强插件，提供参数标注、类型编辑、异常处理可视化等功能 |
+| [JBScrape](https://github.com/zeroxjf/JBScrape) | 自动搜索eBay和Swappa上可越狱iPhone设备的爬虫工具 |
+| [SharpPXE](https://github.com/leftp/SharpPXE) | 从SCCM PXE启动介质中提取和解密配置信息的C#工具 |
 | [smtp-tunnel-proxy](https://github.com/x011/smtp-tunnel-proxy) | 基于SMTP协议伪装的高速隐蔽隧道代理工具 |
 | [ecapture](https://github.com/gojue/ecapture) | 基于eBPF无需证书捕获SSL/TLS明文通信的工具 |
 | [katana](https://github.com/saintly2k/katana) | 基于Mirai的DDoS僵尸网络攻击工具（教学用途） |

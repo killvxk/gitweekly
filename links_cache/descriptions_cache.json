@@ -1264,5 +1264,9 @@
   "https://github.com/huifer/WellAlly-health": "基于Claude AI的个人健康档案管理系统",
   "https://github.com/alchemiststudiosDOTai/claude-code-gemini-manager-skill": "Claude管理Gemini协作编码的AI代理插件",
   "https://github.com/0xdesign/design-plugin": "Claude代码插件：快速生成多个UI设计方案并迭代优化",
-  "https://github.com/fengranMark/OpenDecoder": "融合文档质量指标的RAG增强型LLM解码框架"
+  "https://github.com/fengranMark/OpenDecoder": "融合文档质量指标的RAG增强型LLM解码框架",
+  "https://projectzero.google/2026/01/pixel-0-click-part-1.html": "Pixel 9音频解码器零点击漏洞利用链研究",
+  "https://github.com/amak-tech/port-buddy": "本地端口快速穿透工具，支持HTTP/TCP/UDP内网映射",
+  "https://github.com/dmmulroy/cloudflare-skill": "Cloudflare平台AI参考文档与技能包",
+  "https://github.com/robbin/javaeye3": "JavaEye技术社区网站Ruby on Rails源代码"
 }

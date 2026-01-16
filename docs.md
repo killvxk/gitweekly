@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pixel-0-click-part-1.html](https://projectzero.google/2026/01/pixel-0-click-part-1.html) | Pixel 9音频解码器零点击漏洞利用链研究 |
 | [command-and-evade-turlas-kazuar-v3-loader](https://r136a1.dev/2026/01/14/command-and-evade-turlas-kazuar-v3-loader/) | Turla组织Kazuar v3加载器恶意软件分析报告 |
 | [hitcon-2025](https://sylvie.fyi/posts/hitcon-2025/) | 利用BMP多语言文件实现远程代码执行的CTF挑战 |
 | [bind-link-edr-tampering](https://ipurple.team/2025/12/01/bind-link-edr-tampering/) | 利用Bind Link API重定向EDR文件夹实现安全绕过 |

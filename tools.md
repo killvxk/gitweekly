@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [port-buddy](https://github.com/amak-tech/port-buddy) | 本地端口快速穿透工具，支持HTTP/TCP/UDP内网映射 |
+| [cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill) | Cloudflare平台AI参考文档与技能包 |
+| [javaeye3](https://github.com/robbin/javaeye3) | JavaEye技术社区网站Ruby on Rails源代码 |
 | [ShaderToHuman](https://github.com/electronicarts/ShaderToHuman) | HLSL/GLSL着色器调试库，支持打印和可视化调试 |
 | [drzero](https://github.com/facebookresearch/drzero) | 无训练数据的自进化搜索智能体框架 |
 | [skills](https://github.com/huggingface/skills) | AI/ML 任务技能定义库，支持多种编程助手工具互操作 |

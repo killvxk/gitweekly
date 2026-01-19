@@ -1172,7 +1172,7 @@ class SourceFileUpdater:
     """源文件更新器 - 更新 docs.md/README.md 等源文件为表格格式"""
 
     # 需要处理的源文件列表
-    SOURCE_FILES = ['docs.md', 'README.md', 'tools.md', 'BOF.md', 'skills-ai.md', 'pico.md', 'C2.md']
+    SOURCE_FILES = ['docs.md', 'README.md', 'tools.md', 'BOF.md', 'skills-ai.md', 'pico.md', 'C2.md', 'free.md']
 
     def __init__(self):
         pass
@@ -1757,6 +1757,248 @@ class AutoWeeklyProcessor:
         except Exception as e:
             logger.error(f"❌ 发生未知错误: {e}")
 
+    # ==================== 新增：全自动模式 ====================
+
+    def run_auto_mode(self, max_links: int = None):
+        """
+        全自动模式：检测本周源文件变更 → 提取URL → 生成AI描述 → 生成周报 → Git提交
+
+        这是功能1-5的合并版本，一键完成所有操作。
+        """
+        if max_links is None:
+            max_links = self.config.max_links_per_week
+
+        logger.info("\n" + "="*60)
+        logger.info("🚀 全自动周报生成模式")
+        logger.info("="*60)
+
+        # Step 1: 计算当前周范围
+        week_start, week_end = self._get_current_week_range()
+        logger.info(f"📅 周期: {week_start} ~ {week_end}")
+
+        # Step 2: 检测本周变更的源文件
+        changed_files = self._get_changed_source_files(week_start, week_end)
+
+        if not changed_files:
+            logger.info("\n⚠️  本周没有源文件变更，无需生成周报")
+            return
+
+        logger.info(f"\n📂 发现 {len(changed_files)} 个变更的源文件:")
+        for f in changed_files:
+            logger.info(f"   - {f.name}")
+
+        # Step 3: 从源文件提取所有URL（包含已有描述）
+        urls_by_category = self._collect_urls_from_sources(changed_files)
+
+        if not urls_by_category:
+            logger.info("\n⚠️  没有提取到任何URL")
+            return
+
+        total_urls = sum(len(urls) for urls in urls_by_category.values())
+        logger.info(f"\n🔗 提取到 {total_urls} 个URL，分布在 {len(urls_by_category)} 个分类")
+
+        # Step 4: 筛选需要生成描述的URL（空描述的）
+        urls_needing_desc = []
+        for category, url_list in urls_by_category.items():
+            for url, title, existing_desc in url_list:
+                if not existing_desc:
+                    urls_needing_desc.append(url)
+
+        logger.info(f"📊 其中 {len(urls_needing_desc)} 个需要生成AI描述")
+
+        # Step 5: 生成AI描述
+        descriptions = {}
+        if urls_needing_desc:
+            logger.info("\n" + "-"*40)
+            logger.info("🤖 生成AI描述...")
+            logger.info("-"*40)
+            descriptions = self._process_links(urls_needing_desc, max_links, show_progress=True)
+
+        # Step 6: 生成周报文件
+        logger.info("\n" + "-"*40)
+        logger.info("📝 生成周报文件...")
+        logger.info("-"*40)
+
+        weekly_file = self._generate_weekly_file(week_start, week_end, urls_by_category, descriptions)
+        logger.info(f"✅ 周报已生成: {weekly_file.name}")
+
+        # Step 7: 统计
+        updated_count = len([d for d in descriptions.values() if d and d != "__DELETED__"])
+        deleted_count = len([d for d in descriptions.values() if d == "__DELETED__"])
+
+        # Step 8: Git提交
+        logger.info("\n" + "-"*40)
+        logger.info("📤 提交变更...")
+        logger.info("-"*40)
+        self.commit_changes()
+
+        # 完成
+        logger.info("\n" + "="*60)
+        logger.info("🎉 全自动模式完成！")
+        logger.info(f"📄 周报文件: {weekly_file}")
+        logger.info(f"📊 新增描述: {updated_count}，删除无效链接: {deleted_count}")
+        logger.info("="*60)
+
+    def _get_current_week_range(self) -> Tuple[str, str]:
+        """获取当前周一到周日的日期范围"""
+        today = datetime.now()
+        days_since_monday = today.weekday()
+        monday = today - timedelta(days=days_since_monday)
+        sunday = monday + timedelta(days=6)
+        return monday.strftime('%Y-%m-%d'), sunday.strftime('%Y-%m-%d')
+
+    def _get_changed_source_files(self, week_start: str, week_end: str) -> List[Path]:
+        """
+        检测本周变更的源文件（仅SOURCE_FILES范围内）
+
+        使用git log检测指定时间范围内有变更的文件
+        """
+        source_files = set(self.source_updater.SOURCE_FILES)
+        changed_files = []
+        changed_set = set()
+
+        try:
+            # 使用git log获取时间范围内有变更的文件
+            result = subprocess.run(
+                ['git', '-C', str(self.repo_path), 'log',
+                 f'--since={week_start}', f'--until={week_end}',
+                 '--pretty=format:', '--name-only'],
+                capture_output=True, text=True, encoding='utf-8', errors='ignore',
+                check=True
+            )
+
+            # 解析变更的文件列表
+            stdout_content = result.stdout.strip()
+            if stdout_content:
+                for line in stdout_content.split('\n'):
+                    filename = line.strip()
+                    if filename and filename in source_files:
+                        changed_set.add(filename)
+
+            # 转换为Path对象
+            for filename in changed_set:
+                file_path = self.repo_path / filename
+                if file_path.exists():
+                    changed_files.append(file_path)
+
+        except subprocess.CalledProcessError as e:
+            logger.warning(f"⚠️  Git命令执行失败: {e}")
+            # 回退方案：检查所有源文件
+            logger.info("📌 使用回退方案：处理所有存在的源文件")
+            changed_files = self.source_updater.get_source_files(self.repo_path)
+
+        return sorted(changed_files, key=lambda p: p.name)
+
+    def _collect_urls_from_sources(self, source_files: List[Path]) -> Dict[str, List[Tuple[str, str, str]]]:
+        """
+        从源文件提取URL并按分类组织
+
+        返回: {category_name: [(url, title, existing_desc), ...]}
+        """
+        # 分类映射
+        category_map = {
+            'README.md': '📦 收集的项目',
+            'tools.md': '🔧 收集的工具',
+            'BOF.md': '🎯 BOF工具',
+            'skills-ai.md': '🤖 AI使用技巧',
+            'docs.md': '📚 收集的文章',
+            'free.md': '🎁 免费资源',
+            'pico.md': '🔌 PICO工具',
+            'C2.md': '🎮 C2框架'
+        }
+
+        urls_by_category = {}
+
+        for file_path in source_files:
+            filename = file_path.name
+            category = category_map.get(filename, f'📁 {filename}')
+
+            # 使用SourceFileUpdater的方法提取URL
+            sections = self.source_updater._group_urls_by_section(file_path)
+
+            # 将所有section的URL合并到对应分类
+            for section, url_tuples in sections.items():
+                if category not in urls_by_category:
+                    urls_by_category[category] = []
+
+                # url_tuples是 [(url, title, existing_desc), ...]
+                for url_tuple in url_tuples:
+                    # 去重：检查URL是否已存在
+                    existing_urls = [u[0] for u in urls_by_category[category]]
+                    if url_tuple[0] not in existing_urls:
+                        urls_by_category[category].append(url_tuple)
+
+        return urls_by_category
+
+    def _generate_weekly_file(self, week_start: str, week_end: str,
+                               urls_by_category: Dict[str, List[Tuple[str, str, str]]],
+                               new_descriptions: Dict[str, str]) -> Path:
+        """
+        生成周报Markdown文件
+
+        Args:
+            week_start: 周开始日期
+            week_end: 周结束日期
+            urls_by_category: {category: [(url, title, existing_desc), ...]}
+            new_descriptions: {url: new_description} 新生成的描述
+
+        Returns:
+            生成的周报文件路径
+        """
+        weekly_dir = self.config.weekly_dir
+        filename = f"weekly-{week_start}_{week_end}.md"
+        file_path = weekly_dir / filename
+
+        # 构建内容
+        lines = [f"# 本周更新 ({week_start} ~ {week_end})\n"]
+
+        total_links = 0
+        deleted_count = 0
+
+        for category in sorted(urls_by_category.keys()):
+            url_list = urls_by_category[category]
+
+            if not url_list:
+                continue
+
+            # 过滤掉被删除的URL
+            valid_rows = []
+            for url, title, existing_desc in url_list:
+                # 检查新描述
+                new_desc = new_descriptions.get(url, "")
+
+                if new_desc == "__DELETED__":
+                    deleted_count += 1
+                    continue
+
+                # 优先使用新描述，否则使用已有描述
+                desc = new_desc if new_desc else existing_desc
+
+                # 使用title或从URL提取名称
+                display_name = title if title else url.rstrip('/').split('/')[-1]
+                valid_rows.append((display_name, url, desc))
+
+            if not valid_rows:
+                continue
+
+            # 添加分类标题和表格
+            lines.append(f"\n## {category}\n")
+            lines.append("\n| 项目 | 说明 |")
+            lines.append("\n|------|------|\n")
+
+            for name, url, desc in valid_rows:
+                lines.append(f"| [{name}]({url}) | {desc} |\n")
+                total_links += 1
+
+        # 添加统计信息
+        lines.append(f"\n---\n\n")
+        lines.append(f"**统计：** 本周新增 {total_links} 个链接。\n")
+
+        # 写入文件
+        file_path.write_text(''.join(lines), encoding='utf-8')
+
+        return file_path
+
 
 def main():
     """主函数"""
@@ -1773,8 +2015,8 @@ def main():
 
     logger.info("""
 ╔════════════════════════════════════════════════════════════╗
-║         完全自动化周报生成工具                              ║
-║   Git历史 → 周报生成 → AI描述 → 自动更新                   ║
+║         自动化周报生成工具 v2.0                             ║
+║   Git变更检测 → 提取URL → AI描述 → 生成周报 → 自动提交     ║
 ╚════════════════════════════════════════════════════════════╝
 """)
 
@@ -1802,47 +2044,21 @@ def main():
     logger.info(f"📍 仓库路径: {config.repo_path}")
     logger.info(f"🤖 AI模型: {config.ai_model}")
 
-    # 选择模式
+    # 选择模式（简化为2个选项）
     logger.info("\n请选择运行模式：")
-    logger.info("1. 完全自动化（生成周报 + AI描述）")
-    logger.info("2. 仅生成周报文件（不生成描述）")
-    logger.info("3. 仅为已有周报生成描述")
-    logger.info("4. 生成当前周的周报（含AI描述）")
-    logger.info("5. 提交周报变更")
-    logger.info("6. 处理源文件（docs.md等转表格 + AI描述）")
+    logger.info("1. 全自动生成周报（检测本周变更 → AI描述 → 生成周报 → 自动提交）")
+    logger.info("2. 处理源文件（docs.md等转表格 + AI描述）")
 
-    choice = input("\n请输入选项 (1/2/3/4/5/6): ").strip()
+    choice = input("\n请输入选项 (1/2): ").strip()
 
     processor = AutoWeeklyProcessor(config=config)
 
     if choice == "1":
-        # 完全自动化
-        start_date = input("起始日期 (默认: 2025-07-21): ").strip() or "2025-07-21"
-        max_links = int(input(f"每周最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
-        processor.process_all(start_date, max_links)
+        # 全自动模式（合并原功能1-5）
+        processor.run_auto_mode()
 
     elif choice == "2":
-        # 仅生成周报
-        start_date = input("起始日期 (默认: 2025-07-21): ").strip() or "2025-07-21"
-        processor.generator.generate_weekly_files(start_date)
-
-    elif choice == "3":
-        # 仅生成描述（使用重构后的方法，消除代码重复）
-        logger.info("\n此模式将为所有已存在的周报文件生成描述")
-        max_links = int(input(f"每周最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
-        processor.process_existing_weeklies(max_links)
-
-    elif choice == "4":
-        # 生成当前周的周报
-        max_links = int(input(f"最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
-        processor.process_current_week(max_links)
-
-    elif choice == "5":
-        # 提交周报变更
-        processor.commit_changes()
-
-    elif choice == "6":
-        # 处理源文件
+        # 处理源文件（保留原功能6）
         logger.info("\n此模式将处理 docs.md、README.md 等源文件")
         logger.info("  - 提取所有URL（GitHub + 普通网页）")
         logger.info("  - 使用AI生成中文简介")

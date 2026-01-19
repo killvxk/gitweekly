@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [videocut-skills](https://github.com/Ceeon/videocut-skills) | 基于Claude Code的智能视频剪辑Agent工具 |
+| [idawilli](https://github.com/williballenthin/idawilli) | IDA Pro 逆向工程脚本与配置资源集合 |
+| [claude-stt](https://github.com/jarrodwatts/claude-stt) | Claude Code 语音转文本插件，支持本地实时语音输入 |
+| [json-render](https://github.com/vercel-labs/json-render) | AI驱动的JSON到UI渲染框架,可控组件生成 |
+| [LinkSwift](https://github.com/hmjz100/LinkSwift) | 多网盘直链提取工具，支持八大主流网盘 |
+| [multica](https://github.com/multica-ai/multica) | 可视化桌面客户端,让所有人使用AI编程代理能力 |
+| [Security-Detections-MCP](https://github.com/MHaggis/Security-Detections-MCP) | 多源安全检测规则统一查询MCP服务器 |
+| [pickle-rick-extension](https://github.com/galz10/pickle-rick-extension) | Gemini CLI 的迭代式自主编程代理扩展 |
+| [onboardme](https://github.com/infosec-us-team/onboardme) | Solidity智能合约可视化分析与代码审计工具 |
+| [concept-viz-agent](https://github.com/lbq110/concept-viz-agent) | 文章转概念图可视化Agent，自动学习扩充理论框架知识库 |
+| [flux2.c](https://github.com/antirez/flux2.c) | Flux2 图像生成模型纯 C 语言推理实现 |
+| [cc-switch](https://github.com/farion1231/cc-switch) | Claude/Codex/Gemini 多模型CLI切换工具 |
+| [skills](https://github.com/expo/skills) | Expo项目的AI智能体技能集合工具 |
 | [port-buddy](https://github.com/amak-tech/port-buddy) | 本地端口快速穿透工具，支持HTTP/TCP/UDP内网映射 |
 | [cloudflare-skill](https://github.com/dmmulroy/cloudflare-skill) | Cloudflare平台AI参考文档与技能包 |
 | [javaeye3](https://github.com/robbin/javaeye3) | JavaEye技术社区网站Ruby on Rails源代码 |

@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [custom-dll-loading-technique-in-windows-c84ba0496a6f](https://medium.com/@s12deff/custom-dll-loading-technique-in-windows-c84ba0496a6f) |  |
+| [creating-a-rust-application-running-in-vtl1](https://fluxsec.red/creating-a-rust-application-running-in-vtl1) | Rust实现Windows VBS安全飞地VTL1隔离环境开发 |
+| [Basic-Driver-Writing-and-Exploiting.html](https://apexpredator-infosec.github.io/posts/2026/01/16/Basic-Driver-Writing-and-Exploiting.html) | Windows内核驱动开发与漏洞利用入门教程 |
+| [breaking-fortinet-firmware-encryption](https://bishopfox.com/blog/breaking-fortinet-firmware-encryption) | 破解Fortinet固件加密的安全研究与漏洞分析 |
+| [drone_hacking_part_1](https://neodyme.io/en/blog/drone_hacking_part_1) | 无人机固件提取与逆向安全研究实战教程 |
 | [pixel-0-click-part-1.html](https://projectzero.google/2026/01/pixel-0-click-part-1.html) | Pixel 9音频解码器零点击漏洞利用链研究 |
 | [command-and-evade-turlas-kazuar-v3-loader](https://r136a1.dev/2026/01/14/command-and-evade-turlas-kazuar-v3-loader/) | Turla组织Kazuar v3加载器恶意软件分析报告 |
 | [hitcon-2025](https://sylvie.fyi/posts/hitcon-2025/) | 利用BMP多语言文件实现远程代码执行的CTF挑战 |

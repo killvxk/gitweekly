@@ -4,6 +4,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [WinDriver-EXP](https://github.com/ghostbyt3/WinDriver-EXP) | Windows驱动漏洞提权PoC集合 |
+| [raw-disk-parser](https://github.com/Workday/raw-disk-parser) | 绕过Windows文件API直接读取原始磁盘解析NTFS文件的工具 |
+| [phantom-grid](https://github.com/haidang-infosec/phantom-grid) | 基于eBPF的Linux主动防御系统，提供零信任访问与蜜罐欺骗 |
+| [ryzen_smu](https://github.com/amkillam/ryzen_smu) | AMD锐龙处理器SMU系统管理单元访问驱动 |
 | [SEP-Exhaustion-Kernel-Panic](https://github.com/zeroxjf/SEP-Exhaustion-Kernel-Panic) | iOS/macOS SEP固件资源耗尽型内核崩溃漏洞 |
 | [MSRC-PatchReview](https://github.com/f-bader/MSRC-PatchReview) | 微软安全补丁月度分析PowerShell工具 |
 | [FrankensteinAPCInjection](https://github.com/S12cybersecurity/FrankensteinAPCInjection) | 利用现有句柄和内存区域的隐蔽Windows进程注入技术 |

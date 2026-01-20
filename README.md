@@ -4,6 +4,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [frida-ipa-extract](https://github.com/lautarovculic/frida-ipa-extract) | 基于Frida的iOS应用解密导出工具，支持越狱设备提取IPA文件 |
+| [JSReconduit](https://github.com/MantisSTS/JSReconduit) | Burp Suite流量被动捕获JS代码并在VSCode中进行AST分析的渗透测试工具 |
+| [ThreatIntelligenceConsumer](https://github.com/preludeorg/ThreatIntelligenceConsumer) | 无需驱动和PPL权限消费威胁情报ETW事件的技术演示 |
 | [WinDriver-EXP](https://github.com/ghostbyt3/WinDriver-EXP) | Windows驱动漏洞提权PoC集合 |
 | [raw-disk-parser](https://github.com/Workday/raw-disk-parser) | 绕过Windows文件API直接读取原始磁盘解析NTFS文件的工具 |
 | [phantom-grid](https://github.com/haidang-infosec/phantom-grid) | 基于eBPF的Linux主动防御系统，提供零信任访问与蜜罐欺骗 |

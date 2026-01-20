@@ -1289,5 +1289,17 @@
   "https://github.com/antirez/flux2.c": "Flux2 图像生成模型纯 C 语言推理实现",
   "https://github.com/farion1231/cc-switch": "Claude/Codex/Gemini 多模型CLI切换工具",
   "https://github.com/expo/skills": "Expo项目的AI智能体技能集合工具",
-  "https://github.com/MayerDaniel/the-one-wsl-bof": "Cobalt Strike BOF工具，通过COM接口直接在WSL中执行命令"
+  "https://github.com/MayerDaniel/the-one-wsl-bof": "Cobalt Strike BOF工具，通过COM接口直接在WSL中执行命令",
+  "https://swarm.ptsecurity.com/whos-on-the-line-exploiting-rce-in-windows-telephony-service/": "Windows电话服务远程代码执行漏洞利用分析",
+  "https://blog.kyntra.io/Singularity-A-final-boss-linux-kernel-rootkit": "Linux内核级隐蔽型Rootkit攻防技术深度解析",
+  "https://www.zerosalarium.com/2025/09/Stealthy-Persistence-With-Non-Existent-Executable-File.html": "利用Windows可执行文件自动搜索机制实现隐蔽持久化",
+  "https://www.originhq.com/blog/securitytrace-etw-ppl": "绕过PPL限制访问ETW威胁情报提供程序的技术研究",
+  "https://blog.quarkslab.com/patch-analysis-of-Apple-iOS-CVE-2025-43300.html": "苹果iOS图像处理零点击漏洞逆向分析",
+  "https://github.com/lautarovculic/frida-ipa-extract": "基于Frida的iOS应用解密导出工具，支持越狱设备提取IPA文件",
+  "https://github.com/MantisSTS/JSReconduit": "Burp Suite流量被动捕获JS代码并在VSCode中进行AST分析的渗透测试工具",
+  "https://github.com/preludeorg/ThreatIntelligenceConsumer": "无需驱动和PPL权限消费威胁情报ETW事件的技术演示",
+  "https://github.com/Arcanum-Sec/sec-context": "AI代码安全反模式库，帮助大语言模型生成更安全的代码",
+  "https://github.com/SawyerHood/dev-browser": "Claude Code浏览器自动化插件，支持AI控制浏览器测试与验证开发工作",
+  "https://github.com/affaan-m/everything-claude-code": "Claude Code 配置大全：代理、技能、命令、规则与 MCP 集合",
+  "https://github.com/lockekk/deskflow-hid": "通过蓝牙HID实现跨平台键鼠共享至移动设备的低延迟扩展工具"
 }

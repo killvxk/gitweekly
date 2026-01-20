@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [whos-on-the-line-exploiting-rce-in-windows-telephony-service](https://swarm.ptsecurity.com/whos-on-the-line-exploiting-rce-in-windows-telephony-service/) | Windows电话服务远程代码执行漏洞利用分析 |
+| [Singularity-A-final-boss-linux-kernel-rootkit](https://blog.kyntra.io/Singularity-A-final-boss-linux-kernel-rootkit) | Linux内核级隐蔽型Rootkit攻防技术深度解析 |
+| [Stealthy-Persistence-With-Non-Existent-Executable-File.html](https://www.zerosalarium.com/2025/09/Stealthy-Persistence-With-Non-Existent-Executable-File.html) | 利用Windows可执行文件自动搜索机制实现隐蔽持久化 |
+| [securitytrace-etw-ppl](https://www.originhq.com/blog/securitytrace-etw-ppl) | 绕过PPL限制访问ETW威胁情报提供程序的技术研究 |
+| [patch-analysis-of-Apple-iOS-CVE-2025-43300.html](https://blog.quarkslab.com/patch-analysis-of-Apple-iOS-CVE-2025-43300.html) | 苹果iOS图像处理零点击漏洞逆向分析 |
 | [custom-dll-loading-technique-in-windows-c84ba0496a6f](https://medium.com/@s12deff/custom-dll-loading-technique-in-windows-c84ba0496a6f) |  |
 | [creating-a-rust-application-running-in-vtl1](https://fluxsec.red/creating-a-rust-application-running-in-vtl1) | Rust实现Windows VBS安全飞地VTL1隔离环境开发 |
 | [Basic-Driver-Writing-and-Exploiting.html](https://apexpredator-infosec.github.io/posts/2026/01/16/Basic-Driver-Writing-and-Exploiting.html) | Windows内核驱动开发与漏洞利用入门教程 |

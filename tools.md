@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [sec-context](https://github.com/Arcanum-Sec/sec-context) | AI代码安全反模式库，帮助大语言模型生成更安全的代码 |
+| [dev-browser](https://github.com/SawyerHood/dev-browser) | Claude Code浏览器自动化插件，支持AI控制浏览器测试与验证开发工作 |
+| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code 配置大全：代理、技能、命令、规则与 MCP 集合 |
+| [deskflow-hid](https://github.com/lockekk/deskflow-hid) | 通过蓝牙HID实现跨平台键鼠共享至移动设备的低延迟扩展工具 |
 | [videocut-skills](https://github.com/Ceeon/videocut-skills) | 基于Claude Code的智能视频剪辑Agent工具 |
 | [idawilli](https://github.com/williballenthin/idawilli) | IDA Pro 逆向工程脚本与配置资源集合 |
 | [claude-stt](https://github.com/jarrodwatts/claude-stt) | Claude Code 语音转文本插件，支持本地实时语音输入 |

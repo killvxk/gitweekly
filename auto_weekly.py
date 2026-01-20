@@ -1761,7 +1761,7 @@ class AutoWeeklyProcessor:
 
     def run_auto_mode(self, max_links: int = None):
         """
-        全自动模式：检测本周源文件变更 → 提取URL → 生成AI描述 → 生成周报 → Git提交
+        全自动模式：从Git diff提取本周新增URL → 生成AI描述 → 生成周报 → Git提交
 
         这是功能1-5的合并版本，一键完成所有操作。
         """
@@ -1776,28 +1776,29 @@ class AutoWeeklyProcessor:
         week_start, week_end = self._get_current_week_range()
         logger.info(f"📅 周期: {week_start} ~ {week_end}")
 
-        # Step 2: 检测本周变更的源文件
-        changed_files = self._get_changed_source_files(week_start, week_end)
+        # Step 2: 获取本周的Git提交
+        weekly_data = self.generator.get_weekly_commits(week_start, week_end)
 
-        if not changed_files:
-            logger.info("\n⚠️  本周没有源文件变更，无需生成周报")
+        if not weekly_data['commits']:
+            logger.info("\n⚠️  本周没有提交记录，无需生成周报")
             return
 
-        logger.info(f"\n📂 发现 {len(changed_files)} 个变更的源文件:")
-        for f in changed_files:
-            logger.info(f"   - {f.name}")
+        logger.info(f"\n📝 发现 {len(weekly_data['commits'])} 个提交")
 
-        # Step 3: 从源文件提取所有URL（包含已有描述）
-        urls_by_category = self._collect_urls_from_sources(changed_files)
+        # Step 3: 从Git diff中提取本周新增的链接（核心修复点）
+        links_by_file = self.generator.extract_links_from_diffs(weekly_data['commits'])
 
-        if not urls_by_category:
-            logger.info("\n⚠️  没有提取到任何URL")
+        if not links_by_file:
+            logger.info("\n⚠️  本周没有新增链接")
             return
+
+        # Step 4: 转换为按分类组织的格式
+        urls_by_category = self._convert_links_to_category_format(links_by_file)
 
         total_urls = sum(len(urls) for urls in urls_by_category.values())
-        logger.info(f"\n🔗 提取到 {total_urls} 个URL，分布在 {len(urls_by_category)} 个分类")
+        logger.info(f"\n🔗 本周新增 {total_urls} 个链接，分布在 {len(urls_by_category)} 个分类")
 
-        # Step 4: 筛选需要生成描述的URL（空描述的）
+        # Step 5: 筛选需要生成描述的URL（空描述的）
         urls_needing_desc = []
         for category, url_list in urls_by_category.items():
             for url, title, existing_desc in url_list:
@@ -1846,6 +1847,46 @@ class AutoWeeklyProcessor:
         monday = today - timedelta(days=days_since_monday)
         sunday = monday + timedelta(days=6)
         return monday.strftime('%Y-%m-%d'), sunday.strftime('%Y-%m-%d')
+
+    def _convert_links_to_category_format(self, links_by_file: Dict[str, List[Dict]]) -> Dict[str, List[Tuple[str, str, str]]]:
+        """
+        将 WeeklyGenerator 返回的格式转换为 _generate_weekly_file 期望的格式
+
+        输入格式: {filename: [{'url': url, 'desc': desc}, ...]}
+        输出格式: {category: [(url, title, existing_desc), ...]}
+        """
+        # 文件到分类的映射
+        category_map = {
+            'README.md': '📦 收集的项目',
+            'tools.md': '🔧 收集的工具',
+            'BOF.md': '🎯 BOF工具',
+            'skills-ai.md': '🤖 AI使用技巧',
+            'docs.md': '📚 收集的文章',
+            'free.md': '🎁 免费资源',
+            'pico.md': '🔌 PICO工具',
+            'C2.md': '🎮 C2框架'
+        }
+
+        urls_by_category = {}
+
+        for filename, links in links_by_file.items():
+            category = category_map.get(filename, f'📁 {filename}')
+
+            if category not in urls_by_category:
+                urls_by_category[category] = []
+
+            for link in links:
+                url = link['url']
+                desc = link.get('desc', '')
+                # 从URL提取标题
+                title = url.rstrip('/').split('/')[-1]
+                # 转换为 (url, title, existing_desc) 格式
+                # 去重检查
+                existing_urls = [u[0] for u in urls_by_category[category]]
+                if url not in existing_urls:
+                    urls_by_category[category].append((url, title, desc))
+
+        return urls_by_category
 
     def _get_changed_source_files(self, week_start: str, week_end: str) -> List[Path]:
         """

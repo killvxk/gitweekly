@@ -19,3 +19,6 @@
 | [LibTP_Gadget](https://github.com/SAERXCIT/LibTP_Gadget) | 基于线程池代理NT API调用的对抗检测库 |
 | [LibTPLoadLib](https://github.com/AlmondOffSec/LibTPLoadLib) | 利用调用链混淆绕过Elastic安全检测的模块加载库 |
 | [LibWinHttp](https://github.com/pard0p/LibWinHttp) | 基于WinHTTP的轻量级HTTP封装库，用于恶意软件开发 |
+| [Remote-BOF-Runner](https://github.com/pard0p/Remote-BOF-Runner) | Havoc框架扩展，通过Crystal Palace加载器在远程进程中执行BOF |
+| [tradecraft-garden-rs](https://github.com/laachy/tradecraft-garden-rs) | Rust实现的PICO加载器示例集，演示递进式反检测技术 |
+| [Xenon](https://github.com/MythicAgents/Xenon) | Mythic框架的Windows C2代理，支持模块化命令和多协议通信 |

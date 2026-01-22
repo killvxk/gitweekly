@@ -2,6 +2,24 @@
 
 | 文章 | 简介 |
 |------|------|
+| [create-vibe-app](https://github.com/hscspring/create-vibe-app) | AI友好的Vibe Coding项目脚手架生成工具 |
+| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code 配置大全：代理、技能、命令、规则与 MCP 集合 |
+| [skills-updater](https://github.com/yizhiyanhua-ai/skills-updater) | Claude Code 技能管理工具，支持更新检查、自动安装和技能推荐 |
+| [dive-into-llms](https://github.com/Lordog/dive-into-llms) | 大模型实战编程教程：涵盖微调、提示工程、知识编辑等核心技术 |
+| [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Claude Code 复利工程插件：通过计划、执行、审查和知识沉淀提升开发效率 |
+| [browserwing](https://github.com/browserwing/browserwing) | 将浏览器操作转换为 MCP 命令和 Claude 技能的 AI 代理自动化平台 |
+| [skills](https://github.com/trailofbits/skills) | 面向安全研究的Claude AI插件市场 |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | AI驱动的个性化学习助手与文档知识问答系统 |
+| [zlibrary-to-notebooklm](https://github.com/zstmfhy/zlibrary-to-notebooklm) | Z-Library书籍自动下载并上传到NotebookLM工具 |
+| [GraphReconduit](https://github.com/MantisSTS/GraphReconduit) | GraphQL离线侦察与授权漂移分析工具 |
+| [threejs-skills](https://github.com/CloudAI-X/threejs-skills) | Claude Code的Three.js技能库，提供3D开发知识和最佳实践 |
+| [MemOS](https://github.com/MemTensor/MemOS) | AI智能体的操作系统级内存管理与调度系统 |
+| [ai-draw](https://github.com/stone-yu/ai-draw) | AI驱动的自然语言绘图平台，支持多引擎图表生成与文件管理 |
+| [awesome-ralph](https://github.com/snwfdhmp/awesome-ralph) | AI自动化编程循环技术资源精选列表 |
+| [code-notify](https://github.com/mylee04/code-notify) | AI编程工具跨平台桌面通知系统 |
+| [ring-ring-claude](https://github.com/hst-Sunday/ring-ring-claude) | Claude Code CLI 声音提醒工具，自动播放铃声通知用户确认操作 |
+| [news-aggregator-skill](https://github.com/cclank/news-aggregator-skill) | 多源新闻聚合助手，支持AI深度解读与智能周报生成 |
+| [ttl](https://github.com/lance0/ttl) | 增强型网络路径追踪工具，支持MTU发现、NAT检测、ECMP路径枚举及实时TUI监控 |
 | [sec-context](https://github.com/Arcanum-Sec/sec-context) | AI代码安全反模式库，帮助大语言模型生成更安全的代码 |
 | [dev-browser](https://github.com/SawyerHood/dev-browser) | Claude Code浏览器自动化插件，支持AI控制浏览器测试与验证开发工作 |
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code 配置大全：代理、技能、命令、规则与 MCP 集合 |

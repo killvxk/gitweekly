@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [patch-diffing-ios-kernel](https://8ksec.io/patch-diffing-ios-kernel/) | iOS内核内存破坏漏洞补丁差分分析实战 |
+| [chaos-rootkit-internals-explained](https://www.hackandhide.com/chaos-rootkit-internals-explained/) | Windows内核级Rootkit开发技术深度解析 |
+| [3453](https://paper.seebug.org/3453/) |  |
+| [59e79a0cfa5bb3421b5d166a08e42f30](https://gist.github.com/johnsoncodehk/59e79a0cfa5bb3421b5d166a08e42f30) | 高性能响应式信号库性能优化深度解析文档 |
 | [whos-on-the-line-exploiting-rce-in-windows-telephony-service](https://swarm.ptsecurity.com/whos-on-the-line-exploiting-rce-in-windows-telephony-service/) | Windows电话服务远程代码执行漏洞利用分析 |
 | [Singularity-A-final-boss-linux-kernel-rootkit](https://blog.kyntra.io/Singularity-A-final-boss-linux-kernel-rootkit) | Linux内核级隐蔽型Rootkit攻防技术深度解析 |
 | [Stealthy-Persistence-With-Non-Existent-Executable-File.html](https://www.zerosalarium.com/2025/09/Stealthy-Persistence-With-Non-Existent-Executable-File.html) | 利用Windows可执行文件自动搜索机制实现隐蔽持久化 |

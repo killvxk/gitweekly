@@ -4,6 +4,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pciem](https://github.com/cakehonolulu/pciem) | Linux 内核虚拟 PCIe 设备仿真框架，支持用户态驱动开发 |
+| [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs) | 基于IDA Pro的无头MCP服务器，支持AI驱动的逆向工程分析 |
+| [Bloodhound](https://github.com/Skeletal-Group/Bloodhound) | EPT/NPT Hook检测工具集合 |
+| [shredder-rs](https://github.com/zx0CF1/shredder-rs) | x86_64二进制多态变异引擎与指令级混淆工具 |
+| [IAmAntimalware](https://github.com/TwoSevenOneT/IAmAntimalware) | 反病毒进程代码注入工具，克隆服务与数字签名实现渗透 |
+| [rzweb](https://github.com/indalok/rzweb) | 基于WebAssembly的浏览器端逆向工程平台 |
+| [Scil](https://github.com/0xflux/Scil) | 内核系统调用完整性监控与拦截安全研究项目 |
+| [RuntimeViewer](https://github.com/MxIris-Reverse-Engineering/RuntimeViewer) | macOS/iOS 运行时类与接口查看器，支持 Objective-C 和 Swift |
+| [TopazTerminator](https://github.com/ThanniKudam/TopazTerminator) | 利用有签名漏洞驱动终止EDR进程的工具 |
+| [AV-EDR-Killer](https://github.com/xM0kht4r/AV-EDR-Killer) | 利用有漏洞驱动程序终止杀毒软件和EDR进程的工具 |
+| [Security-Detections-MCP](https://github.com/MHaggis/Security-Detections-MCP) | 多源安全检测规则统一查询MCP服务器 |
+| [Malicious-PixelCode](https://github.com/S3N4T0R-0X0/Malicious-PixelCode) | 将恶意代码编码为图像像素并隐蔽传输的攻击技术研究 |
+| [MSSQLHound](https://github.com/SpecterOps/MSSQLHound) | MSSQL数据库攻击路径收集工具,集成BloodHound攻击分析 |
 | [frida-ipa-extract](https://github.com/lautarovculic/frida-ipa-extract) | 基于Frida的iOS应用解密导出工具，支持越狱设备提取IPA文件 |
 | [JSReconduit](https://github.com/MantisSTS/JSReconduit) | Burp Suite流量被动捕获JS代码并在VSCode中进行AST分析的渗透测试工具 |
 | [ThreatIntelligenceConsumer](https://github.com/preludeorg/ThreatIntelligenceConsumer) | 无需驱动和PPL权限消费威胁情报ETW事件的技术演示 |

@@ -260,6 +260,71 @@ def format_duration(seconds: float) -> str:
 # ================================
 
 
+def is_meaningful_description(desc: str, url: str) -> bool:
+    """
+    判断描述是否有意义（不仅仅是URL路径名）
+
+    无意义的描述包括：
+    - 空字符串
+    - URL路径名（如 weaponized-in-china-deployed-in-india）
+    - URL的一部分
+    - 太短的文本（少于5个字符）
+    - 文件名后缀（如 .html）
+    - 纯数字（如 3453）
+    """
+    if not desc:
+        return False
+
+    desc_lower = desc.lower().strip()
+
+    # 从URL提取路径名
+    url_name = url.rstrip('/').split('/')[-1]
+    url_name_lower = url_name.lower()
+
+    # 如果描述就是URL路径名，不算有效描述
+    if desc_lower == url_name_lower:
+        return False
+
+    # 移除常见后缀后再比较
+    for suffix in ['.html', '.htm', '.md', '.php', '.asp', '.aspx']:
+        if url_name_lower.endswith(suffix):
+            url_name_no_ext = url_name_lower[:-len(suffix)]
+            if desc_lower == url_name_no_ext:
+                return False
+
+    # 如果描述是URL路径的变体（将-替换为空格等）
+    url_name_normalized = url_name_lower.replace('-', ' ').replace('_', ' ')
+    desc_normalized = desc_lower.replace('-', ' ').replace('_', ' ')
+    if desc_normalized == url_name_normalized:
+        return False
+
+    # 如果描述是纯数字（如 seebug 的 3453）
+    if desc.strip().isdigit():
+        return False
+
+    # 如果描述太短（少于5个字符），不算有效描述
+    if len(desc.strip()) < 5:
+        return False
+
+    # 如果描述只是URL的路径部分
+    try:
+        parsed = urlparse(url)
+        path_parts = [p for p in parsed.path.split('/') if p]
+        for part in path_parts:
+            part_lower = part.lower()
+            if desc_lower == part_lower:
+                return False
+            # 移除后缀后比较
+            for suffix in ['.html', '.htm', '.md']:
+                if part_lower.endswith(suffix):
+                    if desc_lower == part_lower[:-len(suffix)]:
+                        return False
+    except Exception:
+        pass
+
+    return True
+
+
 def _run_git(repo_path: Path, args: List[str], *, check: bool = True) -> subprocess.CompletedProcess:
     return subprocess.run(
         ['git', '-C', str(repo_path), *args],
@@ -1085,8 +1150,8 @@ class WebContentFetcher:
             elif og_desc:
                 content_parts.append(f"Description: {og_desc}")
             if main_content:
-                # 限制正文长度
-                truncated = main_content[:3000]
+                # 限制正文长度（增加到5000字符以获取更多上下文）
+                truncated = main_content[:5000]
                 content_parts.append(f"\nContent:\n{truncated}")
 
             if not content_parts:
@@ -1115,7 +1180,7 @@ class WeeklyUpdater:
         self.weekly_dir = weekly_dir
 
     def extract_links_needing_descriptions(self, file_path: Path) -> List[str]:
-        """提取需要描述的链接"""
+        """提取需要描述的链接（空描述或无意义描述）"""
         links = []
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -1124,7 +1189,9 @@ class WeeklyUpdater:
         matches = re.findall(pattern, content)
 
         for _, url, desc in matches:
-            if not desc.strip() or '收集的项目地址' in desc:
+            desc = desc.strip()
+            # 使用 is_meaningful_description 判断是否需要生成AI描述
+            if not is_meaningful_description(desc, url) or '收集的项目地址' in desc:
                 links.append(url)
 
         return links
@@ -1798,11 +1865,12 @@ class AutoWeeklyProcessor:
         total_urls = sum(len(urls) for urls in urls_by_category.values())
         logger.info(f"\n🔗 本周新增 {total_urls} 个链接，分布在 {len(urls_by_category)} 个分类")
 
-        # Step 5: 筛选需要生成描述的URL（空描述的）
+        # Step 5: 筛选需要生成描述的URL（空描述或无意义描述的）
         urls_needing_desc = []
         for category, url_list in urls_by_category.items():
             for url, title, existing_desc in url_list:
-                if not existing_desc:
+                # 使用 _is_meaningful_description 判断是否需要生成AI描述
+                if not self._is_meaningful_description(existing_desc, url):
                     urls_needing_desc.append(url)
 
         logger.info(f"📊 其中 {len(urls_needing_desc)} 个需要生成AI描述")
@@ -1847,6 +1915,10 @@ class AutoWeeklyProcessor:
         monday = today - timedelta(days=days_since_monday)
         sunday = monday + timedelta(days=6)
         return monday.strftime('%Y-%m-%d'), sunday.strftime('%Y-%m-%d')
+
+    def _is_meaningful_description(self, desc: str, url: str) -> bool:
+        """判断描述是否有意义（包装全局函数）"""
+        return is_meaningful_description(desc, url)
 
     def _convert_links_to_category_format(self, links_by_file: Dict[str, List[Dict]]) -> Dict[str, List[Tuple[str, str, str]]]:
         """
@@ -2012,8 +2084,15 @@ class AutoWeeklyProcessor:
                     deleted_count += 1
                     continue
 
-                # 优先使用新描述，否则使用已有描述
-                desc = new_desc if new_desc else existing_desc
+                # 优先使用新描述
+                if new_desc:
+                    desc = new_desc
+                # 检查已有描述是否有意义（不仅仅是URL路径名）
+                elif self._is_meaningful_description(existing_desc, url):
+                    desc = existing_desc
+                else:
+                    # 无意义的描述，显示为空
+                    desc = ""
 
                 # 使用title或从URL提取名称
                 display_name = title if title else url.rstrip('/').split('/')[-1]
@@ -2096,7 +2175,9 @@ def main():
 
     if choice == "1":
         # 全自动模式（合并原功能1-5）
-        processor.run_auto_mode()
+        logger.info("\n此模式将自动完成：检测本周变更 → 生成AI描述 → 生成周报 → 自动提交")
+        max_links = int(input(f"\n最多处理链接数 (默认: {config.max_links_per_week}): ").strip() or str(config.max_links_per_week))
+        processor.run_auto_mode(max_links=max_links)
 
     elif choice == "2":
         # 处理源文件（保留原功能6）

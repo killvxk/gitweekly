@@ -1332,5 +1332,18 @@
   "https://github.com/mylee04/code-notify": "AI编程工具跨平台桌面通知系统",
   "https://github.com/hst-Sunday/ring-ring-claude": "Claude Code CLI 声音提醒工具，自动播放铃声通知用户确认操作",
   "https://github.com/cclank/news-aggregator-skill": "多源新闻聚合助手，支持AI深度解读与智能周报生成",
-  "https://github.com/lance0/ttl": "增强型网络路径追踪工具，支持MTU发现、NAT检测、ECMP路径枚举及实时TUI监控"
+  "https://github.com/lance0/ttl": "增强型网络路径追踪工具，支持MTU发现、NAT检测、ECMP路径枚举及实时TUI监控",
+  "https://www.esentire.com/blog/weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign": "针对印度的中国APT间谍钓鱼攻击活动分析",
+  "https://r4ulcl.com/posts/getting-started-with-mythic-c2/": "Mythic C2 模块化渗透测试命令控制框架入门指南",
+  "https://github.com/Flangvik/NetLoader": "内存加载C#程序并绕过AMSI和ETW防护的工具",
+  "https://github.com/putyy/res-downloader": "多平台网络资源嗅探下载工具",
+  "https://github.com/remotion-dev/remotion": "基于 React 的编程式视频制作框架",
+  "https://github.com/RemotePinee/AudioVisual": "跨平台多媒体视频解析工具，支持主流视频网站解析",
+  "https://github.com/xmtggh/VideoCalling": "基于P2P的局域网音视频通话Android应用",
+  "https://github.com/JayGLXR/CVE-2026-24061-POC": "GNU inetutils-telnetd远程认证绕过漏洞利用工具",
+  "https://github.com/humanplane/homunculus": "Claude Code 自适应插件，观察工作模式并自我进化学习",
+  "https://github.com/cyberkaida/reverse-engineering-assistant": "Ghidra逆向工程AI助手的MCP服务器扩展",
+  "https://github.com/benjitaylor/agentation": "AI代理可视化反馈工具，提供元素标注和结构化输出",
+  "https://github.com/laachy/tradecraft-garden-rs": "Rust实现的位置无关代码加载器开发框架",
+  "https://github.com/MythicAgents/Xenon": "基于C语言开发的Mythic框架Windows渗透代理工具"
 }

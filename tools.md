@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [res-downloader](https://github.com/putyy/res-downloader) | 多平台网络资源嗅探下载工具 |
+| [remotion](https://github.com/remotion-dev/remotion) | 基于 React 的编程式视频制作框架 |
+| [AudioVisual](https://github.com/RemotePinee/AudioVisual) | 跨平台多媒体视频解析工具，支持主流视频网站解析 |
+| [VideoCalling](https://github.com/xmtggh/VideoCalling) | 基于P2P的局域网音视频通话Android应用 |
+| [CVE-2026-24061-POC](https://github.com/JayGLXR/CVE-2026-24061-POC) | GNU inetutils-telnetd远程认证绕过漏洞利用工具 |
+| [homunculus](https://github.com/humanplane/homunculus) | Claude Code 自适应插件，观察工作模式并自我进化学习 |
+| [reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant) | Ghidra逆向工程AI助手的MCP服务器扩展 |
+| [agentation](https://github.com/benjitaylor/agentation) | AI代理可视化反馈工具，提供元素标注和结构化输出 |
 | [create-vibe-app](https://github.com/hscspring/create-vibe-app) | AI友好的Vibe Coding项目脚手架生成工具 |
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code 配置大全：代理、技能、命令、规则与 MCP 集合 |
 | [skills-updater](https://github.com/yizhiyanhua-ai/skills-updater) | Claude Code 技能管理工具，支持更新检查、自动安装和技能推荐 |

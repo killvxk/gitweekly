@@ -4,6 +4,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [NetLoader](https://github.com/Flangvik/NetLoader) | 内存加载C#程序并绕过AMSI和ETW防护的工具 |
 | [pciem](https://github.com/cakehonolulu/pciem) | Linux 内核虚拟 PCIe 设备仿真框架，支持用户态驱动开发 |
 | [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs) | 基于IDA Pro的无头MCP服务器，支持AI驱动的逆向工程分析 |
 | [Bloodhound](https://github.com/Skeletal-Group/Bloodhound) | EPT/NPT Hook检测工具集合 |

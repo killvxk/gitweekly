@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign](https://www.esentire.com/blog/weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign) | 针对印度的中国APT间谍钓鱼攻击活动分析 |
+| [getting-started-with-mythic-c2](https://r4ulcl.com/posts/getting-started-with-mythic-c2/) | Mythic C2 模块化渗透测试命令控制框架入门指南 |
 | [patch-diffing-ios-kernel](https://8ksec.io/patch-diffing-ios-kernel/) | iOS内核内存破坏漏洞补丁差分分析实战 |
 | [chaos-rootkit-internals-explained](https://www.hackandhide.com/chaos-rootkit-internals-explained/) | Windows内核级Rootkit开发技术深度解析 |
 | [3453](https://paper.seebug.org/3453/) |  |

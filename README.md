@@ -4,6 +4,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AudioDG.exe-DLL-Hijacking-for-LPE](https://github.com/S1lkys/AudioDG.exe-DLL-Hijacking-for-LPE) | Windows音频服务DLL劫持本地提权漏洞利用工具 |
+| [CVE-2026-24061](https://github.com/SafeBreach-Labs/CVE-2026-24061) | Telnet服务器远程代码执行漏洞利用工具 |
+| [WimReader](https://github.com/leftp/WimReader) | 网络WIM镜像文件按需读取与提取工具 |
 | [NetLoader](https://github.com/Flangvik/NetLoader) | 内存加载C#程序并绕过AMSI和ETW防护的工具 |
 | [pciem](https://github.com/cakehonolulu/pciem) | Linux 内核虚拟 PCIe 设备仿真框架，支持用户态驱动开发 |
 | [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs) | 基于IDA Pro的无头MCP服务器，支持AI驱动的逆向工程分析 |

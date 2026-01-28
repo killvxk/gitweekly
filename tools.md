@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 高性能事件驱动算法交易平台与回测系统 |
+| [fuzztools](https://github.com/protocol-security/fuzztools) | 结构感知模糊测试框架及区块链协议安全工具集 |
+| [launchpad](https://github.com/trycua/launchpad) | 基于Remotion的React视频制作工具集 |
+| [goread](https://github.com/zhashut/goread) | 支持多平台的本地电子书管理与阅读器应用 |
+| [EasyPostman](https://github.com/lakernote/EasyPostman) | API调试与压测工具，集成Git协作 |
+| [port_sentinel](https://github.com/Sanjeever/port_sentinel) | Windows端口监控与进程管理桌面工具 |
+| [office-website](https://github.com/baotlake/office-website) | 基于 WebAssembly 的纯前端 Office 套件，支持在线编辑文档 |
+| [tsshd](https://github.com/trzsz/tsshd) | 支持连接迁移和漫游的SSH UDP服务器 |
+| [AirScan-QR](https://github.com/topcss/AirScan-QR) | 基于动态二维码流的跨设备无网文件传输工具 |
+| [luci-app-bandix](https://github.com/timsaya/luci-app-bandix) | OpenWrt网络流量监控与可视化应用 |
+| [pure-genealogy](https://github.com/yunfengsa/pure-genealogy) | 基于Supabase的全栈家族族谱可视化管理系统 |
+| [mango-desk](https://github.com/moyangzhan/mango-desk) | 基于自然语言的本地文档智能搜索桌面应用 |
+| [openwork](https://github.com/different-ai/openwork) | 基于OpenCode的开源AI智能体工作流管理平台 |
+| [wolfcha](https://github.com/oil-oil/wolfcha) | AI狼人杀对战平台：多模型竞技与双层角色扮演系统 |
+| [ModernJava](https://github.com/Together-Java/ModernJava) | 社区维护的现代Java编程教学书籍项目 |
+| [wooyun-legacy](https://github.com/tanweai/wooyun-legacy) | 基于乌云8万+真实漏洞的Claude安全知识库技能 |
+| [clawdbot](https://github.com/clawdbot/clawdbot) | 跨平台个人AI助手，支持多渠道集成与本地部署 |
 | [res-downloader](https://github.com/putyy/res-downloader) | 多平台网络资源嗅探下载工具 |
 | [remotion](https://github.com/remotion-dev/remotion) | 基于 React 的编程式视频制作框架 |
 | [AudioVisual](https://github.com/RemotePinee/AudioVisual) | 跨平台多媒体视频解析工具，支持主流视频网站解析 |

@@ -871,7 +871,10 @@ class DescriptionGenerator:
 
 请只返回中文描述，不要包含其他内容。"""
 
-            headers = {"Content-Type": "application/json"}
+            headers = {
+                "Content-Type": "application/json",
+                "User-Agent": "claude-cli/2.1.20"
+            }
 
             parsed = urlparse(config.ai_api_url)
             path = (parsed.path or "").lower().rstrip("/")

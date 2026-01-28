@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [chrome-browser-exploitation-1](https://jhalon.github.io/chrome-browser-exploitation-1/) | Chrome浏览器V8引擎漏洞利用与JavaScript内部机制深度解析 |
+| [thoughts-on-go-vs.-rust-vs.-zig](https://sinclairtarget.com/blog/2025/08/thoughts-on-go-vs.-rust-vs.-zig/) | 编程语言Go、Rust、Zig对比分析与设计哲学探讨 |
+| [62419](https://hackernews.cc/archives/62419) |  |
 | [weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign](https://www.esentire.com/blog/weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign) | 针对印度的中国APT间谍钓鱼攻击活动分析 |
 | [getting-started-with-mythic-c2](https://r4ulcl.com/posts/getting-started-with-mythic-c2/) | Mythic C2 模块化渗透测试命令控制框架入门指南 |
 | [patch-diffing-ios-kernel](https://8ksec.io/patch-diffing-ios-kernel/) | iOS内核内存破坏漏洞补丁差分分析实战 |

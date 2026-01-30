@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [when-nas-vendors-forget-how-tls-works](https://www.interruptlabs.co.uk/articles/when-nas-vendors-forget-how-tls-works) | NAS厂商TLS协议实现安全漏洞分析 |
+| [ru-he-zai-macos-zhong-li-yong-orbstack-xu-ni-ji-yi-jian-bu-shu-moltbot](https://brave2049.com/groups/artificial-intelligence-learning/forum/discussion/ru-he-zai-macos-zhong-li-yong-orbstack-xu-ni-ji-yi-jian-bu-shu-moltbot/) | MacOS上使用OrbStack虚拟机部署AI聊天机器人教程 |
+| [artificial-intelligence-in-cybersecurity-using-ai-for-port-scanning](https://hackers-arise.com/artificial-intelligence-in-cybersecurity-using-ai-for-port-scanning/) | AI驱动的Nmap端口扫描自动化工具 |
+| [debuggers](https://tartanllama.xyz/tags/debuggers/) | Linux调试器开发系列教程博客 |
+| [samstung-part-1-remote-code-execution-in-magicinfo-server.html](https://srcincite.io/blog/2026/01/28/samstung-part-1-remote-code-execution-in-magicinfo-server.html) | 三星MagicINFO服务器远程代码执行漏洞分析 |
 | [chrome-browser-exploitation-1](https://jhalon.github.io/chrome-browser-exploitation-1/) | Chrome浏览器V8引擎漏洞利用与JavaScript内部机制深度解析 |
 | [thoughts-on-go-vs.-rust-vs.-zig](https://sinclairtarget.com/blog/2025/08/thoughts-on-go-vs.-rust-vs.-zig/) | 编程语言Go、Rust、Zig对比分析与设计哲学探讨 |
 | [62419](https://hackernews.cc/archives/62419) |  |

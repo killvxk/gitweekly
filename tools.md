@@ -2,6 +2,29 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | Metasploit框架的MCP服务器，实现AI与渗透测试工具的自然语言交互 |
+| [mcp-security-hub](https://github.com/FuzzingLabs/mcp-security-hub) | 集成攻击性安全工具的MCP服务器集合 |
+| [clawdbot-supermemory](https://github.com/supermemoryai/clawdbot-supermemory) | 为Clawdbot提供长期记忆和上下文召回能力的插件 |
+| [agenticSeek](https://github.com/Fosowl/agenticSeek) | 完全本地化的AI自主代理，支持联网、编程和任务规划 |
+| [frida-mcp-native](https://github.com/vsh00t/frida-mcp-native) | 基于Frida CLI的MCP服务器，支持Android 16+完整Java桥接 |
+| [AI-Coded-scripts](https://github.com/S3cur3Th1sSh1t/AI-Coded-scripts) | AI生成的安全渗透测试脚本工具集 |
+| [lettabot](https://github.com/letta-ai/lettabot) | 跨平台多渠道AI助手，具备持久记忆和本地工具执行能力 |
+| [cloud-moltbot](https://github.com/miantiao-me/cloud-moltbot) | 一键部署Cloudflare容器化AI助手个人代理 |
+| [USBArmyKnife](https://github.com/i-am-shodan/USBArmyKnife) | USB渗透测试多功能攻击设备 |
+| [nmap-ai](https://github.com/yashab-cyber/nmap-ai) | AI驱动的网络扫描与自动化平台 |
+| [Plasma](https://github.com/devmonixtechnologies/Plasma) | AI驱动的下一代网络安全自动化攻防平台 |
+| [Vulna](https://github.com/Keyvanhardani/Vulna) | AI驱动的渗透测试平台，支持智能过滤和自动化漏洞验证 |
+| [videocut-skills](https://github.com/Ceeon/videocut-skills) | 基于Claude Code的智能视频剪辑Agent工具 |
+| [huobao-drama](https://github.com/chatfire-AI/huobao-drama) | AI驱动的一站式短剧自动化生成平台 |
+| [pi-skill-palette](https://github.com/nicobailon/pi-skill-palette) | Pi编码代理的VSCode风格技能选择命令面板 |
+| [github-topics-trending](https://github.com/geekjourneyx/github-topics-trending) | GitHub话题趋势追踪工具，AI分析热门项目并生成可视化报告 |
+| [ida-reach](https://github.com/daaximus/ida-reach/) | IDA Pro自动化调用链分析与批量二进制文件检测工具 |
+| [bf-tree](https://github.com/microsoft/bf-tree) | Rust实现的读写优化并发超内存范围索引 |
+| [claudebox](https://github.com/boxlite-ai/claudebox) | 在隔离微虚拟机中运行Claude代码的安全沙箱平台 |
+| [zvec](https://github.com/alibaba/zvec) | 轻量级高性能进程内向量数据库 |
+| [moltworker](https://github.com/cloudflare/moltworker) | 在Cloudflare Workers上运行Moltbot个人AI助手 |
+| [skills](https://github.com/antfu/skills) | Anthony Fu的AI代理技能集合与最佳实践文档 |
+| [moltbot](https://github.com/moltbot/moltbot) | 跨平台个人AI助手，支持多渠道集成与语音交互 |
 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 高性能事件驱动算法交易平台与回测系统 |
 | [fuzztools](https://github.com/protocol-security/fuzztools) | 结构感知模糊测试框架及区块链协议安全工具集 |
 | [launchpad](https://github.com/trycua/launchpad) | 基于Remotion的React视频制作工具集 |

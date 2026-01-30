@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pipetap](https://github.com/sensepost/pipetap) | Windows命名管道流量拦截与代理工具 |
+| [khook](https://github.com/milabs/khook) | Linux内核函数Hook引擎（x86架构） |
+| [AutoGeaconC2](https://github.com/TryGOTry/AutoGeaconC2) | 自动化生成跨平台CobaltStrike上线工具 |
+| [litenvme](https://github.com/enjoy-digital/litenvme) | 基于LiteX的小型可配置NVMe控制器核心 |
+| [radius2](https://github.com/radareorg/radius2) | 基于radare2的快速二进制模拟与符号执行框架 |
+| [EventHorizon](https://github.com/HullaBrian/EventHorizon) | 基于ETW遥测的端点检测响应工具 |
+| [boxlite](https://github.com/boxlite-ai/boxlite) | 嵌入式微虚拟机沙箱，用于运行AI代理容器 |
 | [AudioDG.exe-DLL-Hijacking-for-LPE](https://github.com/S1lkys/AudioDG.exe-DLL-Hijacking-for-LPE) | Windows音频服务DLL劫持本地提权漏洞利用工具 |
 | [CVE-2026-24061](https://github.com/SafeBreach-Labs/CVE-2026-24061) | Telnet服务器远程代码执行漏洞利用工具 |
 | [WimReader](https://github.com/leftp/WimReader) | 网络WIM镜像文件按需读取与提取工具 |

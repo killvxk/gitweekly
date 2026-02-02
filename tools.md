@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) | Mermaid图表渲染为精美SVG或ASCII艺术的工具库 |
+| [mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | 基于MLX的视觉语言模型推理与微调工具包 |
+| [OpenCore-ISO](https://github.com/LongQT-sea/OpenCore-ISO) | 适配Proxmox VE的OpenCore虚拟机镜像工具 |
+| [gastown](https://github.com/steveyegge/gastown) | 基于Claude的多智能体协作工作空间管理系统 |
+| [TermClean](https://github.com/daijinhai/TermClean) | macOS终端包管理器清理工具，支持多包管理器可视化分析 |
+| [teemux](https://github.com/gajus/teemux) | 零配置多进程日志聚合工具，支持MCP服务器 |
+| [refactor-mcp](https://github.com/myuon/refactor-mcp) | 基于MCP协议的代码重构工具服务器 |
+| [claude-debug-and-refactor-skills-plugin](https://github.com/SnakeO/claude-debug-and-refactor-skills-plugin) | Claude代码调试与重构技能插件集 |
 | [MetasploitMCP](https://github.com/GH05TCREW/MetasploitMCP) | Metasploit框架的MCP服务器，实现AI与渗透测试工具的自然语言交互 |
 | [mcp-security-hub](https://github.com/FuzzingLabs/mcp-security-hub) | 集成攻击性安全工具的MCP服务器集合 |
 | [clawdbot-supermemory](https://github.com/supermemoryai/clawdbot-supermemory) | 为Clawdbot提供长期记忆和上下文召回能力的插件 |

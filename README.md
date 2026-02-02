@@ -4,6 +4,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [keycred](https://github.com/RedTeamPentesting/keycred) | Active Directory密钥凭证链生成与管理工具 |
 | [pipetap](https://github.com/sensepost/pipetap) | Windows命名管道流量拦截与代理工具 |
 | [khook](https://github.com/milabs/khook) | Linux内核函数Hook引擎（x86架构） |
 | [AutoGeaconC2](https://github.com/TryGOTry/AutoGeaconC2) | 自动化生成跨平台CobaltStrike上线工具 |

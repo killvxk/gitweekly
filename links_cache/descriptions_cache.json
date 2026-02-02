@@ -1402,5 +1402,15 @@
   "https://github.com/cloudflare/moltworker": "在Cloudflare Workers上运行Moltbot个人AI助手",
   "https://github.com/antfu/skills": "Anthony Fu的AI代理技能集合与最佳实践文档",
   "https://github.com/moltbot/moltbot": "跨平台个人AI助手，支持多渠道集成与语音交互",
-  "https://github.com/C0deStarr/Go4C2": "基于Go语言开发的C2远控框架"
+  "https://github.com/C0deStarr/Go4C2": "基于Go语言开发的C2远控框架",
+  "https://crescentro.se/posts/linux-music-players-2026/": "Linux音乐播放器评测与推荐指南",
+  "https://github.com/RedTeamPentesting/keycred": "Active Directory密钥凭证链生成与管理工具",
+  "https://github.com/lukilabs/beautiful-mermaid": "Mermaid图表渲染为精美SVG或ASCII艺术的工具库",
+  "https://github.com/Blaizzy/mlx-vlm": "基于MLX的视觉语言模型推理与微调工具包",
+  "https://github.com/LongQT-sea/OpenCore-ISO": "适配Proxmox VE的OpenCore虚拟机镜像工具",
+  "https://github.com/steveyegge/gastown": "基于Claude的多智能体协作工作空间管理系统",
+  "https://github.com/daijinhai/TermClean": "macOS终端包管理器清理工具，支持多包管理器可视化分析",
+  "https://github.com/gajus/teemux": "零配置多进程日志聚合工具，支持MCP服务器",
+  "https://github.com/myuon/refactor-mcp": "基于MCP协议的代码重构工具服务器",
+  "https://github.com/SnakeO/claude-debug-and-refactor-skills-plugin": "Claude代码调试与重构技能插件集"
 }

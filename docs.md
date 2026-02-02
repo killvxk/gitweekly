@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [linux-music-players-2026](https://crescentro.se/posts/linux-music-players-2026/) | Linux音乐播放器评测与推荐指南 |
 | [when-nas-vendors-forget-how-tls-works](https://www.interruptlabs.co.uk/articles/when-nas-vendors-forget-how-tls-works) | NAS厂商TLS协议实现安全漏洞分析 |
 | [ru-he-zai-macos-zhong-li-yong-orbstack-xu-ni-ji-yi-jian-bu-shu-moltbot](https://brave2049.com/groups/artificial-intelligence-learning/forum/discussion/ru-he-zai-macos-zhong-li-yong-orbstack-xu-ni-ji-yi-jian-bu-shu-moltbot/) | MacOS上使用OrbStack虚拟机部署AI聊天机器人教程 |
 | [artificial-intelligence-in-cybersecurity-using-ai-for-port-scanning](https://hackers-arise.com/artificial-intelligence-in-cybersecurity-using-ai-for-port-scanning/) | AI驱动的Nmap端口扫描自动化工具 |

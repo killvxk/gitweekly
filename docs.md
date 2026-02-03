@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pipe-dreams-remote-code-execution-via-quest-desktop-authority-named-pipe](https://www.netspi.com/blog/technical-blog/adversary-simulation/pipe-dreams-remote-code-execution-via-quest-desktop-authority-named-pipe/) | Quest Desktop Authority命名管道远程代码执行漏洞分析 |
+| [log.html](https://hijacklibs.net/entries/3rd_party/bitdefender/log.html) | BitDefender DLL劫持漏洞检测与防护库 |
+| [?page=Blog&month=2026-02&post=njRAT-runs-MassLogger](https://www.netresec.com/?page=Blog&month=2026-02&post=njRAT-runs-MassLogger) | 使用NetworkMiner解析njRAT木马C2流量并提取恶意载荷 |
+| [exploiting-cve-2025-49825](https://blog.offensive.af/posts/exploiting-cve-2025-49825/) | Teleport身份认证绕过漏洞分析与利用 |
+| [netfilter_driver](https://splintersfury.github.io/mal_blog/post/netfilter_driver/) | 微软签名恶意驱动Netfilter逆向分析 |
 | [linux-music-players-2026](https://crescentro.se/posts/linux-music-players-2026/) | Linux音乐播放器评测与推荐指南 |
 | [when-nas-vendors-forget-how-tls-works](https://www.interruptlabs.co.uk/articles/when-nas-vendors-forget-how-tls-works) | NAS厂商TLS协议实现安全漏洞分析 |
 | [ru-he-zai-macos-zhong-li-yong-orbstack-xu-ni-ji-yi-jian-bu-shu-moltbot](https://brave2049.com/groups/artificial-intelligence-learning/forum/discussion/ru-he-zai-macos-zhong-li-yong-orbstack-xu-ni-ji-yi-jian-bu-shu-moltbot/) | MacOS上使用OrbStack虚拟机部署AI聊天机器人教程 |

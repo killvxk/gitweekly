@@ -2,6 +2,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [beads](https://github.com/steveyegge/beads) | 基于Git的分布式AI智能体任务追踪系统 |
+| [axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) | Obsidian可视化技能包：用Claude生成Canvas、Excalidraw和Mermaid图表 |
+| [grammarinator](https://github.com/renatahodovan/grammarinator) | 基于ANTLR v4语法的模糊测试用例生成器 |
+| [pro-workflow](https://github.com/rohitg00/pro-workflow) | Claude AI编程工作流优化插件，支持自纠错记忆与并行任务管理 |
+| [osaurus](https://github.com/dinoki-ai/osaurus) | macOS原生AI边缘运行时，支持本地/云端模型与MCP工具共享 |
+| [burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite的AI安全测试扩展，集成多模型与MCP工具链 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Claude编码会话自动记忆与上下文压缩注入插件 |
+| [radar](https://github.com/skyhook-io/radar) | Kubernetes可视化工具，提供拓扑图、事件时间线和服务流量监控 |
+| [webgpu-claude-skill](https://github.com/dgreenheck/webgpu-claude-skill) | Claude开发WebGPU和Three.js应用的技能包 |
+| [CE-MCP-Plugin](https://github.com/Eruditi/CE-MCP-Plugin) | Cheat Engine的AI集成插件，支持MCP协议实现内存修改自动化 |
+| [nanobot](https://github.com/HKUDS/nanobot) | 超轻量级个人AI助手，仅4000行代码实现智能代理功能 |
 | [beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) | Mermaid图表渲染为精美SVG或ASCII艺术的工具库 |
 | [mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | 基于MLX的视觉语言模型推理与微调工具包 |
 | [OpenCore-ISO](https://github.com/LongQT-sea/OpenCore-ISO) | 适配Proxmox VE的OpenCore虚拟机镜像工具 |

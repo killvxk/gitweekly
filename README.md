@@ -4,6 +4,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [swarmer](https://github.com/praetorian-inc/swarmer) | Windows注册表隐蔽修改工具，绕过EDR/AV检测 |
 | [keycred](https://github.com/RedTeamPentesting/keycred) | Active Directory密钥凭证链生成与管理工具 |
 | [pipetap](https://github.com/sensepost/pipetap) | Windows命名管道流量拦截与代理工具 |
 | [khook](https://github.com/milabs/khook) | Linux内核函数Hook引擎（x86架构） |

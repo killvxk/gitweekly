@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GhostKatz](https://github.com/RainbowDynamix/GhostKatz) | 利用漏洞驱动读取物理内存转储LSASS凭据 |
 | [the-one-wsl-bof](https://github.com/MayerDaniel/the-one-wsl-bof) | Cobalt Strike BOF工具，通过COM接口直接在WSL中执行命令 |
 | [dumpguard_bof](https://github.com/0xedh/dumpguard_bof) | 提取Windows会话NTLMv1哈希的BOF工具 |
 | [ClipboardStealBOF](https://github.com/incursi0n/ClipboardStealBOF) | Cobalt Strike剪贴板历史窃取与控制BOF工具 |

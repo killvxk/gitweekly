@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [extending-nighthawk-with-python-modules](https://www.nighthawkc2.io/extending-nighthawk-with-python-modules/) | Nighthawk C2框架Python模块扩展与自动化攻击链编排 |
 | [pipe-dreams-remote-code-execution-via-quest-desktop-authority-named-pipe](https://www.netspi.com/blog/technical-blog/adversary-simulation/pipe-dreams-remote-code-execution-via-quest-desktop-authority-named-pipe/) | Quest Desktop Authority命名管道远程代码执行漏洞分析 |
 | [log.html](https://hijacklibs.net/entries/3rd_party/bitdefender/log.html) | BitDefender DLL劫持漏洞检测与防护库 |
 | [?page=Blog&month=2026-02&post=njRAT-runs-MassLogger](https://www.netresec.com/?page=Blog&month=2026-02&post=njRAT-runs-MassLogger) | 使用NetworkMiner解析njRAT木马C2流量并提取恶意载荷 |

@@ -4,6 +4,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator) | AI驱动的自动化红队渗透测试编排框架 |
+| [CTF-MCP](https://github.com/Coff0xc/CTF-MCP) | CTF竞赛MCP服务器，集成126个Web/密码学/二进制漏洞利用工具 |
+| [LLM-Security-Assessment-Framework](https://github.com/Coff0xc/LLM-Security-Assessment-Framework) | 基于进化算法的大语言模型越狱安全评估框架 |
+| [Github-API-scan](https://github.com/Coff0xc/Github-API-scan) | GitHub密钥泄露扫描验证工具，支持多平台API异步验证与余额检测 |
+| [Hexstrike-ai-6.2](https://github.com/Coff0xc/Hexstrike-ai-6.2) | AI驱动的网络安全渗透测试自动化平台 |
+| [AgenticRed](https://github.com/yuanjiayiy/AgenticRed) | 基于LLM元学习的自动化红队测试系统迭代优化框架 |
+| [ParamSpider](https://github.com/devanshbatham/ParamSpider) | 从Web档案挖掘URL参数用于漏洞挖掘和模糊测试 |
+| [skills](https://github.com/microsoft/skills) | 微软AI编码代理技能库与MCP服务器配置集合 |
+| [litebox](https://github.com/microsoft/litebox) | 安全聚焦的库操作系统，支持内核态和用户态执行 |
+| [manspider](https://github.com/blacklanternsecurity/manspider) | SMB共享文件爬虫工具，支持内容搜索和正则匹配 |
+| [AZexec](https://github.com/Logisek/AZexec) | Azure/Entra ID渗透测试工具，提供类NetExec命令行接口 |
+| [HuntCyberArk](https://github.com/Logisek/HuntCyberArk) | CyberArk特权访问管理平台安全审计工具 |
+| [fastcc](https://github.com/moonbit-community/fastcc) | MoonBit语言编写的高速C编译器 |
+| [monty](https://github.com/pydantic/monty) | 基于Rust的轻量级安全Python解释器，专为AI代码执行设计 |
+| [claudes-c-compiler](https://github.com/anthropics/claudes-c-compiler) | Claude AI编写的零依赖Rust C编译器，支持多架构 |
+| [Vespera](https://github.com/VectorBits/Vespera) | AI驱动的EVM智能合约漏洞检测框架 |
 | [swarmer](https://github.com/praetorian-inc/swarmer) | Windows注册表隐蔽修改工具，绕过EDR/AV检测 |
 | [keycred](https://github.com/RedTeamPentesting/keycred) | Active Directory密钥凭证链生成与管理工具 |
 | [pipetap](https://github.com/sensepost/pipetap) | Windows命名管道流量拦截与代理工具 |

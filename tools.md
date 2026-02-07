@@ -2,6 +2,26 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Dayflow](https://github.com/JerryZLiu/Dayflow) | 基于AI的macOS屏幕活动自动时间轴生成工具 |
+| [RelayKing-Depth](https://github.com/depthsecurity/RelayKing-Depth) | AD域NTLM中继攻击检测与枚举工具 |
+| [supacode](https://github.com/supabitapp/supacode) | macOS原生多代码智能体编排工具 |
+| [code-review-expert](https://github.com/sanyuan0704/code-review-expert) | AI驱动的代码审查工具，检测SOLID原则、安全漏洞与性能问题 |
+| [pragmastat](https://github.com/AndreyAkinshin/pragmastat) | 实用统计分析工具包，支持多语言实现 |
+| [h100_gemm](https://github.com/HamzaElshafie/h100_gemm) | H100 GPU高性能GEMM矩阵乘法CUDA优化实现 |
+| [rlmgrep](https://github.com/halfprice06/rlmgrep) | 基于DSPy RLM的自然语言文件搜索与问答工具 |
+| [rt](https://github.com/unvalley/rt) | 跨任务运行器的交互式任务执行CLI工具 |
+| [ni](https://github.com/antfu-collective/ni) | 智能识别并使用正确的包管理器工具 |
+| [podman-browser](https://github.com/ricardodantas/podman-browser) | 基于Podman和Playwright的无头浏览器自动化爬虫工具 |
+| [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 从零构建AI编程代理，学习Claude Code核心原理 |
+| [jsdeob-workbench](https://github.com/owl4444/jsdeob-workbench) | JavaScript混淆代码可视化反混淆工具 |
+| [Burp_Suite-Antigravity_AI-Bug_Bounty_Hunter](https://github.com/momika233/Burp_Suite-Antigravity_AI-Bug_Bounty_Hunter) | 基于AI的Burp Suite漏洞赏金自动化检测插件 |
+| [rs-sdk](https://github.com/MaxBittker/rs-sdk) | RuneScape游戏自动化SDK，支持AI代理编程 |
+| [agent-worktree](https://github.com/nekocode/agent-worktree) | AI代码助手的Git工作树管理工具 |
+| [symsan](https://github.com/R-Fuzz/symsan) | 基于LLVM的高效符号执行引擎与动态数据流分析工具 |
+| [Paper2Code](https://github.com/going-doer/Paper2Code) | 机器学习论文自动化代码生成多智能体系统 |
+| [OpenClaw-Docker-CN-IM](https://github.com/justlovemaki/OpenClaw-Docker-CN-IM) | 中国IM平台AI机器人网关Docker镜像 |
+| [voxtral.c](https://github.com/antirez/voxtral.c) | 纯C实现Mistral语音转文字模型推理引擎 |
+| [nanoclaw](https://github.com/gavrielc/nanoclaw) | 基于Claude的容器化个人AI助手系统 |
 | [beads](https://github.com/steveyegge/beads) | 基于Git的分布式AI智能体任务追踪系统 |
 | [axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills) | Obsidian可视化技能包：用Claude生成Canvas、Excalidraw和Mermaid图表 |
 | [grammarinator](https://github.com/renatahodovan/grammarinator) | 基于ANTLR v4语法的模糊测试用例生成器 |

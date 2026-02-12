@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [er605-1day-exploit](https://oobs.io/posts/er605-1day-exploit/) | TP-Link路由器DDNS认证前RCE漏洞利用链分析 |
+| [2ffdb461-3e5b-80ae-a5e0-e1e24626fe02?fbclid=IwY2xjawPyaVFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeKR35FRmuH-h0HY5-prT7c2udxf3uCn-T8JIXF7rkQn3VA-iVUPTwkcPBvZc_aem_G7scfPxjD1IAkyEsEvWa9Q](https://blog.78researchlab.com/2ffdb461-3e5b-80ae-a5e0-e1e24626fe02?fbclid=IwY2xjawPyaVFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeKR35FRmuH-h0HY5-prT7c2udxf3uCn-T8JIXF7rkQn3VA-iVUPTwkcPBvZc_aem_G7scfPxjD1IAkyEsEvWa9Q) | Windows错误报告授权检查漏洞分析 |
 | [extending-nighthawk-with-python-modules](https://www.nighthawkc2.io/extending-nighthawk-with-python-modules/) | Nighthawk C2框架Python模块扩展与自动化攻击链编排 |
 | [pipe-dreams-remote-code-execution-via-quest-desktop-authority-named-pipe](https://www.netspi.com/blog/technical-blog/adversary-simulation/pipe-dreams-remote-code-execution-via-quest-desktop-authority-named-pipe/) | Quest Desktop Authority命名管道远程代码执行漏洞分析 |
 | [log.html](https://hijacklibs.net/entries/3rd_party/bitdefender/log.html) | BitDefender DLL劫持漏洞检测与防护库 |

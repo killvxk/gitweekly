@@ -4,6 +4,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [kahlo-mcp](https://github.com/FuzzySecurity/kahlo-mcp) | 基于Frida的Android动态插桩AI自动化辅助MCP服务器 |
+| [CVE-2024-5243-pwn2own-toronto-2023](https://github.com/yi-barrack/CVE-2024-5243-pwn2own-toronto-2023) | TP-Link路由器DDNS服务预认证远程代码执行漏洞利用 |
+| [malasada](https://github.com/sliverarmory/malasada) | Linux共享库转Shellcode加载器工具 |
+| [BloodBash](https://github.com/DotNetRussell/BloodBash) | 离线解析BloodHound数据的AD渗透枚举工具 |
+| [dotNetPELoader](https://github.com/iss4cf0ng/dotNetPELoader) | C#编写的x86/x64 PE文件内存加载器 |
+| [DuplexSpyCS](https://github.com/iss4cf0ng/DuplexSpyCS) | 基于C#的Windows远程管理工具，用于安全测试与系统管理 |
+| [scfw](https://github.com/wbenny/scfw) | 跨平台C++框架用于构建Windows位置无关shellcode |
+| [GitLabDeviceCodePhishing](https://github.com/Maldev-Academy/GitLabDeviceCodePhishing) | GitLab设备码钓鱼攻击工具，用于红队渗透测试 |
+| [eprofiler-tui](https://github.com/rogercoll/eprofiler-tui) | 基于eBPF的终端火焰图性能分析工具 |
 | [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator) | AI驱动的自动化红队渗透测试编排框架 |
 | [CTF-MCP](https://github.com/Coff0xc/CTF-MCP) | CTF竞赛MCP服务器，集成126个Web/密码学/二进制漏洞利用工具 |
 | [LLM-Security-Assessment-Framework](https://github.com/Coff0xc/LLM-Security-Assessment-Framework) | 基于进化算法的大语言模型越狱安全评估框架 |

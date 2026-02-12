@@ -2,6 +2,29 @@
 
 | 文章 | 简介 |
 |------|------|
+| [CodePilot](https://github.com/op7418/CodePilot) | Claude Code 桌面可视化客户端,支持对话式编程和项目管理 |
+| [dexter](https://github.com/virattt/dexter) | 基于AI的自主金融研究智能体系统 |
+| [owliabot](https://github.com/owliabot/owliabot) | 自托管加密货币AI代理，安全可扩展的链上操作助手 |
+| [VulnLLM-R-7B](https://huggingface.co/UCSB-SURFI/VulnLLM-R-7B) | 基于LLM的智能化代码漏洞检测推理模型 |
+| [Qwen3-Coder-Next-AWQ-4bit](https://huggingface.co/bullpoint/Qwen3-Coder-Next-AWQ-4bit) | Qwen3代码模型AWQ 4位量化版本 |
+| [js-vuln-studies](https://github.com/bjrjk/js-vuln-studies) | JavaScript引擎漏洞深度研究与利用分析合集 |
+| [claude-code-controller](https://github.com/The-Vibe-Company/claude-code-controller) | Claude Code 浏览器端 Web UI 控制面板 |
+| [CTFd-AI-Buddy](https://github.com/kakur41/CTFd-AI-Buddy) | CTFd平台AI自动解题助手，基于OpenAI Agents实现 |
+| [atlantis-android](https://github.com/ProxymanApp/atlantis-android) | Android应用HTTP/HTTPS流量捕获与调试工具 |
+| [BloodBash](https://github.com/DotNetRussell/BloodBash) | 离线解析BloodHound数据的AD渗透枚举工具 |
+| [AionUi](https://github.com/iOfficeAI/AionUi) | 多AI代理协作平台，为命令行AI工具提供统一图形界面 |
+| [paneru](https://github.com/karinushka/paneru) | macOS 平台无限滚动式平铺窗口管理器 |
+| [malasada](https://github.com/sliverarmory/malasada) | Linux共享库转Shellcode加载器工具 |
+| [Claudeman](https://github.com/Ark0N/Claudeman) | Claude Code会话管理WebUI，支持持久化和自动重启 |
+| [bub](https://github.com/psiace/bub) | 基于 republic 的工程化代码智能体命令行工具 |
+| [tmc-marketplace](https://github.com/tmchow/tmc-marketplace) | Claude Code 和 Codex 的迭代工程插件集合 |
+| [skills](https://github.com/semgrep/skills) | AI编程助手技能包：代码安全与最佳实践指导集 |
+| [MediCareAI](https://github.com/HougeLangley/MediCareAI) | 基于AI的智能疾病管理与患者随访系统 |
+| [claude-system](https://github.com/juanandresgs/claude-system) | Claude Code 系统化开发工作流配置工具包 |
+| [AutoPtT](https://github.com/ricardojoserf/AutoPtT) | 自动化Kerberos票据传递攻击工具 |
+| [rho](https://github.com/mikeyobrien/rho) | 跨平台持久化AI智能体，支持会话记忆与自主交互 |
+| [x-research-skill](https://github.com/xBenJamminx/x-research-skill) | 基于Composio的X/Twitter智能搜索与监控CLI工具 |
+| [zele](https://github.com/remorses/zele) | 终端下的 Gmail 和日历管理命令行工具 |
 | [Dayflow](https://github.com/JerryZLiu/Dayflow) | 基于AI的macOS屏幕活动自动时间轴生成工具 |
 | [RelayKing-Depth](https://github.com/depthsecurity/RelayKing-Depth) | AD域NTLM中继攻击检测与枚举工具 |
 | [supacode](https://github.com/supabitapp/supacode) | macOS原生多代码智能体编排工具 |

@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [whos-on-the-line-exploiting-rce-in-windows-telephony-service](https://swarm.ptsecurity.com/whos-on-the-line-exploiting-rce-in-windows-telephony-service/) | Windows电话服务远程代码执行漏洞利用分析 |
+| [on-the-clock-escaping-vmware-workstation-at-pwn2own-berlin-2025](https://www.synacktiv.com/en/publications/on-the-clock-escaping-vmware-workstation-at-pwn2own-berlin-2025) | VMware Workstation虚拟机逃逸漏洞利用技术分析 |
+| [securitytrace-etw-ppl](https://connormcgarr.github.io/securitytrace-etw-ppl/) | 无需PPL权限消费ETW威胁情报事件的新方法 |
+| [tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit](https://www.rapid7.com/blog/post/tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit/) | 中国APT组织Lotus Blossom的Chrysalis后门深度技术分析 |
 | [er605-1day-exploit](https://oobs.io/posts/er605-1day-exploit/) | TP-Link路由器DDNS认证前RCE漏洞利用链分析 |
 | [2ffdb461-3e5b-80ae-a5e0-e1e24626fe02?fbclid=IwY2xjawPyaVFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeKR35FRmuH-h0HY5-prT7c2udxf3uCn-T8JIXF7rkQn3VA-iVUPTwkcPBvZc_aem_G7scfPxjD1IAkyEsEvWa9Q](https://blog.78researchlab.com/2ffdb461-3e5b-80ae-a5e0-e1e24626fe02?fbclid=IwY2xjawPyaVFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeKR35FRmuH-h0HY5-prT7c2udxf3uCn-T8JIXF7rkQn3VA-iVUPTwkcPBvZc_aem_G7scfPxjD1IAkyEsEvWa9Q) | Windows错误报告授权检查漏洞分析 |
 | [extending-nighthawk-with-python-modules](https://www.nighthawkc2.io/extending-nighthawk-with-python-modules/) | Nighthawk C2框架Python模块扩展与自动化攻击链编排 |

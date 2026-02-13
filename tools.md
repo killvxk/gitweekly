@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [wireguard-initramfs](https://github.com/r-pufky/wireguard-initramfs) | 基于WireGuard的initramfs远程解锁加密系统工具 |
+| [embbridge](https://github.com/Necromancer-Labs/embbridge) | 嵌入式设备调试桥接工具，支持Shell、文件传输和固件取证 |
+| [uart-push](https://github.com/Necromancer-Labs/uart-push) | 基于UART串口的文件传输工具,类似SCP功能 |
+| [remnux-mcp-server](https://github.com/REMnux/remnux-mcp-server) | REMnux恶意软件分析工具包的MCP服务器 |
+| [clawra](https://github.com/SumeLabs/clawra) | 为OpenClaw AI助手添加自拍生成能力的技能插件 |
+| [icmptunnel-rs](https://github.com/fabi321/icmptunnel-rs) | 基于ICMP协议的加密IP隧道工具 |
+| [icmptunnel](https://github.com/jamesbarlow/icmptunnel) | 基于ICMP协议的IP流量隧道工具，用于绕过防火墙限制 |
+| [voltagent](https://github.com/VoltAgent/voltagent) | 基于TypeScript的开源AI智能体工程平台 |
+| [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | Claude Code 子代理精选集：126+ 个专业开发辅助工具 |
+| [actionbook](https://github.com/actionbook/actionbook) | AI代理浏览器操作引擎，提供预构建操作手册和DOM结构 |
+| [worldmonitor](https://github.com/koala73/worldmonitor) | AI驱动的全球实时情报监控与地缘政治态势感知平台 |
+| [aws-skills](https://github.com/zxkane/aws-skills) | AWS开发Claude插件集：CDK、无服务器、成本优化与AI代理 |
 | [CodePilot](https://github.com/op7418/CodePilot) | Claude Code 桌面可视化客户端,支持对话式编程和项目管理 |
 | [dexter](https://github.com/virattt/dexter) | 基于AI的自主金融研究智能体系统 |
 | [owliabot](https://github.com/owliabot/owliabot) | 自托管加密货币AI代理，安全可扩展的链上操作助手 |

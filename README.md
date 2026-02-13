@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ThreatIntelligenceConsumer](https://github.com/preludeorg/ThreatIntelligenceConsumer) | 无需驱动和PPL权限消费威胁情报ETW事件的技术演示 |
+| [TopazTerminator](https://github.com/ThanniKudam/TopazTerminator) | 利用有签名漏洞驱动终止EDR进程的工具 |
+| [lcre](https://github.com/refractionPOINT/lcre) | 二进制文件取证分析的命令行工具 |
+| [beignet](https://github.com/sliverarmory/beignet) | MacOS动态库转shellcode加载器工具 |
+| [HolyGrail](https://github.com/BlackSnufkin/HolyGrail) | Windows驱动BYOVD漏洞利用潜力分析工具 |
+| [edbgserver](https://github.com/Satar07/edbgserver) | 基于eBPF的Linux/Android低侵入式调试服务器 |
+| [llvm-jutsu](https://github.com/thebabush/llvm-jutsu) | 基于手势图像的LLVM代码混淆工具，对抗LLM逆向分析 |
 | [kahlo-mcp](https://github.com/FuzzySecurity/kahlo-mcp) | 基于Frida的Android动态插桩AI自动化辅助MCP服务器 |
 | [CVE-2024-5243-pwn2own-toronto-2023](https://github.com/yi-barrack/CVE-2024-5243-pwn2own-toronto-2023) | TP-Link路由器DDNS服务预认证远程代码执行漏洞利用 |
 | [malasada](https://github.com/sliverarmory/malasada) | Linux共享库转Shellcode加载器工具 |

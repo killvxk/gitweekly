@@ -13,8 +13,6 @@
 | [llvm-jutsu](https://github.com/thebabush/llvm-jutsu) | 基于手势图像的LLVM代码混淆工具，对抗LLM逆向分析 |
 | [kahlo-mcp](https://github.com/FuzzySecurity/kahlo-mcp) | 基于Frida的Android动态插桩AI自动化辅助MCP服务器 |
 | [CVE-2024-5243-pwn2own-toronto-2023](https://github.com/yi-barrack/CVE-2024-5243-pwn2own-toronto-2023) | TP-Link路由器DDNS服务预认证远程代码执行漏洞利用 |
-| [malasada](https://github.com/sliverarmory/malasada) | Linux共享库转Shellcode加载器工具 |
-| [BloodBash](https://github.com/DotNetRussell/BloodBash) | 离线解析BloodHound数据的AD渗透枚举工具 |
 | [dotNetPELoader](https://github.com/iss4cf0ng/dotNetPELoader) | C#编写的x86/x64 PE文件内存加载器 |
 | [DuplexSpyCS](https://github.com/iss4cf0ng/DuplexSpyCS) | 基于C#的Windows远程管理工具，用于安全测试与系统管理 |
 | [scfw](https://github.com/wbenny/scfw) | 跨平台C++框架用于构建Windows位置无关shellcode |
@@ -57,14 +55,11 @@
 | [rzweb](https://github.com/indalok/rzweb) | 基于WebAssembly的浏览器端逆向工程平台 |
 | [Scil](https://github.com/0xflux/Scil) | 内核系统调用完整性监控与拦截安全研究项目 |
 | [RuntimeViewer](https://github.com/MxIris-Reverse-Engineering/RuntimeViewer) | macOS/iOS 运行时类与接口查看器，支持 Objective-C 和 Swift |
-| [TopazTerminator](https://github.com/ThanniKudam/TopazTerminator) | 利用有签名漏洞驱动终止EDR进程的工具 |
 | [AV-EDR-Killer](https://github.com/xM0kht4r/AV-EDR-Killer) | 利用有漏洞驱动程序终止杀毒软件和EDR进程的工具 |
-| [Security-Detections-MCP](https://github.com/MHaggis/Security-Detections-MCP) | 多源安全检测规则统一查询MCP服务器 |
 | [Malicious-PixelCode](https://github.com/S3N4T0R-0X0/Malicious-PixelCode) | 将恶意代码编码为图像像素并隐蔽传输的攻击技术研究 |
 | [MSSQLHound](https://github.com/SpecterOps/MSSQLHound) | MSSQL数据库攻击路径收集工具,集成BloodHound攻击分析 |
 | [frida-ipa-extract](https://github.com/lautarovculic/frida-ipa-extract) | 基于Frida的iOS应用解密导出工具，支持越狱设备提取IPA文件 |
 | [JSReconduit](https://github.com/MantisSTS/JSReconduit) | Burp Suite流量被动捕获JS代码并在VSCode中进行AST分析的渗透测试工具 |
-| [ThreatIntelligenceConsumer](https://github.com/preludeorg/ThreatIntelligenceConsumer) | 无需驱动和PPL权限消费威胁情报ETW事件的技术演示 |
 | [WinDriver-EXP](https://github.com/ghostbyt3/WinDriver-EXP) | Windows驱动漏洞提权PoC集合 |
 | [raw-disk-parser](https://github.com/Workday/raw-disk-parser) | 绕过Windows文件API直接读取原始磁盘解析NTFS文件的工具 |
 | [phantom-grid](https://github.com/haidang-infosec/phantom-grid) | 基于eBPF的Linux主动防御系统，提供零信任访问与蜜罐欺骗 |
@@ -127,17 +122,14 @@
 | [clock-dashboard](https://github.com/teojs/clock-dashboard) | 基于 Vue3 的多功能天气时钟看板，支持智能家居控制 |
 | [boxlite](https://github.com/boxlite-labs/boxlite) | 嵌入式微型虚拟机运行时，无需守护进程运行Docker镜像沙箱 |
 | [Podtrace](https://github.com/gma1k/Podtrace) | 基于 eBPF 的 Kubernetes 应用全栈诊断与可观测性工具 |
-| [Founding](https://github.com/SenSecurity/Founding) | 恶意软件加载器生成工具，支持多种加密混淆和隐蔽执行技术 |
 | [RedTeamGrimoire](https://github.com/vari-sh/RedTeamGrimoire) | 红队渗透测试工具集与攻击技术代码库 |
 | [ipaFridaInjector](https://github.com/vari-sh/ipaFridaInjector) | iOS应用Frida注入工具，支持非越狱设备动态分析 |
 | [impacket-dcom](https://github.com/sud0Ru/impacket-dcom) | 适配Windows 10/11的Impacket DCOM远程执行工具 |
-| [NauthNRPC](https://github.com/sud0Ru/NauthNRPC) | 无需认证枚举域用户和域信息的渗透测试工具 |
 | [NauthNRPC](https://github.com/sud0Ru/NauthNRPC) | 无需认证枚举域用户和域信息的渗透测试工具 |
 | [zigbee-linkkey-hasher](https://github.com/klsecservices/zigbee-linkkey-hasher) | Zigbee链路密钥哈希计算工具 |
 | [templui](https://github.com/templui/templui) | 基于 Go 和 templ 构建的可定制 UI 组件库 |
 | [mquickjs](https://github.com/bellard/mquickjs) | 面向嵌入式系统的超轻量级JavaScript引擎 |
 | [fasterPython](https://github.com/tomtyiu/fasterPython) | 面向AI领域的Python性能优化工具库 |
-| [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
 | [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
 | [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 自动将文档、GitHub仓库和PDF转换为Claude AI技能包的工具 |
 | [cclsp](https://github.com/ktnyt/cclsp) | Claude Code的LSP集成工具，提供智能代码导航和重构功能 |
@@ -154,7 +146,6 @@
 | [ScreenshotExtension](https://github.com/LyalinDotCom/ScreenshotExtension) | macOS屏幕截图AI扩展，支持窗口锁定与视觉调试 |
 | [GitHubDeviceCodePhishing](https://github.com/Maldev-Academy/GitHubDeviceCodePhishing) | GitHub设备码钓鱼攻击模拟工具 |
 | [store](https://github.com/TanStack/store) | 框架无关的类型安全响应式状态管理库 |
-| [mlx-audio](https://github.com/Blaizzy/mlx-audio) | 基于Apple MLX框架的语音合成与转换库，支持TTS/STT/STS功能 |
 | [debugir](https://github.com/vaivaswatha/debugir) | LLVM IR文件调试工具，支持GDB/LLDB断点调试 |
 | [TokenFlare](https://github.com/JumpsecLabs/TokenFlare) | 针对 Entra ID/M365 的无服务器 AITM 钓鱼模拟框架 |
 | [proxycast](https://github.com/aiclientproxy/proxycast) | AI客户端凭证转OpenAI API代理工具 |
@@ -183,7 +174,6 @@
 | [applescript-decompiler](https://github.com/pberba/applescript-decompiler) | AppleScript只读脚本反编译工具 |
 | [ccs](https://github.com/kaitranntt/ccs) | Claude多账户与AI模型切换管理工具 |
 | [chernobog](https://github.com/19h/chernobog) | IDA Pro反混淆插件，专门对抗Hikari LLVM代码混淆保护 |
-| [BugTrace-AI](https://github.com/yz9yt/BugTrace-AI) | 基于生成式AI的Web安全漏洞分析与渗透测试工具套件 |
 | [cloudflare-error-page](https://github.com/donlon/cloudflare-error-page) | Cloudflare 风格错误页面生成器 |
 | [Singularity](https://github.com/MatheuZSecurity/Singularity) | 隐蔽性Linux内核级Rootkit，支持进程隐藏与权限提升 |
 | [grimreaper](https://github.com/RistBS/grimreaper) | 基于APC的改进型内存混淆保护工具 |
@@ -264,11 +254,9 @@
 | [readdig](https://github.com/readdig/readdig) | 一个支持RSS订阅和播客播放的阅读器应用 |
 | [docker-implementation](https://github.com/L0rdDarkk/hexstrike-ai/tree/docker-implementation) | AI驱动的自动化渗透测试与漏洞挖掘平台 |
 | [YPrompt](https://github.com/fish2018/YPrompt) | AI驱动的Prompt工程工具，支持需求挖掘、版本管理和效果对比 |
-| [TrendRadar](https://github.com/sansan0/TrendRadar) | 多平台热点聚合与AI舆情分析监控工具 |
 | [fssh](https://github.com/Mister-leo/fssh) | macOS下基于Touch ID的SSH密钥管理与快速连接工具 |
 | [Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) | 强化学习数学基础理论教材资源库 |
 | [open-coreui](https://github.com/xxnuo/open-coreui) | Rust重写的轻量级AI对话界面，无需Docker依赖 |
-| [hrtng](https://github.com/KasperskyLab/hrtng) | IDA Pro逆向分析插件：反混淆解密与代码识别工具集 |
 | [Alcatraz](https://github.com/weak1337/Alcatraz) | x64二进制文件混淆工具，支持多种代码保护技术 |
 | [Ryujin](https://github.com/keowu/Ryujin) | Windows PE二进制文件混淆保护与DRM工具 |
 | [DiaSymbolView](https://github.com/diversenok/DiaSymbolView) | PDB符号文件解析与查看工具 |
@@ -325,7 +313,6 @@
 | [frogy2.0](https://github.com/iamthefrogy/frogy2.0) | 自动化外部侦察与攻击面管理工具 |
 | [mambo](https://github.com/beehive-lab/mambo) | ARM和RISC-V架构的低开销动态二进制插桩工具 |
 | [OneLong](https://github.com/M0nster3/OneLong) | 红队自动化信息收集与资产测绘工具 |
-| [Titanis](https://github.com/trustedsec/Titanis) | C#编写的跨平台Windows协议库，支持SMB、RPC等协议实现 |
 | [db-back-tool](https://github.com/iKeepLearn/db-back-tool) | 数据库自动备份加密压缩并上传云存储工具 |
 | [rustnet](https://github.com/domcyrus/rustnet) | Rust开发的跨平台网络监控终端UI工具 |
 | [PortNote](https://github.com/crocofied/PortNote) | 服务器端口占用管理与可视化工具 |
@@ -338,7 +325,6 @@
 | [shellnova](https://github.com/zer1t0/shellnova) | Linux平台位置无关shellcode生成框架 |
 | [obfusheader.h](https://github.com/ac3ss0r/obfusheader.h) | C++编译时代码混淆加密头文件库 |
 | [OffensiveLua](https://github.com/hackerhouse-opensource/OffensiveLua) | 基于Lua的攻击性安全渗透测试脚本集合 |
-| [re-architect](https://github.com/pandaadir05/re-architect) | AI驱动的多反编译器逆向工程自动化分析平台 |
 | [undertheradar](https://github.com/g3tsyst3m/undertheradar) | 渗透测试工具集：EDR/AV绕过与凭证窃取脚本 |
 | [hopgoblin](https://github.com/assetnote/hopgoblin) | Adobe Experience Manager漏洞扫描与安全测试工具 |
 | [EtwSessionHijacking](https://github.com/NUL0x4C/EtwSessionHijacking) | 劫持ETW会话阻止进程监控工具的网络事件追踪 |
@@ -365,14 +351,11 @@
 | [Ouroboros](https://github.com/Hexorg/Ouroboros) | 基于符号执行的Rust反编译器 |
 | [WMI_Proc_Dump](https://github.com/0xthirteen/WMI_Proc_Dump) | 基于WMI远程转储进程内存的工具 |
 | [mtprocess](https://github.com/0xthirteen/mtprocess) | 利用WMI的MSFT_MTProcess类实现远程命令执行的Python工具 |
-| [Aether](https://github.com/0xf00sec/Aether) | macOS自变异木马植入框架，支持指令级代码重写 |
 | [Gokapi](https://github.com/Forceu/Gokapi) | 轻量级自托管文件分享服务，支持自动过期和加密 |
-| [obex](https://github.com/dis0rder0x00/obex) | 用户态DLL注入防护工具，阻止EDR等模块加载 |
 | [httpjail](https://github.com/coder/httpjail) | 进程级HTTP请求监控与过滤工具 |
 | [safe-chain](https://github.com/AikidoSec/safe-chain) | 防护npm/yarn/pip等包管理器的恶意代码安全工具 |
 | [Seelen-UI](https://github.com/eythaann/Seelen-UI) | Windows系统的完全可自定义桌面环境管理工具 |
 | [sshai](https://github.com/sshllm/sshai) | 基于SSH协议的AI大模型客户端工具 |
-| [shimmy](https://github.com/Michael-A-Kuykendall/shimmy) | 基于Rust的轻量级OpenAI API兼容推理服务器 |
 | [phoenix](https://github.com/comsec-group/phoenix) | DDR5内存行锤攻击与自校正同步技术研究 |
 | [vmscape](https://github.com/comsec-group/vmscape) | 云环境分支预测器隔离漏洞利用工具 |
 | [dev3000](https://github.com/vercel-labs/dev3000) | 全栈开发时间线捕获工具，集成AI调试助手 |
@@ -383,7 +366,6 @@
 | [maciNTosh](https://github.com/Wack0/maciNTosh) | 将PowerPC架构Windows NT移植到Power Macintosh系统 |
 | [tenrec](https://github.com/axelmierczuk/tenrec) | 可扩展的多会话无头IDA Pro逆向工程MCP框架 |
 | [EarlyExceptionHandling](https://github.com/kr0tt/EarlyExceptionHandling) | 基于早期异常处理机制实现钩子和无线程进程注入 |
-| [rustnet](https://github.com/domcyrus/rustnet) | Rust开发的跨平台网络监控终端UI工具 |
 | [finch](https://github.com/0x4D31/finch) | 基于TLS指纹识别的智能反向代理网关 |
 | [galah](https://github.com/0x4D31/galah) | 基于大语言模型的动态Web蜜罐系统 |
 | [ComDotNetExploit](https://github.com/T3nb3w/ComDotNetExploit) | 利用COM重定向和反射技术绕过Windows PPL保护进行代码注入 |
@@ -408,7 +390,6 @@
 | [sneaky_remap](https://github.com/magisterquis/sneaky_remap) | Linux下隐藏共享库文件的进程内存映射工具 |
 | [tls-preloader](https://github.com/f0rw4rd/tls-preloader) | 跨平台TLS证书验证绕过库用于调试测试 |
 | [elegant-bouncer](https://github.com/msuiche/elegant-bouncer) | 移动设备文件型漏洞利用检测工具 |
-| [raw-disk-parser](https://github.com/Workday/raw-disk-parser) | 绕过Windows文件API直接读取原始磁盘解析NTFS文件的工具 |
 | [LiveCloudKd](https://github.com/msuiche/LiveCloudKd) | Hyper-V虚拟机内存取证与实时调试工具 |
 | [Hibr2Bin](https://github.com/MagnetForensics/Hibr2Bin) | Windows休眠文件解压缩取证工具 |
 | [Vtl1Mon](https://github.com/connormcgarr/Vtl1Mon) | 基于ETW追踪Windows虚拟信任级别安全调用的工具 |
@@ -429,7 +410,6 @@
 | [soldb](https://github.com/walnuthq/soldb) | Solidity智能合约命令行调试器工具 |
 | [anubis](https://github.com/TecharoHQ/anubis) | 拦截AI爬虫的HTTP请求防火墙工具 |
 | [VMDragonSlayer](https://github.com/poppopjmp/VMDragonSlayer) | 基于多引擎的虚拟机保护二进制文件自动化脱壳与反混淆框架 |
-| [BruteForceai](https://github.com/MorDavid/BruteForceai) | 基于大语言模型的智能登录暴力破解渗透测试工具 |
 | [claude-code-for-power-users](https://github.com/automazeio/claude-code-for-power-users) | Claude Code高级开发实战指南与最佳实践 |
 | [TinyInst](https://github.com/googleprojectzero/TinyInst) | 轻量级动态二进制插桩框架 |
 | [ttexplore](https://github.com/JonathanSalwan/ttexplore) | 基于符号执行的二进制路径探索库 |
@@ -458,7 +438,6 @@
 | [mold](https://github.com/rui314/mold) | 高性能现代化链接器，大幅提升编译链接速度 |
 | [ascon-c](https://github.com/ascon/ascon-c) | 轻量级认证加密与哈希算法的C语言实现库 |
 | [BamboozlEDR](https://github.com/olafhartong/BamboozlEDR) | Windows ETW事件生成工具，用于测试EDR检测能力 |
-| [ChromeAlone](https://github.com/praetorian-inc/ChromeAlone) | 将Chrome浏览器转换为C2远控植入工具的攻击框架 |
 | [hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel) | 轻量级高性能SOCKS5隧道代理工具（tun2socks） |
 | [hev-socks5-core](https://github.com/heiher/hev-socks5-core) | 轻量级SOCKS5协议库，支持IPv4/IPv6和TCP/UDP代理 |
 | [NaviCLI](https://github.com/yhkl-dev/NaviCLI) | Navidrome音乐服务的轻量级终端播放器 |
@@ -509,7 +488,6 @@
 | [bddisasm](https://github.com/bitdefender/bddisasm) | x86/x64指令集反汇编与shellcode行为检测工具 |
 | [WinVisor](https://github.com/x86matthew/WinVisor) | 基于Windows虚拟化平台API的x64用户态程序虚拟机监控器 |
 | [NtDOOM](https://github.com/NSG650/NtDOOM) | 在Windows NT内核中运行DOOM游戏的驱动程序 |
-| [winlator](https://github.com/brunodev85/winlator) | 基于Wine和Box86/Box64在安卓运行Windows应用的模拟器 |
 | [felix86](https://github.com/OFFTKP/felix86) | 在RISC-V架构Linux上运行x86/x86-64程序的JIT模拟器 |
 | [Polaris](https://github.com/NSG650/Polaris) | 基于C语言开发的64位类Unix操作系统内核 |
 | [mini-rv32ima](https://github.com/cnlohr/mini-rv32ima) | 超轻量级RISC-V32指令集模拟器C头文件库 |
@@ -538,7 +516,6 @@
 | [AndroidShell](https://github.com/smallsun107/AndroidShell) | Android应用加固壳实现示例 |
 | [NOVA](https://github.com/udosteinberg/NOVA) | 基于微内核架构的x86虚拟化微型管理程序 |
 | [microv](https://github.com/Bareflank/microv) | 轻量级微虚拟机管理程序，支持跨平台部署 |
-| [WinVisor](https://github.com/x86matthew/WinVisor) | 基于Windows虚拟化平台API的x64用户态程序虚拟机监控器 |
 | [WPBT-Builder](https://github.com/tandasat/WPBT-Builder) | UEFI应用程序，用于创建Windows平台二进制表 |
 | [GrabAccess](https://github.com/Push3AX/GrabAccess) | Windows登录密码绕过与UEFI固件级持久化工具 |
 | [Calamity](https://github.com/xsh3llsh0ck/Calamity) | 利用Windows平台二进制表实现系统级持久化的EFI驱动示例 |
@@ -569,7 +546,6 @@
 | [BinaryAnalysisMCPs](https://github.com/cycraft-corp/BinaryAnalysisMCPs) | 基于MCP协议的模块化二进制分析工具集 |
 | [everything-ai-chat](https://github.com/MaskerPRC/everything-ai-chat) | AI驱动的Everything本地文件搜索客户端 |
 | [AIClient-2-API](https://github.com/justlovemaki/AIClient-2-API) | 多模型客户端请求转OpenAI接口代理服务 |
-| [TrendRadar](https://github.com/sansan0/TrendRadar) | 多平台热点聚合与AI舆情分析监控工具 |
 | [obfuz](https://github.com/focus-creative-games/obfuz) | Unity代码混淆插件，支持热更新与深度工作流集成 |
 | [ida2llvm](https://github.com/loyaltypollution/ida2llvm) | 将IDA反编译代码动态提升为LLVM中间表示 |
 | [unxorer](https://github.com/SamuelTulach/unxorer) | IDA Pro反混淆插件，用于提取栈字符串 |
@@ -606,8 +582,6 @@
 | [coro-code](https://github.com/Blushyes/coro-code) | 基于Rust的开源AI编码助手命令行工具 |
 | [BlockEDRTraffic](https://github.com/0xJs/BlockEDRTraffic) | 阻止EDR安全软件网络流量的C语言工具 |
 | [ccpm](https://github.com/automazeio/ccpm) | 基于Claude Code的AI驱动项目管理系统，支持并行任务执行 |
-| [dllshimmer](https://github.com/print3M/dllshimmer) | DLL劫持武器化工具，支持函数级后门注入 |
-| [function-collections](https://github.com/whokilleddb/function-collections) | Windows非常规函数调用技术PoC集合 |
 | [CreateProcessAsPPL](https://github.com/2x7EQ13/CreateProcessAsPPL) | 以PPL保护级别启动进程的加载器工具 |
 | [Shellcrypt](https://github.com/Lavender-exe/Shellcrypt) | Shellcode混淆加密工具支持多语言输出格式 |
 | [RtlHijack](https://github.com/kleiton0x00/RtlHijack) | 利用Rtl函数实现非常规内存读写原语 |
@@ -647,8 +621,6 @@
 | [pocketpy](https://github.com/pocketpy/pocketpy) | 用现代C语言实现的轻量级Python 3解释器 |
 | [AlbatrossAndroid](https://github.com/AlbatrossHook/AlbatrossAndroid) | Android高性能Hook与反射框架，支持镜像类声明式拦截 |
 | [AlbatrossServer](https://github.com/AlbatrossHook/AlbatrossServer) | Android动态插桩与运行时Hook框架 |
-| [file-transfer-go](https://github.com/MatrixSeven/file-transfer-go) | 基于WebRTC的P2P端到端加密文件传输工具 |
-| [gonzo](https://github.com/control-theory/gonzo) | 基于Go的终端界面日志分析工具 |
 | [MarkFlowy](https://github.com/drl990114/MarkFlowy) | 跨平台轻量级Markdown编辑器，内置AI智能辅助功能 |
 | [plutoprint](https://github.com/plutoprint/plutoprint) | 基于PlutoBook的HTML转PDF和图片的Python库 |
 | [Sirius](https://github.com/SiriusScan/Sirius) | 开源综合漏洞扫描与自动化渗透测试平台 |
@@ -683,6 +655,5 @@
 | [DatasetLoom](https://github.com/599yongyang/DatasetLoom) | 多模态大模型训练数据集智能构建与评估平台 |
 | [CordysCRM](https://github.com/1Panel-dev/CordysCRM) | 开源AI驱动的客户关系管理系统 |
 | [pingap](https://github.com/vicanso/pingap) | 基于Pingora的高性能反向代理网关 |
-| [Alle](https://github.com/bestruirui/Alle) | AI智能识别的多邮箱聚合管理平台 |
 | [gocron](https://github.com/gocronx-team/gocron) | 基于Go的分布式定时任务调度管理系统 |
 | [tuios](https://github.com/Gaurav-Gosain/tuios) | 终端界面操作系统，支持多窗口和工作区管理 |

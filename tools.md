@@ -144,9 +144,7 @@
 | [ttl](https://github.com/lance0/ttl) | 增强型网络路径追踪工具，支持MTU发现、NAT检测、ECMP路径枚举及实时TUI监控 |
 | [sec-context](https://github.com/Arcanum-Sec/sec-context) | AI代码安全反模式库，帮助大语言模型生成更安全的代码 |
 | [dev-browser](https://github.com/SawyerHood/dev-browser) | Claude Code浏览器自动化插件，支持AI控制浏览器测试与验证开发工作 |
-| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | Claude Code 配置大全：代理、技能、命令、规则与 MCP 集合 |
 | [deskflow-hid](https://github.com/lockekk/deskflow-hid) | 通过蓝牙HID实现跨平台键鼠共享至移动设备的低延迟扩展工具 |
-| [videocut-skills](https://github.com/Ceeon/videocut-skills) | 基于Claude Code的智能视频剪辑Agent工具 |
 | [idawilli](https://github.com/williballenthin/idawilli) | IDA Pro 逆向工程脚本与配置资源集合 |
 | [claude-stt](https://github.com/jarrodwatts/claude-stt) | Claude Code 语音转文本插件，支持本地实时语音输入 |
 | [json-render](https://github.com/vercel-labs/json-render) | AI驱动的JSON到UI渲染框架,可控组件生成 |
@@ -175,7 +173,6 @@
 | [design-plugin](https://github.com/0xdesign/design-plugin) | Claude代码插件：快速生成多个UI设计方案并迭代优化 |
 | [OpenDecoder](https://github.com/fengranMark/OpenDecoder) | 融合文档质量指标的RAG增强型LLM解码框架 |
 | [gpui-markup](https://github.com/so1ve/gpui-markup) | 基于 Rust 的声明式 GPUI 应用界面构建 DSL |
-| [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Claude Code 复利工程插件：通过计划、执行、审查和知识沉淀提升开发效率 |
 | [ccpm](https://github.com/kaldown/ccpm) | Claude Code 插件管理器，提供 TUI 界面和命令行工具 |
 | [makepad-skills](https://github.com/ZhangHanDong/makepad-skills) | 基于Makepad框架的AI辅助Rust跨平台UI开发技能库 |
 | [agent-browser](https://github.com/vercel-labs/agent-browser) | AI智能体专用的无头浏览器自动化命令行工具 |

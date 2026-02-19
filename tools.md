@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pi_agent_rust](https://github.com/Dicklesworthstone/pi_agent_rust) | Rust编写的高性能AI编码助手命令行工具 |
+| [awesome-claw](https://github.com/sameeerkashyap/awesome-claw) | 开源AI助手项目精选列表 |
+| [SkillRL](https://github.com/aiming-lab/SkillRL) | 基于递归技能增强的强化学习智能体进化框架 |
+| [ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) | 基于Playwright和AI的闲鱼商品智能监控与推送工具 |
+| [tree-sitter](https://github.com/tree-sitter/tree-sitter) | 增量式编程语言解析器生成工具 |
 | [nullclaw](https://github.com/nullclaw/nullclaw) | 基于Zig的超轻量级自主AI助手基础设施 |
 | [lobsterai](https://github.com/netease-youdao/lobsterai) | 全场景AI智能助理，自动化处理日常工作任务 |
 | [Agent-company](https://github.com/goldengrape/Agent-company) | 基于文档流的多智能体协作框架，模拟企业组织架构 |

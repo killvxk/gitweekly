@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [persistence-the-art-of-staying-in](https://0xdbgman.github.io/posts/persistence-the-art-of-staying-in/) | 跨平台持久化技术全景指南：涵盖Windows、Linux、macOS及云环境的50+种APT级驻留技术 |
 | [breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools](https://iq.thc.org/breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools) |  |
 | [exploit_reversing_06_extended.pdf](https://exploitreversing.com/wp-content/uploads/2026/02/exploit_reversing_06_extended.pdf) | 漏洞利用与逆向工程技术文档 |
 | [context-repositories](https://www.letta.com/blog/context-repositories) | 基于Git的编程代理上下文记忆管理系统 |

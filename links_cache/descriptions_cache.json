@@ -1540,7 +1540,7 @@
   "https://github.com/ant4g0nist/decompiler/": "LLDB的Ghidra反编译器插件，实时调试会话中反编译函数",
   "https://github.com/ChesterRa/cccc": "本地优先的多智能体协作内核，零基础设施的生产级编排框架",
   "https://github.com/Zierax/Grafana-Final-Scanner": "Grafana漏洞扫描工具，集成10个CVE检测",
-  "https://github.com/ant4g0nist/morgul": "我需要先获取这个GitHub项目的详细信息才能生成准确的描述。让我访问该项目页面。\n\n<attempt_completion>\n<result>\n基于Frida的iOS应用动态分析与漏洞挖掘框架\n</result>\n</attempt_completion>",
+  "https://github.com/ant4g0nist/morgul": "基于Frida的iOS应用动态分析与漏洞挖掘框架",
   "https://github.com/wusyong/cxx-qt-widgets": "基于CXX-Qt的Qt Widgets Rust绑定库",
   "https://github.com/mprajyothreddy/brainkernel": "基于LLM的智能进程调度管理器",
   "https://github.com/Scofieldfree/excalidraw-mcp": "Excalidraw图表的MCP服务器，支持AI智能绘图与实时预览",
@@ -1577,5 +1577,14 @@
   "https://github.com/nxenon/h2spacex": "基于Scapy的HTTP/2单包攻击与时序漏洞利用工具库",
   "https://github.com/TraderAlice/OpenAlice": "文件驱动的AI加密货币与证券交易代理引擎",
   "https://github.com/666ghj/MiroFish": "基于多智能体的通用预测引擎与数字孪生仿真平台",
-  "https://github.com/ComposioHQ/awesome-claude-skills": "Claude AI技能与工具资源精选集合"
+  "https://github.com/ComposioHQ/awesome-claude-skills": "Claude AI技能与工具资源精选集合",
+  "https://github.com/Usagi-org/ai-goofish-monitor": "基于Playwright和AI的闲鱼商品智能监控与推送工具",
+  "https://github.com/tree-sitter/tree-sitter": "增量式编程语言解析器生成工具",
+  "https://0xdbgman.github.io/posts/persistence-the-art-of-staying-in/": "跨平台持久化技术全景指南：涵盖Windows、Linux、macOS及云环境的50+种APT级驻留技术",
+  "https://github.com/KittenML/KittenTTS": "超轻量级开源TTS模型，25MB内实现高质量语音合成",
+  "https://github.com/0xDbgMan/Kernel-Exploitation": "Windows内核漏洞利用研究与PoC集合",
+  "https://github.com/RightNow-AI/picolm": "在256MB内存的10美元开发板上运行10亿参数大语言模型",
+  "https://github.com/Dicklesworthstone/pi_agent_rust": "Rust编写的高性能AI编码助手命令行工具",
+  "https://github.com/sameeerkashyap/awesome-claw": "开源AI助手项目精选列表",
+  "https://github.com/aiming-lab/SkillRL": "基于递归技能增强的强化学习智能体进化框架"
 }

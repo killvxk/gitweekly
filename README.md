@@ -4,6 +4,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [KittenTTS](https://github.com/KittenML/KittenTTS) | 超轻量级开源TTS模型，25MB内实现高质量语音合成 |
+| [Kernel-Exploitation](https://github.com/0xDbgMan/Kernel-Exploitation) | Windows内核漏洞利用研究与PoC集合 |
+| [picolm](https://github.com/RightNow-AI/picolm) | 在256MB内存的10美元开发板上运行10亿参数大语言模型 |
 | [TcpNsiKill](https://github.com/kyxiaxiang/TcpNsiKill) | 基于NSI接口的Windows进程级TCP连接隐蔽终止工具 |
 | [STProcessMonitorBYOVD](https://github.com/ANYLNK/STProcessMonitorBYOVD) | 利用BYOVD技术实现进程终止的CVE漏洞利用工具 |
 | [MyCCompiler](https://github.com/Fare9/MyCCompiler) | 基于LLVM的C语言编译器实现项目 |

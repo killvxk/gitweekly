@@ -2,6 +2,40 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cccc](https://github.com/ChesterRa/cccc) | 本地优先的多智能体协作内核，零基础设施的生产级编排框架 |
+| [Grafana-Final-Scanner](https://github.com/Zierax/Grafana-Final-Scanner) | Grafana漏洞扫描工具，集成10个CVE检测 |
+| [morgul](https://github.com/ant4g0nist/morgul) | 我需要先获取这个GitHub项目的详细信息才能生成准确的描述。让我访问该项目页面。
+
+<attempt_completion>
+<result>
+基于Frida的iOS应用动态分析与漏洞挖掘框架
+</result>
+</attempt_completion> |
+| [cxx-qt-widgets](https://github.com/wusyong/cxx-qt-widgets) | 基于CXX-Qt的Qt Widgets Rust绑定库 |
+| [brainkernel](https://github.com/mprajyothreddy/brainkernel) | 基于LLM的智能进程调度管理器 |
+| [excalidraw-mcp](https://github.com/Scofieldfree/excalidraw-mcp) | Excalidraw图表的MCP服务器，支持AI智能绘图与实时预览 |
+| [learn](https://labex.io/learn) |  |
+| [the-rise-of-one-pizza-engineering](https://www.jampa.dev/p/the-rise-of-one-pizza-engineering) | AI驱动的小型工程团队组织变革分析 |
+| [universal-db-mcp](https://github.com/Anarkh-Lee/universal-db-mcp) | 支持17种数据库的MCP连接器，用自然语言查询分析数据 |
+| [codex-viz](https://github.com/onewesong/codex-viz) | Codex CLI 会话本地可视化分析仪表盘 |
+| [yaak](https://github.com/mountain-loop/yaak) | 跨平台桌面API客户端，支持REST、GraphQL、WebSocket、SSE和gRPC |
+| [extension.js](https://github.com/extension-js/extension.js) | 跨浏览器扩展开发框架，统一构建工作流 |
+| [FeedCraft](https://github.com/Colin-XKL/FeedCraft) | RSS订阅源智能处理中间件，支持全文提取、AI翻译摘要及可视化生成器 |
+| [BetterCapture](https://github.com/jsattler/BetterCapture) | macOS原生屏幕录制工具，支持专业编码和隐私保护 |
+| [luci-theme-aurora](https://github.com/eamonxg/luci-theme-aurora) | 基于Tailwind CSS的现代化OpenWrt LuCI主题 |
+| [QtScrcpy](https://github.com/barry-ran/QtScrcpy) | Android设备跨平台实时投屏控制工具 |
+| [ScrapeServ](https://github.com/goodreasonai/ScrapeServ) | 自托管网页截图API服务器 |
+| [letta-code](https://github.com/letta-ai/letta-code) | 基于持久化记忆的AI编程助手，支持跨会话学习 |
+| [ClaudeCodeAgents](https://github.com/darcyegb/ClaudeCodeAgents) | Claude Code专业QA代理集合，提供代码审查与质量验证工具 |
+| [moltis](https://github.com/moltis-org/moltis) | Rust构建的个人AI助手网关，支持多模型、长期记忆与沙盒执行 |
+| [AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | AI研究工程技能开源库，赋能AI代理执行完整研究实验 |
+| [BoxPwnr](https://github.com/0ca/BoxPwnr) | LLM自主攻防基准测试框架，支持多平台CTF挑战 |
+| [idax](https://github.com/19h/idax) | IDA Pro SDK的现代化C++23封装库 |
+| [tinyclaw](https://github.com/jlia0/tinyclaw) | 多智能体协作系统，支持多团队多渠道24/7运行 |
+| [zeroclaw](https://github.com/theonlyhennygod/zeroclaw) | 基于Rust的轻量级自主AI助手基础设施框架 |
+| [picoclaw](https://github.com/sipeed/picoclaw) | 超轻量级Go语言AI助手，10MB内存1秒启动 |
+| [ironclaw](https://github.com/nearai/ironclaw) | Rust实现的隐私优先AI助手，支持WASM沙箱和本地数据加密 |
+| [skills](https://github.com/getsentry/skills) | Sentry团队AI代理技能包，提供代码审查、提交规范等开发工作流技能 |
 | [wireguard-initramfs](https://github.com/r-pufky/wireguard-initramfs) | 基于WireGuard的initramfs远程解锁加密系统工具 |
 | [embbridge](https://github.com/Necromancer-Labs/embbridge) | 嵌入式设备调试桥接工具，支持Shell、文件传输和固件取证 |
 | [uart-push](https://github.com/Necromancer-Labs/uart-push) | 基于UART串口的文件传输工具,类似SCP功能 |

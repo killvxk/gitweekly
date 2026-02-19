@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools](https://iq.thc.org/breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools) |  |
+| [exploit_reversing_06_extended.pdf](https://exploitreversing.com/wp-content/uploads/2026/02/exploit_reversing_06_extended.pdf) | 漏洞利用与逆向工程技术文档 |
+| [context-repositories](https://www.letta.com/blog/context-repositories) | 基于Git的编程代理上下文记忆管理系统 |
+| [loading-kernel-drivers-in-memory-fc5d71c576e2](https://medium.com/@s12deff/loading-kernel-drivers-in-memory-fc5d71c576e2) |  |
+| [2026-02-12-cooking-with-x64dbg-and-mcp](https://x64.ooo/posts/2026-02-12-cooking-with-x64dbg-and-mcp/) | x64dbg逆向工程自动化与MCP服务器集成实践指南 |
+| [getting-started](https://zilliztech.github.io/memsearch/getting-started/) | 基于Milvus的Markdown文档语义搜索与记忆管理工具 |
+| [ddia.vonng.com](https://ddia.vonng.com/) | 数据密集型应用架构设计经典教材中文翻译版 |
+| [index.html](https://viralmaniar.github.io/ThreatPatrol/site/index.html) | MITRE ATT&CK企业威胁情报可视化分析平台 |
 | [whos-on-the-line-exploiting-rce-in-windows-telephony-service](https://swarm.ptsecurity.com/whos-on-the-line-exploiting-rce-in-windows-telephony-service/) | Windows电话服务远程代码执行漏洞利用分析 |
 | [on-the-clock-escaping-vmware-workstation-at-pwn2own-berlin-2025](https://www.synacktiv.com/en/publications/on-the-clock-escaping-vmware-workstation-at-pwn2own-berlin-2025) | VMware Workstation虚拟机逃逸漏洞利用技术分析 |
 | [securitytrace-etw-ppl](https://connormcgarr.github.io/securitytrace-etw-ppl/) | 无需PPL权限消费ETW威胁情报事件的新方法 |

@@ -4,6 +4,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [TcpNsiKill](https://github.com/kyxiaxiang/TcpNsiKill) | 基于NSI接口的Windows进程级TCP连接隐蔽终止工具 |
+| [STProcessMonitorBYOVD](https://github.com/ANYLNK/STProcessMonitorBYOVD) | 利用BYOVD技术实现进程终止的CVE漏洞利用工具 |
+| [MyCCompiler](https://github.com/Fare9/MyCCompiler) | 基于LLVM的C语言编译器实现项目 |
+| [subtrace](https://github.com/subtrace/subtrace) | 后端HTTP请求实时监控与调试工具 |
+| [proxypin](https://github.com/wanghongenpin/proxypin) | 开源跨平台HTTP(S)流量抓包工具 |
+| [neko-master](https://github.com/foru17/neko-master) | 网络流量可视化与多网关实时监控分析平台 |
+| [XpcScope](https://github.com/ChiChou/XpcScope) | macOS XPC进程间通信抓包分析工具 |
+| [clion-pwndbg-bridge](https://github.com/Yu212/clion-pwndbg-bridge) | CLion的Pwndbg调试插件，为CTF提供GUI化GDB工作流 |
+| [decompiler](https://github.com/ant4g0nist/decompiler/) | LLDB的Ghidra反编译器插件，实时调试会话中反编译函数 |
+| [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs) | 基于IDA Pro的无头MCP服务器，支持AI驱动的逆向工程分析 |
 | [ThreatIntelligenceConsumer](https://github.com/preludeorg/ThreatIntelligenceConsumer) | 无需驱动和PPL权限消费威胁情报ETW事件的技术演示 |
 | [TopazTerminator](https://github.com/ThanniKudam/TopazTerminator) | 利用有签名漏洞驱动终止EDR进程的工具 |
 | [lcre](https://github.com/refractionPOINT/lcre) | 二进制文件取证分析的命令行工具 |

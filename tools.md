@@ -2,15 +2,20 @@
 
 | 文章 | 简介 |
 |------|------|
+| [nullclaw](https://github.com/nullclaw/nullclaw) | 基于Zig的超轻量级自主AI助手基础设施 |
+| [lobsterai](https://github.com/netease-youdao/lobsterai) | 全场景AI智能助理，自动化处理日常工作任务 |
+| [Agent-company](https://github.com/goldengrape/Agent-company) | 基于文档流的多智能体协作框架，模拟企业组织架构 |
+| [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | 面向AI代理的智能LLM路由器，支持30+模型自动选择 |
+| [at-ps](https://github.com/SpecterOps/at-ps) | PowerShell攻防技术培训课程资料 |
+| [movrax](https://github.com/vixhal-baraiya/movrax) | 军用级持久化内存操作系统内核 |
+| [skills](https://github.com/dylanfeltus/skills) | AI智能体技能库：研究、设计与内容创作的可复用工作流模块 |
+| [h2spacex](https://github.com/nxenon/h2spacex) | 基于Scapy的HTTP/2单包攻击与时序漏洞利用工具库 |
+| [OpenAlice](https://github.com/TraderAlice/OpenAlice) | 文件驱动的AI加密货币与证券交易代理引擎 |
+| [MiroFish](https://github.com/666ghj/MiroFish) | 基于多智能体的通用预测引擎与数字孪生仿真平台 |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Claude AI技能与工具资源精选集合 |
 | [cccc](https://github.com/ChesterRa/cccc) | 本地优先的多智能体协作内核，零基础设施的生产级编排框架 |
 | [Grafana-Final-Scanner](https://github.com/Zierax/Grafana-Final-Scanner) | Grafana漏洞扫描工具，集成10个CVE检测 |
-| [morgul](https://github.com/ant4g0nist/morgul) | 我需要先获取这个GitHub项目的详细信息才能生成准确的描述。让我访问该项目页面。
-
-<attempt_completion>
-<result>
-基于Frida的iOS应用动态分析与漏洞挖掘框架
-</result>
-</attempt_completion> |
+| [morgul](https://github.com/ant4g0nist/morgul) | 基于Frida的iOS应用动态分析与漏洞挖掘框架 |
 | [cxx-qt-widgets](https://github.com/wusyong/cxx-qt-widgets) | 基于CXX-Qt的Qt Widgets Rust绑定库 |
 | [brainkernel](https://github.com/mprajyothreddy/brainkernel) | 基于LLM的智能进程调度管理器 |
 | [excalidraw-mcp](https://github.com/Scofieldfree/excalidraw-mcp) | Excalidraw图表的MCP服务器，支持AI智能绘图与实时预览 |

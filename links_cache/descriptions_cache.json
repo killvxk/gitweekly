@@ -1566,5 +1566,16 @@
   "https://github.com/sipeed/picoclaw": "超轻量级Go语言AI助手，10MB内存1秒启动",
   "https://github.com/nearai/ironclaw": "Rust实现的隐私优先AI助手，支持WASM沙箱和本地数据加密",
   "https://github.com/getsentry/skills": "Sentry团队AI代理技能包，提供代码审查、提交规范等开发工作流技能",
-  "https://github.com/kyxiaxiang/MiaoMeow": "图形化Linux远程管理工具，支持加密通信与文件管理"
+  "https://github.com/kyxiaxiang/MiaoMeow": "图形化Linux远程管理工具，支持加密通信与文件管理",
+  "https://github.com/nullclaw/nullclaw": "基于Zig的超轻量级自主AI助手基础设施",
+  "https://github.com/netease-youdao/lobsterai": "全场景AI智能助理，自动化处理日常工作任务",
+  "https://github.com/goldengrape/Agent-company": "基于文档流的多智能体协作框架，模拟企业组织架构",
+  "https://github.com/BlockRunAI/ClawRouter": "面向AI代理的智能LLM路由器，支持30+模型自动选择",
+  "https://github.com/SpecterOps/at-ps": "PowerShell攻防技术培训课程资料",
+  "https://github.com/vixhal-baraiya/movrax": "军用级持久化内存操作系统内核",
+  "https://github.com/dylanfeltus/skills": "AI智能体技能库：研究、设计与内容创作的可复用工作流模块",
+  "https://github.com/nxenon/h2spacex": "基于Scapy的HTTP/2单包攻击与时序漏洞利用工具库",
+  "https://github.com/TraderAlice/OpenAlice": "文件驱动的AI加密货币与证券交易代理引擎",
+  "https://github.com/666ghj/MiroFish": "基于多智能体的通用预测引擎与数字孪生仿真平台",
+  "https://github.com/ComposioHQ/awesome-claude-skills": "Claude AI技能与工具资源精选集合"
 }

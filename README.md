@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [sandboxec](https://github.com/dwisiswant0/sandboxec) | 基于Landlock的Linux轻量级命令沙箱工具 |
+| [PassLLM](https://github.com/Tzohar/PassLLM) | 基于PII和LoRA微调的AI密码破解工具 |
+| [reflektor](https://github.com/sliverarmory/reflektor) | 从内存加载共享库并调用导出函数的Go库 |
+| [ioctlance](https://github.com/zeze-zeze/ioctlance) | Windows驱动漏洞挖掘工具，基于符号执行与污点分析 |
+| [nova-proximity](https://github.com/Nova-Hunting/nova-proximity) | MCP服务器与AI代理技能安全扫描工具 |
+| [CobaltStrike-Linux-Beacon](https://github.com/EricEsquivel/CobaltStrike-Linux-Beacon) | Cobalt Strike Linux平台自定义Beacon植入概念验证工具 |
+| [Simple-Crystal-Palace-RDLL-template-for-Adaptix](https://github.com/h41th/Simple-Crystal-Palace-RDLL-template-for-Adaptix) | Adaptix的Crystal Palace RDLL模板与加载器实现 |
 | [KittenTTS](https://github.com/KittenML/KittenTTS) | 超轻量级开源TTS模型，25MB内实现高质量语音合成 |
 | [Kernel-Exploitation](https://github.com/0xDbgMan/Kernel-Exploitation) | Windows内核漏洞利用研究与PoC集合 |
 | [picolm](https://github.com/RightNow-AI/picolm) | 在256MB内存的10美元开发板上运行10亿参数大语言模型 |

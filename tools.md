@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pyghidra-mcp](https://github.com/clearbluejar/pyghidra-mcp) | Ghidra逆向工程的MCP服务器，支持AI驱动的二进制分析自动化 |
+| [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | 并行AI编码代理编排器，自动处理CI修复、合并冲突和代码审查 |
+| [decomp2dbg](https://github.com/mahaloz/decomp2dbg) | 反编译器与调试器符号实时同步插件 |
+| [Gitlab-Redis-Deserialization-RCE](https://github.com/CsEnox/Gitlab-Redis-Deserialization-RCE) | GitLab通过Redis反序列化漏洞实现远程代码执行 |
+| [detectflow-main](https://github.com/socprime/detectflow-main) | AI驱动的实时威胁检测与编排平台 |
+| [winaflpet](https://github.com/sgabe/winaflpet) | WinAFL模糊测试远程监控与管理平台 |
 | [pi_agent_rust](https://github.com/Dicklesworthstone/pi_agent_rust) | Rust编写的高性能AI编码助手命令行工具 |
 | [awesome-claw](https://github.com/sameeerkashyap/awesome-claw) | 开源AI助手项目精选列表 |
 | [SkillRL](https://github.com/aiming-lab/SkillRL) | 基于递归技能增强的强化学习智能体进化框架 |

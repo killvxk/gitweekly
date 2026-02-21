@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cua-kit](https://github.com/preludeorg/cua-kit) | 计算机使用代理攻击工具包，支持枚举、执行和会话投毒 |
 | [the-one-wsl-bof](https://github.com/MayerDaniel/the-one-wsl-bof) | Cobalt Strike BOF工具，通过COM接口直接在WSL中执行命令 |
 | [Cobaltstrike_BOFLoader](https://github.com/CodeXTF2/Cobaltstrike_BOFLoader) | Cobalt Strike BOF加载器开源实现与调试工具 |
 | [GhostKatz](https://github.com/RainbowDynamix/GhostKatz) | 利用漏洞驱动读取物理内存转储LSASS凭据 |

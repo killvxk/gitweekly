@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [trust-me-im-a-shortcut](https://www.wietzebeukema.nl/blog/trust-me-im-a-shortcut) | Windows快捷方式LNK文件漏洞检测与欺骗性生成工具 |
+| [scary-agent-skills](https://embracethered.com/blog/posts/2026/scary-agent-skills/) | AI Agent技能供应链攻击与隐藏Unicode指令检测 |
+| [amduprof-1](https://bad-jubies.github.io/amduprof-1) | AMD uProf驱动程序内核漏洞利用与权限提升分析 |
+| [munge-heap-buffer-overflow.html](https://blog.lexfo.fr/munge-heap-buffer-overflow.html) | Munge认证守护进程堆溢出漏洞利用与超算集群提权 |
+| [cve-2026-21241-ancillary-function-driver](https://bad-jubies.github.io/cve-2026-21241-ancillary-function-driver) | Windows AFD.sys驱动UAF漏洞逆向分析与利用 |
+| [open-sourcing-agent-orchestrator](https://pkarnal.com/blog/open-sourcing-agent-orchestrator) | 开源AI编码代理并行编排管理系统 |
 | [persistence-the-art-of-staying-in](https://0xdbgman.github.io/posts/persistence-the-art-of-staying-in/) | 跨平台持久化技术全景指南：涵盖Windows、Linux、macOS及云环境的50+种APT级驻留技术 |
 | [breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools](https://iq.thc.org/breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools) |  |
 | [exploit_reversing_06_extended.pdf](https://exploitreversing.com/wp-content/uploads/2026/02/exploit_reversing_06_extended.pdf) | 漏洞利用与逆向工程技术文档 |

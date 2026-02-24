@@ -4,6 +4,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AEMonitor](https://github.com/pberba/AEMonitor) | macOS Apple Events 实时监控与恶意软件检测工具 |
+| [GhostShellGarden](https://github.com/0xBruno/GhostShellGarden) | 跨运行时内存凭证窃取攻击研究工具集 |
 | [sandboxec](https://github.com/dwisiswant0/sandboxec) | 基于Landlock的Linux轻量级命令沙箱工具 |
 | [PassLLM](https://github.com/Tzohar/PassLLM) | 基于PII和LoRA微调的AI密码破解工具 |
 | [reflektor](https://github.com/sliverarmory/reflektor) | 从内存加载共享库并调用导出函数的Go库 |

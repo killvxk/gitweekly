@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [processhacker-mcp](https://github.com/illegal-instruction-co/processhacker-mcp) | AI驱动的进程调试与内存分析MCP服务器 |
+| [titus](https://github.com/praetorian-inc/titus) | 高性能密钥扫描工具，支持459种凭证检测与实时验证 |
+| [sns-buster](https://github.com/plerionhq/sns-buster) | AWS SNS权限探测与安全分析工具 |
+| [studio](https://github.com/shipsecai/studio) | 面向安全团队的工作流自动化编排平台 |
+| [RedTeam-Arsenal](https://github.com/vvswift/RedTeam-Arsenal) | 红队渗透测试工具与对抗模拟技术集合 |
 | [pyghidra-mcp](https://github.com/clearbluejar/pyghidra-mcp) | Ghidra逆向工程的MCP服务器，支持AI驱动的二进制分析自动化 |
 | [agent-orchestrator](https://github.com/ComposioHQ/agent-orchestrator) | 并行AI编码代理编排器，自动处理CI修复、合并冲突和代码审查 |
 | [decomp2dbg](https://github.com/mahaloz/decomp2dbg) | 反编译器与调试器符号实时同步插件 |

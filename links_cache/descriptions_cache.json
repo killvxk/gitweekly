@@ -1606,5 +1606,20 @@
   "https://github.com/CsEnox/Gitlab-Redis-Deserialization-RCE": "GitLab通过Redis反序列化漏洞实现远程代码执行",
   "https://github.com/socprime/detectflow-main": "AI驱动的实时威胁检测与编排平台",
   "https://github.com/sgabe/winaflpet": "WinAFL模糊测试远程监控与管理平台",
-  "https://github.com/preludeorg/cua-kit": "计算机使用代理攻击工具包，支持枚举、执行和会话投毒"
+  "https://github.com/preludeorg/cua-kit": "计算机使用代理攻击工具包，支持枚举、执行和会话投毒",
+  "https://blog.doyensec.com/2026/02/16/electron-safe-updater.html": "Electron应用安全自动更新机制构建指南",
+  "https://rce4fun.blogspot.com/2026/02/use-after-free-in-afdsys-cve-2026-21241.html": "Windows 11内核驱动UAF漏洞分析",
+  "https://mkiesel.ch/posts/lenovo-vantage/": "联想Vantage特权提升漏洞挖掘与安全研究工具",
+  "https://blog.cloudflare.com/code-mode-mcp/": "用1000个token让AI代理调用完整API的技术方案",
+  "https://adnanthekhan.com/posts/clinejection/": "AI代码助手供应链攻击：通过提示注入劫持生产发布流程",
+  "https://www.theintrinsicperspective.com/p/they-die-every-day": "这不是一个GitHub项目，而是一篇科幻短文，讲述外星人发现人类每天睡眠时意识死亡的故事。\n\n如果您需要为GitHub项目生成描述，请提供实际的GitHub仓库链接。",
+  "https://github.com/pberba/AEMonitor": "macOS Apple Events 实时监控与恶意软件检测工具",
+  "https://github.com/0xBruno/GhostShellGarden": "跨运行时内存凭证窃取攻击研究工具集",
+  "https://github.com/illegal-instruction-co/processhacker-mcp": "AI驱动的进程调试与内存分析MCP服务器",
+  "https://github.com/praetorian-inc/titus": "高性能密钥扫描工具，支持459种凭证检测与实时验证",
+  "https://github.com/plerionhq/sns-buster": "AWS SNS权限探测与安全分析工具",
+  "https://github.com/shipsecai/studio": "面向安全团队的工作流自动化编排平台",
+  "https://github.com/vvswift/RedTeam-Arsenal": "红队渗透测试工具与对抗模拟技术集合",
+  "https://github.com/dazzyddos/lsawhisper-bof": "通过LSA接口提取Windows凭据的Beacon对象文件工具",
+  "https://github.com/ProcessusT/VolchockC2": "红队渗透测试C2框架，支持多代理控制与隐蔽通信"
 }

@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [walkie](https://github.com/vikasprogrammer/walkie) | AI智能体点对点通信工具，无需服务器即可实现加密协作 |
+| [cmux](https://github.com/manaflow-ai/cmux) | 基于Ghostty的macOS终端，支持垂直标签页和AI代理通知 |
+| [parallel-code](https://github.com/johannesjo/parallel-code) | 多AI编码代理并行运行管理工具 |
+| [claude-devtools](https://github.com/matt1398/claude-devtools) | Claude Code 会话日志可视化分析工具 |
+| [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | AI驱动的小说转短剧自动化创作工具 |
+| [idalib](https://github.com/idalib-rs/idalib) | IDA Pro SDK的Rust绑定库，用于开发独立二进制分析工具 |
+| [evals](https://github.com/openai/evals) | OpenAI大语言模型评估框架与基准测试库 |
+| [opencrabs](https://github.com/adolfousier/opencrabs) | 基于Rust的终端原生AI编排层，用于软件开发自动化 |
+| [reconftw](https://github.com/six2dez/reconftw) | 自动化域名侦察与漏洞扫描工具集 |
+| [EventLogin-CVE-2025-29969](https://github.com/SafeBreach-Labs/EventLogin-CVE-2025-29969) | Windows事件日志服务远程文件写入漏洞利用工具 |
+| [karakeep](https://github.com/karakeep-app/karakeep/) | AI驱动的自托管书签管理系统，支持全文搜索和自动标签 |
+| [claude-review-loop](https://github.com/hamelsmu/claude-review-loop) | Claude代码审查自动化插件，集成Codex实现多维度代码质量检测 |
+| [stress-test-skill](https://github.com/gbasin/stress-test-skill) | AI代理技术方案压力测试与验证工具 |
+| [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | Claude科学研究技能集：146+即用型AI代理科研工具库 |
+| [zclaw](https://github.com/tnm/zclaw) | ESP32超轻量级AI助手，支持GPIO控制、定时任务和自然语言交互 |
+| [goose](https://github.com/block/goose) | 可扩展的本地AI代理，自动化执行开发任务 |
 | [processhacker-mcp](https://github.com/illegal-instruction-co/processhacker-mcp) | AI驱动的进程调试与内存分析MCP服务器 |
 | [titus](https://github.com/praetorian-inc/titus) | 高性能密钥扫描工具，支持459种凭证检测与实时验证 |
 | [sns-buster](https://github.com/plerionhq/sns-buster) | AWS SNS权限探测与安全分析工具 |

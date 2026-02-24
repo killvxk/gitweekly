@@ -2,15 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [hacking-android-games](https://8ksec.io/hacking-android-games/) | Android游戏逆向工程与内存修改技术指南 |
 | [electron-safe-updater.html](https://blog.doyensec.com/2026/02/16/electron-safe-updater.html) | Electron应用安全自动更新机制构建指南 |
 | [use-after-free-in-afdsys-cve-2026-21241.html](https://rce4fun.blogspot.com/2026/02/use-after-free-in-afdsys-cve-2026-21241.html) | Windows 11内核驱动UAF漏洞分析 |
-| [macos-jit-memory](https://www.outflank.nl/blog/2026/02/19/macos-jit-memory/) |  |
 | [lenovo-vantage](https://mkiesel.ch/posts/lenovo-vantage/) | 联想Vantage特权提升漏洞挖掘与安全研究工具 |
 | [code-mode-mcp](https://blog.cloudflare.com/code-mode-mcp/) | 用1000个token让AI代理调用完整API的技术方案 |
 | [clinejection](https://adnanthekhan.com/posts/clinejection/) | AI代码助手供应链攻击：通过提示注入劫持生产发布流程 |
-| [they-die-every-day](https://www.theintrinsicperspective.com/p/they-die-every-day) | 这不是一个GitHub项目，而是一篇科幻短文，讲述外星人发现人类每天睡眠时意识死亡的故事。
-
-如果您需要为GitHub项目生成描述，请提供实际的GitHub仓库链接。 |
 | [trust-me-im-a-shortcut](https://www.wietzebeukema.nl/blog/trust-me-im-a-shortcut) | Windows快捷方式LNK文件漏洞检测与欺骗性生成工具 |
 | [scary-agent-skills](https://embracethered.com/blog/posts/2026/scary-agent-skills/) | AI Agent技能供应链攻击与隐藏Unicode指令检测 |
 | [amduprof-1](https://bad-jubies.github.io/amduprof-1) | AMD uProf驱动程序内核漏洞利用与权限提升分析 |

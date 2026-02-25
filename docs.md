@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [building-shellcode-with-scc](https://lampreylabs.com/posts/building-shellcode-with-scc/) | Binary Ninja的Shellcode编译器构建与使用指南 |
 | [hacking-android-games](https://8ksec.io/hacking-android-games/) | Android游戏逆向工程与内存修改技术指南 |
 | [electron-safe-updater.html](https://blog.doyensec.com/2026/02/16/electron-safe-updater.html) | Electron应用安全自动更新机制构建指南 |
 | [use-after-free-in-afdsys-cve-2026-21241.html](https://rce4fun.blogspot.com/2026/02/use-after-free-in-afdsys-cve-2026-21241.html) | Windows 11内核驱动UAF漏洞分析 |

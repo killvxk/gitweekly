@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent 互联网能力增强工具包 |
+| [nanotok](https://github.com/0xD4rky/nanotok) | 高性能BPE分词器，C++核心Python接口 |
+| [maple](https://github.com/makisuo/maple) | 基于OpenTelemetry的可观测性平台 |
+| [SolidityGuard](https://github.com/alt-research/SolidityGuard) | Solidity智能合约安全审计工具，集成104种漏洞检测模式 |
+| [Rezi](https://github.com/RtlZeroMemory/Rezi) | 基于C引擎的高性能TypeScript终端UI框架 |
+| [claude-code-config](https://github.com/trailofbits/claude-code-config) | Claude Code 配置与最佳实践工具集 |
 | [walkie](https://github.com/vikasprogrammer/walkie) | AI智能体点对点通信工具，无需服务器即可实现加密协作 |
 | [cmux](https://github.com/manaflow-ai/cmux) | 基于Ghostty的macOS终端，支持垂直标签页和AI代理通知 |
 | [parallel-code](https://github.com/johannesjo/parallel-code) | 多AI编码代理并行运行管理工具 |

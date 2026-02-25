@@ -1639,5 +1639,19 @@
   "https://github.com/gbasin/stress-test-skill": "AI代理技术方案压力测试与验证工具",
   "https://github.com/K-Dense-AI/claude-scientific-skills": "Claude科学研究技能集：146+即用型AI代理科研工具库",
   "https://github.com/tnm/zclaw": "ESP32超轻量级AI助手，支持GPIO控制、定时任务和自然语言交互",
-  "https://github.com/block/goose": "可扩展的本地AI代理，自动化执行开发任务"
+  "https://github.com/block/goose": "可扩展的本地AI代理，自动化执行开发任务",
+  "https://lampreylabs.com/posts/building-shellcode-with-scc/": "Binary Ninja的Shellcode编译器构建与使用指南",
+  "https://github.com/trailofbits/claude-code-config": "Claude Code 配置与最佳实践工具集",
+  "https://github.com/Whitecat18/LazyDLLSideload": "自动化DLL劫持与代理项目生成工具",
+  "https://github.com/Polymarket/polymarket-cli": "Polymarket预测市场Rust命令行交易工具",
+  "https://github.com/vxcontrol/pentagi": "基于AI的全自主渗透测试智能代理系统",
+  "https://github.com/TheQmaks/phantom-frida": "反检测Frida服务器构建工具，90+补丁覆盖16种检测向量",
+  "https://github.com/momo5502/levo": "基于LLVM的AOT二进制翻译工具链",
+  "https://github.com/splintersfury/AutoPiff": "Windows内核驱动补丁漏洞修复自动检测引擎",
+  "https://github.com/microsoft/HvLoader": "EFI应用程序，用于加载外部虚拟机监控程序加载器",
+  "https://github.com/Panniantong/Agent-Reach": "AI Agent 互联网能力增强工具包",
+  "https://github.com/0xD4rky/nanotok": "高性能BPE分词器，C++核心Python接口",
+  "https://github.com/makisuo/maple": "基于OpenTelemetry的可观测性平台",
+  "https://github.com/alt-research/SolidityGuard": "Solidity智能合约安全审计工具，集成104种漏洞检测模式",
+  "https://github.com/RtlZeroMemory/Rezi": "基于C引擎的高性能TypeScript终端UI框架"
 }

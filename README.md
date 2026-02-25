@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [LazyDLLSideload](https://github.com/Whitecat18/LazyDLLSideload) | 自动化DLL劫持与代理项目生成工具 |
+| [polymarket-cli](https://github.com/Polymarket/polymarket-cli) | Polymarket预测市场Rust命令行交易工具 |
+| [pentagi](https://github.com/vxcontrol/pentagi) | 基于AI的全自主渗透测试智能代理系统 |
+| [phantom-frida](https://github.com/TheQmaks/phantom-frida) | 反检测Frida服务器构建工具，90+补丁覆盖16种检测向量 |
+| [levo](https://github.com/momo5502/levo) | 基于LLVM的AOT二进制翻译工具链 |
+| [AutoPiff](https://github.com/splintersfury/AutoPiff) | Windows内核驱动补丁漏洞修复自动检测引擎 |
+| [HvLoader](https://github.com/microsoft/HvLoader) | EFI应用程序，用于加载外部虚拟机监控程序加载器 |
 | [wifipassdump](https://github.com/0xBruno/wifipassdump) | 基于Win32 API的Windows WiFi密码导出工具 |
 | [AEMonitor](https://github.com/pberba/AEMonitor) | macOS Apple Events 实时监控与恶意软件检测工具 |
 | [GhostShellGarden](https://github.com/0xBruno/GhostShellGarden) | 跨运行时内存凭证窃取攻击研究工具集 |

@@ -4,6 +4,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [jade](https://github.com/dexter-xD/jade) | 基于JavaScriptCore和libuv构建的实验性JavaScript运行时 |
+| [SynthAPT](https://github.com/acedef/SynthAPT) | 基于AI的恶意软件生成与对抗模拟框架 |
+| [LiveContainer](https://github.com/LiveContainer/LiveContainer) | iOS应用容器化运行工具，无需安装即可启动多版本应用 |
+| [plywood](https://github.com/preshing/plywood) | 跨平台C++基础库，提供系统抽象和常用数据结构 |
+| [rbtc](https://github.com/AmazingAng/rbtc) | 用Rust重写的比特币核心共识与P2P网络实现 |
+| [pwsh-host-rs](https://github.com/Devolutions/pwsh-host-rs) | Rust实现的PowerShell宿主库及多版本管理工具 |
 | [LazyDLLSideload](https://github.com/Whitecat18/LazyDLLSideload) | 自动化DLL劫持与代理项目生成工具 |
 | [polymarket-cli](https://github.com/Polymarket/polymarket-cli) | Polymarket预测市场Rust命令行交易工具 |
 | [pentagi](https://github.com/vxcontrol/pentagi) | 基于AI的全自主渗透测试智能代理系统 |

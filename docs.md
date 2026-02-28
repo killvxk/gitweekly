@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [china-hosting-malware-c2-infrastructure](https://hunt.io/blog/china-hosting-malware-c2-infrastructure) | 中国ISP恶意软件C2服务器基础设施威胁情报分析平台 |
+| [building-a-javaScript-runtime](https://devlogs.xyz/blog/building-a-javaScript-runtime) | 开发者日志、教程与技术洞察分享平台 |
+| [total-recall-retracing-your-steps-back-to-nt-authoritysystem](https://www.mdsec.co.uk/2026/02/total-recall-retracing-your-steps-back-to-nt-authoritysystem/) | Windows权限提升漏洞研究与利用技术 |
 | [building-shellcode-with-scc](https://lampreylabs.com/posts/building-shellcode-with-scc/) | Binary Ninja的Shellcode编译器构建与使用指南 |
 | [hacking-android-games](https://8ksec.io/hacking-android-games/) | Android游戏逆向工程与内存修改技术指南 |
 | [electron-safe-updater.html](https://blog.doyensec.com/2026/02/16/electron-safe-updater.html) | Electron应用安全自动更新机制构建指南 |

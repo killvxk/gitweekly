@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [seedance-2.0](https://github.com/Emily2040/seedance-2.0) | 四模态AI影视制作引擎，支持文本/图像/视频/参考生成 |
+| [api2cli](https://github.com/alexknowshtml/api2cli) | 将API文档转换为Commander.js命令行工具和Claude技能 |
+| [longbridge-terminal](https://github.com/longbridge/longbridge-terminal) | 基于长桥OpenAPI的终端股票交易TUI应用 |
+| [airsnitch](https://github.com/vanhoefm/airsnitch) | Wi-Fi客户端隔离绕过测试工具 |
+| [ADPulse](https://github.com/dievus/ADPulse) | Active Directory安全漏洞扫描与审计工具 |
+| [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) | PyInstaller打包程序逆向提取工具 |
+| [wifi-densepose](https://github.com/ruvnet/wifi-densepose) | 基于WiFi信号的实时人体姿态估计系统 |
+| [Impacket_Reference](https://github.com/rootsecdev/Impacket_Reference) | Impacket工具集完整参考文档与使用指南 |
+| [EvilMist](https://github.com/Logisek/EvilMist) | 云安全渗透测试与红队工具集 |
+| [dotclaude](https://github.com/FradSer/dotclaude) | Claude Code 插件集：Git工作流、代码审查与开发自动化工具 |
+| [RelayKing-Depth](https://github.com/depthsecurity/RelayKing-Depth) | AD域NTLM中继攻击检测与枚举工具 |
+| [klein.c](https://github.com/camenduru/klein.c) | FLUX.2纯C实现的CPU文本生成图像工具 |
+| [openbrowserclaw](https://github.com/sachaa/openbrowserclaw) | 浏览器原生AI助手，零基础设施部署 |
+| [Kaku](https://github.com/tw93/Kaku) | 面向AI编程的开箱即用高性能终端模拟器 |
+| [python-apple-fm-sdk](https://github.com/apple/python-apple-fm-sdk) | 苹果设备端基础模型Python SDK，支持本地AI推理 |
+| [browser](https://github.com/lightpanda-io/browser) | 面向AI和自动化的轻量级无头浏览器 |
 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | AI Agent 互联网能力增强工具包 |
 | [nanotok](https://github.com/0xD4rky/nanotok) | 高性能BPE分词器，C++核心Python接口 |
 | [maple](https://github.com/makisuo/maple) | 基于OpenTelemetry的可观测性平台 |

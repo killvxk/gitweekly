@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [SocGholish-Stage2-and-Stage3-Infrastructure.txt](https://github.com/MalwareBrandon/MB_Tactical_Intel/blob/main/SocGholish-Stage2-and-Stage3-Infrastructure.txt) | SocGholish恶意软件基础设施情报库 |
+| [Understanding-RoPE-From-Rotary-Embeddings-to-Context-Extension-316a341372738155a914f861a26c29d7](https://mli0603.notion.site/Understanding-RoPE-From-Rotary-Embeddings-to-Context-Extension-316a341372738155a914f861a26c29d7) | 深度解析RoPE旋转位置编码及上下文扩展技术 |
+| [bypassing-apache-fop-escaping-to-reach-ghostscript.html](https://offsec.almond.consulting/bypassing-apache-fop-escaping-to-reach-ghostscript.html) | Apache FOP PostScript转义绕过漏洞利用研究 |
+| [How-to-Build-With-Stuart#i-want-to-build-basetools](https://github.com/tianocore/tianocore.github.io/wiki/How-to-Build-With-Stuart#i-want-to-build-basetools) | TianoCore UEFI固件开发文档与构建指南 |
 | [china-hosting-malware-c2-infrastructure](https://hunt.io/blog/china-hosting-malware-c2-infrastructure) | 中国ISP恶意软件C2服务器基础设施威胁情报分析平台 |
 | [building-a-javaScript-runtime](https://devlogs.xyz/blog/building-a-javaScript-runtime) | 开发者日志、教程与技术洞察分享平台 |
 | [total-recall-retracing-your-steps-back-to-nt-authoritysystem](https://www.mdsec.co.uk/2026/02/total-recall-retracing-your-steps-back-to-nt-authoritysystem/) | Windows权限提升漏洞研究与利用技术 |

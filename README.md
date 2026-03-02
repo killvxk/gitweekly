@@ -4,6 +4,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [openFPGALoader](https://github.com/trabucayre/openFPGALoader) | 跨平台FPGA通用编程烧录工具 |
+| [vphone-cli](https://github.com/Lakr233/vphone-cli) | 基于虚拟化框架启动虚拟iPhone的命令行工具 |
+| [drvtrace](https://github.com/eversinc33/drvtrace) | WinDbg驱动程序模块调用跟踪插件 |
+| [malwoverview](https://github.com/alexandreborges/malwoverview) | 多源威胁情报聚合分析工具 |
+| [PhoneDriver](https://github.com/OminousIndustries/PhoneDriver) | 基于Qwen3-VL视觉模型的Android手机自动化控制工具 |
+| [WatchDogKiller](https://github.com/j3h4ck/WatchDogKiller) | 利用WatchDog驱动漏洞终止EDR/AV进程的BYOVD攻击工具 |
+| [TTPRunner](https://github.com/Antonlovesdnb/TTPRunner) | AI驱动的自主化TTP攻击战术执行与紫队演练平台 |
+| [atlantis-android](https://github.com/ProxymanApp/atlantis-android) | Android应用HTTP/HTTPS流量捕获与调试工具 |
+| [cagent](https://github.com/noperator/cagent) | AI代理沙箱隔离工具，限制网络和文件系统访问权限 |
+| [weathr](https://github.com/Veirt/weathr) | 带ASCII动画的终端天气应用 |
+| [wifi-densepose](https://github.com/ruvnet/wifi-densepose) | 基于WiFi信号的实时人体姿态估计系统 |
 | [jade](https://github.com/dexter-xD/jade) | 基于JavaScriptCore和libuv构建的实验性JavaScript运行时 |
 | [SynthAPT](https://github.com/acedef/SynthAPT) | 基于AI的恶意软件生成与对抗模拟框架 |
 | [LiveContainer](https://github.com/LiveContainer/LiveContainer) | iOS应用容器化运行工具，无需安装即可启动多版本应用 |

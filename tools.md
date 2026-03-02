@@ -2,6 +2,50 @@
 
 | 文章 | 简介 |
 |------|------|
+| [zcf](https://github.com/UfoMiao/zcf) | Claude Code零配置快速启动工具，支持双语和智能代理系统 |
+| [v8-ndays](https://github.com/mwlik/v8-ndays) | V8引擎N-day漏洞利用代码集合 |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 自适应网页爬虫框架，支持单次请求到大规模爬取 |
+| [malwoverview](https://github.com/alexandreborges/malwoverview) | 多源威胁情报聚合分析工具 |
+| [claude-gamify](https://github.com/BuildEasy-dev/claude-gamify) | Claude Code游戏化增强工具，支持主题音效与交互式CLI管理 |
+| [OpenSandbox](https://github.com/alibaba/OpenSandbox) | AI应用通用沙箱平台，支持多语言SDK和容器化运行时 |
+| [apimspray](https://github.com/crtvrffnrt/apimspray) | Azure API管理网关分布式密码喷洒工具 |
+| [superset](https://github.com/superset-sh/superset) | AI代码助手并行执行终端，支持多智能体协同开发 |
+| [memUBot](https://github.com/NevaMind-AI/memUBot) | 企业级AI助手，具备持久记忆和主动执行能力 |
+| [raphael-publish](https://github.com/liuxiaopai-ai/raphael-publish) | 微信公众号 Markdown 排版引擎，支持富文本转换与多主题样式 |
+| [OpenClawInstaller](https://github.com/miaoxworld/OpenClawInstaller) | OpenClaw AI助手一键部署安装工具 |
+| [academic-pptx-skill](https://github.com/Gabberflast/academic-pptx-skill) | Claude学术演示文稿技能：结构化论证与引用规范生成器 |
+| [awesome-LangGraph](https://github.com/von-development/awesome-LangGraph) | LangChain与LangGraph生态系统资源索引：多智能体应用开发指南 |
+| [agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | 生产级AI智能体开发实战教程与最佳实践 |
+| [claude-code-java](https://github.com/decebals/claude-code-java) | Java项目AI开发基础设施，为Claude Code优化的可复用技能集 |
+| [opencode-workflow](https://github.com/CloudAI-X/opencode-workflow) | 多智能体协作的OpenCode工作流配置框架 |
+| [founders-kit](https://github.com/avinash201199/founders-kit) | 创业者工具箱：涵盖产品开发、融资、营销的精选资源集合 |
+| [raptor](https://github.com/gadievron/raptor) | 基于Claude的自主化攻防安全研究框架 |
+| [golinhound](https://github.com/RantaSec/golinhound) | Linux和SSH攻击路径发现的BloodHound数据采集工具 |
+| [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) | AI驱动的Kubernetes智能助手工具 |
+| [omarchy](https://github.com/basecamp/omarchy) | 现代化、美观且有主见的 Linux 发行版 |
+| [ZOT](https://github.com/antirez/ZOT) | Z80/ZX Spectrum 48K/CP/M 2.2 多合一模拟器 |
+| [heliosim](https://github.com/clemenskoprolin/heliosim) | 基于WebAssembly的实时N体引力系统模拟器 |
+| [WebKit-UAF-ANGLE-OOB-Analysis](https://github.com/zeroxjf/WebKit-UAF-ANGLE-OOB-Analysis) | WebKit与ANGLE漏洞利用链分析（iOS Safari沙箱逃逸研究） |
+| [voxt](https://github.com/hehehai/voxt) | macOS菜单栏语音输入翻译工具，按住说话松开粘贴 |
+| [awesome-security-newsletters](https://github.com/TalEliyahu/awesome-security-newsletters) | 网络安全领域优质周刊与资讯订阅精选列表 |
+| [exploitation](https://github.com/rls1004/exploitation) | 系统安全漏洞利用技术研究与实践项目 |
+| [edgequake](https://github.com/raphaelmansuy/edgequake) | 基于Rust的高性能图谱增强检索生成框架 |
+| [TimeAfterFree](https://github.com/m0x41nos/TimeAfterFree) | PHP 8沙箱逃逸漏洞利用工具 |
+| [JadeAI](https://github.com/twwch/JadeAI) | AI驱动的智能简历生成与优化工具 |
+| [Horizon](https://github.com/Thysrael/Horizon) | AI驱动的科技新闻聚合与双语摘要生成器 |
+| [TrendingAI](https://github.com/HarlonWang/TrendingAI) | AI驱动的GitHub热门项目智能摘要工具 |
+| [BitFun](https://github.com/GCWing/BitFun) | 基于Rust+TypeScript的AI智能开发环境，支持四种协作模式 |
+| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) | 基于 TUI 的 systemd 服务管理工具 |
+| [arcmark](https://github.com/Geek-1001/arcmark) | macOS 浏览器侧边栏书签管理器，支持多工作区和拖拽组织 |
+| [kuva](https://github.com/Psy-Fer/kuva) | Rust科学绘图库，支持25种图表类型和终端渲染 |
+| [loom](https://github.com/bleuropa/loom) | 基于Elixir的AI编程助手，支持持久化决策图和多智能体协作 |
+| [qwen3_asr_rs](https://github.com/second-state/qwen3_asr_rs) | Qwen3语音识别Rust实现的跨平台命令行工具 |
+| [attyx](https://github.com/semos-labs/attyx) | 基于Zig开发的GPU加速终端模拟器 |
+| [hexinspector.nvim](https://github.com/Punity122333/hexinspector.nvim) | Neovim二进制数据查看器，支持顶点缓冲区模板解析 |
+| [agent-scan](https://github.com/snyk/agent-scan) | AI Agent 组件安全扫描工具，检测提示注入和漏洞 |
+| [Trigon-Legacy](https://github.com/TheRealClarity/Trigon-Legacy) | iOS 7-9 64位内核漏洞利用工具 |
+| [pentest-book](https://github.com/six2dez/pentest-book) | 渗透测试知识库与实战技巧手册 |
+| [agent-device](https://github.com/callstackincubator/agent-device) | AI代理的iOS/Android设备自动化控制CLI工具 |
 | [seedance-2.0](https://github.com/Emily2040/seedance-2.0) | 四模态AI影视制作引擎，支持文本/图像/视频/参考生成 |
 | [api2cli](https://github.com/alexknowshtml/api2cli) | 将API文档转换为Commander.js命令行工具和Claude技能 |
 | [longbridge-terminal](https://github.com/longbridge/longbridge-terminal) | 基于长桥OpenAPI的终端股票交易TUI应用 |
@@ -73,7 +117,7 @@
 | [cxx-qt-widgets](https://github.com/wusyong/cxx-qt-widgets) | 基于CXX-Qt的Qt Widgets Rust绑定库 |
 | [brainkernel](https://github.com/mprajyothreddy/brainkernel) | 基于LLM的智能进程调度管理器 |
 | [excalidraw-mcp](https://github.com/Scofieldfree/excalidraw-mcp) | Excalidraw图表的MCP服务器，支持AI智能绘图与实时预览 |
-| [learn](https://labex.io/learn) |  |
+| [learn](https://labex.io/learn) | IT技能在线实验平台，提供Linux、DevOps、网络安全交互式课程 |
 | [the-rise-of-one-pizza-engineering](https://www.jampa.dev/p/the-rise-of-one-pizza-engineering) | AI驱动的小型工程团队组织变革分析 |
 | [universal-db-mcp](https://github.com/Anarkh-Lee/universal-db-mcp) | 支持17种数据库的MCP连接器，用自然语言查询分析数据 |
 | [codex-viz](https://github.com/onewesong/codex-viz) | Codex CLI 会话本地可视化分析仪表盘 |

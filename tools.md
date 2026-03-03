@@ -1,19 +1,12 @@
 # 有趣的工具
 
-https://github.com/educlopez/thegridcn-ui
-
-https://github.com/darkoperator/mimikatz-missing-manual
-
-https://github.com/PurpleAILAB/Decepticon
-
-https://github.com/A-poc/RedTeam-Tools
-
-https://github.com/byt3bl33d3r/figaro
-
-
-
 | 文章 | 简介 |
 |------|------|
+| [thegridcn-ui](https://github.com/educlopez/thegridcn-ui) | Tron风格shadcn/ui主题系统与3D组件库 |
+| [mimikatz-missing-manual](https://github.com/darkoperator/mimikatz-missing-manual) | Mimikatz 工具完整使用手册与 Windows 身份认证安全研究指南 |
+| [Decepticon](https://github.com/PurpleAILAB/Decepticon) | 基于多智能体的自主化红队渗透测试服务平台 |
+| [RedTeam-Tools](https://github.com/A-poc/RedTeam-Tools) | 红队渗透测试工具与技术资源集合 |
+| [figaro](https://github.com/byt3bl33d3r/figaro) | Claude AI代理集群编排系统，支持容器化桌面自动化与任务分发 |
 | [safe-solana-builder](https://github.com/Frankcastleauditor/safe-solana-builder) | Solana智能合约安全开发Claude技能包 |
 | [OneBox](https://github.com/OneOhCloud/OneBox) | 基于 sing-box 内核的跨平台代理客户端 |
 | [EasyTier](https://github.com/EasyTier/EasyTier) | 基于Rust的去中心化Mesh VPN网络工具 |

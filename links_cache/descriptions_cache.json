@@ -1741,5 +1741,10 @@
   "https://www.synacktiv.com/en/publications/mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic": "基于mitmproxy的网络流量拦截与协议分析工具",
   "https://opzero.ru/en/press/101-chrome-exploitation-part-2-common-browser-vulnerability-patterns/": "Chrome浏览器漏洞利用技术深度解析",
   "https://github.com/Frankcastleauditor/safe-solana-builder": "Solana智能合约安全开发Claude技能包",
-  "https://github.com/OneOhCloud/OneBox": "基于 sing-box 内核的跨平台代理客户端"
+  "https://github.com/OneOhCloud/OneBox": "基于 sing-box 内核的跨平台代理客户端",
+  "https://github.com/educlopez/thegridcn-ui": "Tron风格shadcn/ui主题系统与3D组件库",
+  "https://github.com/darkoperator/mimikatz-missing-manual": "Mimikatz 工具完整使用手册与 Windows 身份认证安全研究指南",
+  "https://github.com/PurpleAILAB/Decepticon": "基于多智能体的自主化红队渗透测试服务平台",
+  "https://github.com/A-poc/RedTeam-Tools": "红队渗透测试工具与技术资源集合",
+  "https://github.com/byt3bl33d3r/figaro": "Claude AI代理集群编排系统，支持容器化桌面自动化与任务分发"
 }

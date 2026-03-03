@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [safe-solana-builder](https://github.com/Frankcastleauditor/safe-solana-builder) | Solana智能合约安全开发Claude技能包 |
+| [OneBox](https://github.com/OneOhCloud/OneBox) | 基于 sing-box 内核的跨平台代理客户端 |
+| [EasyTier](https://github.com/EasyTier/EasyTier) | 基于Rust的去中心化Mesh VPN网络工具 |
 | [zcf](https://github.com/UfoMiao/zcf) | Claude Code零配置快速启动工具，支持双语和智能代理系统 |
 | [v8-ndays](https://github.com/mwlik/v8-ndays) | V8引擎N-day漏洞利用代码集合 |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | 自适应网页爬虫框架，支持单次请求到大规模爬取 |

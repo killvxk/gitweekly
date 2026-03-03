@@ -1739,5 +1739,7 @@
   "https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc": "利用ROP链和VirtualAlloc绕过Windows DEP内存保护",
   "https://kypvas.github.io/red-team-map/": "红队渗透测试攻击链架构图谱",
   "https://www.synacktiv.com/en/publications/mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic": "基于mitmproxy的网络流量拦截与协议分析工具",
-  "https://opzero.ru/en/press/101-chrome-exploitation-part-2-common-browser-vulnerability-patterns/": "Chrome浏览器漏洞利用技术深度解析"
+  "https://opzero.ru/en/press/101-chrome-exploitation-part-2-common-browser-vulnerability-patterns/": "Chrome浏览器漏洞利用技术深度解析",
+  "https://github.com/Frankcastleauditor/safe-solana-builder": "Solana智能合约安全开发Claude技能包",
+  "https://github.com/OneOhCloud/OneBox": "基于 sing-box 内核的跨平台代理客户端"
 }

@@ -1,5 +1,17 @@
 # 有趣的工具
 
+https://github.com/educlopez/thegridcn-ui
+
+https://github.com/darkoperator/mimikatz-missing-manual
+
+https://github.com/PurpleAILAB/Decepticon
+
+https://github.com/A-poc/RedTeam-Tools
+
+https://github.com/byt3bl33d3r/figaro
+
+
+
 | 文章 | 简介 |
 |------|------|
 | [safe-solana-builder](https://github.com/Frankcastleauditor/safe-solana-builder) | Solana智能合约安全开发Claude技能包 |

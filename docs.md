@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [lateral-movement-with-elastic-edr-and-asr-enabled-9c3e5dcf38b0](https://systemweakness.com/lateral-movement-with-elastic-edr-and-asr-enabled-9c3e5dcf38b0) |  |
+| [powershell-for-hackers-part-10-timeroasting-users](https://hackers-arise.com/powershell-for-hackers-part-10-timeroasting-users/) | PowerShell渗透测试：Timeroasting攻击获取用户哈希 |
+| [defeating-windows-dep-using-rop-chains-leveraging-virtualalloc](https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc) | 利用ROP链和VirtualAlloc绕过Windows DEP内存保护 |
+| [red-team-map](https://kypvas.github.io/red-team-map/) | 红队渗透测试攻击链架构图谱 |
 | [SocGholish-Stage2-and-Stage3-Infrastructure.txt](https://github.com/MalwareBrandon/MB_Tactical_Intel/blob/main/SocGholish-Stage2-and-Stage3-Infrastructure.txt) | SocGholish恶意软件基础设施情报库 |
 | [Understanding-RoPE-From-Rotary-Embeddings-to-Context-Extension-316a341372738155a914f861a26c29d7](https://mli0603.notion.site/Understanding-RoPE-From-Rotary-Embeddings-to-Context-Extension-316a341372738155a914f861a26c29d7) | 深度解析RoPE旋转位置编码及上下文扩展技术 |
 | [bypassing-apache-fop-escaping-to-reach-ghostscript.html](https://offsec.almond.consulting/bypassing-apache-fop-escaping-to-reach-ghostscript.html) | Apache FOP PostScript转义绕过漏洞利用研究 |

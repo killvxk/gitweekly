@@ -1734,5 +1734,8 @@
   "https://github.com/TheRealClarity/Trigon-Legacy": "iOS 7-9 64位内核漏洞利用工具",
   "https://github.com/six2dez/pentest-book": "渗透测试知识库与实战技巧手册",
   "https://github.com/callstackincubator/agent-device": "AI代理的iOS/Android设备自动化控制CLI工具",
-  "https://labex.io/learn": "IT技能在线实验平台，提供Linux、DevOps、网络安全交互式课程"
+  "https://labex.io/learn": "IT技能在线实验平台，提供Linux、DevOps、网络安全交互式课程",
+  "https://hackers-arise.com/powershell-for-hackers-part-10-timeroasting-users/": "PowerShell渗透测试：Timeroasting攻击获取用户哈希",
+  "https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc": "利用ROP链和VirtualAlloc绕过Windows DEP内存保护",
+  "https://kypvas.github.io/red-team-map/": "红队渗透测试攻击链架构图谱"
 }

@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [152088413](https://www.patreon.com/posts/152088413) |  |
+| [mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic](https://www.synacktiv.com/en/publications/mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic) | 基于mitmproxy的网络流量拦截与协议分析工具 |
+| [101-chrome-exploitation-part-2-common-browser-vulnerability-patterns](https://opzero.ru/en/press/101-chrome-exploitation-part-2-common-browser-vulnerability-patterns/) | Chrome浏览器漏洞利用技术深度解析 |
 | [lateral-movement-with-elastic-edr-and-asr-enabled-9c3e5dcf38b0](https://systemweakness.com/lateral-movement-with-elastic-edr-and-asr-enabled-9c3e5dcf38b0) |  |
 | [powershell-for-hackers-part-10-timeroasting-users](https://hackers-arise.com/powershell-for-hackers-part-10-timeroasting-users/) | PowerShell渗透测试：Timeroasting攻击获取用户哈希 |
 | [defeating-windows-dep-using-rop-chains-leveraging-virtualalloc](https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc) | 利用ROP链和VirtualAlloc绕过Windows DEP内存保护 |

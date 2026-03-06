@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [a-race-within-a-race-exploiting-cve?triedRedirect=true](https://blog.calif.io/p/a-race-within-a-race-exploiting-cve?triedRedirect=true) | Linux内核数据包套接字竞态条件漏洞利用分析 |
+| [rust-for-malware-development](https://bishopfox.com/blog/rust-for-malware-development) | Rust恶意软件开发技术研究与实战演示 |
 | [152088413](https://www.patreon.com/posts/152088413) |  |
 | [mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic](https://www.synacktiv.com/en/publications/mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic) | 基于mitmproxy的网络流量拦截与协议分析工具 |
 | [101-chrome-exploitation-part-2-common-browser-vulnerability-patterns](https://opzero.ru/en/press/101-chrome-exploitation-part-2-common-browser-vulnerability-patterns/) | Chrome浏览器漏洞利用技术深度解析 |
@@ -33,7 +35,7 @@
 | [breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools](https://iq.thc.org/breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools) |  |
 | [exploit_reversing_06_extended.pdf](https://exploitreversing.com/wp-content/uploads/2026/02/exploit_reversing_06_extended.pdf) | 漏洞利用与逆向工程技术文档 |
 | [context-repositories](https://www.letta.com/blog/context-repositories) | 基于Git的编程代理上下文记忆管理系统 |
-| [loading-kernel-drivers-in-memory-fc5d71c576e2](https://medium.com/@s12deff/loading-kernel-drivers-in-memory-fc5d71c576e2) |  |
+| [loading-kernel-drivers-in-memory-fc5d71c576e2](https://medium.com/@s12deff/loading-kernel-drivers-in-memory-fc5d71c576e2) | 内存加载内核驱动的嵌入式技术实现 |
 | [2026-02-12-cooking-with-x64dbg-and-mcp](https://x64.ooo/posts/2026-02-12-cooking-with-x64dbg-and-mcp/) | x64dbg逆向工程自动化与MCP服务器集成实践指南 |
 | [getting-started](https://zilliztech.github.io/memsearch/getting-started/) | 基于Milvus的Markdown文档语义搜索与记忆管理工具 |
 | [ddia.vonng.com](https://ddia.vonng.com/) | 数据密集型应用架构设计经典教材中文翻译版 |

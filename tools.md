@@ -2,6 +2,32 @@
 
 | 文章 | 简介 |
 |------|------|
+| [claude-eda](https://github.com/l3wi/claude-eda) | 基于Claude AI的KiCad电路设计自动化工具 |
+| [xbow-competition](https://github.com/m-sec-org/xbow-competition) | AI驱动的CTF自动解题系统，集成MCP服务器与智能渗透测试 |
+| [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent) | 基于DeepSeek的全自主AI渗透测试智能体 |
+| [CHYing-agent](https://github.com/yhy0/CHYing-agent) | 基于LangGraph的AI自动化CTF渗透测试Agent系统 |
+| [SickHackShark](https://github.com/SickHackPark/SickHackShark) | 基于AI多智能体的CTF网络安全竞赛自动化渗透测试平台 |
+| [newmapta](https://github.com/HUST-JYHLab/newmapta) | 基于CrewAI的多Agent智能渗透测试框架 |
+| [sub-agent-autopt](https://github.com/yyy1mu/sub-agent-autopt) | 基于多Agent架构的自动化安全漏洞测试系统 |
+| [H-Pentest](https://github.com/hexian2001/H-Pentest) | AI驱动的多Agent协作渗透测试自动化平台 |
+| [AgentNote](https://github.com/C1JC/AgentNote) | 基于OODA循环的自主AI代理笔记本问题求解框架 |
+| [BUUCTF_Agent](https://github.com/MuWinds/BUUCTF_Agent) | 基于AI的CTF自动解题与协作Agent系统 |
+| [Cruiser_public](https://github.com/TJR181/Cruiser_public) | AI智能代理框架，由D@wnEdg3构建开发 |
+| [edge-rs](https://github.com/refcell/edge-rs) | 基于Rust构建的EVM智能合约领域特定语言编译器 |
+| [stock_skills](https://github.com/okikusan-public/stock_skills) | 多地区割安股票智能筛选与投资组合分析系统 |
+| [mlx-lm-gui](https://github.com/stevenatkin/mlx-lm-gui) | 基于Apple MLX框架的macOS原生语言模型LoRA微调图形界面工具 |
+| [h8s](https://github.com/okwilkins/h8s) | 基于Talos OS的家庭实验室Kubernetes集群项目 |
+| [Rikugan](https://github.com/buzzer-re/Rikugan) | IDA Pro和Binary Ninja的逆向工程AI代理工具 |
+| [GhostTrack](https://github.com/HunxByts/GhostTrack) | 基于Python的OSINT信息收集工具，支持IP、手机号和用户名追踪 |
+| [FireRedVAD](https://github.com/FireRedTeam/FireRedVAD) | 工业级语音活动检测与音频事件检测，支持100+语言 |
+| [symphony](https://github.com/openai/symphony) | 自主编码代理工作流管理系统 |
+| [paperclip](https://github.com/paperclipai/paperclip) | 开源AI代理编排平台，实现零人工企业自动化运营 |
+| [rtk](https://github.com/rtk-ai/rtk) | LLM命令行代理工具，降低60-90%的Token消耗 |
+| [Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI) | 多Agent协作的像素办公室可视化看板系统 |
+| [nCPU](https://github.com/robertcprice/nCPU) | 基于神经网络实现CPU算术逻辑运算的张量化处理器 |
+| [Locksmith](https://github.com/jakehildreth/Locksmith) | AD证书服务安全配置检测与修复工具 |
+| [praxis](https://github.com/originsec/praxis) | AI代理语义命令控制与编排框架 |
+| [ai-agent-guardrails](https://github.com/azep-ninja/ai-agent-guardrails) | AI代理金融操作安全防护框架 |
 | [thegridcn-ui](https://github.com/educlopez/thegridcn-ui) | Tron风格shadcn/ui主题系统与3D组件库 |
 | [mimikatz-missing-manual](https://github.com/darkoperator/mimikatz-missing-manual) | Mimikatz 工具完整使用手册与 Windows 身份认证安全研究指南 |
 | [Decepticon](https://github.com/PurpleAILAB/Decepticon) | 基于多智能体的自主化红队渗透测试服务平台 |

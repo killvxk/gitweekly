@@ -4,6 +4,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | AI驱动的安全测试平台，集成100+工具与智能编排引擎 |
+| [Stardust](https://github.com/Cracked5pider/Stardust) | 现代化32/64位位置无关shellcode模板框架 |
+| [coruna](https://github.com/matteyeux/coruna) | 反混淆JavaScript和二进制数据的安全分析工具 |
+| [M365Pwned](https://github.com/OtterHacker/M365Pwned) | M365环境渗透测试工具，通过Graph API枚举和窃取邮件与文件数据 |
+| [ssh-tpm-agent](https://github.com/Foxboron/ssh-tpm-agent) | 基于TPM的SSH密钥代理工具 |
+| [reverse-skills](https://github.com/P4nda0s/reverse-skills) | Claude Code 逆向工程分析插件，支持符号识别与数据结构重建 |
+| [IDA-NO-MCP](https://github.com/P4nda0s/IDA-NO-MCP) | IDA Pro反编译结果导出工具，支持AI辅助逆向分析 |
 | [openFPGALoader](https://github.com/trabucayre/openFPGALoader) | 跨平台FPGA通用编程烧录工具 |
 | [vphone-cli](https://github.com/Lakr233/vphone-cli) | 基于虚拟化框架启动虚拟iPhone的命令行工具 |
 | [drvtrace](https://github.com/eversinc33/drvtrace) | WinDbg驱动程序模块调用跟踪插件 |

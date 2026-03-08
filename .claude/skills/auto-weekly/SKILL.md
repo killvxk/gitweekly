@@ -1,6 +1,6 @@
 ---
 name: auto-weekly
-description: This skill should be used when the user asks to "生成周报", "generate weekly report", "处理文档链接", "process document links", "更新 docs.md", "update docs.md", "GitHub 链接描述", or mentions processing URLs in markdown files. Automates weekly report generation from git history or processes source files to generate Chinese descriptions for URLs.
+description: This skill should be used when the user asks to generate weekly reports from git history, process document links, update markdown files with URL descriptions, or mentions "生成周报", "处理文档链接", "更新 docs.md". Automates weekly report generation by extracting URLs from git commits or source files, generating concise Chinese descriptions, and organizing them into markdown tables.
 ---
 
 # Auto Weekly - 自动化周报生成
@@ -257,49 +257,18 @@ find . -maxdepth 1 -type f \( -name "*.md" -o -name "*.txt" \) ! -name "README.m
 
 ---
 
-## 配套脚本
+## 附加资源
 
-### cache_query.py
+### 参考文档
 
-查询缓存中的 URL 描述。
+详细信息请查阅：
+- **`references/script-api.md`** - 脚本完整 API 文档和使用示例
+- **`references/description-rules.md`** - 描述生成规则、格式要求和质量标准
+- **`references/troubleshooting.md`** - 故障排除指南和常见问题解决
 
-**用法：**
-```bash
-python3 .claude/skills/auto-weekly/scripts/cache_query.py "<url>" [--cache-file <path>]
-```
+### 配套脚本
 
-**返回值：**
-- 退出码 0：找到缓存，输出描述
-- 退出码 1：未找到缓存
-- 退出码 2：错误
+- **`scripts/cache_query.py`** - 查询 URL 缓存描述
+- **`scripts/cache_write.py`** - 写入或更新 URL 描述到缓存
 
-### cache_write.py
-
-写入或更新缓存。
-
-**用法：**
-```bash
-python3 .claude/skills/auto-weekly/scripts/cache_write.py "<url>" "<description>" [--cache-file <path>]
-```
-
-**返回值：**
-- 退出码 0：写入成功
-- 退出码 1：写入失败
-
----
-
-## 错误处理
-
-- **git 命令失败**：提示用户检查是否在 git 仓库中
-- **缓存文件损坏**：自动备份并重新创建
-- **URL 抓取失败**：标记为 `__DELETED__`，写入缓存
-- **描述生成失败**：记录错误，跳过该 URL
-- **文件写入失败**：提示权限错误
-
-## 注意事项
-
-1. **速率限制**：每个 URL 处理后延迟 1-2 秒
-2. **缓存优先**：始终先检查缓存
-3. **描述质量**：确保简洁、准确、符合中文表达习惯
-4. **文件备份**：建议用户先提交 git 或备份
-5. **权限检查**：确保缓存文件可写
+详细用法请参考 `references/script-api.md`。

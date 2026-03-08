@@ -37,6 +37,24 @@
 
 ## 配套脚本说明
 
+### 环境要求
+
+脚本需要 Python 3.x。在不同系统中，Python 命令可能是 `python3` 或 `python`。
+
+**检测可用命令**:
+```bash
+if command -v python3 &> /dev/null; then
+    PYTHON_CMD="python3"
+elif command -v python &> /dev/null; then
+    PYTHON_CMD="python"
+else
+    echo "错误: 未找到 Python 解释器"
+    exit 1
+fi
+```
+
+后续示例中使用 `python3`，实际使用时应根据系统环境选择正确的命令。
+
 ### cache_query.py - 缓存查询
 
 **功能**: 查询 URL 是否已有缓存描述

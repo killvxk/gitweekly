@@ -15,6 +15,28 @@ description: This skill should be used when the user asks to "生成周报", "ge
 ### 模式 2：处理源文件
 读取 docs.md、README.md 等文件 → 提取 URL → 生成 AI 描述 → 转换为表格格式
 
+## 环境要求
+
+### Python 命令检测
+
+在执行脚本前，检测系统中可用的 Python 命令：
+
+```bash
+# 检测 python3 或 python
+if command -v python3 &> /dev/null; then
+    PYTHON_CMD="python3"
+elif command -v python &> /dev/null; then
+    PYTHON_CMD="python"
+else
+    echo "错误: 未找到 Python 解释器"
+    exit 1
+fi
+```
+
+后续所有 `python3` 命令应替换为 `$PYTHON_CMD`。
+
+**注意**: 本文档中的示例使用 `python3`，实际执行时应根据系统环境使用正确的命令。
+
 ## 使用流程
 
 ### 启动时询问
@@ -77,10 +99,12 @@ git show <commit_hash> --unified=0 --no-color
 
 #### 5.1 检查缓存
 ```bash
-python3 .claude/skills/auto-weekly/scripts/cache_query.py "<url>"
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/cache_query.py "<url>"
 ```
 - 退出码 0：使用缓存
 - 退出码 1：继续生成
+
+**注意**: 使用 `$PYTHON_CMD` 变量（在环境要求部分检测），而非硬编码 `python3`。
 
 #### 5.2 抓取内容
 
@@ -123,8 +147,10 @@ prompt: 提取这个网页的标题、主要内容和核心信息
 
 #### 5.4 写入缓存
 ```bash
-python3 .claude/skills/auto-weekly/scripts/cache_write.py "<url>" "<description>"
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/cache_write.py "<url>" "<description>"
 ```
+
+**注意**: 使用 `$PYTHON_CMD` 变量，而非硬编码 `python3`。
 
 **速率控制：** 每处理一个 URL 后，延迟 1-2 秒。
 

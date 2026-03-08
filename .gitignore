@@ -1,4 +1,5 @@
-.claude/
+.claude/*
+!.claude/skills/
 __pycache__/
 report/
 test*.py

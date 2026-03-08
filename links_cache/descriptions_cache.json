@@ -1796,5 +1796,11 @@
   "https://github.com/yucchiy/UniCli": "Unity Editor的CLI工具，让AI代理通过命令行控制编辑器",
   "https://github.com/mvanhorn/last30days-skill": "AI驱动的多平台研究工具，聚合分析8个社交平台最近30天热门内容",
   "https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/attaching-itt-apis-to-a-launched-application.html": "Intel VTune性能分析工具的ITT API集成指南",
-  "https://docs.openssl.org/master/man7/openssl-env/#description": "OpenSSL环境变量配置手册，涵盖安全、调试和性能优化设置"
+  "https://docs.openssl.org/master/man7/openssl-env/#description": "OpenSSL环境变量配置手册，涵盖安全、调试和性能优化设置",
+  "https://github.com/0xv1n/macnoise": "macOS系统遥测事件生成框架，用于EDR检测能力验证和安全测试",
+  "https://github.com/praetorian-inc/nerva": "支持120+协议的高性能服务指纹识别工具",
+  "https://github.com/ybdt/evasion-hub": "Windows系统AV/EDR规避技术研究与代码集合",
+  "https://github.com/P001water/yuze": "纯C实现的轻量级内网穿透工具，支持SOCKS5代理隧道",
+  "https://github.com/vicnaum/bun-demincer": "Bun编译二进制文件的反编译与反混淆工具",
+  "https://github.com/AhmetCanArslan/ShizuWall": "无需root的Android应用级网络防火墙"
 }

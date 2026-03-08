@@ -2,19 +2,14 @@
 
 ## 收集的项目地址
 
-https://github.com/0xv1n/macnoise
-
-https://github.com/praetorian-inc/nerva
-
-https://github.com/ybdt/evasion-hub
-
-https://github.com/P001water/yuze
-
-https://github.com/vicnaum/bun-demincer
-
-https://github.com/AhmetCanArslan/ShizuWall
-
-
+| 链接 | 描述 |
+|------|----- |
+| [macnoise](https://github.com/0xv1n/macnoise) | macOS系统遥测事件生成框架，用于EDR检测能力验证和安全测试 |
+| [nerva](https://github.com/praetorian-inc/nerva) | 支持120+协议的高性能服务指纹识别工具 |
+| [evasion-hub](https://github.com/ybdt/evasion-hub) | Windows系统AV/EDR规避技术研究与代码集合 |
+| [yuze](https://github.com/P001water/yuze) | 纯C实现的轻量级内网穿透工具，支持SOCKS5代理隧道 |
+| [bun-demincer](https://github.com/vicnaum/bun-demincer) | Bun编译二进制文件的反编译与反混淆工具 |
+| [ShizuWall](https://github.com/AhmetCanArslan/ShizuWall) | 无需root的Android应用级网络防火墙 |
 
 | 文章 | 简介 |
 |------|------|

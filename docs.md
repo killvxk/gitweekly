@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [200-kernel-bugs-in-30-days](https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days) | AI代理群自动化挖掘Windows内核驱动漏洞的大规模安全研究 |
+| [building-an-ai-vishing-solution-in-7-days](https://labs.reversec.com/posts/2026/02/building-an-ai-vishing-solution-in-7-days) | 7天构建AI语音钓鱼系统的红队社会工程自动化实战 |
+| [wingraph](https://wingraph.m0n1x90.dev/) | Windows System32二进制文件依赖关系交互式可视化分析工具 |
 | [a-race-within-a-race-exploiting-cve?triedRedirect=true](https://blog.calif.io/p/a-race-within-a-race-exploiting-cve?triedRedirect=true) | Linux内核数据包套接字竞态条件漏洞利用分析 |
 | [rust-for-malware-development](https://bishopfox.com/blog/rust-for-malware-development) | Rust恶意软件开发技术研究与实战演示 |
 | [152088413](https://www.patreon.com/posts/152088413) |  |

@@ -1,15 +1,19 @@
-# 驻留杂谈 
+# 驻留杂谈
 ## 各种奇行种驻留角落
 
 ### 环境变量有关的奇怪方式
 
 #### Intel的那一坨
 
-https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/attaching-itt-apis-to-a-launched-application.html
+| 文档 | 简介 |
+|------|------|
+| [attaching-itt-apis-to-a-launched-application](https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/attaching-itt-apis-to-a-launched-application.html) | Intel VTune性能分析工具的ITT API集成指南 |
 
 #### Openssl裤有关的
 
-https://docs.openssl.org/master/man7/openssl-env/#description
+| 文档 | 简介 |
+|------|------|
+| [openssl-env](https://docs.openssl.org/master/man7/openssl-env/#description) | OpenSSL环境变量配置手册，涵盖安全、调试和性能优化设置 |
 
 #### Qt的那个
 ```

@@ -2,6 +2,20 @@
 
 ## 收集的项目地址
 
+https://github.com/0xv1n/macnoise
+
+https://github.com/praetorian-inc/nerva
+
+https://github.com/ybdt/evasion-hub
+
+https://github.com/P001water/yuze
+
+https://github.com/vicnaum/bun-demincer
+
+https://github.com/AhmetCanArslan/ShizuWall
+
+
+
 | 文章 | 简介 |
 |------|------|
 | [CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | AI驱动的安全测试平台，集成100+工具与智能编排引擎 |

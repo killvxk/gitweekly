@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [seedance-prompt-skill](https://github.com/songguoxs/seedance-prompt-skill) | 将自然语言创意转化为Seedance 2.0视频提示词的Claude技能 |
+| [AI_Security_Top](https://github.com/GhostWolfLab/AI_Security_Top) | 系统化的AI安全知识库，覆盖算法原理到攻防实战的完整体系 |
+| [pm-skills](https://github.com/phuryn/pm-skills) | 为产品经理提供65个AI技能和36个工作流的Claude插件市场 |
+| [mlx-snn](https://github.com/D-ST-Sword/mlx-snn) | 专为Apple芯片优化的脉冲神经网络库，支持跨框架模型交换 |
+| [UniCli](https://github.com/yucchiy/UniCli) | Unity Editor的CLI工具，让AI代理通过命令行控制编辑器 |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI驱动的多平台研究工具，聚合分析8个社交平台最近30天热门内容 |
 | [claude-eda](https://github.com/l3wi/claude-eda) | 基于Claude AI的KiCad电路设计自动化工具 |
 | [xbow-competition](https://github.com/m-sec-org/xbow-competition) | AI驱动的CTF自动解题系统，集成MCP服务器与智能渗透测试 |
 | [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent) | 基于DeepSeek的全自主AI渗透测试智能体 |

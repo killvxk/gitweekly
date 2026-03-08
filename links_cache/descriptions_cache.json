@@ -1782,5 +1782,19 @@
   "https://github.com/robertcprice/nCPU": "基于神经网络实现CPU算术逻辑运算的张量化处理器",
   "https://github.com/jakehildreth/Locksmith": "AD证书服务安全配置检测与修复工具",
   "https://github.com/originsec/praxis": "AI代理语义命令控制与编排框架",
-  "https://github.com/azep-ninja/ai-agent-guardrails": "AI代理金融操作安全防护框架"
+  "https://github.com/azep-ninja/ai-agent-guardrails": "AI代理金融操作安全防护框架",
+  "https://github.com/test/new-repo": "__DELETED__",
+  "https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days": "AI代理群自动化挖掘Windows内核驱动漏洞的大规模安全研究",
+  "https://labs.reversec.com/posts/2026/02/building-an-ai-vishing-solution-in-7-days": "7天构建AI语音钓鱼系统的红队社会工程自动化实战",
+  "https://wingraph.m0n1x90.dev/": "Windows System32二进制文件依赖关系交互式可视化分析工具",
+  "https://github.com/Red-Hex-Consulting/Ankou": "集成AI辅助的下一代模块化C2渗透测试框架",
+  "https://dash.domain.digitalplat.org/auth/login?next=%2F": "__DELETED__",
+  "https://github.com/songguoxs/seedance-prompt-skill": "将自然语言创意转化为Seedance 2.0视频提示词的Claude技能",
+  "https://github.com/GhostWolfLab/AI_Security_Top": "系统化的AI安全知识库，覆盖算法原理到攻防实战的完整体系",
+  "https://github.com/phuryn/pm-skills": "为产品经理提供65个AI技能和36个工作流的Claude插件市场",
+  "https://github.com/D-ST-Sword/mlx-snn": "专为Apple芯片优化的脉冲神经网络库，支持跨框架模型交换",
+  "https://github.com/yucchiy/UniCli": "Unity Editor的CLI工具，让AI代理通过命令行控制编辑器",
+  "https://github.com/mvanhorn/last30days-skill": "AI驱动的多平台研究工具，聚合分析8个社交平台最近30天热门内容",
+  "https://www.intel.com/content/www/us/en/docs/vtune-profiler/user-guide/2023-0/attaching-itt-apis-to-a-launched-application.html": "Intel VTune性能分析工具的ITT API集成指南",
+  "https://docs.openssl.org/master/man7/openssl-env/#description": "OpenSSL环境变量配置手册，涵盖安全、调试和性能优化设置"
 }

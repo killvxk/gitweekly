@@ -2,19 +2,20 @@
 
 ## 白嫖域名
 
-https://dash.domain.digitalplat.org/auth/login?next=%2F
-
-需要一个美国的电话+姓名+住址使用：https://www.shenfendaquan.com/
+| 资源 | 简介 |
+|------|------|
+| [shenfendaquan](https://www.shenfendaquan.com/) | 世界各国虚拟身份信息和地址生成工具 |
 
 解析依靠CF即可
 
 
 ## 白嫖一个vps
 
+| 资源 | 简介 |
+|------|------|
+| [LinuxONE](https://linuxone.cloud.marist.edu/#/login) | IBM LinuxONE社区云服务平台 |
+
 教育账户直接白嫖linuxone就行了
-https://linuxone.cloud.marist.edu/#/login
-
-
 
 ```
 almond.sh和deepnote 都可以，
@@ -27,17 +28,24 @@ PS :
 
 ## 白嫖一个私有化邮件服务器
 
+| 资源 | 简介 |
+|------|------|
+| [SkyMail](https://doc.skymail.ink/guide/via-ui.html) | 基于Cloudflare Workers的开源简约邮箱服务系统 |
+| [Roundcube Docker](https://github.com/roundcube/roundcubemail-docker) | Roundcube邮件客户端的官方Docker容器化部署方案 |
+
 ### 第一种方法
 
-https://doc.skymail.ink/guide/via-ui.html
+使用SkyMail
 
 ### 第二种
-使用CF的隧道，然后本地部署https://github.com/roundcube/roundcubemail-docker
+使用CF的隧道，然后本地部署Roundcube Docker
 其他也是用resend和CF邮件routing catch-all，好处是比较快
 
 ## 白嫖AI
 
-https://free.stockai.trade/
+| 资源 | 简介 |
+|------|------|
+| [Free Stock AI](https://free.stockai.trade/) | 提供免费AI服务的Next.js平台 |
 
 duck.ai
 

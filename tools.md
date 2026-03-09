@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [algernon](https://github.com/xyproto/algernon) | 集成Lua脚本和多数据库的Go语言一体化Web服务器 |
+| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 将任意软件转换为AI Agent可控CLI工具的自动化框架 |
+
+https://github.com/sanbir/solana-auditor-skills
+
+https://github.com/vulhunt-re/vulhunt
+
+https://github.com/krakenfx/kraken-cli
+
+
+| 文章 | 简介 |
+|------|------|
 | [seedance-prompt-skill](https://github.com/songguoxs/seedance-prompt-skill) | 将自然语言创意转化为Seedance 2.0视频提示词的Claude技能 |
 | [AI_Security_Top](https://github.com/GhostWolfLab/AI_Security_Top) | 系统化的AI安全知识库，覆盖算法原理到攻防实战的完整体系 |
 | [pm-skills](https://github.com/phuryn/pm-skills) | 为产品经理提供65个AI技能和36个工作流的Claude插件市场 |

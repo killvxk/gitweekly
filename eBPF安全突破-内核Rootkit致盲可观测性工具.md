@@ -486,7 +486,7 @@ static notrace u32 hook_bpf_prog_run(const struct bpf_prog *prog,
 
 ## 实战绕过结果
 
-> PoC 演示视频：[LKM Rootkit Singularity vs eBPF security tools](https://www.youtube.com/watch?v=ByEp137w3Ks)
+> PoC 演示视频：[LKM Rootkit Singularity vs eBPF security tools](https://www.youtube.com/watch?v=ByEp137w3Ks)（YouTube视频播放页面）
 
 ### Falco 绕过
 
@@ -553,8 +553,11 @@ eBPF 在可信内核下提高了安全门槛，但它不能作为对抗恶意内
 
 ## 参考资源
 
-- Singularity Rootkit：https://github.com/MatheuZSecurity/Singularity
-- Rootkit 研究社区：https://discord.gg/66N5ZQppU7
+| 资源 | 简介 |
+|------|------|
+| [Singularity Rootkit](https://github.com/MatheuZSecurity/Singularity) | Linux内核级隐蔽型Rootkit攻防技术深度解析 |
+| [Rootkit Researchers](https://discord.gg/66N5ZQppU7) | Rootkit Researchers Discord社区邀请链接 |
+
 - 联系作者：X (@MatheuzSecurity) | Discord (kprobe)
 
 > 负责任的披露：本研究出于教育目的。所有描述的技术旨在通过理解攻击者方法论来提升防御能力。代码发布是为了帮助安全研究人员开发更好的检测和预防机制。

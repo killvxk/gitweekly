@@ -190,5 +190,8 @@ GSD 使用**精简编排器 + 专业代理**架构：
 
 ## 参考
 
-- GitHub: https://github.com/glittercowboy/get-shit-done
+| 资源 | 简介 |
+|------|------|
+| [Get Shit Done](https://github.com/glittercowboy/get-shit-done) | 防止AI上下文腐烂的元提示工程与规范驱动开发系统 |
+
 - 安装: `npx get-shit-done-cc`

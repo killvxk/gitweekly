@@ -1,7 +1,9 @@
 # Firefox SpiderMonkey Wasm：一个字符的笔误，一条通往 RCE 的路
 
-> 原文：https://kqx.io/post/firefox0day/
->
+| 文章 | 简介 |
+|------|------|
+| [原文链接](https://kqx.io/post/firefox0day/) | Firefox SpiderMonkey单字符拼写错误导致RCE漏洞分析 |
+
 > CVE 于 2026 年 2 月披露，漏洞仅影响 Firefox 149 Nightly，从未进入正式发布版本。
 
 ## 漏洞根因

@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [reversing-bedaisy](https://s4dbrd.github.io/posts/reversing-bedaisy/) | BattlEye反作弊内核驱动BEDaisy.sys静态逆向分析 |
+| [GitHub Security Lab AI Scanner](https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/) | GitHub Security Lab开源AI驱动漏洞扫描框架 |
 | [200-kernel-bugs-in-30-days](https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days) | AI代理群自动化挖掘Windows内核驱动漏洞的大规模安全研究 |
 | [building-an-ai-vishing-solution-in-7-days](https://labs.reversec.com/posts/2026/02/building-an-ai-vishing-solution-in-7-days) | 7天构建AI语音钓鱼系统的红队社会工程自动化实战 |
 | [wingraph](https://wingraph.m0n1x90.dev/) | Windows System32二进制文件依赖关系交互式可视化分析工具 |

@@ -1,6 +1,17 @@
 # gitweekly
 
-## 收集的项目地址
+## 最新收集
+
+| 链接 | 描述 |
+|------|------|
+| [x64dbg-skills](https://github.com/dariushoule/x64dbg-skills) | x64dbg调试器自动化逆向工程Claude插件 |
+| [Security-Detections-MCP](https://github.com/MHaggis/Security-Detections-MCP) | 统一查询Sigma/Splunk/Elastic/KQL检测规则的MCP服务器 |
+| [SysWhispers4](https://github.com/JoasASantos/SysWhispers4) | 绕过AV/EDR钩子的Windows系统调用生成工具 |
+| [coruna](https://github.com/khanhduytran0/coruna) | 多版本iOS漏洞利用链工具包 |
+| [stacktracer](https://github.com/whokilleddb/stacktracer) | 提取Windows进程栈帧的Rust安全研究工具 |
+| [AndroHunter](https://github.com/ynsmroztas/AndroHunter) | Android原生安全测试工具包，支持静态分析和动态模糊测试 |
+
+## 项目收集
 
 | 链接 | 描述 |
 |------|----- |
@@ -10,9 +21,6 @@
 | [yuze](https://github.com/P001water/yuze) | 纯C实现的轻量级内网穿透工具，支持SOCKS5代理隧道 |
 | [bun-demincer](https://github.com/vicnaum/bun-demincer) | Bun编译二进制文件的反编译与反混淆工具 |
 | [ShizuWall](https://github.com/AhmetCanArslan/ShizuWall) | 无需root的Android应用级网络防火墙 |
-
-| 文章 | 简介 |
-|------|------|
 | [CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | AI驱动的安全测试平台，集成100+工具与智能编排引擎 |
 | [Stardust](https://github.com/Cracked5pider/Stardust) | 现代化32/64位位置无关shellcode模板框架 |
 | [coruna](https://github.com/matteyeux/coruna) | 反混淆JavaScript和二进制数据的安全分析工具 |

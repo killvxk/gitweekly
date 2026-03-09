@@ -2,18 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [howcryptoworksbook](https://github.com/lawmaster10/howcryptoworksbook) | 加密货币技术原理开源教材，涵盖比特币到DeFi的完整知识体系 |
+| [KingCastle](https://github.com/ThePirateWhoSmellsOfSunflowers/KingCastle) | Active Directory域快速侦察工具，基于LDAP查询识别安全问题 |
+| [AgentGuard](https://github.com/numbergroup/AgentGuard) | AI代理安全防护框架，防御提示注入和命令注入攻击 |
+| [RedTailIndicators](https://github.com/3astbeast/RedTailIndicators) | NinjaTrader 8期货交易指标套件，含成交量分析和市场结构检测 |
+| [macos-bazel-demo](https://github.com/vivekgalatage/macos-bazel-demo) | 使用Bazel构建系统开发macOS原生应用的示例项目 |
+| [vibe-re](https://github.com/0xeb/vibe-re) | 基于IDA Pro和SQL查询的恶意软件逆向工程分析工作空间 |
+| [GithubOSINT](https://github.com/SleepTheGod/GithubOSINT) | 从GitHub仓库提交历史提取邮箱地址的Shell脚本工具 |
+| [gh-os](https://github.com/vmfunc/gh-os) | GitHub账户PII和邮箱地址OSINT情报收集工具 |
 | [algernon](https://github.com/xyproto/algernon) | 集成Lua脚本和多数据库的Go语言一体化Web服务器 |
 | [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 将任意软件转换为AI Agent可控CLI工具的自动化框架 |
-
-https://github.com/sanbir/solana-auditor-skills
-
-https://github.com/vulhunt-re/vulhunt
-
-https://github.com/krakenfx/kraken-cli
-
-
-| 文章 | 简介 |
-|------|------|
+| [solana-auditor-skills](https://github.com/sanbir/solana-auditor-skills) | Solana智能合约安全审计Claude技能包，覆盖105个攻击向量 |
+| [vulhunt](https://github.com/vulhunt-re/vulhunt) | 二进制文件和UEFI固件漏洞检测框架 |
+| [kraken-cli](https://github.com/krakenfx/kraken-cli) | AI原生的Kraken加密货币交易CLI工具，支持MCP协议 |
 | [seedance-prompt-skill](https://github.com/songguoxs/seedance-prompt-skill) | 将自然语言创意转化为Seedance 2.0视频提示词的Claude技能 |
 | [AI_Security_Top](https://github.com/GhostWolfLab/AI_Security_Top) | 系统化的AI安全知识库，覆盖算法原理到攻防实战的完整体系 |
 | [pm-skills](https://github.com/phuryn/pm-skills) | 为产品经理提供65个AI技能和36个工作流的Claude插件市场 |

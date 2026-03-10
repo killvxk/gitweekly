@@ -1832,5 +1832,20 @@
   "https://github.com/SleepTheGod/GithubOSINT": "从GitHub仓库提交历史提取邮箱地址的Shell脚本工具",
   "https://s4dbrd.github.io/posts/reversing-bedaisy/": "BattlEye反作弊内核驱动BEDaisy.sys静态逆向分析",
   "https://github.com/3astbeast/RedTailIndicators": "NinjaTrader 8期货交易指标套件，含成交量分析和市场结构检测",
-  "https://github.com/vivekgalatage/macos-bazel-demo": "使用Bazel构建系统开发macOS原生应用的示例项目"
+  "https://github.com/vivekgalatage/macos-bazel-demo": "使用Bazel构建系统开发macOS原生应用的示例项目",
+  "https://cocomelonc.github.io/malware/2026/03/05/malware-cryptography-44.html": "利用离散傅里叶变换混淆Shellcode规避EDR检测的加密技术",
+  "https://8ksec.io/mobile-malware-analysis-part-5-analyzing-an-infected-device/": "iOS设备恶意软件感染取证分析与IOC检测实战教程",
+  "https://github.com/ghostwright/ghost-os": "让AI智能体完整操控macOS所有应用的MCP工具",
+  "https://github.com/karpathy/agenthub": "面向AI智能体的Git协作平台，支持DAG提交与消息协调",
+  "https://github.com/miolini/autoresearch-macos": "Apple Silicon上AI自主LLM训练实验的macOS适配框架",
+  "https://github.com/karpathy/autoresearch": "AI智能体自主迭代LLM训练实验的自动化研究框架",
+  "https://github.com/dreadnode/agent-directory": "基于Active Directory的AI代理身份管理与沙箱执行框架",
+  "https://github.com/vysheng/tg": "基于C语言的Telegram命令行客户端工具",
+  "https://github.com/jackwener/twitter-cli": "无需API密钥的Twitter/X命令行客户端，支持AI集成",
+  "https://github.com/brainchainz/monero-superbrain": "Umbrel平台一键部署去中心化Monero挖矿管理工具",
+  "https://github.com/Orange-Cyberdefense/GOAD": "渗透测试专用的脆弱Active Directory实验环境",
+  "https://github.com/Yurii0307/yurikey": "Android设备Play Integrity强完整性认证Keybox管理模块",
+  "https://github.com/Dump-GUY/ApplyCalleeTypeEx": "IDA Pro间接调用函数原型应用插件，修复动态API类型识别",
+  "https://github.com/exvulsec/exvul-solana-skill": "Solana智能合约端到端自动化安全审计Claude技能",
+  "https://github.com/wietze/lnk-it-up": "Windows LNK快捷方式欺骗性文件生成与检测工具"
 }

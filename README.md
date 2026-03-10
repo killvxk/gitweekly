@@ -1,7 +1,8 @@
 # gitweekly
 
-https://github.com/wietze/lnk-it-up
-
+| 链接 | 描述 |
+|------|------|
+| [lnk-it-up](https://github.com/wietze/lnk-it-up) | Windows LNK快捷方式欺骗性文件生成与检测工具 |
 
 ## 最新收集
 

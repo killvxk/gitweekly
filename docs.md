@@ -1,10 +1,9 @@
 # 有趣的文章
 
-https://cocomelonc.github.io/malware/2026/03/05/malware-cryptography-44.html
-
-https://8ksec.io/mobile-malware-analysis-part-5-analyzing-an-infected-device/
-
-
+| 文章 | 简介 |
+|------|------|
+| [malware-cryptography-44](https://cocomelonc.github.io/malware/2026/03/05/malware-cryptography-44.html) | 利用离散傅里叶变换混淆Shellcode规避EDR检测的加密技术 |
+| [mobile-malware-analysis-part-5](https://8ksec.io/mobile-malware-analysis-part-5-analyzing-an-infected-device/) | iOS设备恶意软件感染取证分析与IOC检测实战教程 |
 
 | 文章 | 简介 |
 |------|------|

@@ -1,32 +1,20 @@
 # 有趣的工具
 
-https://github.com/ghostwright/ghost-os
-
-https://github.com/karpathy/agenthub
-
-https://github.com/miolini/autoresearch-macos
-
-https://github.com/karpathy/autoresearch
-
-https://github.com/dreadnode/agent-directory
-
-https://github.com/vysheng/tg
-
-https://github.com/jackwener/twitter-cli
-
-https://github.com/brainchainz/monero-superbrain
-
-https://github.com/Orange-Cyberdefense/GOAD
-
-https://github.com/Yurii0307/yurikey
-
-https://github.com/Dump-GUY/ApplyCalleeTypeEx
-
-https://github.com/superset-sh/superset
-
-https://github.com/exvulsec/exvul-solana-skill
-
-
+| 文章 | 简介 |
+|------|------|
+| [ghost-os](https://github.com/ghostwright/ghost-os) | 让AI智能体完整操控macOS所有应用的MCP工具 |
+| [agenthub](https://github.com/karpathy/agenthub) | 面向AI智能体的Git协作平台，支持DAG提交与消息协调 |
+| [autoresearch-macos](https://github.com/miolini/autoresearch-macos) | Apple Silicon上AI自主LLM训练实验的macOS适配框架 |
+| [autoresearch](https://github.com/karpathy/autoresearch) | AI智能体自主迭代LLM训练实验的自动化研究框架 |
+| [agent-directory](https://github.com/dreadnode/agent-directory) | 基于Active Directory的AI代理身份管理与沙箱执行框架 |
+| [tg](https://github.com/vysheng/tg) | 基于C语言的Telegram命令行客户端工具 |
+| [twitter-cli](https://github.com/jackwener/twitter-cli) | 无需API密钥的Twitter/X命令行客户端，支持AI集成 |
+| [monero-superbrain](https://github.com/brainchainz/monero-superbrain) | Umbrel平台一键部署去中心化Monero挖矿管理工具 |
+| [GOAD](https://github.com/Orange-Cyberdefense/GOAD) | 渗透测试专用的脆弱Active Directory实验环境 |
+| [yurikey](https://github.com/Yurii0307/yurikey) | Android设备Play Integrity强完整性认证Keybox管理模块 |
+| [ApplyCalleeTypeEx](https://github.com/Dump-GUY/ApplyCalleeTypeEx) | IDA Pro间接调用函数原型应用插件，修复动态API类型识别 |
+| [superset](https://github.com/superset-sh/superset) | AI代码助手并行执行终端，支持多智能体协同开发 |
+| [exvul-solana-skill](https://github.com/exvulsec/exvul-solana-skill) | Solana智能合约端到端自动化安全审计Claude技能 |
 
 | 文章 | 简介 |
 |------|------|

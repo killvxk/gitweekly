@@ -1,5 +1,33 @@
 # 有趣的工具
 
+https://github.com/ghostwright/ghost-os
+
+https://github.com/karpathy/agenthub
+
+https://github.com/miolini/autoresearch-macos
+
+https://github.com/karpathy/autoresearch
+
+https://github.com/dreadnode/agent-directory
+
+https://github.com/vysheng/tg
+
+https://github.com/jackwener/twitter-cli
+
+https://github.com/brainchainz/monero-superbrain
+
+https://github.com/Orange-Cyberdefense/GOAD
+
+https://github.com/Yurii0307/yurikey
+
+https://github.com/Dump-GUY/ApplyCalleeTypeEx
+
+https://github.com/superset-sh/superset
+
+https://github.com/exvulsec/exvul-solana-skill
+
+
+
 | 文章 | 简介 |
 |------|------|
 | [howcryptoworksbook](https://github.com/lawmaster10/howcryptoworksbook) | 加密货币技术原理开源教材，涵盖比特币到DeFi的完整知识体系 |

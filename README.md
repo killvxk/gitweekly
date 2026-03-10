@@ -1,5 +1,8 @@
 # gitweekly
 
+https://github.com/wietze/lnk-it-up
+
+
 ## 最新收集
 
 | 链接 | 描述 |

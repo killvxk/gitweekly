@@ -1,5 +1,11 @@
 # 有趣的文章
 
+https://cocomelonc.github.io/malware/2026/03/05/malware-cryptography-44.html
+
+https://8ksec.io/mobile-malware-analysis-part-5-analyzing-an-infected-device/
+
+
+
 | 文章 | 简介 |
 |------|------|
 | [reversing-bedaisy](https://s4dbrd.github.io/posts/reversing-bedaisy/) | BattlEye反作弊内核驱动BEDaisy.sys静态逆向分析 |

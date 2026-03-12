@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [proxcenter-ui](https://github.com/adminsyspro/proxcenter-ui) | 管理多个Proxmox VE集群的开源vCenter替代品Web界面 |
+| [APILEECH](https://github.com/calinux-py/APILEECH) | 嗅探浏览器网络请求以突破API限制的Chrome扩展工具 |
+| [pua](https://github.com/tanweai/pua) | 模拟PUA管理风格对AI Agent进行角色扮演压力测试的HTML工具 |
+| [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 基于Gemini LLM驱动的A/H/美股每日智能分析与多渠道推送工具 |
+| [LabClaw](https://github.com/wu-yc/LabClaw) | 面向Stanford LabOS的下一代AI科研协作技能操作层框架 |
+| [SecurityClaw](https://github.com/SecurityClaw/SecurityClaw) | 基于LLM和RAG的模块化自主SOC安全运营异常检测Agent |
+| [bugSkills](https://github.com/BehiSecc/bugSkills) | 将HackerOne漏洞报告转换为可复用AI技能的安全研究工具 |
+| [CallMe](https://github.com/castilho101/CallMe) | 在后台扫描Web页面以发现callback端点的浏览器扩展安全工具 |
+| [skyclaw](https://github.com/nagisanzenin/skyclaw) | 部署在云端可自持续运行的轻量级Claw爬虫框架 |
+| [awesome-ratatui](https://github.com/ratatui/awesome-ratatui) | 收录基于Ratatui构建的TUI应用与库的精选Rust终端UI资源列表 |
+| [openclaw-manager](https://github.com/miaoxworld/openclaw-manager) | 基于Tauri 2.0+React+Rust构建的跨平台AI助手服务管理工具 |
+| [coinos-skills](https://github.com/aicoincom/coinos-skills) | 为AI Agent提供40+加密货币实时价格、K线与链上数据分析工具集 |
+| [barq-web-rag](https://github.com/YASSERRMD/barq-web-rag) | 纯浏览器端运行的RAG应用，支持文档上传并通过本地LLM进行语义检索问答 |
+
+| 文章 | 简介 |
+|------|------|
 | [ghost-os](https://github.com/ghostwright/ghost-os) | 让AI智能体完整操控macOS所有应用的MCP工具 |
 | [agenthub](https://github.com/karpathy/agenthub) | 面向AI智能体的Git协作平台，支持DAG提交与消息协调 |
 | [autoresearch-macos](https://github.com/miolini/autoresearch-macos) | Apple Silicon上AI自主LLM训练实验的macOS适配框架 |

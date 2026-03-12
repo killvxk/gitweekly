@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [arm-64-reversing-and-exploitation-series](https://8ksec.io/arm-64-reversing-and-exploitation-series/) | ARM64架构漏洞分析与利用技术的系列教程 |
+| [xygeni-action-compromised](https://www.stepsecurity.io/blog/xygeni-action-compromised-c2-reverse-shell-backdoor-injected-via-tag-poisoning) | GitHub Action供应链攻击通过tag投毒注入C2后门的案例分析 |
+| [reverse-engineering-with-ai](https://landaire.net/reverse-engineering-with-ai/) | 借助Claude AI与Binary Ninja逆向分析专有游戏文件格式的实践 |
+| [rooting-tapo-c200](https://quentinkaiser.be/security/2025/07/25/rooting-tapo-c200/) | 通过固件提取与重刷获取TP-Link Tapo C200摄像头root权限的研究 |
+| [trust-no-one](https://offsec.almond.consulting/trust-no-one_are-one-way-trusts-really-one-way.html) | 利用Active Directory单向信任反向渗透受信任域的攻击技术分析 |
+| [LLVM_based_VMP](https://hackyboiz.github.io/2025/09/11/banda/LLVM_based_VMP/en/) | 基于LLVM IR与Intel Pin、Triton符号执行对VMProtect虚拟化保护进行去虚拟化逆向分析 |
+| [VMPpart2](https://hackyboiz.github.io/2025/12/11/banda/VMPpart2/en/) | 使用Intel Pin与Triton对VMProtect 3虚拟化保护进行去虚拟化分析与二进制逆向还原 |
+| [BitLocker_part1](https://hackyboiz.github.io/2026/01/22/banda/BitLocker_part1/en/) | BitLocker AES-XTS加密缺陷与CVE-2025-21210攻击的Windows磁盘加密安全分析 |
+| [rdp_fuzzing2](https://hackyboiz.github.io/2022/02/13/l0ch/rdp_fuzzing2/) | 使用WinAFL与DynamoRIO对RDP多通道协议进行模糊测试挖掘内存安全漏洞 |
+| [building-a-detection-foundation-part-3](https://trustedsec.com/blog/building-a-detection-foundation-part-3-powershell-and-script-logging) | 构建PowerShell与脚本日志检测基础的安全防御体系 |
+
+| 文章 | 简介 |
+|------|------|
 | [malware-cryptography-44](https://cocomelonc.github.io/malware/2026/03/05/malware-cryptography-44.html) | 利用离散傅里叶变换混淆Shellcode规避EDR检测的加密技术 |
 | [mobile-malware-analysis-part-5](https://8ksec.io/mobile-malware-analysis-part-5-analyzing-an-infected-device/) | iOS设备恶意软件感染取证分析与IOC检测实战教程 |
 
@@ -14,10 +27,8 @@
 | [wingraph](https://wingraph.m0n1x90.dev/) | Windows System32二进制文件依赖关系交互式可视化分析工具 |
 | [a-race-within-a-race-exploiting-cve?triedRedirect=true](https://blog.calif.io/p/a-race-within-a-race-exploiting-cve?triedRedirect=true) | Linux内核数据包套接字竞态条件漏洞利用分析 |
 | [rust-for-malware-development](https://bishopfox.com/blog/rust-for-malware-development) | Rust恶意软件开发技术研究与实战演示 |
-| [152088413](https://www.patreon.com/posts/152088413) |  |
 | [mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic](https://www.synacktiv.com/en/publications/mitmproxy-for-fun-and-profit-interception-and-analysis-of-application-traffic) | 基于mitmproxy的网络流量拦截与协议分析工具 |
 | [101-chrome-exploitation-part-2-common-browser-vulnerability-patterns](https://opzero.ru/en/press/101-chrome-exploitation-part-2-common-browser-vulnerability-patterns/) | Chrome浏览器漏洞利用技术深度解析 |
-| [lateral-movement-with-elastic-edr-and-asr-enabled-9c3e5dcf38b0](https://systemweakness.com/lateral-movement-with-elastic-edr-and-asr-enabled-9c3e5dcf38b0) |  |
 | [powershell-for-hackers-part-10-timeroasting-users](https://hackers-arise.com/powershell-for-hackers-part-10-timeroasting-users/) | PowerShell渗透测试：Timeroasting攻击获取用户哈希 |
 | [defeating-windows-dep-using-rop-chains-leveraging-virtualalloc](https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc) | 利用ROP链和VirtualAlloc绕过Windows DEP内存保护 |
 | [red-team-map](https://kypvas.github.io/red-team-map/) | 红队渗透测试攻击链架构图谱 |
@@ -42,7 +53,7 @@
 | [cve-2026-21241-ancillary-function-driver](https://bad-jubies.github.io/cve-2026-21241-ancillary-function-driver) | Windows AFD.sys驱动UAF漏洞逆向分析与利用 |
 | [open-sourcing-agent-orchestrator](https://pkarnal.com/blog/open-sourcing-agent-orchestrator) | 开源AI编码代理并行编排管理系统 |
 | [persistence-the-art-of-staying-in](https://0xdbgman.github.io/posts/persistence-the-art-of-staying-in/) | 跨平台持久化技术全景指南：涵盖Windows、Linux、macOS及云环境的50+种APT级驻留技术 |
-| [breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools](https://iq.thc.org/breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools) |  |
+| [breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools](https://iq.thc.org/breaking-ebpf-security-how-kernel-rootkits-blind-observability-tools) | 内核rootkit利用eBPF漏洞绕过可观测性工具的安全研究分析 |
 | [exploit_reversing_06_extended.pdf](https://exploitreversing.com/wp-content/uploads/2026/02/exploit_reversing_06_extended.pdf) | 漏洞利用与逆向工程技术文档 |
 | [context-repositories](https://www.letta.com/blog/context-repositories) | 基于Git的编程代理上下文记忆管理系统 |
 | [loading-kernel-drivers-in-memory-fc5d71c576e2](https://medium.com/@s12deff/loading-kernel-drivers-in-memory-fc5d71c576e2) | 内存加载内核驱动的嵌入式技术实现 |
@@ -70,19 +81,16 @@
 | [samstung-part-1-remote-code-execution-in-magicinfo-server.html](https://srcincite.io/blog/2026/01/28/samstung-part-1-remote-code-execution-in-magicinfo-server.html) | 三星MagicINFO服务器远程代码执行漏洞分析 |
 | [chrome-browser-exploitation-1](https://jhalon.github.io/chrome-browser-exploitation-1/) | Chrome浏览器V8引擎漏洞利用与JavaScript内部机制深度解析 |
 | [thoughts-on-go-vs.-rust-vs.-zig](https://sinclairtarget.com/blog/2025/08/thoughts-on-go-vs.-rust-vs.-zig/) | 编程语言Go、Rust、Zig对比分析与设计哲学探讨 |
-| [62419](https://hackernews.cc/archives/62419) |  |
 | [weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign](https://www.esentire.com/blog/weaponized-in-china-deployed-in-india-the-syncfuture-espionage-targeted-campaign) | 针对印度的中国APT间谍钓鱼攻击活动分析 |
 | [getting-started-with-mythic-c2](https://r4ulcl.com/posts/getting-started-with-mythic-c2/) | Mythic C2 模块化渗透测试命令控制框架入门指南 |
 | [patch-diffing-ios-kernel](https://8ksec.io/patch-diffing-ios-kernel/) | iOS内核内存破坏漏洞补丁差分分析实战 |
 | [chaos-rootkit-internals-explained](https://www.hackandhide.com/chaos-rootkit-internals-explained/) | Windows内核级Rootkit开发技术深度解析 |
-| [3453](https://paper.seebug.org/3453/) |  |
 | [59e79a0cfa5bb3421b5d166a08e42f30](https://gist.github.com/johnsoncodehk/59e79a0cfa5bb3421b5d166a08e42f30) | 高性能响应式信号库性能优化深度解析文档 |
 | [whos-on-the-line-exploiting-rce-in-windows-telephony-service](https://swarm.ptsecurity.com/whos-on-the-line-exploiting-rce-in-windows-telephony-service/) | Windows电话服务远程代码执行漏洞利用分析 |
 | [Singularity-A-final-boss-linux-kernel-rootkit](https://blog.kyntra.io/Singularity-A-final-boss-linux-kernel-rootkit) | Linux内核级隐蔽型Rootkit攻防技术深度解析 |
 | [Stealthy-Persistence-With-Non-Existent-Executable-File.html](https://www.zerosalarium.com/2025/09/Stealthy-Persistence-With-Non-Existent-Executable-File.html) | 利用Windows可执行文件自动搜索机制实现隐蔽持久化 |
 | [securitytrace-etw-ppl](https://www.originhq.com/blog/securitytrace-etw-ppl) | 绕过PPL限制访问ETW威胁情报提供程序的技术研究 |
 | [patch-analysis-of-Apple-iOS-CVE-2025-43300.html](https://blog.quarkslab.com/patch-analysis-of-Apple-iOS-CVE-2025-43300.html) | 苹果iOS图像处理零点击漏洞逆向分析 |
-| [custom-dll-loading-technique-in-windows-c84ba0496a6f](https://medium.com/@s12deff/custom-dll-loading-technique-in-windows-c84ba0496a6f) |  |
 | [creating-a-rust-application-running-in-vtl1](https://fluxsec.red/creating-a-rust-application-running-in-vtl1) | Rust实现Windows VBS安全飞地VTL1隔离环境开发 |
 | [Basic-Driver-Writing-and-Exploiting.html](https://apexpredator-infosec.github.io/posts/2026/01/16/Basic-Driver-Writing-and-Exploiting.html) | Windows内核驱动开发与漏洞利用入门教程 |
 | [breaking-fortinet-firmware-encryption](https://bishopfox.com/blog/breaking-fortinet-firmware-encryption) | 破解Fortinet固件加密的安全研究与漏洞分析 |
@@ -92,12 +100,10 @@
 | [hitcon-2025](https://sylvie.fyi/posts/hitcon-2025/) | 利用BMP多语言文件实现远程代码执行的CTF挑战 |
 | [bind-link-edr-tampering](https://ipurple.team/2025/12/01/bind-link-edr-tampering/) | 利用Bind Link API重定向EDR文件夹实现安全绕过 |
 | [edr-silencing](https://ipurple.team/2026/01/12/edr-silencing/) | 通过防火墙规则阻断EDR云端通信的攻防技术研究 |
-| [evasive-remote-memory-write-22e6ddc89517](https://medium.com/@s12deff/evasive-remote-memory-write-22e6ddc89517) |  |
 | [0022](https://bugs.pwno.io/0022) | PostgreSQL数据库WAIT FOR LSN功能数组越界漏洞分析 |
 | [elf-binary](https://nutcrackerssecurity.github.io/posts/elf-binary/) | ELF二进制文件格式解析与结构分析教程 |
 | [serving-carbonara](https://shomy.is-a.dev/blog/article/serving-carbonara) | MediaTek芯片bootloader解锁漏洞分析与利用研究 |
-| [patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026](https://www.outflank.nl/blog/2026/01/07/patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026/) |  |
-| [tutorial-dll-sideloading-and-function-proxying-with-shellcodepack-bddd197c8814](https://blog.balliskit.com/tutorial-dll-sideloading-and-function-proxying-with-shellcodepack-bddd197c8814) |  |
+| [patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026](https://www.outflank.nl/blog/2026/01/07/patchguard-peekaboo-hiding-processes-on-systems-with-patchguard-in-2026/) | 在启用PatchGuard的Windows 11内核中隐藏进程的安全研究 |
 | [esxi-vm-escape-exploit](https://www.huntress.com/blog/esxi-vm-escape-exploit) | ESXi虚拟机逃逸零日漏洞利用分析 |
 | [predator-ios-malware-surveillance-framework-part-1](https://blog.reversesociety.co/blog/2025/predator-ios-malware-surveillance-framework-part-1) | iOS间谍软件Predator监控框架逆向工程技术分析 |
 | [kernel_of_doom](https://www.archcloudlabs.com/projects/kernel_of_doom/) | 定制极简Linux内核启动Doom游戏的技术实验 |
@@ -146,7 +152,6 @@
 | [简易创建一个基于AI的EDR](https://tierzerosecurity.co.nz/2025/04/14/edv.html) | 基于Copilot LLM的Windows主机恶意行为检测工具 |
 | [自动化寻找可利用的RPC](https://www.incendium.rocks/posts/Automating-MS-RPC-Vulnerability-Research/) | 微软RPC协议漏洞自动化研究与模糊测试工具 |
 | [自动化寻找可利用的COM](https://www.incendium.rocks/posts/Automating-COM-Vulnerability-Research/) | COM/DCOM漏洞研究自动化模糊测试工具 |
-| [wfp 阻止EDR](https://ryan.framinan.net/blog/silentbutdeadly) |  |
 | [bitlocker 破解与建议](https://www.errno.fr/Bitlocker_TPM_and_PIN_privesc) | BitLocker TPM+PIN 保护机制绕过与权限提升技术研究 |
 | [蓝牙漏洞分析](https://www.synacktiv.com/en/publications/paint-it-blue-attacking-the-bluetooth-stack) | 蓝牙协议栈漏洞利用与远程代码执行攻击研究 |
 | [Windows ARM64 Internals](https://connormcgarr.github.io/arm64-windows-internals-basics/) | ARM64架构下Windows内核机制与虚拟化技术深度解析 |
@@ -172,7 +177,6 @@
 | [Android 逆向](https://www.ragingrock.com/AndroidAppRE/) | Android应用逆向工程入门教程与实战指南 |
 | [滥用Azure Service Bus基础架构创建加密隧道](https://hackerhermanos.com/azbridge/) | Azure中继桥工具的红队渗透利用与隐蔽C2通道构建技术 |
 | [基于AI的anti分析加载器](https://specterops.io/blog/2025/10/03/ai-gated-loader-teaching-code-to-decide-before-it-acts/) | AI驱动的智能加载器，根据环境决策执行载荷 |
-| [MeetC2的新招AWS-X-Ray](https://medium.com/@dhiraj_mishra/ghost-in-the-cloud-weaponizing-aws-x-ray-for-command-control-7539d60f1d77) |  |
 | [ebpf Rootkit 分析](https://www.synacktiv.com/en/publications/linkpro-ebpf-rootkit-analysis) | 基于eBPF技术的Linux rootkit恶意软件分析 |
 | [AllThings 一把梭](https://swisskyrepo.github.io/InternalAllTheThings/) | 内网渗透与AD攻击速查手册 |
 | [LLVM PASS 教学](https://shadowshell.io/phantom-pass/) | LLVM代码混淆工具集，支持IR和机器码级别保护 |

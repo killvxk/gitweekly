@@ -2,6 +2,13 @@
 
 | 链接 | 描述 |
 |------|------|
+| [IDAssist](https://github.com/symgraph/IDAssist) | 基于AI的IDA Pro逆向工程辅助插件 |
+| [GPUOS](https://github.com/Multi-V-VM/GPUOS) | 支持持久化内核与JIT注入算子的CUDA GPU操作系统框架 |
+| [Phantom](https://github.com/zux0x3a/Phantom) | 在IIS w3wp进程内存中反射加载执行.NET程序集的工具 |
+
+
+| 链接 | 描述 |
+|------|------|
 | [lnk-it-up](https://github.com/wietze/lnk-it-up) | Windows LNK快捷方式欺骗性文件生成与检测工具 |
 
 ## 最新收集

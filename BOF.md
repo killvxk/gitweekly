@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Adrenaline](https://github.com/atomiczsec/Adrenaline) | 用于红队对抗的小型可互换BOF集合工具 |
 | [lsawhisper-bof](https://github.com/dazzyddos/lsawhisper-bof) | 通过LSA接口提取Windows凭据的Beacon对象文件工具 |
 | [cua-kit](https://github.com/preludeorg/cua-kit) | 计算机使用代理攻击工具包，支持枚举、执行和会话投毒 |
 | [the-one-wsl-bof](https://github.com/MayerDaniel/the-one-wsl-bof) | Cobalt Strike BOF工具，通过COM接口直接在WSL中执行命令 |

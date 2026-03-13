@@ -1901,5 +1901,6 @@
   "https://github.com/praetorian-inc/trajan": "多平台CI/CD流水线安全漏洞扫描与供应链攻击检测工具",
   "https://github.com/tobi/qmd": "本地Markdown文档语义搜索引擎，支持MCP集成",
   "https://github.com/bee-san/Ciphey": "全自动密文破解与解码工具，支持50+加密算法",
-  "https://github.com/arielmendoza/Windows-factory-reset-tool": "命令行编程式触发Windows出厂重置的安全研究工具"
+  "https://github.com/arielmendoza/Windows-factory-reset-tool": "命令行编程式触发Windows出厂重置的安全研究工具",
+  "https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/install.sh": "ClawdBot聊天机器人一键部署安装脚本"
 }

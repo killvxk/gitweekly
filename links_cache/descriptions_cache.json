@@ -1887,5 +1887,19 @@
   "https://github.com/YASSERRMD/barq-web-rag": "纯浏览器端运行的 RAG 应用，支持文档上传并通过本地 LLM 进行语义检索问答",
   "https://github.com/wu-yc/LabClaw": "面向 Stanford LabOS 的下一代 AI 科研协作技能操作层框架",
   "https://github.com/SecurityClaw/SecurityClaw": "基于 LLM 和 RAG 的模块化自主 SOC 安全运营异常检测 Agent",
-  "https://github.com/BehiSecc/bugSkills": "将 HackerOne 漏洞报告转换为可复用 AI 技能的安全研究工具"
+  "https://github.com/BehiSecc/bugSkills": "将 HackerOne 漏洞报告转换为可复用 AI 技能的安全研究工具",
+  "https://www.trellix.com/blogs/research/fileless-multi-stage-remcos-rat-phishing-to-memory/": "无文件多阶段Remcos远控木马从钓鱼到内存驻留的攻击链分析",
+  "https://github.com/28Zaaky/PulseC2": "基于HTTPS加密通信的Python/C++ C2远控框架",
+  "https://github.com/usestrix/strix": "AI驱动的自主漏洞发现与安全测试代理平台",
+  "https://github.com/golutra/golutra": "多AI编程代理并行协作的桌面工作空间管理工具",
+  "https://github.com/ruvnet/ruflo": "企业级多AI智能体编排与群协调平台",
+  "https://github.com/davebcn87/pi-autoresearch": "Pi编辑器的自主实验循环与指标优化扩展",
+  "https://github.com/nektos/act": "本地运行GitHub Actions工作流的开源测试工具",
+  "https://github.com/gongyisheng/pretrain": "单GPU纯PyTorch语言模型预训练实验框架",
+  "https://github.com/msitarzewski/agency-agents": "多角色AI代理团队工具，覆盖前端、社区运营等专业领域",
+  "https://github.com/wiseman/osm-mcp": "基于MCP协议的OpenStreetMap地图数据查询与可视化服务器",
+  "https://github.com/praetorian-inc/trajan": "多平台CI/CD流水线安全漏洞扫描与供应链攻击检测工具",
+  "https://github.com/tobi/qmd": "本地Markdown文档语义搜索引擎，支持MCP集成",
+  "https://github.com/bee-san/Ciphey": "全自动密文破解与解码工具，支持50+加密算法",
+  "https://github.com/arielmendoza/Windows-factory-reset-tool": "命令行编程式触发Windows出厂重置的安全研究工具"
 }

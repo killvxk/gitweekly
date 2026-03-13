@@ -2,30 +2,18 @@
 
 | 链接 | 描述 |
 |------|------|
+| [Ciphey](https://github.com/bee-san/Ciphey) | 全自动密文破解与解码工具，支持50+加密算法 |
+| [Windows-factory-reset-tool](https://github.com/arielmendoza/Windows-factory-reset-tool) | 命令行编程式触发Windows出厂重置的安全研究工具 |
 | [IDAssist](https://github.com/symgraph/IDAssist) | 基于AI的IDA Pro逆向工程辅助插件 |
 | [GPUOS](https://github.com/Multi-V-VM/GPUOS) | 支持持久化内核与JIT注入算子的CUDA GPU操作系统框架 |
 | [Phantom](https://github.com/zux0x3a/Phantom) | 在IIS w3wp进程内存中反射加载执行.NET程序集的工具 |
-
-
-| 链接 | 描述 |
-|------|------|
 | [lnk-it-up](https://github.com/wietze/lnk-it-up) | Windows LNK快捷方式欺骗性文件生成与检测工具 |
-
-## 最新收集
-
-| 链接 | 描述 |
-|------|------|
 | [x64dbg-skills](https://github.com/dariushoule/x64dbg-skills) | x64dbg调试器自动化逆向工程Claude插件 |
 | [Security-Detections-MCP](https://github.com/MHaggis/Security-Detections-MCP) | 统一查询Sigma/Splunk/Elastic/KQL检测规则的MCP服务器 |
 | [SysWhispers4](https://github.com/JoasASantos/SysWhispers4) | 绕过AV/EDR钩子的Windows系统调用生成工具 |
 | [coruna](https://github.com/khanhduytran0/coruna) | 多版本iOS漏洞利用链工具包 |
 | [stacktracer](https://github.com/whokilleddb/stacktracer) | 提取Windows进程栈帧的Rust安全研究工具 |
 | [AndroHunter](https://github.com/ynsmroztas/AndroHunter) | Android原生安全测试工具包，支持静态分析和动态模糊测试 |
-
-## 项目收集
-
-| 链接 | 描述 |
-|------|----- |
 | [macnoise](https://github.com/0xv1n/macnoise) | macOS系统遥测事件生成框架，用于EDR检测能力验证和安全测试 |
 | [nerva](https://github.com/praetorian-inc/nerva) | 支持120+协议的高性能服务指纹识别工具 |
 | [evasion-hub](https://github.com/ybdt/evasion-hub) | Windows系统AV/EDR规避技术研究与代码集合 |

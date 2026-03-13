@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [strix](https://github.com/usestrix/strix) | AI驱动的自主漏洞发现与安全测试代理平台 |
+| [golutra](https://github.com/golutra/golutra) | 多AI编程代理并行协作的桌面工作空间管理工具 |
+| [ruflo](https://github.com/ruvnet/ruflo) | 企业级多AI智能体编排与群协调平台 |
+| [pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) | Pi编辑器的自主实验循环与指标优化扩展 |
+| [act](https://github.com/nektos/act) | 本地运行GitHub Actions工作流的开源测试工具 |
+| [pretrain](https://github.com/gongyisheng/pretrain) | 单GPU纯PyTorch语言模型预训练实验框架 |
+| [agency-agents](https://github.com/msitarzewski/agency-agents) | 多角色AI代理团队工具，覆盖前端、社区运营等专业领域 |
+| [osm-mcp](https://github.com/wiseman/osm-mcp) | 基于MCP协议的OpenStreetMap地图数据查询与可视化服务器 |
+| [trajan](https://github.com/praetorian-inc/trajan) | 多平台CI/CD流水线安全漏洞扫描与供应链攻击检测工具 |
+| [qmd](https://github.com/tobi/qmd) | 本地Markdown文档语义搜索引擎，支持MCP集成 |
 | [proxcenter-ui](https://github.com/adminsyspro/proxcenter-ui) | 管理多个Proxmox VE集群的开源vCenter替代品Web界面 |
 | [APILEECH](https://github.com/calinux-py/APILEECH) | 嗅探浏览器网络请求以突破API限制的Chrome扩展工具 |
 | [pua](https://github.com/tanweai/pua) | 模拟PUA管理风格对AI Agent进行角色扮演压力测试的HTML工具 |
@@ -15,9 +25,6 @@
 | [openclaw-manager](https://github.com/miaoxworld/openclaw-manager) | 基于Tauri 2.0+React+Rust构建的跨平台AI助手服务管理工具 |
 | [coinos-skills](https://github.com/aicoincom/coinos-skills) | 为AI Agent提供40+加密货币实时价格、K线与链上数据分析工具集 |
 | [barq-web-rag](https://github.com/YASSERRMD/barq-web-rag) | 纯浏览器端运行的RAG应用，支持文档上传并通过本地LLM进行语义检索问答 |
-
-| 文章 | 简介 |
-|------|------|
 | [ghost-os](https://github.com/ghostwright/ghost-os) | 让AI智能体完整操控macOS所有应用的MCP工具 |
 | [agenthub](https://github.com/karpathy/agenthub) | 面向AI智能体的Git协作平台，支持DAG提交与消息协调 |
 | [autoresearch-macos](https://github.com/miolini/autoresearch-macos) | Apple Silicon上AI自主LLM训练实验的macOS适配框架 |
@@ -31,9 +38,6 @@
 | [ApplyCalleeTypeEx](https://github.com/Dump-GUY/ApplyCalleeTypeEx) | IDA Pro间接调用函数原型应用插件，修复动态API类型识别 |
 | [superset](https://github.com/superset-sh/superset) | AI代码助手并行执行终端，支持多智能体协同开发 |
 | [exvul-solana-skill](https://github.com/exvulsec/exvul-solana-skill) | Solana智能合约端到端自动化安全审计Claude技能 |
-
-| 文章 | 简介 |
-|------|------|
 | [howcryptoworksbook](https://github.com/lawmaster10/howcryptoworksbook) | 加密货币技术原理开源教材，涵盖比特币到DeFi的完整知识体系 |
 | [KingCastle](https://github.com/ThePirateWhoSmellsOfSunflowers/KingCastle) | Active Directory域快速侦察工具，基于LDAP查询识别安全问题 |
 | [AgentGuard](https://github.com/numbergroup/AgentGuard) | AI代理安全防护框架，防御提示注入和命令注入攻击 |

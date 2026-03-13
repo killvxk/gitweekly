@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [fileless-multi-stage-remcos-rat](https://www.trellix.com/blogs/research/fileless-multi-stage-remcos-rat-phishing-to-memory/) | 无文件多阶段Remcos远控木马从钓鱼到内存驻留的攻击链分析 |
 | [arm-64-reversing-and-exploitation-series](https://8ksec.io/arm-64-reversing-and-exploitation-series/) | ARM64架构漏洞分析与利用技术的系列教程 |
 | [xygeni-action-compromised](https://www.stepsecurity.io/blog/xygeni-action-compromised-c2-reverse-shell-backdoor-injected-via-tag-poisoning) | GitHub Action供应链攻击通过tag投毒注入C2后门的案例分析 |
 | [reverse-engineering-with-ai](https://landaire.net/reverse-engineering-with-ai/) | 借助Claude AI与Binary Ninja逆向分析专有游戏文件格式的实践 |
@@ -12,14 +13,8 @@
 | [BitLocker_part1](https://hackyboiz.github.io/2026/01/22/banda/BitLocker_part1/en/) | BitLocker AES-XTS加密缺陷与CVE-2025-21210攻击的Windows磁盘加密安全分析 |
 | [rdp_fuzzing2](https://hackyboiz.github.io/2022/02/13/l0ch/rdp_fuzzing2/) | 使用WinAFL与DynamoRIO对RDP多通道协议进行模糊测试挖掘内存安全漏洞 |
 | [building-a-detection-foundation-part-3](https://trustedsec.com/blog/building-a-detection-foundation-part-3-powershell-and-script-logging) | 构建PowerShell与脚本日志检测基础的安全防御体系 |
-
-| 文章 | 简介 |
-|------|------|
 | [malware-cryptography-44](https://cocomelonc.github.io/malware/2026/03/05/malware-cryptography-44.html) | 利用离散傅里叶变换混淆Shellcode规避EDR检测的加密技术 |
 | [mobile-malware-analysis-part-5](https://8ksec.io/mobile-malware-analysis-part-5-analyzing-an-infected-device/) | iOS设备恶意软件感染取证分析与IOC检测实战教程 |
-
-| 文章 | 简介 |
-|------|------|
 | [reversing-bedaisy](https://s4dbrd.github.io/posts/reversing-bedaisy/) | BattlEye反作弊内核驱动BEDaisy.sys静态逆向分析 |
 | [GitHub Security Lab AI Scanner](https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/) | GitHub Security Lab开源AI驱动漏洞扫描框架 |
 | [200-kernel-bugs-in-30-days](https://ydinkin.substack.com/p/200-kernel-bugs-in-30-days) | AI代理群自动化挖掘Windows内核驱动漏洞的大规模安全研究 |

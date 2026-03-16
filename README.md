@@ -2,6 +2,14 @@
 
 | 链接 | 描述 |
 |------|------|
+| [kerlab](https://github.com/airbus-cert/kerlab) | Rust实现的Kerberos协议工具集，支持票据操作与密码喷洒 |
+| [DriverExplorer](https://github.com/orinimron123/DriverExplorer) | Windows内核驱动查看与管理的Rust桌面工具 |
+| [iOS-Coruna-Reconstruction](https://github.com/zeroxjf/iOS-Coruna-Reconstruction) | iOS 16-17多阶段浏览器漏洞利用链逆向重建项目 |
+| [StealthyWMIExec.py](https://github.com/Ghaleb0x317374/StealthyWMIExec.py) | 基于WMI的无文件横向移动隐蔽命令执行工具 |
+| [Crucix](https://github.com/calesthio/Crucix) | 聚合27个开源情报源的自托管OSINT监控仪表盘 |
+| [HorusEye](https://github.com/omar-tamerr/HorusEye) | AI驱动的Active Directory自动化渗透测试平台 |
+| [cutile-rs](https://github.com/NVlabs/cutile-rs) | Rust GPU瓦片核函数编程DSL |
+| [SysCaller](https://github.com/micREsoft/SysCaller) | 跨语言Windows系统调用直接调用SDK，绕过用户态Hook |
 | [Ciphey](https://github.com/bee-san/Ciphey) | 全自动密文破解与解码工具，支持50+加密算法 |
 | [Windows-factory-reset-tool](https://github.com/arielmendoza/Windows-factory-reset-tool) | 命令行编程式触发Windows出厂重置的安全研究工具 |
 | [IDAssist](https://github.com/symgraph/IDAssist) | 基于AI的IDA Pro逆向工程辅助插件 |

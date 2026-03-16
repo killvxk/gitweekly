@@ -1940,5 +1940,13 @@
   "https://github.com/hyperspaceai/agi": "自主Agent协作运行ML实验的分布式P2P系统",
   "https://github.com/ishrut/raclettui": "基于Ratatui构建Wayland层级Shell应用的Rust库",
   "https://github.com/NyanSatan/polinaserial": "支持iBoot日志解混淆的Mac串口监控工具",
-  "https://github.com/Michaelliv/pi-generative-ui": "逆向Claude.ai生成式UI并渲染到macOS原生窗口"
+  "https://github.com/Michaelliv/pi-generative-ui": "逆向Claude.ai生成式UI并渲染到macOS原生窗口",
+  "https://github.com/airbus-cert/kerlab": "Rust实现的Kerberos协议工具集，支持票据操作与密码喷洒",
+  "https://github.com/orinimron123/DriverExplorer": "Windows内核驱动查看与管理的Rust桌面工具",
+  "https://github.com/zeroxjf/iOS-Coruna-Reconstruction": "iOS 16-17多阶段浏览器漏洞利用链逆向重建项目",
+  "https://github.com/Ghaleb0x317374/StealthyWMIExec.py": "基于WMI的无文件横向移动隐蔽命令执行工具",
+  "https://github.com/calesthio/Crucix": "聚合27个开源情报源的自托管OSINT监控仪表盘",
+  "https://github.com/omar-tamerr/HorusEye": "AI驱动的Active Directory自动化渗透测试平台",
+  "https://github.com/micREsoft/SysCaller": "跨语言Windows系统调用直接调用SDK，绕过用户态Hook",
+  "https://github.com/NVlabs/cutile-rs": "Rust GPU瓦片核函数编程DSL"
 }

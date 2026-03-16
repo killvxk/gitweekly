@@ -1948,5 +1948,9 @@
   "https://github.com/calesthio/Crucix": "聚合27个开源情报源的自托管OSINT监控仪表盘",
   "https://github.com/omar-tamerr/HorusEye": "AI驱动的Active Directory自动化渗透测试平台",
   "https://github.com/micREsoft/SysCaller": "跨语言Windows系统调用直接调用SDK，绕过用户态Hook",
-  "https://github.com/NVlabs/cutile-rs": "Rust GPU瓦片核函数编程DSL"
+  "https://github.com/NVlabs/cutile-rs": "Rust GPU瓦片核函数编程DSL",
+  "https://github.com/ljagiello/ctf-skills": "CTF夺旗赛多类别AI技能集合，覆盖Web、Pwn、密码学等七大领域",
+  "https://github.com/gl0bal01/malware-analysis-claude-skills": "Claude AI恶意软件分析技能包，提供从分类到检测规则的完整流程",
+  "https://github.com/meirm/reverse-engineering-skill": "从代码库逆向提取业务逻辑并生成BDD测试的Claude技能集",
+  "https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/": "Windows内核漏洞利用入门教程系列"
 }

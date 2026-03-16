@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [0x00-introduction-to-windows-kernel-exploitation](https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/) | Windows内核漏洞利用入门教程系列 |
 | [reverse-engineering-windows-11-kernel](https://fluxsec.red/reverse-engineering-windows-11-kernel) | 逆向Windows 11内核实现ETW威胁情报日志的EDR研究 |
 | [rip-regpwn](https://www.mdsec.co.uk/2026/03/rip-regpwn/) | 利用注册表键提权至SYSTEM的Windows漏洞分析 |
 | [Stealthy-WMI-lateral-movement](https://ghaleb0x317374.github.io/2026/03/15/Stealthy-WMI-lateral-movement-StealthyWMIExec.py.html) | 基于WMI的隐蔽横向移动技术与LOLBins利用 |

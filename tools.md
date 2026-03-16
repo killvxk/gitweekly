@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ctf-skills](https://github.com/ljagiello/ctf-skills) | CTF夺旗赛多类别AI技能集合，覆盖Web、Pwn、密码学等七大领域 |
+| [malware-analysis-claude-skills](https://github.com/gl0bal01/malware-analysis-claude-skills) | Claude AI恶意软件分析技能包，提供从分类到检测规则的完整流程 |
+| [reverse-engineering-skill](https://github.com/meirm/reverse-engineering-skill) | 从代码库逆向提取业务逻辑并生成BDD测试的Claude技能集 |
 | [dmux](https://github.com/standardagents/dmux) | 并行管理多AI编程Agent的tmux终端工具 |
 | [payall-cli](https://github.com/C0ldSmi1e/payall-cli) | 管理加密货币借记卡的终端CLI工具 |
 | [rgx](https://github.com/brevity1swos/rgx) | 终端实时正则调试的Rust TUI工具 |

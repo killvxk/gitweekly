@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [reverse-engineering-windows-11-kernel](https://fluxsec.red/reverse-engineering-windows-11-kernel) | 逆向Windows 11内核实现ETW威胁情报日志的EDR研究 |
+| [rip-regpwn](https://www.mdsec.co.uk/2026/03/rip-regpwn/) | 利用注册表键提权至SYSTEM的Windows漏洞分析 |
+| [Stealthy-WMI-lateral-movement](https://ghaleb0x317374.github.io/2026/03/15/Stealthy-WMI-lateral-movement-StealthyWMIExec.py.html) | 基于WMI的隐蔽横向移动技术与LOLBins利用 |
+| [edr-internals-macos-linux](https://www.outflank.nl/blog/2024/06/03/edr-internals-macos-linux/) | macOS与Linux平台EDR内部遥测机制分析 |
+| [AppsFlyer SDK供应链攻击](https://gist.github.com/cometkim/5bea18688e1653d2c3fe5476d3efed12) | AppsFlyer SDK供应链攻击中的加密货币地址替换木马 |
+| [PS虚拟机监控程序漏洞](https://gist.github.com/flatz/620ddda6d64acca6d1c990dc3080ac0e) | PlayStation虚拟机监控程序漏洞利用实现内存保护绕过 |
+| [Byoud](https://klezvirus.github.io/posts/Byoud) | BYOUD框架通过操控展开元数据实现CET兼容调用栈伪造 |
+| [DiceCTF 2026 cornelslop](https://ptr-yudai.hatenablog.com/entry/2026/03/16/174349) | DiceCTF RCU双重释放转跨缓存Linux内核提权漏洞利用 |
+| [Windows VTL2 Technical Exploration](https://howknows.github.io/roooot.github.io/VTL2/Windows_VTL2_Technical_Exploration.html) | Windows VTL2虚拟化安全层架构与调试技术深度探索 |
 | [fileless-multi-stage-remcos-rat](https://www.trellix.com/blogs/research/fileless-multi-stage-remcos-rat-phishing-to-memory/) | 无文件多阶段Remcos远控木马从钓鱼到内存驻留的攻击链分析 |
 | [arm-64-reversing-and-exploitation-series](https://8ksec.io/arm-64-reversing-and-exploitation-series/) | ARM64架构漏洞分析与利用技术的系列教程 |
 | [xygeni-action-compromised](https://www.stepsecurity.io/blog/xygeni-action-compromised-c2-reverse-shell-backdoor-injected-via-tag-poisoning) | GitHub Action供应链攻击通过tag投毒注入C2后门的案例分析 |

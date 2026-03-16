@@ -2,6 +2,34 @@
 
 | 文章 | 简介 |
 |------|------|
+| [dmux](https://github.com/standardagents/dmux) | 并行管理多AI编程Agent的tmux终端工具 |
+| [payall-cli](https://github.com/C0ldSmi1e/payall-cli) | 管理加密货币借记卡的终端CLI工具 |
+| [rgx](https://github.com/brevity1swos/rgx) | 终端实时正则调试的Rust TUI工具 |
+| [AutoContinue](https://github.com/MoYeRanqianzhi/AutoContinue) | 自动向Claude Code发送continue指令的Rust CLI |
+| [bb-browser](https://github.com/epiral/bb-browser) | 让AI控制真实Chrome浏览器的MCP服务器 |
+| [bb-sites](https://github.com/epiral/bb-sites) | bb-browser的社区站点适配器集合 |
+| [finance-skills](https://github.com/himself65/finance-skills) | 用于金融分析与交易的AI Agent技能集 |
+| [chrome-cdp-skill](https://github.com/pasky/chrome-cdp-skill) | 通过CDP协议控制Chrome浏览器的AI技能 |
+| [airecon](https://github.com/pikpikcu/airecon) | 基于本地LLM的自主渗透测试Agent |
+| [airecon-skills](https://github.com/pikpikcu/airecon-skills) | 扩展AIRecon知识库的社区技能包 |
+| [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | MITRE ATT&CK映射的734+网络安全AI技能集 |
+| [Luac0re](https://github.com/Gezine/Luac0re) | PS4/PS5 PS2模拟器逃逸的Lua代码执行漏洞利用工具 |
+| [ipsw](https://github.com/blacktop/ipsw) | iOS/macOS固件分析研究的Go命令行工具 |
+| [memory-framework](https://github.com/OuroChival-Shizue/memory-framework) | 双Agent架构的AI辅助小说写作框架 |
+| [webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 基于Claude Code的长篇网文连载写作系统 |
+| [Polaris](https://github.com/misxzaiz/Polaris) | 多AI引擎的图形化Claude Code编程助手 |
+| [pm-skills](https://github.com/phuryn/pm-skills) | 为产品经理提供65个AI技能和36个工作流的Claude插件市场 |
+| [xcraft](https://github.com/BugenZhao/xcraft) | 从终端构建和运行Xcode项目的Rust CLI工具 |
+| [MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR) | 将PDF和图像解析为Markdown的文档OCR模型 |
+| [ICRL](https://github.com/applese233/ICRL) | 结合强化学习训练LLM使用工具的框架 |
+| [Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | 具备长期记忆的个人AI基础设施平台 |
+| [nopua](https://github.com/wuji-labs/nopua) | 用信任代替恐吓提示词以提升AI表现的技巧库 |
+| [PUAX](https://github.com/linkerlin/PUAX) | 检测AI卡顿并自动激励突破障碍的Agent系统 |
+| [taiji](https://github.com/zhy2015/taiji) | 融合PUA与nopua风格的平衡提示词Python实现 |
+| [agi](https://github.com/hyperspaceai/agi) | 自主Agent协作运行ML实验的分布式P2P系统 |
+| [raclettui](https://github.com/ishrut/raclettui) | 基于Ratatui构建Wayland层级Shell应用的Rust库 |
+| [polinaserial](https://github.com/NyanSatan/polinaserial) | 支持iBoot日志解混淆的Mac串口监控工具 |
+| [pi-generative-ui](https://github.com/Michaelliv/pi-generative-ui) | 逆向Claude.ai生成式UI并渲染到macOS原生窗口 |
 | [strix](https://github.com/usestrix/strix) | AI驱动的自主漏洞发现与安全测试代理平台 |
 | [golutra](https://github.com/golutra/golutra) | 多AI编程代理并行协作的桌面工作空间管理工具 |
 | [ruflo](https://github.com/ruvnet/ruflo) | 企业级多AI智能体编排与群协调平台 |

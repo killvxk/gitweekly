@@ -1952,5 +1952,7 @@
   "https://github.com/ljagiello/ctf-skills": "CTF夺旗赛多类别AI技能集合，覆盖Web、Pwn、密码学等七大领域",
   "https://github.com/gl0bal01/malware-analysis-claude-skills": "Claude AI恶意软件分析技能包，提供从分类到检测规则的完整流程",
   "https://github.com/meirm/reverse-engineering-skill": "从代码库逆向提取业务逻辑并生成BDD测试的Claude技能集",
-  "https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/": "Windows内核漏洞利用入门教程系列"
+  "https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/": "Windows内核漏洞利用入门教程系列",
+  "https://github.com/nikaiw/VMkatz": "从虚拟机内存快照与磁盘离线提取Windows凭据的Rust工具",
+  "https://github.com/JDArmy/Evasion-SubAgents": "基于Claude Code多智能体的免杀Shellcode Loader生成框架"
 }

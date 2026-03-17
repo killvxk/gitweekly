@@ -1,10 +1,9 @@
 # gitweekly
 
-https://github.com/nikaiw/VMkatz
-
-
 | 链接 | 描述 |
 |------|------|
+| [VMkatz](https://github.com/nikaiw/VMkatz) | 从虚拟机内存快照与磁盘离线提取Windows凭据的Rust工具 |
+| [Evasion-SubAgents](https://github.com/JDArmy/Evasion-SubAgents) | 基于Claude Code多智能体的免杀Shellcode Loader生成框架 |
 | [kerlab](https://github.com/airbus-cert/kerlab) | Rust实现的Kerberos协议工具集，支持票据操作与密码喷洒 |
 | [DriverExplorer](https://github.com/orinimron123/DriverExplorer) | Windows内核驱动查看与管理的Rust桌面工具 |
 | [iOS-Coruna-Reconstruction](https://github.com/zeroxjf/iOS-Coruna-Reconstruction) | iOS 16-17多阶段浏览器漏洞利用链逆向重建项目 |

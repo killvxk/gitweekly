@@ -2,6 +2,38 @@
 
 | 文章 | 简介 |
 |------|------|
+| [jj](https://github.com/jj-vcs/jj) | 基于Git后端的现代版本控制系统，支持自动提交与操作撤销 |
+| [llmchainhunter](https://github.com/atredispartners/llmchainhunter) | 利用LLM自动发现Java反序列化Gadget Chain的研究工具 |
+| [Outpacket](https://github.com/n00py/Outpacket) | impacket常见工作流到现代替代工具的映射速查表 |
+| [MANPADS-System-Launcher-and-Rocket](https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket) | 低成本ESP32制导火箭发射器概念验证原型 |
+| [sbom-tools](https://github.com/sbom-tool/sbom-tools) | 基于Rust的SBOM语义差异分析与合规性检查工具 |
+| [agent-team](https://github.com/JsonLee12138/agent-team) | 基于Git Worktree隔离的多AI智能体并行开发管理器 |
+| [ai-rss-feeds](https://github.com/leontloveless/ai-rss-feeds) | AI驱动的RSS订阅源生成器，为无RSS博客自动创建订阅 |
+| [lumo](https://github.com/zhnd/lumo) | 本地优先的Claude Code使用追踪与成本分析仪表板 |
+| [opendisc](https://github.com/jiangz222/opendisc) | 让Codex与Claude Code相互辩论产生优质答案的CLI工具 |
+| [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 通过多智能体流水线分析代码库并构建知识图谱的插件 |
+| [cc-connect](https://github.com/chenhg5/cc-connect) | 将AI编程代理桥接到飞书/钉钉等即时通讯平台的控制工具 |
+| [fly-brain](https://github.com/eonsystemspbc/fly-brain) | 基于FlyWire连接组数据的果蝇全脑LIF神经元计算模型 |
+| [VoiceInk](https://github.com/Beingpax/VoiceInk) | macOS原生语音转文字应用，支持离线AI识别与上下文感知 |
+| [PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 开源低成本10.5GHz相控阵雷达系统，支持电子波束控制 |
+| [erduo-skills](https://github.com/rookie-ricardo/erduo-skills) | AI Agent技能库，含日报生成、RSS精选与水印移除等功能 |
+| [OpenCovibe](https://github.com/AnyiWang/OpenCovibe) | 基于Tauri的AI编码代理本地GUI界面，支持多Provider切换 |
+| [ulamai](https://github.com/ulamai/ulamai) | AI辅助Lean 4定理证明CLI工具，支持机器验证数学证明 |
+| [OpenGauss](https://github.com/math-inc/OpenGauss) | Lean 4数学证明工作流的多智能体编排前端 |
+| [Sn1per](https://github.com/1N3/Sn1per) | 自动化攻击面管理与持续安全评估平台 |
+| [MSA](https://github.com/EverMind-AI/MSA) | 面向超长上下文的稀疏注意力记忆框架，支持1亿token推理 |
+| [morm](https://github.com/oboard/morm) | MoonBit语言的轻量级ORM工具包，无运行时反射 |
+| [automaton](https://github.com/Conway-Research/automaton) | 自主运行的AI代理框架，支持自我修改、复制与链上身份注册 |
+| [warden](https://github.com/stephnangue/warden) | 零信任出站网关，为工作负载透明注入云与AI API凭据 |
+| [claude-hud](https://github.com/jarrodwatts/claude-hud) | Claude Code终端状态栏插件，实时显示上下文与用量信息 |
+| [remodex](https://github.com/Emanuele-web04/remodex) | 通过iPhone远程控制Mac上OpenAI Codex的桥接工具 |
+| [OpenSquirrel](https://github.com/Infatoshi/OpenSquirrel) | 基于Rust/GPUI的多AI编程代理原生控制面板 |
+| [maestro](https://github.com/mobile-dev-inc/maestro) | 跨平台移动与Web应用UI端到端测试框架 |
+| [agentic-malware-analysis](https://github.com/mrphrazer/agentic-malware-analysis) | AI代理驱动的自动化恶意软件逆向工程环境 |
+| [PrivHound](https://github.com/dazzyddos/PrivHound) | 基于BloodHound的Windows本地提权路径图形化收集器 |
+| [MySearch-Proxy](https://github.com/skernelx/MySearch-Proxy) | 面向AI助手的统一搜索MCP服务与代理层 |
+| [TypeScript-C-Implementation-by-OnlySpecs](https://github.com/lidangzzz/TypeScript-C-Implementation-by-OnlySpecs) | 用C++重新实现的TypeScript 6.0兼容编译器 |
+| [plamen](https://github.com/PlamenTSV/plamen) | 自主智能合约安全审计代理，支持多链多模式PoC验证 |
 | [ctf-skills](https://github.com/ljagiello/ctf-skills) | CTF夺旗赛多类别AI技能集合，覆盖Web、Pwn、密码学等七大领域 |
 | [malware-analysis-claude-skills](https://github.com/gl0bal01/malware-analysis-claude-skills) | Claude AI恶意软件分析技能包，提供从分类到检测规则的完整流程 |
 | [reverse-engineering-skill](https://github.com/meirm/reverse-engineering-skill) | 从代码库逆向提取业务逻辑并生成BDD测试的Claude技能集 |

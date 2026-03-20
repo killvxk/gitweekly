@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [armory-rs](https://github.com/memN0ps/armory-rs) | 基于Rust的115个BOF集合，用于对手模拟与检测工程 |
+| [ESC1-unPAC](https://github.com/RayRRT/ESC1-unPAC) | 单次执行完整ESC1攻击链并提取NT哈希的BOF工具 |
+| [EDRSilencer-BOF](https://github.com/strozfriedberg/EDRSilencer-BOF) | 通过WFP API拦截EDR出站流量的BOF版静默工具 |
+| [BOF_ExecuteAssembly](https://github.com/NtDallas/BOF_ExecuteAssembly) | 集成AMSI/ETW绕过的内存执行.NET程序集BOF工具 |
+| [sekken-enum](https://github.com/Nomad0x7/sekken-enum) | 通过ADWS协议枚举Active Directory对象的BOF工具 |
 | [Adrenaline](https://github.com/atomiczsec/Adrenaline) | 用于红队对抗的小型可互换BOF集合工具 |
 | [lsawhisper-bof](https://github.com/dazzyddos/lsawhisper-bof) | 通过LSA接口提取Windows凭据的Beacon对象文件工具 |
 | [cua-kit](https://github.com/preludeorg/cua-kit) | 计算机使用代理攻击工具包，支持枚举、执行和会话投毒 |

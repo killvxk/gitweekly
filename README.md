@@ -1,7 +1,20 @@
 # gitweekly
 
+
 | 链接 | 描述 |
 |------|------|
+| [heretic](https://github.com/p-e-w/heretic) | 自动移除LLM安全对齐限制的方向性消融优化工具 |
+| [AdaptixC2-Template-Generators](https://github.com/AeonDave/AdaptixC2-Template-Generators) | AdaptixC2框架代理与监听器插件脚手架生成工具 |
+| [Fritter](https://github.com/0xROOTPLS/Fritter) | 深度改造Donut的抗签名随机化shellcode生成器 |
+| [Azoth](https://github.com/MiragePrivacy/Azoth) | 基于Rust的确定性EVM字节码混淆与形式验证工具 |
+| [AIComicBuilder](https://github.com/twwch/AIComicBuilder) | AI驱动的剧本到动画视频全流程漫剧生成器 |
+| [cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) | AI驱动的修仙世界模拟器，NPC由LLM独立决策演化 |
+| [xspulse](https://github.com/rohsec/xspulse) | 基于Go的XSS安全评估工具包，支持多模式扫描与WAF识别 |
+| [LOLRMM](https://github.com/magicsword-io/LOLRMM) | 社区驱动的可滥用RMM工具清单与Sigma检测规则库 |
+| [AV-EDR-Lab-Environment-Setup](https://github.com/An0nUD4Y/AV-EDR-Lab-Environment-Setup) | 恶意软件开发者EDR实验室环境搭建参考合集 |
+| [RMM-Checker](https://github.com/An0nUD4Y/RMM-Checker) | 检测网络中RMM工具域名可达性的PowerShell脚本 |
+| [EDR-Redir](https://github.com/TwoSevenOneT/EDR-Redir) | 利用Windows Bind Filter重定向EDR工作目录的研究工具 |
+| [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 收录30+款AI编程工具系统提示词的开源合集 |
 | [VMkatz](https://github.com/nikaiw/VMkatz) | 从虚拟机内存快照与磁盘离线提取Windows凭据的Rust工具 |
 | [Evasion-SubAgents](https://github.com/JDArmy/Evasion-SubAgents) | 基于Claude Code多智能体的免杀Shellcode Loader生成框架 |
 | [kerlab](https://github.com/airbus-cert/kerlab) | Rust实现的Kerberos协议工具集，支持票据操作与密码喷洒 |

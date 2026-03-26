@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [dial9: Tokio飞行记录器](https://tokio.rs/blog/2026-03-18-dial9) | Tokio异步运行时飞行记录器，捕获底层事件进行性能诊断 |
+| [mobile-malware-analysis-part-6-xenomorph](https://8ksec.io/mobile-malware-analysis-part-6-xenomorph/) | Android银行木马Xenomorph动态加载与混淆逆向分析 |
+| [rack-mount-hydroponics](https://sa.lj.am/rack-mount-hydroponics/) | 将闲置服务器机柜改造为自动化水培蔬菜种植系统 |
+| [i-ditched-elasticsearch-for-meilisearch](https://www.anisafifi.com/en/blog/i-ditched-elasticsearch-for-meilisearch-heres-what-nobody-tells-you/) | 从Elasticsearch迁移到Meilisearch的实战经验与对比分析 |
+| [factoring-512-rsa-bug-bounty](https://labs.trace37.com/blog/factoring-512-rsa-bug-bounty/) | 生产环境RSA-512密钥破解与加密强度漏洞赏金实战 |
+| [Living-off-the-Process](https://g3tsyst3m.com/lotp/Living-off-the-Process/) | 利用目标进程已有资源执行载荷的新型进程注入规避技术 |
+| [patch-bypass-netskope-client-lpe](https://blog.amberwolf.com/blog/2026/march/patch-bypass---netskope-client-for-windows---local-privilege-escalation-via-rogue-server/) | Netskope Windows客户端补丁绕过实现本地权限提升漏洞 |
+| [gphfh-deep-dive](https://projectzero.google/2026/02/gphfh-deep-dive.html) | Windows GetProcessHandleFromHwnd API安全漏洞深度分析 |
 | [0x00-introduction-to-windows-kernel-exploitation](https://wetw0rk.github.io/posts/0x00-introduction-to-windows-kernel-exploitation/) | Windows内核漏洞利用入门教程系列 |
 | [reverse-engineering-windows-11-kernel](https://fluxsec.red/reverse-engineering-windows-11-kernel) | 逆向Windows 11内核实现ETW威胁情报日志的EDR研究 |
 | [rip-regpwn](https://www.mdsec.co.uk/2026/03/rip-regpwn/) | 利用注册表键提权至SYSTEM的Windows漏洞分析 |

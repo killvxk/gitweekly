@@ -1,8 +1,16 @@
 # gitweekly
 
-
 | 链接 | 描述 |
 |------|------|
+| [AFW](https://github.com/Infinit3i/AFW) | 基于eBPF的Linux每应用出站防火墙，动态管理nftables规则 |
+| [monty](https://github.com/pydantic/monty) | 专为AI代码执行设计的Rust安全沙箱Python解释器 |
+| [BinCodeQL](https://github.com/tosanjay/BinCodeQL) | 基于Datalog与Binary Ninja的编译二进制漏洞查询引擎 |
+| [super-rouge-hunter-skills](https://github.com/macaugh/super-rouge-hunter-skills) | 面向红队与漏洞赏金猎人的Claude Code安全技能库 |
+| [CVEs](https://github.com/itm4n/CVEs) | Windows与Linux提权漏洞利用PoC集合 |
+| [rustunnel](https://github.com/joaoh82/rustunnel) | Rust实现的自托管隧道服务，类似ngrok暴露本地服务 |
+| [RegPwn](https://github.com/mdsecactivebreach/RegPwn) | 利用注册表漏洞CVE-2026-24291实现Windows本地提权 |
+| [MSSQLand](https://github.com/n3rada/MSSQLand) | 面向红队的MSSQL链式服务器遍历与身份模拟攻击工具 |
+| [reynard-browser](https://github.com/minh-ton/reynard-browser) | 基于Gecko引擎的iOS浏览器，支持旧设备现代网页渲染 |
 | [heretic](https://github.com/p-e-w/heretic) | 自动移除LLM安全对齐限制的方向性消融优化工具 |
 | [AdaptixC2-Template-Generators](https://github.com/AeonDave/AdaptixC2-Template-Generators) | AdaptixC2框架代理与监听器插件脚手架生成工具 |
 | [Fritter](https://github.com/0xROOTPLS/Fritter) | 深度改造Donut的抗签名随机化shellcode生成器 |

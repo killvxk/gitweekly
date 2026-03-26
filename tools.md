@@ -2,6 +2,58 @@
 
 | 文章 | 简介 |
 |------|------|
+| [rpg](https://github.com/NikolayS/rpg) | 内置AI助手和DBA诊断工具的PostgreSQL终端替代品 |
+| [kitten_tts_rs](https://github.com/second-state/kitten_tts_rs) | 轻量级TTS模型的Rust实现，提供CLI和OpenAI兼容API |
+| [xpfarm](https://github.com/A3-N/xpfarm) | 整合10个安全工具的开源漏洞扫描平台，含AI分析子系统 |
+| [vscode-pi-companion](https://github.com/ravshansbox/vscode-pi-companion) | 向AI Agent实时推送VS Code IDE上下文的扩展插件 |
+| [vibe-coding-cn](https://github.com/2025Emma/vibe-coding-cn) | 规划驱动的AI结对编程工作站，含多语言提示词库 |
+| [AIClient-2-API](https://github.com/justlovemaki/AIClient-2-API) | 将免费AI客户端转换为OpenAI兼容API的代理服务 |
+| [fluffy-barnacle](https://github.com/dstours/fluffy-barnacle) | 基于GitHub Codespaces的一次性网络基础设施工具 |
+| [moonshine](https://github.com/moonshine-ai/moonshine) | 低延迟本地运行的实时语音识别AI工具包，支持多平台 |
+| [moonshine-c](http://github.com/eschmidbauer/moonshine-c) | 零依赖纯C语言实现的Moonshine语音识别模型 |
+| [AI-Search-Hub](https://github.com/minsight-ai-info/AI-Search-Hub) | 聚合多平台AI搜索能力的统一查询Skill |
+| [SecretHound](https://github.com/rafabd1/SecretHound) | 扫描文件和网页中API密钥等敏感信息的Go CLI工具 |
+| [zeroboot](https://github.com/zerobootdev/zeroboot) | 基于KVM写时复制技术实现亚毫秒级启动的AI Agent沙箱 |
+| [project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | 集成离线百科和AI助手的离线优先知识服务器 |
+| [UEFNContentBrowserOrganizer](https://github.com/EDMIRE2k/UEFNContentBrowserOrganizer) | 自动将UEFN项目资产按类型归类到结构化文件夹的Python工具 |
+| [meilisearch](https://github.com/meilisearch/meilisearch) | 响应时间低于50ms的开源全文与语义混合搜索引擎 |
+| [claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) | 让多个Claude Code实例互相发现并实时通信的MCP工具 |
+| [ripgit](https://github.com/deathbyknowledge/ripgit) | 基于Cloudflare Durable Objects和Rust的自托管Git服务 |
+| [grobpaint](https://github.com/groverburger/grobpaint) | 支持图层与多平台的轻量级Web图像编辑器 |
+| [health-tick-release](https://github.com/lifedever/health-tick-release) | macOS菜单栏久坐提醒与休息打卡习惯养成工具 |
+| [aptui](https://github.com/mexirica/aptui) | 基于Go和Bubble Tea框架的APT包管理终端UI |
+| [notes](https://github.com/zhaoolee/notes) | 将对话内容导出为图片的仿锤子便签风格工具 |
+| [VibeGo](https://github.com/xxnuo/VibeGo) | 专为移动端优化支持AI CLI工具的Web IDE |
+| [aicheck](https://github.com/MatrixA/aicheck) | 离线检测AI生成图像视频和音频内容的元数据分析工具 |
+| [agent-history-protocol](https://github.com/iamanandsingh/agent-history-protocol) | 对AI Agent行为进行防篡改哈希链记录的开放审计标准 |
+| [raft](https://github.com/Aditya-1304/raft) | 纯Rust实现的完整Raft共识算法，含确定性模拟器 |
+| [Drop-In-JTAG](https://github.com/stineje/Drop-In-JTAG) | 基于JTAG边界扫描的RISC-V处理器硅片调试开源HDL单元 |
+| [MimicThem](https://github.com/zhanchey/MimicThem) | 一键复刻小红书爆款图文的AI图片生成工具 |
+| [langchain-skills](https://github.com/langchain-ai/langchain-skills) | 为AI编码代理提供LangChain/LangGraph开发技能的集合 |
+| [Pentest-Tools-Collection](https://github.com/LuemmelSec/Pentest-Tools-Collection) | 涵盖AD攻击、C2框架、权限提升等场景的渗透测试工具集合 |
+| [claude-skills](https://github.com/mastepanoski/claude-skills) | 提供UX/UI评估和AI治理审计的Claude Code技能集 |
+| [AbsolutelySkilled](https://github.com/AbsolutelySkilled/AbsolutelySkilled) | 面向AI编码代理的生产就绪技能注册表，含40+种代理支持 |
+| [InsAIts](https://github.com/Nomadu27/InsAIts) | AI洞察分析工具 |
+| [reporecall](https://github.com/proofofwork-agency/reporecall) | 为Claude Code提供本地代码库预索引记忆的MCP工具 |
+| [rudel](https://github.com/obsessiondb/rudel) | 追踪Claude Code会话token用量和编程行为的分析仪表板 |
+| [novyx-mcp](https://github.com/novyxlabs/novyx-mcp) | 为AI代理提供持久化记忆和知识图谱管理的MCP服务 |
+| [lightrag](https://github.com/hkuds/lightrag) | 支持知识图谱构建与双层检索的轻量级RAG系统 |
+| [get-shit-done](https://github.com/gsd-build/get-shit-done) | 解决AI编码上下文腐烂问题的元提示与规范驱动开发系统 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | 自动捕获编程会话记录实现跨会话持久记忆的Claude Code插件 |
+| [safe-solana-builder](https://github.com/Frankcastleauditor/safe-solana-builder) | 强制安全规则优先的生产级Solana智能合约编写Claude技能集 |
+| [CoBRA](https://github.com/trailofbits/CoBRA) | 混合布尔算术表达式化简的软件去混淆工具 |
+| [markdown-proxy](https://github.com/joeseesun/markdown-proxy) | 将任意URL转换为Markdown的Claude Code skill工具 |
+| [apex](https://github.com/pensarai/apex) | 终端内运行自主代理的AI渗透测试框架 |
+| [context-hub](https://github.com/andrewyng/context-hub) | 为AI编码代理提供版本化API文档的中心化知识库 |
+| [TripStar](https://github.com/1sdv/TripStar) | 基于多智能体协作的AI旅行规划全栈应用 |
+| [flash-moe](https://github.com/sbaruwal/flash-moe) | 在macOS Apple Metal上运行大型MoE模型的本地推理框架 |
+| [apatchy](https://github.com/0xbigshaq/apatchy) | 无需网络I/O的Apache HTTPD进程内模糊测试框架 |
+| [ship-safe](https://github.com/asamassekou10/ship-safe) | 并行运行18个安全代理覆盖80+攻击类型的应用安全扫描平台 |
+| [starting-ragchatbot-codebase](https://github.com/https-deeplearning-ai/starting-ragchatbot-codebase) | 基于ChromaDB与Claude构建课程材料问答的RAG应用示例 |
+| [feynman](https://github.com/getcompanion-ai/feynman) | 自动化学术文献检索复现与论文撰写的AI研究代理CLI工具 |
+| [ghostbox](https://github.com/kingbootoshi/ghostbox) | 在隔离Docker容器中运行具备持久记忆的AI代理平台 |
+| [MESH](https://github.com/BARGHEST-ngo/MESH) | 基于加密P2P网状网络的民间社会远程移动取证工具 |
+| [enject](https://github.com/GreatScott/enject) | 防止AI编码工具读取明文密钥的.env文件加密注入工具 |
 | [jj](https://github.com/jj-vcs/jj) | 基于Git后端的现代版本控制系统，支持自动提交与操作撤销 |
 | [llmchainhunter](https://github.com/atredispartners/llmchainhunter) | 利用LLM自动发现Java反序列化Gadget Chain的研究工具 |
 | [Outpacket](https://github.com/n00py/Outpacket) | impacket常见工作流到现代替代工具的映射速查表 |

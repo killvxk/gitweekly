@@ -2,6 +2,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [VoidLink rootkit框架技术分析](https://www.elastic.co/de/security-labs/illuminating-voidlink) | Zig编写的LKM+eBPF混合Linux rootkit框架技术深度分析 |
+| [锁定BIOS中禁用安全特性](https://www.mdsec.co.uk/2026/03/disabling-security-features-in-a-locked-bios/) | 通过固件修改绕过BIOS锁定禁用DMA保护攻击BitLocker |
+| [从零构建PrintSpoofer](https://bl4ckarch.github.io/posts/PrintSpoofer_from_scratch/) | 从零实现PrintSpoofer Windows提权工具与免杀技术实战 |
+| [CVE-2025-14325 SpiderMonkey JIT漏洞](https://qriousec.github.io/post/cve-2025-14325/) | SpiderMonkey基线JIT内联缓存类型混淆漏洞利用分析 |
+| [AWStrace: Another Windows Strace](https://downwithup.github.io/blog/post/2026/03/29/post10.html) | 无需驱动的Windows系统调用追踪工具AWStrace设计与实现 |
+| [消费电子涨价分析](https://www.ifanr.com/1660175) | AI驱动全链路电子零部件涨价对消费电子市场的冲击分析 |
+| [aiX-apply-4B轻量模型](https://www.qbitai.com/2026/03/392787.html) | aiX-apply-4B单卡实现15倍代码变更推理加速的轻量模型 |
+| [构建Claude Code Skill教程](https://www.freecodecamp.org/news/how-to-build-your-own-claude-code-skill/) | Claude Code自定义Skill构建教程与跨平台兼容实践 |
+| [Claude完成FreeBSD远程内核RCE](https://blog.calif.io/p/mad-bugs-claude-wrote-a-full-freebsd) | Claude独立发现并利用FreeBSD远程内核RCE漏洞的AI安全里程碑 |
+| [HexReaper Kortex RAT分析](https://intel.breakglass.tech/post/hexreaper-kortex-rat-github-gist-dead-drop-c2) | Kortex远控木马通过GitHub Gist死投解析C2的OPSEC失误分析 |
+| [Claude Code工程成本分析](https://yage.ai/share/claude-code-engineering-cost-20260331.html) | 从Claude Code源码泄露看AI工程接入的真实成本与挑战 |
 | [dial9: Tokio飞行记录器](https://tokio.rs/blog/2026-03-18-dial9) | Tokio异步运行时飞行记录器，捕获底层事件进行性能诊断 |
 | [mobile-malware-analysis-part-6-xenomorph](https://8ksec.io/mobile-malware-analysis-part-6-xenomorph/) | Android银行木马Xenomorph动态加载与混淆逆向分析 |
 | [rack-mount-hydroponics](https://sa.lj.am/rack-mount-hydroponics/) | 将闲置服务器机柜改造为自动化水培蔬菜种植系统 |

@@ -2,6 +2,56 @@
 
 | 文章 | 简介 |
 |------|------|
+| [carbonyl](https://github.com/fathyb/carbonyl) | 在终端内运行Chromium的浏览器，基于Rust渲染，支持WebGL/WebGPU |
+| [Noriben](https://github.com/Rurik/Noriben) | 基于Procmon的Python恶意软件行为自动分析沙箱工具 |
+| [sandbox](https://github.com/agent-infra/sandbox) | 集成浏览器、Shell、MCP和VSCode的Docker AI智能体沙箱 |
+| [YY-Thunks](https://github.com/Chuyu-Team/YY-Thunks) | 让Windows应用兼容XP/Vista旧系统的C++ API垫片库 |
+| [VC-LTL5](https://github.com/Chuyu-Team/VC-LTL5) | 链接系统内置CRT以缩减Windows可执行文件体积的开源库 |
+| [YY.Base](https://github.com/Chuyu-Team/YY.Base) | 提供线程池、字符串和容器的Windows C++基础功能库 |
+| [spool](https://github.com/spool-lab/spool) | 本地索引AI会话与书签的个人数据全文搜索Electron工具 |
+| [autopredict](https://github.com/howdymary/autopredict) | 对接Polymarket订单簿优化预测市场交易执行的Python代理框架 |
+| [emdash](https://github.com/generalaction/emdash) | 支持23种AI编码代理并行运行的git worktree桌面管理工具 |
+| [grove](https://github.com/quangdang46/grove) | 基于Rust的Claude/Codex自主循环任务调度与断路器保护框架 |
+| [tmux-bridge](https://github.com/maxeonyx/tmux-bridge) | 让AI代理通过tmux向人类交互终端发送命令的Rust CLI工具 |
+| [gua](https://github.com/CMGS/gua) | 通过WeChat/Telegram接入Claude/Codex的多租户Go AI代理服务器 |
+| [Tmux-Claude-Bridge](https://github.com/SomSamantray/Tmux-Claude-Bridge) | 让多个AI终端会话通过tmux互发消息的Claude Code插件 |
+| [mugi-claw](https://github.com/tubone24/mugi-claw) | 基于Slack触发Claude Code并支持浏览器/桌面自动化的Node.js助手 |
+| [cook](https://github.com/rjcorwin/cook) | 编排Claude/Codex多代理串行并行协作的TypeScript CLI工具 |
+| [xtride](https://github.com/pr0me/xtride) | 基于n-gram从二进制反编译代码高速恢复类型的Rust安全分析工具 |
+| [claude-devtools](https://github.com/matt1398/claude-devtools) | 可视化Claude Code会话日志、token归属与子代理执行树的Electron工具 |
+| [DouYin_Spider](https://github.com/cv-cat/DouYin_Spider) | 支持API逆向和直播监听的抖音数据采集Python工具 |
+| [pretext](https://github.com/chenglou/pretext) | 不触发DOM回流的高性能多行文本测量与布局TypeScript库 |
+| [OpenParsec](https://github.com/hugeBlack/OpenParsec) | 基于SwiftUI和Parsec SDK的iOS开源远程桌面客户端 |
+| [web-access](https://github.com/eze-is/web-access) | 为Claude Code提供智能网络访问调度与CDP浏览器控制的skill插件 |
+| [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 将Claude Code转化为48代理游戏开发工作室的模板系统 |
+| [Autonomous-Agent-X-Bluesky](https://github.com/AICMO/Autonomous-Agent-X-Bluesky) | 基于GitHub Actions的自主AI代理，自动管理X和Bluesky社交内容 |
+| [jc](https://github.com/jeapostrophe/jc) | 基于Rust和GPUI的Claude Code多会话编排与审查桌面工具 |
+| [grok-bridge](https://github.com/ythx-101/grok-bridge) | 通过Safari自动化将SuperGrok转化为REST API的macOS工具 |
+| [flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 基于PyTorch和Triton实现线性注意力与状态空间模型的高效训练库 |
+| [ljg-skills](https://github.com/lijigang/ljg-skills) | 涵盖论文阅读、卡片生成和写作辅助的Claude Code个人技能集 |
+| [ReadAny](https://github.com/codedogQBY/ReadAny) | AI驱动的跨平台电子书阅读器，支持语义搜索与智能对话 |
+| [RaTeX](https://github.com/erweixin/RaTeX) | 纯Rust实现的KaTeX兼容LaTeX数学公式跨平台渲染引擎 |
+| [Work_Review](https://github.com/wm94i/Work_Review) | 自动追踪应用使用时长与浏览记录的本地工作轨迹分析工具 |
+| [Valdi](https://github.com/Snapchat/Valdi) | Snapchat开源的TypeScript声明式跨平台原生UI框架 |
+| [ai-cli-complete-notify](https://github.com/ZekerTop/ai-cli-complete-notify) | AI CLI任务完成后多通道智能通知工具，支持飞书钉钉等 |
+| [ps-fuzz](https://github.com/prompt-security/ps-fuzz) | LLM系统提示词安全模糊测试工具，覆盖16种攻击类型 |
+| [wecom-cli](https://github.com/WecomTeam/wecom-cli) | 基于Rust的企业微信命令行工具，支持人类和AI Agent操作 |
+| [codeg](https://github.com/xintaofei/codeg) | 统一多AI编码代理的企业级工作区，集成终端与MCP管理 |
+| [cookbook](https://github.com/Liquid4All/cookbook) | Liquid AI官方LFM模型示例库，覆盖桌面浏览器移动端与微调教程 |
+| [super-tart-vphone-writeup](https://github.com/wh1te4ever/super-tart-vphone-writeup) | 利用Apple PCC固件VPHONE组件构建虚拟iPhone的技术研究 |
+| [claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | 追踪记录Claude Code所有系统提示词的开源文档仓库 |
+| [smux](https://github.com/ShawnPana/smux) | 一键tmux配置工具，支持AI代理间跨面板命令通信与协作 |
+| [multica](https://github.com/multica-ai/multica/) | AI原生项目管理工具，将AI代理作为团队成员分配任务 |
+| [claude-md](https://github.com/iamfakeguru/claude-md) | 修复Claude Code结构性缺陷的生产级CLAUDE.md指令配置 |
+| [tmux-ide](https://github.com/wavyrai/tmux-ide) | 通过YAML配置将项目转化为tmux多面板终端IDE的工具 |
+| [claw-code](https://github.com/instructkr/claw-code) | Claude Code源码架构分析与Rust清室重写工程项目 |
+| [claude-code](https://github.com/Kuberwastaken/claude-code) | Claude Code源码泄露分析与Rust重实现，揭露BUDDY等隐藏功能 |
+| [ida-search](https://github.com/milankovo/ida-search) | IDA Pro类型感知二进制搜索插件，支持五种搜索后端 |
+| [claude_agent_teams_ui](https://github.com/777genius/claude_agent_teams_ui) | 多Claude代理自主协作的看板式团队管理Electron工具 |
+| [accomplish](https://github.com/accomplish-ai/accomplish) | 本地运行的开源AI桌面代理，自动化文件管理与文档创建 |
+| [claude-deep-research-skill](https://github.com/199-biotechnologies/claude-deep-research-skill) | Claude Code企业级深度研究技能，生成带引用可信度评分的报告 |
+| [binary-cartography](https://github.com/mrphrazer/binary-cartography) | 聚焦逆向工程与AI辅助二进制分析的研讨会资源库 |
+| [Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | 结构化深度研究工作流技能，三阶段生成提纲调研与报告 |
 | [rpg](https://github.com/NikolayS/rpg) | 内置AI助手和DBA诊断工具的PostgreSQL终端替代品 |
 | [kitten_tts_rs](https://github.com/second-state/kitten_tts_rs) | 轻量级TTS模型的Rust实现，提供CLI和OpenAI兼容API |
 | [xpfarm](https://github.com/A3-N/xpfarm) | 整合10个安全工具的开源漏洞扫描平台，含AI分析子系统 |

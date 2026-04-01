@@ -2,6 +2,17 @@
 
 | 链接 | 描述 |
 |------|------|
+| [autoresearch](https://github.com/uditgoenka/autoresearch) | 驱动Claude Code自主迭代改进的循环执行skill插件 |
+| [binary-cartography](https://github.com/mrphrazer/binary-cartography) | 聚焦逆向工程与AI辅助二进制分析的研讨会资源库 |
+| [DMAReaper](https://github.com/PN-Tester/DMAReaper) | 预启动阶段通过FPGA/DMA攻击禁用Windows内核DMA保护的Python工具 |
+| [FirstStrike](https://github.com/PN-Tester/FirstStrike) | 基于PCILeech的UEFI预启动内核模块注入渗透测试框架 |
+| [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) | 支持控制流混淆与字符串加密的JavaScript代码保护工具 |
+| [KslDump](https://github.com/andreisss/KslDump) | 利用Defender内核驱动绕过PPL保护从LSASS提取凭据的安全研究工具 |
+| [regstr](https://github.com/FFRI/regstr) | 实时展示寄存器值对应字符串内容的WinDbg调试器扩展插件 |
+| [flash-linear-attention](https://github.com/fla-org/flash-linear-attention) | 基于PyTorch和Triton实现线性注意力与状态空间模型的高效训练库 |
+| [SysmonTools](https://github.com/nshalabi/SysmonTools) | 可视化分析Sysmon日志进程链与网络地理位置的Electron威胁狩猎工具 |
+| [AWSTrace](https://github.com/DownWithUp/AWSTrace) | 无需驱动通过注入shellcode追踪Windows系统调用的Rust实现strace工具 |
+| [tunelo](https://github.com/jiweiyuan/tunelo) | 基于QUIC协议将本地端口和文件暴露到公网的轻量级隧道工具 |
 | [AFW](https://github.com/Infinit3i/AFW) | 基于eBPF的Linux每应用出站防火墙，动态管理nftables规则 |
 | [monty](https://github.com/pydantic/monty) | 专为AI代码执行设计的Rust安全沙箱Python解释器 |
 | [BinCodeQL](https://github.com/tosanjay/BinCodeQL) | 基于Datalog与Binary Ninja的编译二进制漏洞查询引擎 |

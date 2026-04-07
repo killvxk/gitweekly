@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [UnderlayCopy_bof](https://github.com/Muz1K1zuM/UnderlayCopy_bof) | 通过NTFS MFT解析直接复制锁定系统文件的Havoc BOF |
+| [KslKatzBof](https://github.com/PrincipleCheck/KslKatzBof) | 利用微软签名驱动提取LSASS凭据的BOF工具 |
 | [toastnotify-bof](https://github.com/brmkit/toastnotify-bof) | 利用Windows Toast通知实现社工欺骗的C2 BOF工具 |
 | [armory-rs](https://github.com/memN0ps/armory-rs) | 基于Rust的115个BOF集合，用于对手模拟与检测工程 |
 | [ESC1-unPAC](https://github.com/RayRRT/ESC1-unPAC) | 单次执行完整ESC1攻击链并提取NT哈希的BOF工具 |

@@ -2,6 +2,11 @@
 
 | 链接 | 描述 |
 |------|------|
+| [OXDK](https://github.com/MrMilenko/OXDK) | macOS/Linux交叉编译原版Xbox项目的clang工具链 |
+| [CaseStudies](https://github.com/vschko/CaseStudies) | iOS/macOS真实CVE漏洞分析教育案例集 |
+| [FilzaJailedDS](https://github.com/34306/FilzaJailedDS) | 免越狱运行Filza文件管理器的内核漏洞利用工具 |
+| [iloader](https://github.com/nab138/iloader) | 基于Tauri的iOS应用侧载与SideStore安装管理工具 |
+| [PoisonKiller](https://github.com/j3h4ck/PoisonKiller) | 利用签名驱动BYOVD技术绕过PPL终止EDR进程的工具 |
 | [autoresearch](https://github.com/uditgoenka/autoresearch) | 驱动Claude Code自主迭代改进的循环执行skill插件 |
 | [binary-cartography](https://github.com/mrphrazer/binary-cartography) | 聚焦逆向工程与AI辅助二进制分析的研讨会资源库 |
 | [DMAReaper](https://github.com/PN-Tester/DMAReaper) | 预启动阶段通过FPGA/DMA攻击禁用Windows内核DMA保护的Python工具 |

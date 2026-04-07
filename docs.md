@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [VMware Guest-To-Host](https://r0keb.github.io/posts/VMware-Guest-To-Host/) | VMware虚拟机逃逸漏洞复现，从Guest到Host执行代码 |
+| [Qilin EDR Killer](https://blog.talosintelligence.com/qilin-edr-killer/) | Qilin勒索组织使用的EDR终端防护绕杀技术分析 |
+| [Malware Analysis Tutorials](https://fumalwareanalysis.blogspot.com/p/malware-analysis-tutorials-reverse.html) | 恶意软件逆向工程实战教程系列，覆盖用户态到内核态分析 |
+| [Vulnerability Research Is Cooked](https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/) | AI将在数月内颠覆漏洞研究领域的深度分析文章 |
 | [VoidLink rootkit框架技术分析](https://www.elastic.co/de/security-labs/illuminating-voidlink) | Zig编写的LKM+eBPF混合Linux rootkit框架技术深度分析 |
 | [锁定BIOS中禁用安全特性](https://www.mdsec.co.uk/2026/03/disabling-security-features-in-a-locked-bios/) | 通过固件修改绕过BIOS锁定禁用DMA保护攻击BitLocker |
 | [从零构建PrintSpoofer](https://bl4ckarch.github.io/posts/PrintSpoofer_from_scratch/) | 从零实现PrintSpoofer Windows提权工具与免杀技术实战 |

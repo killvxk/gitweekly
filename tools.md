@@ -2,6 +2,36 @@
 
 | 文章 | 简介 |
 |------|------|
+| [polymarket_lp_tool](https://github.com/lihanyu81/polymarket_lp_tool) | Polymarket流动性做市自动调价的Python监控工具 |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | AI编程代理的生产级工程技能集合，覆盖开发全生命周期 |
+| [TrollStore](https://github.com/opa334/TrollStore) | 利用AMFI漏洞免越狱永久安装IPA的iOS工具 |
+| [cache-commander](https://github.com/juliensimon/cache-commander) | 审计清理开发者缓存目录并扫描CVE漏洞的Rust终端工具 |
+| [eforge](https://github.com/eforge-build/eforge) | 通过AI盲审机制将需求规格转化为验证代码的构建系统 |
+| [boxsh](https://github.com/xicilion/boxsh) | 支持JSON-RPC并发模式的Linux沙盒化POSIX Shell |
+| [DebManager](https://github.com/nowesr1/DebManager) | 管理越狱插件包并转换架构格式的SwiftUI iOS应用 |
+| [spearspray](https://github.com/sikumy/spearspray) | 结合LDAP枚举与智能密码生成的AD密码喷洒工具 |
+| [cek](https://github.com/bschaatsbergen/cek) | 无需运行即可探索OCI容器镜像文件系统与层结构的CLI工具 |
+| [career-ops](https://github.com/santifer/career-ops) | Claude Code驱动的AI求职评估与简历生成管道系统 |
+| [swarm](https://github.com/penberg/swarm) | 基于git worktree隔离并行编码智能体的Rust工作空间管理器 |
+| [SkyFall-Pack](https://github.com/nickvourd/SkyFall-Pack) | 基于Cloudflare Workers自动部署C2基础设施工具包 |
+| [Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) | 覆盖x86/ARM/RISC-V多架构的免费逆向工程教程集 |
+| [gitreverse](https://github.com/filiksyos/gitreverse) | 将GitHub仓库逆向为AI编程工具可用提示词的Web应用 |
+| [Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | 结构化深度研究工作流技能，三阶段生成提纲调研与报告 |
+| [NoEyes](https://github.com/Ymsniper/NoEyes) | 基于端到端加密与零知识转发的安全终端聊天工具 |
+| [nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | 提取公众人物认知框架生成Claude Code Skill的工具 |
+| [Recall](https://github.com/aayu22809/Recall) | 基于向量数据库的本地多模态语义搜索记忆系统 |
+| [modo](https://github.com/mohshomis/modo) | 先规划后编码的开源AI IDE，基于VS Code分支构建 |
+| [personaplex](https://github.com/NVIDIA/personaplex) | 支持角色控制与声音条件的实时全双工语音对话模型 |
+| [oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) | AI驱动的代码库架构图自动生成与可视化工具 |
+| [Solana-Indexer-rs](https://github.com/gamandeepsingh/Solana-Indexer-rs) | 基于gRPC实时索引Solana链上数据到PostgreSQL的Rust工具 |
+| [claude-island](https://github.com/farouqaldori/claude-island) | macOS菜单栏Dynamic Island风格的Claude Code会话监控应用 |
+| [fieldtheory-cli](https://github.com/afar1/fieldtheory-cli) | 本地同步与全文搜索X/Twitter书签的CLI工具 |
+| [Gemma-4-31B-JANG_4M-CRACK](https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK) | 去除安全对齐限制的Gemma 4 31B模型变体 |
+| [goose](https://github.com/block/goose) | 可扩展的本地AI代理，自动化执行开发任务 |
+| [ShadowShell](https://github.com/hahwul/ShadowShell) | Caido渗透测试代理的多终端分屏与AI预设插件 |
+| [narrator-ai-cli-skill](https://github.com/jieshuo-ai/narrator-ai-cli-skill) | 自动化生产电影解说视频的AI CLI技能文件 |
+| [circuit-lean-rust-ffi](https://github.com/leonardoalt/circuit-lean-rust-ffi) | 基于Lean4形式化验证的算术表达式简化器与Rust FFI |
+| [anyone-to-skill](https://github.com/OpenDemon/anyone-to-skill) | 将任意人物蒸馏为AI思维模式Skill的万魂幡工具 |
 | [carbonyl](https://github.com/fathyb/carbonyl) | 在终端内运行Chromium的浏览器，基于Rust渲染，支持WebGL/WebGPU |
 | [Noriben](https://github.com/Rurik/Noriben) | 基于Procmon的Python恶意软件行为自动分析沙箱工具 |
 | [sandbox](https://github.com/agent-infra/sandbox) | 集成浏览器、Shell、MCP和VSCode的Docker AI智能体沙箱 |

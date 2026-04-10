@@ -2,6 +2,9 @@
 
 | 链接 | 描述 |
 |------|------|
+| [red-run](https://github.com/blacklanternsecurity/red-run) | 面向Claude Code的攻防评估编排工具包 |
+| [vivisect](https://github.com/vivisect/vivisect) | 集反汇编静态分析符号执行调试于一体的框架 |
+| [emulat3](https://github.com/whokilleddb/emulat3) | 基于Vivisect逐条执行PE与Shellcode的调试工具 |
 | [OXDK](https://github.com/MrMilenko/OXDK) | macOS/Linux交叉编译原版Xbox项目的clang工具链 |
 | [CaseStudies](https://github.com/vschko/CaseStudies) | iOS/macOS真实CVE漏洞分析教育案例集 |
 | [FilzaJailedDS](https://github.com/34306/FilzaJailedDS) | 免越狱运行Filza文件管理器的内核漏洞利用工具 |

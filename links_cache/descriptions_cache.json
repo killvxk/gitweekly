@@ -2187,5 +2187,8 @@
   "https://github.com/y637F9QQ2x/MUTESONAR": "无子进程主机枚举的Havoc BOF工具",
   "https://github.com/y637F9QQ2x/NOFILTER-NFEXEC": "内核态提权与命令执行的Havoc BOF工具",
   "https://github.com/y637F9QQ2x/BLINDSPOT": "检测安全产品进程的Havoc BOF工具",
-  "https://github.com/Meowmycks/trustme": "冒充TrustedInstaller令牌的BOF提权工具"
+  "https://github.com/Meowmycks/trustme": "冒充TrustedInstaller令牌的BOF提权工具",
+  "https://github.com/blacklanternsecurity/red-run": "面向Claude Code的攻防评估编排工具包",
+  "https://github.com/vivisect/vivisect": "集反汇编静态分析符号执行调试于一体的框架",
+  "https://github.com/whokilleddb/emulat3": "基于Vivisect逐条执行PE与Shellcode的调试工具"
 }

@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Windows Drivers Reverse Engineering Methodology](https://voidsec.com/windows-drivers-reverse-engineering-methodology/) | Windows驱动逆向分析与漏洞挖掘方法论 |
 | [VMware Guest-To-Host](https://r0keb.github.io/posts/VMware-Guest-To-Host/) | VMware虚拟机逃逸漏洞复现，从Guest到Host执行代码 |
 | [Qilin EDR Killer](https://blog.talosintelligence.com/qilin-edr-killer/) | Qilin勒索组织使用的EDR终端防护绕杀技术分析 |
 | [Malware Analysis Tutorials](https://fumalwareanalysis.blogspot.com/p/malware-analysis-tutorials-reverse.html) | 恶意软件逆向工程实战教程系列，覆盖用户态到内核态分析 |

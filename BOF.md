@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MUTESONAR](https://github.com/y637F9QQ2x/MUTESONAR) | 无子进程主机枚举的Havoc BOF工具 |
+| [NOFILTER-NFEXEC](https://github.com/y637F9QQ2x/NOFILTER-NFEXEC) | 内核态提权与命令执行的Havoc BOF工具 |
+| [BLINDSPOT](https://github.com/y637F9QQ2x/BLINDSPOT) | 检测安全产品进程的Havoc BOF工具 |
+| [trustme](https://github.com/Meowmycks/trustme) | 冒充TrustedInstaller令牌的BOF提权工具 |
 | [UnderlayCopy_bof](https://github.com/Muz1K1zuM/UnderlayCopy_bof) | 通过NTFS MFT解析直接复制锁定系统文件的Havoc BOF |
 | [KslKatzBof](https://github.com/PrincipleCheck/KslKatzBof) | 利用微软签名驱动提取LSASS凭据的BOF工具 |
 | [toastnotify-bof](https://github.com/brmkit/toastnotify-bof) | 利用Windows Toast通知实现社工欺骗的C2 BOF工具 |

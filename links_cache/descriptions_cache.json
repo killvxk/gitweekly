@@ -2182,5 +2182,10 @@
   "https://r0keb.github.io/posts/VMware-Guest-To-Host/": "VMware虚拟机逃逸漏洞复现，从Guest到Host执行代码",
   "https://blog.talosintelligence.com/qilin-edr-killer/": "Qilin勒索组织使用的EDR终端防护绕杀技术分析",
   "https://fumalwareanalysis.blogspot.com/p/malware-analysis-tutorials-reverse.html": "恶意软件逆向工程实战教程系列，覆盖用户态到内核态分析",
-  "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/": "AI将在数月内颠覆漏洞研究领域的深度分析文章"
+  "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/": "AI将在数月内颠覆漏洞研究领域的深度分析文章",
+  "https://voidsec.com/windows-drivers-reverse-engineering-methodology/": "Windows驱动逆向分析与漏洞挖掘方法论",
+  "https://github.com/y637F9QQ2x/MUTESONAR": "无子进程主机枚举的Havoc BOF工具",
+  "https://github.com/y637F9QQ2x/NOFILTER-NFEXEC": "内核态提权与命令执行的Havoc BOF工具",
+  "https://github.com/y637F9QQ2x/BLINDSPOT": "检测安全产品进程的Havoc BOF工具",
+  "https://github.com/Meowmycks/trustme": "冒充TrustedInstaller令牌的BOF提权工具"
 }

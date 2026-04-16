@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GodPotatoBOF](https://github.com/incursi0n/GodPotatoBOF) | GodPotato本地提权BOF工具 |
+| [OperatorsKit](https://github.com/REDMED-X/OperatorsKit) | Cobalt Strike多功能BOF工具集 |
+| [SilentHarvest_BOF](https://github.com/Octoberfest7/SilentHarvest_BOF) | 注册表转储提取凭据的BOF工具 |
 | [MUTESONAR](https://github.com/y637F9QQ2x/MUTESONAR) | 无子进程主机枚举的Havoc BOF工具 |
 | [NOFILTER-NFEXEC](https://github.com/y637F9QQ2x/NOFILTER-NFEXEC) | 内核态提权与命令执行的Havoc BOF工具 |
 | [BLINDSPOT](https://github.com/y637F9QQ2x/BLINDSPOT) | 检测安全产品进程的Havoc BOF工具 |

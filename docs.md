@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Leveling Up Secure Code Reviews with Claude Code](https://specterops.io/blog/2026/03/26/leveling-up-secure-code-reviews-with-claude-code) | 利用Claude Code做安全代码审查的方法论 |
 | [Windows Drivers Reverse Engineering Methodology](https://voidsec.com/windows-drivers-reverse-engineering-methodology/) | Windows驱动逆向分析与漏洞挖掘方法论 |
 | [VMware Guest-To-Host](https://r0keb.github.io/posts/VMware-Guest-To-Host/) | VMware虚拟机逃逸漏洞复现，从Guest到Host执行代码 |
 | [Qilin EDR Killer](https://blog.talosintelligence.com/qilin-edr-killer/) | Qilin勒索组织使用的EDR终端防护绕杀技术分析 |

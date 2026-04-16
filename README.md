@@ -2,6 +2,16 @@
 
 | 链接 | 描述 |
 |------|------|
+| [NtWarden](https://github.com/mrT4ntr4/NtWarden) | 面向Windows内核与系统研究的分析工具包 |
+| [TotalRecall](https://github.com/xaitax/TotalRecall) | 解析Windows Recall快照数据的取证工具 |
+| [DataOnlyGadget](https://github.com/jsacco/DataOnlyGadget) | 基于内核读写原语构建数据导向利用链的工具 |
+| [PowerLessShell](https://github.com/whokilleddb/PowerLessShell) | 无需powershell.exe执行命令的绕过工具 |
+| [Remote-DLL-Injection-with-Timer-based-Shellcode-Execution](https://github.com/andreisss/Remote-DLL-Injection-with-Timer-based-Shellcode-Execution) | 基于线程池定时器的远程DLL注入执行工具 |
+| [cosmopolitan](https://github.com/jart/cosmopolitan) | 一次构建跨平台运行的C语言标准库方案 |
+| [BlueHammer](https://github.com/0xjustBen/BlueHammer) | 利用Defender签名更新竞态提权的工具 |
+| [Phantom-Evasion-Loader](https://github.com/JM00NJ/Phantom-Evasion-Loader) | 纯x64汇编实现的低痕迹载荷注入引擎 |
+| [binlex](https://github.com/c3rb3ru5d3d53c/binlex) | 提取二进制特征用于相似性分析的逆向框架 |
+| [RedSun](https://github.com/Nightmare-Eclipse/RedSun) | 利用Defender云标签回写漏洞覆写系统文件提权 |
 | [red-run](https://github.com/blacklanternsecurity/red-run) | 面向Claude Code的攻防评估编排工具包 |
 | [vivisect](https://github.com/vivisect/vivisect) | 集反汇编静态分析符号执行调试于一体的框架 |
 | [emulat3](https://github.com/whokilleddb/emulat3) | 基于Vivisect逐条执行PE与Shellcode的调试工具 |

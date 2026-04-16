@@ -2,6 +2,31 @@
 
 | 文章 | 简介 |
 |------|------|
+| [oxicuda](https://github.com/cool-japan/oxicuda) | 纯Rust重构CUDA工具链的安全替代方案 |
+| [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | 为Codex增强Hook团队协作与HUD的插件框架 |
+| [awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | 聚合人物关系与方法论导向的Agent Skill清单 |
+| [hermes-webui](https://github.com/nesquena/hermes-webui) | 支持网页与手机访问的Hermes Agent界面 |
+| [parlor](https://github.com/fikrikarim/parlor) | 本地运行的实时语音视觉多模态对话系统 |
+| [domloggerpp-caido](https://github.com/kevin-mizu/domloggerpp-caido) | 监控JavaScript Sink的Caido插件 |
+| [markitdown](https://github.com/microsoft/markitdown) | 将多种文档转换为Markdown的Python工具 |
+| [ghidra-headless-mcp](https://github.com/mrphrazer/ghidra-headless-mcp) | 为AI代理提供无头Ghidra能力的MCP服务 |
+| [lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 基于Electron与Vue的跨平台音乐播放器 |
+| [wiretap-rs](https://github.com/0xTriboulet/wiretap-rs) | 基于WireGuard的无特权透明代理Rust实现 |
+| [bazi-skill](https://github.com/jinchenma94/bazi-skill) | 四柱八字命理分析的Claude Skill |
+| [audits](https://github.com/PlamenTSV/audits) | 汇总安全审计成果与私有审计流程的知识库 |
+| [claude-code-workflow](https://github.com/runesleo/claude-code-workflow) | 面向Claude Code的记忆管理与任务路由模板 |
+| [claude-bug-bounty](https://github.com/shuvonsec/claude-bug-bounty) | 在Claude Code内自动化漏洞赏金狩猎的工作流 |
+| [Jackrong-llm-finetuning-guide](https://github.com/R6410418/Jackrong-llm-finetuning-guide) | 面向初学者的大模型微调全流程实战指南 |
+| [snip](https://github.com/rixinhahaha/snip) | 连接人类与AI代理的可视化批注协作工具 |
+| [fireworks-tech-graph](https://github.com/yizhiyanhua-ai/fireworks-tech-graph) | 生成SVG技术图表的Claude Code Skill |
+| [dyana](https://github.com/dreadnode/dyana) | 加载运行并剖析多类文件行为的安全沙箱环境 |
+| [claude-usage](https://github.com/phuryn/claude-usage) | 追踪Claude Code用量成本的本地仪表盘 |
+| [gradient-bang](https://github.com/pipecat-ai/gradient-bang) | 与LLM协作探索交易对战的多人在线宇宙游戏 |
+| [jmx2rce](https://github.com/Hacktus/jmx2rce) | 利用Tomcat JMX实现RCE的渗透工具 |
+| [cve-mcp-server](https://github.com/mukul975/cve-mcp-server) | 聚合多源漏洞情报与安全查询能力的MCP服务 |
+| [anything-analyzer](https://github.com/Mouseww/anything-analyzer) | 结合CDP抓包与AI分析生成协议文档的工具 |
+| [agtop](https://github.com/justinpbarnett/agtop) | 在终端编排监控AI代理编码工作流的TUI工具 |
+| [osv-scanner](https://github.com/google/osv-scanner) | 基于OSV数据库扫描依赖漏洞的Go安全工具 |
 | [polymarket_lp_tool](https://github.com/lihanyu81/polymarket_lp_tool) | Polymarket流动性做市自动调价的Python监控工具 |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | AI编程代理的生产级工程技能集合，覆盖开发全生命周期 |
 | [TrollStore](https://github.com/opa334/TrollStore) | 利用AMFI漏洞免越狱永久安装IPA的iOS工具 |

@@ -10,3 +10,4 @@ tests/run_full_automation.py
 GEMINI.md
 CLAUDE.md
 .current-session
+.omx/

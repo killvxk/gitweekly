@@ -2,6 +2,16 @@
 
 | 链接 | 描述 |
 |------|------|
+| [DLLHijackHunter](https://github.com/ghostvectoracademy/DLLHijackHunter) | 自动发现验证DLL劫持路径的Windows工具 |
+| [gopacket](https://github.com/mandiant/gopacket) | Go实现的Impacket网络协议渗透测试库 |
+| [HiveSwarming](https://github.com/stormshield/HiveSwarming) | 无需提权转换REG与注册表Hive的工具 |
+| [swarmer](https://github.com/praetorian-inc/swarmer) | Windows注册表隐蔽修改工具，绕过EDR/AV检测 |
+| [DSCourier](https://github.com/DylanDavis1/DSCourier) | 通过WinGet配置COM执行DSC的签名二进制PoC |
+| [PhantomRPC](https://github.com/klsecservices/PhantomRPC) | PhantomRPC本地提权研究与PoC代码仓库 |
+| [BeaconHTTPSniff](https://github.com/whokilleddb/BeaconHTTPSniff) | 监控Beacon载荷HTTP流量的分析工具 |
+| [KSLDBYOVDARK](https://github.com/ANYLNK/KSLDBYOVDARK) | 滥用KSLD Ark驱动缺陷读取PPL敏感数据的PoC |
+| [Beatrice.py](https://github.com/raskolnikov90/Beatrice.py) | 替换x64等价指令实现AV规避的二进制补丁工具 |
+| [Scil](https://github.com/0xflux/Scil) | 内核系统调用完整性监控与拦截安全研究项目 |
 | [NtWarden](https://github.com/mrT4ntr4/NtWarden) | 面向Windows内核与系统研究的分析工具包 |
 | [TotalRecall](https://github.com/xaitax/TotalRecall) | 解析Windows Recall快照数据的取证工具 |
 | [DataOnlyGadget](https://github.com/jsacco/DataOnlyGadget) | 基于内核读写原语构建数据导向利用链的工具 |

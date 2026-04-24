@@ -2273,5 +2273,13 @@
   "https://github.com/nexu-io/auto-github-contributor": "Claude Code自动完成GitHub贡献流水线技能",
   "https://github.com/SnailSploit/aatmf-toolkit": "LLM安全对抗测试与回归跟踪工具包",
   "https://github.com/romovpa/claudini": "LLM对抗攻击自动研究框架",
-  "https://github.com/Viewfin-Labs/slop-check": "AI味内容审计与改写建议Claude技能"
+  "https://github.com/Viewfin-Labs/slop-check": "AI味内容审计与改写建议Claude技能",
+  "https://github.com/ghostvectoracademy/DLLHijackHunter": "自动发现验证DLL劫持路径的Windows工具",
+  "https://github.com/mandiant/gopacket": "Go实现的Impacket网络协议渗透测试库",
+  "https://github.com/stormshield/HiveSwarming": "无需提权转换REG与注册表Hive的工具",
+  "https://github.com/DylanDavis1/DSCourier": "通过WinGet配置COM执行DSC的签名二进制PoC",
+  "https://github.com/klsecservices/PhantomRPC": "PhantomRPC本地提权研究与PoC代码仓库",
+  "https://github.com/whokilleddb/BeaconHTTPSniff": "监控Beacon载荷HTTP流量的分析工具",
+  "https://github.com/ANYLNK/KSLDBYOVDARK": "滥用KSLD Ark驱动缺陷读取PPL敏感数据的PoC",
+  "https://github.com/raskolnikov90/Beatrice.py": "替换x64等价指令实现AV规避的二进制补丁工具"
 }

@@ -14,19 +14,29 @@
 ```
 go install github.com/AeonDave/garble@latest
 
+https://github.com/hackenproof-public/skills
+https://github.com/SnailSploit/Claude-Red
+
 
 npx skills add dylanfeltus/skills
 npx skills add mohitmishra786/low-level-dev-skills
 npx skills add alchaincyf/steve-jobs-skill
 npx skills add tw93/Waza -a claude-code
-
-
+npx skills add alchaincyf/huashu-design
 npx skills add https://github.com/op7418/Humanizer-zh.git
+
+
 claude plugin marketplace add FradSer/dotclaude
 claude plugin marketplace add jarrodwatts/claude-hud
 claude plugin marketplace add Lum1104/Understand-Anything
 claude plugin marketplace add addyosmani/agent-skills
 claude plugin marketplace add EveryInc/compound-engineering-plugin
+claude plugin marketplace add openai/codex-plugin-cc
+claude plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
+claude plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode
+
+
+
 curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/install.sh | bash
 
 ```

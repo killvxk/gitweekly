@@ -2,6 +2,41 @@
 
 | 文章 | 简介 |
 |------|------|
+| [OpenMythos](https://github.com/kyegomez/OpenMythos) | Claude Mythos架构的理论复现与研究项目 |
+| [autoresearch](https://github.com/smallnest/autoresearch) | 面向软件开发的自动化研究工作流工具 |
+| [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 面向编码代理的品牌设计系统DESIGN.md合集 |
+| [clearwing](https://github.com/Lazarus-AI/clearwing) | 双模式自主漏洞扫描与源码漏洞挖掘工具 |
+| [squad](https://github.com/mco-org/squad) | 多AI代理终端协作与编排工具 |
+| [skills](https://github.com/pashov/skills) | Pashov审计团队的Claude技能集合 |
+| [obscura](https://github.com/h4ckf0r0day/obscura) | 面向AI代理和爬虫的无头浏览器工具 |
+| [windbg-decompile-ext](https://github.com/kernullist/windbg-decompile-ext) | 用LLM生成伪代码的WinDbg反编译扩展 |
+| [gpt2api](https://github.com/432539/gpt2api) | ChatGPT逆向实现的OpenAI兼容SaaS网关 |
+| [kiro-auto](https://github.com/AERT-7Y/kiro-auto) | Kiro账号自动注册机工具 |
+| [WindowsAPIAbuseAtlas](https://github.com/danafaye/WindowsAPIAbuseAtlas) | 恶意软件Windows API滥用逆向图谱 |
+| [cloudfox](https://github.com/BishopFox/cloudfox) | 云渗透测试态势感知自动化工具 |
+| [ship-safe](https://github.com/asamassekou10/ship-safe) | 并行运行18个安全代理覆盖80+攻击类型的应用安全扫描平台 |
+| [OpenShell](https://github.com/NVIDIA/OpenShell) | 面向自主AI代理的安全私有运行时 |
+| [AutoAR](https://github.com/h0tak88r/AutoAR) | 自动化安全侦察ASM与漏洞测试工具 |
+| [huashu-design](https://github.com/alchaincyf/huashu-design) | Claude Code原生HTML高保真设计技能 |
+| [BoxPwnr](https://github.com/0ca/BoxPwnr) | LLM自主攻防基准测试框架，支持多平台CTF挑战 |
+| [mempal](https://github.com/ZhangHanDong/mempal) | AI代理记忆管理与持久化工具 |
+| [cc-designer](https://github.com/Openclaw-Metis/cc-designer) | Claude Code设计制品HTML生成器 |
+| [ephemera](https://github.com/vmi-rs/ephemera) | 跨平台Windows内核转储分析工具 |
+| [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 金融市场分析与投资研究终端应用 |
+| [sharkbot](https://github.com/elkentaro/sharkbot) | 面向Wireshark的AI网络流量分析助手 |
+| [zorya](https://github.com/Ledger-Donjon/zorya) | 基于Ghidra P-Code的Go二进制符号执行引擎 |
+| [Kronos](https://github.com/shiyu-coder/Kronos) | 金融市场语言基础模型与时间序列预测工具 |
+| [claudish](https://github.com/MadAppGang/claudish) | 让Claude Code支持任意模型的代理网关 |
+| [HackenProof Skills Marketplace](https://github.com/hackenproof-public/skills) | HackenProof漏洞赏金报告分诊技能市场 |
+| [Claude-Red](https://github.com/SnailSploit/Claude-Red) | 面向Claude技能系统的攻防安全技能库 |
+| [agentflow](https://github.com/berabuddies/agentflow) | 图编程方式编排海量AI代理的框架 |
+| [InsForge](https://github.com/InsForge/InsForge) | 面向代理开发的全栈应用后端平台 |
+| [apple-vuln-research](https://github.com/dmaynor/apple-vuln-research) | Apple A18 Pro漏洞研究资料与工具集 |
+| [opf-privacy-filter](https://github.com/gh0stkey/opf-privacy-filter) | OpenAI隐私过滤PII脱敏API服务 |
+| [auto-github-contributor](https://github.com/nexu-io/auto-github-contributor) | Claude Code自动完成GitHub贡献流水线技能 |
+| [aatmf-toolkit](https://github.com/SnailSploit/aatmf-toolkit) | LLM安全对抗测试与回归跟踪工具包 |
+| [claudini](https://github.com/romovpa/claudini) | LLM对抗攻击自动研究框架 |
+| [slop-check](https://github.com/Viewfin-Labs/slop-check) | AI味内容审计与改写建议Claude技能 |
 | [oxicuda](https://github.com/cool-japan/oxicuda) | 纯Rust重构CUDA工具链的安全替代方案 |
 | [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | 为Codex增强Hook团队协作与HUD的插件框架 |
 | [awesome-persona-distill-skills](https://github.com/xixu-me/awesome-persona-distill-skills) | 聚合人物关系与方法论导向的Agent Skill清单 |

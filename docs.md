@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Finding a Bug in Google's Brotli Using Our Fuzzing Skill](https://workers.io/blog/fuzzing-brotli-with-agents/) | 用AI代理模糊测试Brotli并发现漏洞的实践 |
+| [C2 Redirectors](https://xbz0n.sh/blog/c2-redirectors) | 现代红队C2重定向器架构与部署实战 |
+| [No Agent, No Problem: Discovering Remote EDR](https://jonny-johnson.medium.com/no-agent-no-problem-discovering-remote-edr-8ca60596559f) | 无代理发现远程EDR部署的安全研究 |
+| [Disclosing PhantomRPC](https://securelist.com/phantomrpc-rpc-vulnerability/119428/) | RPC权限提升漏洞PhantomRPC披露分析 |
+| [Patch Diffing CVE-2026-21509](https://blog.78researchlab.com/34cdb461-3e5b-808d-a9c9-dc1338adaccc) | Microsoft Office OLE安全绕过补丁差分分析 |
+| [Reverse Engineering a Ledger Nano X Hardware Implant](https://grandideastudio.com/portfolio/security/ledger-hardware-implant/) | Ledger Nano X硬件植入逆向分析案例 |
+| [pipe_buffer security properties](https://a13xp0p0v.github.io/2026/04/20/pipe-buffer-experiments.html) | Linux pipe_buffer内核对象利用属性研究 |
+| [Leveling Up Secure Code Reviews with Claude Code](https://core-jmp.org/2026/04/leveling-up-secure-code-reviews-with-claude-code/) | 使用Claude Code提升安全代码审查的方法论 |
 | [Leveling Up Secure Code Reviews with Claude Code](https://specterops.io/blog/2026/03/26/leveling-up-secure-code-reviews-with-claude-code) | 利用Claude Code做安全代码审查的方法论 |
 | [Windows Drivers Reverse Engineering Methodology](https://voidsec.com/windows-drivers-reverse-engineering-methodology/) | Windows驱动逆向分析与漏洞挖掘方法论 |
 | [VMware Guest-To-Host](https://r0keb.github.io/posts/VMware-Guest-To-Host/) | VMware虚拟机逃逸漏洞复现，从Guest到Host执行代码 |

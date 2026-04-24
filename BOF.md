@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PSI_BOF](https://github.com/whokilleddb/PSI_BOF) | 检查进程内存地址与符号的Cobalt Strike BOF |
+| [CDP-Enable-BOF](https://github.com/KingOfTheNOPs/CDP-Enable-BOF) | 启用Chrome DevTools协议的Cobalt Strike BOF |
+| [keelog-bof](https://github.com/jakobfriedl/keelog-bof) | 捕获KeePass主密码的异步键盘记录BOF |
 | [GodPotatoBOF](https://github.com/incursi0n/GodPotatoBOF) | GodPotato本地提权BOF工具 |
 | [OperatorsKit](https://github.com/REDMED-X/OperatorsKit) | Cobalt Strike多功能BOF工具集 |
 | [SilentHarvest_BOF](https://github.com/Octoberfest7/SilentHarvest_BOF) | 注册表转储提取凭据的BOF工具 |

@@ -2281,5 +2281,7 @@
   "https://github.com/klsecservices/PhantomRPC": "PhantomRPC本地提权研究与PoC代码仓库",
   "https://github.com/whokilleddb/BeaconHTTPSniff": "监控Beacon载荷HTTP流量的分析工具",
   "https://github.com/ANYLNK/KSLDBYOVDARK": "滥用KSLD Ark驱动缺陷读取PPL敏感数据的PoC",
-  "https://github.com/raskolnikov90/Beatrice.py": "替换x64等价指令实现AV规避的二进制补丁工具"
+  "https://github.com/raskolnikov90/Beatrice.py": "替换x64等价指令实现AV规避的二进制补丁工具",
+  "https://github.com/op7418/Humanizer-zh.git": "去除中文文本AI写作痕迹的Claude技能",
+  "https://github.com/Yeachan-Heo/oh-my-claudecode": "面向Claude Code的多代理编排插件框架"
 }

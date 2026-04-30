@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [warp](https://github.com/warpdotdev/warp) | 开源AI原生终端开发环境 |
+| [shadowrank](https://github.com/F2u0a0d3/shadowrank) | 基于Next.js和Supabase的游戏化习惯追踪器 |
+| [claw-code](https://github.com/ultraworkers/claw-code) | 基于Rust与oh-my-codex的高速AI编码仓库 |
+| [open-design](https://github.com/nexu-io/open-design) | 本地优先的开源AI设计系统与导出工具 |
+| [redStack](https://github.com/BaddKharma/redStack) | 基于AWS的红队C2训练实验室自动部署 |
+| [libgrabkernel2](https://github.com/Lessica/libgrabkernel2) | 基于AppleDB的iOS内核缓存快速下载库 |
+| [claudit-sec](https://github.com/HarmonicSecurity/claudit-sec) | Claude配置与MCP权限只读安全审计工具 |
+| [claude-image](https://github.com/jiangmuran/claude-image) | 面向Codex和Claude的GPT Image 2图像技能包 |
+| [ast-outline](https://github.com/aeroxy/ast-outline) | 面向AI代理的AST源码结构提纲工具 |
+| [Vibe-Skills](https://github.com/foryourhealth111-pixel/Vibe-Skills) | 一体化AI技能与上下文管理包 |
+| [MUX0](https://github.com/10xChengTu/MUX0) | 集成AI代理状态的macOS分屏终端 |
+| [CyberVerse](https://github.com/dsd2077/CyberVerse) | 实时视频通话式数字人AI代理平台 |
+| [arxiv-daily-researcher](https://github.com/yzr278892/arxiv-daily-researcher) | 自动生成高质量论文摘要的每日arXiv研究工具 |
+| [open-agent-room](https://github.com/cch123/open-agent-room) | 本地优先的人机协同频道与代理房间 |
+
+| 文章 | 简介 |
+|------|------|
 | [openwolf](https://github.com/cytostack/openwolf) | 基于钩子的Claude Code第二大脑中间件 |
 | [pentest-ai](https://github.com/0xSteph/pentest-ai) | 单命令触发完整渗透测试链的自主红队AI工具 |
 | [fluffy-barnacle](https://github.com/dstours/fluffy-barnacle) | 基于GitHub Codespaces的一次性网络基础设施工具 |

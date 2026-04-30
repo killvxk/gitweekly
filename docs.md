@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Codex on the Wire](https://www.originhq.com/blog/codex-on-the-wire) | Codex网络服务暴露风险与Flag配置分析 |
+| [Copy Fail](https://xint.io/blog/copy-fail-linux-distributions) | Linux内核AF_ALG页缓存提权漏洞分析 |
+| [Smashing pgcrypto](https://i0.rs/blog/smashing-pgcrypto-for-fun-and-profit-analyzing-and-exploiting-cve-2026-2005/) | PostgreSQL pgcrypto堆溢出RCE漏洞分析 |
+| [ProFTPD CVE-2026-42167](https://zeropath.com/blog/proftpd-cve-2026-42167-auth-bypass-privesc-rce) | ProFTPD认证绕过与RCE提权漏洞分析 |
+| [Qinglong RCE挖矿](https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/) | 青龙任务调度器RCE挖矿攻击事件分析 |
+| [Three Bugs Walk Into a PDF](https://starlabs.sg/blog/2026/04-three-bugs-walk-into-a-pdf-prototype-pollution-served-cold/) | PDF生成链原型污染漏洞利用研究 |
+| [TurboFan JS-to-Wasm](https://tashita.net/turbofan-js-to-wasm-deopt-type-confusion/) | V8 TurboFan JS到Wasm退优化类型混淆分析 |
+| [Flowise与Upsonic MCP漏洞](https://www.ox.security/blog/flowise-cve-2026-40933-upsonic-cve-2026-30625-what-to-do-when-best-practice-isnt-enough/) | Flowise与Upsonic MCP供应链漏洞分析 |
+| [MCP供应链架构缺陷](https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-critical-systemic-vulnerability-at-the-core-of-the-mcp) | Anthropic MCP架构级供应链风险分析 |
+| [Windows filesystem](https://www.patreon.com/posts/blog-0-windows-156682536?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_fan&utm_content=web_share) | Windows文件系统攻击面枚举研究 |
+| [AMSI Page Guard](https://shigshag.com/blog/amsi_page_guard) | 基于Page Guard异常的无补丁AMSI绕过技术 |
+| [MAD Bugs QEMU and UTM](https://blog.calif.io/p/mad-bugs-qemu-and-utm-escape) | AI辅助发现QEMU与UTM虚拟机逃逸漏洞 |
+| [xlabs_v1 DDoS-for-Hire](https://hunt.io/blog/xlabs-v1-ddos-for-hire-operation-exposed) | xlabs_v1 DDoS租赁IoT僵尸网络行动分析 |
+| [GitHub RCE CVE-2026-3854](https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854) | GitHub RCE漏洞CVE-2026-3854成因分析 |
+
+| 文章 | 简介 |
+|------|------|
 | [NTUSER.MAN注册表持久化](https://deceptiq.com/blog/ntuser-man-registry-persistence) | 通过NTUSER.MAN绕过注册表回调的持久化技术 |
 | [绕过Windows认证反射缓解](https://www.synacktiv.com/en/publications/bypassing-windows-authentication-reflection-mitigations-for-system-shells-part-1) | CVE-2026-24294 SMB多路复用本地提权获取SYSTEM |
 | [HackingTime_Public](https://github.com/slowmist/HackingTime_Public) | 慢雾团队区块链安全攻防培训公开议题资料 |

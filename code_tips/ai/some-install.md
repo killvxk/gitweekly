@@ -24,6 +24,8 @@ npx skills add alchaincyf/steve-jobs-skill
 npx skills add tw93/Waza -a claude-code
 npx skills add alchaincyf/huashu-design
 npx skills add https://github.com/op7418/Humanizer-zh.git
+npm install -g @sigcli/cli
+
 
 
 claude plugin marketplace add FradSer/dotclaude

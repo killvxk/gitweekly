@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [NTUSER.MAN注册表持久化](https://deceptiq.com/blog/ntuser-man-registry-persistence) | 通过NTUSER.MAN绕过注册表回调的持久化技术 |
+| [绕过Windows认证反射缓解](https://www.synacktiv.com/en/publications/bypassing-windows-authentication-reflection-mitigations-for-system-shells-part-1) | CVE-2026-24294 SMB多路复用本地提权获取SYSTEM |
+| [HackingTime_Public](https://github.com/slowmist/HackingTime_Public) | 慢雾团队区块链安全攻防培训公开议题资料 |
+| [sigcli](https://github.com/sigcli/sigcli) | 通过浏览器SSO为AI代理注入凭据的认证代理工具 |
+| [Plug me If you can](https://www.enki.co.kr/en/media-center/blog/plug-me-if-you-can-exploiting-usb-printer-drivers-in-windows) | Windows USB打印驱动漏洞利用分析 |
+| [Lenovo Vantage权限提升](https://www.atredis.com/blog/2025/7/7/uncovering-privilege-escalation-bugs-in-lenovo-vantage) | Lenovo Vantage权限提升漏洞研究 |
+| [llama.cpp零点击RCE](https://www.pwntricks.com/ZeroClick-RCE-CVE-2026-34159-llama.cpp) | llama.cpp零点击远程代码执行漏洞分析 |
+| [Linux Bluetooth SCO UAF](https://scnx.com/blog/cve-2024-27398-exploiting-a-linux-bluetooth-sco-use-after-free-with-smep-bypass) | Linux蓝牙SCO内核UAF利用分析 |
 | [Finding a Bug in Google's Brotli Using Our Fuzzing Skill](https://workers.io/blog/fuzzing-brotli-with-agents/) | 用AI代理模糊测试Brotli并发现漏洞的实践 |
 | [C2 Redirectors](https://xbz0n.sh/blog/c2-redirectors) | 现代红队C2重定向器架构与部署实战 |
 | [No Agent, No Problem: Discovering Remote EDR](https://jonny-johnson.medium.com/no-agent-no-problem-discovering-remote-edr-8ca60596559f) | 无代理发现远程EDR部署的安全研究 |

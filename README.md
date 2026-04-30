@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [zig-pe](https://github.com/Thoxy67/zig-pe) | 基于Zig的反射式PE内存加载器 |
+| [RightHand-Persistence](https://github.com/i014n/RightHand-Persistence/) | 基于COM劫持的Windows持久化技术 |
 | [DLLHijackHunter](https://github.com/ghostvectoracademy/DLLHijackHunter) | 自动发现验证DLL劫持路径的Windows工具 |
 | [gopacket](https://github.com/mandiant/gopacket) | Go实现的Impacket网络协议渗透测试库 |
 | [HiveSwarming](https://github.com/stormshield/HiveSwarming) | 无需提权转换REG与注册表Hive的工具 |

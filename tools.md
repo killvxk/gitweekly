@@ -2,6 +2,37 @@
 
 | 文章 | 简介 |
 |------|------|
+| [openwolf](https://github.com/cytostack/openwolf) | 基于钩子的Claude Code第二大脑中间件 |
+| [pentest-ai](https://github.com/0xSteph/pentest-ai) | 单命令触发完整渗透测试链的自主红队AI工具 |
+| [fluffy-barnacle](https://github.com/dstours/fluffy-barnacle) | 基于GitHub Codespaces的一次性网络基础设施工具 |
+| [mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) | 执行前征求许可的可记忆AI代理与守护进程 |
+| [gato-x](https://github.com/AdnaneKhan/gato-x) | GitHub Actions流水线攻击与Runner接管工具 |
+| [powerball-harness](https://github.com/tim-hub/powerball-harness) | 实施计划-执行-审查纪律的Claude Code插件 |
+| [kaiwu](https://github.com/val1813/kaiwu) | 硬件感知自动调优的本地LLM部署服务 |
+| [OblivionToken](https://github.com/Waariss/OblivionToken) | M365条件访问策略OAuth令牌获取与重放工具 |
+| [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) | 微软云原生SIEM安全检测内容与剧本仓库 |
+| [redai](https://github.com/kpolley/redai) | AI驱动漏洞发现与实时验证工具 |
+| [claude-plugins](https://github.com/DeepBitsTechnology/claude-plugins) | Claude Code二进制分析插件集合 |
+| [DeepZero](https://github.com/416rehman/DeepZero) | AI自动化Windows内核驱动漏洞研究框架 |
+| [auto-github-contributor](https://github.com/nexu-io/auto-github-contributor) | Claude Code自动完成GitHub贡献流水线技能 |
+| [revula](https://github.com/president-xd/revula) | 面向逆向工程自动化的MCP服务器 |
+| [my-plugins](https://github.com/GGPrompts/my-plugins) | GGPrompts的Claude Code插件集合 |
+| [swival](https://github.com/Swival/swival) | 支持开放模型的开源CLI编码代理 |
+| [traffico](https://github.com/leodido/traffico) | 基于BPF的网络流量整形工具 |
+| [nteract desktop](https://github.com/nteract/desktop) | 现代化Jupyter笔记本桌面应用 |
+| [IntentGuardDemo](https://github.com/intentguarddemo/IntentGuardDemo) | 面向IaC的意图语义安全验证管线 |
+| [abtop](https://github.com/graykode/abtop) | AI编码代理会话实时监控TUI工具 |
+| [spec](https://github.com/workersio/spec) | 软件可靠性与正确性技能集合 |
+| [phalanx](https://github.com/webxos/phalanx) | Kali自主渗透测试多语言编排框架 |
+| [bug-hunter](https://github.com/codexstar69/bug-hunter) | 多代理自动漏洞发现与修复技能 |
+| [pentest-ai-agents](https://github.com/0xSteph/pentest-ai-agents) | 授权渗透测试AI子代理集合 |
+| [hetty](https://github.com/dstotijn/hetty) | 面向安全研究的HTTP调试工具包 |
+| [GEOFlow](https://github.com/yaojingang/GEOFlow) | 面向GEO优化的AI内容生产系统 |
+| [openclaw-managed-agents](https://github.com/stainlu/openclaw-managed-agents) | 开放模型托管AI代理管理平台 |
+| [vsc-skills](https://github.com/vibeshotclub/vsc-skills) | VS Code技能文件管理与安装工具 |
+| [snoop](https://github.com/pandaadir05/snoop) | 基于eBPF的现代系统调用追踪TUI |
+| [ghui](https://github.com/kitlangton/ghui) | 跨仓库GitHub拉取请求终端管理工具 |
+| [goodboy-framework](https://github.com/F2u0a0d3/goodboy-framework) | Rust恶意软件开发与检测课程框架 |
 | [OpenMythos](https://github.com/kyegomez/OpenMythos) | Claude Mythos架构的理论复现与研究项目 |
 | [autoresearch](https://github.com/smallnest/autoresearch) | 面向软件开发的自动化研究工作流工具 |
 | [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 面向编码代理的品牌设计系统DESIGN.md合集 |

@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [zig-bof-template](https://github.com/nbaertsch/zig-bof-template) | 基于Zig的Cobalt Strike BOF开发模板 |
 | [PSI_BOF](https://github.com/whokilleddb/PSI_BOF) | 检查进程内存地址与符号的Cobalt Strike BOF |
 | [CDP-Enable-BOF](https://github.com/KingOfTheNOPs/CDP-Enable-BOF) | 启用Chrome DevTools协议的Cobalt Strike BOF |
 | [keelog-bof](https://github.com/jakobfriedl/keelog-bof) | 捕获KeePass主密码的异步键盘记录BOF |

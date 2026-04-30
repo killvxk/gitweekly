@@ -16,9 +16,6 @@
 | [CyberVerse](https://github.com/dsd2077/CyberVerse) | 实时视频通话式数字人AI代理平台 |
 | [arxiv-daily-researcher](https://github.com/yzr278892/arxiv-daily-researcher) | 自动生成高质量论文摘要的每日arXiv研究工具 |
 | [open-agent-room](https://github.com/cch123/open-agent-room) | 本地优先的人机协同频道与代理房间 |
-
-| 文章 | 简介 |
-|------|------|
 | [openwolf](https://github.com/cytostack/openwolf) | 基于钩子的Claude Code第二大脑中间件 |
 | [pentest-ai](https://github.com/0xSteph/pentest-ai) | 单命令触发完整渗透测试链的自主红队AI工具 |
 | [fluffy-barnacle](https://github.com/dstours/fluffy-barnacle) | 基于GitHub Codespaces的一次性网络基础设施工具 |

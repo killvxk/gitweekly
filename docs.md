@@ -16,9 +16,6 @@
 | [MAD Bugs QEMU and UTM](https://blog.calif.io/p/mad-bugs-qemu-and-utm-escape) | AI辅助发现QEMU与UTM虚拟机逃逸漏洞 |
 | [xlabs_v1 DDoS-for-Hire](https://hunt.io/blog/xlabs-v1-ddos-for-hire-operation-exposed) | xlabs_v1 DDoS租赁IoT僵尸网络行动分析 |
 | [GitHub RCE CVE-2026-3854](https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854) | GitHub RCE漏洞CVE-2026-3854成因分析 |
-
-| 文章 | 简介 |
-|------|------|
 | [NTUSER.MAN注册表持久化](https://deceptiq.com/blog/ntuser-man-registry-persistence) | 通过NTUSER.MAN绕过注册表回调的持久化技术 |
 | [绕过Windows认证反射缓解](https://www.synacktiv.com/en/publications/bypassing-windows-authentication-reflection-mitigations-for-system-shells-part-1) | CVE-2026-24294 SMB多路复用本地提权获取SYSTEM |
 | [HackingTime_Public](https://github.com/slowmist/HackingTime_Public) | 慢雾团队区块链安全攻防培训公开议题资料 |

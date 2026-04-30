@@ -7,9 +7,6 @@
 | [Hunt-Weird-Syscalls](https://github.com/thefLink/Hunt-Weird-Syscalls) | 基于ETW检测直接与间接系统调用的PoC |
 | [Hunt-Weird-ImageLoads](https://github.com/thefLink/Hunt-Weird-ImageLoads) | 基于ETW镜像加载事件的IOC检测实验工具 |
 | [celebi](https://github.com/ofasgard/celebi) | 基于Crystal Palace构建载荷的Mythic代理 |
-
-| 链接 | 描述 |
-|------|------|
 | [zig-pe](https://github.com/Thoxy67/zig-pe) | 基于Zig的反射式PE内存加载器 |
 | [RightHand-Persistence](https://github.com/i014n/RightHand-Persistence/) | 基于COM劫持的Windows持久化技术 |
 | [DLLHijackHunter](https://github.com/ghostvectoracademy/DLLHijackHunter) | 自动发现验证DLL劫持路径的Windows工具 |

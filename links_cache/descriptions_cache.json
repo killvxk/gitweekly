@@ -2358,5 +2358,10 @@
   "https://github.com/10xChengTu/MUX0": "集成AI代理状态的macOS分屏终端",
   "https://github.com/dsd2077/CyberVerse": "实时视频通话式数字人AI代理平台",
   "https://github.com/yzr278892/arxiv-daily-researcher": "自动生成高质量论文摘要的每日arXiv研究工具",
-  "https://github.com/cch123/open-agent-room": "本地优先的人机协同频道与代理房间"
+  "https://github.com/cch123/open-agent-room": "本地优先的人机协同频道与代理房间",
+  "https://github.com/0xDbgMan/DrvEye": "Windows内核驱动静态分析与BYOVD利用分诊工具",
+  "https://github.com/boratanrikulu/gecit": "基于eBPF与TUN的跨平台DPI绕过工具",
+  "https://github.com/thefLink/Hunt-Weird-Syscalls": "基于ETW检测直接与间接系统调用的PoC",
+  "https://github.com/thefLink/Hunt-Weird-ImageLoads": "基于ETW镜像加载事件的IOC检测实验工具",
+  "https://github.com/ofasgard/celebi": "基于Crystal Palace构建载荷的Mythic代理"
 }

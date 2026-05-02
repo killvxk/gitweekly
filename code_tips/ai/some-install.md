@@ -36,7 +36,7 @@ claude plugin marketplace add EveryInc/compound-engineering-plugin
 claude plugin marketplace add openai/codex-plugin-cc
 claude plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
 claude plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode
-
+claude plugin marketplace add tim-hub/powerball-harness
 
 
 curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/install.sh | bash

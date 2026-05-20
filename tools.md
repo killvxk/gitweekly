@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [mini-haywire](https://github.com/asdfugil/mini-haywire) | Lightning视频适配器m1n1移植引导器 |
+| [Procursus](https://github.com/ProcursusTeam/Procursus) | Darwin平台跨编译*nix工具引导系统 |
+| [DukeX](https://github.com/MaftyManicEMU/DukeX) | iOS平台Xbox模拟器项目 |
+| [phalanx](https://github.com/webxos/phalanx) | Kali自主渗透测试多语言编排框架 |
+| [audit](https://github.com/evilsocket/audit) | 八阶段AI漏洞发现代理框架 |
+| [Grafana-Final-Scanner](https://github.com/Zierax/Grafana-Final-Scanner) | Grafana漏洞扫描工具，集成10个CVE检测 |
+| [gvisor](https://github.com/maci0/gvisor) | macOS移植版容器应用内核 |
+| [NESLab](https://github.com/ip-arch/NESLab) | NES嵌入式系统教学实验材料 |
+| [LibAFL](https://github.com/AFLplusplus/LibAFL) | Rust可组合跨平台高级模糊测试库 |
 | [ouroboros](https://github.com/Q00/ouroboros) | 面向AI代理的规范驱动开发工作流工具 |
 | [opensec](https://github.com/maxktz/opensec) | 面向开源仓库的AI安全审查捐助平台 |
 | [r2garlic](https://github.com/radareorg/r2garlic) | 结合radare2的高速Android DEX反编译器 |

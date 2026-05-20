@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Patch-Diffing Pipeline](https://www.originhq.com/blog/patch-diffing-pipeline) | Windows N日漏洞补丁差分分析管线 |
+| [NGINX Rift Impact](https://enclave.ai/blog/nginx-rift-impact-in-the-wild-we-scanned-1465-configs-from-528-popular-repos) | NGINX Rift野外配置影响扫描报告 |
+| [Initial Access](https://ntrunr.github.io/posts/Initial-Access/) | 红队初始访问技术入门实践 |
+| [C111000](https://therealcoiffeur.com/c111000.html) | VMware Fusion SUID竞态提权分析 |
+| [AppleJPEGXL CVE-2026-28956](https://ret2p.lt/2026/05/17/AppleJPEGXL-CVE.html) | AppleJPEGXL多重释放漏洞分析 |
+| [Fedora Kernel Vulnerabilities](https://fedoramagazine.org/how-fedora-is-responding-to-recent-kernel-vulnerabilities/) | Fedora内核漏洞响应与修复流程说明 |
+| [CVE-2026-40369](https://pwn2nimron.com/blog) | CVE-2026-40369内核任意地址递增分析 |
+| [Ghidra GHSA-8jqp-qv73-395r](https://github.com/NationalSecurityAgency/ghidra/security/advisories/GHSA-8jqp-qv73-395r) | Ghidra反编译器HighVariable UAF公告 |
 | [Genians Python Backdoor](https://www.genians.co.kr/en/blog/threat_intelligence/python) | APT37深伪诱饵Python后门攻击链分析 |
 | [Authentication Bypass/File Upload](https://medium.com/@h4x0r_dz/23000-for-authentication-bypass-file-upload-arbitrary-file-overwrite-2578b730a5f8) | 认证绕过到文件上传覆盖的漏洞赏金案例 |
 | [CVE-2022-33649 Edge](https://jinmo.github.io/blog/2026/05/10/cve-2022-33649-entrypoint-to-push-to-install.html) | Edge商店安装特性链CVE-2022-33649分析 |

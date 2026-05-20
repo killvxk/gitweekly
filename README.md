@@ -2,6 +2,13 @@
 
 | 链接 | 描述 |
 |------|------|
+| [zsign](https://github.com/zhlynn/zsign) | 跨平台iOS应用签名工具 |
+| [StikDebug](https://github.com/StephenDev0/StikDebug) | iOS 17.4+设备端调试与JIT启用工具 |
+| [ntdsxtract](https://github.com/CodeXTF2/ntdsxtract) | Active Directory离线取证提取框架 |
+| [nginx-rift-private-lab](https://github.com/Hamid-K/nginx-rift-private-lab) | Nginx Rift ASLR漏洞复现实验室 |
+| [Dirty-Merge](https://github.com/q1uf3ng/Dirty-Merge) | Linux GRO标志剥离本地提权PoC |
+| [CVE-2026-40369-EXPLOIT](https://github.com/orinimron123/CVE-2026-40369-EXPLOIT) | Windows内核任意写沙箱逃逸PoC |
+| [SnailObfuscator](https://github.com/SnailSploit/SnailObfuscator) | 多语言结构感知代码混淆引擎 |
 | [dexhound](https://github.com/dPhoeniixx/dexhound) | 无注入转储Android进程DEX文件的C工具 |
 | [magnetar](https://github.com/0xjrx/magnetar) | 集成ETW/AMSI绕过的Windows Shellcode加载框架 |
 | [COM-Hijacking](https://github.com/R-Secure/COM-Hijacking) | 基于COM劫持的Windows登录持久化工具 |

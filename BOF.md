@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [usb-monitor-bof](https://github.com/jakobfriedl/usb-monitor-bof) | USB监控与NTLM诱导的异步BOF工具 |
 | [VeeamDumper-BOF](https://github.com/MWR-CyberSec/VeeamDumper-BOF) | 提取Veeam凭据的Cobalt Strike BOF工具 |
 | [zig-bof-template](https://github.com/nbaertsch/zig-bof-template) | 基于Zig的Cobalt Strike BOF开发模板 |
 | [PSI_BOF](https://github.com/whokilleddb/PSI_BOF) | 检查进程内存地址与符号的Cobalt Strike BOF |

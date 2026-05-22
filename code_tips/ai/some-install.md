@@ -38,6 +38,10 @@ claude plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
 claude plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode
 claude plugin marketplace add tim-hub/powerball-harness
 
+codex plugin marketplace add TheGreenCedar/codex-autoresearch
+
+npm install -g @caixiaoshun/claudex
+
 
 curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/install.sh | bash
 

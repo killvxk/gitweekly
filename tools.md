@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [serverless-dns](https://github.com/serverless-dns/serverless-dns) | 可部署多云边缘的Serverless DNS解析器 |
+| [MonkeyCode](https://github.com/chaitin/MonkeyCode) | 内置云端环境的浏览器AI开发平台 |
+| [gitforms](https://github.com/Luigigreco/gitforms) | 基于GitHub Issues的零成本表单工具 |
+| [maptoposter-online](https://github.com/ianho7/maptoposter-online) | 基于地图数据生成城市海报的设计工具 |
+| [boss-agent-cli](https://github.com/can4hou6joeng4/boss-agent-cli) | 面向BOSS直聘的AI求职招聘CLI |
+| [titanpl](https://github.com/t8nlab/titanpl) | Rust服务器嵌入JS动作的后端框架 |
+| [qjp](https://github.com/plainas/qjp) | Go语言交互式JSON TUI选择器 |
+| [tinypdf](https://github.com/Lulzx/tinypdf) | 零依赖TypeScript PDF生成库 |
+| [edge-tts](https://github.com/rany2/edge-tts) | 调用Edge在线语音合成的Python库 |
+| [FeedFuse](https://github.com/BryanHoo/FeedFuse) | 集成RSS全文抓取与AI解读的阅读器 |
+| [ibus_llm_pinyin_input](https://github.com/volsifly/ibus_llm_pinyin_input) | 基于大模型的IBus拼音输入法 |
+| [kooky](https://github.com/iAmCorey/kooky) | 面向AI编码的Swift现代终端 |
+| [codex-autoresearch](https://github.com/TheGreenCedar/codex-autoresearch) | 按指标循环优化代码库的Codex插件 |
 | [mini-haywire](https://github.com/asdfugil/mini-haywire) | Lightning视频适配器m1n1移植引导器 |
 | [Procursus](https://github.com/ProcursusTeam/Procursus) | Darwin平台跨编译*nix工具引导系统 |
 | [DukeX](https://github.com/MaftyManicEMU/DukeX) | iOS平台Xbox模拟器项目 |

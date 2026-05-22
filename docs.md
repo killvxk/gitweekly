@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Prove You Are a Robot](https://browser-use.com/posts/prove-you-are-a-robot) | 面向AI代理的反向CAPTCHA设计文章 |
+| [Built-in U2F](https://ahelwer.ca/post/2026-05-08-builtin-u2f/) | 笔记本内置安全密钥与U2F实践文章 |
+| [I Left Port 22 Open for 54 Days](https://arman-bd.hashnode.dev/i-left-port-22-open-on-the-internet-for-54-days-here-s-who-showed-up) | 54天SSH蜜罐攻击流量观察文章 |
+| [The Mystery in the Medicine Cabinet](https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet) | 常见止痛药机制与风险科普文章 |
+| [taken.](https://sinceyouarrived.world/taken) | 浏览器隐私泄露可视化互动网页 |
+| [Bitter Lessons from the ISSpresso](https://mceglowski.substack.com/p/bitter-lessons-from-the-isspresso) | 太空项目成本与ISSpresso教训分析文章 |
+| [Defeating a Heavily Obfuscated Binary](https://vxcall.github.io/posts/defeating-a-heavily-obfuscated-binary/) | 混淆Keygenme二进制逆向分析文章 |
 | [Patch-Diffing Pipeline](https://www.originhq.com/blog/patch-diffing-pipeline) | Windows N日漏洞补丁差分分析管线 |
 | [NGINX Rift Impact](https://enclave.ai/blog/nginx-rift-impact-in-the-wild-we-scanned-1465-configs-from-528-popular-repos) | NGINX Rift野外配置影响扫描报告 |
 | [Initial Access](https://ntrunr.github.io/posts/Initial-Access/) | 红队初始访问技术入门实践 |

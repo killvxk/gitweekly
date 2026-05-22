@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [ObfusHunter](https://github.com/hACKCASCAC/ObfusHunter) | PE混淆与反调试特征检测工具 |
 | [zsign](https://github.com/zhlynn/zsign) | 跨平台iOS应用签名工具 |
 | [StikDebug](https://github.com/StephenDev0/StikDebug) | iOS 17.4+设备端调试与JIT启用工具 |
 | [ntdsxtract](https://github.com/CodeXTF2/ntdsxtract) | Active Directory离线取证提取框架 |

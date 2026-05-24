@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Star Weekly"
+  short_description: "Weekly GitHub stars report"
+  default_prompt: "Ask me for a GitHub username, then generate that user's weekly GitHub stars report."

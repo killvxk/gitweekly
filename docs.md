@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [CVE-2026-40369 Browser Sandbox Escape](https://voidsec.com/cve-2026-40369-browser-sandbox-escape/) | Windows内核12字节写浏览器沙箱逃逸分析 |
+| [Apache OFBiz CVE-2026-45434](https://aretiq.ai/research/vul260520-cve-2026-45434-apache-ofbiz-loginworker-checklogin-password-change-flow-authentication-bypass-rce/) | Apache OFBiz密码变更流程绕过到RCE分析 |
+| [glibc iconv CVE-2024-2961 Part 1](https://blog.lexfo.fr/iconv-cve-2024-2961-p1.html) | glibc iconv漏洞到PHP RCE利用链分析 |
+| [NASM CVE-2026-6068](https://sekai.team/blog/nasm-cve-disclosure/cve-2026-6068) | NASM响应文件解析UAF到供应链RCE分析 |
+| [macOS CVE-2026-28910](https://mysk.blog/2026/05/19/cve-2026-28910/) | macOS归档实用工具沙箱与TCC绕过分析 |
+| [Windows Source Code Red Team](https://www.abdulmhsblog.com/posts/useingthewindowssourcecode/) | 利用Windows源码辅助红队漏洞研究文章 |
+| [NGINX CVE-2026-42945](https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html) | NGINX CVE-2026-42945野外利用与RCE风险报道 |
+| [z386](https://nand2mario.github.io/posts/2026/z386/) | 基于原始微码构建开源80386处理器项目 |
+| [BoxPwnr Trace Viewer](https://boxpwnr.info/trace-viewer/?path=argus/APEX-060-25/traces/20260518_075743/) | BoxPwnr APEX-060-25自动解题轨迹查看器 |
 | [Prove You Are a Robot](https://browser-use.com/posts/prove-you-are-a-robot) | 面向AI代理的反向CAPTCHA设计文章 |
 | [Built-in U2F](https://ahelwer.ca/post/2026-05-08-builtin-u2f/) | 笔记本内置安全密钥与U2F实践文章 |
 | [I Left Port 22 Open for 54 Days](https://arman-bd.hashnode.dev/i-left-port-22-open-on-the-internet-for-54-days-here-s-who-showed-up) | 54天SSH蜜罐攻击流量观察文章 |

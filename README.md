@@ -2,6 +2,11 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CLR-STOMP](https://github.com/nettitude/CLR-STOMP) | .NET CLR-Stomping的Cobalt Strike BOF工具 |
+| [sliver-wasm-stager](https://github.com/dumpsterfirevip/sliver-wasm-stager) | Sliver远程WebAssembly加载器与植入载荷 |
+| [NetExec](https://github.com/Pennyw0rth/NetExec) | Active Directory网络执行与横向移动工具 |
+| [PhantomKiller](https://github.com/redteamfortress/PhantomKiller) | 基于BYOVD的签名EDR进程终止工具 |
+| [emexDE](https://github.com/emexlab/emexDE) | 非越狱iOS设备原生代码开发IDE |
 | [ObfusHunter](https://github.com/hACKCASCAC/ObfusHunter) | PE混淆与反调试特征检测工具 |
 | [zsign](https://github.com/zhlynn/zsign) | 跨平台iOS应用签名工具 |
 | [StikDebug](https://github.com/StephenDev0/StikDebug) | iOS 17.4+设备端调试与JIT启用工具 |

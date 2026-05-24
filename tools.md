@@ -2,6 +2,25 @@
 
 | 文章 | 简介 |
 |------|------|
+| [colony_agent](https://github.com/qriousec/colony_agent/) | LLM多代理驱动的V8 Wasm类型混淆模糊测试系统 |
+| [setcred](https://github.com/venglin/setcred) | FreeBSD 14.x本地提权CVE-2026-45250 PoC |
+| [post-patch-postmortem](https://github.com/joshterrill/post-patch-postmortem) | 微软补丁星期二更新差分分析CLI |
+| [CVE-2026-46529](https://github.com/N1et/CVE-2026-46529) | Evince系阅读器CVE-2026-46529 RCE利用 |
+| [ccglass](https://github.com/jianshuo/ccglass) | 本地代理可视化AI编码请求的监控面板 |
+| [codegraph](https://github.com/colbymchenry/codegraph) | 面向AI编码代理的本地代码知识图谱 |
+| [AGXBarrierPanic](https://github.com/zeroxjf/AGXBarrierPanic) | iOS 26.5 AGXCommandBuffer内核断言PoC |
+| [rustnet](https://github.com/domcyrus/rustnet) | Rust开发的跨平台网络监控终端UI工具 |
+| [CVE-2026-42945-POC](https://github.com/cipherspy/CVE-2026-42945-POC) | CVE-2026-42945漏洞Python利用PoC |
+| [emexDE](https://github.com/emexlab/emexDE) | 非越狱iOS设备原生代码开发IDE |
+| [abogen](https://github.com/denizsafak/abogen) | EPUB/PDF转有声书与同步字幕生成工具 |
+| [ffmpeg-explorer](https://github.com/antiboredom/ffmpeg-explorer) | 浏览器端FFmpeg滤镜图可视化编辑器 |
+| [dimcut](https://github.com/hughfenghen/dimcut) | 多维时间线视频剪辑交互原型 |
+| [markstream-vue](https://github.com/Simon-He95/markstream-vue) | Vue 3流式Markdown实时渲染组件 |
+| [vscode-web-visual-editor](https://github.com/urin/vscode-web-visual-editor) | VSCode网页HTML可视化编辑扩展 |
+| [remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks) | 移除图像显隐式AI水印的CLI库 |
+| [Agent_View_Controller-AVC](https://github.com/study8677/Agent_View_Controller-AVC) | CLI编码代理视觉决策交互层 |
+| [tokenspeed](https://github.com/MikeVeerman/tokenspeed) | AI模型Token生成速度测试网页 |
+| [Lucarne](https://github.com/tuchg/Lucarne) | 面向Codex/Claude代理的零侵入移动通知控制工具 |
 | [serverless-dns](https://github.com/serverless-dns/serverless-dns) | 可部署多云边缘的Serverless DNS解析器 |
 | [MonkeyCode](https://github.com/chaitin/MonkeyCode) | 内置云端环境的浏览器AI开发平台 |
 | [gitforms](https://github.com/Luigigreco/gitforms) | 基于GitHub Issues的零成本表单工具 |

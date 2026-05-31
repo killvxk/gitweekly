@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ZygoSec Blog](https://zygosec.com/blog) | ZygoSec安全研究博客 |
+| [Needle in the haystack](https://devansh.bearblog.dev/needle-in-the-haystack/) | LLM辅助漏洞研究方法文章 |
+| [Anthropic CVD Dashboard](https://red.anthropic.com/2026/cvd/) | Anthropic漏洞披露仪表盘 |
+| [CVE-2026-41089 Netlogon RCE](https://aretiq.ai/research/vul260513-cve-2026-41089-microsoft-windows-netlogon-buildsamlogonresponse-stack-based-buffer-overflow-rce/) | Windows Netlogon栈溢出RCE分析 |
+| [Exploiting a 0day on QEMU](https://kqx.io/post/qemu-0day/) | QEMU TCG零日漏洞利用分析 |
+| [How a single typo led to RCE in Firefox](https://kqx.io/post/firefox0day/) | Firefox SpiderMonkey RCE漏洞分析 |
+| [GuysRD Blog](https://guysrd.github.io/) | 安全研究文章与漏洞分析博客 |
+| [Windows usbprint.sys IOCTL Vulnerability](https://zeifan.my/windows-usbprint-null/) | Windows usbprint.sys IOCTL拒绝服务分析 |
+| [LnkMeMaybe - A Review of CVE-2026-25185](https://trustedsec.com/blog/lnkmemaybe-a-review-of-cve-2026-25185) | Windows LNK CVE-2026-25185分析 |
+| [ESC8s and Where to Find Them](https://www.abdulmhsblog.com/posts/esc8andfindingwebenrollmentendpoints/) | AD CS ESC8 Web注册端点发现方法 |
 | [CVE-2026-40369 Browser Sandbox Escape](https://voidsec.com/cve-2026-40369-browser-sandbox-escape/) | Windows内核12字节写浏览器沙箱逃逸分析 |
 | [Apache OFBiz CVE-2026-45434](https://aretiq.ai/research/vul260520-cve-2026-45434-apache-ofbiz-loginworker-checklogin-password-change-flow-authentication-bypass-rce/) | Apache OFBiz密码变更流程绕过到RCE分析 |
 | [glibc iconv CVE-2024-2961 Part 1](https://blog.lexfo.fr/iconv-cve-2024-2961-p1.html) | glibc iconv漏洞到PHP RCE利用链分析 |

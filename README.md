@@ -2,6 +2,13 @@
 
 | 链接 | 描述 |
 |------|------|
+| [exr-imageio-poc](https://github.com/Billy-Ellis/exr-imageio-poc) | ImageIO整数溢出漏洞验证PoC |
+| [ttsim](https://github.com/tenstorrent/ttsim) | Tenstorrent硬件全系统仿真器 |
+| [OpenPetya](https://github.com/iss4cf0ng/OpenPetya) | Petya风格Bootkit概念验证项目 |
+| [macho_structure](https://github.com/yo-yo-yo-jbo/macho_structure) | Mach-O文件结构解析Python工具 |
+| [samloader-rs](https://github.com/topjohnwu/samloader-rs) | 三星设备固件下载Rust工具 |
+| [LnkMeMaybe](https://github.com/trustedsec/LnkMeMaybe) | Windows LNK构造与研究工具 |
+| [reqwest](https://github.com/seanmonstar/reqwest) | Rust异步HTTP客户端库 |
 | [CLR-STOMP](https://github.com/nettitude/CLR-STOMP) | .NET CLR-Stomping的Cobalt Strike BOF工具 |
 | [sliver-wasm-stager](https://github.com/dumpsterfirevip/sliver-wasm-stager) | Sliver远程WebAssembly加载器与植入载荷 |
 | [NetExec](https://github.com/Pennyw0rth/NetExec) | Active Directory网络执行与横向移动工具 |

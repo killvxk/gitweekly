@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [memory-forge-rs](https://github.com/voidcraft-dev/memory-forge-rs) | 本地AI会话记忆编辑管理器 |
+| [TyphoonPWN-2026](https://github.com/satoki/TyphoonPWN-2026) | TyphoonPWN零日漏洞利用PoC |
+| [SimpleReconSubdomain](https://github.com/MrCl0wnLab/SimpleReconSubdomain) | OSINT子域名枚举Python工具 |
+| [dalfox](https://github.com/hahwul/dalfox) | 自动化XSS扫描Rust工具 |
+| [E2R](https://github.com/maverick0o0/E2R) | 基于AI的Burp JS端点重构插件 |
+| [GuysRD Blog](https://guysrd.github.io/) | 安全研究文章与漏洞分析博客 |
 | [colony_agent](https://github.com/qriousec/colony_agent/) | LLM多代理驱动的V8 Wasm类型混淆模糊测试系统 |
 | [setcred](https://github.com/venglin/setcred) | FreeBSD 14.x本地提权CVE-2026-45250 PoC |
 | [post-patch-postmortem](https://github.com/joshterrill/post-patch-postmortem) | 微软补丁星期二更新差分分析CLI |

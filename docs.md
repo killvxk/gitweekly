@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [滥用 Windows KeUserModeCallback 的 Ring-3](https://blog.ghostwolflab.com/vulnerability_research/761/) | Windows KeUserModeCallback滥用研究 |
+| [Malware shellcode delivery via signal - part 3](https://cocomelonc.github.io/malware/2026/05/28/malware-tricks-58.html) | 声学Shellcode传输可靠性修复实战 |
+| [Malaysian Government C2 Infrastructure](https://oasis-security.io/blog/malaysian-government-with-undisclosed-c2-infrastructure) | 马来西亚政府定制C2基础设施分析 |
+| [CVE-2026-48840 Exim PROXY Protocol](https://www.openwall.com/lists/oss-security/2026/05/29/3) | Exim PROXY协议未初始化栈泄漏公告 |
+| [PsGetCurrentProcess confusion](https://dennisbabkin.com/blog/?i=AAA12A00) | Windows内核进程对象关系逆向解析 |
+| [Adobe Acrobat Reader Escript.api UAF](https://blog.exodusintel.com/2026/06/01/adobe-acrobat-reader-esc) | Adobe Acrobat Escript UAF远程执行分析 |
+| [DarkReplica CVE-2026-23631](https://www.zeroday.cloud/blog/redis-cve-2026-23631-dark-replica) | Redis复制子系统UAF后认证RCE分析 |
+| [PAN-OS CVE-2026-0265](https://www.rapid7.com/blog/post/etr-cve-2026-0265-authentication-bypass-in-palo-alto-networks-pan-os/) | PAN-OS云认证服务绕过漏洞分析 |
 | [ZygoSec Blog](https://zygosec.com/blog) | ZygoSec安全研究博客 |
 | [Needle in the haystack](https://devansh.bearblog.dev/needle-in-the-haystack/) | LLM辅助漏洞研究方法文章 |
 | [Anthropic CVD Dashboard](https://red.anthropic.com/2026/cvd/) | Anthropic漏洞披露仪表盘 |

@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [lsgo](https://github.com/vijja-w/lsgo) | 终端目录遍历与快速跳转Python工具 |
+| [MTuner](https://github.com/RudjiGames/MTuner) | 跨平台C和C++内存分析与泄漏检测器 |
+| [NTS_MCP_FS](https://github.com/Nefrols/NTS_MCP_FS) | 支持原子编辑的MCP事务文件系统 |
+| [trueline-mcp](https://github.com/rjkaes/trueline-mcp) | 面向编码代理的MCP安全读写优化插件 |
+| [raiden-pico](https://github.com/AdamLaurie/raiden-pico) | Raspberry Pi Pico2故障注入控制平台 |
+| [augur](https://github.com/0avx/augur) | Riot Vanguard模块转PE文件工具 |
 | [memory-forge-rs](https://github.com/voidcraft-dev/memory-forge-rs) | 本地AI会话记忆编辑管理器 |
 | [TyphoonPWN-2026](https://github.com/satoki/TyphoonPWN-2026) | TyphoonPWN零日漏洞利用PoC |
 | [SimpleReconSubdomain](https://github.com/MrCl0wnLab/SimpleReconSubdomain) | OSINT子域名枚举Python工具 |

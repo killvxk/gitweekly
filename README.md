@@ -2,6 +2,11 @@
 
 | 链接 | 描述 |
 |------|------|
+| [cygor](https://github.com/tjnull/cygor) | Python模块化资产发现与服务枚举框架 |
+| [Retract](https://github.com/kernelstub/Retract) | 浏览器端静态二进制逆向分析工作台 |
+| [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | 基于微软方案的Windows安全加固工具 |
+| [PseudoForge](https://github.com/kernullist/PseudoForge) | IDA和Hex-Rays伪代码清理审查插件 |
+| [Hyper-V-Tools](https://github.com/gerhart01/Hyper-V-Tools) | Microsoft Hyper-V安全研究工具集 |
 | [exr-imageio-poc](https://github.com/Billy-Ellis/exr-imageio-poc) | ImageIO整数溢出漏洞验证PoC |
 | [ttsim](https://github.com/tenstorrent/ttsim) | Tenstorrent硬件全系统仿真器 |
 | [OpenPetya](https://github.com/iss4cf0ng/OpenPetya) | Petya风格Bootkit概念验证项目 |

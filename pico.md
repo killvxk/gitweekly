@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [async-pico-hub](https://github.com/nccgroup/async-pico-hub) | Cobalt Strike异步PICO BOF扩展框架 |
 | [cp-dfr-defs](https://github.com/Henkru/cp-dfr-defs) | Windows API动态函数解析符号重映射定义库 |
 | [emerald_template](https://github.com/0xTriboulet/emerald_template) | 基于CMake的反射式DLL加载器开发调试模板 |
 | [crystal-palace-vsc](https://github.com/rasta-mouse/crystal-palace-vsc) | VSCode扩展：Crystal Palace规范文件语法高亮与代码片段支持 |

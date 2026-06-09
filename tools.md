@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ghidra-rpc](https://github.com/cellebrite-labs/ghidra-rpc) | 面向代理逆向工程的Ghidra RPC工具 |
+| [windiff](https://github.com/ergrelet/windiff) | Windows二进制符号类型差异分析工具 |
 | [lsgo](https://github.com/vijja-w/lsgo) | 终端目录遍历与快速跳转Python工具 |
 | [MTuner](https://github.com/RudjiGames/MTuner) | 跨平台C和C++内存分析与泄漏检测器 |
 | [NTS_MCP_FS](https://github.com/Nefrols/NTS_MCP_FS) | 支持原子编辑的MCP事务文件系统 |

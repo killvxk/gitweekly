@@ -2593,5 +2593,12 @@
   "https://github.com/Nefrols/NTS_MCP_FS": "支持原子编辑的MCP事务文件系统",
   "https://github.com/rjkaes/trueline-mcp": "面向编码代理的MCP安全读写优化插件",
   "https://github.com/AdamLaurie/raiden-pico": "Raspberry Pi Pico2故障注入控制平台",
-  "https://github.com/0avx/augur": "Riot Vanguard模块转PE文件工具"
+  "https://github.com/0avx/augur": "Riot Vanguard模块转PE文件工具",
+  "https://github.com/Mr-Un1k0d3r/AzureRedOps": "Microsoft Entra ID安全评估Python工具包",
+  "https://github.com/maskop9/proxydllgenerator": "自动生成DLL劫持代理库的Python工具",
+  "https://lukasmaar.github.io/posts/qaic-page-uaf/index.html": "Qualcomm QAIC驱动页级UAF提权分析",
+  "https://hhj4ck.github.io/en/break-the-trust-chain-of-the-ethereum-phone.html": "Ethereum Phone启动信任链破坏研究",
+  "https://github.com/nccgroup/async-pico-hub": "Cobalt Strike异步PICO BOF扩展框架",
+  "https://github.com/cellebrite-labs/ghidra-rpc": "面向代理逆向工程的Ghidra RPC工具",
+  "https://github.com/ergrelet/windiff": "Windows二进制符号类型差异分析工具"
 }

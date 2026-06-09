@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Exploiting Qualcomm's QAIC Kernel Driver](https://lukasmaar.github.io/posts/qaic-page-uaf/index.html) | Qualcomm QAIC驱动页级UAF提权分析 |
+| [Break the Trust Chain of the Ethereum Phone](https://hhj4ck.github.io/en/break-the-trust-chain-of-the-ethereum-phone.html) | Ethereum Phone启动信任链破坏研究 |
 | [滥用 Windows KeUserModeCallback 的 Ring-3](https://blog.ghostwolflab.com/vulnerability_research/761/) | Windows KeUserModeCallback滥用研究 |
 | [Malware shellcode delivery via signal - part 3](https://cocomelonc.github.io/malware/2026/05/28/malware-tricks-58.html) | 声学Shellcode传输可靠性修复实战 |
 | [Malaysian Government C2 Infrastructure](https://oasis-security.io/blog/malaysian-government-with-undisclosed-c2-infrastructure) | 马来西亚政府定制C2基础设施分析 |

@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [AzureRedOps](https://github.com/Mr-Un1k0d3r/AzureRedOps) | Microsoft Entra ID安全评估Python工具包 |
+| [proxydllgenerator](https://github.com/maskop9/proxydllgenerator) | 自动生成DLL劫持代理库的Python工具 |
 | [cygor](https://github.com/tjnull/cygor) | Python模块化资产发现与服务枚举框架 |
 | [Retract](https://github.com/kernelstub/Retract) | 浏览器端静态二进制逆向分析工作台 |
 | [Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | 基于微软方案的Windows安全加固工具 |

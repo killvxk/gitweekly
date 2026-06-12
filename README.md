@@ -2,6 +2,12 @@
 
 | 链接 | 描述 |
 |------|------|
+| [EDRChoker](https://github.com/TwoSevenOneT/EDRChoker) | 基于Windows QoS策略的EDR流量限速工具 |
+| [EDRUnChoker](https://github.com/sbousseaden/EDRUnChoker) | 清除EDRChoker限速策略的PowerShell防护脚本 |
+| [vmp-import-resolver](https://github.com/crowbar-team/vmp-import-resolver) | VMProtect 3.5+动态导入解析C++工具 |
+| [CVE-2026-0257](https://github.com/sfewer-r7/CVE-2026-0257) | PAN-OS GlobalProtect认证绕过Python验证脚本 |
+| [DarkReplica](https://github.com/yoyosh/DarkReplica) | Redis DarkReplica后认证RCE验证脚本 |
+| [Nginx-chain-Rift-Poolslip](https://github.com/y198nt/Nginx-chain-Rift-Poolslip) | Nginx Rift与PoolSlip链式RCE验证脚本 |
 | [AzureRedOps](https://github.com/Mr-Un1k0d3r/AzureRedOps) | Microsoft Entra ID安全评估Python工具包 |
 | [proxydllgenerator](https://github.com/maskop9/proxydllgenerator) | 自动生成DLL劫持代理库的Python工具 |
 | [cygor](https://github.com/tjnull/cygor) | Python模块化资产发现与服务枚举框架 |

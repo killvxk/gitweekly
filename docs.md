@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [chaining rift + PoolSlip into an ASLR-independent nginx 1.30.0 exploit](https://blog.verichains.io/p/two-bytes-to-rce-chaining-rift-poolslip) | Nginx Rift与PoolSlip组合利用链分析 |
+| [Bypassing Detections with Command-Line Obfuscation](https://www.wietzebeukema.nl/blog/bypassing-detections-with-command-line-obfuscation) | 命令行参数混淆绕过检测技术研究 |
+| [Human Observations on Mythos Runs](https://exploitbench.ai/blog/human-observations/) | ExploitBench漏洞复现能力观察报告 |
+| [Hyper-V Internals](https://hvinternals.blogspot.com/) | Hyper-V内部机制与配置参数研究博客 |
 | [Exploiting Qualcomm's QAIC Kernel Driver](https://lukasmaar.github.io/posts/qaic-page-uaf/index.html) | Qualcomm QAIC驱动页级UAF提权分析 |
 | [Break the Trust Chain of the Ethereum Phone](https://hhj4ck.github.io/en/break-the-trust-chain-of-the-ethereum-phone.html) | Ethereum Phone启动信任链破坏研究 |
 | [滥用 Windows KeUserModeCallback 的 Ring-3](https://blog.ghostwolflab.com/vulnerability_research/761/) | Windows KeUserModeCallback滥用研究 |

@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [FPGA-Mandelbrot-Demo](https://github.com/RESBI/FPGA-Mandelbrot-Demo) | 基于FPGA的Mandelbrot渲染加速器 |
+| [Windows-Terminal-OSC-9-9-NTLM-Auth-Coercion](https://github.com/frostb1ten/Windows-Terminal-OSC-9-9-NTLM-Auth-Coercion/) | Windows Terminal OSC触发NTLM认证研究 |
+| [il2cpp-pdb](https://github.com/bombaris34/il2cpp-pdb) | 为Il2CppDumper生成Rust PDB的逆向工具 |
+| [scoptix](https://github.com/Omnitarium/scoptix) | VirusTotal与Wayback攻击面侦察平台 |
 | [ghidra-rpc](https://github.com/cellebrite-labs/ghidra-rpc) | 面向代理逆向工程的Ghidra RPC工具 |
 | [windiff](https://github.com/ergrelet/windiff) | Windows二进制符号类型差异分析工具 |
 | [lsgo](https://github.com/vijja-w/lsgo) | 终端目录遍历与快速跳转Python工具 |

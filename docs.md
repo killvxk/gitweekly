@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [RCE/LiteLLM: LiteLLM 1.83.14 - Chaining an Environment Variable Leak with Jinja2 SSTI for Remote Code Execution](https://mccaulay.co.uk/rcelitellm-litellm-1-83-14-chaining-an-environment-variable-leak-with-jinja2-ssti-for-remote-code-execution/) | LiteLLM环境变量泄露到Jinja2 SSTI链RCE |
+| [An old Pixel rooting bug](https://kyeojy.github.io/posts/mali-csf-exploit/) | Pixel 7 Mali CSF驱动UAF漏洞利用分析 |
+| [CVE-2026-45595 MOTW Bypass](https://gist.github.com/irsdl/ad54a34d7bd16b092e0911e27135ebe1) | Windows MOTW绕过漏洞补丁差分分析 |
 | [HVCI, and how far down a SYSTEM shell actually gets you](https://afflicted.sh/blog/posts/hvci-state-2026.html) | Windows HVCI防护边界与绕过现状分析 |
 | [Odysseus Embedding Endpoint Takeover](https://aydinnyunus.github.io/2026/06/16/odysseus-embedding-endpoint-takeover/) | Odysseus embedding端点越权与SSRF分析 |
 | [Trojaned OpenSSH](http://miod.online.fr/software/openbsd/stories/trojan.html) | OpenSSH 2002供应链污染事件回顾 |

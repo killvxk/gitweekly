@@ -2646,5 +2646,12 @@
   "https://github.com/raoqu/index-tts2-metal": "Metal优化的IndexTTS2语音合成工具",
   "http://miod.online.fr/software/openbsd/stories/trojan.html": "OpenSSH 2002供应链污染事件回顾",
   "https://aydinnyunus.github.io/2026/06/16/odysseus-embedding-endpoint-takeover/": "Odysseus embedding端点越权与SSRF分析",
-  "https://afflicted.sh/blog/posts/hvci-state-2026.html": "Windows HVCI防护边界与绕过现状分析"
+  "https://afflicted.sh/blog/posts/hvci-state-2026.html": "Windows HVCI防护边界与绕过现状分析",
+  "https://kyeojy.github.io/posts/mali-csf-exploit/": "Pixel 7 Mali CSF驱动UAF漏洞利用分析",
+  "https://gist.github.com/irsdl/ad54a34d7bd16b092e0911e27135ebe1": "Windows MOTW绕过漏洞补丁差分分析",
+  "https://github.com/lispc/facenet": "PyTorch复现FaceNet人脸识别训练框架",
+  "https://github.com/mito753/Kernel-Exploit-Dojo": "Linux内核漏洞利用CTF题库索引",
+  "https://github.com/morpho-org/midnight": "EVM固定利率借贷协议Solidity实现",
+  "https://github.com/iost-official/go-iost": "IOST区块链的Go官方节点实现",
+  "https://github.com/pjdurden/nanoserve": "从零实现的轻量级LLM推理服务引擎"
 }

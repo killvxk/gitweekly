@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [facenet](https://github.com/lispc/facenet) | PyTorch复现FaceNet人脸识别训练框架 |
+| [Kernel-Exploit-Dojo](https://github.com/mito753/Kernel-Exploit-Dojo) | Linux内核漏洞利用CTF题库索引 |
+| [midnight](https://github.com/morpho-org/midnight) | EVM固定利率借贷协议Solidity实现 |
+| [go-iost](https://github.com/iost-official/go-iost) | IOST区块链的Go官方节点实现 |
+| [nanoserve](https://github.com/pjdurden/nanoserve) | 从零实现的轻量级LLM推理服务引擎 |
 | [falco-expert](https://github.com/leogr/falco-expert) | 面向AI代理的Falco知识库 |
 | [rax](https://github.com/HexRaysSA/rax) | 自校验多架构CPU仿真器 |
 | [exploit_me](https://github.com/bkerler/exploit_me) | ARM/AArch64漏洞利用练习程序 |

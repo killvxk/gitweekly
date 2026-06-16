@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [falco-expert](https://github.com/leogr/falco-expert) | 面向AI代理的Falco知识库 |
+| [rax](https://github.com/HexRaysSA/rax) | 自校验多架构CPU仿真器 |
+| [exploit_me](https://github.com/bkerler/exploit_me) | ARM/AArch64漏洞利用练习程序 |
+| [oproxy](https://github.com/sauravrao637/oproxy) | Rust实现的MITM流量调试代理 |
+| [oak-keyring](https://github.com/OpenKeyring/oak-keyring) | 本地优先的终端密码管理器 |
+| [SnackBase](https://github.com/lalitgehani/SnackBase) | FastAPI自托管BaaS平台 |
+| [browser](https://github.com/lightpanda-io/browser) | 面向AI和自动化的轻量级无头浏览器 |
+| [index-tts2-metal](https://github.com/raoqu/index-tts2-metal) | Metal优化的IndexTTS2语音合成工具 |
 | [FPGA-Mandelbrot-Demo](https://github.com/RESBI/FPGA-Mandelbrot-Demo) | 基于FPGA的Mandelbrot渲染加速器 |
 | [Windows-Terminal-OSC-9-9-NTLM-Auth-Coercion](https://github.com/frostb1ten/Windows-Terminal-OSC-9-9-NTLM-Auth-Coercion/) | Windows Terminal OSC触发NTLM认证研究 |
 | [il2cpp-pdb](https://github.com/bombaris34/il2cpp-pdb) | 为Il2CppDumper生成Rust PDB的逆向工具 |

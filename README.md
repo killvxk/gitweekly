@@ -2,6 +2,17 @@
 
 | 链接 | 描述 |
 |------|------|
+| [Ferrum](https://github.com/kernelstub/Ferrum) | Windows本地提权与持久化研究工具包 |
+| [tracebit_x33fcon_2026](https://github.com/threathunters-io/tracebit_x33fcon_2026) | x33fcon安全研究演示工具包 |
+| [Exploits](https://github.com/Bad-Jubies/Exploits) | 多目标漏洞验证代码集合 |
+| [DCOMIllusionist](https://github.com/synacktiv/DCOMIllusionist) | 基于DCOM反序列化的横向移动工具 |
+| [NimSyscallPacker](https://github.com/S3cur3Th1sSh1t/NimSyscallPacker) | Nim实现的Syscall载荷打包器 |
+| [exploit_me](https://github.com/bkerler/exploit_me) | ARM/AArch64漏洞利用练习程序 |
+| [UnCanny](https://github.com/0xHossam/UnCanny) | Windows InstallService NTLM诱导研究 |
+| [smctl](https://github.com/leaperone/smctl) | Mac SMC风扇电池控制CLI工具 |
+| [WhatAboutSAM](https://github.com/PeterGabaldon/WhatAboutSAM) | Windows SAM转储验证工具 |
+| [EtwSuite](https://github.com/idov31/EtwSuite) | Windows ETW事件检查与录制套件 |
+| [ETWPrism](https://github.com/kernullist/ETWPrism) | Rust实现的用户态ETW拦截实验室 |
 | [EDRChoker](https://github.com/TwoSevenOneT/EDRChoker) | 基于Windows QoS策略的EDR流量限速工具 |
 | [EDRUnChoker](https://github.com/sbousseaden/EDRUnChoker) | 清除EDRChoker限速策略的PowerShell防护脚本 |
 | [vmp-import-resolver](https://github.com/crowbar-team/vmp-import-resolver) | VMProtect 3.5+动态导入解析C++工具 |

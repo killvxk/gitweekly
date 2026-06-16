@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Initial Access Broker Report](https://www.shadowserver.org/what-we-do/network-reporting/initial-access-broker-report/) | Shadowserver初始访问代理监测报告 |
+| [Egghunter Exploit Development](https://remo1x.github.io/posts/Egghunter-Exploit-Development/) | Windows漏洞开发Egghunter技术教程 |
+| [ESP32 Bit Pirate](https://chiptron.eu/esp32-bit-pirate-bus-pirate-hacking-tool-for-esp32/) | ESP32-S3硬件总线调试工具介绍 |
+| [Whoops! I patched Windows Kernel](https://zer0matt.blogspot.com/2026/05/whoops-i-did-it-again-i-patched-windows.html) | Milan0day Windows内核补丁研究记录 |
+| [OSED Notes](https://redteamrecipes.com/blog/2024/03/osednotes/) | OSED漏洞开发考试笔记 |
+| [CVE-2026-21241 AFD.sys UAF](https://rce4fun.blogspot.com/2026/02/use-after-free-in-afdsys-cve-2026-21241.html) | Windows 11内核驱动UAF漏洞分析 |
+| [CVE-2026-21241 AFD.sys Race Condition](https://hackyboiz.github.io/2026/06/15/Libera/CVE-2026-21241/) | Windows AFD.sys竞态UAF漏洞解析 |
+| [CVE-2026-20253 Splunk Pre-Auth RCE](https://thecybersecguru.com/news/cve-2026-20253-splunk-pre-auth-rce-postgresql-sidecar/) | Splunk PostgreSQL Sidecar预认证RCE分析 |
+| [Zombie CoTables VirtualBox Escape](https://blog.exodusintel.com/2026/06/15/zombie-cotables-resurrecting-freed-memory-to-escape-virtualbox/) | VirtualBox CoTables UAF沙箱逃逸分析 |
+| [ReadableStream TOCTOU V8 Sandbox Bypass](https://ssd-disclosure.com/readablestream-toctou-v8-sandbox-bypass-via-wasm-streaming/) | V8 WASM流式解析TOCTOU绕过分析 |
+| [PAN-OS CVE-2026-0257 Exploitation](https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257/) | PAN-OS GlobalProtect认证绕过利用观察 |
+| [windbg-ctype](https://tinysec.net/tool/windbg-ctype/) | 按C类型解析内存的WinDbg扩展 |
 | [chaining rift + PoolSlip into an ASLR-independent nginx 1.30.0 exploit](https://blog.verichains.io/p/two-bytes-to-rce-chaining-rift-poolslip) | Nginx Rift与PoolSlip组合利用链分析 |
 | [Bypassing Detections with Command-Line Obfuscation](https://www.wietzebeukema.nl/blog/bypassing-detections-with-command-line-obfuscation) | 命令行参数混淆绕过检测技术研究 |
 | [Human Observations on Mythos Runs](https://exploitbench.ai/blog/human-observations/) | ExploitBench漏洞复现能力观察报告 |

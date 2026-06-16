@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [HVCI, and how far down a SYSTEM shell actually gets you](https://afflicted.sh/blog/posts/hvci-state-2026.html) | Windows HVCI防护边界与绕过现状分析 |
+| [Odysseus Embedding Endpoint Takeover](https://aydinnyunus.github.io/2026/06/16/odysseus-embedding-endpoint-takeover/) | Odysseus embedding端点越权与SSRF分析 |
+| [Trojaned OpenSSH](http://miod.online.fr/software/openbsd/stories/trojan.html) | OpenSSH 2002供应链污染事件回顾 |
 | [Initial Access Broker Report](https://www.shadowserver.org/what-we-do/network-reporting/initial-access-broker-report/) | Shadowserver初始访问代理监测报告 |
 | [Egghunter Exploit Development](https://remo1x.github.io/posts/Egghunter-Exploit-Development/) | Windows漏洞开发Egghunter技术教程 |
 | [ESP32 Bit Pirate](https://chiptron.eu/esp32-bit-pirate-bus-pirate-hacking-tool-for-esp32/) | ESP32-S3硬件总线调试工具介绍 |

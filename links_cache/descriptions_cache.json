@@ -2653,5 +2653,9 @@
   "https://github.com/mito753/Kernel-Exploit-Dojo": "Linux内核漏洞利用CTF题库索引",
   "https://github.com/morpho-org/midnight": "EVM固定利率借贷协议Solidity实现",
   "https://github.com/iost-official/go-iost": "IOST区块链的Go官方节点实现",
-  "https://github.com/pjdurden/nanoserve": "从零实现的轻量级LLM推理服务引擎"
+  "https://github.com/pjdurden/nanoserve": "从零实现的轻量级LLM推理服务引擎",
+  "https://github.com/tanelpoder/brr/": "eBPF程序运行时统计与性能分析工具",
+  "https://nopnop.pro/2026/06/17/exploiting-git-integrations-in-cloud-services/": "云服务Git集成漏洞利用案例研究",
+  "https://theabysslabs.github.io/patch-diffing/exploitation/windowskernel/2026/06/15/NtPssOverflow.html": "NTOSKRNL堆溢出补丁差分根因分析",
+  "https://github.com/CyberStrikeus/CyberStrike": "基于MITRE和OWASP的AI安全测试代理"
 }

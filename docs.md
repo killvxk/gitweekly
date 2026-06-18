@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [The gift that keeps giving: Exploiting Git Integrations in Cloud Services](https://nopnop.pro/2026/06/17/exploiting-git-integrations-in-cloud-services/) | 云服务Git集成漏洞利用案例研究 |
+| [Lost in truncation. Root cause analysis of a NTOSKRNL Heap Overflow.](https://theabysslabs.github.io/patch-diffing/exploitation/windowskernel/2026/06/15/NtPssOverflow.html) | NTOSKRNL堆溢出补丁差分根因分析 |
 | [RCE/LiteLLM: LiteLLM 1.83.14 - Chaining an Environment Variable Leak with Jinja2 SSTI for Remote Code Execution](https://mccaulay.co.uk/rcelitellm-litellm-1-83-14-chaining-an-environment-variable-leak-with-jinja2-ssti-for-remote-code-execution/) | LiteLLM环境变量泄露到Jinja2 SSTI链RCE |
 | [An old Pixel rooting bug](https://kyeojy.github.io/posts/mali-csf-exploit/) | Pixel 7 Mali CSF驱动UAF漏洞利用分析 |
 | [CVE-2026-45595 MOTW Bypass](https://gist.github.com/irsdl/ad54a34d7bd16b092e0911e27135ebe1) | Windows MOTW绕过漏洞补丁差分分析 |

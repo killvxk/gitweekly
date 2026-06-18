@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [brr](https://github.com/tanelpoder/brr/) | eBPF程序运行时统计与性能分析工具 |
 | [Ferrum](https://github.com/kernelstub/Ferrum) | Windows本地提权与持久化研究工具包 |
 | [tracebit_x33fcon_2026](https://github.com/threathunters-io/tracebit_x33fcon_2026) | x33fcon安全研究演示工具包 |
 | [Exploits](https://github.com/Bad-Jubies/Exploits) | 多目标漏洞验证代码集合 |

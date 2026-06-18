@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) | 基于MITRE和OWASP的AI安全测试代理 |
 | [facenet](https://github.com/lispc/facenet) | PyTorch复现FaceNet人脸识别训练框架 |
 | [Kernel-Exploit-Dojo](https://github.com/mito753/Kernel-Exploit-Dojo) | Linux内核漏洞利用CTF题库索引 |
 | [midnight](https://github.com/morpho-org/midnight) | EVM固定利率借贷协议Solidity实现 |

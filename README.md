@@ -2,6 +2,14 @@
 
 | 链接 | 描述 |
 |------|------|
+| [UnCanny](https://github.com/0xHossam/UnCanny) | Windows InstallService NTLM诱导研究 |
+| [nginx-rift-poolslip-lab](https://github.com/dinosn/nginx-rift-poolslip-lab) | nginx rift与PoolSlip链复现分析实验室 |
+| [Peepo](https://github.com/datalocaltmp/Peepo) | Apple Watch内核读写与进程内存转储工具 |
+| [UNCagedSandbox](https://github.com/0xHossam/UNCagedSandbox) | Windows Sandbox HostFolder NTLM泄漏研究 |
+| [wdk_template](https://github.com/build-cpp/wdk_template) | 基于cmkr的Windows WDK驱动模板 |
+| [hedgehog-tools](https://github.com/struppigel/hedgehog-tools) | 恶意软件分析与反混淆脚本集合 |
+| [LACUNA-Chain](https://github.com/MazX0p/LACUNA-Chain) | 基于pdata空隙的Windows调用栈伪装链 |
+| [wasmforge](https://github.com/praetorian-inc/wasmforge) | 将Go和C#编译为WASM沙箱原生二进制 |
 | [brr](https://github.com/tanelpoder/brr/) | eBPF程序运行时统计与性能分析工具 |
 | [Ferrum](https://github.com/kernelstub/Ferrum) | Windows本地提权与持久化研究工具包 |
 | [tracebit_x33fcon_2026](https://github.com/threathunters-io/tracebit_x33fcon_2026) | x33fcon安全研究演示工具包 |

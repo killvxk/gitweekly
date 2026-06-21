@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [privacy-filter.cpp](https://github.com/localai-org/privacy-filter.cpp) | 基于GGML的隐私过滤NER推理引擎 |
+| [fishhook](https://github.com/johnno1962/fishhook) | iOS Mach-O符号动态重绑定库 |
+| [baerly-storage](https://github.com/Gusto/baerly-storage) | 基于S3兼容存储的文档数据库库 |
+| [MDReportServer](https://github.com/ZephrFish/MDReportServer) | 零依赖Markdown报告审阅Web服务 |
+| [isobox](https://github.com/can1357/isobox) | 统一能力模型的跨平台命令沙箱工具 |
 | [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) | 基于MITRE和OWASP的AI安全测试代理 |
 | [facenet](https://github.com/lispc/facenet) | PyTorch复现FaceNet人脸识别训练框架 |
 | [Kernel-Exploit-Dojo](https://github.com/mito753/Kernel-Exploit-Dojo) | Linux内核漏洞利用CTF题库索引 |

@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ShellHWEventExec](https://github.com/0xHossam/ShellHWEventExec) | Windows COM自动播放命令执行BOF |
+| [mssqlbof](https://github.com/MazX0p/mssqlbof) | 原生TDS实现的SQL Server BOF套件 |
 | [tunnel-vision-toolkit](https://github.com/ar0x4/tunnel-vision-toolkit) | Microsoft GSA隧道协议研究工具包 |
 | [usb-monitor-bof](https://github.com/jakobfriedl/usb-monitor-bof) | USB监控与NTLM诱导的异步BOF工具 |
 | [VeeamDumper-BOF](https://github.com/MWR-CyberSec/VeeamDumper-BOF) | 提取Veeam凭据的Cobalt Strike BOF工具 |

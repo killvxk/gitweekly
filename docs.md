@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Payload Fragmentation: Dynamic Assembly for AV Evasion](https://medium.com/@hansbeke/payload-fragmentation-dynamic-assembly-for-av-evasion-fa4d82bc2ef7) | 载荷分片与动态组装的AV规避技术 |
+| [Using Slack links-preview to smuggle C2 in locked-down environments](https://rwxstoned.github.io/2026-06-18-Slack-links-preview-for-C2/) | 利用Slack链接预览隐藏C2通信的研究 |
+| [JOE: a freestanding JavaScript engine](https://parsa.wtf/joe/) | 专注性能正确性的独立JavaScript引擎 |
+| [AdaptixC2: Fingerprinting an Open-Source C2 Framework at Scale](https://censys.com/blog/adaptixc2-open-source-c2-framework/) | AdaptixC2框架互联网指纹测绘研究 |
+| [LACUNA Chain: Ghost Frames](https://0xmaz.me/posts/LACUNA-Chain-Ghost-Frames-defeats-All-EDR-layers-of-call-stack-based-detection/) | EDR调用栈检测对抗的Ghost Frames研究 |
+| [WasmForge brings dead GhostPack C# tools back past EDR](https://www.praetorian.com/blog/wasmforge-csharp-ghostpack-edr-evasion/) | WasmForge重构GhostPack工具的EDR检测研究 |
 | [The gift that keeps giving: Exploiting Git Integrations in Cloud Services](https://nopnop.pro/2026/06/17/exploiting-git-integrations-in-cloud-services/) | 云服务Git集成漏洞利用案例研究 |
 | [Lost in truncation. Root cause analysis of a NTOSKRNL Heap Overflow.](https://theabysslabs.github.io/patch-diffing/exploitation/windowskernel/2026/06/15/NtPssOverflow.html) | NTOSKRNL堆溢出补丁差分根因分析 |
 | [RCE/LiteLLM: LiteLLM 1.83.14 - Chaining an Environment Variable Leak with Jinja2 SSTI for Remote Code Execution](https://mccaulay.co.uk/rcelitellm-litellm-1-83-14-chaining-an-environment-variable-leak-with-jinja2-ssti-for-remote-code-execution/) | LiteLLM环境变量泄露到Jinja2 SSTI链RCE |

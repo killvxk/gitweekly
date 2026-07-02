@@ -2,6 +2,23 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-54806](https://github.com/joshuavanderpoll/CVE-2026-54806) | WP Activity Log PHP对象注入验证脚本 |
+| [TokenTwin-Checker](https://github.com/rootdr-backup/TokenTwin-Checker) | Burp Suite双Token越权测试插件 |
+| [ttd-capa](https://github.com/HullaBrian/ttd-capa) | 从TTD轨迹提取程序能力的逆向工具 |
+| [VMXHypervisorToolbox](https://github.com/hititou/VMXHypervisorToolbox) | Windows x64 Ring-1虚拟化安全工具箱 |
+| [MSandbox](https://github.com/hititou/MSandbox) | 基于Unicorn的x86/x64虚拟执行沙箱 |
+| [Diskjacker](https://github.com/LabGuy94/Diskjacker) | 基于DDMA技术的Hyper-V虚拟机运行时劫持工具 |
+| [vm_stowaway](https://github.com/LabGuy94/vm_stowaway) | 通过dylib注入读写macOS进程内存的工具 |
+| [Ophion](https://github.com/zer0condition/Ophion) | 面向反检测场景的Intel VT-x轻量虚拟机 |
+| [best](https://github.com/mcy/best) | 替代STL的现代C++基础库 |
+| [KDemu](https://github.com/ShallowFeather/KDemu) | 基于Unicorn的Windows内核驱动混合模拟器 |
+| [nocrt](https://github.com/JHRobotics/nocrt) | 轻量替代C运行库组件的C语言实现 |
+| [KLINIKAL](https://github.com/Danukeru/KLINIKAL) | 内嵌WireGuard的Winsock2代理DLL |
+| [CVE-2026-41089](https://github.com/0xABCD01/CVE-2026-41089) | Netlogon CLDAP栈溢出验证脚本 |
+| [BunnyHijack](http://github.com/X3r0Day/BunnyHijack) | Bun安装流程PATH投毒风险验证项目 |
+| [GraphRobber](https://github.com/rabbit-sec/GraphRobber) | Microsoft Graph后利用浏览器图形化框架 |
+| [Insert](https://github.com/uellenberg/Insert) | 面向自修改代码的Rust实验编程语言 |
+| [InstrumentationCallbackSyscallLogger](https://github.com/x86matthew/InstrumentationCallbackSyscallLogger) | 基于NT Instrumentation Callback的Windows系统调用日志器 |
 | [UnCanny](https://github.com/0xHossam/UnCanny) | Windows InstallService NTLM诱导研究 |
 | [nginx-rift-poolslip-lab](https://github.com/dinosn/nginx-rift-poolslip-lab) | nginx rift与PoolSlip链复现分析实验室 |
 | [Peepo](https://github.com/datalocaltmp/Peepo) | Apple Watch内核读写与进程内存转储工具 |

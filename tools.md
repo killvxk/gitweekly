@@ -2,6 +2,31 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cvm](https://github.com/QGrain/cvm) | 跨平台LLVM/GCC版本管理工具 |
+| [chinese_osint_search_dorks](https://github.com/ArgeliusLabs/chinese_osint_search_dorks) | 面向中文互联网的OSINT搜索语法指南 |
+| [llm-git](https://github.com/can1357/llm-git) | 基于LLM自动生成Git提交信息的Rust工具 |
+| [anyRTC-RTMP-OpenSource](https://github.com/anyrtcIO-Community/anyRTC-RTMP-OpenSource) | 跨平台RTMP推流与播放器开源实现 |
+| [EasyPlayerPro-Win](https://github.com/ZhangXwu123/EasyPlayerPro-Win) | 基于FFmpeg的Windows流媒体播放器 |
+| [antispy](https://github.com/mohuihui/antispy) | Windows反Rootkit检测分析与修复工具 |
+| [Hypervisor](https://github.com/husseinmuhaisen/Hypervisor) | Hypervisor学习资料与实现资源合集 |
+| [forensia](https://github.com/sumeshi/forensia) | 面向Windows DFIR的本地LLM调查助手 |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 面向逆向安全任务的AI技能路由包 |
+| [MemNixFS](https://github.com/MemNixFS/MemNixFS) | 将Linux内存转储挂载为文件系统的取证框架 |
+| [mise](https://github.com/jdx/mise) | 开发工具版本环境变量与任务运行器 |
+| [emex64](https://github.com/emexlab/emex64) | 自研64位轻量RISC/CISC混合架构 |
+| [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI短剧从剧本到分镜生成的生产工作台 |
+| [MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) | 高保真语音与声音生成模型家族 |
+| [content-signal-radar](https://github.com/MapleShaw/content-signal-radar) | 多源内容信号抓取评分与报告工具 |
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 基于AI大模型一键生成短视频工具 |
+| [ogpu](https://github.com/oframe/ogpu) | 极简WebGPU图形开发框架 |
+| [MIPSReverseEngineeringWorkshop](https://github.com/pinkflawd/MIPSReverseEngineeringWorkshop) | Recon 2026 MIPS逆向研讨材料 |
+| [penthera](https://github.com/danoszz/penthera) | 面向AI生成应用的轻量安全扫描器 |
+| [GPOHound](https://github.com/cogiceo/GPOHound) | 结合BloodHound数据的GPO转储分析工具 |
+| [sba](https://github.com/nhuhuan/sba) | 基于LLVM MC的静态二进制分析框架 |
+| [forticrack_v8](https://github.com/hacefresko/forticrack_v8) | FortiOS 8固件解密与提取工具 |
+| [endpoint-ai-agent-abuse](https://github.com/0x4D31/endpoint-ai-agent-abuse) | 本地AI Agent滥用技术清单 |
+| [dspy4s](https://github.com/jpablo/dspy4s) | DSPy思想的Scala类型化模块框架 |
+| [ida_rpc](https://github.com/bkerler/ida_rpc) | 面向辅助逆向任务的IDA Pro RPC接口 |
 | [privacy-filter.cpp](https://github.com/localai-org/privacy-filter.cpp) | 基于GGML的隐私过滤NER推理引擎 |
 | [fishhook](https://github.com/johnno1962/fishhook) | iOS Mach-O符号动态重绑定库 |
 | [baerly-storage](https://github.com/Gusto/baerly-storage) | 基于S3兼容存储的文档数据库库 |

@@ -2,6 +2,30 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Honeypot Detection](https://offsec.cypfer.com/blog/Honeypot-detection) | 红队演练中的蜜罐识别方法研究 |
+| [linux hacking 11](https://cocomelonc.github.io/linux/2026/06/17/linux-hacking-11.html) | Linux安全实验系列第11篇技术笔记 |
+| [Introducing usbliter8](https://ps.tc/pages/blog-usbliter8.html) | Apple A12/A13 SecureROM漏洞技术分析 |
+| [Dismantling FortiBleed](https://socradar.io/resources/whitepapers/dismantling-fortibleed-inside-a-russian-fortinet-compromise-operation/) | Fortinet防火墙凭据采集行动深度报告 |
+| [Linux syscall table](https://thatsillyman.win/linux/syscall-table/) | Linux系统调用表速查参考 |
+| [Game of Hide and Seek](https://0xsp.com/research/game-of-hide-and-seek-detecting-dynamic-api-resolution-at-runtime-with-aether/) | Aether运行时动态API解析检测研究 |
+| [Syscall Hooking via EFER](https://revers.engineering/syscall-hooking-via-extended-feature-enable-register-efer/) | 基于EFER寄存器的系统调用Hook技术研究 |
+| [Starlink uplink signal analysis (5)](https://sdr-x.github.io/starlink5/) | Starlink上行信号调制结构分析 |
+| [Bypassing Conditional Access policies](https://dirkjanm.io/bypassing-conditional-access-with-resource-exclusion/) | Entra ID资源排除条件访问绕过分析 |
+| [EDR Silencing](https://ipurple.team/2026/01/12/edr-silencing/) | 通过防火墙规则阻断EDR云端通信的攻防技术研究 |
+| [One Bool. Six Shells. AMSI's Design Problem](https://bl4ckarch.github.io/posts/One-Bool.-Six-Shells.-AMSI's-Design-Problem/) | AMSI设计缺陷与多Shell绕过研究 |
+| [Tomcat Tribes unauth RCE](https://www.striga.ai/research/tomcat-tribes-unauth-rce) | Tomcat Tribes加密失效导致未认证RCE分析 |
+| [Modern Malware Development for Red Teams](https://anteiku-energy.github.io/papers/an-introduction-to-modern-malware-development-for-red-teams/00_an_introduction_to_malware_development_for_red_teams/) | 现代红队恶意软件开发入门系列 |
+| [Cottou](https://ret2p.lt/2026/06/29/cottou.html) | dyld重定位越界导致代码执行漏洞研究 |
+| [AI cybersecurity safety will be won through adoption](https://joshuasaxe181906.substack.com/p/ai-cybersecurity-safety-will-be-won) | AI网络安全应以防御采用取胜的政策观点 |
+| [Kernel Driver Scheduling Bug with scx_chaos](https://blog.hillion.co.uk/posts/kernel-driver-scheduling-bug-with-chaos/) | 用scx_chaos复现内核驱动调度缺陷 |
+| [NebulaPulsar](https://iss4cf0ng.github.io/2026/06/27/2026-6-27-NebulaPulsar/) | JSP与ASP.NET内存植入框架研究 |
+| [SSH Pivoting Lab](https://medium.com/@ayaelbaz191/ssh-pivoting-lab-local-port-forwarding-socks-proxy-and-reverse-port-forwarding-bd250908e5de) | SSH本地转发SOCKS代理与反向转发实验 |
+| [CVE-2026-33112](https://blog.viettelcybersecurity.com/cve-2026-33112/) | SharePoint XmlValidator绕过低权限RCE分析 |
+| [ShadowDumper improvements](https://practicalsecurityanalytics.com/dumping-lsass-without-touching-disk-improvements-to-shadowdumper/) | ShadowDumper无落盘LSASS转储改进研究 |
+| [Hands-On GDB & Pwndbg for Beginners](https://medium.com/@alwinaji717/hands-on-gdb-pwndbg-for-beginners-learn-linux-debugging-like-a-reverse-engineer-1c7f95495112) | 面向逆向新手的GDB与Pwndbg实战教程 |
+| [Abusing GitLab CI Runners as C2](https://vrls.ws/posts/abusing-gitlab-ci-runners-as-c2/) | 滥用GitLab CI Runner构建C2通道研究 |
+| [Telegram BGP hijack and blackholing](https://anuragbhatia.com/post/2026/06/telegram-bgp-hijack-and-blackholing/) | Telegram前缀BGP劫持与黑洞路由分析 |
+| [DirtyClone CVE-2026-43503](https://research.jfrog.com/post/dissecting-and-exploiting-linux-lpe-variant-dirtyclone-cve-2026-43503/) | Linux DirtyClone本地提权漏洞技术分析 |
 | [Payload Fragmentation: Dynamic Assembly for AV Evasion](https://medium.com/@hansbeke/payload-fragmentation-dynamic-assembly-for-av-evasion-fa4d82bc2ef7) | 载荷分片与动态组装的AV规避技术 |
 | [Using Slack links-preview to smuggle C2 in locked-down environments](https://rwxstoned.github.io/2026-06-18-Slack-links-preview-for-C2/) | 利用Slack链接预览隐藏C2通信的研究 |
 | [JOE: a freestanding JavaScript engine](https://parsa.wtf/joe/) | 专注性能正确性的独立JavaScript引擎 |

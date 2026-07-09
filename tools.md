@@ -1,65 +1,35 @@
 # 有趣的工具
 
-https://github.com/WhiteNightShadow/firefox-reverse
-
-https://github.com/shokkadev/MockAD-Release
-
-https://github.com/elder-plinius/T3MP3ST
-
-https://github.com/42Pupusas/quetzalcoatl
-
-https://github.com/can1357/pon
-
-https://github.com/dougburks/so-crates
-
-https://github.com/kernelstub/Nox
-
-https://github.com/teamchong/pxpipe
-
-https://github.com/matro7sh/BypassAV
-
-https://github.com/halilkirazkaya/arsenal-ng
-
-https://github.com/xsser/codex-jailbreak-guide
-
-https://github.com/ZephrFish/harness-kit
-
-https://github.com/exploitcve/mattew
-
-https://github.com/uphiago/recon-skills/
-
-https://github.com/OraclesTech/guardian-sdk
-
-https://github.com/josevcm/hce-laboratory
-
-https://github.com/overspace-labs/HaE
-
-https://github.com/cellebrite-labs/ida_kernelcache
-
-https://github.com/0xeb/vibe-re
-
-https://github.com/rcarmo/pve-microvm
-
-https://github.com/SpecterOps/Jailbreaker-CE
-
-https://github.com/parkers0405/neoism
-
-https://github.com/chAng-L19/codex-redteam-mode
-
-https://github.com/withmarbleapp/os-taxonomy
-
-https://github.com/runZeroInc/vulns-2026-fatfs-chance
-
-https://github.com/kortix-ai/suna
-
-https://github.com/netbirdio/netbird
-
-https://github.com/xchgll/winman
-
-
-
 | 文章 | 简介 |
 |------|------|
+| [firefox-reverse](https://github.com/WhiteNightShadow/firefox-reverse) | 集成 AI 逆向 Agent 的 Firefox JS 逆向工作站 |
+| [MockAD-Release](https://github.com/shokkadev/MockAD-Release) | 轻量级 Active Directory 环境模拟与可视化工具 |
+| [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | 多 Agent 自主化红队进攻安全平台 |
+| [quetzalcoatl](https://github.com/42Pupusas/quetzalcoatl) | 高吞吐并发场景的无锁环形缓冲区库 |
+| [pon](https://github.com/can1357/pon) | Rust 实现的 Python 原生 JIT/AoT 编译器 |
+| [so-crates](https://github.com/dougburks/so-crates) | Security Onion 容器化威胁快速分析工具 |
+| [Nox](https://github.com/kernelstub/Nox) | Go 实现的模块化攻击面管理与漏扫框架 |
+| [pxpipe](https://github.com/teamchong/pxpipe) | 通过图片渲染文本降低 LLM token 消耗 |
+| [BypassAV](https://github.com/matro7sh/BypassAV) | AV 与 EDR 绕过技术思维导图 |
+| [arsenal-ng](https://github.com/halilkirazkaya/arsenal-ng) | 内置 200+ 安全速查表的 Go 命令启动器 |
+| [codex-jailbreak-guide](https://github.com/xsser/codex-jailbreak-guide) | Codex CLI 越狱与系统提示词定制指南 |
+| [harness-kit](https://github.com/ZephrFish/harness-kit) | 构建自定义 AI/LLM harness 的模板 |
+| [mattew](https://github.com/exploitcve/mattew) | 一键网站攻击面提取与安全分析报告工具 |
+| [recon-skills](https://github.com/uphiago/recon-skills/) | 收录 162 项进攻安全侦察与渗透技能 |
+| [guardian-sdk](https://github.com/OraclesTech/guardian-sdk) | 防御提示注入与越狱的 AI 应用安全 SDK |
+| [hce-laboratory](https://github.com/josevcm/hce-laboratory) | 基于 PN7160 的 NFC 主机卡模拟器 |
+| [HaE](https://github.com/overspace-labs/HaE) | BurpSuite 请求高亮与信息提取插件 |
+| [ida_kernelcache](https://github.com/cellebrite-labs/ida_kernelcache) | 分析 iOS 内核缓存的 IDA 工具包 |
+| [vibe-re](https://github.com/0xeb/vibe-re) | 基于IDA Pro和SQL查询的恶意软件逆向工程分析工作空间 |
+| [pve-microvm](https://github.com/rcarmo/pve-microvm) | Proxmox VE 上类 Firecracker 的毫秒级 microVM |
+| [Jailbreaker-CE](https://github.com/SpecterOps/Jailbreaker-CE) | 测试聊天机器人越狱与提示注入的评估工具 |
+| [neoism](https://github.com/parkers0405/neoism) | GPU 渲染的终端一体化工作区 |
+| [codex-redteam-mode](https://github.com/chAng-L19/codex-redteam-mode) | 面向红队思维的 AI 破限(red team)模式 |
+| [os-taxonomy](https://github.com/withmarbleapp/os-taxonomy) | 儿童小学阶段学习技能的结构化分类体系 |
+| [vulns-2026-fatfs-chance](https://github.com/runZeroInc/vulns-2026-fatfs-chance) | FatFs 文件系统七个漏洞研究与利用工具 |
+| [suna](https://github.com/kortix-ai/suna) | 企业级 AI 智能体指挥中心 |
+| [netbird](https://github.com/netbirdio/netbird) | 基于 WireGuard 的零信任覆盖网络组网方案 |
+| [winman](https://github.com/xchgll/winman) | 离线 Win/NT API 文档查询工具 |
 | [cvm](https://github.com/QGrain/cvm) | 跨平台LLVM/GCC版本管理工具 |
 | [chinese_osint_search_dorks](https://github.com/ArgeliusLabs/chinese_osint_search_dorks) | 面向中文互联网的OSINT搜索语法指南 |
 | [llm-git](https://github.com/can1357/llm-git) | 基于LLM自动生成Git提交信息的Rust工具 |

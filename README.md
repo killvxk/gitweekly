@@ -1,59 +1,31 @@
 # gitweekly
 
-https://github.com/V4bel/Januscape
-
-https://github.com/speedyfriend433/ReDyne
-
-https://github.com/J4ck3LSyN-Gen2/CVE-2026-39047
-
-https://github.com/jarnovandenbrink/CVE-2026-26128
-
-https://github.com/SmtimesIWndr/gdid-reversal
-
-https://github.com/0xsha/CVE-2026-6307
-
-https://github.com/outflanknl/macos-jit
-
-https://github.com/mrphrazer/obfuscation_detection
-
-https://github.com/huynambka/cve-2026-26114-poc
-
-https://github.com/AldazActivator/usbliter8-c
-
-https://github.com/J4ck3LSyN-Gen2/CVE-2026-48558
-
-https://github.com/milankovo/struct-compare
-
-https://github.com/bikini/exploitarium
-
-https://github.com/n0qword/win32k-callback-detouring
-
-https://github.com/Orangera1n/spironolactone
-
-https://github.com/advanced-microcode-patching/shiva
-
-https://github.com/wearrrrr/Nari
-
-https://github.com/jaf0rk/CVE-2026-14382
-
-https://github.com/jakeotte/klist2ccache
-
-https://github.com/V4bel/Januscape
-
-https://github.com/youssefnoob003/SindriKit
-
-https://github.com/forefy/mimic
-
-https://github.com/0xCyberstan/CVE-2026-46215-POC
-
-https://github.com/Orange-Cyberdefense/p3-loader
-
-https://github.com/portbuster1337/lpe-toolkit
-
-
-
 | 链接 | 描述 |
 |------|------|
+| [Januscape](https://github.com/V4bel/Januscape) | KVM 虚拟机逃逸漏洞(CVE-2026-53359)研究 |
+| [ReDyne](https://github.com/speedyfriend433/ReDyne) | iOS 原生反编译应用 |
+| [CVE-2026-39047](https://github.com/J4ck3LSyN-Gen2/CVE-2026-39047) | Epson 打印机 RAW 协议漏洞利用框架 |
+| [CVE-2026-26128](https://github.com/jarnovandenbrink/CVE-2026-26128) | CVE-2026-26128 漏洞 PoC |
+| [gdid-reversal](https://github.com/SmtimesIWndr/gdid-reversal) | Windows 全局设备标识(GDID)完整逆向分析 |
+| [CVE-2026-6307](https://github.com/0xsha/CVE-2026-6307) | Google Chrome CVE-2026-6307 漏洞 PoC |
+| [macos-jit](https://github.com/outflanknl/macos-jit) | macOS allow-jit entitlement 研究 PoC |
+| [obfuscation_detection](https://github.com/mrphrazer/obfuscation_detection) | 识别混淆代码的 Binary Ninja 插件 |
+| [cve-2026-26114-poc](https://github.com/huynambka/cve-2026-26114-poc) | SharePoint CVE-2026-26114 远程代码执行 PoC |
+| [usbliter8-c](https://github.com/AldazActivator/usbliter8-c) | 无依赖的 usbliter8 引导工具 |
+| [CVE-2026-48558](https://github.com/J4ck3LSyN-Gen2/CVE-2026-48558) | SimpleHelp OIDC 认证绕过漏洞 PoC |
+| [struct-compare](https://github.com/milankovo/struct-compare) | IDA Pro 结构体差异对比与合并插件 |
+| [exploitarium](https://github.com/bikini/exploitarium) | 公开漏洞 PoC 与研究文章归档 |
+| [win32k-callback-detouring](https://github.com/n0qword/win32k-callback-detouring) | 滥用 win32k.sys 内核回调执行任意代码 |
+| [spironolactone](https://github.com/Orangera1n/spironolactone) | iOS 双系统/SSH ramdisk/降级引导工具 |
+| [shiva](https://github.com/advanced-microcode-patching/shiva) | 运行时安装 ELF 二进制补丁的链接加载器 |
+| [Nari](https://github.com/wearrrrr/Nari) | 带 JIT 的动态多范式编程语言 |
+| [CVE-2026-14382](https://github.com/jaf0rk/CVE-2026-14382) | Chrome ANGLE 输入校验不足漏洞(CVE-2026-14382) |
+| [klist2ccache](https://github.com/jakeotte/klist2ccache) | 远程导出 TGT 并转为 ccache 的工具 |
+| [SindriKit](https://github.com/youssefnoob003/SindriKit) | 构建进攻能力的 C 基础库 |
+| [mimic](https://github.com/forefy/mimic) | 绕过 EDR 的 macOS 密码哈希导出工具 |
+| [CVE-2026-46215-POC](https://github.com/0xCyberstan/CVE-2026-46215-POC) | Linux DRM GEM UAF 提权 PoC(CVE-2026-46215) |
+| [p3-loader](https://github.com/Orange-Cyberdefense/p3-loader) | 利用进程参数结构的 Shellcode 加载器 |
+| [lpe-toolkit](https://github.com/portbuster1337/lpe-toolkit) | 多架构 Linux 提权工具包(24个exp) |
 | [CVE-2026-54806](https://github.com/joshuavanderpoll/CVE-2026-54806) | WP Activity Log PHP对象注入验证脚本 |
 | [TokenTwin-Checker](https://github.com/rootdr-backup/TokenTwin-Checker) | Burp Suite双Token越权测试插件 |
 | [ttd-capa](https://github.com/HullaBrian/ttd-capa) | 从TTD轨迹提取程序能力的逆向工具 |

@@ -1,63 +1,34 @@
 # 有趣的文章
 
-https://research.rewritelab.org/2026/06/11/%5BENG%5D%20Pwning%20Chromium%20146%20Renderer%20Process/
-
-https://bugpwn.com/blog/civetweb-ssi-rce.html
-
-https://faith2dxy.xyz/2025-12-22/cve_2025_38352_analysis/
-
-https://www.cyberkendra.com/2026/04/apache-tomcats-security-fix-opened-door.html
-
-https://alessandrogar.io/posts/mquire-announcement/
-
-https://xhgll.medium.com/advanced-reverse-engineering-binary-diffing-using-diaphora-cc208e8e9d78
-
-https://www.hacktron.ai/blog/i-let-claude-opus-to-write-me-a-chrome-exploit
-
-https://blog.ghostwolflab.com/apt/842/
-
-https://hackers-arise.com/evading-antivirus-bypassing-windows-defender-with-tenebris-gate/
-
-https://www.crowdfense.com/apache-activemq-rce-bypass/
-
-https://hackers-arise.com/hacking-artificial-intelligence-ai-reconnaissance-on-ai-infrastructure/
-
-https://hotcakex.github.io/#which-device-to-use
-
-https://questdb.com/blog/jvm-jit-known-bits/
-
-https://projectblack.io/blog/local-ai-for-cyber-security/
-
-https://gmo-cybersecurity.com/blog/19-year-old-linux-kernel-zero-day/
-
-https://core-jmp.org/2026/06/iboot-smmu-bypass-kernelcache-struct-forgery/
-
-https://blog.ghostwolflab.com/product_research/800/
-
-https://gist.github.com/bagder/c9b83a19f30e82e41b11f6315465b17a
-
-https://proteqtum.com/posts/01-win-x64-shellcode-introduction_en/
-
-https://hackers-arise.com/offensive-security-evading-antivirus-with-nezha-to-maintain-persistence/
-
-https://screetsec.com/blog/offensive-powershell-for-red-teamer-with-defense-evastion-techniques
-
-https://hxr1.ghost.io/silent-smb-a-macos-calendar-vulnerability/
-
-https://zwclose.github.io/2026/07/08/rtsper2.html
-
-https://zerotistic.blog/posts/redis-stream-pel-uaf/
-
-https://cyberstan.co.uk/drm-lpe-linux/
-
-https://www.binarly.io/blog/unfit-to-boot-breaking-u-boots-fit-signature-verification
-
-https://sensepost.com/blog/2026/process-parameter-poisoning/
-
-
-
 | 文章 | 简介 |
 |------|------|
+| [Pwning Chromium 146 Renderer](https://research.rewritelab.org/2026/06/11/%5BENG%5D%20Pwning%20Chromium%20146%20Renderer%20Process/) | Chromium 146 渲染进程 V8 漏洞利用链分析 |
+| [CivetWeb PUT+SSI RCE](https://bugpwn.com/blog/civetweb-ssi-rce.html) | CivetWeb 的 PUT 与 SSI 组合实现远程代码执行 |
+| [CVE-2025-38352 Android Kernel PoC](https://faith2dxy.xyz/2025-12-22/cve_2025_38352_analysis/) | CVE-2025-38352 安卓内核在野漏洞分析与 PoC |
+| [Tomcat 补丁引发未授权 RCE](https://www.cyberkendra.com/2026/04/apache-tomcats-security-fix-opened-door.html) | Apache Tomcat 安全补丁引入未授权 RCE |
+| [mquire 无符号内存取证](https://alessandrogar.io/posts/mquire-announcement/) | 无需调试符号的 Linux 内存取证工具 mquire |
+| [Diaphora 二进制差分](https://xhgll.medium.com/advanced-reverse-engineering-binary-diffing-using-diaphora-cc208e8e9d78) | 基于 Diaphora 的高级二进制差分逆向 |
+| [让 Claude Opus 写 Chrome exp](https://www.hacktron.ai/blog/i-let-claude-opus-to-write-me-a-chrome-exploit) | 让 Claude Opus 编写 Chrome 漏洞利用 |
+| [AuthzBasep 安全描述符传播缺陷](https://blog.ghostwolflab.com/apt/842/) | Windows AuthzBasep 安全描述符传播缺陷攻击 |
+| [Tenebris-Gate 绕过 Defender](https://hackers-arise.com/evading-antivirus-bypassing-windows-defender-with-tenebris-gate/) | 用 Tenebris-Gate 加密 shellcode 绕过 Defender |
+| [ActiveMQ 全补丁 RCE(CVE-2026-34197)](https://www.crowdfense.com/apache-activemq-rce-bypass/) | Apache ActiveMQ 全补丁 RCE 利用链(CVE-2026-34197) |
+| [AI 基础设施侦察](https://hackers-arise.com/hacking-artificial-intelligence-ai-reconnaissance-on-ai-infrastructure/) | 针对 AI 基础设施(Ollama/Qdrant)的侦察 |
+| [Harden Windows Security](https://hotcakex.github.io/#which-device-to-use) | 基于微软官方方法的 Windows 安全加固指南 |
+| [HotSpot JIT known-bits](https://questdb.com/blog/jvm-jit-known-bits/) | HotSpot C2 JIT 的 known-bits 优化深度分析 |
+| [本地 AI 用于渗透测试](https://projectblack.io/blog/local-ai-for-cyber-security/) | 本地大模型用于渗透测试与安全研究评估 |
+| [Linux 内核19年零日(CVE-2026-43456)](https://gmo-cybersecurity.com/blog/19-year-old-linux-kernel-zero-day/) | 潜伏19年的 Linux 内核零日(CVE-2026-43456) |
+| [iBoot SMMU 绕过与结构体伪造](https://core-jmp.org/2026/06/iboot-smmu-bypass-kernelcache-struct-forgery/) | Apple Silicon iBoot SMMU 绕过与结构体伪造 |
+| [iBoot SMMU 绕过(中文)](https://blog.ghostwolflab.com/product_research/800/) | Apple Silicon iBoot SMMU 绕过分析(中文) |
+| [curl mythos 扫描](https://gist.github.com/bagder/c9b83a19f30e82e41b11f6315465b17a) | curl 的 mythos 安全扫描结果 |
+| [Win x64 Shellcode 入门(一)](https://proteqtum.com/posts/01-win-x64-shellcode-introduction_en/) | Windows x64 Shellcode 编写入门(一) |
+| [Nezha 免杀持久化](https://hackers-arise.com/offensive-security-evading-antivirus-with-nezha-to-maintain-persistence/) | 用 Nezha 绕过杀软实现权限持久化 |
+| [红队攻击性 PowerShell](https://screetsec.com/blog/offensive-powershell-for-red-teamer-with-defense-evastion-techniques) | 面向红队的攻击性 PowerShell 与防御规避 |
+| [macOS Silent SMB 漏洞](https://hxr1.ghost.io/silent-smb-a-macos-calendar-vulnerability/) | macOS 日历邀请触发的 Silent SMB 漏洞 |
+| [Realtek SD 读卡器驱动漏洞(二)](https://zwclose.github.io/2026/07/08/rtsper2.html) | Realtek SD 卡读卡器驱动漏洞分析(二) |
+| [Redis 8.6 Stream PEL UAF RCE](https://zerotistic.blog/posts/redis-stream-pel-uaf/) | Redis 8.6 Stream PEL UAF 远程代码执行 |
+| [Linux DRM GEM UAF 提权](https://cyberstan.co.uk/drm-lpe-linux/) | Linux DRM GEM UAF 本地提权(CVE-2026-46215) |
+| [U-Boot FIT 签名校验绕过](https://www.binarly.io/blog/unfit-to-boot-breaking-u-boots-fit-signature-verification) | 破解 U-Boot FIT 签名校验的六个漏洞 |
+| [进程参数投毒](https://sensepost.com/blog/2026/process-parameter-poisoning/) | 进程参数投毒实现 EDR 规避与注入 |
 | [Honeypot Detection](https://offsec.cypfer.com/blog/Honeypot-detection) | 红队演练中的蜜罐识别方法研究 |
 | [linux hacking 11](https://cocomelonc.github.io/linux/2026/06/17/linux-hacking-11.html) | Linux安全实验系列第11篇技术笔记 |
 | [Introducing usbliter8](https://ps.tc/pages/blog-usbliter8.html) | Apple A12/A13 SecureROM漏洞技术分析 |

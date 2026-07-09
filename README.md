@@ -1,5 +1,57 @@
 # gitweekly
 
+https://github.com/V4bel/Januscape
+
+https://github.com/speedyfriend433/ReDyne
+
+https://github.com/J4ck3LSyN-Gen2/CVE-2026-39047
+
+https://github.com/jarnovandenbrink/CVE-2026-26128
+
+https://github.com/SmtimesIWndr/gdid-reversal
+
+https://github.com/0xsha/CVE-2026-6307
+
+https://github.com/outflanknl/macos-jit
+
+https://github.com/mrphrazer/obfuscation_detection
+
+https://github.com/huynambka/cve-2026-26114-poc
+
+https://github.com/AldazActivator/usbliter8-c
+
+https://github.com/J4ck3LSyN-Gen2/CVE-2026-48558
+
+https://github.com/milankovo/struct-compare
+
+https://github.com/bikini/exploitarium
+
+https://github.com/n0qword/win32k-callback-detouring
+
+https://github.com/Orangera1n/spironolactone
+
+https://github.com/advanced-microcode-patching/shiva
+
+https://github.com/wearrrrr/Nari
+
+https://github.com/jaf0rk/CVE-2026-14382
+
+https://github.com/jakeotte/klist2ccache
+
+https://github.com/V4bel/Januscape
+
+https://github.com/youssefnoob003/SindriKit
+
+https://github.com/forefy/mimic
+
+https://github.com/0xCyberstan/CVE-2026-46215-POC
+
+https://github.com/Orange-Cyberdefense/p3-loader
+
+https://github.com/portbuster1337/lpe-toolkit
+
+
+
 | 链接 | 描述 |
 |------|------|
 | [CVE-2026-54806](https://github.com/joshuavanderpoll/CVE-2026-54806) | WP Activity Log PHP对象注入验证脚本 |

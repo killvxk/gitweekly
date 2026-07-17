@@ -2,6 +2,17 @@
 
 | 链接 | 描述 |
 |------|------|
+| [poc-archive](https://github.com/intelseclab/poc-archive) | 结构化归档的安全研究PoC分类索引库 |
+| [p3-loader](https://github.com/Orange-Cyberdefense/p3-loader) | 利用进程参数结构的 Shellcode 加载器 |
+| [CET-Enum-CallStack-Spoofer](https://github.com/MrTiz/CET-Enum-CallStack-Spoofer) | CET兼容的线程池枚举回调调用栈伪造PoC |
+| [Awesome-LLMs-for-Vulnerability-Detection](https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection) | LLM漏洞检测研究论文与工具精选列表 |
+| [bindutil-toolset](https://github.com/bitdefender/bindutil-toolset) | Windows Silo Binding绑定筛选技术研究工具集 |
+| [rapid7-CVE-2026-15409](https://github.com/remmons-r7/rapid7-CVE-2026-15409) | SonicWall SMA1000远程代码执行PoC(CVE-2026-15409) |
+| [CVE-2026-50343-InstallService-EoP](https://github.com/Rat5ak/CVE-2026-50343-InstallService-EoP) | Windows InstallService注册表提权PoC(CVE-2026-50343) |
+| [Rie](https://github.com/impost0r/Rie) | Apple内核漏洞CVE-2026-43724利用代码 |
+| [Samsung_Vulnerabilities](https://github.com/oversecured/Samsung_Vulnerabilities) | 三星预装应用176个漏洞披露报告归档 |
+| [cyber-decoy](https://github.com/secdev02/cyber-decoy) | eBPF观测的容器化SSH/RDP/SMB蜜罐系统 |
+| [CVE-2026-58635-PoC](https://github.com/DavidCarliez/CVE-2026-58635-PoC) | Windows盲文服务命令注入提权PoC(CVE-2026-58635) |
 | [Januscape](https://github.com/V4bel/Januscape) | KVM 虚拟机逃逸漏洞(CVE-2026-53359)研究 |
 | [ReDyne](https://github.com/speedyfriend433/ReDyne) | iOS 原生反编译应用 |
 | [CVE-2026-39047](https://github.com/J4ck3LSyN-Gen2/CVE-2026-39047) | Epson 打印机 RAW 协议漏洞利用框架 |

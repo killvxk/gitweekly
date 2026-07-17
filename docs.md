@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [OOBdump 重定位导向编程](https://blog.calif.io/p/oobdump-relocation-oriented-programming?utm_source=dlvr.it&utm_medium=twitter) | objdump重定位越界写实现任意代码执行分析 |
+| [RDP 客户端 RCE 微补丁(CVE-2026-47289)](https://0patch.com/blog/micropatches-released-for-remote-desktop-client-remote-code-execution-vulnerabili) | RDP客户端畸形证书内存损坏漏洞微补丁 |
+| [CET 兼容调用栈欺骗](https://mrtiz.github.io/cet-callstack-spoofing-thread-pool-trampoline) | 线程池枚举回调蹦床实现CET兼容调用栈欺骗 |
+| [规避型 .NET Shellcode 加载器](https://slashsec.at/en/blog/writing-an-evasive-dotnet-shellcode-loader) | AppDomain劫持与动态P/Invoke规避EDR检测 |
+| [BleedingTooth 蓝牙零点击 RCE](https://google.github.io/security-research/pocs/linux/bleedingtooth/writeup.html#proof-of-concept) | Linux蓝牙零点击内核RCE利用链分析 |
+| [WebAssembly 线性内存幻境](https://blog.ghostwolflab.com/product_research/894/) | WebAssembly线性内存安全与沙箱逃逸分析 |
+| [SharePoint JWT 认证绕过(CVE-2026-55040)](https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed/) | SharePoint JWT令牌验证缺陷致认证绕过 |
+| [CET 下的调用栈欺骗之后](https://bigbingus.com/posts/stop-being-weird/) | CET缓解下将敏感API调用卸载给正常执行流 |
+| [CVE-2026-58532 分析](https://aprl.pet/writing/cve-2026-58532) | Windows内核整数溢出本地提权漏洞分析 |
 | [Pwning Chromium 146 Renderer](https://research.rewritelab.org/2026/06/11/%5BENG%5D%20Pwning%20Chromium%20146%20Renderer%20Process/) | Chromium 146 渲染进程 V8 漏洞利用链分析 |
 | [CivetWeb PUT+SSI RCE](https://bugpwn.com/blog/civetweb-ssi-rce.html) | CivetWeb 的 PUT 与 SSI 组合实现远程代码执行 |
 | [CVE-2025-38352 Android Kernel PoC](https://faith2dxy.xyz/2025-12-22/cve_2025_38352_analysis/) | CVE-2025-38352 安卓内核在野漏洞分析与 PoC |

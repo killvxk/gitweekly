@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Sighthound](https://github.com/Corgea/Sighthound/) | 基于Tree-sitter的静态漏洞扫描与污点分析工具 |
+| [IFDA](https://github.com/cn0xroot/IFDA) | IoT固件自动化逆向与漏洞发现工具 |
+| [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 面向AI编码代理的代码知识图谱MCP服务器 |
+| [x64dbg-automate](https://github.com/dariushoule/x64dbg-automate) | 基于ZMQ的x64dbg远程自动化插件 |
+| [winman](https://github.com/xchgll/winman) | 离线 Win/NT API 文档查询工具 |
+| [mantis](https://github.com/google/mantis) | 面向AI编码代理的模块化安全审查技能包 |
+| [mindwalk](https://github.com/cosmtrek/mindwalk) | 在3D代码库地图上回放编码代理会话 |
+| [flashingestor](https://github.com/Macmod/flashingestor) | Active Directory数据采集与BloodHound导入TUI工具 |
+| [pipet](https://github.com/bjesus/pipet) | 面向黑客的命令行网页数据抓取工具 |
+| [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 多智能体编排的编码代理增强框架 |
 | [firefox-reverse](https://github.com/WhiteNightShadow/firefox-reverse) | 集成 AI 逆向 Agent 的 Firefox JS 逆向工作站 |
 | [MockAD-Release](https://github.com/shokkadev/MockAD-Release) | 轻量级 Active Directory 环境模拟与可视化工具 |
 | [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | 多 Agent 自主化红队进攻安全平台 |

@@ -2,6 +2,18 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-42980-POC](https://github.com/G4sp4rCS/CVE-2026-42980-POC) | Windows内核WMI整数下溢本地提权PoC(CVE-2026-42980) |
+| [wp2shell](https://github.com/0xsha/wp2shell) | WordPress核心未授权RCE漏洞PoC(CVE-2026-63030/60137) |
+| [Offensive-COM](https://github.com/An0nUD4Y/Offensive-COM) | Windows COM攻击面研究笔记,涵盖劫持与提权 |
+| [CVE-2026-50416-writeup-and-poc](https://github.com/karollooool/CVE-2026-50416-writeup-and-poc) | Windows 11 KASLR绕过信息泄漏分析与PoC(CVE-2026-50416) |
+| [Furtex](https://github.com/MatheuZSecurity/Furtex) | 基于eBPF的Linux后渗透与规避研究工具包 |
+| [ICH_A12_plus_Ramdisk](https://github.com/Pa7r0n/ICH_A12_plus_Ramdisk) | 适用于A12/A13芯片的iOS SSH Ramdisk工具 |
+| [wp2shell-poc](https://github.com/Icex0/wp2shell-poc) | wp2shell完整RCE利用链PoC(WordPress核心漏洞) |
+| [windows-process-injection](https://github.com/toneillcodes/windows-process-injection) | Windows进程注入技术合集(C语言实现) |
+| [CVE-2026-54992-PoC](https://github.com/DavidCarliez/CVE-2026-54992-PoC) | MSMQ远程读取整数溢出PoC(CVE-2026-54992) |
+| [CVE-2019-9702_Symantec_Encryption_Desktop_LPE_PoC](https://github.com/DavidCarliez/CVE-2019-9702_Symantec_Encryption_Desktop_LPE_PoC) | Symantec Encryption Desktop本地提权PoC(CVE-2019-9702) |
+| [Windows-AppResolver-LPE-PoC](https://github.com/DavidCarliez/Windows-AppResolver-LPE-PoC) | Windows AppResolver提权至SYSTEM的LPE PoC |
+| [c2-signal](https://github.com/din4e/c2-signal) | 集成YARA/Sigma/Suricata的多引擎样本研判控制台 |
 | [poc-archive](https://github.com/intelseclab/poc-archive) | 结构化归档的安全研究PoC分类索引库 |
 | [p3-loader](https://github.com/Orange-Cyberdefense/p3-loader) | 利用进程参数结构的 Shellcode 加载器 |
 | [CET-Enum-CallStack-Spoofer](https://github.com/MrTiz/CET-Enum-CallStack-Spoofer) | CET兼容的线程池枚举回调调用栈伪造PoC |

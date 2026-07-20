@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [wloc](https://github.com/Yu9191/wloc) | 伪造Apple网络定位坐标,支持Surge/Quantumult X等 |
+| [deepsec](https://github.com/vercel-labs/deepsec) | 由编码Agent驱动的代码库漏洞挖掘安全框架 |
+| [maka-agent](https://github.com/maka-agent/maka-agent) | 本地优先的AI桌面助手 |
+| [rmux](https://github.com/helvesec/rmux) | Rust通用多路复用器,可从代码驱动CLI/TUI应用 |
+| [expo-libghostty](https://github.com/arcboxlabs/expo-libghostty) | Expo/React Native的Ghostty终端视图组件 |
+| [CAPEv2](https://github.com/kevoreilly/CAPEv2) | 恶意软件配置与载荷提取分析沙箱 |
+| [vulnhunter](https://github.com/capitalone/vulnhunter) | 攻击者视角的Agentic AI源码安全分析工具 |
+| [tmux-agent-sidebar](https://github.com/hiroppy/tmux-agent-sidebar) | 实时监控AI编码Agent的tmux侧边栏工具 |
+| [hpc-sandbox-benchmarks](https://github.com/starslingdev/hpc-sandbox-benchmarks) | 面向高性能开发与CI任务的沙箱厂商基准对比 |
+| [NeuroSploit](https://github.com/JoasASantos/NeuroSploit) | AI驱动的自动化渗透测试框架(Rust实现) |
 | [Sighthound](https://github.com/Corgea/Sighthound/) | 基于Tree-sitter的静态漏洞扫描与污点分析工具 |
 | [IFDA](https://github.com/cn0xroot/IFDA) | IoT固件自动化逆向与漏洞发现工具 |
 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 面向AI编码代理的代码知识图谱MCP服务器 |

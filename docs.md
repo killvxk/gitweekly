@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [三星内核UAF(CVE-2026-20971)](https://lucidbitlabs.com/blog/when-defenses-become-attack-surface/) | 三星Android内核UAF分析,影响Galaxy S9至S25 |
+| [Skia RenameFont 越界写](https://arielkoren.com/writing/skia-renamefont/) | 构造字体经公开API触发Skia堆溢出分析 |
+| [劫持 MareBackup 计划任务提权](https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/) | Windows MareBackup计划任务可执行文件搜索顺序劫持提权 |
 | [OOBdump 重定位导向编程](https://blog.calif.io/p/oobdump-relocation-oriented-programming?utm_source=dlvr.it&utm_medium=twitter) | objdump重定位越界写实现任意代码执行分析 |
 | [RDP 客户端 RCE 微补丁(CVE-2026-47289)](https://0patch.com/blog/micropatches-released-for-remote-desktop-client-remote-code-execution-vulnerabili) | RDP客户端畸形证书内存损坏漏洞微补丁 |
 | [CET 兼容调用栈欺骗](https://mrtiz.github.io/cet-callstack-spoofing-thread-pool-trampoline) | 线程池枚举回调蹦床实现CET兼容调用栈欺骗 |

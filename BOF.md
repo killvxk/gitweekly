@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cli4bofs](https://github.com/The-Z-Labs/cli4bofs) | 脱离Beacon独立运行与注入BOF的Zig命令行工具 |
+| [bof-launcher](https://github.com/The-Z-Labs/bof-launcher) | 跨平台BOF文件加载执行库，支持内存隐藏和多语言集成 |
 | [msi_lateral_mv](https://github.com/werdhaihai/msi_lateral_mv) | 利用 MSI ODBC 驱动的横向移动 BOF |
 | [ShellHWEventExec](https://github.com/0xHossam/ShellHWEventExec) | Windows COM自动播放命令执行BOF |
 | [mssqlbof](https://github.com/MazX0p/mssqlbof) | 原生TDS实现的SQL Server BOF套件 |

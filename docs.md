@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Windows Cloud Files UAF(CVE-2026-58613)](https://talosintelligence.com/vulnerability_reports/TALOS-2026-2426) | Windows Cloud Files驱动UAF漏洞分析(CVE-2026-58613) |
+| [仿真Kimsuky初始访问](https://0x00sec.org/emulating-kimsukys-initial-access/) | Kimsuky基于LNK的初始访问仿真分析文章 |
+| [Windows BFS UAF(CVE-2026-50458)](https://rotcee.github.io/posts/CVE-2026-50458-finding-a-UAF-in-windows-brokering-file-system/) | Windows Brokering File System UAF漏洞分析(CVE-2026-50458) |
 | [三星内核UAF(CVE-2026-20971)](https://lucidbitlabs.com/blog/when-defenses-become-attack-surface/) | 三星Android内核UAF分析,影响Galaxy S9至S25 |
 | [Skia RenameFont 越界写](https://arielkoren.com/writing/skia-renamefont/) | 构造字体经公开API触发Skia堆溢出分析 |
 | [劫持 MareBackup 计划任务提权](https://itm4n.github.io/hijacking-the-windows-marebackup-scheduled-task-for-privilege-escalation/) | Windows MareBackup计划任务可执行文件搜索顺序劫持提权 |

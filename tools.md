@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Cybersecurity-BaronLLM](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF) | 面向攻防安全研究微调的BaronLLM模型(GGUF量化) |
+| [open-kritt](https://github.com/Kritt-ai/open-kritt) | 编排AI代理挖掘真实漏洞的开源自托管平台 |
+| [morok](https://github.com/19h/morok) | C++23实现的模块化LLVM IR混淆器 |
+| [PrivilegeEscalation_SetupHikack](https://github.com/lucyz1125/PrivilegeEscalation_SetupHikack) | 基于安装程序竞争条件的Windows权限提升工具 |
+| [BProxy_Advanced](https://github.com/lucyz1125/BProxy_Advanced) | 面向渗透测试的多级SOCKS5代理工具(Go) |
+| [redStack-defcon34](https://github.com/BaddKharma/redStack-defcon34) | Terraform一键部署AWS红队C2靶场环境 |
+| [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent) | 基于DeepSeek的全自主AI渗透测试智能体 |
+| [Semia](https://github.com/berabuddies/Semia) | AI代理技能的安全审计与修复工具 |
+| [orca](https://github.com/stablyai/orca) | 并行编排多个AI编码代理的开发环境 |
+| [kero](https://github.com/egoist/kero) | 基于Ghostty的macOS原生终端工作区 |
+| [crypto-latency-probe](https://github.com/learnerLj/crypto-latency-probe-public) | 测量Binance合约网络延迟的Rust CLI工具 |
+| [apache-axis-security-assessment](https://github.com/dinosn/apache-axis-security-assessment) | Apache Axis/Axis2未授权RCE链安全评估 |
 | [wloc](https://github.com/Yu9191/wloc) | 伪造Apple网络定位坐标,支持Surge/Quantumult X等 |
 | [deepsec](https://github.com/vercel-labs/deepsec) | 由编码Agent驱动的代码库漏洞挖掘安全框架 |
 | [maka-agent](https://github.com/maka-agent/maka-agent) | 本地优先的AI桌面助手 |

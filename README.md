@@ -2,6 +2,19 @@
 
 | 链接 | 描述 |
 |------|------|
+| [SVMHypervisor-Preview](https://github.com/MistyFir/SVMHypervisor-Preview) | 从零手写的AMD平台SVM Hypervisor |
+| [Alien](https://github.com/iss4cf0ng/Alien) | 模块化webshell客户端与统一后渗透管理框架 |
+| [cve-2026-9198_exploit](https://github.com/0xdak/cve-2026-9198_exploit) | IBM Langflow未授权RCE链式利用PoC(CVE-2026-9198) |
+| [cve-2026-2005](https://github.com/dinosn/cve-2026-2005) | PostgreSQL pgcrypto堆溢出RCE漏洞PoC(CVE-2026-2005) |
+| [0day-Rubbish](https://github.com/Exploit-Garbage/0day-Rubbish) | AI驱动的0day漏洞发现与批量披露PoC集合 |
+| [fastjson-1.2.83-gadget-rce](https://github.com/DmTomHL/fastjson-1.2.83-gadget-rce) | fastjson反序列化RCE多JDK适配批量验证PoC |
+| [CVE-2026-43499-PoC-Scanner](https://github.com/gagaltotal/CVE-2026-43499-PoC-Scanner) | Go语言Linux内核futex/rtmutex漏洞扫描器(CVE-2026-43499) |
+| [CVE-2026-49176_LPE_POC](https://github.com/DavidCarliez/CVE-2026-49176_LPE_POC) | Windows WalletService本地提权PoC(CVE-2026-49176) |
+| [redis-poc](https://github.com/berabuddies/redis-poc) | 覆盖多版本Redis的认证后RCE漏洞验证PoC合集 |
+| [publications](https://github.com/califio/publications) | Calif团队安全研究文章与审计报告合集 |
+| [fuzzctl](https://github.com/0xazanul/fuzzctl) | 基于AFL++的C/C++模糊测试编排与崩溃分类工具 |
+| [redis-RCE-poc](https://github.com/Lyutoon/redis-RCE-poc) | RedisBloom TDigest反序列化堆溢出RCE漏洞验证PoC |
+| [2026FastjsonPoC](https://github.com/triplexlove/2026FastjsonPoC) | AutoType关闭状态下Fastjson纯库RCE验证PoC |
 | [CVE-2026-42980-POC](https://github.com/G4sp4rCS/CVE-2026-42980-POC) | Windows内核WMI整数下溢本地提权PoC(CVE-2026-42980) |
 | [wp2shell](https://github.com/0xsha/wp2shell) | WordPress核心未授权RCE漏洞PoC(CVE-2026-63030/60137) |
 | [Offensive-COM](https://github.com/An0nUD4Y/Offensive-COM) | Windows COM攻击面研究笔记,涵盖劫持与提权 |

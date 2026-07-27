@@ -2,6 +2,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ROP链+VirtualAlloc绕过Windows DEP](https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc) | 利用ROP链和VirtualAlloc绕过Windows DEP内存保护 |
+| [AI代理移植epoll UAF利用](https://guysrd.github.io/epoll-uaf-agent) | 记录Claude代理自主构建Android内核epoll UAF利用链 |
+| [JavaScript沙箱反模式综述](https://jamvie.net/posts/2026/07/javascript-sandboxes-antipattern-review/) | JavaScript沙箱实现反模式与绕过技术系统梳理 |
+| [SakDriver内核驱动Rootkit逆向](https://0xsec.gitbook.io/0xsec/malware-analysis/sakdriver-reversing-a-kernel-driver-rootkit) | 逆向SakDriver内核Rootkit:ETW致盲/DKOM隐藏 |
+| [打造黑客无人机(第1部分)](https://hackers-arise.com/drone-hacking-build-your-own-hacking-drone-part-1/) | 打造渗透测试黑客无人机系列教程(第1部分) |
+| [vBulletin预认证RCE(CVE-2026-61511)](https://ssd-disclosure.com/vbulletin-runtime-template-runmaths-preauth-rce/) | vBulletin runMaths预认证RCE通告(CVE-2026-61511) |
+| [三层Linux隐蔽持久化](https://pwnd.blog/article/triple-layer-stealth-persistence) | C2+LKM+LD_PRELOAD三层Linux隐蔽持久化实战 |
+| [AI发现Bing Images三个RCE](https://xbow.com/blog/bing-images-rce-vulnerabilities) | AI自主发现Bing Images三个严重RCE(CVSS 9.8) |
+| [逆向HyperGuard(SKPG)监控对象](https://fluxsec.red/what-does-hyperguard-skpg-monitor-vtl1-windows-internals-secure-kernel-patch-guard) | 逆向HyperGuard(SKPG)监控对象的Windows内核研究 |
+| [KNet Web Server SEH利用(CVE-2005-0575)](https://bluedragonsec.com/page/writing/id/28) | KNet Web Server SEH覆盖利用教学(CVE-2005-0575) |
+| [Alien框架插件开发指南](https://iss4cf0ng.github.io/2026/07/27/2026-7-27-AlienPlugin/) | Alien渗透框架v5插件开发指南(WebView桥接) |
 | [Windows Cloud Files UAF(CVE-2026-58613)](https://talosintelligence.com/vulnerability_reports/TALOS-2026-2426) | Windows Cloud Files驱动UAF漏洞分析(CVE-2026-58613) |
 | [仿真Kimsuky初始访问](https://0x00sec.org/emulating-kimsukys-initial-access/) | Kimsuky基于LNK的初始访问仿真分析文章 |
 | [Windows BFS UAF(CVE-2026-50458)](https://rotcee.github.io/posts/CVE-2026-50458-finding-a-UAF-in-windows-brokering-file-system/) | Windows Brokering File System UAF漏洞分析(CVE-2026-50458) |

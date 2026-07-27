@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [shellglass](https://github.com/iksteen/shellglass) | 将终端会话实时镜像到浏览器/SSH的工具(Rust) |
+| [goal-watchdog](https://github.com/kylekkkk61/goal-watchdog) | macOS菜单栏工具:自动续点ChatGPT的Resume goal按钮 |
+| [Burp-MCP-Unrestricted](https://github.com/RamanMG/Burp-MCP-Unrestricted) | Burp MCP增强分支:解除限制面向AI代理渗透测试 |
+| [IMSI-catcher](https://github.com/Oros42/IMSI-catcher) | 基于SDR的GSM IMSI采集追踪工具(gr-gsm) |
+| [prismor](https://github.com/PrismorSec/prismor) | 面向AI编程代理的运行时防火墙(钩子拦截) |
+| [cyvisguard](https://github.com/flankerhqd/cyvisguard) | AI智能体安全控制平面(MCP网关+四层拦截) |
+| [ida-setup](https://github.com/cellebrite-labs/ida-setup) | macOS平台IDA Pro Python环境统一管理工具 |
+| [buzz](https://github.com/block/buzz) | 人类与AI代理协作的自托管Nostr中继平台(Rust) |
+| [suzaku](https://github.com/Yamato-Security/suzaku) | 基于Sigma规则的AWS CloudTrail威胁检测工具(Rust) |
 | [Cybersecurity-BaronLLM](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF) | 面向攻防安全研究微调的BaronLLM模型(GGUF量化) |
 | [open-kritt](https://github.com/Kritt-ai/open-kritt) | 编排AI代理挖掘真实漏洞的开源自托管平台 |
 | [morok](https://github.com/19h/morok) | C++23实现的模块化LLVM IR混淆器 |

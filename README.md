@@ -2,6 +2,20 @@
 
 | 链接 | 描述 |
 |------|------|
+| [PS-Proxy](https://github.com/Harrison-Wells-Cyber/PS-Proxy) | Windows免管理员权限的内网TCP隧道跳板工具 |
+| [SliverC2-Evasion-Suite](https://github.com/panwnvda/SliverC2-Evasion-Suite) | 为Sliver C2移植Cobalt Strike规避技术的套件 |
+| [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | AD CS证书伪造漏洞Certighost PoC(CVE-2026-54121) |
+| [usbliter8-fun(34306)](https://github.com/34306/usbliter8-fun) | 基于usbliter8 SecureROM漏洞的iOS 27越狱(A13) |
+| [usbliter8-fun(wh1te4ever)](https://github.com/wh1te4ever/usbliter8-fun) | usbliter8 SecureROM漏洞iOS越狱上游原始仓库 |
+| [NocturneLdr](https://github.com/xec412/NocturneLdr) | 伪造合法调用栈通过CET验证的shellcode加载器 |
+| [ShadeShell](https://github.com/xec412/ShadeShell) | 多算法payload加密混淆编码流水线工具(C/C++) |
+| [XeraLdr](https://github.com/xec412/XeraLdr) | 对抗现代EDR的Windows x64载荷加载器(C) |
+| [Offensive-x64-Assembly](https://github.com/raskolnikov90/Offensive-x64-Assembly) | 攻击向x64汇编练习集:加载器/加密/反弹Shell |
+| [gitlab-rce-demo](https://github.com/wupco/gitlab-rce-demo) | GitLab notebook-diff双内存破坏RCE利用演示 |
+| [cve-2026-poc-collection](https://github.com/XZ1r0/cve-2026-poc-collection) | CVE-2026系列漏洞PoC分类收集仓库(含收集脚本) |
+| [CVE-2026-57239](https://github.com/Paradoxis/CVE-2026-57239) | Foxit PDF Reader更新服务LPE漏洞PoC(Rust) |
+| [POC-CVE-2026-60206](https://github.com/imbas007/POC-CVE-2026-60206) | WebLogic SAML认证绕过检测利用工具(CVE-2026-60206) |
+| [CVE-2026-54121-PoC-Exploit](https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit) | AD CS提权漏洞利用审计框架(CVE-2026-54121,真实性存疑) |
 | [SVMHypervisor-Preview](https://github.com/MistyFir/SVMHypervisor-Preview) | 从零手写的AMD平台SVM Hypervisor |
 | [Alien](https://github.com/iss4cf0ng/Alien) | 模块化webshell客户端与统一后渗透管理框架 |
 | [cve-2026-9198_exploit](https://github.com/0xdak/cve-2026-9198_exploit) | IBM Langflow未授权RCE链式利用PoC(CVE-2026-9198) |

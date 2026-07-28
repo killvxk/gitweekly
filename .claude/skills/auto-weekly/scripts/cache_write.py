@@ -55,9 +55,9 @@ def write_cache(url: str, description: str, cache_file: Path) -> tuple[int, str]
     is_new = url not in cache
     cache[url] = description
 
-    # 写入文件
+    # 写入文件 (newline='' 保持 LF,避免 Windows 文本模式产生 CRLF 导致全文件 diff)
     try:
-        with open(cache_file, 'w', encoding='utf-8') as f:
+        with open(cache_file, 'w', encoding='utf-8', newline='') as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
     except Exception as e:
         return (1, f"写入文件失败: {e}")

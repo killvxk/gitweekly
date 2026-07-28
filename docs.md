@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [macOS Passwords账户数据泄露(CVE-2025-24169)](https://joshparnham.com/2026/07/accessing-sensitive-passwords-app-account-data-on-macos-cve-2025-24169/) | CVE-2025-24169:浏览器扩展宿主泄露已存账户数据 |
+| [LLM多代理工作流挖掘开源0-day](https://blog.cykor.kr/2026/02/How-I-Found-Open-Source-0-days-with-an-LLM-Multi-Agent-Workflow) | 用LLM多代理工作流发现开源软件0-day的实践 |
+| [当AI让0-day像N-day](https://starlabs.sg/blog/2026/07-when-ai-makes-0-days-feel-like-n-days/) | AI辅助挖掘Linux内核net/sched竞态0-day |
+| [ESC17:Beyond WSUS系列](https://research.qu35t.pw/en/series/esc17-beyond-wsus/) | ESC17研究系列:ADCS证书信任问题攻击面剖析 |
+| [差分规格分析](https://commaok.xyz/ai/differential-spec/) | 差分技术与AI编码代理结合精炼软件规格 |
+| [Windows剪贴板数据异常行为](https://windows-internals.com/random-windows-things-part-2-unexpected-clipboard-data-behavior/) | Windows剪贴板:任意进程可监听读取复制内容 |
+| [绕过Windows认证反射缓解获取SYSTEM(上)](https://www.synacktiv.com/publications/bypassing-windows-authentication-reflection-mitigations-for-system-shells-part-1) | 绕过Windows认证反射缓解措施获取SYSTEM shell |
 | [ROP链+VirtualAlloc绕过Windows DEP](https://screetsec.com/blog/defeating-windows-dep-using-rop-chains-leveraging-virtualalloc) | 利用ROP链和VirtualAlloc绕过Windows DEP内存保护 |
 | [AI代理移植epoll UAF利用](https://guysrd.github.io/epoll-uaf-agent) | 记录Claude代理自主构建Android内核epoll UAF利用链 |
 | [JavaScript沙箱反模式综述](https://jamvie.net/posts/2026/07/javascript-sandboxes-antipattern-review/) | JavaScript沙箱实现反模式与绕过技术系统梳理 |

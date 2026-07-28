@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CaseStudies](https://github.com/vschko/CaseStudies) | iOS/macOS真实CVE分析案例集(教育用途) |
+| [CVE-2026-42978-PoC-Research](https://github.com/grizzzer/CVE-2026-42978-PoC-Research) | Windows推送通知服务UAF竞态漏洞研究与检测规则 |
+| [CVE-2026-50522](https://github.com/4minx/CVE-2026-50522) | SharePoint反序列化未授权RCE漏洞PoC(C#) |
+| [OffsetInspect](https://github.com/warpedatom/OffsetInspect) | AMSI/Defender检测边界分析与恶意软件静态筛查(PowerShell) |
 | [PS-Proxy](https://github.com/Harrison-Wells-Cyber/PS-Proxy) | Windows免管理员权限的内网TCP隧道跳板工具 |
 | [SliverC2-Evasion-Suite](https://github.com/panwnvda/SliverC2-Evasion-Suite) | 为Sliver C2移植Cobalt Strike规避技术的套件 |
 | [CVE-2026-54121](https://github.com/aniqfakhrul/CVE-2026-54121) | AD CS证书伪造漏洞Certighost PoC(CVE-2026-54121) |

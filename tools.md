@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [claude-video](https://github.com/bradautomates/claude-video) | 赋予Claude观看任意视频能力的Agent技能插件 |
+| [credshound](https://github.com/haxxm0nkey/credshound) | 类Nuclei本机凭据面扫描器,集成BloodHound(Go) |
+| [usernetes](https://github.com/rootless-containers/usernetes) | 无root权限部署运行的Kubernetes方案 |
+| [jcode](https://github.com/1jehuang/jcode) | 主打低内存占用的AI编码代理CLI(Rust) |
+| [Kimi-K3-0.40B](https://huggingface.co/inference-optimization/Kimi-K3-0.40B) | Kimi-K3微调的0.40B特征提取模型 |
+| [bitchat](https://github.com/permissionlesstech/bitchat) | 蓝牙Mesh端到端加密聊天应用,IRC风格(Swift) |
+| [ActiveDirectoryTierModel](https://github.com/microsoft/ActiveDirectoryTierModel) | 微软AD分层管理模型(Tier 0/1/2)部署脚本 |
+| [Anastasis](https://github.com/0xazanul/Anastasis) | 面向漏洞赏金的JS端点发现工具(TypeScript) |
+| [Weaponize-CobaltStrike](https://github.com/nickvourd/Weaponize-CobaltStrike) | 自动下载编译CobaltStrike实用BOF的脚本 |
 | [shellglass](https://github.com/iksteen/shellglass) | 将终端会话实时镜像到浏览器/SSH的工具(Rust) |
 | [goal-watchdog](https://github.com/kylekkkk61/goal-watchdog) | macOS菜单栏工具:自动续点ChatGPT的Resume goal按钮 |
 | [Burp-MCP-Unrestricted](https://github.com/RamanMG/Burp-MCP-Unrestricted) | Burp MCP增强分支:解除限制面向AI代理渗透测试 |

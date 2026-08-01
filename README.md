@@ -2,6 +2,20 @@
 
 | 链接 | 描述 |
 |------|------|
+| [sleepmask-vs](https://github.com/nickvourd/sleepmask-vs) | Cobalt Strike Sleepmask BOF示例库,含间接系统调用与栈欺骗 |
+| [WaryasSWHE](https://github.com/waryas/WaryasSWHE) | 利用Windows shatter攻击0day绕过反作弊系统的用户态框架 |
+| [CyberMeowfia](https://github.com/NebuSec/CyberMeowfia) | VEGA团队CVE漏洞PoC集合(Chrome/内核/Nginx) |
+| [RTI-Toolkit](https://github.com/nickvourd/RTI-Toolkit) | Office远程模板注入工具包,含攻击植入与防御识别(PowerShell) |
+| [CLR-Stomp](https://github.com/nickvourd/CLR-Stomp) | 通过CLR模块篡改加载.NET程序集绕过AMSI/ETW的BOF |
+| [BOAZ_beta](https://github.com/thomasxm/BOAZ_beta) | 多层AV/EDR规避框架,含混淆/注入/反取证(已停更) |
+| [COM-Hunter](https://github.com/nickvourd/COM-Hunter) | COM劫持持久化工具,支持五种模式含BOF变体 |
+| [CVE-2026-16232](https://github.com/sfewer-r7/CVE-2026-16232) | Check Point SmartConsole应用令牌认证绕过PoC(CVE-2026-16232) |
+| [cve-2026-57827](https://github.com/shinthink/cve-2026-57827) | Joomla RSFiles组件未授权文件上传RCE漏洞PoC(CVE-2026-57827) |
+| [PPKGPacker](https://github.com/init1Security/PPKGPacker) | Windows预配包生成器,载荷以SYSTEM权限运行(Python) |
+| [ICH_A12_plus_Ramdisk](https://github.com/Pa7r0n/ICH_A12_plus_Ramdisk) | 适用于A12/A13芯片的iOS SSH Ramdisk工具 |
+
+| 链接 | 描述 |
+|------|------|
 | [CaseStudies](https://github.com/vschko/CaseStudies) | iOS/macOS真实CVE分析案例集(教育用途) |
 | [CVE-2026-42978-PoC-Research](https://github.com/grizzzer/CVE-2026-42978-PoC-Research) | Windows推送通知服务UAF竞态漏洞研究与检测规则 |
 | [CVE-2026-50522](https://github.com/4minx/CVE-2026-50522) | SharePoint反序列化未授权RCE漏洞PoC(C#) |

@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [clearsword](https://therealclarity.github.io/blog/clearsword/) | DarkSword iOS内核竞争条件漏洞利用分析(CVE-2025-43520) |
+| [Static Devirtualization of Tencent VM](https://back.engineering/blog/31/07/2026/) | 腾讯VM虚拟化混淆的静态去虚拟化分析 |
+| [GHSA-jw5r-xhf5-2xcq](https://github.com/openwrt/openwrt/security/advisories/GHSA-jw5r-xhf5-2xcq) | OpenWrt cgi-io路径遍历致root任意文件读取公告(CVE-2026-62947) |
+| [SakDriver内核Rootkit逆向](https://0xsec.gitbook.io/0xsec/malware-analysis/sakdriver-reversing-a-kernel-driver-rootkit) | 逆向SakDriver内核Rootkit:ETW致盲/DKOM隐藏 |
+| [Exploiting CVE-2024-5830](https://faran1512.github.io/posts/Exploiting_CVE-2024-5830/) | Chrome V8类型混淆到渲染进程RCE完整利用链(CVE-2024-5830) |
+| [intercepting-ssl-traffic](https://anadoxin.org/blog/intercepting-ssl-traffic/) | mitmproxy透明代理拦截VM的HTTPS流量调试教程 |
+
+| 文章 | 简介 |
+|------|------|
 | [macOS Passwords账户数据泄露(CVE-2025-24169)](https://joshparnham.com/2026/07/accessing-sensitive-passwords-app-account-data-on-macos-cve-2025-24169/) | CVE-2025-24169:浏览器扩展宿主泄露已存账户数据 |
 | [LLM多代理工作流挖掘开源0-day](https://blog.cykor.kr/2026/02/How-I-Found-Open-Source-0-days-with-an-LLM-Multi-Agent-Workflow) | 用LLM多代理工作流发现开源软件0-day的实践 |
 | [当AI让0-day像N-day](https://starlabs.sg/blog/2026/07-when-ai-makes-0-days-feel-like-n-days/) | AI辅助挖掘Linux内核net/sched竞态0-day |

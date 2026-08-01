@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Magic-Atomics](https://github.com/magicsword-io/Magic-Atomics) | 预防导向的离地攻击测试框架,含4900+测试覆盖700+技术 |
+| [ai-web3-security](https://github.com/pashov/ai-web3-security) | Web3智能合约安全AI工具精选清单(76个工具) |
+| [bug-bounties](https://github.com/lissy93/bug-bounties) | 3000+漏洞赏金计划目录,含MCP与免费API |
+| [SquidGate](https://github.com/SquidSec/SquidGate) | 基于LLM的GitHub PR安全门禁Action,替代传统SAST |
+| [tldr-code](https://github.com/parcadei/tldr-code) | 面向LLM的token高效代码分析工具,支持18种语言(Rust) |
+| [jvm-profiling-toolkit](https://github.com/krzysztofslusarski/jvm-profiling-toolkit) | JVM性能分析火焰图查看器,兼容Async-profiler与JFR |
+| [ETWLocksmith](https://github.com/olafhartong/ETWLocksmith) | 分析ETW提供程序注册表安全权限的审计工具(Go) |
+| [local-openai2anthropic](https://github.com/dongfangzan/local-openai2anthropic) | 将本地OpenAI兼容API转为Anthropic格式供Claude Code使用 |
+| [chartr](https://github.com/rengwu/chartr) | AI代理多路复用器,将工作计划渲染为星图(Go/Svelte) |
+| [phalanx](https://github.com/webxos/phalanx) | Kali自主渗透测试多语言编排框架 |
+| [uncensored-ai](https://github.com/AnkitNayak-dev/uncensored-ai) | 基于GPT-OSS 120B的无审查AI聊天界面(Next.js) |
+| [Black-cat](https://github.com/0rangec3t/Black-cat) | 假设-证据驱动的红队渗透测试Claude Skill |
+| [adhammer](https://github.com/icedracon/adhammer) | Rust实现的AD域安全审计与红队验证一体化工具 |
+| [ephemeral-sandbox](https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox) | 并行编码智能体的沙箱基础设施,工作区隔离与原子发布(Rust) |
+
+| 文章 | 简介 |
+|------|------|
 | [claude-video](https://github.com/bradautomates/claude-video) | 赋予Claude观看任意视频能力的Agent技能插件 |
 | [credshound](https://github.com/haxxm0nkey/credshound) | 类Nuclei本机凭据面扫描器,集成BloodHound(Go) |
 | [usernetes](https://github.com/rootless-containers/usernetes) | 无root权限部署运行的Kubernetes方案 |

@@ -2,6 +2,43 @@
 
 | 文章 | 简介 |
 |------|------|
+| [orquestra](https://github.com/berkayoztunc/orquestra) | Solana IDL 转托管 API/MCP 平台 |
+| [ovui](https://github.com/NVIDIA-omniverse/ovui) | omni.ui 的独立 Python UI 库 |
+| [LightMarkit](https://github.com/zhtdbobo/LightMarkit) | Tauri 2 本地优先 Markdown 编辑器 |
+| [slime](https://github.com/THUDM/slime) | Megatron+SGLang LLM 强化学习框架 |
+| [AutoAgent](https://github.com/HKUDS/AutoAgent) | 自然语言零代码创建 LLM 智能体的框架 |
+| [Legend-of-Sword-and-Fairy](https://github.com/madeye/Legend-of-Sword-and-Fairy) | 《仙剑奇侠传》DOS 游戏引擎的完整 Rust 移植 |
+| [drydock](https://github.com/yetidevworks/drydock) | 批量监控 git 仓库未提交与未发布状态的 Rust TUI |
+| [HermesOffice](https://github.com/criptogus/HermesOffice) | AI 编辑为一等功能的 Electron 开源办公套件 |
+| [mlx-serve](https://github.com/ddalcu/mlx-serve) | Zig 编写 Apple Silicon LLM 推理 |
+| [mcp](https://github.com/HyperDbg/mcp) | HyperDbg 调试器的 LLM MCP 服务器 |
+| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 聚合 290+ 模型提供商统一端点的开源 AI 网关 |
+| [loopx](https://github.com/huangruiteng/loopx) | 长时运行 AI 智能体团队的本地控制平面工具 |
+| [CatLock](https://github.com/BandarHL/CatLock) | 检测猫踩键盘并锁定输入的 macOS 菜单栏应用 |
+| [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | 微软开源的 AI 智能体策略治理与安全沙箱工具包 |
+| [meat](https://github.com/boldsoftware/meat) | 用模型将代码 diff 精简为阅读摘要的 Go 工具 |
+| [airllm](https://github.com/lyogavin/airllm) | 单张 4GB 显存 GPU 运行 70B 模型的 LLM 推理库 |
+| [deepseek-v4-flash-0731-dgx-spark-cluster](https://github.com/GumbiiDigital/deepseek-v4-flash-0731-dgx-spark-cluster) | DGX Spark 部署 DeepSeek V4 基准 |
+| [club-3090](https://github.com/noonghunna/club-3090) | RTX 3090/4090 本地部署 LLM 方案集 |
+| [oneterm](https://github.com/veops/oneterm) | 基于 4A 理念的 Go 开源企业级堡垒机系统 |
+| [libsql](https://github.com/tursodatabase/libsql) | 支持嵌入式副本与远程访问的 SQLite 开源分支 |
+| [bountyforge](https://github.com/Gabson0x/bountyforge) | Claude Code 的并行代理漏洞赏金审计技能插件 |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 面向逆向安全任务的AI技能路由包 |
+| [pi-flow](https://github.com/kky42/pi-flow) | 在 Pi 编辑器中调度多后端子代理的工作流扩展 |
+| [falcon](https://github.com/JumpCrypto/falcon) | 基于 AVX-512 优化的 Falcon 签名验签 C 实现 |
+| [computer](https://github.com/cloudflare/computer) | Cloudflare 实验性代理虚拟文件系统与执行层 |
+| [bettercap](https://github.com/bettercap/bettercap) | WiFi/BLE/CAN 侦察与中间人攻击的 Go 框架 |
+| [ACEshark](https://github.com/t3l3machus/ACEshark) | 分析 Windows 服务权限配置发现提权向量的工具 |
+| [outpost](https://github.com/MathurAditya724/outpost) | 基于 OpenCode 的自托管自主 GitHub 代理 |
+| [revixa](https://github.com/blosny/revixa) | 抓取双商店评论的 AI 市场调研与情感分析引擎 |
+| [Polkit-TUI-Agent](https://github.com/CcendercatcC/Polkit-TUI-Agent) | 面向无图形终端环境的 Rust polkit 认证代理 |
+| [windbg-tool](https://github.com/awakecoding/windbg-tool) | 面向 AI 代理的 WinDbg 自动化与 TTD 重放工具 |
+| [CS](https://github.com/nasa/CS) | NASA cFS 的星载内存 CRC 完整性校验应用 |
+| [CF](https://github.com/nasa/CF) | NASA cFS 的 CCSDS CFDP 文件传输协议应用 |
+| [luadec-patched](https://github.com/newp1ayer48/luadec-patched) | 适配 TP-Link 设备的 luadec 反编译器补丁版 |
+| [GVRET_emulator_for_savvycan](https://github.com/newp1ayer48/GVRET_emulator_for_savvycan) | 向 SavvyCAN 发送模拟特斯拉 CAN 信号的模拟器 |
+| [dahAgent](https://github.com/DAH-aexploit/dahAgent) | 面向卫星/无人机网络攻防的红蓝多智能体运行时 |
+| [syssec-preview](https://github.com/CHIMITA/syssec-preview) | KHU SysSec 实验室的 Jekyll 学术主页预览 |
 | [Magic-Atomics](https://github.com/magicsword-io/Magic-Atomics) | 预防导向的离地攻击测试框架,含4900+测试覆盖700+技术 |
 | [ai-web3-security](https://github.com/pashov/ai-web3-security) | Web3智能合约安全AI工具精选清单(76个工具) |
 | [bug-bounties](https://github.com/lissy93/bug-bounties) | 3000+漏洞赏金计划目录,含MCP与免费API |

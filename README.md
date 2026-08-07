@@ -2,6 +2,33 @@
 
 | 链接 | 描述 |
 |------|------|
+| [Noriben](https://github.com/Rurik/Noriben) | 基于Procmon的Python恶意软件行为自动分析沙箱工具 |
+| [NetExec-mcp](https://github.com/mpgn/NetExec-mcp) | 让AI代理驱动NetExec的MCP服务器 |
+| [screenlogger](https://github.com/radkawar/screenlogger) | macOS本地可搜索屏幕历史记录工具 |
+| [NeverC](https://github.com/NeverSight/NeverC) | 基于LLVM的安全研究用C23编译器 |
+| [wallbreaker](https://github.com/JailbrokenAI/wallbreaker) | 对LLM做红队测试的自动化攻击框架 |
+| [CranePKDServerFix](https://github.com/Lessica/CranePKDServerFix) | 修复iOS17上Crane推送的越狱插件 |
+| [mariadb-13-rce-lab](https://github.com/dinosn/mariadb-13-rce-lab) | MariaDB13.0.1-rcRCE复现实验 |
+| [pfkey-sadb-overflow](https://github.com/0xdeadbeefnetwork/pfkey-sadb-overflow) | FreeBSD内核PF_KEY栈溢出提权PoC |
+| [macOS_DSH_LPE](https://github.com/Lyutoon/macOS_DSH_LPE) | macOS本地提权至root的PoC |
+| [libcxx](https://github.com/topjohnwu/libcxx) | Android用无异常精简libc++库 |
+| [EkkoNtProtect](https://github.com/Meowmycks/EkkoNtProtect) | Ekko睡眠混淆调用NtProtect技术 |
+| [CVE-2026-60004-POC](https://github.com/imbas007/CVE-2026-60004-POC) | Gitea预认证RCE漏洞利用工具 |
+| [Sxav_ZwDeleteFile_BYOVD](https://github.com/wwwab123/Sxav_ZwDeleteFile_BYOVD) | BYOVD漏洞驱动任意文件删除工具 |
+| [css](https://github.com/neo305/css) | PS4与PS5的WebKitUAF利用 |
+| [PrivFu](https://github.com/daem0nc0re/PrivFu) | Windows令牌特权研究与提权PoC集 |
+| [OVSwrap](https://github.com/manizada/OVSwrap) | CVE-2026-64531的Linux内核提权PoC |
+| [gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) | Gmail账号批量注册自动化工具 |
+| [CVE-2022-0778](https://github.com/jeongjunsoo/CVE-2022-0778) | OpenSSL BN_mod_sqrt DoS 复现 |
+| [CVE](https://github.com/jeongjunsoo/CVE) | CVE-2020-6507 等漏洞研究仓库 |
+| [VMP-devirtualize-project](https://github.com/banda59/VMP-devirtualize-project) | VMProtect 3.x 反虚拟化工具 |
+| [CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080) | CVE-2024-38080 Hyper-V 提权漏洞 |
+| [CVE-2024-38127](https://github.com/pwndorei/CVE-2024-38127) | CVE-2024-38127 Hyper-V 提权漏洞 |
+| [CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407) | CVE-2023-36407 Hyper-V 池溢出提权 |
+| [CVE-2022-24834](https://github.com/pwndorei/CVE-2022-24834) | CVE-2022-24834 Redis 堆溢出 RCE |
+| [CVE-2018-0959](https://github.com/pwndorei/CVE-2018-0959) | CVE-2018-0959 Windows 提权漏洞利用 |
+| [CVE-2024-22532](https://github.com/pwndorei/CVE-2024-22532) | CVE-2024-22532 XnView 堆溢出漏洞 |
+| [CVE-2024-53900](https://github.com/www-spam/CVE-2024-53900) | CVE-2024-53900 $where 注入 RCE |
 | [sleepmask-vs](https://github.com/nickvourd/sleepmask-vs) | Cobalt Strike Sleepmask BOF示例库,含间接系统调用与栈欺骗 |
 | [WaryasSWHE](https://github.com/waryas/WaryasSWHE) | 利用Windows shatter攻击0day绕过反作弊系统的用户态框架 |
 | [CyberMeowfia](https://github.com/NebuSec/CyberMeowfia) | VEGA团队CVE漏洞PoC集合(Chrome/内核/Nginx) |

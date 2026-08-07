@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [当可信工具变成攻击原语](https://ciphersecuritylabs.com/research/articles/when-trusted-tools-become-attack-primitives) | textutil 远程加载与 KeePassXC 滥用 |
+| [Wipeload:Chrome 完整利用链实战（一）](https://hackyboiz.github.io/2026/06/06/OUYA77/Wipeload_step1/en/) | 三个 1-day 构建 Chrome 完整利用链 |
+| [深入 Falcon:CrowdStrike 传感器逆向剖析](https://0xdbgman.github.io/posts/inside-the-falcon-how-crowdstrike-catches-you/) | CrowdStrike Falcon 传感器逆向剖析 |
+| [CILFI:.NET 二进制函数自动识别工具](https://blog.washi.dev/posts/cilfi/) | 针对 .NET CIL 的函数自动识别与模式匹配工具 |
+| [EDR 内部机制、检测与绕过实战手册](https://0xdbgman.github.io/posts/edr-internals-research-and-bypass/) | EDR 架构、检测引擎与规避技术的技术参考长文 |
+| [macOS 屏幕共享预认证 RCE 漏洞分析](https://warez.sl0p.foo/apple-screensharing-rce/) | macOS screensharingd 预认证 RCE |
+| [微调开源权重模型的后门风险](https://www.msecops.de/blog/posts/backdoored-llms/) | 用 QLoRA 微调向 LLM 权重植入后门的 PoC 研究 |
 | [clearsword](https://therealclarity.github.io/blog/clearsword/) | DarkSword iOS内核竞争条件漏洞利用分析(CVE-2025-43520) |
 | [Static Devirtualization of Tencent VM](https://back.engineering/blog/31/07/2026/) | 腾讯VM虚拟化混淆的静态去虚拟化分析 |
 | [GHSA-jw5r-xhf5-2xcq](https://github.com/openwrt/openwrt/security/advisories/GHSA-jw5r-xhf5-2xcq) | OpenWrt cgi-io路径遍历致root任意文件读取公告(CVE-2026-62947) |

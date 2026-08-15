@@ -16,6 +16,10 @@ go install github.com/AeonDave/garble@latest
 
 https://github.com/hackenproof-public/skills
 https://github.com/SnailSploit/Claude-Red
+https://github.com/zhaoxuya520/reverse-skill
+https://github.com/0rangec3t/Black-cat
+https://github.com/huangruiteng/loopx
+
 
 
 npx skills add dylanfeltus/skills

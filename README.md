@@ -1,7 +1,49 @@
 # gitweekly
 
+
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-55040](https://github.com/sfewer-r7/CVE-2026-55040) | SharePoint JWT认证绕过漏洞PoC(CVE-2026-55040) |
+| [CVE-2026-8451](https://github.com/0xBlackash/CVE-2026-8451) | Citrix NetScaler内存泄露漏洞PoC(CVE-2026-8451) |
+| [CVE-2026-72898-PoC](https://github.com/codeb0ssx/CVE-2026-72898-PoC) | Metabase未授权SQLi利用PoC(CVE-2026-72898) |
+| [CVE-2026-72898](https://github.com/0xBlackash/CVE-2026-72898) | Metabase SQLi漏洞利用工具(CVE-2026-72898) |
+| [CVE-2026-64638-PoC-XSS2Shell-](https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-) | WordPress XSS2Shell前认证RCE链PoC(CVE-2026-64638) |
+| [CVE-2026-64638](https://github.com/4minx/CVE-2026-64638) | WordPress XSS2Shell PoC页面(CVE-2026-64638) |
+| [cve-2026-41940-PoC](https://github.com/pemarine/cve-2026-41940-PoC) | cPanel/WHM认证绕过利用工具(CVE-2026-41940) |
+| [watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py](https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py) | cPanel/WHM认证绕过到RCE利用脚本(CVE-2026-41940) |
+| [ShieldBreak](https://github.com/MSNightmare/ShieldBreak) | 绕过Defender CVE-2026-50656补丁的提权PoC |
+| [CVE-2026-66804-CrossDevice-Service-EoP](https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP) | Windows跨设备服务提权PoC(CVE-2026-66804) |
+| [CVE-2026-66804-CrossDevice-LPE](https://github.com/DavidCarliez/CVE-2026-66804-CrossDevice-LPE) | Windows跨设备服务本地提权PoC(CVE-2026-66804) |
+| [ResetNightmare-CVE-2026-27912-](https://github.com/XedSama/ResetNightmare-CVE-2026-27912-) | ResetNightmare域密码重置Python利用 |
+| [ResetNightmare-Python](https://github.com/XedSama/ResetNightmare-Python) | ResetNightmare漏洞Python利用实现 |
+| [ResetNightmare-impacket](https://github.com/mihat2/ResetNightmare-impacket) | ResetNightmare的impacket/Linux移植版 |
+| [ResetNightmare.py](https://github.com/YildirimMesut/ResetNightmare.py) | ResetNightmare远程利用脚本 |
+| [CVE-2026-59774_docker](https://github.com/FlowerWitch/CVE-2026-59774_docker) | Gitea任意文件读取RCE复现环境(CVE-2026-59774) |
+| [CVE-2026-33017](https://github.com/lxxexxbxx/CVE-2026-33017) | Langflow未授权RCE PoC(CVE-2026-33017) |
+| [CVE-2026-33017-PoC](https://github.com/sonnelon/CVE-2026-33017-PoC) | Langflow未授权RCE漏洞PoC(CVE-2026-33017) |
+| [GhostLock](https://github.com/wzhdgithub/GhostLock) | Android GKI futex PI UAF提权PoC(CVE-2026-43499) |
+| [cve-2026-43499-app.so](https://github.com/pimpamebanihah/cve-2026-43499-app.so) | GhostLock配套app.so利用模块(CVE-2026-43499) |
+| [CVE-2026-56292-AcyMailing-SQLi](https://github.com/nullwhisper/CVE-2026-56292-AcyMailing-SQLi) | Joomla AcyMailing未授权SQLi扫描器(CVE-2026-56292) |
+| [CVE-2026-73673](https://github.com/ozcanpng/CVE-2026-73673) | Netis NC63路由器漏洞研究与PoC(CVE-2026-73673) |
+| [CVE-2026-25938-FUXA-Unauthenticated-RCE](https://github.com/judgedbykira/CVE-2026-25938-FUXA-Unauthenticated-RCE) | FUXA SCADA未授权RCE分析与PoC(CVE-2026-25938) |
+| [GeoServer PoC gist](https://gist.github.com/portbuster1337/70d75ec246b85e3199037ce212ff1a06) | GeoServer jsonArrayContains未授权SQLi PoC(0day) |
+| [Kernel-Exploit-Dojo](https://github.com/mito753/Kernel-Exploit-Dojo) | Linux内核漏洞利用CTF题库索引 |
+| [CVE-2025-8045](https://github.com/kuzeyardabulut/CVE-2025-8045) | CVE-2025-8045 Dirty Pagetable内核提权Exploit |
+| [CVE-2026-63077](https://github.com/sfewer-r7/CVE-2026-63077) | JetBrains TeamCity未授权RCE PoC(CVE-2026-63077) |
+| [Zapscape](https://github.com/V4bel/Zapscape) | KVM/x86客户机到宿主机逃逸Exploit(CVE-2026-64561) |
+| [SMBLoot](https://github.com/swisskyrepo/SMBLoot) | SMB共享浏览与远程文件读取终端工具 |
+| [WDBFontOverwrite](https://github.com/ginsudev/WDBFontOverwrite) | 利用CVE-2022-46689覆写iOS字体的PoC |
+| [CVE-2026-9086-poc](https://github.com/Saku0512/CVE-2026-9086-poc) | Keycloak URI方案校验绕过XSS PoC(CVE-2026-9086) |
+| [bad_query](https://github.com/forcequitOS/bad_query) | iOS 26/27沙箱逃逸PoC |
+| [BD-JB5](https://github.com/Gezine/BD-JB5) | PS5 BD-JB漏洞利用第5版套件 |
+| [EvilFontTool](https://github.com/DoctorEww/EvilFontTool) | 基于字体欺骗的红队社工工具 |
+| [gori](https://github.com/hahwul/gori) | 键盘驱动的HTTP拦截代理与渗透工具包 |
+| [CVE-2026-24294](https://github.com/0xNDI/CVE-2026-24294) | Windows SMB本地提权漏洞PoC(CVE-2026-24294) |
+| [pocs](https://github.com/v12-security/pocs) | v12security团队漏洞PoC合集 |
+| [publications](https://github.com/str8outtaheap/publications) | 堆利用安全研究writeup合集 |
+| [resetnightmare](https://github.com/semperis-community/resetnightmare) | ResetNightmare任意AD密码重置PoC(CVE-2026-27912) |
+| [wsuks](https://github.com/NeffIsBack/wsuks) | WSUS中间人攻击自动化工具(WSuXS) |
+| [coldcard-poc-gpu](https://github.com/LongSna/coldcard-poc-gpu/) | ColdCard硬件钱包GPU暴力破解PoC |
 | [Noriben](https://github.com/Rurik/Noriben) | 基于Procmon的Python恶意软件行为自动分析沙箱工具 |
 | [NetExec-mcp](https://github.com/mpgn/NetExec-mcp) | 让AI代理驱动NetExec的MCP服务器 |
 | [screenlogger](https://github.com/radkawar/screenlogger) | macOS本地可搜索屏幕历史记录工具 |

@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pentestagent](https://github.com/GH05TCREW/pentestagent) | AI黑盒渗透测试自动化代理框架 |
+| [TrustMeBro](https://github.com/KriyosArcane/TrustMeBro) | Authenticode签名篡改红队工具包 |
+| [QTRDetectionContent](https://github.com/QUIRSO/QTRDetectionContent) | QUIRSO威胁研究YARA检测规则集 |
+| [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 各家AI模型系统提示词泄露合集 |
+| [shuohao-skills](https://github.com/eternityspring/shuohao-skills) | AI短剧创作Agent技能集 |
+| [BirdShot](https://github.com/GainSec/BirdShot) | Flock安防生态硬件安全研究框架 |
+| [ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 中国中小学教材数据集(LLM训练) |
+| [cyfrin-audit-reports](https://github.com/cyfrin/cyfrin-audit-reports) | Cyfrin智能合约安全审计报告集 |
+| [deepteam](https://github.com/confident-ai/deepteam) | LLM红队安全测试Python库 |
+| [RedAlert2-Mac-iOS-iPad](https://github.com/ammaarreshi/RedAlert2-Mac-iOS-iPad) | 红警2原生移植iPhone/iPad项目 |
+| [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 自改进RLM编码与长时任务代理 |
+| [TheBigPromptLibrary](https://github.com/0xeb/TheBigPromptLibrary) | 聚合各大模型的大提示词库 |
+| [OGhidra](https://github.com/llnl/OGhidra) | Ghidra本地LLM逆向辅助插件 |
+| [freebuff2api-wokers](https://github.com/pingmike2/freebuff2api-wokers) | freebuff免费模型转OpenAI兼容API |
+| [mtkclient](https://github.com/bkerler/mtkclient) | 联发科设备解锁/读写/刷机工具 |
+| [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 统一多家LLM API的CLI代理网关 |
 | [orquestra](https://github.com/berkayoztunc/orquestra) | Solana IDL 转托管 API/MCP 平台 |
 | [ovui](https://github.com/NVIDIA-omniverse/ovui) | omni.ui 的独立 Python UI 库 |
 | [LightMarkit](https://github.com/zhtdbobo/LightMarkit) | Tauri 2 本地优先 Markdown 编辑器 |

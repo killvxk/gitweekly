@@ -2,6 +2,41 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GeoServer预认证SQLi到RCE](https://hadrian.io/blog/here-be-dragons-geoserver-pre-auth-sql-injection-to-rce) | GeoServer预认证SQLi到RCE的0day分析 |
+| [GeoServer 0day SQLi到RCE](https://byteiota.com/geoserver-zero-day-sql-injection-rce/) | GeoServer 0day SQLi到RCE漏洞分析 |
+| [SharePoint JWT认证绕过深度分析](https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040/) | SharePoint JWT认证绕过深度分析(CVE-2026-55040) |
+| [TeamCity未授权RCE技术分析](https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077/) | TeamCity未授权RCE技术分析(CVE-2026-63077) |
+| [Metabase SQLi在野利用](https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild) | Metabase SQLi在野利用剖析(CVE-2026-72898) |
+| [Metabase未授权SQLi分析](https://denizhalil.com/2026/08/13/cve-2026-72898-metabase-unauthenticated-sql-injection/) | Metabase未授权SQLi漏洞分析(CVE-2026-72898) |
+| [XSS2Shell](https://pwn.ai/blog/xss2shell) | WordPress XSS2Shell利用链分析(CVE-2026-64638) |
+| [Citrix NetScaler SAML堆溢出RCE](https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/) | Citrix NetScaler SAML堆溢出RCE研究(CVE-2026-8452) |
+| [cPanel/WHM认证绕过到RCE](https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/) | cPanel/WHM认证绕过到RCE技术分析(CVE-2026-41940) |
+| [Akira安全模式绕EDR](https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr) | Akira勒索安全模式绕EDR事件剖析 |
+| [Kimwolf v7僵尸网络](https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/) | Kimwolf v7僵尸网络与HTTP/2 DDoS分析 |
+| [HoneyMyte CoolClient Rootkit](https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/) | HoneyMyte CoolClient签名驱动Rootkit分析 |
+| [假Chrome VPN扩展研究](https://socket.dev/blog/chrome-vpn-extension-impersonation) | 737个假Chrome VPN扩展流量劫持研究 |
+| [Weaxor勒索执行分析](https://labs.k7computing.com/index.php/when-sql-server-becomes-the-initial-launcher-a-deep-dive-into-weaxor-ransomware-execution/) | Weaxor勒索借SQL Server初始执行分析 |
+| [CNCMachineRMS RAT](https://levelblue.com/blogs/spiderlabs-blog/cncmachinerms-the-undocumented-rat-at-the-end-of-a-babadeda-chain) | BabaDeda链末端CNCMachineRMS RAT分析 |
+| [恶意软件加壳服务生态](https://www.recordedfuture.com/research/malware-crypting-services-threat-actors) | 恶意软件免杀加壳服务生态研究 |
+| [Jewelbug Dossier](https://sed-cms.broadcom.com/sites/default/files/2026-08/Jewelbug%20Dossier.pdf) | Jewelbug间谍与加密诈骗并行运营卷宗 |
+| [JWR钓鱼框架剖析](https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/) | JWR钓鱼框架与WebSocket C2剖析 |
+| [Langflow 20小时失陷](https://www.sysdig.com/blog/cve-2026-33017-how-attackers-compromised-langflow-ai-pipelines-in-20-hours) | Langflow未授权RCE 20小时失陷分析(CVE-2026-33017) |
+| [ResetNightmare研究](https://www.semperis.com/blog/identity-crisis-novel-vulnerabilities-leading-to-kerberos-downgrade-dos-and-full-domain-takeover/) | Kerberos降级与全域接管漏洞研究(CVE-2026-27912) |
+| [eventpoll提权分析](https://rocket-boys.co.jp/security-measures-lab/linux-kernel-eventpoll-privilege-escalation-cve-2026-43074/) | Linux eventpoll提权漏洞分析(CVE-2026-43074) |
+| [DeadLock勒索分析](https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/) | DeadLock勒索Rust加密器与去中心化恢复分析 |
+| [LiteLLM供应链攻击链](https://labs.cloudsecurityalliance.org/research/csa-research-note-litellm-ai-gateway-attack-chain-20260617-c/) | LiteLLM网关供应链攻击链研究(CVE-2026-42271) |
+| [Adobe Commerce会话劫持](https://sansec.io/research/adobe-commerce-account-takeover-apsb26-92) | Adobe Commerce会话劫持在野利用分析(CVE-2026-71362) |
+| [RedLine C2逆向](https://github.com/kaandemir993/RedLine-Stealer-C2-Defender-Bypass-Payload-Analysis) | RedLine窃密木马C2协议与Defender绕过逆向 |
+| [DeadMatter凭据提取](https://hackers-arise.com/digital-forensics-evading-av-edr-during-credential-extraction-with-deadmatter/) | DeadMatter从内存转储提取凭据实战教程 |
+| [Inside ETW with EtwSuite](https://idov31.github.io/posts/inside-etw-with-etwsuite) | EtwSuite深入ETW生态与检测案例研究 |
+| [先知社区文章](https://xz.aliyun.com/news/92658) | 先知社区安全技术研究文章 |
+| [MAPS SCADA RCE](https://0day-rubbish.com/blog/maps-scada-unauth-binaryformatter-rce) | MAPS SCADA未授权反序列化RCE分析 |
+| [Pass-the-Passkey Slides](https://i.blackhat.com/BH-USA-26/Presentations/BHUS26-Grafnetter-Pass-the-Passkey-Slides.pdf) | BlackHat USA 2026 Pass-the-Passkey议题幻灯片 |
+| [Pass-the-Passkey WP](https://i.blackhat.com/BH-USA-26/Presentations/BHUS26-Grafnetter-Pass-the-Passkey-WP.pdf) | BlackHat USA 2026 Pass-the-Passkey白皮书 |
+| [EvilFontTool文档](https://doctoreww.github.io/EvilFontTool/) | EvilFontTool字体欺骗工具文档站 |
+| [Sandlock](https://sandlock.io/) | Landlock+seccomp无特权Linux沙箱项目 |
+| [Lazarus Dream Job 0day](https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/) | Lazarus假求职0day行动全程分析(CVE-2026-68820) |
+| [Hacking Apple PCC](https://blog.sentry.security/beyond-prompt-injection-hacking-apples-private-cloud-compute/) | Apple PCC路径遍历利用研究(CVE-2026-20685) |
 | [当可信工具变成攻击原语](https://ciphersecuritylabs.com/research/articles/when-trusted-tools-become-attack-primitives) | textutil 远程加载与 KeePassXC 滥用 |
 | [Wipeload:Chrome 完整利用链实战（一）](https://hackyboiz.github.io/2026/06/06/OUYA77/Wipeload_step1/en/) | 三个 1-day 构建 Chrome 完整利用链 |
 | [深入 Falcon:CrowdStrike 传感器逆向剖析](https://0xdbgman.github.io/posts/inside-the-falcon-how-crowdstrike-catches-you/) | CrowdStrike Falcon 传感器逆向剖析 |

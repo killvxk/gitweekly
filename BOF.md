@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Vipere](https://github.com/0xaled/Vipere) | 利用VS Installer提权服务拿SYSTEM的BOF |
 | [trustme](https://github.com/Meowmycks/trustme) | 冒充TrustedInstaller令牌的BOF提权工具 |
 | [cli4bofs](https://github.com/The-Z-Labs/cli4bofs) | 脱离Beacon独立运行与注入BOF的Zig命令行工具 |
 | [bof-launcher](https://github.com/The-Z-Labs/bof-launcher) | 跨平台BOF文件加载执行库，支持内存隐藏和多语言集成 |

@@ -1,19 +1,22 @@
 ---
 name: auto-weekly
-description: This skill should be used when the user asks to generate weekly reports from git history, process document links, update markdown files with URL descriptions, or mentions "生成周报", "处理文档链接", "更新 docs.md". Automates weekly report generation by extracting URLs from git commits or source files, generating concise Chinese descriptions, and organizing them into markdown tables.
+description: This skill should be used when the user asks to generate weekly reports from git history, process document links, scan Daily digests into category files (C2/README/docs/BOF/tools), update markdown files with URL descriptions, or mentions "生成周报", "处理文档链接", "扫描Daily", "更新 docs.md". Automates weekly report generation by extracting URLs from git commits or source files, generating concise Chinese descriptions, and organizing them into markdown tables.
 ---
 
 # Auto Weekly - 自动化周报生成
 
 复刻 `auto_weekly.py` 的核心功能，使用 Claude Code 当前会话替代 Anthropic API，节省订阅成本。
 
-## 两种工作模式
+## 三种工作模式
 
 ### 模式 1：全自动生成周报
 从 git 历史检测本周变更 → 提取新增链接 → 生成 AI 描述 → 创建周报文件 → git 提交
 
 ### 模式 2：处理源文件
 读取 docs.md、README.md 等文件 → 提取 URL → 生成 AI 描述 → 转换为表格格式
+
+### 模式 3：Daily 情报扫描分类
+扫描 Daily/ 目录本周摘要文件 → 提取链接 → 按类别去重 → 归档到 C2.md / README.md / docs.md / BOF.md / tools.md
 
 ## 环境要求
 
@@ -47,8 +50,9 @@ fi
 请选择运行模式：
 1. 全自动生成周报（从 git 历史）
 2. 处理源文件（docs.md 等）
+3. Daily 情报扫描分类（扫描 Daily/ 目录）
 
-请输入选项 (1/2):
+请输入选项 (1/2/3):
 ```
 
 然后询问：
@@ -216,7 +220,7 @@ find . -maxdepth 1 -type f \( -name "*.md" -o -name "*.txt" \) ! -name "README.m
 
 **过滤规则：**
 - 排除常见无效 URL
-- 排除已在表格中的 URL
+- 排除已在表格中的 URL（归一化比较：URL 小写、去尾部 `/`，避免大小写变体重复入库）
 
 ### 步骤 3：生成描述
 
@@ -257,6 +261,66 @@ find . -maxdepth 1 -type f \( -name "*.md" -o -name "*.txt" \) ! -name "README.m
 
 ---
 
+## 模式 3：Daily 情报扫描分类
+
+扫描 `Daily/` 目录下按日期命名的情报摘要文件（如 `Daily/2026-08-13-x-security-digest.md`），把**本周**内容按类别去重后归档到对应汇总文件。
+
+### 步骤 1：确定本周文件
+
+计算本周一到周日范围，取文件名开头日期（`YYYY-MM-DD-*.md`）落在该范围内的文件。无匹配文件时提示"本周没有 Daily 文件"并结束。
+
+### 步骤 2：提取并初分类
+
+运行辅助脚本得到候选清单（已按目标文件全量去重）：
+
+```bash
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/scan_daily.py
+```
+
+脚本输出按 `guess` 分组的候选（cve / c2 / bof / tools / article）。**guess 仅为启发式建议**，逐条结合 Daily 正文上下文复核后按下表归类：
+
+| 类别 | 判定标准 | 目标文件 |
+|------|---------|---------|
+| C2 类 | github 仓库为 C2/RAT/implant 框架或 agent | `C2.md` |
+| CVE 类 | 仓库名含 `CVE-` 编号，或上下文为某漏洞的 PoC/exploit（含无编号 0day PoC、gist） | `README.md` |
+| BOF 类 | BOF（Beacon Object File）工具 | `BOF.md` |
+| 其他工具 | 不属于以上类别的 github 安全工具 | `tools.md` |
+| 文章分析 | 非 github 的技术分析/研究文章（排除 x.com） | `docs.md` |
+
+**排除规则**（脚本已内置域名清单，会话仍需复核）：
+- x.com / twitter.com 链接（来源帖一律排除）
+- 搜索类 URL 与「來源搜尋 URL」节
+- 纯新闻通稿（thehackernews / bleepingcomputer / securityweek / csoonline / techtimes / helpnetsecurity / darkreading / securityaffairs 等）
+- 漏洞数据库条目（NVD / cve.org / cve.report / opencve / tenable）
+- 厂商补丁公告页（MSRC / helpx.adobe / support.* / me.sap.com / wordpress.org/news / blog.jetbrains.com）
+- CISA 目录与 CERT 公告页、项目官网、GHSA advisory 页
+- 同一研究的重复报道只保留主源（优先厂商研究博客 / 原始 PDF）
+
+### 步骤 3：生成描述
+
+与模式 1 步骤 5 相同：查缓存 → 抓取（WebFetch / GitHub API）→ 生成 15-25 字中文描述 → 写缓存。Daily 正文上下文足够时可直接归纳，无需抓取。
+
+### 步骤 4：插入表格行
+
+在目标文件**第一个表格**的表头分隔行后插入新行（最新在上）：
+
+- `README.md` 表头为 `| 链接 | 描述 |`，其余为 `| 文章 | 简介 |`
+- 行格式：`| [名称](url) | 描述 |`
+- 插入前对目标文件全量去重（表格 + raw 区；URL 小写、去尾部 `/` 后比较）
+- 每个文件处理完检查表格语法（每行两列）与文件内无重复 URL
+
+### 步骤 5：输出总结
+
+```
+✓ Daily 扫描完成！
+
+📄 本周文件: Daily/2026-08-13-x-security-digest.md
+📊 新增: C2.md 1, README.md 22, docs.md 24, BOF.md 0, tools.md 3
+📊 去重跳过: 5
+```
+
+---
+
 ## 附加资源
 
 ### 参考文档
@@ -270,5 +334,6 @@ find . -maxdepth 1 -type f \( -name "*.md" -o -name "*.txt" \) ! -name "README.m
 
 - **`scripts/cache_query.py`** - 查询 URL 缓存描述
 - **`scripts/cache_write.py`** - 写入或更新 URL 描述到缓存
+- **`scripts/scan_daily.py`** - Daily 情报扫描提取候选链接并按类别初分组（模式 3）
 
 详细用法请参考 `references/script-api.md`。

@@ -211,3 +211,40 @@ fi
 - 每次调用都会读取/写入完整的 JSON 文件
 - 对于大量 URL（>1000），建议批量处理
 - 缓存文件大小约为：`(URL长度 + 描述长度 + 10) * URL数量` 字节
+
+## scan_daily.py - Daily 情报扫描（模式 3）
+
+### 功能
+
+扫描 `Daily/` 目录下文件名以本周日期开头的 md 摘要文件，提取 URL（带章节上下文），对目标分类文件（C2.md / README.md / docs.md / BOF.md / tools.md 的表格与 raw 区）全量去重后，按启发式类别（cve / c2 / bof / tools / article）分组输出候选清单。guess 仅为建议，最终分类由会话结合 Daily 正文复核。
+
+### 用法
+
+```bash
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/scan_daily.py \
+    [--week-start YYYY-MM-DD] [--daily-dir Daily] [--root .] [--json out.json]
+```
+
+### 参数
+
+- `--week-start` (可选): 覆盖周一起始日期，默认取本周
+- `--daily-dir` (可选): Daily 目录，默认 `Daily`
+- `--root` (可选): 分类文件所在根目录，默认 `.`
+- `--json` (可选): 同时把结果写入指定 JSON 文件
+
+### 内置排除
+
+- x.com / twitter.com 来源帖、`api.github.com` 搜索 API
+- 「來源搜尋 URL」章节
+- 漏洞库条目（NVD / cve.org / cve.report / opencve / tenable）
+- 厂商补丁公告（MSRC / helpx.adobe / support.* / me.sap.com / wordpress.org / blog.jetbrains.com）
+- CISA / CERT 通告页与新闻通稿域名
+
+### 返回值
+
+- **退出码 0**: 正常输出（候选可能为空）
+- **退出码 2**: Daily 目录不存在
+
+### 去重比较规则
+
+URL 归一化后比较：去尾部 `/`、统一小写；与目标文件中出现的全部 URL（表格行与 raw 行）比对。

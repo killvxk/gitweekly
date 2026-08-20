@@ -2,6 +2,27 @@
 
 | 文章 | 简介 |
 |------|------|
+| [c2probe](https://github.com/kurokuma/c2probe) | 高速自定义C2 IP地址发现工具 |
+| [InjectionRange](https://github.com/17vivekupadhyay/InjectionRange) | RAG流水线构成的LLM红队测试靶场 |
+| [DutchOven](https://github.com/loosehose/DutchOven) | 应用级Windows网络干扰的C与BOF工具 |
+| [RT-Recon](https://github.com/payload10/RT-Recon) | 红队自动化侦察与攻击面收集脚本 |
+| [red-team-tools](https://github.com/pbyhre/red-team-tools) | 面向红队工程建设的实用工具合集 |
+| [dns-threat-hunting-zeek-splunk](https://github.com/BalMM-hub/dns-threat-hunting-zeek-splunk) | Zeek与Splunk联动DNS威胁狩猎方案 |
+| [hackerbrain-os](https://github.com/Cyt3rTo0ls/hackerbrain-os) | 全本地离线自主渗透测试助手系统 |
+| [neuroaudit](https://github.com/N1x-afl/neuroaudit) | 面向Linux的专业IT安全审计套件 |
+| [periscope](https://github.com/AlirezaSaberi/periscope) | 间接提示词注入对抗视觉代理的评测框架 |
+| [atoshell](https://github.com/GeekKingCloud/atoshell) | 无云无账户的终端工单跟踪管理工具 |
+| [ember2024](https://github.com/futurecomputing4ai/ember2024) | 320万样本的EMBER恶意软件检测数据集 |
+| [smolvm](https://github.com/smol-machines/smolvm) | 轻量便携自包含虚拟机的实现项目 |
+| [sharpemu](https://github.com/sharpemu/sharpemu) | 跨平台实验性PlayStation5模拟器 |
+| [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 腾讯全栈式AI红队安全测试平台 |
+| [helix-db](https://github.com/HelixDB/helix-db) | 基于对象存储的Rust图向量数据库 |
+| [sobs](https://github.com/abartrim/sobs) | 基于OpenTelemetry的轻量应用观测栈 |
+| [TRX-CTF-2025](https://github.com/TheRomanXpl0it/TRX-CTF-2025) | TRX CTF2025赛题挑战仓库 |
+| [zerolang](https://github.com/vercel-labs/zerolang) | 为AI智能体开发的新型编程语言 |
+| [rota](https://github.com/alpkeskin/rota) | 带自动IP管理的高性能代理轮换引擎 |
+| [ynoracle](https://github.com/sorndotdev/ynoracle) | C与64位汇编编写的YES/NO决策工具 |
+| [Cyber-Claude](https://github.com/dkyazzentwatwa/Cyber-Claude) | Claude SDK风格的AI防御安全运营代理 |
 | [pentestagent](https://github.com/GH05TCREW/pentestagent) | AI黑盒渗透测试自动化代理框架 |
 | [TrustMeBro](https://github.com/KriyosArcane/TrustMeBro) | Authenticode签名篡改红队工具包 |
 | [QTRDetectionContent](https://github.com/QUIRSO/QTRDetectionContent) | QUIRSO威胁研究YARA检测规则集 |

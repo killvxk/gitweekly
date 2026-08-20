@@ -1,8 +1,21 @@
 # gitweekly
 
-
 | 链接 | 描述 |
 |------|------|
+| [Metabase-Setup-Endpoint-SQLi-Fix](https://github.com/ubitquity/Metabase-Setup-Endpoint-SQLi-Fix) | Metabase SQLi非官方修复仓库 |
+| [massacre](https://github.com/portbuster1337/massacre) | TLS证书记录触发的远程DoS 0day PoC |
+| [sccm-cve-2026-47301-remote-code-execution-exploit](https://github.com/omribaso/sccm-cve-2026-47301-remote-code-execution-exploit) | SCCM组合利用链获取SYSTEM权限PoC |
+| [vsockdrop](https://github.com/MaherAzzouzi/vsockdrop) | AF_VSOCK的io_uring引用计数下溢提权 |
+| [3105](https://github.com/YangJiiii/3105) | iOS应用数据浏览器与补丁管理工具 |
+| [ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) | PS5已利用状态的WebKit载荷加载器 |
+| [cve-2026-0075](https://github.com/qm4rs/cve-2026-0075) | Android通讯录侧信道信息泄露PoC分析 |
+| [cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 解锁NVIDIA显卡被屏蔽功能的工具 |
+| [KKYUMPoC](https://github.com/0xdeadbeefnetwork/KKYUMPoC) | WHQL签名作弊驱动KKYUM.sys PoC分析 |
+| [whesvc-analysis](https://github.com/xusheng6/whesvc-analysis) | Windows 11 whesvc服务逆向分析工具 |
+| [cve-2026-41452-poc](https://github.com/boreas37/cve-2026-41452-poc) | Krayin CRM未授权安装绕过PoC |
+| [CVE-2026-40345](https://github.com/Jvr2022/CVE-2026-40345) | deepmerge-ts递归对象DoS漏洞PoC |
+| [slopLock](https://github.com/0xTriboulet/slopLock) | 本地AI全自动生成的文件加解密工具 |
+| [NachoMDM](https://github.com/AmberWolfCyber/NachoMDM) | Python实现的Windows MDM管理服务端 |
 | [CVE-2026-55040](https://github.com/sfewer-r7/CVE-2026-55040) | SharePoint JWT认证绕过漏洞PoC(CVE-2026-55040) |
 | [CVE-2026-8451](https://github.com/0xBlackash/CVE-2026-8451) | Citrix NetScaler内存泄露漏洞PoC(CVE-2026-8451) |
 | [CVE-2026-72898-PoC](https://github.com/codeb0ssx/CVE-2026-72898-PoC) | Metabase未授权SQLi利用PoC(CVE-2026-72898) |

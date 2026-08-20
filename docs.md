@@ -2,6 +2,48 @@
 
 | 文章 | 简介 |
 |------|------|
+| [SilkParasite APT活动追踪](https://businessinsights.bitdefender.com/silkparasite-tracking-china-nexus-apt-across-central-asia) | 追踪中亚活动的中国背景APT新RAT分析 |
+| [VoltaStealer首次实战信号](https://lunarcyber.com/blog/voltastealers-first-field-signal-clickfix-delivery-memory-first-claims-and-the-stealer-tradecraft-behind-the-noise/) | VoltaStealer木马实战分发与规避手法 |
+| [Elementor Pro文件上传RCE](https://patchstack.com/articles/critical-unauthenticated-file-upload-to-rce-in-elementor-pro-plugin/) | Elementor Pro插件文件上传RCE分析 |
+| [LSHIY口令喷洒攻击](https://www.huntress.com/blog/lshiy-password-spray-attack) | 针对Azure CLI的LSHIY口令喷洒攻击 |
+| [NetScaler认证绕过分析](https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway/) | NetScaler ADC认证绕过漏洞技术分析 |
+| [Operation CameraSwarm分析](https://hunt.io/blog/operation-cameraswarm-dahua-cameras-compromised) | 乌克兰俄罗斯逾万Dahua摄像头被控分析 |
+| [Clop批量勒索攻击分析](https://reliaquest.com/blog/clop-returns-with-custom-implant-in-mass-extortion-campaign/) | Clop定制植入体的批量勒索攻击分析 |
+| [MacSync基础设施追踪](https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/) | 行为枢轴定位MacSync窃密木马基础设施 |
+| [CoSnitch数据窃取缺陷](https://www.varonis.com/blog/cosnitch) | CoSnitch一键触发Copilot静默数据泄露 |
+| [加密欺诈管道剖析](https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing/) | Rapid7披露假钱包加密欺诈链条剖析 |
+| [macOS屏幕共享在野利用](https://rocket-boys.co.jp/security-measures-lab/macos-screen-sharing-cve-2026-65400-cyberattack-monero/) | macOS屏幕共享漏洞在野利用植Monero矿机 |
+| [RondoDox僵尸网络剖析](https://www.bitsight.com/blog/rondodox-botnet-infrastructure-analysis) | RondoDox僵尸网络174个漏洞利用剖析 |
+| [PATCHCORD恶意软件集群分析](https://www.acronis.com/en/tru/posts/patchcord-new-malware-cluster-targets-afghan-telecom-and-south-asian-critical-infrastructure/) | PATCHCORD后门攻击电信与南亚基建分析 |
+| [Evooo1Bot僵尸网络分析](https://www.fortinet.com/blog/threat-research/multi-functional-linux-botnet-evooo1bot) | 面向公网设备的模块化Linux僵尸网络分析 |
+| [CaptiveCrunch钓鱼窃密活动](https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/) | Midnight Blizzard钓鱼旅客窃密活动 |
+| [OtterCookie谱系C2舰队解密](https://www.rstcloud.com/an-undocumented-ottercookie-lineage-build-and-its-invisible-c2-fleet/) | OtterCookie谱系载荷解密与C2舰队挖掘 |
+| [RovoBlast数据泄露研究](https://www.varonis.com/blog/rovoblast) | 一键触发Atlassian Rovo泄露数据的研究 |
+| [控制流追踪逆向方法](https://revers.engineering/applied-re-crude-te-for-control-flow-tracing/) | 哨兵补丁实现控制流追踪的逆向工程方法 |
+| [Private Relay集体诉讼](https://9to5mac.com/2026/08/11/apple-faces-class-action-lawsuit-for-fraud-over-icloud-private-relay-flaw/) | 苹果因Private Relay缺陷面临集体诉讼 |
+| [SysReptor主机头注入RCE](https://hippie.cat/post/Research/SysReptor-host-header-to-rce) | SysReptor主机头注入链接RCE漏洞分析 |
+| [ClickFix到AD实战攻击报告](https://blog.deception.pro/blog/clickfix-spacex1337-hok-2026) | 蜜网捕获ClickFix到键盘操作AD攻击链 |
+| [Linux eventpoll提权漏洞](https://securityonline.info/linux-kernel-eventpoll-flaw/) | Linux eventpoll本地提权PoC公开 |
+| [Chromium扩展C2持久化](https://specterops.io/blog/2026/08/13/chromium-extension-c2-persistence/) | Chromium扩展侧载实现C2持久化分析 |
+| [lpacCom能力绕过分析(上)](https://www.huntandhackett.com/blog/lpaccom-part-1) | COM/WinRT初始化与lpacCom能力绕过 |
+| [桌面ini空白隐藏C2后门](https://www.gendigital.com/blog/insights/research/kb-backdoor) | 利用desktop.ini尾部空格隐藏C2的后门 |
+| [HoneyMyte更新CoolClient](https://securelist.com/honeymyte-updates-coolclient-uses-browser-stealers-and-scripts/118664/) | HoneyMyte更新CoolClient后门分析 |
+| [Surrealra1n GUI降级预览](https://cobdy.com/2026/08/15/surrealra1n-gui-preview-ios-17-ios-18-ios-26-downgrade-support-explained/) | Surrealra1n图形界面支持iOS降级预览 |
+| [商用EDR特洛伊木马化研究](https://www.akamai.com/blog/security-research/bring-your-own-edr-turn-commercial-edr-trojan-horse) | 利用商用EDR作为特洛伊木马的防御规避 |
+| [Windows优化服务Lua沙箱](https://xusheng.dev/posts/reversing/whesvc/main/) | Windows健康优化服务内置Lua沙箱分析 |
+| [IDT表劫持研究](https://www.exploitpack.com/blogs/news/idt-table-hijacking-under-vbs-hvci-kcet-in-windows-11) | VBS/HVCI/kCET环境下的IDT表劫持研究 |
+| [日语IME句柄泄漏分析](https://isopach.dev/Windows-ctfmon-Japanese-IME-handle-leak/) | 日语IME句柄泄漏致Windows桌面卡死分析 |
+| [伪造面试ClickOnce窃密链](https://haveibeensquatted.com/blog/from-fake-interview-to-signed-clickonce-three-payload-windows-chain) | 伪造Web3面试投递签名ClickOnce窃密链 |
+| [n8n原型污染RCE分析](https://simonkoeck.com/writeups/n8n-gsuiteadmin-prototype-pollution-rce) | n8n原型污染实现RCE的漏洞分析 |
+| [QUIC加密C2植入体教程](https://g3tsyst3m.com/encrypted%20shell/Building-an-Encrypted-C2-Implant-Using-QUIC/) | 基于QUIC的加密C2植入体构建教程 |
+| [TURN服务器恶意代理研究](https://purpleshift.io/purple/2026-07-29-xfzo/) | 把TURN会议中继改造成C2恶意代理 |
+| [CAV3RN隐密C2分析](https://securelist.com/project-cav3rn-continues/120991/) | CAV3RN利用Apps Script构建隐密C2 |
+| [本地LLM恶意软件案例](https://steve-s.gitbook.io/0xtriboulet/artificial-intelligence/sloplock) | 本地LLM开发恶意软件的案例研究 |
+| [File Drop转RCE分析](https://www.securifera.com/blog/2026/08/07/file-drop-to-rce-cve-2026-20217/) | 文件落地到RCE的漏洞利用分析 |
+| [GDID设备追踪机制](https://zerotracelab.com/blog/gdid-windows-tracking) | Windows全局设备标识符GDID追踪机制分析 |
+| [fetipop内核利用技术](https://kqx.io/post/fetipop/) | Linux内核脏页表受限场景利用新技术 |
+| [LLVM BOLT模仿KARL日志](https://clehaxze.tw/gemlog/2026/08-16-mimicing-karl-using-llvm-bolt.gmi) | 使用LLVM BOLT复现KARL机制的技术日志 |
+| [Windows MDM武器化研究](https://blog.amberwolf.com/blog/2026/august/weaponising-windows-mdm/) | Windows MDM注册流程武器化的实践研究 |
 | [GeoServer预认证SQLi到RCE](https://hadrian.io/blog/here-be-dragons-geoserver-pre-auth-sql-injection-to-rce) | GeoServer预认证SQLi到RCE的0day分析 |
 | [GeoServer 0day SQLi到RCE](https://byteiota.com/geoserver-zero-day-sql-injection-rce/) | GeoServer 0day SQLi到RCE漏洞分析 |
 | [SharePoint JWT认证绕过深度分析](https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040/) | SharePoint JWT认证绕过深度分析(CVE-2026-55040) |

@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [-HT-Forge](https://github.com/HackingTeamOficial/-HT-Forge) | 面向渗透测试的模块化红队研究平台 |
 | [ultralight-AES](https://github.com/husamabdel/ultralight-AES) | C语言超轻量AES-128加解密库 |
 | [pyrpc](https://github.com/pyrpc/pyrpc) | Python与TypeScript端到端RPC库 |
 | [darwin-vm](https://github.com/jprx/darwin-vm) | 用QEMU运行iOS与macOS的虚拟机 |

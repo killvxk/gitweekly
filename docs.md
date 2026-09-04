@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Chrome Edge扩展钱包盗号分析](https://socket.dev/blog/chrome-edge-extension-wallet-drainer) | Chrome与Edge扩展钱包盗号分析 |
+| [LoadMaster预认证RCE研究](https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/) | LoadMaster预认证RCE漏洞研究 |
+| [Forminator任意文件上传分析](https://www.wordfence.com/blog/2026/08/600000-wordpress-sites-affected-by-arbitrary-file-upload-vulnerability-in-forminator-forms-wordpress-plugin/) | Forminator未认证文件上传漏洞分析 |
 | [BraZetsu恶意软件分析](https://aviatrix.ai/threat-research-center/brazetsu-malware-initial-access-broker-marketplace-2026/) | BraZetsu拉美初始访问恶意软件分析 |
 | [Elementor Pro接管分析](https://aviatrix.ai/threat-research-center/critical-elementor-pro-flaw-cve-2026-32475-wordpress-takeover/) | Elementor Pro未认证上传接管分析 |
 | [Langflow密钥窃取在野分析](https://aviatrix.ai/threat-research-center/critical-langflow-flaw-cve-2026-0768-exploited-steal-openai-aws-keys/) | Langflow漏洞窃取云密钥在野分析 |

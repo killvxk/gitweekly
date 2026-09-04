@@ -3508,5 +3508,11 @@
   "https://github.com/majd/ipatool": "从App Store下载IPA的命令行工具",
   "https://github.com/deeplethe/utopia": "全球首个开源企业级世界模型框架",
   "https://github.com/MobAI-App/simslim": "关闭多余守护以多开iOS模拟器的工具",
-  "https://github.com/sojufx/Qwen3.8-27B-NVFP4-DGX-Spark-Recipe": "单卡DGX Spark部署Qwen3.8的配方"
+  "https://github.com/sojufx/Qwen3.8-27B-NVFP4-DGX-Spark-Recipe": "单卡DGX Spark部署Qwen3.8的配方",
+  "https://github.com/MSNightmare/GreenSection": "Nvidia用户态内存破坏0day的PoC仓",
+  "https://github.com/Whispergate/InfraGuard": "保护红队基础设施的C2重定向代理",
+  "https://github.com/HackingTeamOficial/-HT-Forge": "面向渗透测试的模块化红队研究平台",
+  "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/": "LoadMaster预认证RCE漏洞研究",
+  "https://socket.dev/blog/chrome-edge-extension-wallet-drainer": "Chrome与Edge扩展钱包盗号分析",
+  "https://www.wordfence.com/blog/2026/08/600000-wordpress-sites-affected-by-arbitrary-file-upload-vulnerability-in-forminator-forms-wordpress-plugin/": "Forminator未认证文件上传漏洞分析"
 }

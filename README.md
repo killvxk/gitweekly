@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [0xM0nCrush](https://github.com/DeathShotXD/0xM0nCrush) | 签名驱动BYOVD内核进程终结PoC |
+| [FalconFlank](https://github.com/MSNightmare/FalconFlank) | Falcon提权0day漏洞的PoC仓库 |
 | [GreenSection](https://github.com/MSNightmare/GreenSection) | Nvidia用户态内存破坏0day的PoC仓 |
 | [rails-forensics-CVE-2026-66066](https://github.com/rails/rails-forensics-CVE-2026-66066) | Rails任意文件读漏洞取证工具仓 |
 | [CVE-2026-18963-keycloak](https://github.com/Red-Darkin/CVE-2026-18963-keycloak) | Keycloak未认证账户接管漏洞PoC仓库 |

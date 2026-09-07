@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [prompt-injection-example](https://github.com/Antolius/prompt-injection-example) | 办公任务场景的提示注入攻击示例仓 |
+| [amass](https://github.com/owasp-amass/amass) | 深度攻击面测绘与资产发现的工具 |
+| [subfinder](https://github.com/projectdiscovery/subfinder) | 快速被动子域名枚举的开源侦察工具 |
+| [VulnClaw](https://github.com/Netw0rkNoob/VulnClaw) | 自然语言驱动的渗透全流程智能体 |
+| [edrEvasionWorkshop](https://github.com/tyeurada/edrEvasionWorkshop) | 从加载器到内核的EDR规避研讨材料 |
+| [agentseal](https://github.com/getagentseal/agentseal) | 扫描AI智能体技能与MCP风险的工具 |
+| [OsintGodseye](https://github.com/jollncoelho/OsintGodseye) | 实时航班船舶卫星的OSINT地理看板 |
+| [Malware-Bible](https://github.com/Perkins-Fund/Malware-Bible) | 面向防御者的恶意软件逆向免费教程 |
 | [-HT-Forge](https://github.com/HackingTeamOficial/-HT-Forge) | 面向渗透测试的模块化红队研究平台 |
 | [ultralight-AES](https://github.com/husamabdel/ultralight-AES) | C语言超轻量AES-128加解密库 |
 | [pyrpc](https://github.com/pyrpc/pyrpc) | Python与TypeScript端到端RPC库 |

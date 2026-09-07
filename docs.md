@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [BYOVD EDR结束进程分析](https://cham1ndux.github.io/posts/BYOVD-EDR-killer-with-a-UAC-bypass-and-a-lying-comment-block/) | 带UAC绕过的BYOVD结束进程分析 |
+| [Falcon侧翼设计风险分析](https://rocket-boys.co.jp/security-measures-lab/crowdstrike-falconflank-edr-design-risk/) | CrowdStrike Falcon侧翼风险分析 |
+| [内网OSINT失陷侦察文](https://medium.com/@dzianisskliar29/internal-osint-post-compromise-reconnaissance-beyond-bloodhound-ea8b4d4f594f) | 内网失陷后超越BloodHound的侦察法 |
+| [DragonForce加密器分析](https://darkatlas.io/blog/dragonforce-ransomware-analysis-windows-locker) | DragonForce勒索加密器样本分析 |
+| [Veneficus植入体分析](https://abraxaslabs.tech/research/veneficus) | Veneficus植入体杀伤链技术分析 |
+| [IIS经AD CS提权分析](https://www.mannulinux.org/2026/08/Privilege-escalation-from-IIS-AppPool-to-NT-AuthoritySYSTEM-via-AD-CS-RPC-endpoint.html) | IIS应用池经AD CS提权到SYSTEM分析 |
+| [检测工程单一数据源研究](https://trustedsec.com/blog/building-a-detection-foundation-part-1-the-single-source-problem) | 检测工程单一数据源问题的基础文 |
+| [红队AI技能实践研究](https://outflank.nl/blog/2026/09/02/red-team-ai-skills/) | 面向红队场景的AI技能实践研究 |
+| [Chrome V8类型混淆分析](https://aviatrix.ai/threat-research-center/chrome-zero-day-cve-2026-85046-v8-type-confusion-september-2026/) | Chrome V8类型混淆0day漏洞分析 |
+| [Citrix认证绕过在野分析](https://aviatrix.ai/threat-research-center/critical-citrix-netscaler-auth-bypass-cve-2026-19490-attacks) | Citrix NetScaler认证绕过在野分析 |
+| [Passkey认证绕过研究](https://aviatrix.ai/threat-research-center/passkey-authentication-bypass-methods-2026/) | Passkey认证绕过方法的技术研究 |
+| [自动化漏洞签名研究报告](https://aviatrix.ai/threat-research-center/recorded-future-automated-signature-creation-vulnerability-prioritization-2025/) | 自动化漏洞签名与优先级的研究报告 |
+| [GTIG威胁组织用AI研究](https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools) | 威胁组织滥用AI工具的GTIG研究 |
+| [智能体反混淆Recon讲稿](https://synthesis.to/presentations/recon26_agentic_deobfuscation.pdf) | 智能体辅助反混淆的Recon演讲稿 |
+| [攻防SCOM基础设施研究](https://www.guidepointsecurity.com/blog/attacking-and-defending-scom/) | 攻击与防御SCOM监控基础设施研究 |
+| [Exodus钱包安装器RAT分析](https://www.huntress.com/blog/exodus-crypto-wallet-installer-rat) | Exodus钱包安装器捆绑RAT分析 |
+| [边界利用双数据集研究](https://www.sentinelone.com/blog/what-two-independent-datasets-reveal-about-whos-exploiting-your-perimeter/) | 两套独立数据集揭示的边界利用研究 |
 | [Chrome Edge扩展钱包盗号分析](https://socket.dev/blog/chrome-edge-extension-wallet-drainer) | Chrome与Edge扩展钱包盗号分析 |
 | [LoadMaster预认证RCE研究](https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/) | LoadMaster预认证RCE漏洞研究 |
 | [Forminator任意文件上传分析](https://www.wordfence.com/blog/2026/08/600000-wordpress-sites-affected-by-arbitrary-file-upload-vulnerability-in-forminator-forms-wordpress-plugin/) | Forminator未认证文件上传漏洞分析 |

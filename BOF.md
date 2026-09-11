@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [udc2-bof-vs](https://github.com/Cobalt-Strike/udc2-vs/tree/main/udc2-bof-vs) | CS 官方 UDC2 BOF 的 VS 工程模板 |
 | [Vipere](https://github.com/0xaled/Vipere) | 利用VS Installer提权服务拿SYSTEM的BOF |
 | [trustme](https://github.com/Meowmycks/trustme) | 冒充TrustedInstaller令牌的BOF提权工具 |
 | [cli4bofs](https://github.com/The-Z-Labs/cli4bofs) | 脱离Beacon独立运行与注入BOF的Zig命令行工具 |

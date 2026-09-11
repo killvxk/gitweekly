@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [celld](https://github.com/denoland/celld) | 自托管分布式 Durable Objects 服务 |
+| [glm53-flash-exl3-2x-dgx-spark](https://github.com/Reederey87/glm53-flash-exl3-2x-dgx-spark) | GLM-5.3 双 DGX Spark 生产部署 |
+| [Qwen3.8-Flash-Next-1x-DGX-Spark](https://github.com/Weschera/Qwen3.8-Flash-Next-1x-DGX-Spark) | Qwen3.8 单 Spark MTP 推理实测 |
+| [crab](https://github.com/crabbuild/crab) | 大文件版 Git，模型数据集存自有对象存储 |
+| [ResearchPapers](https://github.com/xsh3llsh0ck/ResearchPapers) | 会议演讲论文集，含 SMM 开发与二进制利用 |
+| [pi-agent-desktop](https://github.com/Chasen-Liao/pi-agent-desktop) | Pi 编程智能体的 Electron 桌面客户端 |
+| [Soc-investigation](https://github.com/0xAshvin/Soc-investigation) | SOC 告警调查与恶意样本分析 writeup 集 |
+| [grype](https://github.com/anchore/grype) | Anchore 出品的容器镜像与文件系统漏洞扫描器 |
+| [awesome-security-agent-harnesses](https://github.com/Ed-Marcavage/awesome-security-agent-harnesses) | 安全 AI agent harness 汇总清单 |
+| [PassTheCert-rs](https://github.com/g0h4n/PassTheCert-rs) | 纯 Rust 的 LDAPS 证书认证攻击工具 |
+| [sage](https://github.com/gendigitalinc/sage) | Gen Digital AI 编程助手防护层 |
+| [redcell](https://github.com/martian56/redcell) | LLM 多智能体红队平台，Kali 内自动渗透 |
+| [cyber-resume-reviewer-skill](https://github.com/mubix/cyber-resume-reviewer-skill) | 网络安全简历审查与改写的 Agent Skill |
 | [prompt-injection-example](https://github.com/Antolius/prompt-injection-example) | 办公任务场景的提示注入攻击示例仓 |
 | [amass](https://github.com/owasp-amass/amass) | 深度攻击面测绘与资产发现的工具 |
 | [subfinder](https://github.com/projectdiscovery/subfinder) | 快速被动子域名枚举的开源侦察工具 |

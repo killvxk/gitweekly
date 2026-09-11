@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [eBPF性能优化实测](https://bitbison.io/blog/ebpf-performance/) | 实测eBPF钩子/map/环形缓冲等操作开销 |
+| [Jetson安全启动绕过通告](https://www.onekey.com/resource/security-advisory-secure-boot-bypass-on-nvidia-jetson-for-linux) | Jetson initrd命令注入绕过安全启动 |
+| [TermRover移动终端应用](https://termrover.sh/) | 为tmux优化的手机SSH/Mosh终端应用 |
+| [代码可以无限变坏](https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/) | 技术债没有破产清算，代码可以无限变坏 |
+| [Docker Hub凭证泄露扫描](https://www.binarly.io/blog/docker-hub-secrets) | 扫描Docker Hub镜像泄露凭证与私钥风险 |
+| [UAT-10147部署SPECTRE植入体分析](https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/) | SPECTRE后门集成rootkit与BYOVD |
+| [FortiGate漏洞投递PivotC2分析](https://socradar.io/blog/cve-2025-25249-pivotc2-fortigate-rat/) | FortiGate漏洞遭利用投递PivotC2 |
+| [SpecterOps TATS令牌追踪系统](https://specterops.io/blog/2026/09/08/token-analysis-and-tracking-system-tats/) | TATS：Entra OAuth令牌交换追踪工具 |
+| [Anthropic九月AI滥用威胁报告](https://www.anthropic.com/threat-intelligence-report-september-2026) | Anthropic九月威胁情报报告：AI滥用案例 |
+| [GreyNoise PaperCut AI攻击分析](https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf) | AI代理大军利用PaperCut漏洞全球入侵 |
+| [N-central预认证RCE利用分析](https://www.huntress.com/blog/n-able-vulnerability-exploitation) | N-central预认证RCE零日遭在野利用 |
+| [DLL侧载研究与HijackLibs](https://www.infosecharry.co.uk/blog/dll-sideloading) | vmware-vmx改名后侧载恶意DLL研究 |
+| [BYOTC受信调用者驱动利用](https://xusheng.dev/posts/byotc/main/) | BYOTC：劫持受信用户态客户端调用特权驱动 |
+| [CS用户自定义C2出站通信](https://whiteknightlabs.com/2026/01/06/the-new-chapter-of-egress-communication-with-cobalt-strike-user-defined-c2/) | UDC2：BOF打造CS自定义出站C2信道 |
+| [Linux SCTP UAF漏洞分析](https://matrix.tencent.com/en/2026/08/06/sctphantom-CVE-2026-64564) | Linux SCTP协议UAF可提权并逃逸容器 |
+| [FBI调查1.53亿驾照泄露](https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/) | FBI调查暗网售卖1.53亿驾照扫描件服务 |
+| [MariaDB授权缺陷管理员接管](https://hackerone.com/reports/3876430) | 低权限用户借GRANT PROXY改管理员密码 |
 | [BYOVD EDR结束进程分析](https://cham1ndux.github.io/posts/BYOVD-EDR-killer-with-a-UAC-bypass-and-a-lying-comment-block/) | 带UAC绕过的BYOVD结束进程分析 |
 | [Falcon侧翼设计风险分析](https://rocket-boys.co.jp/security-measures-lab/crowdstrike-falconflank-edr-design-risk/) | CrowdStrike Falcon侧翼风险分析 |
 | [内网OSINT失陷侦察文](https://medium.com/@dzianisskliar29/internal-osint-post-compromise-reconnaissance-beyond-bloodhound-ea8b4d4f594f) | 内网失陷后超越BloodHound的侦察法 |

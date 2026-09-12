@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pd-bridge](https://github.com/chadhurley25075-png/pd-bridge) | DGX预填Mac Studio解码的PD分离 |
 | [celld](https://github.com/denoland/celld) | 自托管分布式 Durable Objects 服务 |
 | [glm53-flash-exl3-2x-dgx-spark](https://github.com/Reederey87/glm53-flash-exl3-2x-dgx-spark) | GLM-5.3 双 DGX Spark 生产部署 |
 | [Qwen3.8-Flash-Next-1x-DGX-Spark](https://github.com/Weschera/Qwen3.8-Flash-Next-1x-DGX-Spark) | Qwen3.8 单 Spark MTP 推理实测 |

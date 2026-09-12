@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ashwa](https://github.com/pid7-org/ashwa) | SIMD 指令加速的子串搜索工具 |
+| [adexsnap](https://github.com/crypt0p3g/adexsnap) | 跨平台 AD Explorer 快照工具 |
 | [pd-bridge](https://github.com/chadhurley25075-png/pd-bridge) | DGX预填Mac Studio解码的PD分离 |
 | [celld](https://github.com/denoland/celld) | 自托管分布式 Durable Objects 服务 |
 | [glm53-flash-exl3-2x-dgx-spark](https://github.com/Reederey87/glm53-flash-exl3-2x-dgx-spark) | GLM-5.3 双 DGX Spark 生产部署 |

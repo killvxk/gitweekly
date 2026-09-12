@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MAccConc内核竞态条件测试](https://projectzero.google/2026/09/maccconc-race-condition.html) | 内存访问追踪与延迟注入测内核竞态 |
 | [eBPF性能优化实测](https://bitbison.io/blog/ebpf-performance/) | 实测eBPF钩子/map/环形缓冲等操作开销 |
 | [Jetson安全启动绕过通告](https://www.onekey.com/resource/security-advisory-secure-boot-bypass-on-nvidia-jetson-for-linux) | Jetson initrd命令注入绕过安全启动 |
 | [TermRover移动终端应用](https://termrover.sh/) | 为tmux优化的手机SSH/Mosh终端应用 |

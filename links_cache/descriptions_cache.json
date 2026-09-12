@@ -3579,5 +3579,8 @@
   "https://github.com/gendigitalinc/sage": "Gen Digital AI 编程助手防护层",
   "https://github.com/martian56/redcell": "LLM 多智能体红队平台，Kali 内自动渗透",
   "https://github.com/mubix/cyber-resume-reviewer-skill": "网络安全简历审查与改写的 Agent Skill",
-  "https://github.com/chadhurley25075-png/pd-bridge": "DGX预填Mac Studio解码的PD分离"
+  "https://github.com/chadhurley25075-png/pd-bridge": "DGX预填Mac Studio解码的PD分离",
+  "https://projectzero.google/2026/09/maccconc-race-condition.html": "内存访问追踪与延迟注入测内核竞态",
+  "https://github.com/pid7-org/ashwa": "SIMD 指令加速的子串搜索工具",
+  "https://github.com/crypt0p3g/adexsnap": "跨平台 AD Explorer 快照工具"
 }

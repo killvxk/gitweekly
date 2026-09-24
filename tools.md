@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [recurse](https://github.com/Recurse-Labs/recurse) | 面向逆向工程的AI原生IDE工具 |
+| [vphone-ws](https://github.com/zqxwce/vphone-ws) | macOS管理iOS研究虚拟机原生应用 |
 | [acl-abuse-havoc](https://github.com/0xM4L/acl-abuse-havoc) | Havoc C2的AD ACL滥用工具 |
 | [flightsim](https://github.com/alphasoc/flightsim) | 生成恶意流量评估检测控件的工具 |
 | [ntlmscout](https://github.com/boydhacks/ntlmscout) | 挤压暴露NTLM端点信息的侦察工具 |

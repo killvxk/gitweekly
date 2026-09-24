@@ -3648,5 +3648,15 @@
   "https://github.com/kaandemir993/StealC-Stealer-RuntimeBroker-Hollowing-C2-Extraction-Payload-Extraction-Analysis": "StealC窃密器进程镂空C2提取分析",
   "https://github.com/nmht3t/OneDrive-UDC2": "OneDrive作隐蔽传输信道的C2",
   "https://github.com/ShadowOpCode/BotC2-RAT/blob/main/BotC2_RAT.pdf": "未公开RAT完整逆向与C2模拟报告",
-  "https://github.com/ShadowOpCode/NeonVanguard": "未公开Java后门完整逆向分析"
+  "https://github.com/ShadowOpCode/NeonVanguard": "未公开Java后门完整逆向分析",
+  "https://projectzero.google/2026/09/windows-dangling-com.html": "Windows悬挂COM对象本地提权研究",
+  "https://davidcarliez.github.io/blog/cve-2026-66804-crossdevice-frameserver-lpe/": "CVE-2026-66804跨设备提权漏洞分析",
+  "https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation": "Kapibala WordPress利用窃政府记录",
+  "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2": "进入并攻破Avast杀软沙箱下篇",
+  "https://www.volexity.com/blog/2026/09/21/mind-the-patch-gap-part-2-fake-websites-used-to-deploy-chrome-windows-0-day-exploits/": "假媒体站串联浏览器与系统0day",
+  "https://entra.news/p/active-directory-security-testing": "Maester 2.2本地AD安全测试播客",
+  "https://github.com/pwardle/not-a-mused": "Muse听写流量本地劫持0day PoC",
+  "https://github.com/Recurse-Labs/recurse": "面向逆向工程的AI原生IDE工具",
+  "https://github.com/zqxwce/vphone-ws": "macOS管理iOS研究虚拟机原生应用",
+  "https://github.com/kaandemir993/PureRAT-msbuild.exe--C2-Extraction--Net-Evasion-Analysis": "PureRAT多阶段执行与规避逆向分析"
 }

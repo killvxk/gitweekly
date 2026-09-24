@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Windows悬挂COM](https://projectzero.google/2026/09/windows-dangling-com.html) | Windows悬挂COM对象本地提权研究 |
+| [CrossDevice提权](https://davidcarliez.github.io/blog/cve-2026-66804-crossdevice-frameserver-lpe/) | CVE-2026-66804跨设备提权漏洞分析 |
+| [Kapibala攻击](https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation) | Kapibala WordPress利用窃政府记录 |
+| [Avast沙箱逃逸下篇](https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2) | 进入并攻破Avast杀软沙箱下篇 |
+| [仿冒站0day投递](https://www.volexity.com/blog/2026/09/21/mind-the-patch-gap-part-2-fake-websites-used-to-deploy-chrome-windows-0-day-exploits/) | 假媒体站串联浏览器与系统0day |
+| [Maester AD测试](https://entra.news/p/active-directory-security-testing) | Maester 2.2本地AD安全测试播客 |
 | [Docker沙箱逃逸](https://accomplish.ai/blog/escaping-dockers-hypervisor/) | Docker沙箱hypervisor层逃逸研究 |
 | [Codex沙箱双重逃逸](https://accomplish.ai/blog/escaping-the-openai-codex-sandbox-twice/) | 两次逃逸OpenAI Codex沙箱研究 |
 | [Admin Menu Editor事件](https://adminmenueditor.com/blog/security-incident-affecting-customers-2026-09-14/) | WordPress插件供应链后门事件通告 |

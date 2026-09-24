@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [PowerShell CLM绕过](https://gist.github.com/enigma0x3/22d6fc84956f154faf338966cd6d9bb0) | PSNativeCmdDevKit受限语言模式绕过 |
+| [Oracle ADB RCE](https://github.com/Metnew/write-ups/tree/main/oracle-aidb-rce-26.2.4.2) | Oracle自主AI数据库RCE复现笔记 |
 | [FMC IoC](https://github.com/Cisco-Talos/IOCs/blob/main/2026/09/ongoing-fmc-exploitation.txt) | Cisco FMC在野利用IoC指标清单 |
 | [0xM0nCrush](https://github.com/DeathShotXD/0xM0nCrush) | 签名驱动BYOVD内核进程终结PoC |
 | [FalconFlank](https://github.com/MSNightmare/FalconFlank) | Falcon提权0day漏洞的PoC仓库 |

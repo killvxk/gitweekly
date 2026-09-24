@@ -2,6 +2,29 @@
 
 | 文章 | 简介 |
 |------|------|
+| [acl-abuse-havoc](https://github.com/0xM4L/acl-abuse-havoc) | Havoc C2的AD ACL滥用工具 |
+| [flightsim](https://github.com/alphasoc/flightsim) | 生成恶意流量评估检测控件的工具 |
+| [ntlmscout](https://github.com/boydhacks/ntlmscout) | 挤压暴露NTLM端点信息的侦察工具 |
+| [adnullenum](https://github.com/crypt0p3g/adnullenum) | 空会话一次遍历AD匿名枚举工具 |
+| [Red-Team-Roadmap](https://github.com/Dev-Chukwuma/Red-Team-Roadmap) | 面向红队生涯的30模块学习路线图 |
+| [askWAM](https://github.com/dirkjanm/askWAM) | 向WAM请求Entra ID令牌的工具 |
+| [aclpwn.py](https://github.com/fox-it/aclpwn.py) | BloodHound联动AD ACL提权工具 |
+| [CnaEmulator](https://github.com/iterat0r/CnaEmulator) | Aggressor脚本开发模拟测试台 |
+| [rcekit](https://github.com/kabiri-labs/rcekit) | 命令注入RCE测试与证据分级工具 |
+| [OpenHunterAI](https://github.com/LumosLab-Innovation/OpenHunterAI) | 本地AI红队的Web与LLM安全测试 |
+| [ARES](https://github.com/Mafifrizi/ARES) | 授权红队作战自动化与OPSEC平台 |
+| [Mr.SIP](https://github.com/meliht/Mr.SIP) | 面向VoIP渗透的SIP安全评估框架 |
+| [ai-ctf](https://github.com/mubix/ai-ctf) | 体验AI聊天机器人风险的CTF挑战 |
+| [IOXIDResolver](https://github.com/mubix/IOXIDResolver) | 解析IOXID接口探测网络接口信息 |
+| [NullAI-HexStrike](https://github.com/NullAITech/NullAI-HexStrike-AI-Terminal) | 本地AI增强的Parrot安全终端 |
+| [ReflectivePluginLoader](https://github.com/racoten/ReflectivePluginLoader) | 内存映射加载DLL的反射插件框架 |
+| [chatgpt-app-analysis](https://github.com/reddpy/chatgpt-app-analysis) | ChatGPT桌面应用的智能体化分析 |
+| [dsh-redteam-model](https://github.com/SeaOf0/dsh-redteam-model) | dsh多模式红队安全研究工作流 |
+| [KernelSight](https://github.com/splintersfury/KernelSight) | Windows内核驱动漏洞利用知识库 |
+| [ai-training-ml-security](https://github.com/stratomarco/ai-training-ml-security) | 机器学习与LLM系统安全课程库 |
+| [Supply-Chain-Parasite](https://github.com/Th3g4ntl3m4n/Supply-Chain-Parasite-Simulaci-n-de-una-Skill-Maliciosa-en-Agentes-de-IA) | AI代理恶意Skill供应链攻防演示 |
+| [ETWSyscallConsumer](https://github.com/winterknife/EVENSTAR/tree/master/ETWSyscallConsumer) | ETW直接系统调用的消费器实验 |
+| [luvus](https://github.com/RizRiyz/luvus) | 面向AI编码智能体的任务指挥中枢 |
 | [ipblocklist](https://github.com/bitwire-it/ipblocklist) | 每两小时刷新的出入站IP封锁清单 |
 | [ashwa](https://github.com/pid7-org/ashwa) | SIMD 指令加速的子串搜索工具 |
 | [adexsnap](https://github.com/crypt0p3g/adexsnap) | 跨平台 AD Explorer 快照工具 |

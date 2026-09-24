@@ -2,6 +2,31 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Docker沙箱逃逸](https://accomplish.ai/blog/escaping-dockers-hypervisor/) | Docker沙箱hypervisor层逃逸研究 |
+| [Codex沙箱双重逃逸](https://accomplish.ai/blog/escaping-the-openai-codex-sandbox-twice/) | 两次逃逸OpenAI Codex沙箱研究 |
+| [Admin Menu Editor事件](https://adminmenueditor.com/blog/security-incident-affecting-customers-2026-09-14/) | WordPress插件供应链后门事件通告 |
+| [Sentry Seer漏洞](https://agyn.io/blog/sentry-seer-autofix-vulnerability) | Seer自动修复功能PhantomFix漏洞 |
+| [n8n授权绕过](https://deturris.io/posts/n8n-ai-agents-authorization-bypasses/) | n8n AI Agent授权绕过漏洞分析 |
+| [HumHub XSS](https://fluidattacks.com/advisories/personajes) | HumHub评论删除通知存储型XSS |
+| [LimeSurvey RCE](https://fluidattacks.com/advisories/wellerman) | LimeSurvey远程代码执行漏洞披露 |
+| [AD攻击架构图](https://kypvas.github.io/ad_attack_architecture/) | Active Directory攻击路径架构图集 |
+| [文件句柄凭据转储](https://medium.com/@s12deff/domain-credential-dumping-via-file-handle-redirection-749c24820ea8) | 经文件句柄重定向的域凭据窃取技术 |
+| [三团伙勒索入侵剖析](https://medium.com/@VampireXRay/from-earthtime-to-msbuild-anatomy-of-a-three-gang-ransomware-intrusion-914ead353313) | EarthTime至MSBuild三团伙勒索剖析 |
+| [Cisco ISE漏洞解析](https://note.com/note_suke/n/na2f35974648d) | Cisco ISE认证绕过漏洞日文解析 |
+| [Starlette BadHost](https://ostif.org/disclosing-the-badhost-vulnerability-in-starlette) | Starlette BadHost主机信任漏洞披露 |
+| [NightEagle APT](https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/) | NightEagle APT幽灵容器与隧道分析 |
+| [GemStuffer](https://socket.dev/blog/gemstuffer) | RubyGems恶意包GemStuffer投毒分析 |
+| [CiliumHound图析](https://specterops.io/blog/2026/09/17/ciliumhound-graphing-kubernetes-network-policies/) | CiliumHound绘制K8s网络策略图 |
+| [Hackvertor条件标签](https://thespanner.co.uk/hackvertor-check-tags-and-conditions) | Hackvertor标签条件校验安全研究 |
+| [蜜罐账户检测](https://trustedsec.com/blog/detecting-password-spraying-with-a-honeypot-account) | 用蜜罐账户检测Kerberoast密码喷洒 |
+| [TeamPCP供应链](https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/) | TeamPCP供应链攻击行动分析 |
+| [Plugin4Shell](https://www.air.security/blog-posts/plugin4shell) | Plugin4Shell AI插件供应链RCE披露 |
+| [OpenAI论坛RCE](https://www.hacktron.ai/blog/hacking-openai) | libheif缺陷致OpenAI论坛RCE研究 |
+| [Settra勒索变体](https://www.huntress.com/blog/new-settra-ransomware-variant) | Settra勒索MeshAgent剧本变体分析 |
+| [Cisco ESA漏洞](https://www.rapid7.com/blog/post/etr-cve-2026-76461-critical-cisco-secure-email-gateway-vulnerability-exploited-in-the-wild/) | Cisco邮件网关RCE在野利用分析 |
+| [TraderTraitor后门](https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/) | TraderTraitor API后门回潮分析 |
+| [勒索基础设施分析](https://www.team-cymru.com/post/ransomware-infrastructure-analysis) | 勒索团伙基础设施架构检测方法分析 |
+| [Tutor LMS RCE](https://www.wordfence.com/blog/2026/09/100000-wordpress-sites-exposed-to-remote-code-execution-via-php-object-injection-vulnerability-found-by-wordfence-argus-in-tutor-lms/) | Tutor LMS插件对象注入RCE披露 |
 | [Talos FMC追踪](https://blog.talosintelligence.com/fmc-ongoing-exploitation/) | Cisco FMC在野利用三簇攻击者追踪 |
 | [WSC禁用Defender检测](https://ipurple.team/2026/09/09/windows-security-center/) | WSC API滥用禁用Defender检测分析 |
 | [Defender XDR自动隔离](https://jeffreyappel.nl/microsoft-defender-xdr-attack-disruption-automatic-device-isolation-explained/) | Defender XDR攻击中断自动隔离解析 |

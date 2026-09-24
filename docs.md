@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Talos FMC追踪](https://blog.talosintelligence.com/fmc-ongoing-exploitation/) | Cisco FMC在野利用三簇攻击者追踪 |
+| [WSC禁用Defender检测](https://ipurple.team/2026/09/09/windows-security-center/) | WSC API滥用禁用Defender检测分析 |
+| [Defender XDR自动隔离](https://jeffreyappel.nl/microsoft-defender-xdr-attack-disruption-automatic-device-isolation-explained/) | Defender XDR攻击中断自动隔离解析 |
+| [注册表取证叙事](https://sethenoka.com/registry-as-narrative/) | Windows注册表取证的叙事化分析 |
+| [Anthropic威胁报告](https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf) | Anthropic威胁情报检测与反制报告 |
+| [Sogou输入法后门](https://www.gendigital.com/blog/insights/research/one-click-backdoor-sogou) | 搜狗输入法一键后门GrayRabbit分析 |
+| [ArangoDB复现](https://www.pruva.dev/reproductions/REPRO-2026-00355) | ArangoDB未认证路径至系统任务复现 |
+| [SharePoint RCE分析](https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520/) | SharePoint RCE漏洞技术分析 |
 | [MAccConc内核竞态条件测试](https://projectzero.google/2026/09/maccconc-race-condition.html) | 内存访问追踪与延迟注入测内核竞态 |
 | [eBPF性能优化实测](https://bitbison.io/blog/ebpf-performance/) | 实测eBPF钩子/map/环形缓冲等操作开销 |
 | [Jetson安全启动绕过通告](https://www.onekey.com/resource/security-advisory-secure-boot-bypass-on-nvidia-jetson-for-linux) | Jetson initrd命令注入绕过安全启动 |

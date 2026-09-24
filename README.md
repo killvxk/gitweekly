@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [FMC IoC](https://github.com/Cisco-Talos/IOCs/blob/main/2026/09/ongoing-fmc-exploitation.txt) | Cisco FMC在野利用IoC指标清单 |
 | [0xM0nCrush](https://github.com/DeathShotXD/0xM0nCrush) | 签名驱动BYOVD内核进程终结PoC |
 | [FalconFlank](https://github.com/MSNightmare/FalconFlank) | Falcon提权0day漏洞的PoC仓库 |
 | [GreenSection](https://github.com/MSNightmare/GreenSection) | Nvidia用户态内存破坏0day的PoC仓 |

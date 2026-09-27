@@ -25,7 +25,6 @@
 | [KernelSight](https://github.com/splintersfury/KernelSight) | Windows内核驱动漏洞利用知识库 |
 | [ai-training-ml-security](https://github.com/stratomarco/ai-training-ml-security) | 机器学习与LLM系统安全课程库 |
 | [Supply-Chain-Parasite](https://github.com/Th3g4ntl3m4n/Supply-Chain-Parasite-Simulaci-n-de-una-Skill-Maliciosa-en-Agentes-de-IA) | AI代理恶意Skill供应链攻防演示 |
-| [ETWSyscallConsumer](https://github.com/winterknife/EVENSTAR/tree/master/ETWSyscallConsumer) | ETW直接系统调用的消费器实验 |
 | [luvus](https://github.com/RizRiyz/luvus) | 面向AI编码智能体的任务指挥中枢 |
 | [ipblocklist](https://github.com/bitwire-it/ipblocklist) | 每两小时刷新的出入站IP封锁清单 |
 | [ashwa](https://github.com/pid7-org/ashwa) | SIMD 指令加速的子串搜索工具 |

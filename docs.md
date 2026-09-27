@@ -2,6 +2,26 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ADCS ESC_CES 研究](https://adhdmurky.github.io/posts/post4/) | NTLM relay 至 AD CS 提权路径 |
+| [微软 17 万亿记录暴露](https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records) | JWT 未验签暴露微软 17 万亿行数据 |
+| [Google 智能体攻击实证](https://blog.google/security/agentic-hacks-real-proofs-inside-googles-pagebreak-project/) | PageBreak 智能体扫出 500+ XSS |
+| [UNC6240 攻击战役](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft/) | UNC6240 大规模利用 PeopleSoft |
+| [Gitea RCE 分析](https://dbu.gs/news/rce-in-gitea-cve-2026-60004-20260925) | Gitea diffpatch 端点 RCE 分析 |
+| [Warden 窃密开发者访谈](https://g0njxa.medium.com/approaching-stealers-devs-a-brief-interview-with-warden-a978d5ae1147) | Windows 窃密木马 Warden 开发者访谈 |
+| [F5 BIG-IP 堆溢出](https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/) | APM 认证头未授权堆溢出在野 RCE |
+| [NetExec MCP 实践](https://mpgn.fr/building-a-mcp-for-netexec/) | 为 NetExec 打造 MCP 服务器实践 |
+| [Joomla UP 插件漏洞](https://mysites.guru/blog/up-plugin-joomla-unauthenticated-vulnerabilities/) | UP 插件无登录可读站点配置漏洞 |
+| [攻击 Agent 思维链分析](https://projectdiscovery.io/research/chain-of-thought-analysis-of-offensive-tasks) | 对攻击性 AI agent 的思维链分析 |
+| [AI 漏洞发现实践](https://research.eye.security/ai-vulnerability-discovery-using-the-kitten-process-how-we-found-cve-2026-75754/) | AI 流程挖出 CVE-2026-75754 |
+| [BlueLocker 威胁画像](https://socradar.io/blog/dark-web-profile-blue-locker-ransomware/) | Blue Locker 勒索软件暗网威胁画像 |
+| [Electron 攻击面研究](https://speakerdeck.com/s1r1us/electrovolt-pwning-popular-desktop-apps-while-uncovering-new-attack-surface-on-electron) | Electron 桌面应用新攻击面与利用 |
+| [AI 攻击性安全研究](https://specterops.io/blog/2026/09/24/ai-for-offensive-security/) | SpecterOps 论 AI 用于漏洞发现验证 |
+| [PHP UAF 沙箱逃逸](https://therealcoiffeur.com/c111001.html) | PHP FFI UAF 的 macOS 沙箱逃逸 |
+| [K8s 沙箱提权建模](https://vishalmurugan.substack.com/p/from-a-sandbox-pod-to-cluster-admin) | 沙箱 pod 到集群管理员的提权建模 |
+| [Omarchy 提权漏洞](https://www.piratemoo.com/haptics-havoc-an-omarchy-lpe/) | Omarchy 触控板脚本 symlink 提权 |
+| [SEO 投毒狩猎案例](https://www.threathuntinglabs.com/threat-hunting/cases/0011) | SEO 投毒投递 RMM 后门的狩猎案例 |
+| [ENISA 威胁报告评议](https://www.treadstone71.com/osint/enisa-threat-landscape-2026-peer-review-treadstone-71) | ENISA 2026 威胁图谱的同行评议 |
+| [Oxygen 取证公司调查](https://www.zetter-zeroday.com/us-based-digital-forensics-firm-hid-its-russian-ownership-from-u-s-government-customers/) | Oxygen 高管隐瞒俄属权被捕调查 |
 | [Windows悬挂COM](https://projectzero.google/2026/09/windows-dangling-com.html) | Windows悬挂COM对象本地提权研究 |
 | [CrossDevice提权](https://davidcarliez.github.io/blog/cve-2026-66804-crossdevice-frameserver-lpe/) | CVE-2026-66804跨设备提权漏洞分析 |
 | [Kapibala攻击](https://www.greynoise.io/blog/open-season-on-kapibala-attacker-steals-government-records-wordpress-exploitation) | Kapibala WordPress利用窃政府记录 |

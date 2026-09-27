@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AuthStrike](https://github.com/cloudbreach/AuthStrike) | Entra ID 设备码钓鱼模拟与令牌利用平台 |
+| [dpapi-toolkit](https://github.com/crypt0p3g/dpapi-toolkit) | Windows DPAPI 离线取证解密工具箱 |
+| [stratus-red-team](https://github.com/DataDog/stratus-red-team) | DataDog 云对手模拟与检测验证框架 |
+| [hackmyagent](https://github.com/opena2a-org/hackmyagent) | AI Agent/MCP 安全扫描与红队工具箱 |
+| [adk-demo-target](https://github.com/rbrus/adk-demo-target) | Gemini ADK 故意脆弱智能体红队靶标 |
+| [KaliGPT](https://github.com/SudoHopeX/KaliGPT) | Kali 多模型 AI 渗透辅助 CLI 助手 |
+| [SnafflePy](https://github.com/S3cur3Th1sSh1t/SnafflePy/tree/main) | Snaffler 跨平台移植版带 HTML 报告 |
 | [recurse](https://github.com/Recurse-Labs/recurse) | 面向逆向工程的AI原生IDE工具 |
 | [vphone-ws](https://github.com/zqxwce/vphone-ws) | macOS管理iOS研究虚拟机原生应用 |
 | [acl-abuse-havoc](https://github.com/0xM4L/acl-abuse-havoc) | Havoc C2的AD ACL滥用工具 |

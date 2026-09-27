@@ -2,6 +2,9 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-96512](https://github.com/abraxas/CVE-2026-96512) | sudo TZ 时间窗绕过提权 PoC 与实验室 |
+| [MicroTrick](https://github.com/digiprosec/MicroTrick) | RouterOS 未授权 SSH 接管链 PoC |
+| [Comment2Shell](https://github.com/DeathShotXD/Comment2Shell) | WordPress XSS RCE 全链 PoC |
 | [not-a-mused](https://github.com/pwardle/not-a-mused) | Muse听写流量本地劫持0day PoC |
 | [PowerShell CLM绕过](https://gist.github.com/enigma0x3/22d6fc84956f154faf338966cd6d9bb0) | PSNativeCmdDevKit受限语言模式绕过 |
 | [Oracle ADB RCE](https://github.com/Metnew/write-ups/tree/main/oracle-aidb-rce-26.2.4.2) | Oracle自主AI数据库RCE复现笔记 |

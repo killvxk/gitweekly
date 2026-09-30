@@ -3691,5 +3691,11 @@
   "https://www.treadstone71.com/osint/enisa-threat-landscape-2026-peer-review-treadstone-71": "ENISA 2026 威胁图谱的同行评议",
   "https://www.zetter-zeroday.com/us-based-digital-forensics-firm-hid-its-russian-ownership-from-u-s-government-customers/": "Oxygen 高管隐瞒俄属权被捕调查",
   "https://mysites.guru/blog/up-plugin": "__DELETED__",
-  "https://projectdiscovery.io/research/chain": "__DELETED__"
+  "https://projectdiscovery.io/research/chain": "__DELETED__",
+  "https://patchstack.com/articles/cross-site-request-forgery-in-elementor-plugin-affecting-2-million-sites/": "影响两百万站点的Elementor插件CSRF分析",
+  "https://github.com/dagowda/notRDP": "Havoc C2隐形桌面远程交互插件",
+  "https://github.com/ajm4n/sockpuppets": "多语言多传输带EDR规避的C2框架",
+  "https://github.com/sliverarmory/CS-Situational-Awareness-BOF": "跨平台主机信息收集BOF命令集与开发范式",
+  "https://github.com/pho5nix/Red-Team-GOAD-Lab-Proxmox": "Proxmox红队GOAD靶场搭建配置指南",
+  "https://github.com/BILLKISHORE/ai-evals": "千余攻击技法的LLM自动化红队评测框架"
 }

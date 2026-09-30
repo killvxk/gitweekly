@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Elementor 插件CSRF](https://patchstack.com/articles/cross-site-request-forgery-in-elementor-plugin-affecting-2-million-sites/) | 影响两百万站点的Elementor插件CSRF分析 |
 | [ADCS ESC_CES 研究](https://adhdmurky.github.io/posts/post4/) | NTLM relay 至 AD CS 提权路径 |
 | [微软 17 万亿记录暴露](https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records) | JWT 未验签暴露微软 17 万亿行数据 |
 | [Google 智能体攻击实证](https://blog.google/security/agentic-hacks-real-proofs-inside-googles-pagebreak-project/) | PageBreak 智能体扫出 500+ XSS |

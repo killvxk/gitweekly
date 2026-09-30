@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Red-Team-GOAD-Lab-Proxmox](https://github.com/pho5nix/Red-Team-GOAD-Lab-Proxmox) | Proxmox红队GOAD靶场搭建配置指南 |
+| [ai-evals](https://github.com/BILLKISHORE/ai-evals) | 千余攻击技法的LLM自动化红队评测框架 |
 | [AuthStrike](https://github.com/cloudbreach/AuthStrike) | Entra ID 设备码钓鱼模拟与令牌利用平台 |
 | [dpapi-toolkit](https://github.com/crypt0p3g/dpapi-toolkit) | Windows DPAPI 离线取证解密工具箱 |
 | [stratus-red-team](https://github.com/DataDog/stratus-red-team) | DataDog 云对手模拟与检测验证框架 |

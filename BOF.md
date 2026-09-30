@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [CS-Situational-Awareness-BOF](https://github.com/sliverarmory/CS-Situational-Awareness-BOF) | 跨平台主机信息收集BOF命令集与开发范式 |
 | [udc2-bof-vs](https://github.com/Cobalt-Strike/udc2-vs/tree/main/udc2-bof-vs) | CS 官方 UDC2 BOF 的 VS 工程模板 |
 | [Vipere](https://github.com/0xaled/Vipere) | 利用VS Installer提权服务拿SYSTEM的BOF |
 | [trustme](https://github.com/Meowmycks/trustme) | 冒充TrustedInstaller令牌的BOF提权工具 |

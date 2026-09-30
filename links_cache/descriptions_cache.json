@@ -3704,5 +3704,16 @@
   "https://github.com/JoasASantos/Offensive-Security-AI-Models": "红队用途开放权重越狱模型清单仓",
   "https://github.com/lupingQAQ/red-team-skill-tree": "红队全栈攻防技能树与参考图谱库",
   "https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash": "渗透红队SRC与CTF的AI智能体平台",
-  "https://github.com/devZero-Security/redStackPRO": "红队靶场画布导出Terraform与Ansible"
+  "https://github.com/devZero-Security/redStackPRO": "红队靶场画布导出Terraform与Ansible",
+  "https://github.com/ncxcy/iOS-26.5-mobileactivationd-vulns": "iOS 26.5激活服务越狱漏洞清单",
+  "https://github.com/ntfargo/Relapse-Exploit": "PS5 7.00至13.60内核利用链",
+  "https://github.com/0xGooseByte/zakynthos": "PUBG游戏内核读写Rootkit驱动",
+  "https://github.com/AdityaVG13/pi-stack": "pi与omp编码代理扩展包合集",
+  "https://github.com/Hyperwise-LLC/freshctx": "AI代理写入前行动证据重校验工具",
+  "https://github.com/joshuaswarren/mlx-omarchy": "苹果芯片Linux的MLX图形后端",
+  "https://github.com/assetnote/batchql": "GraphQL批量查询漏洞审计脚本",
+  "https://github.com/OrbitCurve/firmware-reverse-engineering": "固件逆向的Claude与Codex技能集",
+  "https://github.com/g4titanx/maki": "口令派生加密助记词短秘密的工具",
+  "https://github.com/IvanFitro/Learn-Rust-Attack-Vectors": "Rust Web3漏洞模式与真实审计案例集",
+  "https://github.com/devZero-Securi": "__DELETED__"
 }

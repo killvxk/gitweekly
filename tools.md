@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pi-stack](https://github.com/AdityaVG13/pi-stack) | pi与omp编码代理扩展包合集 |
+| [freshctx](https://github.com/Hyperwise-LLC/freshctx) | AI代理写入前行动证据重校验工具 |
+| [mlx-omarchy](https://github.com/joshuaswarren/mlx-omarchy) | 苹果芯片Linux的MLX图形后端 |
+| [batchql](https://github.com/assetnote/batchql) | GraphQL批量查询漏洞审计脚本 |
+| [firmware-reverse-engineering](https://github.com/OrbitCurve/firmware-reverse-engineering) | 固件逆向的Claude与Codex技能集 |
+| [maki](https://github.com/g4titanx/maki) | 口令派生加密助记词短秘密的工具 |
+| [Learn-Rust-Attack-Vectors](https://github.com/IvanFitro/Learn-Rust-Attack-Vectors) | Rust Web3漏洞模式与真实审计案例集 |
 | [Offensive-Security-AI-Models](https://github.com/JoasASantos/Offensive-Security-AI-Models) | 红队用途开放权重越狱模型清单仓 |
 | [red-team-skill-tree](https://github.com/lupingQAQ/red-team-skill-tree) | 红队全栈攻防技能树与参考图谱库 |
 | [StrikeAgent_AtkBrain-Flash](https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash) | 渗透红队SRC与CTF的AI智能体平台 |

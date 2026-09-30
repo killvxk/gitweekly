@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [iOS 26.5 mobileactivationd漏洞](https://github.com/ncxcy/iOS-26.5-mobileactivationd-vulns) | iOS 26.5激活服务越狱漏洞清单 |
+| [Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | PS5 7.00至13.60内核利用链 |
 | [watchTowr NetScaler检测器](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | NetScaler未授权命令注入检测工件生成器 |
 | [CVE-2026-96512](https://github.com/abraxas/CVE-2026-96512) | sudo TZ 时间窗绕过提权 PoC 与实验室 |
 | [MicroTrick](https://github.com/digiprosec/MicroTrick) | RouterOS 未授权 SSH 接管链 PoC |

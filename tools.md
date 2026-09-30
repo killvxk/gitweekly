@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Offensive-Security-AI-Models](https://github.com/JoasASantos/Offensive-Security-AI-Models) | 红队用途开放权重越狱模型清单仓 |
+| [red-team-skill-tree](https://github.com/lupingQAQ/red-team-skill-tree) | 红队全栈攻防技能树与参考图谱库 |
+| [StrikeAgent_AtkBrain-Flash](https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash) | 渗透红队SRC与CTF的AI智能体平台 |
+| [redStackPRO](https://github.com/devZero-Security/redStackPRO) | 红队靶场画布导出Terraform与Ansible |
 | [Red-Team-GOAD-Lab-Proxmox](https://github.com/pho5nix/Red-Team-GOAD-Lab-Proxmox) | Proxmox红队GOAD靶场搭建配置指南 |
 | [ai-evals](https://github.com/BILLKISHORE/ai-evals) | 千余攻击技法的LLM自动化红队评测框架 |
 | [AuthStrike](https://github.com/cloudbreach/AuthStrike) | Entra ID 设备码钓鱼模拟与令牌利用平台 |

@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Entra 条件访问绕过](https://petri.com/bypass-entra-conditional-access-policies/) | 不受支持设备绕过Entra条件访问策略 |
 | [Elementor 插件CSRF](https://patchstack.com/articles/cross-site-request-forgery-in-elementor-plugin-affecting-2-million-sites/) | 影响两百万站点的Elementor插件CSRF分析 |
 | [ADCS ESC_CES 研究](https://adhdmurky.github.io/posts/post4/) | NTLM relay 至 AD CS 提权路径 |
 | [微软 17 万亿记录暴露](https://blog.faav.net/how-i-couldve-accessed-17-trillion-microsoft-records) | JWT 未验签暴露微软 17 万亿行数据 |

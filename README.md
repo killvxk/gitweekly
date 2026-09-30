@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [watchTowr NetScaler检测器](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | NetScaler未授权命令注入检测工件生成器 |
 | [CVE-2026-96512](https://github.com/abraxas/CVE-2026-96512) | sudo TZ 时间窗绕过提权 PoC 与实验室 |
 | [MicroTrick](https://github.com/digiprosec/MicroTrick) | RouterOS 未授权 SSH 接管链 PoC |
 | [Comment2Shell](https://github.com/DeathShotXD/Comment2Shell) | WordPress XSS RCE 全链 PoC |

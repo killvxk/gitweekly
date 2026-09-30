@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Mem-Exec](https://github.com/WeedHashPeddler/Mem-Exec) | 内存加载Windows EXE的CS BOF |
 | [CS-Situational-Awareness-BOF](https://github.com/sliverarmory/CS-Situational-Awareness-BOF) | 跨平台主机信息收集BOF命令集与开发范式 |
 | [udc2-bof-vs](https://github.com/Cobalt-Strike/udc2-vs/tree/main/udc2-bof-vs) | CS 官方 UDC2 BOF 的 VS 工程模板 |
 | [Vipere](https://github.com/0xaled/Vipere) | 利用VS Installer提权服务拿SYSTEM的BOF |

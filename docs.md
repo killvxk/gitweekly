@@ -2,6 +2,18 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MCP设计陷阱](https://www.outflank.nl/blog/2026/09/30/mcp-design/) | 剖析agent找不到工具与忽略约束等设计缺陷 |
+| [GrayKey绕过iPhone重启](https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/) | 泄露视频称执法可冻结iPhone不活动重启 |
+| [Entra令牌窃取CAE篇](https://insinuator.net/2026/09/token-theft-in-microsoft-entra-id-part-2-of-4-continuous-access-evaluation/) | 实测持续访问评估支持面与撤销延迟 |
+| [摩尔多瓦媒体攻击活动](https://resident.ngo/lab/writeups/malware-campaign-impersonates-european-donors-to-target-moldovan-media-and-civil-society/) | 假冒欧洲捐赠方投递快捷方式载荷 |
+| [BloodHound采集指南](https://www.blackhillsinfosec.com/bloodhound-data-collection/) | 对比三种采集器路径并用PlumHound出报告 |
+| [Check Point武器化研究](https://bishopfox.com/blog/weaponizing-check-point-management-cve-2026-93616) | Check Point管理口root RCE利用链 |
+| [Module Stomping注入](https://combat.theater/blog/module-stomping/) | shellcode覆写合法DLL的注入与检测 |
+| [TrickDump取证笔记](https://dfir.ch/posts/field_notes_trickdump/) | 重建攻击者三段式LSASS转储过程 |
+| [NetScaler DTLS溢出](https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/) | DTLS分片重组预认证内存溢出在野利用 |
+| [对手情报LLM课程](https://specterops.io/blog/2026/09/30/introducing-adversary-intelligence-llm-tradecraft/) | 联合OpenAI推出LLM攻防实操课程 |
+| [HashcatRosetta解读](https://trustedsec.com/blog/hashcatrosetta-reading-the-rosetta-stone-of-password-cracking) | Hashcat规则翻译与调试日志分析工具 |
+| [Cisco SD-WAN认证绕过](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76504/) | 编码缺陷绕过认证直取Manager管理API |
 | [Entra 条件访问绕过](https://petri.com/bypass-entra-conditional-access-policies/) | 不受支持设备绕过Entra条件访问策略 |
 | [Elementor 插件CSRF](https://patchstack.com/articles/cross-site-request-forgery-in-elementor-plugin-affecting-2-million-sites/) | 影响两百万站点的Elementor插件CSRF分析 |
 | [ADCS ESC_CES 研究](https://adhdmurky.github.io/posts/post4/) | NTLM relay 至 AD CS 提权路径 |

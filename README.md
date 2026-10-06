@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [proftpd-CVE-2026-42167-poc](https://github.com/ZeroPathAI/proftpd-CVE-2026-42167-poc) | ProFTPD认证绕过提权RCE漏洞PoC |
 | [iOS 26.5 mobileactivationd漏洞](https://github.com/ncxcy/iOS-26.5-mobileactivationd-vulns) | iOS 26.5激活服务越狱漏洞清单 |
 | [Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | PS5 7.00至13.60内核利用链 |
 | [watchTowr NetScaler检测器](https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771) | NetScaler未授权命令注入检测工件生成器 |

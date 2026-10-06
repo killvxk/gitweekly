@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [awesome-agent-skills-security](https://github.com/LLMSecurity/awesome-agent-skills-security) | AI代理技能安全的攻击防御资源清单 |
+| [llm-redkit](https://github.com/Bn09/llm-redkit) | 集成三大框架的LLM红队测试harness |
+| [TEB读取技巧gist](https://gist.github.com/winterknife/2a8dd60ab593589843de93b04cecac2c) | x86汇编读取FS段基址取得TEB技巧 |
+| [redteamsimmer](https://github.com/breachsimrange/redteamsimmer) | Atomic Red Team可视化图形界面 |
+| [dotnet-memshell](https://github.com/lupingQAQ/dotnet-memshell) | 三种插入点的.NET内存马实现研究 |
+| [PentestGPT](https://github.com/GreyDGL/PentestGPT) | LLM驱动的自动化渗透测试代理框架 |
+| [passkeys.tools](https://github.com/RUB-NDS/passkeys.tools) | 模拟客户端与认证器的WebAuthn测试工具 |
 | [pi-stack](https://github.com/AdityaVG13/pi-stack) | pi与omp编码代理扩展包合集 |
 | [freshctx](https://github.com/Hyperwise-LLC/freshctx) | AI代理写入前行动证据重校验工具 |
 | [mlx-omarchy](https://github.com/joshuaswarren/mlx-omarchy) | 苹果芯片Linux的MLX图形后端 |

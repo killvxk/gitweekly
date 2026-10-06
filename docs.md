@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ClingSTUN后门分析](https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure) | 滥用公共STUN穿透NAT的回连代理后门 |
+| [LibreOffice RCE复现](https://www.pruva.dev/reproductions/REPRO-2026-00374) | 恶意ODS经远程JDBC类路径加载RCE复现 |
+| [forkstore构建记](https://www.chainguard.dev/unchained/this-shit-is-hard-building-forkstore) | 公开与保密补丁分层共存的版本存储实践 |
+| [RATHat C2面板解剖](https://www.cleafy.com/cleafy-labs/from-blackcat-to-panda-workshop-inside-the-evolving-c2-panel-behind-rathat) | RATHat背后C2面板三代演化与MaaS分析 |
 | [MCP设计陷阱](https://www.outflank.nl/blog/2026/09/30/mcp-design/) | 剖析agent找不到工具与忽略约束等设计缺陷 |
 | [GrayKey绕过iPhone重启](https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/) | 泄露视频称执法可冻结iPhone不活动重启 |
 | [Entra令牌窃取CAE篇](https://insinuator.net/2026/09/token-theft-in-microsoft-entra-id-part-2-of-4-continuous-access-evaluation/) | 实测持续访问评估支持面与撤销延迟 |

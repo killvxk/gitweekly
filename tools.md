@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ClaudeHopper](https://github.com/3ndG4me/ClaudeHopper) | Claude API流量透明拦截审计代理 |
+| [encryptlayer-intelligence](https://github.com/ARPSyndicate/encryptlayer-intelligence) | EncryptLayer社区提交的威胁情报归档 |
+| [sliver-gui](https://github.com/sliverarmory/sliver-gui) | Sliver官方组织的图形界面客户端 |
 | [awesome-agent-skills-security](https://github.com/LLMSecurity/awesome-agent-skills-security) | AI代理技能安全的攻击防御资源清单 |
 | [llm-redkit](https://github.com/Bn09/llm-redkit) | 集成三大框架的LLM红队测试harness |
 | [TEB读取技巧gist](https://gist.github.com/winterknife/2a8dd60ab593589843de93b04cecac2c) | x86汇编读取FS段基址取得TEB技巧 |

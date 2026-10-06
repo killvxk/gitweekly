@@ -3740,5 +3740,14 @@
   "https://github.com/breachsimrange/redteamsimmer": "Atomic Red Team可视化图形界面",
   "https://github.com/lupingQAQ/dotnet-memshell": "三种插入点的.NET内存马实现研究",
   "https://github.com/GreyDGL/PentestGPT": "LLM驱动的自动化渗透测试代理框架",
-  "https://github.com/RUB-NDS/passkeys.tools": "模拟客户端与认证器的WebAuthn测试工具"
+  "https://github.com/RUB-NDS/passkeys.tools": "模拟客户端与认证器的WebAuthn测试工具",
+  "https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure": "滥用公共STUN穿透NAT的回连代理后门",
+  "https://www.pruva.dev/reproductions/REPRO-2026-00374": "恶意ODS经远程JDBC类路径加载RCE复现",
+  "https://www.chainguard.dev/unchained/this-shit-is-hard-building-forkstore": "公开与保密补丁分层共存的版本存储实践",
+  "https://www.cleafy.com/cleafy-labs/from-blackcat-to-panda-workshop-inside-the-evolving-c2-panel-behind-rathat": "RATHat背后C2面板三代演化与MaaS分析",
+  "https://github.com/3ndG4me/ClaudeHopper": "Claude API流量透明拦截审计代理",
+  "https://github.com/ARPSyndicate/encryptlayer-intelligence": "EncryptLayer社区提交的威胁情报归档",
+  "https://github.com/sliverarmory/sliver-gui": "Sliver官方组织的图形界面客户端",
+  "https://github.com/Kavan00/Android-Projector-C2-Malware": "中国产投影仪固件C2网络拆解报告",
+  "https://github.com/KrakenEU/BOFKatz": "进程镂空执行的Mimikatz BOF实现"
 }

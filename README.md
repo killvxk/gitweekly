@@ -2,6 +2,19 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC) | VMware VMXNET3 TSO整数溢出PoC |
+| [CVE-2026-102489](https://github.com/horizon3ai/CVE-2026-102489) | Zammad会话泄漏到RCE的公开PoC |
+| [CVE-2026-106445](https://github.com/murrez/CVE-2026-106445) | Handlebars模板RCE的PoC复现 |
+| [CVE-2026-107806](https://github.com/murrez/CVE-2026-107806) | nginx-ui伪备份恢复认证RCE的PoC |
+| [watchTowr Atlassian检测器](https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589) | CVE-2026-21589任意文件读取检测PoC |
+| [watchTowr PaperCut检测器](https://github.com/watchtowrlabs/watchTowr-vs-PaperCut-WT-2026-0143/) | PaperCut认证绕过检测PoC生成器 |
+| [libheif-unci-wordpress-rce](https://github.com/FORTBRIDGE-UK/libheif-unci-wordpress-rce) | WordPress与libheif链RCE复现 |
+| [mysql-mysqlbinlog-raw-path](https://github.com/abraxas/mysql-mysqlbinlog-raw-path) | mysqlbinlog的raw路径残留漏洞PoC |
+| [signal-server-dropwizard-admin](https://github.com/abraxas/signal-server-dropwizard-admin) | Signal服务器admin端点未授权PoC |
+| [78RL-2026-0009](https://github.com/78ResearchLab/PatchHawk-PoC/tree/main/78RL-2026-0009) | libjxl 32位尺寸回绕越界写PoC |
+| [gobalance-patch](https://github.com/kolmteistov/gobalance-patch) | GoBalance供应链后门补丁与PoC |
+| [PoeLLM-IOCs](https://github.com/blacklotuslabs/IOCs/blob/main/PoeLLM_IOCs.txt) | Lumen披露PoeLLM恶意软件IoC清单 |
+| [threat-intel-2026-10](https://github.com/huntresslabs/threat-intel/tree/main/2026/2026-10) | Huntress十月威胁情报IoC与签名 |
 | [proftpd-CVE-2026-42167-poc](https://github.com/ZeroPathAI/proftpd-CVE-2026-42167-poc) | ProFTPD认证绕过提权RCE漏洞PoC |
 | [iOS 26.5 mobileactivationd漏洞](https://github.com/ncxcy/iOS-26.5-mobileactivationd-vulns) | iOS 26.5激活服务越狱漏洞清单 |
 | [Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | PS5 7.00至13.60内核利用链 |

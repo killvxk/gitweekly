@@ -2,6 +2,55 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ASHVEIN分析](https://4tify.io/article/uac-0099-unleashes-ashvein-a-new-net-rat-hiding-commands-in-invisible-html) | RAT把指令藏隐形HTML并提示注入对抗AI分析 |
+| [MySQL路径穿越](https://abraxaslabs.tech/research/mysql-mysqlbinlog-raw-path) | MySQL客户端信任远端binlog名致任意文件写 |
+| [Signal未授权口](https://abraxaslabs.tech/research/signal-server-dropwizard-admin) | Signal服务器默认8081管理口全网无认证 |
+| [Warlock勒索](https://blog.polyswarm.io/china-linked-warlock-ransomware-campaign-targets-critical-infrastructure) | Warlock勒索借SYSVOL域复制全网分发 |
+| [Plug&Pwn实操](https://blog.scrt.ch/2026/10/06/a-practical-guide-to-plugpwn-for-pentesters-and-defenders/) | USB仿造触发漏洞驱动安装零交互提权SYSTEM |
+| [Magento利用链](https://blog.securelayer7.net/cve-2026-75650-stylesmuggler-magento-rce/) | styles参数触发include实现未认证RCE |
+| [恶意软件抗AI分析](https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/) | 恶意软件内嵌指令误导AI分析，最高三成五被带偏 |
+| [台湾APT钓鱼](https://blog.talosintelligence.com/uat-11985/) | AI活动诱饵加二维码实时中继钓鱼窃取MFA |
+| [Blacknet00](https://barricadecyber.com/blacknet-00-ransomware/) | 低技术勒索团伙炒冷饭老洞，加密重复XOR可免费恢复 |
+| [DarkSword](https://censys.com/blog/darksword-coruna-open-directory-finding-report/) | 暴露目录牵出DarkSword iOS利用链痕迹 |
+| [MALFEX投毒](https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/) | npm恶意包投RAT与窃密器，C2藏Solana链 |
+| [AI时代漏洞趋势](https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/) | GTIG统计AI令月度披露翻倍至万级，利用近翻倍 |
+| [区块链C2钓鱼](https://cofense.com/blog/from-guest-complaints-to-malware-blockchain-abuse-targets-hotels) | 假客诉LNK投RAT，C2藏以太坊与TON区块链 |
+| [DCR丢事件](https://detect.fyi/before-it-reaches-sentinel-how-your-own-pipeline-can-silently-drop-security-evidence-e4ab2640249d) | DCR转换规则入库前静默丢安全事件需开诊断 |
+| [Castle窃密器](https://flashpoint.io/blog/castlestealer-an-emerging-infostealer-growing-more-sophisticated/) | C#窃密器新增绕过浏览器加密与远程执行能力 |
+| [libheif利用链](https://fortbridge.co.uk/research/wordpress-libheif-rce) | HEIC上传溢出借衍生图像泄址绕ASLR获RCE |
+| [Zammad泄漏链](https://horizon3.ai/attack-research/disclosures/cve-2026-102489-zammad-session-leak-rce/) | WebSocket报错回显泄露全部会话cookie |
+| [无SPN约束委派](https://hunio.org/security/abusing-constrained-delegation-without-protocol-transition-against-spn-less-accounts/) | 反射RBCD加U2U牺牲账号突破无SPN委派限制 |
+| [WerEnc加密植入](https://ipurple.team/2026/09/21/dump-encoding-library/) | 微软签名WerEnc.dll可给植入体AES加密 |
+| [GPU监控暴露](https://lava.security/research/cve-2026-47483-nvidia-dcgm-exporter-vulnerability) | 两千GPU服务器暴露遥测，pprof可打崩监控 |
+| [PaperCut链](https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/) | Setup向导绕鉴权，传真命令执行串成预认证RCE |
+| [Atlassian文件读](https://labs.watchtowr.com/you-wont-hear-about-these-even-in-my-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/) | ::替换斜杠实现遍历，读WEB-INF内敏感配置 |
+| [go2shell链](https://mccaulay.co.uk/go2shell-rooting-home-assistant-through-ssdp/) | SSDP SSRF穿回环go2rtc注入命令RCE |
+| [MPLS OAM洞](https://nulltap.sh/p/cisco-nexus-mpls-echo-root-code/) | 启用MPLS OAM恶意echo请求可root执行 |
+| [NGOAM三洞](https://nulltap.sh/p/cisco-nexus-ngoam-root-code/) | 启用NGOAM的Nexus暴露三个root栈溢出 |
+| [NX-API洞](https://nulltap.sh/p/cisco-nx-api-root-execution/) | NX-API未验证HTTP输入堆溢出可root执行 |
+| [mod_copy旧洞](https://nulltap.sh/p/proftpd-file-copy-exploitation/) | mod_copy经SITE命令任意读写文件入KEV |
+| [OpenAI假门面](https://openai.com/index/disrupting-ai-enabled-false-front-operations/) | OpenAI拆除AI假门面影响力运营研究 |
+| [OTP插件提权](https://patchstack.com/database/wordpress/plugin/miniorange-otp-verification/vulnerability/wordpress-miniorange-otp-verification-plugin-5-5-7-privilege-escalation-vulnerability?_s_id=cve) | OTP验证插件未认证可提权管理员，修于5.5.8 |
+| [DireWolf剖析](https://www.picussecurity.com/resource/blog/dire-wolf-ransomware-attacks-how-to-test-and-strengthen-your-defenses) | Dire Wolf加密删备份清日志，附防御测试 |
+| [gVisor逃逸复现](https://www.pruva.dev/reproductions/REPRO-2026-00382) | 重开句柄不验身份，竞态得宿主块设备读写权 |
+| [npm凭据蠕虫](https://safedep.io/tensorlake-npm-compromise-mini-shai-hulud) | 维护者账号线注入载荷，经官方发布流程投蠕虫 |
+| [88771武器化](https://socradar.io/blog/netscaler-c2-cve-2026-88771-exploitation/) | NetScaler日志注入被自动化利用框架批量打 |
+| [fusetea取密](https://www.synacktiv.com/sites/default/files/2026-10/downloading_a_needle_from_a_haystack.pdf) | Range分段读盘加FUSE解析，免整盘下载取机密 |
+| [Spug命令注入](https://threataft.com/articles/openspug-spug-cve-2026-108540-file-transfer-rce) | 文件传输端点命令注入无补丁，公开PoC须限暴露 |
+| [Azure30后门](https://www.threathunter.ai/blog/azure30-nodejs-backdoor-trojanized-msi-clickfix/) | MSI投Node后门扫82种加密钱包，明文WS上线 |
+| [AnyDesk提权洞](https://www.threatwire.tech/research/anydesk-linux-anypwn-exploit-targets-fixed-pre-auth-bug) | 会话堆溢出预认证root执行，8.0.3已修 |
+| [伊朗隧道APT](https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/) | csproj投RAT，GitHub API当C2 |
+| [Web3链上C2演进](https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/) | 供应链C2从合约存储演进到零值交易解IPv4 |
+| [ARM未认证RCE](https://www.armadin.com/blog-posts/unauthenticated-rce-in-solarwinds-access-rights-manager-responsible-disclosure-part-1) | ARM未认证RCE系列披露，可致整个域失陷 |
+| [Mimosa预装毒](https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware) | 廉价安卓固件预装系统木马，广告欺诈加住宅代理 |
+| [ARTEX打韩国金融](https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/) | ARTEX加LLM打韩国金融，开放目录泄操作细节 |
+| [Ahsay挖矿入侵](https://www.huntress.com/blog/ahsaycbs-flaws-exploit) | 链式利用落webshell并投伪装Edge的挖矿机 |
+| [Akira取证复盘](https://www.huntress.com/blog/mapping-akira-ransomware-attack) | Shellbags与Akira日志重建无遥测入侵链 |
+| [PowerBI假下载](https://www.huntress.com/blog/screenconnect-power-bi) | 借PowerBI可信域钓鱼，双RMM客户端持久化 |
+| [PoeLLM诗意C2](https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware) | 从GitHub诗篇关键词解C2，专打暴露LLM挖矿 |
+| [MATCHBOIL](https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/) | UAC-0099下载器两年进化：换混淆加反沙箱 |
+| [朝鲜TF后门](https://www.zscaler.com/blogs/security-research/suspected-tradertraitor-group-uses-trojanized-terraform-provider-deliver) | 木马Terraform插件按平台投后门与窃密脚本 |
+| [Bricks RCE](https://wpdeeply.com/bricksforge-3-1-8-9-actively-exploited-file-upload-rce-cve-2026-85097/) | 二次提交信任客户端URL致未认证上传PHP成RCE |
 | [ClingSTUN后门分析](https://www.fortinet.com/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure) | 滥用公共STUN穿透NAT的回连代理后门 |
 | [LibreOffice RCE复现](https://www.pruva.dev/reproductions/REPRO-2026-00374) | 恶意ODS经远程JDBC类路径加载RCE复现 |
 | [forkstore构建记](https://www.chainguard.dev/unchained/this-shit-is-hard-building-forkstore) | 公开与保密补丁分层共存的版本存储实践 |

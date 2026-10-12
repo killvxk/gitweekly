@@ -2,6 +2,26 @@
 
 | 文章 | 简介 |
 |------|------|
+| [tour-de-mscopilot](https://github.com/4n4s4zi/tour-de-mscopilot) | Copilot后渗透攻击面探索工具 |
+| [authsec](https://github.com/authsec-ai/authsec) | AI智能体OAuth身份层框架 |
+| [RedAudit](https://github.com/dorinbadea/RedAudit) | 身份驱动的自动化网络渗透审计框架 |
+| [malware-ioc](https://github.com/eset/malware-ioc/tree/master/) | ESET官方调查发布的IoC公开仓库 |
+| [rea--pentest-playbook-skill](https://github.com/henryli777/rea--pentest-playbook-skill) | 授权渗透测试剧本化Codex技能 |
+| [kiosk-mode-breakout](https://github.com/ikarus23/kiosk-mode-breakout) | 物理隔离kiosk模式逃逸技巧合集 |
+| [ImmoralFiber](https://github.com/JanielDary/ImmoralFiber) | Windows Fiber注入与栈伪装技术 |
+| [OSINT-Cheat-sheet](https://github.com/Jieyab89/OSINT-Cheat-sheet) | OSINT工具与资源大全速查清单 |
+| [VulnHunter](https://github.com/nealbridges/VulnHunter) | 像对手一样狩猎漏洞的智能体扫描器 |
+| [garak](https://github.com/NVIDIA/garak) | 英伟达官方开源LLM漏洞扫描器 |
+| [CloudPEASS](https://github.com/peass-ng/CloudPEASS) | 攻陷主体云权限枚举的红队脚本库 |
+| [vespasian](https://github.com/praetorian-inc/vespasian) | 流量生成REST与GraphQL规格工具 |
+| [diaspore](https://github.com/radkawar/diaspore) | 可移植Python子集沙箱运行时 |
+| [agent-redteam-benchmark](https://github.com/rbrus/agent-redteam-benchmark) | 七款AI红队工具的横向评测基准 |
+| [sixi-scanner](https://github.com/rbrus/sixi-scanner) | LLM智能体的红队命令行扫描器 |
+| [cutter](https://github.com/rizinorg/cutter) | 基于rizin的开源逆向工程平台 |
+| [automated-pentest-list](https://github.com/schiste/automated-pentest-list) | 自动化渗透测试公开仓库精选目录 |
+| [fusetea](https://github.com/synacktiv/fusetea/) | FUSE驱动经HTTP Range取远端文件 |
+| [netscaler-ctx697096-checker](https://github.com/ThomasPoppelgaard/netscaler-ctx697096-checker) | NetScaler CTX697096只读检测脚本 |
+| [ARTEX](https://github.com/mhtsec/ARTEX) | 百度攻防赛冠军AI自主渗透系统 |
 | [ClaudeHopper](https://github.com/3ndG4me/ClaudeHopper) | Claude API流量透明拦截审计代理 |
 | [encryptlayer-intelligence](https://github.com/ARPSyndicate/encryptlayer-intelligence) | EncryptLayer社区提交的威胁情报归档 |
 | [sliver-gui](https://github.com/sliverarmory/sliver-gui) | Sliver官方组织的图形界面客户端 |

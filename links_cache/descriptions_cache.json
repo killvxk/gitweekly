@@ -3831,5 +3831,6 @@
   "https://github.com/schiste/automated-pentest-list": "自动化渗透测试公开仓库精选目录",
   "https://github.com/synacktiv/fusetea/": "FUSE驱动经HTTP Range取远端文件",
   "https://github.com/ThomasPoppelgaard/netscaler-ctx697096-checker": "NetScaler CTX697096只读检测脚本",
-  "https://github.com/mhtsec/ARTEX": "百度攻防赛冠军AI自主渗透系统"
+  "https://github.com/mhtsec/ARTEX": "百度攻防赛冠军AI自主渗透系统",
+  "https://github.com/wkpwn/CVE-2026-83834": "FSStreamReg竞态释放UAF PoC"
 }

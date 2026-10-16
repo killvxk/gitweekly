@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-83834](https://github.com/wkpwn/CVE-2026-83834) | FSStreamReg竞态释放UAF PoC |
 | [CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC) | VMware VMXNET3 TSO整数溢出PoC |
 | [CVE-2026-102489](https://github.com/horizon3ai/CVE-2026-102489) | Zammad会话泄漏到RCE的公开PoC |
 | [CVE-2026-106445](https://github.com/murrez/CVE-2026-106445) | Handlebars模板RCE的PoC复现 |

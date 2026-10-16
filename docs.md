@@ -2,6 +2,59 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AdFection](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) | 定向广告投递 Candiru 零点击间谍软件调查 |
+| [UNC5221](https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust) | BeyondTrust 0day 在野利用后门分析 |
+| [PwnEscape](https://pwn.ai/blog/pwnescape) | PwnEscape 网络栈校验和虚拟机逃逸研究 |
+| [伪 AI 工具攻击](https://any.run/cybersecurity-blog/fake-ai-tools-us-companies/) | 假 AI 工具站投毒窃取美企会话凭据分析 |
+| [ASEC 位图加载器](https://asec.ahnlab.com/en/95840/) | 钓鱼邮件投递 AgentTesla 位图加载器分析 |
+| [UAT-6275](https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/) | 哈萨克 nexus 组织攻击独联体政府的间谍分析 |
+| [Runspace](https://by7e.dev/blog/runspace) | Runspace 宿主绕过 AMSI/ETW 分析 |
+| [Danfoss 漏洞](https://claroty.com/team82/research/freeze-the-controller-defrost-the-food-uncovering-vulnerabilities-in-danfoss-refrigeration-controllers) | Danfoss 冷藏控制器认证绕过与命令注入链 |
+| [DFS 0day](https://corelight.com/blog/cve-2026-70111-microsoft-distributed-file-system-0-day) | 单包触发 Windows DFS 内核崩溃的分析 |
+| [AhsayCBS](https://horizon3.ai/attack-research/attack-blogs/ahsaycbs-cve-2026-105133-cve-2026-105134-technical-analysis/) | AhsayCBS 认证绕过到 RCE 的技术分析 |
+| [腾讯 Vghost](https://matrix.tencent.com/en/2026/10/12/vghost-cve-2026-74580) | vhost IOTLB 缓存漏洞提权与逃逸分析 |
+| [AI 凭据泄露](https://projectdiscovery.io/research/pwning-ai-labs-via-employees) | AI 实验室员工密钥泄露供应链研究 |
+| [PEERSTITCH](https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/) | PEERSTITCH ARM64 内存后门分析 |
+| [VPN 入侵噪声](https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/) | 第三方 VPN 带来的入侵噪声与风险研究 |
+| [Chollima 行动](https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/) | FBI 端掉 DPRK 笔记本农场行动复盘 |
+| [双加载器对比](https://www.forescout.com/blog/from-clickfix-to-c2-comparative-analysis-of-two-malware-loaders/) | Vice Society 双加载器对比分析 |
+| [KGB RAT](https://www.group-ib.com/blog/kgb-rat-windows-fud-trojan/) | KGB RAT 地下市场 MaaS 木马的分析 |
+| [ChatGPT钓鱼](https://www.huntress.com/blog/chatgpt-custom-gpts-clickfix-rat) | 借 ChatGPT 假验证码投 RAT 的分析 |
+| [假VPN钓鱼](https://www.huntress.com/blog/fake-watchguard-vpn-credential-phishing) | WatchGuard 假官网窃取 VPN 凭据分析 |
+| [微软钓鱼生态](https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/) | Storm-3119 钓鱼生态与打击行动剖析 |
+| [OCI身份域越权](https://www.netspi.com/blog/technical-blog/cloud-pentesting/administrating-the-administrator-an-oci-identity-domains-permission-bypass/) | 低权角色可为域管理员签发 API key 分析 |
+| [curl上传UAF](https://www.pruva.dev/reproductions/REPRO-2026-00386) | CVE-2026-92392 到 RCE 复现 |
+| [Zimbra越权](https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1/) | 跨账户邮箱访问与冒充邮件的漏洞链分析 |
+| [YAM Store](https://www.resecurity.com/blog/article/iron-man-yamstore-powering-a-global-phishing-as-a-service-ecosystem) | Iron Man 团伙 PhaaS 钓鱼生态剖析 |
+| [BYOVD杀EDR](https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-how-edr-killing-became-an-industry/) | 漏洞驱动滥用终结 EDR 的产业分析 |
+| [AI逆向对决](https://www.synacktiv.com/en/publications/ufc-666-frontkick-vs-rikugan) | 逆向 agentic AI 代理对比评测研究 |
+| [Hirudo](https://www.threatfabric.com/blogs/hirudo-from-fake-updates-to-patched-banking-apps) | 木马化银行 App 顶替正版安装的逃逸分析 |
+| [Flax追踪](https://www.vulncheck.com/blog/integrity-technology-group-advisory) | Flax Typhoon 旧 IoC 复活追踪分析 |
+| [Chrome全链](https://xbow.com/labs/research/zero-to-calc-in-six-days-inside-xbow-chrome-full-chain) | GPT-5.6 六天挖出浏览器全链的分析 |
+| [Kimsuky 勒索](https://asec.ahnlab.com/ko/95774/) | 恶意简历 HWP 投放 Funhouse 勒索软件 |
+| [Shopware](https://nulltap.sh/p/shopware-media-upload-admin-token/) | Shopware 媒体上传 XSS 窃取管理员令牌 |
+| [台湾学术钓鱼](https://nulltap.sh/p/taiwan-event-google-phishing/) | 假学术邀请经 Google 登录中继钓取凭据分析 |
+| [Adception 攻击](https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results) | 搜索广告假 Claude ClickFix 攻击 |
+| [Acrobat 漏洞](https://remedio.io/blog/cve-2026-81983-integer-overflow-vulnerability-enables-out-of-bounds-write-in-adobe-acrobat/) | Adobe Acrobat 整数溢出越界写漏洞分析 |
+| [LiteLLM 漏洞](https://research.checkpoint.com/2026/when-llm-gateways-go-wrong-findings-from-litellm/) | LiteLLM 网关配置绕过 RCE 漏洞研究 |
+| [DevSite RCE](https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce) | DevSite 会话 pickle RCE 分析 |
+| [ICMacOS](https://socradar.io/blog/icmacos-infostealer-rat/) | ICMacOS 窃密 RAT 演化分析 |
+| [Trezor 植入](https://www.zetter-zeroday.com/trezor-wallets-also-compromised-with-implants/) | Trezor 钱包亦遭硬件植入的调查报道 |
+| [ICS 0day链](https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/) | Ivanti 三重 0day 链式在野利用分析 |
+| [Casbaneiro](https://4tify.io/article/casbaneiro-banking-trojan-hides-its-c2-until-victims-visit-their-bank) | 访问目标银行网站才激活 C2 的银行木马分析 |
+| [AI 代理入侵实录](https://breachcache.com/cases/hands-off-the-keyboard/) | 75 份 AI 代理自主入侵攻击记录的披露分析 |
+| [StarkMeet](https://dreamgroup.com/blog/darkblinders-inside-an-active-espionage-campaign) | 以 GitHub 为 C2 的中东政府间谍活动分析 |
+| [SectopRAT](https://metadefender.com/blog/fake-claude-desktop-malware-sectoprat) | 假 Claude 安装包 DLL 侧载投毒的分析 |
+| [Thelia RCE](https://nulltap.sh/p/thelia-back-office-server-code/) | Thelia 2.6 后台多路径致服务器代码执行 |
+| [GhostAction 钓鱼](https://opensourcemalware.com/blog/ghostaction-phishing-campaign) | GhostAction 假 GitHub 反代钓鱼 |
+| [Bricksforge RCE](https://patchstack.com/articles/critical-unauthenticated-arbitrary-file-upload-vulnerability-exploited-in-bricksforge-plugin/) | Bricksforge 未认证上传 RCE 利用 |
+| [攻击者即上市公司](https://research.zerot-security.com/the-attacker-as-a-public-company/) | Integrity Tech 攻击者即上市公司分析 |
+| [Midnight Mimosa](https://research.zerot-security.com/the-supply-chain-that-shipped-the-malware/) | Midnight Mimosa 恶意手机供应链追踪 |
+| [Apple 零日](https://sh3llc0d3.com/blog/apple-coregraphics-zero-day-analyzing-cve-2026-86950-and-in-the-wild-exploitation/) | CoreGraphics 零日越界写在野利用分析 |
+| [Apex Accelerator](https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages) | 伪装 Web3 加速器的恶意 npm 包供应链分析 |
+| [GitPower行动](https://www.genians.co.kr/blog/threat_intelligence/operation-gitpower) | Kimsuky 借 GitHub 投毒乌克兰的分析 |
+| [ClickFix投毒](https://www.levelblue.com/blogs/spiderlabs-blog/inside-phantompolia-remus-stealer-delivery-via-donut-shellcode-in-clickfix-campaign) | 经 Donut 载荷投递 Remus 窃密木马分析 |
+| [PDF缩略图RCE](https://www.wordfence.com/blog/2026/10/wordfence-argus-discovers-critical-vulnerability-in-ghostscript-the-program-that-turns-uploaded-pdfs-into-thumbnails-on-your-server/) | Ghostscript 堆溢出 RCE 漏洞分析 |
 | [ASHVEIN分析](https://4tify.io/article/uac-0099-unleashes-ashvein-a-new-net-rat-hiding-commands-in-invisible-html) | RAT把指令藏隐形HTML并提示注入对抗AI分析 |
 | [MySQL路径穿越](https://abraxaslabs.tech/research/mysql-mysqlbinlog-raw-path) | MySQL客户端信任远端binlog名致任意文件写 |
 | [Signal未授权口](https://abraxaslabs.tech/research/signal-server-dropwizard-admin) | Signal服务器默认8081管理口全网无认证 |

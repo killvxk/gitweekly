@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [redteam-bofs](https://github.com/chryzsh/redteam-bofs) | 后渗透 Beacon Object File 合集 |
 | [BOFKatz](https://github.com/KrakenEU/BOFKatz) | 进程镂空执行的Mimikatz BOF实现 |
 | [Mem-Exec](https://github.com/WeedHashPeddler/Mem-Exec) | 内存加载Windows EXE的CS BOF |
 | [CS-Situational-Awareness-BOF](https://github.com/sliverarmory/CS-Situational-Awareness-BOF) | 跨平台主机信息收集BOF命令集与开发范式 |

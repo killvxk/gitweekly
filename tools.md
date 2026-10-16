@@ -2,6 +2,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [lindm](https://github.com/radkawar/lindm) | 自托管 Linux 设备批量管理 MDM 工具 |
+| [PentestAssistant](https://github.com/AmadeusITGroup/PentestAssistant) | LLM 驱动的自动化 Web 渗透测试助手 |
+| [aten](https://github.com/Antonlovesdnb/aten) | AI 代理活动的常驻遥测守护进程 |
+| [Psychopath](https://github.com/chadi0x/Psychopath) | 面向授权红队的开源钓鱼模拟框架 |
+| [AD-Simulation-Attack](https://github.com/M-med/Active-Directory-Simulation-Attack-) | AD 攻防紫队实验室含 Wazuh 规则 |
+| [box](https://github.com/strands-agents/box) | AI 代理沙箱默认拒绝策略防护 |
+| [cobaltstrike-beacon-corpus](https://huggingface.co/datasets/fox-srt/cobaltstrike-beacon-corpus) | Cobalt Strike 样本与配置数据集 |
+| [oss-scanner](https://github.com/anthropics/oss-scanner) | Anthropic 开源仓库安全扫描服务 |
+| [CVE-Half-Day-Watcher](https://github.com/Research-Nautilus/CVE-Half-Day-Watcher) | 追踪已公开未修补 CVE 的监测工具 |
+| [SkillSpector](https://github.com/NVIDIA/SkillSpector) | AI 代理 skills 安装前的安全扫描器 |
+| [Unit42-timely-threat-intel](https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel) | Unit 42 社媒情报配套 IoC 文件集 |
 | [tour-de-mscopilot](https://github.com/4n4s4zi/tour-de-mscopilot) | Copilot后渗透攻击面探索工具 |
 | [authsec](https://github.com/authsec-ai/authsec) | AI智能体OAuth身份层框架 |
 | [RedAudit](https://github.com/dorinbadea/RedAudit) | 身份驱动的自动化网络渗透审计框架 |

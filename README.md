@@ -2,6 +2,11 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-97229-PoC](https://github.com/jburgess-r7/CVE-2026-97229-PoC) | GitLab lint 整数溢出 RCE PoC |
+| [CVE-2026-76268](https://github.com/murrez/CVE-2026-76268) | Splunk SHC 未认证 RCE 的 PoC |
+| [Pwn2Own-Alpine-RCE-Writeup](https://github.com/newbe3e/Pwn2Own-Automotive-2026-Alpine-iLX-F511-0-Click-RCE-Exploit-Writeup) | Alpine 车机 0-Click RCE 复盘 |
+| [Volexity Ivanti IoC](https://github.com/volexity/threat-intel/tree/main/2026/2026-10-13%20Ivanti) | UTA0576 Ivanti 零日 IoC 目录 |
+| [Threatray IoC 周报](https://github.com/threatray/threat-research/blob/main/ThreatrayTuesday/iocs-2026-10-13.md) | 六个 RAT 与窃密家族的 IoC 周报 |
 | [CVE-2026-83834](https://github.com/wkpwn/CVE-2026-83834) | FSStreamReg竞态释放UAF PoC |
 | [CVE-2026-59346-POC](https://github.com/0xCyberstan/CVE-2026-59346-POC) | VMware VMXNET3 TSO整数溢出PoC |
 | [CVE-2026-102489](https://github.com/horizon3ai/CVE-2026-102489) | Zammad会话泄漏到RCE的公开PoC |

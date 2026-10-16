@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [Analysis-And-POC-N8N-CVE-2025-68613](https://github.com/RianJuniorSf/Analysis-And-POC-N8N-CVE-2025-68613) | n8n 工作流 RCE 漏洞的分析与 PoC |
 | [CVE-2026-97229-PoC](https://github.com/jburgess-r7/CVE-2026-97229-PoC) | GitLab lint 整数溢出 RCE PoC |
 | [CVE-2026-76268](https://github.com/murrez/CVE-2026-76268) | Splunk SHC 未认证 RCE 的 PoC |
 | [Pwn2Own-Alpine-RCE-Writeup](https://github.com/newbe3e/Pwn2Own-Automotive-2026-Alpine-iLX-F511-0-Click-RCE-Exploit-Writeup) | Alpine 车机 0-Click RCE 复盘 |

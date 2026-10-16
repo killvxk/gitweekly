@@ -2,6 +2,25 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Q3漏洞脉搏](https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/) | 用CVE与KEV数据辨析漏洞爆发论与补丁缺口 |
+| [hate_crack](https://trustedsec.com/blog/two-config-files-two-release-tracks-and-one-very-bad-commit) | 从坏提交复盘hate_crack配置分拆与发布护栏 |
+| [YuanKong分析](https://starlabs.sg/blog/2026/10-yuankong-rat-the-android-remote-control-service-that-stamps-its-operators-names-into-every-build/) | 拆解多租户YuanKong安卓远控的运营者指纹 |
+| [银狐时间窗](https://blog.netlab.360.com/yin-hu-yun-duan-sheng-si-bo-xu-pian-cong-chi-xu-sheng-chan-dao-referer-shi-jian-chuang-bian-chong/) | 银狐第五阶段Referer时间窗变种与域名生产 |
+| [VIP暴露面](https://labs.yarix.com/2026/10/outside-the-monitored-perimeter-inside-the-attack-surface/) | 用DNS模糊发现VIP个人网站的企业间接暴露面 |
+| [Outlier追踪](https://reversing.works/posts/2026/10/do-you-work-for-outlier-find-out-who-tracks-your-data/) | 揭露Outlier平台16个追踪器与众包监控 |
+| [GhostX生态](https://cyble.com/blog/ghostx-forged-in-transit-licensed-to-deceive/) | GhostX生态借钓鱼分发安卓RAT窃取支付PIN |
+| [包管理器完整性](https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/) | 实测25款包管理器抗恶意源注入的完整性 |
+| [威胁狩猎飞轮](https://www.blackhillsinfosec.com/threat-hunting-fly-wheel/) | 论威胁狩猎闭环驱动检测与安全计划持续改进 |
+| [技术支持诈骗](https://pixmsecurity.com/blog/blog/anatomy-of-a-phish-malvertising-tech-support-scams/) | 解剖广告投递的假冒微软技术支持诈骗链 |
+| [EtherRAT取证](https://dfir.ch/posts/field_notes_etherrat/) | EtherRAT借合法Intune分发扩散的取证 |
+| [电网模型审计](https://www.shielder.com/blog/2026/10/power-grid-model-security-audit/) | 电网仿真库审计发现YAML映射RCE等三洞 |
+| [网络仿真方法论](https://www.sei.cmu.edu/blog/a-five-step-framework-to-sufficient-realism-in-cyber-simulations/) | GHOSTS网络仿真提出充分真实感五步框架 |
+| [SFAPE研究](https://blog.doyensec.com/2026/10/13/Sfape.html) | 从四字节写漏洞攻陷SFAPE到IUM执行 |
+| [Platypwned](https://binarydefense.com/resources/blog/platypwned-when-a-citrix-0-day-lays-an-egg) | Citrix零日IR与Platypus远控投递复盘 |
+| [Sysmon配置](https://blog.lobsec.com/2026/10/sysmon-2026-xdr-configurazione-domain-controller/) | 面向域控的Sysmon高信噪比XDR遥测配置 |
+| [密码学正确答案](https://words.filippo.io/right-answers/) | 面向后量子迁移更新的密码学选型指南 |
+| [AtlasRAT检测](https://www.netresec.com/?page=Blog&month=2026-10&post=Detecting-AtlasRAT-C2) | AtlasRAT新C2变体的流量特征与检测规则 |
+| [IBMi校验和](https://blog.silentsignal.eu/2026/10/06/512-bytes-at-a-time-reconstructing-IBM-i-save-file-checksums/) | 逆向IBMi SAVF校验和算法与篡改修复 |
 | [AdFection](https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/) | 定向广告投递 Candiru 零点击间谍软件调查 |
 | [UNC5221](https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust) | BeyondTrust 0day 在野利用后门分析 |
 | [PwnEscape](https://pwn.ai/blog/pwnescape) | PwnEscape 网络栈校验和虚拟机逃逸研究 |

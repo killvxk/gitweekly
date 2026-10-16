@@ -2,6 +2,55 @@
 
 | 文章 | 简介 |
 |------|------|
+| [mudos](https://github.com/cumakurt/mudos) | 多向量 DDoS 压力测试工具 |
+| [archlive](https://github.com/p3ng0s/archlive) | Arch 红队物理接触 live ISO |
+| [bba](https://github.com/openbba0/bba) | Android 应用克隆沙箱与注入分析工具 |
+| [unKover](https://github.com/BRuteLogic/unKover) | 403 拒绝访问绕过测试的 Bash 工具 |
+| [hexvero](https://github.com/maximilianfeix/hexvero) | 免执行二进制与 APK 静态分析工具 |
+| [secbox](https://github.com/yv1ing/secbox) | 集成 pi agent 的渗透测试沙盒容器 |
+| [xssearch](https://github.com/affolter-engineering/xssearch) | Rust 编写的上下文感知 XSS 检测工具 |
+| [snmpen](https://github.com/affolter-engineering/snmpen) | 基于 pysnmp 的 SNMP 主机枚举工具 |
+| [mqattack](https://github.com/affolter-engineering/mqattack) | Rust 编写的 MQTT 渗透测试命令行工具 |
+| [adit](https://github.com/joda32/adit) | 走 ADWS 通道的 AD 侦察与审计工具 |
+| [bloodhound-shell](https://github.com/kr0no/bloodhound-shell) | BloodHound 的终端交互式查询外壳 |
+| [Active-Directory-Health-Check](https://gitlab.com/RoccoAmmon/Active-Directory-Health-Check) | PowerShell 写的 AD 健康安全体检工具 |
+| [Hayabusa-Bulk-Runner](https://github.com/rorywag/Hayabusa-Bulk-Runner) | 批量执行 Hayabusa 的取证分析脚本 |
+| [jshound](https://github.com/AmbitSecurity/jshound) | 从站点 JS 里提取全部 API 请求的侦察工具 |
+| [OTinstaller](https://github.com/OSINTVerseHQ/OTinstaller) | 统一安装运行数十款 OSINT 工具的管理器 |
+| [CouchPotato](https://github.com/ripits-sec/CouchPotato) | 绕过 AMSI/ETW 的 Potato 提权工具 |
+| [yowie](https://github.com/joda32/yowie) | 从外部特征发现组织影子 SaaS 服务的工具 |
+| [pvbrf-id](https://github.com/nawaralseelawi/pvbrf-id) | 联邦学习入侵检测隐私聚合的研究模拟代码 |
+| [AutoControl-Arena](https://github.com/CosmosYi/AutoControl-Arena) | 自动合成环境评估前沿 AI 风险的评测平台 |
+| [defense-as-skill](https://github.com/yxf203/defense-as-skill) | 为技能增强 AI 代理进化运行时防护的研究代码 |
+| [redknife](https://gitlab.com/yukibtc/redknife) | 面向红队渗透测试的多用途进攻安全工具 |
+| [Decepticon](https://github.com/BitterSecurity/Decepticon) | 自主红队攻击的 AI 黑客智能体工具 |
+| [numbat](https://github.com/perplexityai/numbat) | AI agent 终端活动监控取证工具 |
+| [AgentStalker](https://github.com/Gach0ng/AgentStalker) | LLM agent 漏洞审计与沙箱复现框架 |
+| [exoproc](https://github.com/woldann/exoproc) | Windows 跨进程 hook 与仪器化研究工具 |
+| [oORecon](https://github.com/hilmiazizi/oORecon) | 终端攻击面发现与域名侦察的 Python 工具 |
+| [zentinel](https://github.com/zentinelproxy/zentinel) | Pingora 安全反向代理与 WAF 工具 |
+| [AnkOsint](https://github.com/dogucyber/AnkOsint) | MAC 地址厂商查询的 OSINT 工具 |
+| [c2detect](https://github.com/cognis-digital/c2detect) | 网络遥测 C2 服务器指纹识别工具 |
+| [gh-legitify](https://github.com/Legit-Labs/gh-legitify) | GitHub CLI 的 SCM 安全合规检测扩展 |
+| [scan4secrets](https://github.com/m14r41/scan4secrets) | 泄露凭证检测的 DAST 与 SAST 扫描工具 |
+| [InjectSetConsole](https://github.com/TwoSevenOneT/InjectSetConsole) | 命名管道进程注入的 EDR 绕过 PoC |
+| [jev-ids](https://github.com/jev-sec/jev-ids) | 基于 Jev 模型的低开销入侵检测系统 |
+| [PocketPentester](https://github.com/tegal1337/PocketPentester) | Android 端 21 模块渗透测试工具箱 |
+| [ldapin](https://github.com/affolter-engineering/ldapin) | LDAP 枚举与安全评估的 CLI 工具 |
+| [wifisting](https://github.com/yslxotwod/wifisting) | GTK4 界面的无线安全攻击工具集 |
+| [NTDLL-reconstruction](https://github.com/sk4r4b/NTDLL-reconstruction) | 可切换 ntdll 挂钩状态的 EDR 绕过库 |
+| [Vigil](https://github.com/VigilOSS/Vigil) | 驱动多智能体做代码审计与渗透测试的框架 |
+| [hermit](https://github.com/xV4L3x/hermit) | 反编译并修补 Hermes 字节码的逆向工具 |
+| [Consensus-OSINT](https://github.com/OSINT-Experts-Society/Consensus-OSINT) | 聚合 7900+ 模块的 OSINT 身份查询工具 |
+| [rag-seguridad](https://gitlab.com/rdelasierra-uy/rag-seguridad) | Ollama 本地检索安全笔记的 RAG 助手 |
+| [entropystrip](https://github.com/dwexi/entropystrip) | 用熵分析揪出 PE 隐藏载荷的去混淆工具 |
+| [ddossnake](https://gitlab.com/vqkro/ddossnake) | 对授权目标做 HTTP 压力测试的 Go 工具 |
+| [AetherVM](https://github.com/AetherVM/AetherVM) | 把指令提升到 LLVM IR 模拟执行的引擎 |
+| [JURIG](https://github.com/ReverserID/JURIG) | 全自主逆向工程二进制与 APK 的 TUI 代理 |
+| [vmp-lazy-unpack](https://github.com/x86rc/vmp-lazy-unpack) | 无需调试器脱壳 VMProtect 的模拟工具 |
+| [jshookmcp](https://github.com/vmoranv/jshookmcp) | 供 AI 代理做前端逆向的 MCP 工具服务器 |
+| [facedancer](https://github.com/greatscottgadgets/facedancer) | 模拟并 MITM USB 设备的硬件工具 |
+| [wstrace](https://github.com/gilnett/wstrace) | 零驱动监控 Windows API 的用户态工具 |
 | [lindm](https://github.com/radkawar/lindm) | 自托管 Linux 设备批量管理 MDM 工具 |
 | [PentestAssistant](https://github.com/AmadeusITGroup/PentestAssistant) | LLM 驱动的自动化 Web 渗透测试助手 |
 | [aten](https://github.com/Antonlovesdnb/aten) | AI 代理活动的常驻遥测守护进程 |

@@ -7,7 +7,7 @@ description: This skill should be used when the user asks to generate weekly rep
 
 复刻 `auto_weekly.py` 的核心功能，使用 Codex 当前会话替代 Anthropic API，节省订阅成本。
 
-## 三种工作模式
+## 四种工作模式
 
 ### 模式 1：全自动生成周报
 从 git 历史检测本周变更 → 提取新增链接 → 生成 AI 描述 → 创建周报文件 → git 提交
@@ -17,6 +17,9 @@ description: This skill should be used when the user asks to generate weekly rep
 
 ### 模式 3：Daily 情报扫描分类
 扫描 Daily/ 目录本周摘要文件 → 提取链接 → 按类别去重 → 归档到 C2.md / README.md / docs.md / BOF.md / tools.md
+
+### 模式 4：yarb 每日资讯入库
+抓取 yarb 每日资讯 → 排除新闻聚合 → 还原 Kitploit 底层仓库 → 归档到分类文件
 
 ## 环境要求
 
@@ -55,8 +58,9 @@ fi
 1. 全自动生成周报（从 git 历史）
 2. 处理源文件（docs.md 等）
 3. Daily 情报扫描分类（扫描 Daily/ 目录）
+4. yarb 每日资讯入库（抓取 yarb 每日资讯）
 
-请输入选项 (1/2/3):
+请输入选项 (1/2/3/4):
 ```
 
 然后询问：
@@ -107,7 +111,7 @@ git show <commit_hash> --unified=0 --no-color
 
 #### 5.1 检查缓存
 ```bash
-$PYTHON_CMD .Codex/skills/auto-weekly/scripts/cache_query.py "<url>"
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/cache_query.py "<url>"
 ```
 - 退出码 0：使用缓存
 - 退出码 1：继续生成
@@ -155,7 +159,7 @@ prompt: 提取这个网页的标题、主要内容和核心信息
 
 #### 5.4 写入缓存
 ```bash
-$PYTHON_CMD .Codex/skills/auto-weekly/scripts/cache_write.py "<url>" "<description>"
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/cache_write.py "<url>" "<description>"
 ```
 
 **注意**: 使用 `$PYTHON_CMD` 变量，而非硬编码 `python3`。
@@ -278,7 +282,7 @@ find . -maxdepth 1 -type f \( -name "*.md" -o -name "*.txt" \) ! -name "README.m
 运行辅助脚本得到候选清单（已按目标文件全量去重）：
 
 ```bash
-$PYTHON_CMD .Codex/skills/auto-weekly/scripts/scan_daily.py
+$PYTHON_CMD .claude/skills/auto-weekly/scripts/scan_daily.py
 ```
 
 脚本输出按 `guess` 分组的候选（cve / c2 / bof / tools / article）。**guess 仅为启发式建议**，逐条结合 Daily 正文上下文复核后按下表归类：
@@ -322,6 +326,16 @@ $PYTHON_CMD .Codex/skills/auto-weekly/scripts/scan_daily.py
 📊 新增: C2.md 1, README.md 22, docs.md 24, BOF.md 0, tools.md 3
 📊 去重跳过: 5
 ```
+
+## 模式 4：yarb 每日资讯入库
+
+yarb（`Vu1nT0tal/yarb`）是每日安全资讯 RSS 聚合机器人，每日发布 `today.md` 与 `archive/YYYY/YYYY-MM-DD.md`。
+
+1. 抓取本周文件：`https://raw.githubusercontent.com/Vu1nT0tal/yarb/main/archive/YYYY/YYYY-MM-DD.md`（周一至上周日）+ `today.md`（当天）；快照存 `.git/yarb/<date>.md`。
+2. 提取链接：正则 `\[([^\]]+)\]\((https?://[^)\s]+)\)`。
+3. 口径：排除新闻/媒体/聚合/播客/微信公众号/Reddit/非安全个人博客/公告索引页（cybernews、bleepingcomputer、thehackernews、therecord、solidot、mp.weixin、sec-wiki、kitploit.com/en/posts、seclists.org、0.0.0.0:8080、paper.seebug.org 等）；保留厂商与独立研究博客的安全技术分析文章（docs.md）与 GitHub/GitLab 仓库（CVE/PoC→README.md、C2→C2.md、BOF→BOF.md、其他工具→tools.md）。
+4. Kitploit 还原：`kitploit.com/en/tools/github/<o>/<r>` → `https://github.com/<o>/<r>`（gitlab 同理），按类别入表；存在性用普通 GET 校验（避开 API 60/hr 限流）。
+5. 去重、描述、插行、缓存规则同模式 3 步骤 3-5。
 
 ---
 

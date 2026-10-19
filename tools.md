@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [summit](https://github.com/pennacle-security/summit) | 集成代理扫描与模糊测试的Web安全CLI平台 |
+| [confirmesc](https://github.com/capture0x/confirmesc) | Linux提权枚举器，确认可利用并给提权命令 |
+| [AdStrike](https://github.com/capture0x/AdStrike) | AI驱动的模块化AD红队攻击路径分析框架 |
+| [PIIHunter](https://github.com/OWASP/PIIHunter) | 发现PostgreSQL与Jira中PII的工具 |
+| [SecretSifter](https://github.com/OWASP/SecretSifter) | 检测浏览器流量与JS中暴露凭据的OWASP项目 |
+| [apex-kev-change-desk](https://github.com/mceeomoba/apex-kev-change-desk) | 离线比对CISA KEV快照字段级变更的工具 |
+| [retrokit](https://github.com/nemo22/retrokit) | 无头Ghidra逆向DOS及Win32老游戏工具包 |
+| [IMSIsting](https://github.com/yslxotwod/IMSIsting) | GTK4界面的2G至5G蜂窝安全测试工具包 |
+| [OshoosiClaw](https://github.com/oyesanyf/OshoosiClaw) | 自治式终端威胁狩猎与隔离诱捕代理 |
+| [DebuggerJ-](https://github.com/jaime64net/DebuggerJ-) | 集成AI辅助的x86/x64应用调试器 |
 | [docker-cobaltstrike](https://github.com/chryzsh/docker-cobaltstrike) | CS团队服务器Docker容器部署工具 |
 | [sly](https://github.com/ioncodes/sly) | Rust 编写的多系统模拟器与调试器 |
 | [iocs](https://github.com/NextronSystems/iocs) | Nextron 威胁研究团队 IoC 情报归档 |

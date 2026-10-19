@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Digispark取证](https://blog.nviso.eu/2026/10/16/keystrokes-in-disguise-forensic-analysis-of-a-digispark-hid-device/) | Digispark HID设备的键盘记录取证分析 |
+| [开放权重AI后门](https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html) | 开放权重AI模型的后门植入分析 |
+| [NIST曲线种子](https://words.filippo.io/seeds-solved/) | NIST椭圆曲线种子赏金已被破解揭晓 |
+| [Two Hawks RAT](https://starlabs.sg/blog/2026/10-two-hawks-in-a-pod-one-android-rat-behind-a-flock-of-fake-japanese-brands/) | 假日本品牌背后同一安卓RAT的溯源分析 |
 | [Ivanti 自定义登录页 RCE](https://blog.amberwolf.com/blog/2026/october/ivanti-custom-signin-page-rce/) | Ivanti 自定义登录页 RCE 补丁绕过分析 |
 | [AOMEI 短窗篡改](https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/) | AOMEI 更新服务器短窗篡改供应链分析 |
 | [QuartzLine](https://expel.com/blog/quartzline-a-working-pdf-viewer-with-a-backdoor-inside/) | 可用 PDF 阅读器内藏后门的供应链分析 |

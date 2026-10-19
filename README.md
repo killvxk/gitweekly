@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-85884](https://github.com/Beardhammer/CVE-2026-85884) | Windows WPAD 组件本地提权 PoC |
+| [CVE-2026-89079](https://github.com/murrez/CVE-2026-89079) | WordPress 主题登录插件账户接管 PoC |
+| [InfinityCore](https://github.com/V4bel/InfinityCore) | Linux 内核六洞提权与容器逃逸 PoC |
+| [KnockGiga](https://github.com/mein-0/KnockGiga) | 技嘉 gdrv3 驱动内核提权漏洞 PoC |
 | [Analysis-And-POC-N8N-CVE-2025-68613](https://github.com/RianJuniorSf/Analysis-And-POC-N8N-CVE-2025-68613) | n8n 工作流 RCE 漏洞的分析与 PoC |
 | [CVE-2026-97229-PoC](https://github.com/jburgess-r7/CVE-2026-97229-PoC) | GitLab lint 整数溢出 RCE PoC |
 | [CVE-2026-76268](https://github.com/murrez/CVE-2026-76268) | Splunk SHC 未认证 RCE 的 PoC |

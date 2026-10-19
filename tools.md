@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [docker-cobaltstrike](https://github.com/chryzsh/docker-cobaltstrike) | CS团队服务器Docker容器部署工具 |
+| [sly](https://github.com/ioncodes/sly) | Rust 编写的多系统模拟器与调试器 |
+| [iocs](https://github.com/NextronSystems/iocs) | Nextron 威胁研究团队 IoC 情报归档 |
+| [cuban-eight](https://github.com/shaheeryasirofficial/cuban-eight) | 打包PE为伪装WSL安装器的红队工具 |
 | [mudos](https://github.com/cumakurt/mudos) | 多向量 DDoS 压力测试工具 |
 | [archlive](https://github.com/p3ng0s/archlive) | Arch 红队物理接触 live ISO |
 | [bba](https://github.com/openbba0/bba) | Android 应用克隆沙箱与注入分析工具 |

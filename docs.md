@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Ivanti 自定义登录页 RCE](https://blog.amberwolf.com/blog/2026/october/ivanti-custom-signin-page-rce/) | Ivanti 自定义登录页 RCE 补丁绕过分析 |
+| [AOMEI 短窗篡改](https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/) | AOMEI 更新服务器短窗篡改供应链分析 |
+| [QuartzLine](https://expel.com/blog/quartzline-a-working-pdf-viewer-with-a-backdoor-inside/) | 可用 PDF 阅读器内藏后门的供应链分析 |
+| [Silent Ransom 泄露聊天](https://www.guidepointsecurity.com/blog/silent-ransom-group-leaked-chats/) | Silent Ransom 泄露聊天与入侵手法复盘 |
+| [GitLab CI 整数溢出](https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229) | GitLab CI 正则整数溢出 RCE 技术分析 |
+| [BlockStrap RCE](https://sansec.io/research/blockstrap-magento-rce) | Magento 模板指令注入 RCE 漏洞分析 |
+| [APT29 CaptiveCrunch](https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/) | APT29 LLMNR 投毒与假门户钓鱼分析 |
+| [Mind the Patch Gap 3](https://www.volexity.com/blog/2026/10/16/mind-the-patch-gap-part-3-analysis-with-volexity-volcano-threat-intel-and-mcp/) | 中国团伙链浏览器与系统零日投毒分析 |
+| [GhostAction 仿冒字体](https://opensourcemalware.com/blog/ghostaction-copycats-polinrider-by-hiding-a-stealer-in-a-fake-font-file) | GhostAction 仿冒字体藏窃密器分析 |
 | [Q3漏洞脉搏](https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/) | 用CVE与KEV数据辨析漏洞爆发论与补丁缺口 |
 | [hate_crack](https://trustedsec.com/blog/two-config-files-two-release-tracks-and-one-very-bad-commit) | 从坏提交复盘hate_crack配置分拆与发布护栏 |
 | [YuanKong分析](https://starlabs.sg/blog/2026/10-yuankong-rat-the-android-remote-control-service-that-stamps-its-operators-names-into-every-build/) | 拆解多租户YuanKong安卓远控的运营者指纹 |

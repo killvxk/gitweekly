@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Malvex](https://github.com/JoasASantos/Malvex) | AI驱动恶意软件分析框架，集成30+工具 |
+| [PhantomBuffer](https://github.com/TwoSevenOneT/PhantomBuffer) | WM_SETTEXT消息注入绕EDR的工具 |
+| [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Cloudflare开源的AI安全审计skill |
+| [mcp-authscan](https://github.com/LHMisme420/mcp-authscan) | MCP服务器认证配置安全扫描工具 |
+| [xalgorix](https://github.com/xalgorix/xalgorix) | 开源的利用验证式自动化渗透引擎 |
+| [Anthropic-Credited-CVEs](https://github.com/patrickmgarrity/Anthropic-Credited-CVEs) | 追踪Anthropic披露与修复CVE的仓库 |
 | [summit](https://github.com/pennacle-security/summit) | 集成代理扫描与模糊测试的Web安全CLI平台 |
 | [confirmesc](https://github.com/capture0x/confirmesc) | Linux提权枚举器，确认可利用并给提权命令 |
 | [AdStrike](https://github.com/capture0x/AdStrike) | AI驱动的模块化AD红队攻击路径分析框架 |

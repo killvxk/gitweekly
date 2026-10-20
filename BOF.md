@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [COM_Hijack_BOF](https://github.com/bsdrip/COM_Hijack_BOF) | COM劫持持久化BOF，兼容CS与Mythic |
 | [redteam-bofs](https://github.com/chryzsh/redteam-bofs) | 后渗透 Beacon Object File 合集 |
 | [BOFKatz](https://github.com/KrakenEU/BOFKatz) | 进程镂空执行的Mimikatz BOF实现 |
 | [Mem-Exec](https://github.com/WeedHashPeddler/Mem-Exec) | 内存加载Windows EXE的CS BOF |

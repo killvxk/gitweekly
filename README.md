@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-99999-KVM-PoC](https://github.com/shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC) | KVM校验和元数据非破坏性可达性PoC |
 | [CVE-2026-85884](https://github.com/Beardhammer/CVE-2026-85884) | Windows WPAD 组件本地提权 PoC |
 | [CVE-2026-89079](https://github.com/murrez/CVE-2026-89079) | WordPress 主题登录插件账户接管 PoC |
 | [InfinityCore](https://github.com/V4bel/InfinityCore) | Linux 内核六洞提权与容器逃逸 PoC |

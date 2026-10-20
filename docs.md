@@ -2,6 +2,23 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PAN-OS 0257](https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/) | PAN-OS认证绕过被勒索团伙利用 |
+| [ROMULUS平台](https://www.forescout.com/blog/romulus-analysis-of-a-new-multi-payload-clickfix-delivery-platform/) | ROMULUS多载荷ClickFix投递平台分析 |
+| [BeyondTrust ETR](https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild/) | BeyondTrust漏洞在披露前已被利用 |
+| [Plex2Shell报告](https://threatnews.transilience.cloud/api/reports/threat/mvf9bya7g1lt/pdf?v=2&save=1) | Plex2Shell漏洞链威胁报告 |
+| [FreeBSD TOCTOU](https://sh3llc0d3.com/blog/freebsd-kernel-shared-memory-vulnerability-dissecting-toctou-race-conditions-in-vm-fault-mapping-cve-2026-58094/) | FreeBSD内核共享内存TOCTOU竞态分析 |
+| [Divine Seagull](https://netaskari.substack.com/p/divine-seagull-coruna-darksword-expansion) | Coruna与DarkSword框架中文圈扩散 |
+| [AOMEI篡改分析](https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html) | AOMEI更新服务器被篡改的供应链分析 |
+| [CitizenLab Pegasus](https://citizenlab.ca/research/pegasus-spyware-serbian-pro-democracy/) | 塞尔维亚校长遭Pegasus零点击感染调查 |
+| [Overlord VHDX](https://www.joesandbox.com/joereverser/analysis/09b38686-f9b1-4f68-8cfd-d44c5a203b55/download?type=reports&report=html) | Overlord Go RAT经VHDX投递分析 |
+| [TradingView ClickFix](https://github.com/samuelscheit/malware-analysis/blob/main/ktmfoundation.org/writeup.md) | 假TradingView页ClickFix投木马 |
+| [GlorySprout密钥](https://intel.threadlinqs.com/threat/TL-2026-3862) | GlorySprout随机数缺陷致RC4密钥固定 |
+| [Meduza概览](https://intel.threadlinqs.com/threat/TL-2026-3864) | Meduza窃密木马能力与传播概览 |
+| [J4ck3LSyN逆向写作](https://jackalsyn.com/posts/malAnalysisAgeAndYorkshire.html) | 恶意软件逆向写作，含C2重放与IoC |
+| [Heartbreaker](https://objective-see.org/blog/blog_0x8A.html) | Heartbreaker macOS恶意软件分析 |
+| [ShinyHunters谈判者](https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/) | 执法怀疑赎金谈判公司高管运营勒索站 |
+| [Check Point周报](https://research.checkpoint.com/2026/19th-october-threat-intelligence-report/) | Check Point十月十九日威胁情报周报 |
+| [Jev伪造策略](https://securitylabs.datadoghq.com/articles/jev-as-a-judge-how-counterfeit-policy-steers-jev/) | 伪造策略操纵Jev评审，检测率骤降 |
 | [Digispark取证](https://blog.nviso.eu/2026/10/16/keystrokes-in-disguise-forensic-analysis-of-a-digispark-hid-device/) | Digispark HID设备的键盘记录取证分析 |
 | [开放权重AI后门](https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html) | 开放权重AI模型的后门植入分析 |
 | [NIST曲线种子](https://words.filippo.io/seeds-solved/) | NIST椭圆曲线种子赏金已被破解揭晓 |

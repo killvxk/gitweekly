@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GenAI蜜罐攻击](https://www.sekoia.com/blog/a-honeypots-tale-deconstructing-an-attack-on-genai-infrastructure) | 蜜罐捕获的GenAI基础设施攻击拆解 |
+| [AI解验证码](https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html) | 训练AI破解验证码的能力研究评述 |
+| [Passkeys解析](https://www.darkoperator.com/blog/2026/10/18/passkeys-explained-and-choosing-the-right-model) | Passkey原理与模型选型讲解 |
+| [DWG内嵌VBA检测](https://isc.sans.edu/diary/rss/33434) | DWG文件内孤儿VBA工程的YARA规则 |
 | [PAN-OS 0257](https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/) | PAN-OS认证绕过被勒索团伙利用 |
 | [ROMULUS平台](https://www.forescout.com/blog/romulus-analysis-of-a-new-multi-payload-clickfix-delivery-platform/) | ROMULUS多载荷ClickFix投递平台分析 |
 | [BeyondTrust ETR](https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild/) | BeyondTrust漏洞在披露前已被利用 |

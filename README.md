@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [broadcom-wps](https://github.com/qkaiser/broadcom-wps) | Broadcom WPS漏洞指纹与受影响设备 |
+| [deco-filepush-disclosure](https://github.com/CPlusPlus17/deco-filepush-disclosure) | TP-Link Deco路由器漏洞披露研究 |
 | [CVE-2026-99999-KVM-PoC](https://github.com/shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC) | KVM校验和元数据非破坏性可达性PoC |
 | [CVE-2026-85884](https://github.com/Beardhammer/CVE-2026-85884) | Windows WPAD 组件本地提权 PoC |
 | [CVE-2026-89079](https://github.com/murrez/CVE-2026-89079) | WordPress 主题登录插件账户接管 PoC |

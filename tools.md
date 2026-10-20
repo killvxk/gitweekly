@@ -2,6 +2,27 @@
 
 | 文章 | 简介 |
 |------|------|
+| [taikotalent-phishing-iocs](https://github.com/eddyflores100-lang/taikotalent-phishing-iocs) | 假Taiko招聘钓鱼攻击IoC与检测 |
+| [plex2shell_pcap](https://github.com/BoredHackerBlog/plex2shell_pcap) | Plex2Shell在野利用的pcap样本集 |
+| [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | 腾讯开源的AI智能体并发轻量沙箱 |
+| [GoReSym](https://github.com/Mandiant/GoReSym) | Mandiant的Go二进制符号恢复工具 |
+| [DidierStevensSuite](https://github.com/DidierStevens/DidierStevensSuite) | Didier Stevens安全分析脚本工具集 |
+| [malscore](https://github.com/raj3shp/malscore) | 评估Linux命令恶意程度的评分工具 |
+| [SyscallRevenant](https://github.com/SilentisVox/SyscallRevenant) | 间接系统调用加篡改的EDR绕过 |
+| [ebpf-container-escape-framework](https://github.com/0xmfbk/ebpf-container-escape-framework) | 基于eBPF的Linux主机审计EDR |
+| [Barzakh](https://github.com/yasindce1998/Barzakh) | 固件bootkit攻防闭环研究平台 |
+| [veiled-eye](https://github.com/emrekybs/veiled-eye) | OSINT身份调查跨源画像工具 |
+| [nextjs-supabase-stripe-security-checker](https://github.com/edtrackai/nextjs-supabase-stripe-security-checker) | Next.js+Supabase应用本地安全扫描 |
+| [HostBadger](https://github.com/g4bri-3l3/HostBadger) | 只读Windows主机加固审计工具 |
+| [IDWolf](https://github.com/g4bri-3l3/IDWolf) | AD与Entra ID配置卫生离线审计工具 |
+| [Vader-Pro-VDR](https://github.com/Tridents10/Vader-Pro-VDR) | AI辅助的漏洞检测与修复管理平台 |
+| [jbl-wave-buds2-firmware-research](https://github.com/c8dhjp4tyv-bit/jbl-wave-buds2-firmware-research) | JBL耳机固件逆向与OTA协议研究 |
+| [ai-pentest-agent](https://github.com/infobyte/ai-pentest-agent) | 端到端自主渗透测试Agent与配套靶场 |
+| [ghidra-llm-pipeline](https://github.com/HappyTotoro116/ghidra-llm-pipeline) | PyGhidra加本地LLM的C重编译流水线 |
+| [cve-intel](https://github.com/Fazmin/cve-intel) | 本地CVE情报聚合与风险评分工具 |
+| [semantic_firewall](https://github.com/BlackVectorOps/semantic_firewall) | 生成Go函数语义指纹检测xz式后门 |
+| [NaSuno](https://github.com/AhmadHassan-BTed/NaSuno) | AI音频水印移除与反归因取证工具 |
+| [DFIRHub](https://github.com/LasCC/DFIRHub) | Windows取证痕迹检索与KAPE收集器 |
 | [Malvex](https://github.com/JoasASantos/Malvex) | AI驱动恶意软件分析框架，集成30+工具 |
 | [PhantomBuffer](https://github.com/TwoSevenOneT/PhantomBuffer) | WM_SETTEXT消息注入绕EDR的工具 |
 | [security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Cloudflare开源的AI安全审计skill |

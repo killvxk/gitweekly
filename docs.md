@@ -2,6 +2,37 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PHP2Shell 威胁简报](https://watchtowr.com/php2shell-threat-briefing-october-2026/) | PHP2Shell 威胁简报与攻击面分析 |
+| [Brotli 原始研究](https://patchtheplanet.org/brotli) | Brotli 解码器越界写的原始研究 |
+| [Node2Shell](https://www.aikido.dev/blog/node2shell-nodejs-brotli-rce-cve-2026-111497) | Node2Shell Brotli RCE 分析 |
+| [Collabora RCE](https://pwn.watch/i/nextcloud-collabora-built-in-code-server-cve-2026-110447) | Collabora CODE RCE 漏洞研究 |
+| [SiriusQT](https://www.group-ib.com/blog/siriusqt-rat-hvnc-stealer/) | SiriusQT RAT 与 HVNC 窃密分析 |
+| [Prince of Persia](https://www.semperis.com/blog/prince-of-persia-threat-group-hiding-in-plain-sight/) | Prince of Persia 威胁组活动追踪 |
+| [ksmbd 0day](https://securityarsenal.com/blog/ksmbd-zero-day-rce-flaws-zdi-can-33774-and-zdi-can-33549-defending-linux-smb-servers-before-the-patch-lands) | ksmbd 两个 0day RCE 缺陷防御分析 |
+| [MadPot 预先利用](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/) | MadPot 曾在披露前利用 PHP2Shell |
+| [eMudhra CA 失窃](https://blog.talosintelligence.com/compromised-intermediate-certificates/) | Talos 剖析八个中间 CA 私钥失窃 |
+| [VeloCloud 提权](https://zerohunt.ai/blog/arista-velocloud-cve-2026-114625-sqli-operator-escalation/) | VeloCloud 编排器 SQLi 提权漏洞分析 |
+| [MythicRatatoskr](https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/) | Yggdrasil 骨干网新型 Go 后门分析 |
+| [Armorsteal](https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware) | SEO 投毒投递 Armorsteal 窃密样本 |
+| [冷链暴露](https://www.forescout.com/blog/cold-chain-open-control-exposed-refrigeration-systems-reveal-global-risk/) | 全球冷链工控系统暴露的风险研究 |
+| [亚马逊 ClickFix](https://www.huntress.com/blog/amazon-clickfix-finger) | ClickFix 仿亚马逊钓鱼攻击剖析 |
+| [Android 入侵日志](https://zimperium.com/blog/beyond-the-sandbox-leveraging-android-intrusion-logs-to-expose-advanced-threats) | 用 Android 入侵日志暴露高级威胁 |
+| [PHP2Shell 检测](https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/) | PHP2Shell 双 CVE 技术分析与检测 |
+| [PHP 双 RCE](https://blog.talosintelligence.com/two-critical-rces-in-php-core/) | Talos 对 PHP 两个严重 RCE 的研究 |
+| [LiteLLM 投毒](https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/) | LiteLLM PyPI 供应链投毒深度复盘 |
+| [MEVN CLI 投毒](https://safedep.io/hugo-paper-mevn-cli-forged-commit-preinstall-dropper) | MEVN CLI 伪造提交预装投毒分析 |
+| [Storm-0940 ARTEX](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/) | Storm-0940 用 ARTEX 打穿供应链 |
+| [FlashHole](https://securelist.com/lazarus-operation-flashhole/121541/) | Lazarus FlashHole 行动分析 |
+| [AI 辅助犯罪](https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/) | AI 辅助网络犯罪活动分析研究 |
+| [PEB 隐藏 DLL](https://trainsec.net/library/windows-internals/hiding-a-dll-from-the-peb-loader-list-and-why-process-explorer-still-sees-it/) | 从 PEB 链表隐藏 DLL 的技术分析 |
+| [PhantomBuffer](https://www.zerosalarium.com/2026/10/PhantomBuffer-Effective-EDR-Evasion-Stealth-Injection.html) | PhantomBuffer EDR 规避注入研究 |
+| [Netscaler 入侵链](https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779) | 串联两个 Netscaler 漏洞的入侵分析 |
+| [FortiSIEM 深挖](https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/) | FortiSIEM gRPC 路径穿越到 RCE |
+| [Oracle EBS](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-101767/) | Oracle EBS SQLi 到 RCE 分析 |
+| [GlassWorm](https://opensourcemalware.com/blog/glassworm-hacks-ovh-clouds-cli-tool) | OVHcloud CLI 遭挂马的供应链分析 |
+| [Swallowtail](https://www.security.com/threat-intelligence/swallowtail-russia-nato-targets) | APT28 Swallowtail 袭北约防务目标 |
+| [telnetd 0day](https://sh3llc0d3.com/blog/gnu-inetutils-telnetd-remote-authentication-bypass-zero-day-unauthenticated-root-access-via-new_environ-and-crlf-injection/) | GNU telnetd 认证绕过 0day 披露 |
+| [BOF 教程](https://by7e.dev/blog/bof-from-scratch-in-c) | 从零开始用 C 编写 BOF 的教程 |
 | [GenAI蜜罐攻击](https://www.sekoia.com/blog/a-honeypots-tale-deconstructing-an-attack-on-genai-infrastructure) | 蜜罐捕获的GenAI基础设施攻击拆解 |
 | [AI解验证码](https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html) | 训练AI破解验证码的能力研究评述 |
 | [Passkeys解析](https://www.darkoperator.com/blog/2026/10/18/passkeys-explained-and-choosing-the-right-model) | Passkey原理与模型选型讲解 |

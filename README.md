@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [php2shell-scanner](https://github.com/assetnote/php2shell-scanner) | PHP2Shell 双 CVE 高保真扫描检测工具 |
+| [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Brotli 越界写 RCE 的可复现 PoC |
+| [EAC_rollback](https://github.com/oh-az/EAC_rollback) | EasyAntiCheat 回滚漏洞 PoC 复现 |
+| [DoubleStar](https://github.com/forrest-orr/DoubleStar) | APT Double Star 利用链复现工程 |
 | [mac2jb](https://github.com/cpypwn/mac2jb) | Mac 模拟 USB 键盘注入 Switch 2 |
 | [php2shell-poc](https://github.com/ikow/php2shell-poc) | PHP2Shell 五条预认证 RCE 链与规则 |
 | [php2shell-poc (GoldraK)](https://github.com/GoldraK/php2shell-poc) | PHP2Shell 预认证 RCE 独立研究与复核 |

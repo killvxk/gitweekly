@@ -2,6 +2,20 @@
 
 | 文章 | 简介 |
 |------|------|
+| [UltimateWDACBypassList](https://github.com/bohops/UltimateWDACBypassList) | WDAC 绕过技巧与策略测试资源合集 |
+| [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) | 一条命令安装 670+ 安全工具的工具包 |
+| [ai-jailbreaks](https://github.com/Alejandros17487/ai-jailbreaks) | 35 条即用的 AI 越狱提示词集合 |
+| [open-sesame](https://github.com/hassan-algo/open-sesame) | 面向 Claude 的 Web 渗透测试技能 |
+| [Locksmith2](https://github.com/jakehildreth/Locksmith2) | AD CS 配置审计的 PowerShell 模块 |
+| [rea](https://github.com/morluto/rea) | 跨二进制与应用的逆向工程 MCP |
+| [VoidSec](https://github.com/Rickert155/VoidSec) | 把渗透测试工具容器化运行的方案 |
+| [llm-redteam-harness](https://github.com/globe-teck/llm-redteam-harness) | 依赖极简的 LLM 红队评测框架 |
+| [litellm-privcollect-toolkit](https://github.com/PeterDaveHello/litellm-privcollect-toolkit) | LiteLLM 供应链事件工具箱 |
+| [DLLParty](https://github.com/epersic/DLLParty/) | 操纵线程池回调实例的 DLL 注入 PoC |
+| [crowbar](https://github.com/kushvinth/crowbar) | 离线 CVE 检索与本地索引 MCP 工具 |
+| [ExploitDev](https://github.com/forrest-orr/ExploitDev) | 博客配套的漏洞利用工具与 PoC 集 |
+| [Sentinel](https://github.com/psihijatrija/Sentinel) | 纯用户态 ETW 融合的 Windows EDR |
+| [Skarvel](https://github.com/twelvesec/Skarvel) | 从单个 IoC 狩猎恶意 git 仓库的工具 |
 | [android/skills](https://github.com/android/skills) | 面向 AI 代理的 Android 开发技能指令集 |
 | [Magpie](https://github.com/Blinue/Magpie) | Windows 10/11 通用窗口放大工具 |
 | [magpie (yetone)](https://github.com/yetone/magpie) | 菜单栏一键切换各编码代理模型的本地网关 |

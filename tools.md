@@ -13,7 +13,7 @@
 | [CoercedPotato](https://github.com/Prepouce/CoercedPotato) | Windows 强制认证 Potato 提权 |
 | [GenAI-LLM-Top10](https://github.com/GenAI-Security-Project/GenAI-LLM-Top10) | OWASP 大模型应用 Top 10 清单 |
 | [malware-research](https://github.com/eset/malware-research) | ESET 恶意软件研究配套代码库 |
-| [antibody](https://gitlab.com/lsudoko/antibody) | 对 AI 修复代码做对抗验证环 |
+| [antibody](https://gitlab.com/LSUDOKO/Antibody) | 对 AI 修复代码做对抗验证环 |
 | [ARTEX](https://github.com/trhhubsd/ARTEX) | 多智能体 LLM 自动渗透系统 |
 | [autorun-audit](https://github.com/ag3ntsc4rn/autorun-audit) | 审计仓库内自启动执行代码的工具 |
 | [enterprise-abac-gateway](https://gitlab.com/kavryxdev-group/enterprise-abac-gateway) | 内嵌 OPA 的 ABAC 授权网关 |

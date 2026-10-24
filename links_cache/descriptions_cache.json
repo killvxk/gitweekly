@@ -4150,7 +4150,6 @@
   "https://github.com/Prepouce/CoercedPotato": "Windows 强制认证 Potato 提权",
   "https://github.com/GenAI-Security-Project/GenAI-LLM-Top10": "OWASP 大模型应用 Top 10 清单",
   "https://github.com/eset/malware-research": "ESET 恶意软件研究配套代码库",
-  "https://gitlab.com/lsudoko/antibody": "对 AI 修复代码做对抗验证环",
   "https://github.com/trhhubsd/ARTEX": "多智能体 LLM 自动渗透系统",
   "https://github.com/ag3ntsc4rn/autorun-audit": "审计仓库内自启动执行代码的工具",
   "https://gitlab.com/kavryxdev-group/enterprise-abac-gateway": "内嵌 OPA 的 ABAC 授权网关",
@@ -4192,5 +4191,6 @@
   "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/": "curl 作者谈小漏洞公开之道",
   "https://krypt3ia.wordpress.com/2026/10/20/a-hunt-autonomous-and-ai-enhanced-cyber-threat-hunting-framework/": "A-HUNT 自主威胁狩猎框架",
   "https://www.group-ib.com/blog/spend-management-abuse-fraud-classiscam/": "ClassiScam 校验服务滥用研究",
-  "https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/": "Digispark HID 注入取证分析"
+  "https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/": "Digispark HID 注入取证分析",
+  "https://gitlab.com/LSUDOKO/Antibody": "对 AI 修复代码做对抗验证环"
 }

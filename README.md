@@ -2,6 +2,13 @@
 
 | 链接 | 描述 |
 |------|------|
+| [mac2jb](https://github.com/cpypwn/mac2jb) | Mac 模拟 USB 键盘注入 Switch 2 |
+| [php2shell-poc](https://github.com/ikow/php2shell-poc) | PHP2Shell 五条预认证 RCE 链与规则 |
+| [php2shell-poc (GoldraK)](https://github.com/GoldraK/php2shell-poc) | PHP2Shell 预认证 RCE 独立研究与复核 |
+| [php2shell-bypass-aslr-exp](https://github.com/9bie/php2shell-bypass-aslr-exp) | 免改配置且绕过 ASLR 的 php2shell |
+| [exploitgym-answers](https://github.com/ramoblaze/exploitgym-answers) | ExploitGym 答案与集群凭据镜像 |
+| [plex2shell](https://github.com/code-zm/plex2shell) | Plex 未授权 RCE 链 PoC 与复现环境 |
+| [CVE-2026-109618-exploit](https://github.com/junaire/CVE-2026-109618-exploit) | PHP2Shell 未授权 RCE PoC 与靶场 |
 | [broadcom-wps](https://github.com/qkaiser/broadcom-wps) | Broadcom WPS漏洞指纹与受影响设备 |
 | [deco-filepush-disclosure](https://github.com/CPlusPlus17/deco-filepush-disclosure) | TP-Link Deco路由器漏洞披露研究 |
 | [CVE-2026-99999-KVM-PoC](https://github.com/shizuku198411/CVE-2026-99999-KVM-checksum-metadata-non-destructive-PoC) | KVM校验和元数据非破坏性可达性PoC |

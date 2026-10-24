@@ -2,6 +2,21 @@
 
 | 文章 | 简介 |
 |------|------|
+| [android/skills](https://github.com/android/skills) | 面向 AI 代理的 Android 开发技能指令集 |
+| [Magpie](https://github.com/Blinue/Magpie) | Windows 10/11 通用窗口放大工具 |
+| [magpie (yetone)](https://github.com/yetone/magpie) | 菜单栏一键切换各编码代理模型的本地网关 |
+| [pokeheartgold](https://github.com/ctrl-cheeb-del/pokeheartgold) | 由大模型代理完成的心金魂银全量反编译 |
+| [Soundcore](https://github.com/tacshi/Soundcore) | 安克录音豆 D3200 的本地管理与实时转写应用 |
+| [invaris-agentsec](https://github.com/invarislabs/invaris-agentsec) | 面向 AI 代理的对抗性安全测试框架 |
+| [casty](https://github.com/sanohiro/casty) | 在终端内用 CDP 串流运行 Chrome |
+| [dsh-purge](https://github.com/kingcharleslzy-ai/dsh-purge) | DSH 状态自检与备份回滚插件 |
+| [m-ui-preview](https://github.com/mack-a/m-ui-preview) | m-ui 服务器管理面板一键安装脚本 |
+| [Windows-LPE-Auditor](https://github.com/0xby7eMe/Windows-LPE-Auditor) | C++20 编写的 Windows 提权配置审计器 |
+| [nxnative](https://github.com/seedds/nxnative) | Switch 游戏包转 iOS 原生 IPA 工具 |
+| [leanrea](https://github.com/aicodeking/leanrea) | 以 8KB 技能文件替代 REA 的逆向工程指令集 |
+| [UsingBYOVD](https://github.com/The-Sword-of-Constantine/UsingBYOVD) | BYOVD 驱动实现内核提权与物理内存读写 |
+| [switcheroo](https://github.com/grayhatkiller/switcheroo) | 把 NTLM 中继为 LDAP 操作的工具封装 |
+| [TTs](https://github.com/whokilleddb/TTs) | T4 .tt 文件加载 shellcode 载荷 |
 | [taikotalent-phishing-iocs](https://github.com/eddyflores100-lang/taikotalent-phishing-iocs) | 假Taiko招聘钓鱼攻击IoC与检测 |
 | [plex2shell_pcap](https://github.com/BoredHackerBlog/plex2shell_pcap) | Plex2Shell在野利用的pcap样本集 |
 | [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | 腾讯开源的AI智能体并发轻量沙箱 |

@@ -2,6 +2,25 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Splunk Patroni 漏洞](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/) | Splunk Patroni 未授权访问漏洞分析 |
+| [APT41 BlackX](https://securelist.com/uefi-bootkit-blackx/121539/) | APT41 复活 BlackLotus 袭外交机构 |
+| [Passkey 强制](https://www.darkoperator.com/blog/2026/10/22/enabling-passkeys-is-not-the-same-as-enforcing-them) | Passkey 启用与强制之差解析 |
+| [PHP 核弹原理](https://www.laruence.com/2026/10/22/7686.html) | PHP 核弹级漏洞原理的详细讲解 |
+| [PHP2Shell 蜜罐观测](https://github.security.telekom.com/2026/10/php2shell-honeypot-observations.html) | 蜜罐实测 PHP2Shell 利用态势 |
+| [AI 建站泄密](https://cyble.com/blog/secret-exposure-across-ai-built-websites/) | AI 生成网站泄露活密钥的研究 |
+| [LLM 地理定位](https://www.bellingcat.com/resources/2026/10/22/can-llms-supercharge-geolocations-our-tests-show-big-improvements-but-humans-remain-key/) | LLM 辅助地理定位的实测评估 |
+| [寄生信任](https://blog.talosintelligence.com/parasitizing-trust-how-legitimate-infrastructure-becomes-a-delivery-pipeline-for-attackers/) | 合法基础设施被寄生作投递的通道 |
+| [AI 代理改码](https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/) | AI 代理改代码的隐性影响研究 |
+| [SleeperWidget](https://microsoftedge.github.io/edgevr/posts/SleeperWidget-How-Ad-Driven-Installs-Activate-Hidden-Browser-Extension-Behavior/) | 广告驱动安装激活隐藏扩展的研究 |
+| [Fashion Weak](https://blog.sicuranext.com/operation-fashion-weak/) | Fashion Weak 行动研究分析 |
+| [k0t 游走](https://www.group-ib.com/blog/stray-cat-network-edge/) | k0t 团伙的边缘设备入侵分析 |
+| [仓储安全](https://securelist.com/paper-unicorn-warehouse-security/121537/) | 现代仓库环境物理安全的检验研究 |
+| [Cellebrite 0day](https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html) | Cellebrite 疑现 iPhone 0day |
+| [weax 溯源](https://xz.aliyun.com/news/92997) | weax 勒索袭用友 T+ 的 0day 溯源 |
+| [curl 小漏洞](https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/) | curl 作者谈小漏洞公开之道 |
+| [A-HUNT](https://krypt3ia.wordpress.com/2026/10/20/a-hunt-autonomous-and-ai-enhanced-cyber-threat-hunting-framework/) | A-HUNT 自主威胁狩猎框架 |
+| [ClassiScam 校验](https://www.group-ib.com/blog/spend-management-abuse-fraud-classiscam/) | ClassiScam 校验服务滥用研究 |
+| [Digispark 取证](https://blog.nviso.eu/2026/10/20/verborgene-tastenanschlage-forensische-analyse-eines-digispark-hid-gerats/) | Digispark HID 注入取证分析 |
 | [PHP2Shell 威胁简报](https://watchtowr.com/php2shell-threat-briefing-october-2026/) | PHP2Shell 威胁简报与攻击面分析 |
 | [Brotli 原始研究](https://patchtheplanet.org/brotli) | Brotli 解码器越界写的原始研究 |
 | [Node2Shell](https://www.aikido.dev/blog/node2shell-nodejs-brotli-rce-cve-2026-111497) | Node2Shell Brotli RCE 分析 |

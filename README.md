@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [openhands-disclosure](https://github.com/edoardottt/openhands-disclosure) | OpenHands 命令注入漏洞披露 |
+| [Black_Hole_Attack_for_Vector_Database](https://github.com/hanxi19/Black_Hole_Attack_for_Vector_Database) | 对向量数据库实施黑洞攻击的研究 |
 | [php2shell-scanner](https://github.com/assetnote/php2shell-scanner) | PHP2Shell 双 CVE 高保真扫描检测工具 |
 | [CVE-2026-111497-POC](https://github.com/dimasma0305/CVE-2026-111497-POC) | Brotli 越界写 RCE 的可复现 PoC |
 | [EAC_rollback](https://github.com/oh-az/EAC_rollback) | EasyAntiCheat 回滚漏洞 PoC 复现 |

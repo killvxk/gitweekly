@@ -2,6 +2,41 @@
 
 | 文章 | 简介 |
 |------|------|
+| [balcony-jailbreaking](https://github.com/LassNajmuldeen/balcony-jailbreaking) | 早退出深度 LLM 越狱生成器 |
+| [SuperGhidra](https://github.com/yuatemycat/SuperGhidra) | Ghidra 自主逆向代理套件 |
+| [Xpsd](https://github.com/OWASP/Xpsd) | 用 LLM 判定 CVE 可达性分诊 |
+| [GhostFaceMPC](https://github.com/crypto-unict/GhostFaceMPC) | 以多方计算实现隐私保护人脸识别 |
+| [AI-security-literacy](https://github.com/ericyoc/AI-security-literacy) | AI 安全素养六维数据评价管线 |
+| [DiagSafe](https://github.com/Tencent-Hunyuan/DiagSafe) | 医疗诊断 LLM 的双语安全基准 |
+| [Tracekit](https://github.com/Cygnux-Labs/Tracekit) | 给 AI 代理加防篡改的追踪工具 |
+| [tldr](https://gitlab.com/gitlab-security-oss/tldr) | GitLab 威胁检测规则与响应库 |
+| [CoercedPotato](https://github.com/Prepouce/CoercedPotato) | Windows 强制认证 Potato 提权 |
+| [GenAI-LLM-Top10](https://github.com/GenAI-Security-Project/GenAI-LLM-Top10) | OWASP 大模型应用 Top 10 清单 |
+| [malware-research](https://github.com/eset/malware-research) | ESET 恶意软件研究配套代码库 |
+| [antibody](https://gitlab.com/lsudoko/antibody) | 对 AI 修复代码做对抗验证环 |
+| [ARTEX](https://github.com/trhhubsd/ARTEX) | 多智能体 LLM 自动渗透系统 |
+| [autorun-audit](https://github.com/ag3ntsc4rn/autorun-audit) | 审计仓库内自启动执行代码的工具 |
+| [enterprise-abac-gateway](https://gitlab.com/kavryxdev-group/enterprise-abac-gateway) | 内嵌 OPA 的 ABAC 授权网关 |
+| [decomp.anything](https://github.com/giveen/decomp.anything) | decomp.wtf 分支带 REA 桥 |
+| [AuthorizationBench](https://github.com/PEACH-Research-Lab/AuthorizationBench) | 评测 LLM 代理越权行为的基准 |
+| [process-watcher](https://github.com/Neo23x0/process-watcher) | 监测进程行为捕捉利用尝试的工具 |
+| [sshesame](https://github.com/jaksi/sshesame) | 记录全部会话活动的 SSH 蜜罐 |
+| [pybluez](https://github.com/pybluez/pybluez) | Python 的蓝牙扩展模块库 |
+| [AI-Threat-Modeler](https://github.com/OWASP/AI-Threat-Modeler) | OWASP 的 AI 威胁建模工具 |
+| [BLT](https://github.com/OWASP/BLT) | OWASP 的缺陷日志跟踪工具 |
+| [certstream-server-rust](https://github.com/reloading01/certstream-server-rust) | Rust 版证书透明流监控工具 |
+| [python-certifi](https://github.com/certifi/python-certifi) | Python 根证书集合库 certifi |
+| [Win32_Hash](https://github.com/EliAvila10/Win32_Hash) | Ada/SPARK 证明的 Windows 散列库 |
+| [DecodeBox](https://github.com/OWASP/DecodeBox) | OWASP 编码识别与解码工具箱 |
+| [Secure-Headers-Project](https://github.com/OWASP/Secure-Headers-Project) | 安全 HTTP 响应头参考项目 |
+| [NoDPI4Android](https://github.com/GVCoder09/NoDPI4Android) | 在安卓设备上绕过深度包检测的应用 |
+| [paramtrace](https://github.com/CurioTrace/paramtrace) | 快速发现 HTTP 参数的测试工具 |
+| [nmmp](https://github.com/maoabc/nmmp) | 保护安卓 dex 的加壳虚拟机 |
+| [wifisting](https://gitlab.com/phantom-brigade1/wifisting) | GTK4 编写的无线安全模块套件 |
+| [3snake](https://github.com/blendin/3snake) | 监视新生进程并抽取登录凭据的工具 |
+| [aws-pentest](https://github.com/capture0x/aws-pentest) | AWS 提权与 S3 漏洞审计工具 |
+| [SilentSniffer](https://github.com/AhmadHassan-BTED/SilentSniffer) | 面向浏览器的去匿名化漏洞诊断框架 |
+| [get-trust-anchor](https://github.com/iana-org/get-trust-anchor) | 获取 DNS 根区信任锚的工具 |
 | [UltimateWDACBypassList](https://github.com/bohops/UltimateWDACBypassList) | WDAC 绕过技巧与策略测试资源合集 |
 | [cybersec-toolkit](https://github.com/26zl/cybersec-toolkit) | 一条命令安装 670+ 安全工具的工具包 |
 | [ai-jailbreaks](https://github.com/Alejandros17487/ai-jailbreaks) | 35 条即用的 AI 越狱提示词集合 |

@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 多智能体 LLM 金融交易框架 |
+| [LibreChat](https://github.com/LibreChat-AI/LibreChat) | 可自托管的多模型 AI 聊天前端 |
+| [hyperframes](https://github.com/heygen-com/hyperframes) | HTML 渲染成视频的代理框架 |
+| [agentic-inbox](https://github.com/cloudflare/agentic-inbox) | Cloudflare 自托管代理邮箱 |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | 免分词器的多语言 TTS 语音模型 |
+| [flowsint](https://github.com/reconurge/flowsint) | 图式 OSINT 调查可视化平台 |
+| [nango](https://github.com/NangoHQ/nango) | 对接千余 API 的开源集成平台 |
+| [spring2025-lectures](https://github.com/stanford-cs336/spring2025-lectures) | 斯坦福 CS336 语言建模课讲义 |
+| [reauthx](https://github.com/aas-n/reauthx) | 击败强制 SMB 签名的 krbrelayx 分支 |
 | [NetSpecter](https://github.com/MrHackerCharlie/NetSpecter) | 进程活动与网络暴露实时监控工具 |
 | [regextokens](https://github.com/odomojuli/regextokens) | OAuth 与 API 令牌正则模式清单 |
 | [agenttriage-open-source](https://github.com/AsnGs/agenttriage-open-source) | LLM 代理跨平台追踪与安全诊断系统 |

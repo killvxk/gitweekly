@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [SMB 强制签名绕过](https://blackfield.ch/blog/defeating-enforced-smb-signing/) | 击败强制 SMB 签名的攻击研究 |
 | [MSFT LiteLLM 供应链分析](https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/) | 微软拆解 LiteLLM 供应链入侵窃凭 |
 | [AI 解恶意压缩包密码](https://www.hexacorn.com/blog/2026/10/24/solving-practical-problems-with-ai-part-2-the-most-popular-and-most-commonly-used-passwords-for-malicious-archives/) | Hexacorn 用 AI 猜恶意压缩包密码 |
 | [VS Code 扩展 RAT 引擎](https://yeethsecurity.com/blog/2026-10-25-Shared-RAT-Engine-VS-Code-Task-Boards) | VS Code 市场八扩展共用 RAT 引擎分析 |

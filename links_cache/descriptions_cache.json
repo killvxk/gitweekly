@@ -4250,5 +4250,15 @@
   "https://github.com/Minglink/dsh-infinite-gen-5": "DeepSeek 逆向的无限调用工具",
   "https://gitlab.com/ritwick7/sudostamp": "安卓指纹批准 sudo 的 PAM 方案",
   "https://github.com/ejfkdev/pycdc": "Rust 版 Python 字节码反编译器",
-  "https://github.com/kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis": "Vidar 注入 Chrome 会话劫持分析"
+  "https://github.com/kaandemir993/Vidar-Stealer-Chrome-Injection-Malicious-JS-Targeting-Google-Reddit-Sessions-Analysis": "Vidar 注入 Chrome 会话劫持分析",
+  "https://github.com/TauricResearch/TradingAgents": "多智能体 LLM 金融交易框架",
+  "https://github.com/LibreChat-AI/LibreChat": "可自托管的多模型 AI 聊天前端",
+  "https://github.com/heygen-com/hyperframes": "HTML 渲染成视频的代理框架",
+  "https://github.com/cloudflare/agentic-inbox": "Cloudflare 自托管代理邮箱",
+  "https://github.com/OpenBMB/VoxCPM": "免分词器的多语言 TTS 语音模型",
+  "https://github.com/reconurge/flowsint": "图式 OSINT 调查可视化平台",
+  "https://github.com/NangoHQ/nango": "对接千余 API 的开源集成平台",
+  "https://github.com/stanford-cs336/spring2025-lectures": "斯坦福 CS336 语言建模课讲义",
+  "https://github.com/aas-n/reauthx": "击败强制 SMB 签名的 krbrelayx 分支",
+  "https://blackfield.ch/blog/defeating-enforced-smb-signing/": "击败强制 SMB 签名的攻击研究"
 }

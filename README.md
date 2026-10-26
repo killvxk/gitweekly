@@ -1,26 +1,5 @@
 # gitweekly
 
-https://github.com/TauricResearch/TradingAgents
-https://github.com/danny-avila/LibreChat
-https://github.com/heygen-com/hyperframes
-https://github.com/Fincept-Corporation/FinceptTerminal
-https://github.com/harry0703/MoneyPrinterTurbo
-https://github.com/cloudflare/agentic-inbox
-https://github.com/OpenBMB/VoxCPM
-https://github.com/reconurge/flowsint
-https://github.com/addyosmani/agent-skills
-https://github.com/NangoHQ/nango
-https://github.com/stanford-cs336/spring2025-lectures
-https://github.com/aas-n/reauthx
-
-
-https://blackfield.ch/blog/defeating-enforced-smb-signing/
-
-https://www.akamai.com/blog/security-research/bring-your-own-edr-turn-commercial-edr-trojan-horse
-
-
-
-
 | 链接 | 描述 |
 |------|------|
 | [ns2jb](https://gitlab.com/pepsipu/ns2jb) | 任天堂 Switch 2 越狱漏洞研究 |

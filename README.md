@@ -23,6 +23,7 @@ https://www.akamai.com/blog/security-research/bring-your-own-edr-turn-commercial
 
 | 链接 | 描述 |
 |------|------|
+| [ns2jb](https://gitlab.com/pepsipu/ns2jb) | 任天堂 Switch 2 越狱漏洞研究 |
 | [CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173) | FortiSIEM 未授权 RCE PoC |
 | [cve-2026-71362-magento-ato](https://github.com/mahumadad/cve-2026-71362-magento-ato) | Adobe Commerce 账户接管漏洞 PoC |
 | [CVE-2026-108551-POC](https://github.com/Zombie-Kaiser/CVE-2026-108551-POC) | openapi 代码生成器 RCE PoC |

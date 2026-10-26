@@ -2,6 +2,26 @@
 
 | 文章 | 简介 |
 |------|------|
+| [NetSpecter](https://github.com/MrHackerCharlie/NetSpecter) | 进程活动与网络暴露实时监控工具 |
+| [regextokens](https://github.com/odomojuli/regextokens) | OAuth 与 API 令牌正则模式清单 |
+| [agenttriage-open-source](https://github.com/AsnGs/agenttriage-open-source) | LLM 代理跨平台追踪与安全诊断系统 |
+| [retrokit](https://github.com/nautilusbits/retrokit) | DOS 与 Win32 老游戏逆向工具箱 |
+| [IDA-Processor-Modules](https://github.com/Mr-wolf-is-me/IDA-Processor-Modules) | IDA 罕见 CPU 与 DSP 架构模块 |
+| [SecLog](https://github.com/SecLog-Open/SecLog) | 多源安全日志的攻击阶段推理基准 |
+| [beyond_asr](https://github.com/SuELS-Group/beyond_asr) | LLM 越狱攻击与阶段 ASR 评测代码 |
+| [aide](https://github.com/aide/aide) | Unix 文件完整性入侵检测系统 |
+| [yara-rules](https://github.com/InQuest/yara-rules) | InQuest 公开共享的 YARA 规则集 |
+| [Memory-injection](https://github.com/PedroBarcha/Memory-injection) | 对主流 LLM 持久记忆注入研究 |
+| [sudp](https://github.com/xhyumiracle/sudp) | 面向代理系统的密钥使用委托协议 |
+| [thc-BloodMiami](https://github.com/foxcornlab/thc-BloodMiami) | AI 聊天框注入载荷渗透测试工具 |
+| [emudhra-weak-keys](https://github.com/corelight/emudhra-weak-keys) | 检出失窃 eMudhra 证书的 Zeek 包 |
+| [betterleaks](https://github.com/betterleaks/betterleaks) | gitleaks 系全能泄露密钥扫描器 |
+| [opengrep](https://github.com/opengrep/opengrep) | Semgrep 衍生的开源静态分析引擎 |
+| [cdxgen](https://github.com/cdxgen/cdxgen) | 多语言 CycloneDX SBOM 生成器 |
+| [MarauderBox](https://github.com/rianhanft/MarauderBox) | WiFi 渗透的 Marauder 固件分支 |
+| [dsh-infinite-gen-5](https://github.com/Minglink/dsh-infinite-gen-5) | DeepSeek 逆向的无限调用工具 |
+| [SudoStamp](https://gitlab.com/ritwick7/sudostamp) | 安卓指纹批准 sudo 的 PAM 方案 |
+| [pycdc](https://github.com/ejfkdev/pycdc) | Rust 版 Python 字节码反编译器 |
 | [nmg](https://github.com/baguette168/nmg) | .NET 内存马生成器适配三大 WebShell |
 | [fairplay-decrypt](https://github.com/EthanArbuckle/fairplay-decrypt) | iOS FairPlay 加密内容解密工具 |
 | [winbox](https://github.com/totekuh/winbox) | 97 个 MCP 工具的 Windows 测试箱 |

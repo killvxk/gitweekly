@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [nmg](https://github.com/baguette168/nmg) | .NET 内存马生成器适配三大 WebShell |
+| [fairplay-decrypt](https://github.com/EthanArbuckle/fairplay-decrypt) | iOS FairPlay 加密内容解密工具 |
+| [winbox](https://github.com/totekuh/winbox) | 97 个 MCP 工具的 Windows 测试箱 |
+| [Arad-Code](https://github.com/fedman0/Arad-Code) | AI 驱动的 SAST 安全研究代理 |
 | [balcony-jailbreaking](https://github.com/LassNajmuldeen/balcony-jailbreaking) | 早退出深度 LLM 越狱生成器 |
 | [SuperGhidra](https://github.com/yuatemycat/SuperGhidra) | Ghidra 自主逆向代理套件 |
 | [Xpsd](https://github.com/OWASP/Xpsd) | 用 LLM 判定 CVE 可达性分诊 |

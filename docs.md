@@ -2,6 +2,26 @@
 
 | 文章 | 简介 |
 |------|------|
+| [VS Code 扩展 RAT 引擎](https://yeethsecurity.com/blog/2026-10-25-Shared-RAT-Engine-VS-Code-Task-Boards) | VS Code 市场八扩展共用 RAT 引擎分析 |
+| [RFRx003 后门](https://rt-solar.ru/solar-4rays/blog/7122/) | RFRx003 新后门投放分析 |
+| [GlassWorm 投毒](https://www.stepsecurity.io/blog/ovhcloud-cli-github-release-swap-glassworm) | GlassWorm OVHcloud 投毒分析 |
+| [Hermes 报告](https://papers.lisdex.sh/hermes/report.pdf) | Hermes 窃密木马 RAT 274 页报告 |
+| [ConnectWise 入侵调查](https://www.mitiga.io/blog/connectwise-breach-entra-app-abuse) | ConnectWise 入侵与 Entra 滥用 |
+| [ripgrep LOLBin](https://www.hexacorn.com/blog/2026/10/25/ripgrep-as-a-lolbin/) | ripgrep 被滥用为 LOLBin 的研究 |
+| [WMI 持久化取证](https://www.forensicfocus.com/articles/investigating-wmi-permanent-event-subscription-persistence/) | WMI 永久事件订阅持久化取证 |
+| [攻击者工作流笔记](https://dfir.ch/posts/field_note_attacker_workflow/) | 攻击者工作流 DFIR 实战笔记 |
+| [Entra 令牌窃取 3/4](https://insinuator.net/2026/10/token-theft-in-microsoft-entra-id-part-3-of-4-token-protection/) | Entra ID 令牌窃取防护系列第三篇 |
+| [METR 代理监控红队](https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/) | 红队测试 OpenAI 代理监控的报告 |
+| [红队被发现复盘](https://gikaku.net/2026/10/25/red-team-engagement-detected/) | 红队行动被检测发现后的复盘分析 |
+| [LiteLLM 攻击链完结](https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain) | LiteLLM 供应链攻击链调查完结 |
+| [Project Zero 紧急修补](https://projectzero.google/2026/10/emergency-patching.html) | Project Zero 对紧急修补现象的分析 |
+| [PHP2Shell Sigma 检测](https://mohammad-alattas.github.io/posts/From-php2shell-to-Detection-Obfuscated-PHP-Web-Shells-with-Sigma/) | PHP2Shell 混淆壳的 Sigma 检测 |
+| [eMudhra 私钥拉黑](https://security.entamec.com/article/python-ssl-emudhra-denylist-certifi-cve-2026-115557/) | Python 拉黑 eMudhra 失泄私钥 |
+| [Zimbra 日志投毒 RCE](https://securityarsenal.com/blog/cve-2026-73570-zimbra-log-poisoning-to-unauthenticated-rce-detection-validation-and-remediation-guide) | Zimbra 日志投毒到未授权 RCE 指南 |
+| [DPRK 扫描 PHP2Shell](https://www.cyfirma.com/research/cyfirma-threat-advisory-suspected-dprk-campaign-staging-php2shell-targeting-against-global-php-infrastructure/) | DPRK 疑似扫描 PHP2Shell 通告 |
+| [Secure Kernel 勘误](https://antid0te.sg/blog/secure-kernel-first-look-erratum.html) | Secure Kernel 初探一文勘误 |
+| [Wiz Brotli RCE 影响](https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js) | Brotli RCE 的 Node.js 影响分析 |
+| [Windows Rootkits 指南 v2.1](https://github.com/ArtemBaranov/WindowsRootkitsGuide/blob/main/rootkits_bootkits_v2_1.pdf) | Windows 内核 Rootkit 指南 PDF |
 | [Splunk Patroni 漏洞](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-76268/) | Splunk Patroni 未授权访问漏洞分析 |
 | [APT41 BlackX](https://securelist.com/uefi-bootkit-blackx/121539/) | APT41 复活 BlackLotus 袭外交机构 |
 | [Passkey 强制](https://www.darkoperator.com/blog/2026/10/22/enabling-passkeys-is-not-the-same-as-enforcing-them) | Passkey 启用与强制之差解析 |

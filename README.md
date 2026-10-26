@@ -1,7 +1,38 @@
 # gitweekly
 
+https://github.com/TauricResearch/TradingAgents
+https://github.com/danny-avila/LibreChat
+https://github.com/heygen-com/hyperframes
+https://github.com/Fincept-Corporation/FinceptTerminal
+https://github.com/harry0703/MoneyPrinterTurbo
+https://github.com/cloudflare/agentic-inbox
+https://github.com/OpenBMB/VoxCPM
+https://github.com/reconurge/flowsint
+https://github.com/addyosmani/agent-skills
+https://github.com/NangoHQ/nango
+https://github.com/stanford-cs336/spring2025-lectures
+https://github.com/aas-n/reauthx
+
+
+https://blackfield.ch/blog/defeating-enforced-smb-signing/
+
+https://www.akamai.com/blog/security-research/bring-your-own-edr-turn-commercial-edr-trojan-horse
+
+
+
+
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173) | FortiSIEM 未授权 RCE PoC |
+| [cve-2026-71362-magento-ato](https://github.com/mahumadad/cve-2026-71362-magento-ato) | Adobe Commerce 账户接管漏洞 PoC |
+| [CVE-2026-108551-POC](https://github.com/Zombie-Kaiser/CVE-2026-108551-POC) | openapi 代码生成器 RCE PoC |
+| [node2shell-scanner](https://github.com/assetnote/node2shell-scanner) | Node2Shell 黑盒检测扫描器 |
+| [node2shell-lab](https://github.com/tani2shell/node2shell-lab) | Node2Shell Brotli 漏洞靶场 |
+| [php2shell-lab](https://github.com/tani2shell/php2shell-lab) | PHP2Shell 漏洞复现靶场环境 |
+| [HTTP2Shell-PoC](https://github.com/GlobularOne/HTTP2Shell-PoC) | HTTP2Shell 漏洞利用 PoC |
+| [CVE-2026-111497-node2shell](https://github.com/syrex1013/CVE-2026-111497-node2shell) | Node2Shell Brotli 越界写 PoC |
+| [ACD421-PHP](https://github.com/ACD421/PHP) | PHP2Shell 署名争议方研究仓库 |
+| [SliverC2-Indicators](https://github.com/orlofv/Indicators/blob/main/SliverC2) | Shodan 发现的 SliverC2 IoC 库 |
 | [openhands-disclosure](https://github.com/edoardottt/openhands-disclosure) | OpenHands 命令注入漏洞披露 |
 | [Black_Hole_Attack_for_Vector_Database](https://github.com/hanxi19/Black_Hole_Attack_for_Vector_Database) | 对向量数据库实施黑洞攻击的研究 |
 | [php2shell-scanner](https://github.com/assetnote/php2shell-scanner) | PHP2Shell 双 CVE 高保真扫描检测工具 |

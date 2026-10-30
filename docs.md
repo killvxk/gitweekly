@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [APT37 隔离网新能力](https://www.zscaler.com/blogs/security-research/apt37-adds-new-capabilities-air-gapped-networks) | APT37 针对隔离网络新能力分析研究 |
+| [UCreator 安卓间谍平台](https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/) | UCreator 虚拟化安卓间谍平台研究 |
+| [TL-2026-4419](https://intel.threadlinqs.com/threat/tl-2026-4419) | 伪造微软更新证书的威胁情报条目 |
+| [Pwning the Wii: Another Pwn](https://layle.me/posts/another-code-r/) | Wii 游戏存档栈溢出漏洞利用研究 |
+| [Pwning the Wii: The Haxx Bearers](https://layle.me/posts/ffcc-crystal-bearers/) | Wii 游戏存档越界写漏洞利用研究 |
 | [SMB 强制签名绕过](https://blackfield.ch/blog/defeating-enforced-smb-signing/) | 击败强制 SMB 签名的攻击研究 |
 | [MSFT LiteLLM 供应链分析](https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/) | 微软拆解 LiteLLM 供应链入侵窃凭 |
 | [AI 解恶意压缩包密码](https://www.hexacorn.com/blog/2026/10/24/solving-practical-problems-with-ai-part-2-the-most-popular-and-most-commonly-used-passwords-for-malicious-archives/) | Hexacorn 用 AI 猜恶意压缩包密码 |

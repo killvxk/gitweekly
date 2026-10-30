@@ -2624,7 +2624,7 @@
   "https://github.com/bkerler/exploit_me": "ARM/AArch64漏洞利用练习程序",
   "https://github.com/0xHossam/UnCanny": "Windows InstallService NTLM诱导研究",
   "https://github.com/leaperone/smctl": "Mac SMC风扇电池控制CLI工具",
-  "https://github.com/PeterGabaldon/WhatAboutSAM": "Windows SAM转储验证工具",
+  "https://github.com/PeterGabaldon/WhatAboutSAM": "Windows SAM 凭据转储 PoC 工具",
   "https://github.com/idov31/EtwSuite": "Windows ETW事件检查与录制套件",
   "https://github.com/kernullist/ETWPrism": "Rust实现的用户态ETW拦截实验室",
   "https://www.shadowserver.org/what-we-do/network-reporting/initial-access-broker-report/": "Shadowserver初始访问代理监测报告",
@@ -4260,5 +4260,15 @@
   "https://github.com/NangoHQ/nango": "对接千余 API 的开源集成平台",
   "https://github.com/stanford-cs336/spring2025-lectures": "斯坦福 CS336 语言建模课讲义",
   "https://github.com/aas-n/reauthx": "击败强制 SMB 签名的 krbrelayx 分支",
-  "https://blackfield.ch/blog/defeating-enforced-smb-signing/": "击败强制 SMB 签名的攻击研究"
+  "https://blackfield.ch/blog/defeating-enforced-smb-signing/": "击败强制 SMB 签名的攻击研究",
+  "https://github.com/0x4D31/honeypot-data/tree/main/reports/php2shell": "PHP2Shell 蜜罐在野利用证据报告目录",
+  "https://github.com/ioncodes/wii-exploits": "Wii 模拟器研究中发现的漏洞利用合集",
+  "https://github.com/syrex1013/php-json-encode-uaf": "PHP json_encode 释放后利用 PoC",
+  "https://www.zscaler.com/blogs/security-research/apt37-adds-new-capabilities-air-gapped-networks": "APT37 针对隔离网络新能力分析研究",
+  "https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/": "UCreator 虚拟化安卓间谍平台研究",
+  "https://intel.threadlinqs.com/threat/tl-2026-4419": "伪造微软更新证书的威胁情报条目",
+  "https://layle.me/posts/another-code-r/": "Wii 游戏存档栈溢出漏洞利用研究",
+  "https://layle.me/posts/ffcc-crystal-bearers/": "Wii 游戏存档越界写漏洞利用研究",
+  "https://github.com/redteamfortress/KillerLand": "漏洞驱动武器化进程击杀工具合集",
+  "https://github.com/bdg9412/artex-ko-plus": "ARTEX 韩文版 AI 事件响应工具"
 }

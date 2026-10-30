@@ -2,6 +2,9 @@
 
 | 链接 | 描述 |
 |------|------|
+| [honeypot-data php2shell 报告](https://github.com/0x4D31/honeypot-data/tree/main/reports/php2shell) | PHP2Shell 蜜罐在野利用证据报告目录 |
+| [wii-exploits](https://github.com/ioncodes/wii-exploits) | Wii 模拟器研究中发现的漏洞利用合集 |
+| [php-json-encode-uaf](https://github.com/syrex1013/php-json-encode-uaf) | PHP json_encode 释放后利用 PoC |
 | [ns2jb](https://gitlab.com/pepsipu/ns2jb) | 任天堂 Switch 2 越狱漏洞研究 |
 | [CVE-2026-106173](https://github.com/horizon3ai/CVE-2026-106173) | FortiSIEM 未授权 RCE PoC |
 | [cve-2026-71362-magento-ato](https://github.com/mahumadad/cve-2026-71362-magento-ato) | Adobe Commerce 账户接管漏洞 PoC |

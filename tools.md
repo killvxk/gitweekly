@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [KillerLand](https://github.com/redteamfortress/KillerLand) | 漏洞驱动武器化进程击杀工具合集 |
+| [WhatAboutSAM](https://github.com/PeterGabaldon/WhatAboutSAM) | Windows SAM 凭据转储 PoC 工具 |
+| [artex-ko-plus](https://github.com/bdg9412/artex-ko-plus) | ARTEX 韩文版 AI 事件响应工具 |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 多智能体 LLM 金融交易框架 |
 | [LibreChat](https://github.com/LibreChat-AI/LibreChat) | 可自托管的多模型 AI 聊天前端 |
 | [hyperframes](https://github.com/heygen-com/hyperframes) | HTML 渲染成视频的代理框架 |

@@ -2,6 +2,77 @@
 
 | 文章 | 简介 |
 |------|------|
+| [mcp-reverse](https://github.com/1llu50ry/mcp-reverse) | 逆向工程多后端 MCP 聚合服务器 |
+| [JNISleuth-MCP](https://github.com/nighthawkk/JNISleuth-MCP) | 安卓 JNI 逆向自动化 MCP 服务器 |
+| [kitsune](https://github.com/bitplugg/kitsune) | 整合多工具链的九尾狐渗透测试框架 |
+| [Check-Risk-WAF](https://github.com/check-risk-waf/check-risk-waf) | 俄罗斯商业 WAF 反向代理防护套件 |
+| [ReflectiveDLLRefresher](https://github.com/cylancevulnresearch/ReflectiveDLLRefresher) | 反射 DLL 注入还原 API 钩子工具 |
+| [hashcat-utils](https://github.com/hashcat/hashcat-utils) | hashcat 高级破解辅助工具集 |
+| [UA3F](https://github.com/SunBK201/UA3F) | HTTP 流量 UA 透明重写代理 |
+| [esp8266-injection-example](https://github.com/pulkin/esp8266-injection-example) | ESP8266 无线注入与去认证示例 |
+| [esp32-sniffer](https://github.com/ETS-PoliTO/esp32-sniffer) | ESP32 嗅探追踪手机探测请求 |
+| [ArpCut](https://gitlab.com/FengGuan/ArpCut) | ARP 欺骗实现局域网断网的工具 |
+| [passer](https://github.com/activecm/passer) | 被动嗅探识别服务主机与系统指纹 |
+| [harlogger](https://github.com/doronz88/harlogger) | 嗅探苹果 CFNetwork 解密流量工具 |
+| [svg-hush](https://github.com/cloudflare/svg-hush) | 净化不受信 SVG 防 XSS 的过滤器 |
+| [inventory](https://github.com/trickest/inventory) | 公开漏洞赏金计划的资产攻击面监测 |
+| [svg-sanitizer](https://github.com/Borewit/svg-sanitizer) | 防止 SVG XSS 的 Java 校验库 |
+| [blackbird](https://github.com/antoniaci/blackbird) | 按用户名邮箱搜社交账号的 OSINT 工具 |
+| [ahmia-site](https://github.com/ahmia/ahmia-site) | Ahmia 暗网隐藏服务搜索引擎 |
+| [darkfox](https://github.com/aryanguenthner/darkfox) | 暗网 CTI 与 OSINT 调查框架 |
+| [TorCrawl.py](https://github.com/MikeMeliz/TorCrawl.py) | 经 Tor 网络的匿名网页爬取工具 |
+| [Evilginx3-Phishlets](https://github.com/simplerhacking/Evilginx3-Phishlets) | Evilginx3 红队钓鱼页配置合集 |
+| [redStack](https://github.com/devzero-security/redStack) | AWS 快速部署红队 C2 训练环境 |
+| [darc](https://github.com/JarryShaw/darc) | 暗网爬虫瑞士军刀式集成工具框架 |
+| [get-the-hacker](https://github.com/buybitart/get-the-hacker) | 被动式 WiFi 无线入侵检测系统 |
+| [GhostStrike](https://github.com/stivenhacker/GhostStrike) | 加密 Shellcode 进程注入规避工具 |
+| [safe-svg](https://github.com/bgalek/safe-svg) | 检测上传 SVG 恶意内容的 Java 库 |
+| [ScubaGoggles](https://github.com/cisagov/ScubaGoggles) | CISA 谷歌工作区基线配置评估 |
+| [Darkus](https://github.com/Lucksi/Darkus) | 聚合多引擎的暗网洋葱站搜索工具 |
+| [TorBot](https://github.com/DedSecInside/TorBot) | 暗网 OSINT 信息搜集工具 |
+| [xmir-patcher](https://github.com/openwrt-xiaomi/xmir-patcher) | 小米路由器 OpenWrt 固件修补工具 |
+| [samsung_tizen_tv_root](https://github.com/commit-regrets/samsung_tizen_tv_root) | 三星 Tizen 9 电视获取 Root |
+| [iCloudKitExtractor](https://github.com/GiordanoSconti/iCloudKitExtractor) | iCloud 取证备份下载与恢复工具 |
+| [pentest](https://github.com/ZishanAdThandar/pentest) | 渗透测试与漏洞赏金笔记速查指南 |
+| [probe-desktop](https://github.com/ooni/probe-desktop) | OONI Probe 桌面版网络审查测量 |
+| [secprbench](https://github.com/secprbench/secprbench) | 真实代码变更的安全审查基准测试 |
+| [p2pwn](https://github.com/thebadinteger/p2pwn) | 大华摄像头 P2P 安全扫描器 |
+| [C2IntelFeeds](https://github.com/drb-ra/C2IntelFeeds) | 自动聚合生成的 C2 威胁情报源 |
+| [PrologWinDbg](https://github.com/DumpAnalysis/PrologWinDbg) | 用 Prolog 分析内存转储的调试扩展 |
+| [unthemidator](https://github.com/x86rc/unthemidator) | Themida 系壳自动脱壳修复工具 |
+| [godot-security-pocs](https://github.com/bitbutter/godot-security-pocs) | Godot 引擎安全漏洞 PoC 复现 |
+| [CVEngine](https://github.com/hevnsnt/CVEngine) | AI 驱动的外部攻击面评估系统 |
+| [Evil_Twin_Attack](https://gitlab.com/yashubitra/Evil_Twin_Attack) | Kali 恶意双胞胎攻击与检测套件 |
+| [Mobile-Intrusion-Detection-System](https://gitlab.com/yashubitra/Mobile-Intrusion-Detection-System) | 深度自编码器移动流量异常检测系统 |
+| [advisory-database](https://github.com/github/advisory-database) | GitHub 官方安全通告漏洞数据库 |
+| [MeshCentral](https://github.com/Ylianst/MeshCentral) | 开源 Web 远程监控管理平台 |
+| [oak](https://github.com/project-oak/oak) | Google 机密计算 enclave 开源框架 |
+| [guardrebind](https://github.com/ukanwat/guardrebind) | 欺骗 LLM 安全护栏误判文本的研究 |
+| [dshield](https://github.com/DShield-ISC/dshield) | DShield 蜜罐传感器部署套件 |
+| [cvmimage](https://github.com/tinfoilsh/cvmimage) | Tinfoil 的机密虚拟机镜像构建 |
+| [rust-deobf](https://github.com/VAHPEM/rust-deobf) | Rust 二进制静态去混淆分析工具 |
+| [stego_provenance_defense](https://github.com/ericyoc/stego_provenance_defense) | 对抗隐写提示注入的来源溯源防御 |
+| [OpcUaTrap](https://github.com/0xAJStrike/OpcUaTrap) | OPC UA 工控高交互蜜罐系统 |
+| [WHFB-PinCapture](https://github.com/ivancabrera02/WHFB-PinCapture) | Windows Hello PIN 凭据捕获工具 |
+| [emsign-trust-scan](https://github.com/0xAJStrike/emsign-trust-scan) | eMudhra 失窃证书离线扫描工具 |
+| [velum-vmm](https://github.com/Dovughs/velum-vmm) | Windows 内核研究型 Hypervisor |
+| [mtk-imei-switcheroo](https://github.com/alltechdev/mtk-imei-switcheroo) | 联发科 NVRAM 的 IMEI 读写工具 |
+| [xss-payload-list](https://github.com/Proviesec/xss-payload-list) | XSS 漏洞 Payload 大全清单 |
+| [low-int-cert-monitor](https://github.com/glen-testing/low-int-cert-monitor) | 监测 CT 日志中的弱椭圆曲线密钥 |
+| [Ghidra-Rare](https://github.com/aleph-void/Ghidra-Rare) | Ghidra 罕见处理器指令集支持 |
+| [sclock](https://github.com/planners1490/sclock) | 绑定安全隔区的多态 VM 保护 CrackMe |
+| [NativeMirror](https://github.com/habanada/NativeMirror) | PE-sieve 功能的 Delphi 原生实现 |
+| [rea-rust](https://github.com/nanashili/rea-rust) | REA 逆向工具的 Rust 移植版 |
+| [kraken](https://github.com/Adam-AtlasSoftware/kraken) | 增强版 Rust 二进制逆向重写工具 |
+| [picard](https://github.com/neitzert/picard) | 协议内省式的弹性数据分块适配器 |
+| [hvt](https://github.com/affolter-engineering/hvt) | HTTP 动词篡改渗透测试工具 |
+| [Esp32-Blue-Ducky](https://github.com/tonixtoolkitofficial-afk/Esp32-Blue-Ducky) | ESP32 蓝牙 BadUSB 无线攻击套件 |
+| [mitm-proxy-ja3-ja4](https://github.com/3Radiance/mitm-proxy-ja3-ja4) | Rust 中间人代理伪造 TLS 指纹 |
+| [django-defender](https://github.com/jazzband/django-defender) | 拦截登录暴力破解的 Django 防护组件 |
+| [Brida](https://github.com/federicodotta/Brida) | Burp Suite 与 Frida 的桥梁插件 |
+| [aurora](https://github.com/frida/aurora) | 基于 Frida 的概念验证 Web 应用 |
+| [JSShell](https://github.com/Den1al/JSShell) | 多用户交互式 Web JS Shell |
+| [LadonGo](https://github.com/k8gege/LadonGo) | 跨平台一键内网渗透与密码爆破扫描器 |
 | [machbox](https://github.com/ac0d3r/machbox) | 一次性 macOS 虚拟机自动化工作流 |
 | [machbox-malware](https://github.com/ac0d3r/machbox-malware) | machbox 恶意软件分析插件 |
 | [malware-iocs](https://github.com/doctorwebltd/malware-iocs) | Doctor Web 恶意软件 IoC 汇总库 |

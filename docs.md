@@ -2,6 +2,28 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Passkey 注册新弱点](https://www.darkoperator.com/blog/2026/10/26/passkey-enrollment-and-account-recovery-the-new-weak-point) | Passkey 注册与账户恢复薄弱点分析 |
+| [Qwen3-Coder 偏差](https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html) | Qwen3-Coder 模型输出偏差研究 |
+| [Salesforce 授权差异测试](https://www.netspi.com/blog/technical-blog/cloud-pentesting/authorization-differential-testing-in-salesforce/) | Salesforce 授权差异测试方法研究 |
+| [云隔离绕过](https://securelist.com/cloud-infrastructure-isolation-bypass/121609/) | 利用漏洞链绕过云基础设施隔离研究 |
+| [FortiBleed 2.0](https://www.infostealers.com/article/fortibleed-2-0-975-new-domains-40573-exposed-secrets-claim-your-ethical-disclosure/) | FortiBleed 2.0 新增暴露域名与密钥 |
+| [Scalable Vector Grief](https://portswigger.net/research/scalable-vector-grief) | SVG 向量图形滥用攻击面研究 |
+| [Edge 逻辑全链](https://devco.re/blog/2026/10/28/the-last-proof-of-human-craft-forging-a-microsoft-edge-full-chain-with-logic-bugs-only-en/) | 纯逻辑缺陷串联的 Edge 全链攻破 |
+| [AI 隐藏能力](https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html) | AI 模型隐藏能力问题研究评述 |
+| [Fuzzers vs AI](https://projectzero.google/2026/10/fuzzing-v-AI.html) | Fuzzilli 与 BigSleep 挖洞对比 |
+| [Finesse SSRF](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20362/) | Cisco Finesse SSRF 漏洞分析 |
+| [Intelbras 摄像头 DoS](https://securelist.com/intelbras-camera-vulnerability/121131/) | Intelbras 监控摄像头 DoS 漏洞 |
+| [LLM 提示注入利用](https://www.intigriti.com/researchers/blog/hacking-tools/exploiting-advanced-llm-prompt-injection-vulnerabilities) | 高级 LLM 提示注入漏洞利用实战 |
+| [KeyDrift 植入](https://blog.talosintelligence.com/uat-11473-keydrift/) | 思科 SD-WAN 遭 KeyDrift 植入分析 |
+| [CyberDakait](https://www.group-ib.com/blog/cyberdakait-seven-android-trojans-indian-banking/) | 七族安卓木马团伙袭击印度银行应用 |
+| [INJ3CTOR3](https://cyble.com/blog/hijacked-pbx-to-stolen-trunk-inj3ctor3s-campaign/) | INJ3CTOR3 窃 FreePBX 凭据欺诈 |
+| [无限制模型渗透](https://blog.includesecurity.com/2026/10/abliterated-models-in-appsec-pentesting/) | 无限制 AI 模型用于应用渗透测试 |
+| [QSYRUPWD 第二篇](https://blog.silentsignal.eu/2026/10/29/qsyrupwd-part-2-correcting-the-rijndael-key-builder/) | QSYRUPWD Rijndael 密钥构造修正 |
+| [DefenderKiller](https://flashpoint.io/blog/defenderkiller-how-vulnerable-drivers-are-being-abused-to-disable-endpoint-security/) | 漏洞驱动滥用禁用 Defender 研究 |
+| [MadApe 钓鱼套件](https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit/) | MadApe 设备码钓鱼工具包分析 |
+| [NIK C2](https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/) | AI 驱动的 NIK C2 框架分析 |
+| [朝鲜演员 AI 追踪](https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/) | 朝鲜威胁行为者采用 AI 的追踪研究 |
+| [会话安全实测](https://www.darkoperator.com/blog/2026/10/29/w5qsv4977w92qgoxoethi861dzud1l) | 会话安全令牌保护与 CAE 实测 |
 | [DarkCore RAT 会话劫持](https://4tify.io/article/darkcore-rat-hijacks-gmail-and-whatsapp-sessions-while-browsing-from-the-victim-) | DarkCore RAT 劫持通信软件会话分析 |
 | [内核 CVE-2026-31695 演讲 PDF](https://a13xp0p0v.tech/img/Alexander_Popov-Dangerous_Device.pdf) | Linux 内核漏洞演讲幻灯片 PDF |
 | [Instinct 沙箱代码执行](https://amirzak.substack.com/p/achieving-code-execution-inside-instinct) | Instinct 与 Muse 沙箱 RCE 研究 |

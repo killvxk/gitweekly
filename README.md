@@ -2,6 +2,9 @@
 
 | 链接 | 描述 |
 |------|------|
+| [wake-and-break](https://github.com/blasty/wake-and-break) | AMD 显卡 PSP 未签名固件利用 |
+| [edk2-security](https://github.com/lukr54/edk2-security) | EDK2 Brotli 解码堆溢出 0day 披露 |
+| [smsofdeath](https://github.com/markblah/smsofdeath) | 畸形 WAP Push 短信致安卓崩溃 PoC |
 | [StealMyBitcoin-PoC](https://github.com/KillaBoi/StealMyBitcoin-PoC) | StealMyBitcoin 挑战解法 PoC |
 | [CVE-2026-77647](https://github.com/Nxploited/CVE-2026-77647) | SPIP 未认证远程代码执行 PoC |
 | [TIER_2_CVE-2026-112353](https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-27/TIER_2_CVE-2026-112353.md) | 图灵所 CVE 自动化威胁分析报告 |

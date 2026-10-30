@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [machbox](https://github.com/ac0d3r/machbox) | 一次性 macOS 虚拟机自动化工作流 |
+| [machbox-malware](https://github.com/ac0d3r/machbox-malware) | machbox 恶意软件分析插件 |
+| [malware-iocs](https://github.com/doctorwebltd/malware-iocs) | Doctor Web 恶意软件 IoC 汇总库 |
+| [IDAChef](https://github.com/ExpOrx/IDAChef) | IDA Pro 内嵌 CyberChef 工具箱 |
+| [Decepticon](https://github.com/gongchengcheng/Decepticon) | AI 驱动的授权渗透测试靶场环境 |
+| [aegis](https://github.com/ipreetgs/aegis) | 本地 CVE 情报索引与暴露面映射 |
+| [PngLoader](https://github.com/i014n/PngLoader) | PNG 隐写载荷加载执行研究工具 |
+| [inkblade](https://github.com/lupingQAQ/inkblade) | LLM 集群十层攻击面渗透框架 |
+| [NightAgents](https://github.com/m19o/NightAgents) | 红队基础设施的监控与防护工具集 |
+| [dicozorus](https://github.com/synacktiv/dicozorus) | Web 模糊测试字典生成维护工具 |
 | [KillerLand](https://github.com/redteamfortress/KillerLand) | 漏洞驱动武器化进程击杀工具合集 |
 | [WhatAboutSAM](https://github.com/PeterGabaldon/WhatAboutSAM) | Windows SAM 凭据转储 PoC 工具 |
 | [artex-ko-plus](https://github.com/bdg9412/artex-ko-plus) | ARTEX 韩文版 AI 事件响应工具 |

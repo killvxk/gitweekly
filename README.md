@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [StealMyBitcoin-PoC](https://github.com/KillaBoi/StealMyBitcoin-PoC) | StealMyBitcoin 挑战解法 PoC |
+| [CVE-2026-77647](https://github.com/Nxploited/CVE-2026-77647) | SPIP 未认证远程代码执行 PoC |
+| [TIER_2_CVE-2026-112353](https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-27/TIER_2_CVE-2026-112353.md) | 图灵所 CVE 自动化威胁分析报告 |
+| [Livepyre](https://github.com/synacktiv/Livepyre) | Livewire RCE 漏洞利用工具 |
 | [honeypot-data php2shell 报告](https://github.com/0x4D31/honeypot-data/tree/main/reports/php2shell) | PHP2Shell 蜜罐在野利用证据报告目录 |
 | [wii-exploits](https://github.com/ioncodes/wii-exploits) | Wii 模拟器研究中发现的漏洞利用合集 |
 | [php-json-encode-uaf](https://github.com/syrex1013/php-json-encode-uaf) | PHP json_encode 释放后利用 PoC |

@@ -2,6 +2,35 @@
 
 | 文章 | 简介 |
 |------|------|
+| [DarkCore RAT 会话劫持](https://4tify.io/article/darkcore-rat-hijacks-gmail-and-whatsapp-sessions-while-browsing-from-the-victim-) | DarkCore RAT 劫持通信软件会话分析 |
+| [内核 CVE-2026-31695 演讲 PDF](https://a13xp0p0v.tech/img/Alexander_Popov-Dangerous_Device.pdf) | Linux 内核漏洞演讲幻灯片 PDF |
+| [Instinct 沙箱代码执行](https://amirzak.substack.com/p/achieving-code-execution-inside-instinct) | Instinct 与 Muse 沙箱 RCE 研究 |
+| [SkyW4lker 钓鱼工具包分析](https://any.run/cybersecurity-blog/skyw4lker-phishing-kit-analysis/) | SkyW4lker 钓鱼工具包分析报告 |
+| [Omega AI 地下服务调查](https://blog.securitybreak.io/inside-omega-ai-the-rise-of-all-in-one-underground-ai-services-e0a0f91199b4) | Omega AI 一站式地下黑产服务调查 |
+| [假招标受保护文档钓鱼](https://cofense.com/blog/locked-and-loaded-phishing-through-fake-bids-and-protected-documents) | Cofense 假招标文档钓鱼分析 |
+| [Kong RAT 投毒分析](https://hybrid-analysis.blogspot.com/2026/10/seo-poisoning-campaign-targets-deepseek.html) | 假冒 DeepSeek 的 Kong RAT 投毒 |
+| [TL-2026-4578](https://intel.threadlinqs.com/threat/tl-2026-4578) | TL-2026-4578 威胁情报条目 |
+| [WordPress 插件恶意脚本事件](https://kbourdakos.gr/articles/wordpress-clickfix-plugin-removes-rival-malware-scripts.html) | WordPress 插件剔除竞品恶意脚本分析 |
+| [__c5cfg 样本逆向](https://lynk4.github.io/mare/c5-enigma/index.html) | macOS 自定义 Mach-O 区段样本逆向 |
+| [AI 渗透面板反向接管](https://norforge.com/blog/automated-subversion-attempted-takeover) | 暴露的 AI 渗透面板被反向接管分析 |
+| [Chromecast 安全启动绕过](https://oddsolutions.github.io/Chromecast-with-Google-TV-4K-Secure-Boot-Bypass-v2/) | Chromecast 持久化安全启动绕过研究 |
+| [Azure APIM C2 重定向器](https://redops.at/research/azure-api-management-as-a-policy-based-c2-redirector/) | Azure APIM 策略型 C2 重定向研究 |
+| [Check Point 情报周报](https://research.checkpoint.com/2026/26th-october-threat-intelligence-report/) | Check Point 威胁情报周报 |
+| [42 个被劫持 GitHub 仓库](https://research.jfrog.com/post/beyond-testmetest-42-hijacked-github-repos/) | 42 个遭劫持 GitHub 仓库蠕虫分析 |
+| [hize_hacker 团伙画像](https://s2w.inc/en/resources/1144) | hize_hacker 泄露贩卖团伙画像报告 |
+| [NGC5081 IDFKA 回归](https://rt-solar.ru/solar-4rays/blog/7144/) | NGC5081 组织 IDFKA 植入回归分析 |
+| [DeepVeinDrilling 加载器](https://sansec.io/research/magento-cms-block-loader-deepveindrilling) | Magento 店铺恶意加载器域名追踪 |
+| [The Gentlemen RaaS 分析](https://www.acronis.com/en/tru/posts/the-gentlemen-a-closer-look-at-a-not-so-gentle-ransomware-as-a-service-operation/) | The Gentlemen 勒索即服务深度分析 |
+| [Silent Train 行动框架](https://www.lumen.com/blog/en-us/silent-train-volt-typhoon-operational-framework) | Volt Typhoon 隐蔽行动框架分析 |
+| [Entra 条件访问绕过狩猎](https://www.mitiga.io/blog/hunting-conditional-access-policy-bypass-in-the-wild) | Entra 条件访问与 CAE 绕过狩猎 |
+| [When Pico's Attack](https://www.nccgroup.com/research/when-picos-attack-usb-exploit-engineering/) | 树莓派 Pico USB 利用工程研究 |
+| [REPRO-2026-00388](https://www.pruva.dev/reproductions/REPRO-2026-00388) | Pruva 平台公开漏洞复现报告 |
+| [Lights Out 暴露面报告](https://www.runzero.com/blog/lights-out-exposed/) | runZero 设备暴露面分析报告 |
+| [Trust Graft 后门分析](https://www.securonix.com/blog/trust-graft-wordpress-admin-php-backdoor/) | WordPress 管理后台 PHP 后门分析 |
+| [假法院 ADR 钓鱼](https://www.threatdown.com/blog/fake-court-adr-phishing-lodarat/) | 假法院邮件投放 AutoIt LodaRAT |
+| [PeopleSoft SSRF 转 RCE](https://www.zerodayinitiative.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft) | PeopleSoft SSRF 转 RCE 研究 |
+| [AWS MCP 沙箱逃逸](https://xplo1t-sec.github.io/posts/breaking-the-aws-mcp-python-sandbox/) | AWS MCP Python 沙箱逃逸研究 |
+| [WESP 端点安全平台](https://www.elastic.co/security-labs/blog/windows-endpoint-security-platform-wesp) | Elastic 开源 Windows 端点防护平台 |
 | [APT37 隔离网新能力](https://www.zscaler.com/blogs/security-research/apt37-adds-new-capabilities-air-gapped-networks) | APT37 针对隔离网络新能力分析研究 |
 | [UCreator 安卓间谍平台](https://www.0x0v1.com/ucreator-virtualization-based-android-spyware-platform-targeting-wechat-telegram-and-other-messaging-apps/) | UCreator 虚拟化安卓间谍平台研究 |
 | [TL-2026-4419](https://intel.threadlinqs.com/threat/tl-2026-4419) | 伪造微软更新证书的威胁情报条目 |

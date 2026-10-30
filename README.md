@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [cve-2026-15176](https://github.com/FranklinF25/cve-2026-15176) | NGINX alias重写堆溢出漏洞PoC |
+| [CVE-2026-43664](https://github.com/speedyfriend433/CVE-2026-43664) | iOS AirPods蓝牙MAC地址泄露PoC |
+| [php8511-exact-build-poc](https://github.com/jayy-hub1490/php8511-exact-build-poc) | PHP 8.5.11会话内存泄露RCE PoC |
+| [AVETemporalPoC-CVE-2026-112705](https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705) | iOS AppleAVE2内核越界写漏洞PoC |
 | [wake-and-break](https://github.com/blasty/wake-and-break) | AMD 显卡 PSP 未签名固件利用 |
 | [edk2-security](https://github.com/lukr54/edk2-security) | EDK2 Brotli 解码堆溢出 0day 披露 |
 | [smsofdeath](https://github.com/markblah/smsofdeath) | 畸形 WAP Push 短信致安卓崩溃 PoC |

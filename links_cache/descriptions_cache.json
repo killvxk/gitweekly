@@ -4410,5 +4410,9 @@
   "https://github.com/frida/aurora": "基于 Frida 的概念验证 Web 应用",
   "https://github.com/Den1al/JSShell": "多用户交互式 Web JS Shell",
   "https://github.com/k8gege/LadonGo": "跨平台一键内网渗透与密码爆破扫描器",
-  "https://github.com/Lucksi/Darkus": "聚合多引擎的暗网洋葱站搜索工具"
+  "https://github.com/Lucksi/Darkus": "聚合多引擎的暗网洋葱站搜索工具",
+  "https://github.com/FranklinF25/cve-2026-15176": "NGINX alias重写堆溢出漏洞PoC",
+  "https://github.com/speedyfriend433/CVE-2026-43664": "iOS AirPods蓝牙MAC地址泄露PoC",
+  "https://github.com/jayy-hub1490/php8511-exact-build-poc": "PHP 8.5.11会话内存泄露RCE PoC",
+  "https://github.com/MchinaMd57764/AVETemporalPoC-CVE-2026-112705": "iOS AppleAVE2内核越界写漏洞PoC"
 }

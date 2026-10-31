@@ -4432,5 +4432,17 @@
   "https://github.com/nshalabi/ATTACK-Tools": "MITRE ATT&CK 对抗模拟实用工具集",
   "https://github.com/interplains/Zero-Breach-Toolkit": "离线检测雇佣间谍软件痕迹的工具包",
   "https://github.com/vulncheck-oss/initial-access-community": "初始访问漏洞利用与配套检测工件库",
-  "https://github.com/S12cybersecurity/WhatPatchguardProtects": "PatchGuard 监控的内核结构与例程参考"
+  "https://github.com/S12cybersecurity/WhatPatchguardProtects": "PatchGuard 监控的内核结构与例程参考",
+  "https://github.com/Ping-2o/duper-cves": "iOS 跨版本二进制的 CVE 差集清单",
+  "https://github.com/Devolutions/jiffshot": "纯 Rust 实现的截图录屏与标注工具",
+  "https://github.com/NousResearch/hermes-official-plugins": "Nous 官方 Hermes Agent 插件合集",
+  "https://github.com/agentgateway/agentgateway": "AI Agent 与 MCP 的新一代代理网关",
+  "https://github.com/regaan/basilisk": "遗传算法提示演进的 AI 红队框架",
+  "https://github.com/walkinglabs/learn-harness-engineering": "Harness 智能体框架工程从零教程",
+  "https://github.com/ruzfi/vulnsuite": "可复现漏洞容器验证扫描器与检测规则",
+  "https://github.com/browser-use/jev-ultrafast": "browser-use 的最快最省 Web 智能体",
+  "https://github.com/JustAResearcher/gpu-unlock-ada": "RTX 4090 张量核心解锁固件生成",
+  "https://github.com/HarnessRouter/harnessrouter": "统一接入多编码 Agent 框架的自托管网关",
+  "https://github.com/lxeoz/NvToolKit": "NVIDIA 驱动配置与注册表便携管理工具",
+  "https://github.com/peach-mitao/peach": "本地优先的视频元数据刮削媒体库"
 }

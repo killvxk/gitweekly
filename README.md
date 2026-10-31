@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [duper-cves](https://github.com/Ping-2o/duper-cves) | iOS 跨版本二进制的 CVE 差集清单 |
 | [initial-access-community](https://github.com/vulncheck-oss/initial-access-community) | 初始访问漏洞利用与配套检测工件库 |
 | [WhatPatchguardProtects](https://github.com/S12cybersecurity/WhatPatchguardProtects) | PatchGuard 监控的内核结构与例程参考 |
 | [cve-2026-15176](https://github.com/FranklinF25/cve-2026-15176) | NGINX alias重写堆溢出漏洞PoC |

@@ -2,6 +2,17 @@
 
 | 文章 | 简介 |
 |------|------|
+| [jiffshot](https://github.com/Devolutions/jiffshot) | 纯 Rust 实现的截图录屏与标注工具 |
+| [hermes-official-plugins](https://github.com/NousResearch/hermes-official-plugins) | Nous 官方 Hermes Agent 插件合集 |
+| [agentgateway](https://github.com/agentgateway/agentgateway) | AI Agent 与 MCP 的新一代代理网关 |
+| [basilisk](https://github.com/regaan/basilisk) | 遗传算法提示演进的 AI 红队框架 |
+| [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) | Harness 智能体框架工程从零教程 |
+| [vulnsuite](https://github.com/ruzfi/vulnsuite) | 可复现漏洞容器验证扫描器与检测规则 |
+| [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | browser-use 的最快最省 Web 智能体 |
+| [gpu-unlock-ada](https://github.com/JustAResearcher/gpu-unlock-ada) | RTX 4090 张量核心解锁固件生成 |
+| [harnessrouter](https://github.com/HarnessRouter/harnessrouter) | 统一接入多编码 Agent 框架的自托管网关 |
+| [NvToolKit](https://github.com/lxeoz/NvToolKit) | NVIDIA 驱动配置与注册表便携管理工具 |
+| [peach](https://github.com/peach-mitao/peach) | 本地优先的视频元数据刮削媒体库 |
 | [Hodometer](https://github.com/gary23w/Hodometer) | 单文件 Win32 进程网络收发去向托盘工具 |
 | [arcgis-web-shell](https://github.com/ryanpohlner/arcgis-web-shell) | ArcGIS Enterprise 命令执行工具箱 |
 | [bla](https://github.com/qybaihe/bla) | 对抗 AI 逆向智能体的程序保护盾 |

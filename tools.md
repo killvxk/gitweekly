@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Hodometer](https://github.com/gary23w/Hodometer) | 单文件 Win32 进程网络收发去向托盘工具 |
+| [arcgis-web-shell](https://github.com/ryanpohlner/arcgis-web-shell) | ArcGIS Enterprise 命令执行工具箱 |
+| [bla](https://github.com/qybaihe/bla) | 对抗 AI 逆向智能体的程序保护盾 |
+| [QuietPhase](https://github.com/d3lightfu1/QuietPhase) | AD 组枚举审计 PowerShell 工具 |
+| [ARTEX 英文版](https://github.com/BaaRai/ARTEX) | AI 自主渗透测试系统英文翻译版 |
+| [MercilessAmd](https://github.com/mein-0/MercilessAmd) | AMD uProof 驱动样本归档 |
+| [vaultwarden](https://github.com/dani-garcia/vaultwarden) | 非官方 Bitwarden 兼容 Rust 服务端 |
+| [fengarde](https://github.com/supermhel/fengarde) | 自托管 OCSF 检测管线与 NIS2 合规 |
+| [ATTACK-Tools](https://github.com/nshalabi/ATTACK-Tools) | MITRE ATT&CK 对抗模拟实用工具集 |
+| [Zero-Breach-Toolkit](https://github.com/interplains/Zero-Breach-Toolkit) | 离线检测雇佣间谍软件痕迹的工具包 |
 | [mcp-reverse](https://github.com/1llu50ry/mcp-reverse) | 逆向工程多后端 MCP 聚合服务器 |
 | [JNISleuth-MCP](https://github.com/nighthawkk/JNISleuth-MCP) | 安卓 JNI 逆向自动化 MCP 服务器 |
 | [kitsune](https://github.com/bitplugg/kitsune) | 整合多工具链的九尾狐渗透测试框架 |

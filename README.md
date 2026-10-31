@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [initial-access-community](https://github.com/vulncheck-oss/initial-access-community) | 初始访问漏洞利用与配套检测工件库 |
+| [WhatPatchguardProtects](https://github.com/S12cybersecurity/WhatPatchguardProtects) | PatchGuard 监控的内核结构与例程参考 |
 | [cve-2026-15176](https://github.com/FranklinF25/cve-2026-15176) | NGINX alias重写堆溢出漏洞PoC |
 | [CVE-2026-43664](https://github.com/speedyfriend433/CVE-2026-43664) | iOS AirPods蓝牙MAC地址泄露PoC |
 | [php8511-exact-build-poc](https://github.com/jayy-hub1490/php8511-exact-build-poc) | PHP 8.5.11会话内存泄露RCE PoC |

@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PHP2Shell 一周复盘](https://www.tenable.com/blog/php2shell-one-week-later-why-one-exploit-doesnt-work-everywhere) | PHP2Shell 一周后利用不通用复盘 |
+| [Helpdesk 到 AD CS 滥用](https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/) | Helpdesk 冒充到 AD CS 滥用路径 |
+| [过滤器生成实践](https://securelist.com/practical-filter-generation/121697/) | 从算法到 LLM 的过滤器生成实践 |
+| [检测即代码一](https://blog.nviso.eu/2026/10/30/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-1-introduction-and-concept/) | 在既有环境落地检测即代码实践一 |
+| [深伪欺诈防御](https://www.group-ib.com/blog/deepfake-fraud-prevention/) | 为何仅靠检测防不住深度伪造欺诈 |
+| [补丁空窗研究](https://epoch.ai/publications/open-weight-models-patch-gap) | 开放权重 AI 模型利用补丁空窗研究 |
 | [Passkey 注册新弱点](https://www.darkoperator.com/blog/2026/10/26/passkey-enrollment-and-account-recovery-the-new-weak-point) | Passkey 注册与账户恢复薄弱点分析 |
 | [Qwen3-Coder 偏差](https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html) | Qwen3-Coder 模型输出偏差研究 |
 | [Salesforce 授权差异测试](https://www.netspi.com/blog/technical-blog/cloud-pentesting/authorization-differential-testing-in-salesforce/) | Salesforce 授权差异测试方法研究 |

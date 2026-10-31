@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [VAPOR PANDA 与 ARTEX](https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/) | ARTEX 代理框架十一天袭十四国机构 |
+| [木马化 Claude 扩展](https://threatcluster.io/cluster/malicious-claude-code-extension-distributes-persistent-ssh-b-97aef86b) | 木马化 Claude 扩展植入 SSH 后门 |
+| [NetamLoader](https://securelist.com/netamloader/121676/) | NetamLoader 袭亚洲政府定制 Win10 |
 | [PHP2Shell 一周复盘](https://www.tenable.com/blog/php2shell-one-week-later-why-one-exploit-doesnt-work-everywhere) | PHP2Shell 一周后利用不通用复盘 |
 | [Helpdesk 到 AD CS 滥用](https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/) | Helpdesk 冒充到 AD CS 滥用路径 |
 | [过滤器生成实践](https://securelist.com/practical-filter-generation/121697/) | 从算法到 LLM 的过滤器生成实践 |

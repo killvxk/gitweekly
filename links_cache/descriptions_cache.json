@@ -4444,5 +4444,9 @@
   "https://github.com/JustAResearcher/gpu-unlock-ada": "RTX 4090 张量核心解锁固件生成",
   "https://github.com/HarnessRouter/harnessrouter": "统一接入多编码 Agent 框架的自托管网关",
   "https://github.com/lxeoz/NvToolKit": "NVIDIA 驱动配置与注册表便携管理工具",
-  "https://github.com/peach-mitao/peach": "本地优先的视频元数据刮削媒体库"
+  "https://github.com/peach-mitao/peach": "本地优先的视频元数据刮削媒体库",
+  "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/": "ARTEX 代理框架十一天袭十四国机构",
+  "https://threatcluster.io/cluster/malicious-claude-code-extension-distributes-persistent-ssh-b-97aef86b": "木马化 Claude 扩展植入 SSH 后门",
+  "https://securelist.com/netamloader/121676/": "NetamLoader 袭亚洲政府定制 Win10",
+  "https://github.com/s-b-repo/cau": "附实测误报数的Go恶意软件检测引擎"
 }

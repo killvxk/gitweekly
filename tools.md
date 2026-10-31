@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cau](https://github.com/s-b-repo/cau) | 附实测误报数的Go恶意软件检测引擎 |
 | [jiffshot](https://github.com/Devolutions/jiffshot) | 纯 Rust 实现的截图录屏与标注工具 |
 | [hermes-official-plugins](https://github.com/NousResearch/hermes-official-plugins) | Nous 官方 Hermes Agent 插件合集 |
 | [agentgateway](https://github.com/agentgateway/agentgateway) | AI Agent 与 MCP 的新一代代理网关 |

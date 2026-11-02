@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [LogsTotal](https://github.com/wagga40/LogsTotal) | 自托管多引擎Sigma事件日志检测平台 |
+| [waf-dojo](https://github.com/nishikawaakira/waf-dojo) | AWS WAF规则实操训练闯关游戏 |
+| [MANTIS](https://github.com/fareedfauzi/MANTIS) | OSINT多源威胁情报聚合搜索工具 |
+| [dragon-tales](https://github.com/Fare9/dragon-tales) | 基于LLVM21的跨架构二进制分析库 |
+| [occlum](https://github.com/occlum/occlum) | Intel SGX内存安全多进程库操作系统 |
 | [Mac.apk](https://github.com/kksimp/Mac.apk) | 在Apple Silicon上原生跑安卓应用 |
 | [bug-bounty-hunting-prompts](https://github.com/mdpsec/bug-bounty-hunting-prompts) | 证据优先漏洞赏金狩猎的可复用提示词集 |
 | [nv-uefi-unlocker](https://github.com/physicsdolphin/nv-uefi-unlocker) | 绕过UEFI预驱动的NVIDIA显卡解锁工具 |

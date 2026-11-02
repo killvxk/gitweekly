@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Linux fanotify 反取证](https://dfir.ch/posts/infoguard_labs_fanotify_rewritten/) | 滥用Linux fanotify的反取证技术分析 |
+| [Exchange NTLM 绕过 MFA](https://dfir.ch/posts/field_note_mha/) | Exchange混合部署NTLM绕过MFA取证分析 |
+| [OneNote 文件提取](https://isc.sans.edu/diary/rss/33478) | SANS OneNote恶意文件提取方法演示 |
+| [yesbaby.js](https://lukeleal.com/research/posts/yesbaby-js-wp-admin-creator/) | 利用会话创建流氓管理员的WordPress恶意脚本 |
+| [query.php 再感染](https://lukeleal.com/research/posts/query-php-reinfection-watchdog/) | query.php看门狗式复活被删文件的机制 |
+| [假 Imunify360 投放器](https://lukeleal.com/research/posts/fake-imunify360-github-seo-spam-dropper/) | 伪装Imunify360的SEO垃圾投放器 |
+| [pluggable.php 窃贼](https://lukeleal.com/research/posts/pluggable-php-wp-authenticate-stealer/) | 假许可证密钥藏XOR密码的登录窃贼 |
+| [SMILODON 窃取器](https://lukeleal.com/research/posts/smilodon-php-woocommerce-skimmer/) | 服务端PHP WooCommerce卡号窃取器 |
+| [Authorize.Net 木马网关](https://lukeleal.com/research/posts/authorize-net-cim-gateway-skimmer/) | 木马化支付网关RSA加密盗卡分析 |
+| [tags-manager 窃取器](https://lukeleal.com/research/posts/tags-manager-websocket-skimmer/) | 自带结账表单的WebSocket窃取器分析 |
+| [ClickFix 投放器](https://lukeleal.com/research/posts/clickfix-suspicious-ip-powershell-dropper/) | ClickFix陷阱藏PowerShell投放器 |
+| [Dead Drop Loaders](https://lukeleal.com/research/posts/dead-drop-loaders-github-bsc-etherhiding/) | GitHub与币安链藏下一阶段载荷的加载器 |
+| [Options 管理员植入器](https://lukeleal.com/research/posts/options-admin-implanter-dynamic-linx/) | 2024插件供应链攻击关联管理员植入器 |
+| [假 Optimizer 插件](https://lukeleal.com/research/posts/fake-optimizer-plugins-visitors-only/) | 仅对访客作恶的假Optimizer插件分析 |
+| [Popup Maker 三层注入](https://lukeleal.com/research/posts/httpclient-referrer-gated-js-injection/) | Popup Maker三层门控脚本注入分析 |
+| [评论藏 PHP 后门](https://lukeleal.com/research/posts/php-backdoors-hidden-in-junk-comments/) | 同一混淆工具包的三个PHP后门分析 |
 | [木马化 Claude Code 扩展](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/) | 木马化Claude Code扩展SSH后门分析 |
 | [ZeroMDASH 议题分享](https://bestwing.me/zeromdash-agent-native-vulnerability-mining.html) | ZeroMDASH领域自适应漏洞挖掘议题分享 |
 | [VOLTA 窃密器 AI 定价](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/) | VOLTA窃密器用AI给受害者排优先级 |

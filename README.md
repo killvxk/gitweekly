@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [TIER_2_CVE-2026-63182](https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-30/TIER_2_CVE-2026-63182.md) | 图灵所LightSAML签名校验缺陷分析 |
 | [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | 滥用CBS会话COM对象的Win11提权PoC |
 | [duper-cves](https://github.com/Ping-2o/duper-cves) | iOS 跨版本二进制的 CVE 差集清单 |
 | [initial-access-community](https://github.com/vulncheck-oss/initial-access-community) | 初始访问漏洞利用与配套检测工件库 |

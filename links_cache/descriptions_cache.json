@@ -4470,5 +4470,6 @@
   "https://github.com/Dragon-Lady/netward-standalone": "小型HTTP服务的用户态防Bot抗DDoS工具",
   "https://github.com/HappyHackingSpace/claude-code-backdoor-check": "检测木马化Claude扩展的只读扫描器",
   "https://github.com/clearhandreview/vulnerpocalypse-containment": "漏洞分析与CVE跟踪临时遏制工具集",
-  "https://github.com/PHPatch/weblogchecker": "Apache/nginx日志失陷与爆破分析器"
+  "https://github.com/PHPatch/weblogchecker": "Apache/nginx日志失陷与爆破分析器",
+  "https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-30/TIER_2_CVE-2026-63182.md": "图灵所LightSAML签名校验缺陷分析"
 }

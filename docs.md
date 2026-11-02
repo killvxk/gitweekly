@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Pass-ta-key Golden Attack](https://0rcruxe.github.io/posts/pass-ta-key-golden-attack-sds-extraction/) | Chrome进程内存提取GPM安全域密钥研究 |
+| [Claude 漏洞发现研究](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude) | Claude模型发现并利用内核UAF漏洞研究 |
+| [CVE-2026-98432 分析](https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf) | Linux TCP握手UAF各发行版修复与缓解 |
+| [Ivanti 零日利用链](https://sh3llc0d3.com/blog/ivanti-connect-secure-zero-day-exploit-chain-missing-authentication-and-predictable-file-staging-chained-to-root-privilege-escalation-cve-2026-111357-and-cve-2026-118527/) | Ivanti两个零日链到root提权分析 |
+| [Drupal Commerce 授权绕过](https://sh3llc0d3.com/blog/drupal-commerce-core-unauthenticated-authorization-bypass-forceful-browsing-exploited-in-the-wild-cve-2026-118539-and-sa-contrib-2026-254/) | Drupal订单未授权访问控制在野分析 |
+| [恶意软件分析十二](https://cocomelonc.github.io/malware/2026/09/23/malware-analysis-12.html) | 纯C计算节区熵检测加壳的恶意软件分析 |
 | [VAPOR PANDA 与 ARTEX](https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/) | ARTEX 代理框架十一天袭十四国机构 |
 | [木马化 Claude 扩展](https://threatcluster.io/cluster/malicious-claude-code-extension-distributes-persistent-ssh-b-97aef86b) | 木马化 Claude 扩展植入 SSH 后门 |
 | [NetamLoader](https://securelist.com/netamloader/121676/) | NetamLoader 袭亚洲政府定制 Win10 |

@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pass-ta-key](https://github.com/0rcruxe/pass-ta-key) | 谷歌密码管理器passkey密钥提取PoC |
+| [agentsec-inspector](https://github.com/St0rn/agentsec-inspector) | AI代理红队提示注入与MCP审计框架 |
+| [Trawler](https://github.com/joeavanzato/Trawler) | Windows持久化机制排查带风险评分脚本 |
+| [AgentAudit](https://github.com/TOUMO45/AgentAudit) | AI代理工具信任图对抗测试评分工具 |
+| [Hacking-Tools](https://github.com/yogsec/Hacking-Tools) | 900+渗透测试与道德黑客工具清单 |
 | [cau](https://github.com/s-b-repo/cau) | 附实测误报数的Go恶意软件检测引擎 |
 | [jiffshot](https://github.com/Devolutions/jiffshot) | 纯 Rust 实现的截图录屏与标注工具 |
 | [hermes-official-plugins](https://github.com/NousResearch/hermes-official-plugins) | Nous 官方 Hermes Agent 插件合集 |

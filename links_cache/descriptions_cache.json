@@ -4448,5 +4448,18 @@
   "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/": "ARTEX 代理框架十一天袭十四国机构",
   "https://threatcluster.io/cluster/malicious-claude-code-extension-distributes-persistent-ssh-b-97aef86b": "木马化 Claude 扩展植入 SSH 后门",
   "https://securelist.com/netamloader/121676/": "NetamLoader 袭亚洲政府定制 Win10",
-  "https://github.com/s-b-repo/cau": "附实测误报数的Go恶意软件检测引擎"
+  "https://github.com/s-b-repo/cau": "附实测误报数的Go恶意软件检测引擎",
+  "https://github.com/K4N3CO/Lab-RATS-v1.6": "Android远程管理监控C2实验框架",
+  "https://github.com/dis0rder0x00/TrustedHive": "滥用CBS会话COM对象的Win11提权PoC",
+  "https://0rcruxe.github.io/posts/pass-ta-key-golden-attack-sds-extraction/": "Chrome进程内存提取GPM安全域密钥研究",
+  "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude": "Claude模型发现并利用内核UAF漏洞研究",
+  "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf": "Linux TCP握手UAF各发行版修复与缓解",
+  "https://sh3llc0d3.com/blog/ivanti-connect-secure-zero-day-exploit-chain-missing-authentication-and-predictable-file-staging-chained-to-root-privilege-escalation-cve-2026-111357-and-cve-2026-118527/": "Ivanti两个零日链到root提权分析",
+  "https://sh3llc0d3.com/blog/drupal-commerce-core-unauthenticated-authorization-bypass-forceful-browsing-exploited-in-the-wild-cve-2026-118539-and-sa-contrib-2026-254/": "Drupal订单未授权访问控制在野分析",
+  "https://cocomelonc.github.io/malware/2026/09/23/malware-analysis-12.html": "纯C计算节区熵检测加壳的恶意软件分析",
+  "https://github.com/0rcruxe/pass-ta-key": "谷歌密码管理器passkey密钥提取PoC",
+  "https://github.com/St0rn/agentsec-inspector": "AI代理红队提示注入与MCP审计框架",
+  "https://github.com/joeavanzato/Trawler": "Windows持久化机制排查带风险评分脚本",
+  "https://github.com/TOUMO45/AgentAudit": "AI代理工具信任图对抗测试评分工具",
+  "https://github.com/yogsec/Hacking-Tools": "900+渗透测试与道德黑客工具清单"
 }

@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading) | CoreGraphics PDF越界写漏洞分析方法 |
 | [TIER_2_CVE-2026-63182](https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-30/TIER_2_CVE-2026-63182.md) | 图灵所LightSAML签名校验缺陷分析 |
 | [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | 滥用CBS会话COM对象的Win11提权PoC |
 | [duper-cves](https://github.com/Ping-2o/duper-cves) | iOS 跨版本二进制的 CVE 差集清单 |

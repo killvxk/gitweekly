@@ -4471,5 +4471,20 @@
   "https://github.com/HappyHackingSpace/claude-code-backdoor-check": "检测木马化Claude扩展的只读扫描器",
   "https://github.com/clearhandreview/vulnerpocalypse-containment": "漏洞分析与CVE跟踪临时遏制工具集",
   "https://github.com/PHPatch/weblogchecker": "Apache/nginx日志失陷与爆破分析器",
-  "https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-30/TIER_2_CVE-2026-63182.md": "图灵所LightSAML签名校验缺陷分析"
+  "https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-30/TIER_2_CVE-2026-63182.md": "图灵所LightSAML签名校验缺陷分析",
+  "https://github.com/Ping-2o/CVE-2026-112611-cg-shading": "CoreGraphics PDF越界写漏洞分析方法",
+  "https://github.com/kksimp/Mac.apk": "在Apple Silicon上原生跑安卓应用",
+  "https://github.com/mdpsec/bug-bounty-hunting-prompts": "证据优先漏洞赏金狩猎的可复用提示词集",
+  "https://github.com/physicsdolphin/nv-uefi-unlocker": "绕过UEFI预驱动的NVIDIA显卡解锁工具",
+  "https://github.com/wangzan101/Mika": "安卓端上操控应用与网页的本地AI代理",
+  "https://github.com/xmanrui/dsh-im": "多渠道IM机器人接入DeepSeek工具",
+  "https://github.com/microsoft/TokenEconomizer": "微软编码代理黑盒降本Token优化工具",
+  "https://github.com/mirazbakis/AltLoad": "免电脑设备端装AltStore签名工具",
+  "https://github.com/ukr8b3g-cmyk/H3-Character-Sheet-Designer": "H3角色参考表生成的ComfyUI节点",
+  "https://github.com/jiayuqi7813/crack-open-models-dgx-spark": "双DGX Spark开模型行为干预Codex技能",
+  "https://github.com/KohakuBlueleaf/Tokenomos": "小型VLM本地推理GPU瓶颈优化框架",
+  "https://github.com/3899/SimAdmin": "蜂窝CPE随身WiFi的SIM管理系统",
+  "https://github.com/Caho1/open-claude-ui": "逆向还原Claude官方桌面端UI组件库",
+  "https://github.com/nightly-labs/openbot": "本地优先多代理AI队友桌面工作区",
+  "https://github.com/sherlock-project/sherlock": "跨社交网络用户名搜寻OSINT工具"
 }

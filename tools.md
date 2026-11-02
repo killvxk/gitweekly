@@ -2,6 +2,20 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Mac.apk](https://github.com/kksimp/Mac.apk) | 在Apple Silicon上原生跑安卓应用 |
+| [bug-bounty-hunting-prompts](https://github.com/mdpsec/bug-bounty-hunting-prompts) | 证据优先漏洞赏金狩猎的可复用提示词集 |
+| [nv-uefi-unlocker](https://github.com/physicsdolphin/nv-uefi-unlocker) | 绕过UEFI预驱动的NVIDIA显卡解锁工具 |
+| [Mika](https://github.com/wangzan101/Mika) | 安卓端上操控应用与网页的本地AI代理 |
+| [dsh-im](https://github.com/xmanrui/dsh-im) | 多渠道IM机器人接入DeepSeek工具 |
+| [TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | 微软编码代理黑盒降本Token优化工具 |
+| [AltLoad](https://github.com/mirazbakis/AltLoad) | 免电脑设备端装AltStore签名工具 |
+| [H3-Character-Sheet-Designer](https://github.com/ukr8b3g-cmyk/H3-Character-Sheet-Designer) | H3角色参考表生成的ComfyUI节点 |
+| [crack-open-models-dgx-spark](https://github.com/jiayuqi7813/crack-open-models-dgx-spark) | 双DGX Spark开模型行为干预Codex技能 |
+| [Tokenomos](https://github.com/KohakuBlueleaf/Tokenomos) | 小型VLM本地推理GPU瓶颈优化框架 |
+| [SimAdmin](https://github.com/3899/SimAdmin) | 蜂窝CPE随身WiFi的SIM管理系统 |
+| [open-claude-ui](https://github.com/Caho1/open-claude-ui) | 逆向还原Claude官方桌面端UI组件库 |
+| [openbot](https://github.com/nightly-labs/openbot) | 本地优先多代理AI队友桌面工作区 |
+| [sherlock](https://github.com/sherlock-project/sherlock) | 跨社交网络用户名搜寻OSINT工具 |
 | [wafmeow](https://github.com/Lu1sDV/wafmeow) | Go实现的wafw00f指纹WAF检测工具 |
 | [push-guard](https://github.com/Dragon-Lady/push-guard) | pre-push拦截疑似密钥泄露的钩子 |
 | [netward-standalone](https://github.com/Dragon-Lady/netward-standalone) | 小型HTTP服务的用户态防Bot抗DDoS工具 |

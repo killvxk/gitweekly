@@ -4461,5 +4461,14 @@
   "https://github.com/St0rn/agentsec-inspector": "AI代理红队提示注入与MCP审计框架",
   "https://github.com/joeavanzato/Trawler": "Windows持久化机制排查带风险评分脚本",
   "https://github.com/TOUMO45/AgentAudit": "AI代理工具信任图对抗测试评分工具",
-  "https://github.com/yogsec/Hacking-Tools": "900+渗透测试与道德黑客工具清单"
+  "https://github.com/yogsec/Hacking-Tools": "900+渗透测试与道德黑客工具清单",
+  "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/": "木马化Claude Code扩展SSH后门分析",
+  "https://bestwing.me/zeromdash-agent-native-vulnerability-mining.html": "ZeroMDASH领域自适应漏洞挖掘议题分享",
+  "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/": "VOLTA窃密器用AI给受害者排优先级",
+  "https://github.com/Lu1sDV/wafmeow": "Go实现的wafw00f指纹WAF检测工具",
+  "https://github.com/Dragon-Lady/push-guard": "pre-push拦截疑似密钥泄露的钩子",
+  "https://github.com/Dragon-Lady/netward-standalone": "小型HTTP服务的用户态防Bot抗DDoS工具",
+  "https://github.com/HappyHackingSpace/claude-code-backdoor-check": "检测木马化Claude扩展的只读扫描器",
+  "https://github.com/clearhandreview/vulnerpocalypse-containment": "漏洞分析与CVE跟踪临时遏制工具集",
+  "https://github.com/PHPatch/weblogchecker": "Apache/nginx日志失陷与爆破分析器"
 }

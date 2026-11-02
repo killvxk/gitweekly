@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [wafmeow](https://github.com/Lu1sDV/wafmeow) | Go实现的wafw00f指纹WAF检测工具 |
+| [push-guard](https://github.com/Dragon-Lady/push-guard) | pre-push拦截疑似密钥泄露的钩子 |
+| [netward-standalone](https://github.com/Dragon-Lady/netward-standalone) | 小型HTTP服务的用户态防Bot抗DDoS工具 |
+| [claude-code-backdoor-check](https://github.com/HappyHackingSpace/claude-code-backdoor-check) | 检测木马化Claude扩展的只读扫描器 |
+| [vulnerpocalypse-containment](https://github.com/clearhandreview/vulnerpocalypse-containment) | 漏洞分析与CVE跟踪临时遏制工具集 |
+| [weblogchecker](https://github.com/PHPatch/weblogchecker) | Apache/nginx日志失陷与爆破分析器 |
 | [pass-ta-key](https://github.com/0rcruxe/pass-ta-key) | 谷歌密码管理器passkey密钥提取PoC |
 | [agentsec-inspector](https://github.com/St0rn/agentsec-inspector) | AI代理红队提示注入与MCP审计框架 |
 | [Trawler](https://github.com/joeavanzato/Trawler) | Windows持久化机制排查带风险评分脚本 |

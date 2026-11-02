@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [木马化 Claude Code 扩展](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/) | 木马化Claude Code扩展SSH后门分析 |
+| [ZeroMDASH 议题分享](https://bestwing.me/zeromdash-agent-native-vulnerability-mining.html) | ZeroMDASH领域自适应漏洞挖掘议题分享 |
+| [VOLTA 窃密器 AI 定价](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/) | VOLTA窃密器用AI给受害者排优先级 |
 | [Pass-ta-key Golden Attack](https://0rcruxe.github.io/posts/pass-ta-key-golden-attack-sds-extraction/) | Chrome进程内存提取GPM安全域密钥研究 |
 | [Claude 漏洞发现研究](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude) | Claude模型发现并利用内核UAF漏洞研究 |
 | [CVE-2026-98432 分析](https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf) | Linux TCP握手UAF各发行版修复与缓解 |

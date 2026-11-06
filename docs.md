@@ -2,6 +2,32 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Alpine 公告](https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/) | Alpine OpenSSH密码认证绕过修复公告 |
+| [*sshole 披露](https://www.openwall.com/lists/oss-security/2026/11/05/3) | musl超长密码绕过shadow星号锁披露 |
+| [sshhole.com](https://sshhole.com/) | musl OpenSSH星号密码十年认证绕过研究 |
+| [ARTEX 在野追踪](https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/) | ARTEX自治网络犯罪平台2000控制台追踪 |
+| [ARTEX-ymh 蜜罐检测](https://huntback.io/blog/artex-fork-learns-to-spot-honeypots) | ARTEX分叉蜜罐检测机制与暴露IP调查 |
+| [Harness 工程书](https://grahamhelton.github.io/harness-engineering-workshop-book/introduction.html) | 二进制漏洞研究Harness工程入门书 |
+| [XCPE 僵尸网络](https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet) | 关停XCPE安卓电视僵尸网络的调查报告 |
+| [SmartLoader 假 AI 仓](https://newsletter.securitybreak.io/archive/hello-from-san-francisco-0973) | 伪装AI工具仓库投SmartLoader窃密分析 |
+| [iSCSI 无 CHAP](https://specterops.io/blog/2026/11/04/unauthenticated-iscsi-target-server/) | AD域iSCSI目标无CHAP认证冒充攻击研究 |
+| [GLPI 11 SQLi+XSS](https://www.synacktiv.com/en/advisories/sql-injection-and-stored-xss-vulnerabilities-in-glpi-11) | GLPI 11盲注SQLi与存储XSS漏洞披露 |
+| [GitPower 仍在线](https://f1tym1.com/2026/11/04/kimsuky-operation-gitpower-staging-infrastructure-remains-active-on-github/) | Kimsuky GitPower恶意仓库仍在线追踪 |
+| [pentestcode 开放目录](https://huntback.io/blog/pentestcode-operator-open-directories) | pentestcode代理攻击25家欧洲企业调查 |
+| [3AM 混合 AI 勒索](https://businessinsights.bitdefender.com/3am-ransomware-hybrid-ai-attack) | 3AM勒索人机混合AI攻击欧洲学校分析 |
+| [YOBA 矿工](https://blog.polyswarm.io/yoba-malware-campaign-abuses-signed-ai-applications-to-evade-detection) | YOBA滥用签名AI应用侧载投递矿工分析 |
+| [Astaroth 深潜](https://0x0d4y.blog/inside-brazils-financial-malware-ecosystem-deep-dive-into-the-astaroth/) | 巴西Astaroth金融木马生态深度分析 |
+| [Phexia macOS](https://www.withsecure.com/en/resources-hub/w-labs/phexia-macos-malware/) | Phexia macOS窃密后门智能合约C2分析 |
+| [Poisoned Source](https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits) | APT29水坑供应链投毒打移动端n-day链 |
+| [EOL PQC](https://www.runzero.com/blog/eol-pqc/) | EOL设备后量子密码迁移风险研究 |
+| [DPRK LNK C2](https://www.fortinet.com/blog/threat-research/dprk-related-campaigns-with-lnk-and-github-c2) | 朝鲜LNK钓鱼借GitHub raw做C2的分析 |
+| [opencode 恶意软件](https://genians.co.kr/en/blog/threat_intelligence/ai-agent-opencode) | Genians分析AI代理opencode恶意软件 |
+| [Kimsuky 检测分析](https://socprime.com/blog/kimsuky-detection-and-exploitation-analysis/) | Kimsuky点号LNK钓鱼检测与利用分析 |
+| [IoT2050 RCE 在野](https://badgersignal.com/articles/active-exploitation-of-siemens-simatic-iot2050-advanced-nodered-authentication-flaw-cve202658115) | 西门子Node-RED未授权RCE在野利用监测 |
+| [Zyxel GS1900 0day](https://www.binarly.io/blog/zyxel-gs1900-rce-cve-2026-107441) | Zyxel GS1900真修复0day RCE分析 |
+| [WordPress TOCTOU RCE](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution) | WordPress核心TOCTOU竞态未授权RCE |
+| [LLMJacking](https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/) | Mandiant云身份盗用转卖LLM配额报告 |
+| [Ivanti 新 0day](https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527/) | Ivanti ICT新增两枚在野0day修复指引 |
 | [Linux fanotify 反取证](https://dfir.ch/posts/infoguard_labs_fanotify_rewritten/) | 滥用Linux fanotify的反取证技术分析 |
 | [Exchange NTLM 绕过 MFA](https://dfir.ch/posts/field_note_mha/) | Exchange混合部署NTLM绕过MFA取证分析 |
 | [OneNote 文件提取](https://isc.sans.edu/diary/rss/33478) | SANS OneNote恶意文件提取方法演示 |

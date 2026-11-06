@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PyRIT](https://github.com/microsoft/PyRIT) | 微软生成式AI红队自动化测试工具包 |
+| [xcpe-guard](https://github.com/burakztrk/xcpe-guard) | 安卓TV本机检测关闭XCPE僵尸网络后门 |
+| [sshole](https://github.com/oz9un/sshole) | OpenSSH *sshole漏洞入侵痕迹检查工具 |
+| [oobscan](https://github.com/runZeroInc/oobscan) | runZero带外管理BMC设备漏洞扫描器 |
+| [ShellCoder](https://github.com/iam-super-user/ShellCoder) | 本地LLM驱动的攻防漏洞利用助手 |
+| [AiSOC](https://github.com/beenuar/AiSOC) | 开源AI SOC告警融合与LLM分诊平台 |
+| [defender_observer](https://github.com/dobin/defender_observer) | 采集回放Defender与EDR的ETW遥测 |
+| [ctf-ai-agent-skills](https://github.com/Salman0x01/ctf-ai-agent-skills) | 面向AI代理的CTF解题方法技能集 |
+| [Red-Team-Tools](https://github.com/yogsec/Red-Team-Tools) | 红队C2与对抗仿真工具策展清单 |
+| [mcp-server](https://github.com/PortSwigger/mcp-server) | Burp官方MCP服务器暴露被测流量给模型 |
+| [quarry](https://github.com/mahumadad/quarry) | Claude Code全流程渗透插件带证据链 |
+| [NWH-Stealer-Analysis](https://github.com/kaandemir993/NWH-Stealer-Analysis-Fileless-Bun-Runtime-Execution-Clipboard-Image-Theft-Cloud-C2-AWS-R2-) | NWH窃密木马静态分析与载荷提取仓库 |
+| [Impacket-IoCs](https://github.com/ThatTotallyRealMyth/Impacket-IoCs) | Impacket库固有可检测IoC特征清单 |
 | [LogsTotal](https://github.com/wagga40/LogsTotal) | 自托管多引擎Sigma事件日志检测平台 |
 | [waf-dojo](https://github.com/nishikawaakira/waf-dojo) | AWS WAF规则实操训练闯关游戏 |
 | [MANTIS](https://github.com/fareedfauzi/MANTIS) | OSINT多源威胁情报聚合搜索工具 |

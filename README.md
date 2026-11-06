@@ -2,6 +2,12 @@
 
 | 链接 | 描述 |
 |------|------|
+| [axis-RCE](https://github.com/ricardojoserf/axis-RCE) | Axis摄像机工作站未授权RCE利用链 |
+| [CVE-2026-63286](https://github.com/ricardojoserf/CVE-2026-63286) | Axis摄像机凭据离线解密漏洞利用 |
+| [CVE-2026-112487](https://github.com/Lyutoon/CVE-2026-112487) | macOS revisiond本地提权PoC |
+| [CVE-2026-112688-backboardd](https://github.com/0xjohnnydev/CVE-2026-112688-backboardd) | backboardd保存LR受控损坏PoC |
+| [W32TimeRPCPoC](https://github.com/PeterGabaldon/W32TimeRPCPoC) | Windows时间服务RPC接口的C语言PoC |
+| [CivSwitch](https://github.com/Gezine/CivSwitch) | Switch文明7卡带用户态代码执行 |
 | [CVE-2026-112611-cg-shading](https://github.com/Ping-2o/CVE-2026-112611-cg-shading) | CoreGraphics PDF越界写漏洞分析方法 |
 | [TIER_2_CVE-2026-63182](https://github.com/alan-turing-institute/cyber-threat-observatory/blob/main/reports/2026-10-30/TIER_2_CVE-2026-63182.md) | 图灵所LightSAML签名校验缺陷分析 |
 | [TrustedHive](https://github.com/dis0rder0x00/TrustedHive) | 滥用CBS会话COM对象的Win11提权PoC |

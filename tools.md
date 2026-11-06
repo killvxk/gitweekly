@@ -2,6 +2,31 @@
 
 | 文章 | 简介 |
 |------|------|
+| [DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) | 制作光盘镜像并校准物理参数的C#工具 |
+| [NOIR](https://github.com/Verlintas/NOIR) | adb审计安卓应用权限与数据流向 |
+| [CreateHiddenAccount](https://github.com/wgpsec/CreateHiddenAccount) | 经注册表创建Windows隐藏账户工具 |
+| [LinuxMalwareTechniques](https://github.com/akazemi67/LinuxMalwareTechniques) | Linux恶意软件技术与防御演示材料 |
+| [douyin-comments](https://github.com/Pluviobyte/douyin-comments) | 抓取抖音视频评论区的Agent技能 |
+| [tprtdll-Injection](https://github.com/ivancabrera02/tprtdll-Injection) | tprtdll导出函数绕过EDR钩子的注入PoC |
+| [gapiscanner](https://github.com/ozguralp/gapiscanner) | 扫描Google API密钥与Firebase安全 |
+| [robin](https://github.com/apurvsinghgautam/robin) | AI驱动的暗网OSINT情报工具 |
+| [deep-searcher](https://github.com/zilliztech/deep-searcher) | Zilliz私有数据深度研究智能体框架 |
+| [alma-android](https://github.com/nanami-0713/alma-android) | Alma的安卓端优雅启动器客户端 |
+| [relay-kit](https://github.com/nanami-0713/relay-kit) | Workers一键部署的E2E中继服务器 |
+| [pocket-id](https://github.com/pocket-id/pocket-id) | 通行密钥登录的OIDC开源认证服务 |
+| [PicLite](https://github.com/amiaoapp/PicLite) | 本地优先跨平台图片与GIF压缩工具 |
+| [Cybersecurity-Projects](https://github.com/CarterPerez-dev/Cybersecurity-Projects) | 初学到进阶的70个网络安全项目 |
+| [MP4Flow](https://github.com/ixiehao/MP4Flow) | macOS本地视频转MP4剪辑工具 |
+| [ai-manju-skills](https://github.com/zhanghao123vip/ai-manju-skills) | AI漫剧企划到分镜的全流程技能 |
+| [paste](https://github.com/SillyShalong/paste) | Windows与Mac的剪贴板粘贴工具 |
+| [dbx](https://github.com/t8y2/dbx) | 支持100+数据库的AI管理客户端 |
+| [FlowDown](https://github.com/Lakr233/FlowDown) | Swift编写的iOS端AI对话客户端 |
+| [FlashRSI](https://github.com/RUC-NLPIR/FlashRSI) | 面向遥感影像研究的高效统一框架 |
+| [souhun](https://github.com/Lniosy/souhun) | 桌面端查看写入Grok Bot记忆工具 |
+| [Android-Dex](https://github.com/Shrey113/Android-Dex) | 全安卓设备的DeX桌面替代方案 |
+| [claude-code-auto-safeguard-prompt](https://github.com/collinzrj/claude-code-auto-safeguard-prompt) | Claude Code自主代理行为拦截防护提示词 |
+| [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | DeepSeek Harness插件生态桌面端 |
+| [Detect.Remote.ShadowSnapshot.Dump](https://github.com/I3IT/Detect.Remote.ShadowSnapshot.Dump) | 检测影子快照远程凭据转储的工具 |
 | [marrow](https://github.com/utabk/marrow) | REA逆向MCP的桌面GUI浏览器 |
 | [sniperscope](https://github.com/kamehameha-ctrl/sniperscope) | EASM攻击面管理与OSINT侦察工作站 |
 | [llm-forensics](https://github.com/rbidou/llm-forensics) | LLM权重级谱系取证与微调检测工具 |

@@ -2,6 +2,33 @@
 
 | 文章 | 简介 |
 |------|------|
+| [PortSwigger 研究](https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt) | 单提示词把HTTP头注入升级为高危 |
+| [NVISO 检测即代码二](https://blog.nviso.eu/2026/11/04/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-2-execution/) | 检测即代码在既有环境落地实践二 |
+| [Kali C# 载荷](https://www.kali.org/blog/windows-csharp-payloads/) | Kali上构建Windows C#工具与载荷 |
+| [SANS 经典邮件脚本](https://isc.sans.edu/diary/rss/33488) | 脆弱邮件处理脚本返回的检测复盘 |
+| [sicuranext 0day 调查](https://blog.sicuranext.com/when-investigating-novel-0-days-leads-to-the-discovery-of-novel-0-days/) | 调查新0day牵出新0day的案例复盘 |
+| [MS 假下载活动](https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/) | 木马化安装包投变现载荷活动分析 |
+| [ToB 电子投票密码学](https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/) | 电子投票密码学与纸质选票必要性 |
+| [ElcomSoft iOS 取证](https://blog.elcomsoft.com/2026/11/ios-acquisition-troubleshooting-where-the-logs-are/) | iOS取证日志位置排查实用指南 |
+| [REMnux 实验室设计](https://zeltser.com/malware-analysis-lab-remnux) | REMnux恶意软件分析实验室设计 |
+| [curl 审查评估](https://daniel.haxx.se/blog/2026/11/03/scrutinize-our-assessments/) | curl安全评估结论的审查方法论 |
+| [Toooold 自我标识](https://toooold.com/2026/11/03/self_id.html) | 诱导LLM自报错误开发者的实验 |
+| [TrustedSec AD 枚举](https://trustedsec.com/blog/the-quiet-phase-active-directory-group-enumeration) | AD组枚举侦察静默期的攻防解析 |
+| [Compass AI 代理监控](https://blog.compass-security.com/2026/11/security-monitoring-of-ai-agents-in-microsoft-defender-xdr/) | Defender XDR监控AI代理的实践 |
+| [MS 在野漏洞画像](https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/) | 在野利用漏洞共性的数据驱动分析 |
+| [Popov 内核 31695](https://a13xp0p0v.tech/2026/11/02/CVE-2026-31695.html) | 借struct device利用内核漏洞全解 |
+| [ToB Codex 回移补丁](https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/) | 用Codex规模化回移安全补丁实践 |
+| [Securelist CyberStrikeAI](https://securelist.com/cyberstrikeai-attacks/121715/) | AI工具CyberStrikeAI在野攻击调查 |
+| [Darkoperator 特权身份](https://www.darkoperator.com/blog/2026/11/2/cwdl3e3gk4d6uiyor7ack9sdzvqvjj) | 防钓鱼MFA与特权身份管理实践 |
+| [Flashpoint 零售欺诈](https://flashpoint.io/blog/inside-the-retail-fraud-underground-the-schemes-targeting-retailers/) | 零售欺诈地下产业链Holiday季调查 |
+| [Pixm 假微软支持](https://pixmsecurity.com/blog/blog/made-in-china-deployed-in-us-fake-microsoft-support-scam/) | 跨国假微软技术支持诈骗链全解剖 |
+| [SANS MPTCP](https://isc.sans.edu/diary/rss/33482) | 多路径TCP的使用与检测方法介绍 |
+| [Lovense 泄露](https://bobdahacker.com/blog/lovense-still-leaking-user-emails) | Lovense持续泄露用户邮箱的调查 |
+| [South Park 弱口令](https://bobdahacker.com/blog/i-hacked-southpark) | 餐厅弱口令比剧中密码更糟的实测 |
+| [印度交友 App](https://bobdahacker.com/blog/indias-biggest-dating-app-hacked) | 印度最大交友App漏洞挖掘记录 |
+| [BellaBot 机器人](https://bobdahacker.com/blog/hacked-biggest-chinese-robot-company) | 中国最大送餐机器人公司漏洞实测 |
+| [Taimi IDOR](https://bobdahacker.com/blog/taimi-idor) | 交友App Taimi私照越权访问测试 |
+| [Bandsintown 邮件](https://bobdahacker.com/blog/bandsintown) | 19万乐迷可被伪造邮件注入实测 |
 | [Alpine 公告](https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/) | Alpine OpenSSH密码认证绕过修复公告 |
 | [*sshole 披露](https://www.openwall.com/lists/oss-security/2026/11/05/3) | musl超长密码绕过shadow星号锁披露 |
 | [sshhole.com](https://sshhole.com/) | musl OpenSSH星号密码十年认证绕过研究 |

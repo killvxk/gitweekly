@@ -2,6 +2,39 @@
 
 | 文章 | 简介 |
 |------|------|
+| [marrow](https://github.com/utabk/marrow) | REA逆向MCP的桌面GUI浏览器 |
+| [sniperscope](https://github.com/kamehameha-ctrl/sniperscope) | EASM攻击面管理与OSINT侦察工作站 |
+| [llm-forensics](https://github.com/rbidou/llm-forensics) | LLM权重级谱系取证与微调检测工具 |
+| [autopilot-pentest-ai](https://github.com/kush-coder/autopilot-pentest-ai) | 可复现证明发现的AI自动化渗透工具 |
+| [plex2scan](https://github.com/akaihigurashi/plex2scan) | Plex2Shell漏洞批量排查扫描器 |
+| [tcl-androidtv-root-attempts](https://github.com/4onurdemir/tcl-androidtv-root-attempts) | TCL电视固件逆向与root可行性研究 |
+| [gargoyle](https://github.com/JLospinoso/gargoyle) | Windows内存驻留时序躲扫描研究工件 |
+| [SpikeStrip](https://github.com/Arcanum-Sec/SpikeStrip) | 可逆HTML与JS提示词诱饵注入工具 |
+| [xen](https://github.com/xen-project/xen) | Xen虚拟机监控器官方源码镜像仓 |
+| [malware-ioc](https://github.com/bitdefender/malware-ioc) | Bitdefender白皮书恶意软件IoC库 |
+| [apkscope](https://github.com/suffixing/apkscope) | 无JVM的Rust APK逆向分析与MCP工具 |
+| [Rusty-Stealer-Analysis](https://github.com/kaandemir993/Rusty-Stealer-Keylogger-Screen-Streaming-Service-Persistence-Defender-Evasion-Analysis) | Rust窃密木马键录与持久化逆向分析 |
+| [lololol](https://github.com/hannob/lololol) | XML Billion Laughs变异模糊测试器 |
+| [JADXecute](https://github.com/LaurieWired/JADXecute) | JADX反编译器动态操控脚本插件 |
+| [ProtonScope](https://github.com/emrekybs/ProtonScope) | ProtonMail邮箱基础设施OSINT工具 |
+| [tgsherlock](https://github.com/emrekybs/tgsherlock) | Telegram用户群组与消息调查工具 |
+| [gpu-instance-fingerprint](https://github.com/divagr18/gpu-instance-fingerprint) | GPU原子操作序指纹跨重启追踪 |
+| [anti-begal.py](https://github.com/XsanFlip/anti-begal.py) | 打击BEGAL C2的资源耗尽反击脚本 |
+| [craft-anything](https://github.com/storytold/craft-anything) | 拆解任意软件工作原理并复刻的工具 |
+| [qai2026-fgsm-transfer](https://github.com/xeeshanajmal/qai2026-fgsm-transfer) | 量子硬件FGSM攻击迁移性论文工件 |
+| [aligned-rag-eval](https://github.com/chxhana/aligned-rag-eval) | RAG投毒防御四条件对比评测框架 |
+| [OLMo-Twin](https://github.com/ali-bana/OLMo-Twin) | OLMo 2训练暴露成员推断对照研究 |
+| [agent-trace-detector-eval](https://github.com/Mahmoud-Abbasi-svg/agent-trace-detector-eval) | 被劫持LLM代理检测器评测工件库 |
+| [striatum-ctf](https://github.com/jawh3/striatum-ctf) | MCP代理自主解CTF的论文工件库 |
+| [authorship-not-sabotage](https://github.com/ShubsDS/authorship-not-sabotage) | AI控制监视器数据集偏差实证研究 |
+| [prescryb](https://github.com/konstruktoid/prescryb) | CVE处置编排与STIG修复建议MCP服务 |
+| [nxc-vulnscan](https://github.com/rvsh3ll/nxc-vulnscan) | NetExec批量漏洞核查模块仅检不利用 |
+| [MCPTrace](https://github.com/Kowntaewook/MCPTrace) | 内存取证提取MCP消息的Volatility插件 |
+| [BogusMips](https://github.com/jankammerath/BogusMips) | Android应用拆解重组与审计取证工具 |
+| [ph4ntom-ida-bridge](https://github.com/ph4ntom-rev/ph4ntom-ida-bridge) | IDA Pro的REST与MCP代理桥接工具 |
+| [rtw89-monitor-injection](https://github.com/ph4ntom-rev/rtw89-monitor-injection) | Realtek网卡监听模式与包注入补丁 |
+| [FlutterGuard](https://github.com/anasfik/FlutterGuard) | Flutter应用离线审计与敏感信息清点 |
+| [fuzz](https://github.com/xsscx/fuzz) | 注入攻击特征与恶意输入载荷语料库 |
 | [PyRIT](https://github.com/microsoft/PyRIT) | 微软生成式AI红队自动化测试工具包 |
 | [xcpe-guard](https://github.com/burakztrk/xcpe-guard) | 安卓TV本机检测关闭XCPE僵尸网络后门 |
 | [sshole](https://github.com/oz9un/sshole) | OpenSSH *sshole漏洞入侵痕迹检查工具 |

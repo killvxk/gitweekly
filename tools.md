@@ -2,6 +2,33 @@
 
 | 文章 | 简介 |
 |------|------|
+| [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills) | AI短剧与漫剧的技能包精选清单 |
+| [kiteline](https://github.com/hon6/kiteline) | iPhone手表遥控编码智能体工具 |
+| [Textus](https://github.com/CatVinci-Studio/Textus) | AI写作的Markdown编辑器 |
+| [stack-diagram](https://github.com/caru-ini/stack-diagram) | 一句话描述技术栈生成架构图技能 |
+| [computer-repair-skill](https://github.com/88lin/computer-repair-skill) | 跨平台电脑维修Agent技能包 |
+| [ClaudeCage](https://github.com/PACHAKUTlQ/ClaudeCage) | 沙箱内运行的Claude Code便携版 |
+| [hakios-xnu-kernel](https://github.com/oosexgang/hakios-xnu-kernel) | 安卓手机运行苹果XNU内核移植 |
+| [WinPOPBit](https://github.com/Smu1zel/WinPOPBit) | 去除Win11 SSE4.2与NX位需求 |
+| [omnigraph](https://github.com/ModernRelay/omnigraph) | 对象存储原生支持分支的图数据库 |
+| [brisk](https://github.com/BrisklyDev/brisk) | Briskly极速现代桌面下载管理器 |
+| [PaperTodo](https://github.com/snownico0722/PaperTodo) | 极简Windows桌面便签工具 |
+| [Pi.Alert](https://github.com/leiweibau/Pi.Alert) | WiFi局域网设备扫描告警系统 |
+| [privacy-probe](https://github.com/starriv/privacy-probe) | 审查设备隐私权限调用情况的工具 |
+| [sapper-v2](https://github.com/N1nEmAn/sapper-v2) | 自主渗透的AI指挥官与集群框架 |
+| [comfy-colab-kit](https://github.com/FireTable/comfy-colab-kit) | 零闲置在Colab跑ComfyUI网关 |
+| [songloft](https://github.com/songloft-org/songloft) | 插件化无广告免费自托管音乐服务器 |
+| [burp-sectivai](https://github.com/zack0x01/burp-sectivai) | Burp的AI流量安全审查插件 |
+| [gost](https://github.com/missuo/gost) | Go语言实现的简易隧道代理工具 |
+| [evdi](https://github.com/DisplayLink/evdi) | DisplayLink扩展虚拟显示接口驱动 |
+| [player](https://github.com/livliv-dev/player) | 网页2.5D虚拟形象与口型驱动 |
+| [AgentPronos](https://github.com/Tatsvnari/AgentPronos) | 研究vault粒子的自主智能体 |
+| [agent-deploy-memory-grok](https://github.com/free-dam-man/agent-deploy-memory-grok) | grok版免卡部署加密节点方法论 |
+| [SO-02J-Temp-Root](https://github.com/FradSer/SO-02J-Temp-Root) | 索尼Xperia临时root利用链 |
+| [vpnhide](https://github.com/okhsunrog/vpnhide) | 对指定应用隐藏VPN的内核模块 |
+| [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 手机本机运行DeepSeek Harness |
+| [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DeepSeek Harness插件精选清单 |
+| [Reclass](https://github.com/IChooseYou/Reclass) | 跨平台内存编辑器与内核结构逆向 |
 | [keyeroo](https://github.com/grayhatkiller/keyeroo) | NTLM强制认证中继LDAP操作工具 |
 | [unslop](https://github.com/heydamir/unslop) | Claude skill去AI味重塑UI |
 | [autogen](https://github.com/microsoft/autogen) | 微软agentic AI编程框架 |

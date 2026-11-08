@@ -2,6 +2,11 @@
 
 | 链接 | 描述 |
 |------|------|
+| [SVE-2026-3546](https://github.com/Gabriel2392/SVE-2026-3546) | 三星s5e8825安全启动绕过PoC |
+| [GhostKey](https://github.com/EternalTimes/CVE-2026-98260-GhostKey) | GhostKey一键提权利用工具 |
+| [CVE-2026-98260-Xiaomi-17-Pro-Max](https://github.com/starriv/CVE-2026-98260-Xiaomi-17-Pro-Max) | 小米17 Pro Max一键root利用 |
+| [Ps4-14.02-blueray-exploit-leaked](https://github.com/Jfkkfjzkz/Ps4-14.02-blueray-exploit-leaked) | PS4 14.02蓝光漏洞泄露利用 |
+| [ghostlock-app](https://github.com/YuKongA/ghostlock-app) | GhostLock一键执行利用App |
 | [Clone2Creds](https://github.com/0xmrma/Clone2Creds) | Git for Windows凭据外泄PoC |
 | [PNGboomer-CVE-2026-77622](https://github.com/Squ1shification/PNGboomer-CVE-2026-77622) | Sliver C2 PNG解码DoS的PoC |
 | [keycloak-saml-redirect-param-split](https://github.com/abraxas/keycloak-saml-redirect-param-split) | Keycloak SAML登录劫持PoC |

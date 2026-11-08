@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [Clone2Creds](https://github.com/0xmrma/Clone2Creds) | Git for Windows凭据外泄PoC |
+| [PNGboomer-CVE-2026-77622](https://github.com/Squ1shification/PNGboomer-CVE-2026-77622) | Sliver C2 PNG解码DoS的PoC |
+| [keycloak-saml-redirect-param-split](https://github.com/abraxas/keycloak-saml-redirect-param-split) | Keycloak SAML登录劫持PoC |
+| [keycloak-manage-users-composite](https://github.com/abraxas/keycloak-manage-users-composite) | Keycloak realm管理员提权PoC |
 | [axis-RCE](https://github.com/ricardojoserf/axis-RCE) | Axis摄像机工作站未授权RCE利用链 |
 | [CVE-2026-63286](https://github.com/ricardojoserf/CVE-2026-63286) | Axis摄像机凭据离线解密漏洞利用 |
 | [CVE-2026-112487](https://github.com/Lyutoon/CVE-2026-112487) | macOS revisiond本地提权PoC |

@@ -2,6 +2,27 @@
 
 | 文章 | 简介 |
 |------|------|
+| [keyeroo](https://github.com/grayhatkiller/keyeroo) | NTLM强制认证中继LDAP操作工具 |
+| [unslop](https://github.com/heydamir/unslop) | Claude skill去AI味重塑UI |
+| [autogen](https://github.com/microsoft/autogen) | 微软agentic AI编程框架 |
+| [casnode](https://github.com/casnode/casnode) | Discourse风格开源论坛软件 |
+| [soml](https://github.com/soml-lang/soml) | SOML人类可读的配置文件格式 |
+| [gen-ai-pose-image](https://github.com/wzc520pyfm/gen-ai-pose-image) | 澜姿由姿势线稿生成模特图像的工具 |
+| [Crossbow](https://github.com/Richard-Zhang1019/Crossbow) | Crossbow跨平台代理客户端 |
+| [weread-book-exporter](https://github.com/WANGXIN-567/weread-book-exporter) | 微信读书无损导出PDF与EPUB |
+| [halfsize](https://github.com/YKLovePython/halfsize) | 本地FFmpeg压缩视频到指定大小 |
+| [linkit](https://github.com/blue-idea/linkit) | 本地优先AI书签与稍后读管理器 |
+| [florilegium](https://github.com/kevinraymond/florilegium) | LuaLaTeX花卉页边距生成库 |
+| [frag](https://github.com/hackvertor/frag) | 纯CSS token外带实验研究 |
+| [cereal_killer](https://github.com/digininja/cereal_killer) | PHP/Flask/Express反序列化靶场 |
+| [klag](https://github.com/themoah/klag) | Kafka滞后导出器遭投毒警示 |
+| [impacket#2361](https://github.com/fortra/impacket/pull/2361) | impacket新增MS-RPRN强制认证 |
+| [RustHound-CE](https://github.com/g0h4n/RustHound-CE) | BloodHound CE的AD数据收集器 |
+| [npmscan-action](https://github.com/NPMscan/npmscan-action) | 合并前拦截可疑npm依赖的Action |
+| [HyperLoader](https://github.com/S12cybersecurity/HyperLoader) | Hypervisor内执行shellcode加载器 |
+| [wifit3](https://github.com/derv82/wifit3) | Wifite的USB专用跨平台版 |
+| [CredGuardRuntimeShutdown](https://github.com/S12cybersecurity/CredGuardRuntimeShutdown) | 运行时关闭Credential Guard工具 |
+| [moonwalk](https://github.com/Teach2Breach/moonwalk) | 免PEB遍历定位DLL基址的工具 |
 | [pentestcode](https://github.com/s0ld13rr/pentestcode) | 多智能体AI自动化渗透测试系统 |
 | [gecko](https://github.com/ioncodes/gecko) | Rust写的GameCube与Wii模拟器 |
 | [DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) | 制作光盘镜像并校准物理参数的C#工具 |

@@ -3,7 +3,6 @@
 | 文章 | 简介 |
 |------|------|
 | [Agent Lure IoC](https://gist.github.com/fr0gger/3d0288bf0fee3b8df7b618e7c10334d7) | 73个伪装AI工具仓库的IoC清单 |
-| [artex-global](https://github.com/jiwoochris/artex-global) | ARTEX自主渗透框架多语言版 |
 | [PortSwigger 研究](https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt) | 单提示词把HTTP头注入升级为高危 |
 | [NVISO 检测即代码二](https://blog.nviso.eu/2026/11/04/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-2-execution/) | 检测即代码在既有环境落地实践二 |
 | [Kali C# 载荷](https://www.kali.org/blog/windows-csharp-payloads/) | Kali上构建Windows C#工具与载荷 |

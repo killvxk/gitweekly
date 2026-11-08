@@ -20,6 +20,7 @@
 | [RustHound-CE](https://github.com/g0h4n/RustHound-CE) | BloodHound CE的AD数据收集器 |
 | [npmscan-action](https://github.com/NPMscan/npmscan-action) | 合并前拦截可疑npm依赖的Action |
 | [HyperLoader](https://github.com/S12cybersecurity/HyperLoader) | Hypervisor内执行shellcode加载器 |
+| [artex-global](https://github.com/jiwoochris/artex-global) | ARTEX自主渗透框架多语言版 |
 | [wifit3](https://github.com/derv82/wifit3) | Wifite的USB专用跨平台版 |
 | [CredGuardRuntimeShutdown](https://github.com/S12cybersecurity/CredGuardRuntimeShutdown) | 运行时关闭Credential Guard工具 |
 | [moonwalk](https://github.com/Teach2Breach/moonwalk) | 免PEB遍历定位DLL基址的工具 |

@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [pentestcode](https://github.com/s0ld13rr/pentestcode) | 多智能体AI自动化渗透测试系统 |
+| [gecko](https://github.com/ioncodes/gecko) | Rust写的GameCube与Wii模拟器 |
 | [DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) | 制作光盘镜像并校准物理参数的C#工具 |
 | [NOIR](https://github.com/Verlintas/NOIR) | adb审计安卓应用权限与数据流向 |
 | [CreateHiddenAccount](https://github.com/wgpsec/CreateHiddenAccount) | 经注册表创建Windows隐藏账户工具 |

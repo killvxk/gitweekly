@@ -4639,5 +4639,7 @@
   "https://github.com/Shrey113/Android-Dex": "全安卓设备的DeX桌面替代方案",
   "https://github.com/collinzrj/claude-code-auto-safeguard-prompt": "Claude Code自主代理行为拦截防护提示词",
   "https://github.com/anywhere-labs/dsh-desktop": "DeepSeek Harness插件生态桌面端",
-  "https://github.com/I3IT/Detect.Remote.ShadowSnapshot.Dump": "检测影子快照远程凭据转储的工具"
+  "https://github.com/I3IT/Detect.Remote.ShadowSnapshot.Dump": "检测影子快照远程凭据转储的工具",
+  "https://github.com/s0ld13rr/pentestcode": "多智能体AI自动化渗透测试系统",
+  "https://github.com/ioncodes/gecko": "Rust写的GameCube与Wii模拟器"
 }

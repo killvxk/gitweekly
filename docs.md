@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Neo 架构](https://projectdiscovery.io/blog/neo-agent-architecture) | ProjectDiscovery Neo架构解析 |
+| [ARTEX Agentic Asbestos](https://censys.com/blog/artex-agentic-asbestos/) | ARTEX智能体暴露面远超已知战役分析 |
+| [HYFLOCK 报告](https://checkpoint.cyberint.com/hubfs/HYFLOCK%20-%20From%20Underground%20Recruitment%20to%20Public%20Extortion.pdf) | HYFLOCK从地下招募到公开勒索报告 |
+| [DARKSWORD 路由器](https://ohey.ca/research/darksword-router-ios-26-c10/) | DarkSword iOS利用链路由器剖析 |
+| [ArmorSteal](https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto/) | ArmorSteal窃密挖矿恶意软件分析 |
+| [Zyxel 0day](https://www.binarly.io/advisories/brly-2026-057) | Zyxel交换机0day补丁绕过通告 |
+| [ForgeRock RCE](https://samcurry.net/forgerock) | ForgeRock链式RCE车企控车漏洞研究 |
+| [WARDOGS 服务端泄露](https://samcurry.net/wardogs) | WARDOGS私服RCE泄露服务端二进制 |
+| [Storm-2603 ToolShell](https://securelist.com/storm-2603-fileless-toolshell-attack/121467/) | Storm2603无文件入侵ToolShell |
+| [Barracuda ESG RCE](https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/) | Barracuda邮件网关预认证root链漏洞 |
+| [Arkéa 复盘](https://www.halborn.com/blog/post/explained-the-credit-mutual-arkea-cyberattack-november-2026) | 法国Crédit Mutuel被盗案分析 |
+| [ISC 33498](https://isc.sans.edu/diary/33498) | OpenSSH sshole漏洞蜜罐扫描数据分析 |
+| [Claude Code 密钥](https://latent.tokyo/en/articles/2026-11-08-claude-code-dont-ask-again-secrets) | Claude Code确认对话致密钥明文入库 |
+| [BlueMoon 新哈希](https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit) | BlueMoon样本多国攻击者采用分析 |
+| [HuntPack BlueMoon](https://slapopotamus.github.io/HuntPack/hunts/BlueMoon-JungleBamboo-UTA0560-Hunt.html) | BlueMoon等威胁狩猎检测规则集 |
+| [MLflow SSRF](https://zeropath.com/blog/cve-2026-118628-mlflow-get-artifacts-ssrf) | MLflow SSRF未认证漏洞分析 |
 | [Agent Lure IoC](https://gist.github.com/fr0gger/3d0288bf0fee3b8df7b618e7c10334d7) | 73个伪装AI工具仓库的IoC清单 |
 | [PortSwigger 研究](https://portswigger.net/research/making-http-header-injection-critical-with-one-prompt) | 单提示词把HTTP头注入升级为高危 |
 | [NVISO 检测即代码二](https://blog.nviso.eu/2026/11/04/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-2-execution/) | 检测即代码在既有环境落地实践二 |

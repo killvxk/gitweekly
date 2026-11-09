@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [flare-vm](https://github.com/mandiant/flare-vm) | Windows逆向工程环境一键部署脚本 |
+| [Malspark](https://github.com/Root0ne/Malspark) | Malspark多智能体恶意软件分析平台 |
+| [viperclaw](https://github.com/zahidoverflow/viperclaw) | 面向编码智能体的AI渗透测试框架 |
 | [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills) | AI短剧与漫剧的技能包精选清单 |
 | [kiteline](https://github.com/hon6/kiteline) | iPhone手表遥控编码智能体工具 |
 | [Textus](https://github.com/CatVinci-Studio/Textus) | AI写作的Markdown编辑器 |

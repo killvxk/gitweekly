@@ -2,6 +2,9 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Cairn](https://github.com/oritera/Cairn) | AI状态空间搜索的渗透测试引擎 |
+| [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | AI原生的网络安全治理行动系统 |
+| [AutoPentester](https://github.com/YasodGinige/AutoPentester) | 可执行自动化渗透测试任务的平台 |
 | [hackersignal](https://github.com/BenAmpel/hackersignal) | 745万网安文档CTI基准数据集 |
 | [FlatScan](https://github.com/Masriyan/FlatScan) | Go静态恶意文件与IOC扫描器 |
 | [memform-code](https://github.com/opanhw/memform-code) | LLM智能体记忆投毒攻防研究代码 |

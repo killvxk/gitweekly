@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [nuclei-templates#17702](https://github.com/projectdiscovery/nuclei-templates/pull/17702) | SSHole密码绕过检测模板PR |
 | [Cairn](https://github.com/oritera/Cairn) | AI状态空间搜索的渗透测试引擎 |
 | [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | AI原生的网络安全治理行动系统 |
 | [AutoPentester](https://github.com/YasodGinige/AutoPentester) | 可执行自动化渗透测试任务的平台 |

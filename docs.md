@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Rails GHSA-f3w6-w445-fwh9](https://github.com/rails/rails/security/advisories/GHSA-f3w6-w445-fwh9) | Rails任意文件读写CVSS9.8通告 |
+| [Airbyte GHSA-g35w-6r6v-h4r7](https://github.com/airbytehq/airbyte/security/advisories/GHSA-g35w-6r6v-h4r7) | Airbyte自托管版RCE漏洞通告 |
+| [Firecracker GHSA-48ww-rqpp-2mgm](https://github.com/firecracker-microvm/firecracker/security/advisories/GHSA-48ww-rqpp-2mgm) | Firecracker快照内存读写漏洞 |
+| [CraftCMS GHSA-qcvp-ggx3-97r6](https://github.com/craftcms/cms/security/advisories/GHSA-qcvp-ggx3-97r6) | CraftCMS SQL注入提权漏洞通告 |
+| [React GHSA-xqc2-xf4c-x3h3](https://github.com/react/react/security/advisories/GHSA-xqc2-xf4c-x3h3) | React服务端组件未授权RCE通告 |
 | [InfoStealers 银行欺诈](https://www.group-ib.com/blog/infostealers-banking-fraud-stolen-credentials/) | InfoStealers窃密凭据银行欺诈分析 |
 | [Skimming 经济](https://flare.io/learn/resources/blog/skimming-economy-business-plans) | 地下刷卡器经济售卖商业计划分析 |
 | [ARTEX 金融业](https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/) | ARTEX滥用扩大瞄准金融行业 |

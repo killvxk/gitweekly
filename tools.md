@@ -2,6 +2,45 @@
 
 | 文章 | 简介 |
 |------|------|
+| [antifox](https://github.com/AntiFox-AI/antifox) | 二次开发自ARTEX的自主渗透平台 |
+| [Awesome-AI-Security](https://github.com/TalEliyahu/Awesome-AI-Security) | AI系统安全的资源研究与工具合集 |
+| [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) | 自动收集GitHub上的CVE PoC仓库 |
+| [hakrevdns](https://github.com/hakluke/hakrevdns) | 批量执行反向DNS查询的小工具 |
+| [smart-contract-attack-vectors](https://github.com/harendra-shakya/smart-contract-attack-vectors) | 智能合约的各类攻击向量精选清单 |
+| [axpc](https://github.com/andrd3v/axpc) | macOS通用XPC消息拦截器 |
+| [SCavanna Security Copilot 培训](https://github.com/scavanna/SCavanna-PoV/tree/main/Ninja_Training_Seguridad_Microsoft_2026/04_Security_Copilot) | 西语Security Copilot安全培训 |
+| [YumEdit](https://github.com/H4CNPE/YumEdit) | 国行iPhone开启Siri AI的工具 |
+| [filza-wq](https://github.com/MchinaMd57764/filza-wq) | Filza文件管理器相关的仓库 |
+| [Henge](https://github.com/Leviidev/Henge) | iOS与iPadOS上模拟macOS |
+| [macOS-uke](https://github.com/iOSNJBrepo/macOS-uke) | 小米平板7跑完整macOS系统 |
+| [ps5-hackintosh](https://github.com/rodri0x/ps5-hackintosh) | PS5的Zen2上裸机启动XNU |
+| [WinBrew-11](https://github.com/KPKev/WinBrew-11) | PS5自制桌面系统带游戏启动器 |
+| [edk2-rk3326](https://github.com/haropng/edk2-rk3326) | RK3326的EDK2 UEFI移植 |
+| [foreman](https://github.com/Archive228/foreman) | 托管Grok Bot团队的编排框架 |
+| [grok-bot-profiles](https://github.com/HAEGONG/grok-bot-profiles) | 现成的Grok Bot角色配置集 |
+| [grok-bot-architecture](https://github.com/tiagovilasboas/grok-bot-architecture) | MCP原生多智能体架构人工审批 |
+| [hypergrok-trading-desk](https://github.com/galleonlabs/hypergrok-trading-desk) | AI代理的Hyperliquid交易台 |
+| [agent-desktop](https://github.com/vercel-labs/agent-desktop) | Vercel的AI代理电脑操控CLI |
+| [sandbox-mcp](https://github.com/shanselman/sandbox-mcp) | Windows沙箱自动化MCP与CLI |
+| [agentring](https://github.com/mutonby/agentring) | AI代理VoIP打电话回传记录 |
+| [dsh-blender-plugin](https://github.com/sixtysevenlf/dsh-blender-plugin) | DSH直连Blender的AI建模插件 |
+| [project-maya](https://github.com/mw00/project-maya) | 自有GPU跑三家Flash大模型面板 |
+| [Strata](https://github.com/Niko1221/Strata) | 消费级硬件跑Qwen Flash引擎 |
+| [glm53-flash-fp4-b12x-2x-dgx-spark](https://github.com/Reederey87/glm53-flash-fp4-b12x-2x-dgx-spark) | 双DGX Spark vLLM部署GLM FP4 |
+| [dgx-station-recipes](https://github.com/tomascupr/dgx-station-recipes) | GB300部署DeepSeek与GLM配方 |
+| [PolyStrata](https://github.com/simplexai-labs/PolyStrata) | 本地一键安装多款大模型推理引擎 |
+| [micrograd](https://github.com/karpathy/micrograd) | Karpathy极简自动求导与神经网络库 |
+| [solv3r-demo](https://github.com/filliptm/solv3r-demo) | Solv3R多视角3D重建网页演示 |
+| [pvmss](https://github.com/julienhmmt/pvmss) | Proxmox的自助服务虚拟机门户 |
+| [chatwoot](https://github.com/chatwoot/chatwoot) | 开源的全渠道客服与工单支持系统 |
+| [moejs](https://github.com/MoeForge/moejs) | 纯Go的小插件沙箱式JS运行时 |
+| [vox](https://github.com/vox-browser/vox) | vox纯V语言编写的浏览器引擎 |
+| [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 浏览器里的真实数据间谍卫星模拟 |
+| [Anima-Prompt-Generator](https://github.com/GUntilB/Anima-Prompt-Generator) | 本地LLM生成Anima提示词节点 |
+| [ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) | 中文版的AI姿势参考图库静态站 |
+| [nvzhuang](https://github.com/paipiange/nvzhuang) | AI女装参考图集与虚拟试穿网站 |
+| [sheeridVerify](https://github.com/JenkinWoo/sheeridVerify) | SheerID认证的自动化脚本 |
+| [r_AKanaly](https://github.com/k0011m/r_AKanaly) | Codex驱动的恶意软件VM分析工具 |
 | [nuclei-templates#17702](https://github.com/projectdiscovery/nuclei-templates/pull/17702) | SSHole密码绕过检测模板PR |
 | [Cairn](https://github.com/oritera/Cairn) | AI状态空间搜索的渗透测试引擎 |
 | [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) | AI原生的网络安全治理行动系统 |

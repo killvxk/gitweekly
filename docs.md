@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [HackNexus](https://d1se0.github.io/hacknexus/#/) | HackNexus西语道德黑客资源套件 |
+| [Delayed OTAs](https://dhinakg.github.io/delayed-otas.html) | 苹果iOS延迟OTA更新机制分析 |
 | [Rails GHSA-f3w6-w445-fwh9](https://github.com/rails/rails/security/advisories/GHSA-f3w6-w445-fwh9) | Rails任意文件读写CVSS9.8通告 |
 | [Airbyte GHSA-g35w-6r6v-h4r7](https://github.com/airbytehq/airbyte/security/advisories/GHSA-g35w-6r6v-h4r7) | Airbyte自托管版RCE漏洞通告 |
 | [Firecracker GHSA-48ww-rqpp-2mgm](https://github.com/firecracker-microvm/firecracker/security/advisories/GHSA-48ww-rqpp-2mgm) | Firecracker快照内存读写漏洞 |

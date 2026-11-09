@@ -2,6 +2,13 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-50679](https://github.com/h4urek/CVE-2026-50679) | Windows Search堆溢出漏洞PoC |
+| [AGX-RW-iOS-PoC](https://github.com/0xjohnnydev/AGX-RW-iOS-PoC) | iPhone16 AGX固件读写KRW的PoC |
+| [AGX-RW-macOS-PoC](https://github.com/0xjohnnydev/AGX-RW-macOS-PoC) | macOS上KextRW与AGX读写PoC |
+| [iosurface-adjacent-oob](https://github.com/Rust505/iosurface-adjacent-oob) | SurfHeist iOS越界写内核堆暴露 |
+| [iOS27-Research-Exploits](https://github.com/SKVLENT/iOS27-Research-Exploits) | iOS27安全研究与漏洞利用合集 |
+| [widget-renderbox-meshgradient-oob](https://github.com/licht-jb/widget-renderbox-meshgradient-oob) | iOS小组件RenderBox越界研究 |
+| [doublera1n](https://github.com/34306/doublera1n) | iPhone11建第二越狱iOS系统 |
 | [ftpm_attack](https://github.com/PSPReverse/ftpm_attack) | AMD fTPM漏洞faulTPM论文代码 |
 | [*sshole PoC](https://gist.github.com/rezigned/31656ac0517869f387b7a91f47de5976) | OpenSSH sshole漏洞容器化PoC |
 | [SVE-2026-3546](https://github.com/Gabriel2392/SVE-2026-3546) | 三星s5e8825安全启动绕过PoC |

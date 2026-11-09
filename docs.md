@@ -2,6 +2,33 @@
 
 | 文章 | 简介 |
 |------|------|
+| [ARTEX 金融业](https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/) | ARTEX滥用扩大瞄准金融行业 |
+| [解锁汽车](https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/) | Shubham Shah解锁品牌汽车攻击研究 |
+| [ShinyHunters](https://flare.io/learn/resources/blog/shinyhunters-arrests-brand-name-fight) | ShinyHunters被捕后品牌名争夺战 |
+| [ClickFix 仿冒](https://flare.io/learn/resources/blog/microsoft-lookalike-domain-clickfix-campaign) | 微软仿冒域名ClickFix钓鱼分析 |
+| [制冷控制器](https://flare.io/learn/resources/blog/after-refrigeration-system-attack-france-exposed-refrigeration-controllers) | 法国制冷攻击后控制器暴露面分析 |
+| [Binance 窃密日志](https://flare.io/learn/resources/blog/binance-attack-stealer-logs) | Binance案窃密日志关联企业登录 |
+| [AI 犯罪经济](https://flare.io/learn/resources/blog/ai-cybercrime-economics-ransomware-extortion) | AI降低网络犯罪成本经济学分析 |
+| [PHP2Shell 地下](https://flare.io/learn/resources/blog/php2shell-exploits-underground-analysis) | 地下社区看待PHP2Shell利用讨论 |
+| [PHP2Shell 暴露](https://flare.io/learn/resources/blog/php2shell-exposure) | PHP2Shell服务版本暴露统计 |
+| [工业凭据暴露](https://flare.io/learn/resources/blog/industrial-remote-access-credential-exposure) | 法国冷链攻击后工业凭据暴露测量 |
+| [AI 犯罪定量](https://flare.io/learn/resources/blog/ai-models-cybercrime-quantitative-analysis) | AI模型助长新型网络犯罪定量分析 |
+| [Rogue AI](https://cyble.com/blog/rogue-ai-agents-ai-test-environment/) | 恶意AI智能体滥用企业测试环境 |
+| [OFAC API](https://secjuice.com/a-free-sanctions-api-missed-all-five-firms-ofac-listed-on-19-october/) | 免费制裁API漏检OFAC名单分析 |
+| [Binance 签名](https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/) | Binance被盗后签名系统审批审查 |
+| [虚拟化安全](https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/) | ESXi Proxmox虚拟化安全与勒索案例 |
+| [sshole 分析](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-123158/) | OpenSSH musl认证绕过RCE分析 |
+| [Groklem](https://starlabs.sg/blog/2026/11-groklem-an-android-banker-that-rents-grok-to-read-your-texts/) | Groklem租用Grok读短信银行木马 |
+| [ISC 33492](https://isc.sans.edu/diary/rss/33492) | 老旧Cisco IOS漏洞扫描激增观察 |
+| [AD 攻击工作流](https://secjuice.com/red-team-vs-pentest-active-directory-attack-workflow/) | Active Directory红队攻击工作流 |
+| [GhostMap](https://www.bitdefender.com/en-us/blog/labs/ghostmap-android) | GhostMap安卓重启循环漏洞分析 |
+| [Mirax](https://www.group-ib.com/blog/mirax-android-device-takeover-rat/) | Mirax安卓服务端接管RAT分析 |
+| [BTMob](https://flashpoint.io/blog/inside-btmob-how-a-source-code-leak-expanded-access-to-a-mobile-rat/) | BTMob移动RAT源码泄露扩散分析 |
+| [白宫代理出口](https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/) | 白宫IP段沦为住宅代理出口调查 |
+| [美军基地地图](https://www.bellingcat.com/news/2026/11/05/how-online-maps-lay-bare-the-us-military-bases-targeted-by-iran/) | 在线地图暴露美军基地OSINT分析 |
+| [RAMP 管理员](https://ddanchev.blogspot.com/2026/11/who-is-ramps-administrator-stallman.html) | RAMP论坛管理员身份OSINT调查 |
+| [PQC 2030](https://www.guidepointsecurity.com/blog/pqc-2030-is-not-the-deadline/) | 后量子密码迁移2030非截止日分析 |
+| [智能体滥用密钥](https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/) | 威胁行为者用智能体AI滥用暴露密钥 |
 | [Neo 架构](https://projectdiscovery.io/blog/neo-agent-architecture) | ProjectDiscovery Neo架构解析 |
 | [ARTEX Agentic Asbestos](https://censys.com/blog/artex-agentic-asbestos/) | ARTEX智能体暴露面远超已知战役分析 |
 | [HYFLOCK 报告](https://checkpoint.cyberint.com/hubfs/HYFLOCK%20-%20From%20Underground%20Recruitment%20to%20Public%20Extortion.pdf) | HYFLOCK从地下招募到公开勒索报告 |

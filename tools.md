@@ -2,6 +2,42 @@
 
 | 文章 | 简介 |
 |------|------|
+| [hackersignal](https://github.com/BenAmpel/hackersignal) | 745万网安文档CTI基准数据集 |
+| [FlatScan](https://github.com/Masriyan/FlatScan) | Go静态恶意文件与IOC扫描器 |
+| [memform-code](https://github.com/opanhw/memform-code) | LLM智能体记忆投毒攻防研究代码 |
+| [Obscura](https://github.com/security-life-org/Obscura) | 被动侦察威胁狩猎攻击面管理平台 |
+| [FuFuFaFa](https://github.com/Masriyan/FuFuFaFa) | FuFuFaFa的AWS云安全审计框架 |
+| [LUCX_network_traffic_parser](https://github.com/doriguzzi/LUCX_network_traffic_parser) | LUCX网络流量分析与特征提取框架 |
+| [dtls](https://github.com/pion/dtls) | Go语言DTLS 1.2/1.3协议实现 |
+| [kodeblue](https://github.com/Problem99-io/kodeblue) | Linux主机SOC响应与遏制代理 |
+| [Windows-DNS-Policy-Manager](https://github.com/joshuatownsend/Windows-DNS-Policy-Manager) | Windows服务器DNS策略图形管理 |
+| [HyperLoader](https://github.com/S12cybersecurity/HyperLoader) | Hypervisor内执行shellcode加载器 |
+| [fivem-backdoor-scanner](https://github.com/rpScripts/fivem-backdoor-scanner) | FiveM资源后门隐藏加载扫描器 |
+| [sigwood](https://github.com/helixmap/sigwood) | Zeek等本地日志威胁狩猎框架 |
+| [nhi-risk-analyzer](https://github.com/likithmanoj/nhi-risk-analyzer) | 多云NHI非人类身份风险评估工具 |
+| [NaSuno-SongHumanizer](https://github.com/AhmadHassan-BTed/NaSuno-SongHumanizer) | AI音频水印移除反归因取证工具 |
+| [secimport](https://github.com/avilum/secimport) | Python库级eBPF沙箱系统调用管控 |
+| [oss-analyzer](https://gitlab.com/thalesgroup/oss-analyzer) | SBOM等开源安全合规CI门禁 |
+| [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc) | Android集成的硬化内存分配器 |
+| [jailbreak-eval-7llms](https://github.com/Mdniloykhan/jailbreak-eval-7llms) | 七大LLM越狱攻防系统评测论文 |
+| [spillway](https://github.com/saintmachines/spillway) | 智能体提示注入防御工具Spillway |
+| [one-second](https://github.com/the-knell/one-second) | OpenWebUI安装时间弱密钥攻击 |
+| [Thirty-One-Bits](https://github.com/the-knell/Thirty-One-Bits) | InfiniteWP弱密钥291秒破解研究 |
+| [rubeus](https://gitlab.com/kalilinux/packages/rubeus) | AD域攻击Rubeus的Kali打包 |
+| [whathost](https://gitlab.com/bountrix/whathost) | IP反查主机名PTR与SNI解析器 |
+| [DotNetToJScript](https://github.com/tyranid/DotNetToJScript) | .NET程序转JScript内存加载工具 |
+| [CSharpScripts](https://github.com/Arno0x/CSharpScripts) | Arno0x C#红队脚本工具合集 |
+| [DUP](https://github.com/ManHu2025/DUP) | 基于OpenBackdoor的LLM后门攻击 |
+| [UpSafe](https://github.com/HansSunY/UpSafe) | LLM安全Upcycling升级论文仓库 |
+| [co-weight-drift](https://github.com/fzjcdt/co-weight-drift) | 概念移除攻击与AutoAttack研究代码 |
+| [signed-but-steerable](https://github.com/securagenai/signed-but-steerable) | 离线RAG向量库完整性审计研究 |
+| [FenrirLVX](https://github.com/cyeezy08/FenrirLVX) | WordPress攻击面测绘指纹CVE关联 |
+| [SMT](https://github.com/liujlong27/SMT) | 模拟审核痕迹越狱函数调用LLM |
+| [GraphIP-Bench](https://github.com/LabRAI/GraphIP-Bench) | GNN图模型水印攻击评测基准库 |
+| [KEVin](https://github.com/synfinner/KEVin) | CISA KEV已知利用漏洞目录API |
+| [xmtr](https://github.com/Alice39s/xmtr) | mtr增强多目标并行探测可视化 |
+| [cloudg](https://github.com/morpheuslord/cloudg) | 多云资产图谱测绘与合规审计CLI |
+| [vac](https://github.com/sapdragon/vac) | C++20重建Valve反作弊引擎VAC |
 | [flare-vm](https://github.com/mandiant/flare-vm) | Windows逆向工程环境一键部署脚本 |
 | [Malspark](https://github.com/Root0ne/Malspark) | Malspark多智能体恶意软件分析平台 |
 | [viperclaw](https://github.com/zahidoverflow/viperclaw) | 面向编码智能体的AI渗透测试框架 |

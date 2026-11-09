@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [ftpm_attack](https://github.com/PSPReverse/ftpm_attack) | AMD fTPM漏洞faulTPM论文代码 |
 | [*sshole PoC](https://gist.github.com/rezigned/31656ac0517869f387b7a91f47de5976) | OpenSSH sshole漏洞容器化PoC |
 | [SVE-2026-3546](https://github.com/Gabriel2392/SVE-2026-3546) | 三星s5e8825安全启动绕过PoC |
 | [GhostKey](https://github.com/EternalTimes/CVE-2026-98260-GhostKey) | GhostKey一键提权利用工具 |

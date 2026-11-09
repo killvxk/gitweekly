@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [InfoStealers 银行欺诈](https://www.group-ib.com/blog/infostealers-banking-fraud-stolen-credentials/) | InfoStealers窃密凭据银行欺诈分析 |
+| [Skimming 经济](https://flare.io/learn/resources/blog/skimming-economy-business-plans) | 地下刷卡器经济售卖商业计划分析 |
 | [ARTEX 金融业](https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/) | ARTEX滥用扩大瞄准金融行业 |
 | [解锁汽车](https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/) | Shubham Shah解锁品牌汽车攻击研究 |
 | [ShinyHunters](https://flare.io/learn/resources/blog/shinyhunters-arrests-brand-name-fight) | ShinyHunters被捕后品牌名争夺战 |

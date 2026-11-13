@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [lkm4ctr](https://github.com/cyanmint/lkm4ctr) | 用内核模块让安卓跑Docker |
 | [awesome-osint](https://github.com/jivoi/awesome-osint) | OSINT情报搜集精选资源清单 |
 | [ai-ref-library-cn](https://github.com/sleepy-zone/ai-ref-library-cn) | AI作图中文参考素材库（脸姿势服装） |
 | [phoneuse](https://github.com/lxe/phoneuse) | Linux操控iPhone的镜像与键鼠工具 |

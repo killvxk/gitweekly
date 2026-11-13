@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Tendril](https://github.com/Whispergate/Tendril) | C#与BOF的持久化后渗透工具 |
 | [BOF-coerce-ipp](https://github.com/sudonoodle/BOF-coerce-ipp) | IPP打印机强制认证可中继的BOF |
 | [COM_Hijack_BOF](https://github.com/bsdrip/COM_Hijack_BOF) | COM劫持持久化BOF，兼容CS与Mythic |
 | [redteam-bofs](https://github.com/chryzsh/redteam-bofs) | 后渗透 Beacon Object File 合集 |

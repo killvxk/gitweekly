@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [awesome-osint](https://github.com/jivoi/awesome-osint) | OSINT情报搜集精选资源清单 |
+| [ai-ref-library-cn](https://github.com/sleepy-zone/ai-ref-library-cn) | AI作图中文参考素材库（脸姿势服装） |
+| [phoneuse](https://github.com/lxe/phoneuse) | Linux操控iPhone的镜像与键鼠工具 |
+| [museAPI-video](https://github.com/LIUFelix2004/museAPI-video) | muse.ai自托管视频创作平台 |
+| [Autoruns-for-Linux](https://github.com/microsoft/Autoruns-for-Linux) | 微软Linux版自启动项枚举工具 |
+| [GestaltX](https://github.com/huamidev/GestaltX) | iOS27的MobileGestalt编辑器 |
+| [primesnap](https://github.com/nivohavi/primesnap) | macOS原生截图美化标注工具 |
+| [show-me-you-want-skill](https://github.com/nishuzumi/show-me-you-want-skill) | Agent改动前生成线框原型反馈技能 |
+| [DeskBox](https://github.com/Tianyu199509/DeskBox) | WinUI3小组件桌面整理工具 |
+| [WaybackPivot](https://github.com/redsecurityfr/WaybackPivot) | Wayback文件名转urlscan追踪工具 |
+| [hayabusa](https://github.com/Yamato-Security/hayabusa) | Windows事件日志威胁狩猎工具 |
+| [homer](https://github.com/twili8/homer) | Donut规避版内存PE加载器 |
+| [pytube-downloader](https://github.com/thisal-d/pytube-downloader) | 跨平台YouTube视频下载工具 |
 | [antifox](https://github.com/AntiFox-AI/antifox) | 二次开发自ARTEX的自主渗透平台 |
 | [Awesome-AI-Security](https://github.com/TalEliyahu/Awesome-AI-Security) | AI系统安全的资源研究与工具合集 |
 | [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) | 自动收集GitHub上的CVE PoC仓库 |

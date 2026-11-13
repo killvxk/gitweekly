@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [CVE-2026-83844-public](https://github.com/HackingLZ/CVE-2026-83844-public) | MS Paint C2PA解析越界读PoC |
 | [CVE-2026-50679](https://github.com/h4urek/CVE-2026-50679) | Windows Search堆溢出漏洞PoC |
 | [AGX-RW-iOS-PoC](https://github.com/0xjohnnydev/AGX-RW-iOS-PoC) | iPhone16 AGX固件读写KRW的PoC |
 | [AGX-RW-macOS-PoC](https://github.com/0xjohnnydev/AGX-RW-macOS-PoC) | macOS上KextRW与AGX读写PoC |

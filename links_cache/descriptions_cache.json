@@ -4843,5 +4843,20 @@
   "https://github.com/anhao/ai-pose-gallery-zh": "中文版的AI姿势参考图库静态站",
   "https://github.com/paipiange/nvzhuang": "AI女装参考图集与虚拟试穿网站",
   "https://github.com/JenkinWoo/sheeridVerify": "SheerID认证的自动化脚本",
-  "https://github.com/k0011m/r_AKanaly": "Codex驱动的恶意软件VM分析工具"
+  "https://github.com/k0011m/r_AKanaly": "Codex驱动的恶意软件VM分析工具",
+  "https://github.com/Whispergate/Tendril": "C#与BOF的持久化后渗透工具",
+  "https://github.com/HackingLZ/CVE-2026-83844-public": "MS Paint C2PA解析越界读PoC",
+  "https://github.com/jivoi/awesome-osint": "OSINT情报搜集精选资源清单",
+  "https://github.com/sleepy-zone/ai-ref-library-cn": "AI作图中文参考素材库（脸姿势服装）",
+  "https://github.com/lxe/phoneuse": "Linux操控iPhone的镜像与键鼠工具",
+  "https://github.com/LIUFelix2004/museAPI-video": "muse.ai自托管视频创作平台",
+  "https://github.com/microsoft/Autoruns-for-Linux": "微软Linux版自启动项枚举工具",
+  "https://github.com/huamidev/GestaltX": "iOS27的MobileGestalt编辑器",
+  "https://github.com/nivohavi/primesnap": "macOS原生截图美化标注工具",
+  "https://github.com/nishuzumi/show-me-you-want-skill": "Agent改动前生成线框原型反馈技能",
+  "https://github.com/Tianyu199509/DeskBox": "WinUI3小组件桌面整理工具",
+  "https://github.com/redsecurityfr/WaybackPivot": "Wayback文件名转urlscan追踪工具",
+  "https://github.com/Yamato-Security/hayabusa": "Windows事件日志威胁狩猎工具",
+  "https://github.com/twili8/homer": "Donut规避版内存PE加载器",
+  "https://github.com/thisal-d/pytube-downloader": "跨平台YouTube视频下载工具"
 }

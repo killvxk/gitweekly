@@ -1,205 +1,226 @@
-# X 安全情报晚报 · 2026-11-07
+# X 安全情报晚报 · 2026-11-07（America/Santiago）
 
-覆盖窗口：2026-11-06 20:15 至 2026-11-07 约 20:20（America/Santiago，UTC-3），约 24 小时（窗口内最晚收录帖为 20:07）。X 只读读取 **14** 次（search_posts_all 主题检索 ×3、高信号／LWiS 成员 `from:` 抽样 ×3、昨日要点与新 CVE 定向 ×5、get_posts_by_ids ×1、search_news ×1、事件定向 ×1），**0 次 429**；与 state.json seen_ids 去重，过滤广告、空转发与明显诈骗帖（如 Instagram 引流「NEXTSH」所谓全国级 0day 工具帖，未收录）。t.co 已用 `curl -sI` 展开。公开备援：CISA KEV JSON（**2026.11.06，共 1769 条，Δ0**，周六无更新）、NVD API、SecurityWeek、BleepingComputer、Securelist、Infosecurity、watchTowr Labs、samcurry.net 等。IoC 一律 defang。本报告为防御向，不转载利用代码、payload 或复现步骤。
+> 生成时间：2026-11-07 20:14（America/Santiago）＝ 2026-11-08 07:14（香港时间）
+> X 覆盖：Latest 多路检索去重后窗口内保留约 **418** 帖 + LWiS List 两页窗口内 **50** 帖（List 原始拉取约 186），合计唯一约 **468**；覆盖约 **2026-11-06 23:00 → 2026-11-07 23:00 UTC**（约 24h，窗口目标约 24.2h）。
+> 公开备援：CISA KEV（catalogVersion **2026.11.06**；近日 3 条含 SonicWall **CVE-2026-19868** dateAdded=2026-11-06，昨报已详述，今日跟进）。
+> SecureFlow：**API 全线 500**（`/api/rss/all/articles`、`category=community|blog` 均 Internal Server Error；HTML SPA 可开）。本日改用同源公开 RSS 备援精选：all≈**2**、community≈**0**、blog≈**18**（合计高信号约 20；ZDI 新公告为主，另含 THN／Cloudflare／tl;dr sec）。forum.butian.net box 侧 403。AI/TLDR 窗口新 **6**（security **0**）；Agent Use Cases 窗口新 **25**。
+> 周末版：含阮一峰《科技爱好者周刊》第 **418** 期。验收：采集、成稿、链接核验均通过。主链接抽查见 `raw/2026-11-07/link_check.json`（50 条；阮一峰官网 box 侧换 UA+Referer 仍 **403**，保留并注明，本地已有 HTML 缓存）。禁止利用代码／payload／PoC 步骤；防御向。
 
 ## 今日摘要
 
-- **CISA KEV 今日无更新（2026.11.06／1769／Δ0）**：WordPress Core **CVE-2026-119977** 联邦期限 11-06 已过，转入逾期；下周一 **11-10** 到期 Google（Brotli）CVE-2026-111497、Adobe CVE-2026-48356，11-11 Broadcom CVE-2026-41709，11-13 Ivanti CVE-2026-118527；SonicWall CVE-2026-19868 due 11-20。
-- **OpenSSH *sshole（CVE-2026-123158）在野利用面扩大**：watchTowr Intel 确认观测到利用（「目前是僵尸网络和挖矿」）；GreyNoise 传感器数据持续被引用；ProjectDiscovery nuclei 已有检测模板 PR。受影响面不止 Alpine，SecurityWeek 点名 OpenWrt、Buildroot、Yocto 等 musl 无 PAM 系统。仍须 **10.6p2／发行版补丁 + 重启 sshd**，或 `PasswordAuthentication no`。
-- **SonicWall CVE-2026-19868 细节**：同一公告共 7 个洞，仅 19868 标注疑似被利用（CVSS 7.1）；另有两个 8.8 管理面洞（跨域策略／会话校验）、三个预认证溢出（DoS）；SecurityWeek 提醒上月被利用的 **CVE-2026-102255** 仍未进 KEV。
-- **Barracuda ESG 预认证 root 链（CVE-2026-116606 + CVE-2026-111560）**：watchTowr 公开分析；NVD 描述影响 **9.4.0.030 以前**；社区呼吁把管理界面撤离公网。暂未进 KEV。
-- **Microsoft Entra Device Registration CVE-2026-109469（CVSS 10.0）**：授权绕过→网络侧提权；社区帖称微软已在服务端缓解（云服务洞），建议核对设备注册与 Conditional Access 相关日志。
-- **Crédit Mutuel Arkéa 经服务商被盗约 1 亿欧元（约 1.33 亿美元）**：攻击者经第三方平台进入，以银行自有账户转出并换为 USDC/USDT；银行称已追回部分。
-- **APT／Malware**：Securelist 披露 **Storm-2603** 无文件 SharePoint（ToolShell）入侵与 Warlock 尝试（附 IoC）；ESET **SlippyNunchucks** 经 DNS 劫持滥用搜狗输入法投 DarkVigil；malwrhunterteam 发现 macOS 假安装包下载点。
-- **其他**：WP Libre Form CVE-2026-118423 公开 PoC 且无修复（建议停用）；Rails Active Storage CVE-2026-122006；Tenda AC19 CVE-2026-123966／Edimax BR-6208AC CVE-2026-122051／WAVLINK CVE-2026-120198（IoT，公开利用、无补丁）；Sam Curry／Shubham Shah ForgeRock 链远程控车（已修）；Gnosis Pay 卡数据泄露；Keplr／Web3Auth 社交登录钱包被盗（X 新闻摘要）。
+- **Claude Code「Don't Ask Again」设置文件泄露**：Apiiro／THN 称约 **1122** 份公开 GitHub 副本里残留命令行明文密码／API 密钥；审查仓库中 Claude 项目设置、轮换已暴露密钥，避免把含密命令写入「不再询问」白名单。
+- **samcurry 新文：ForgeRock 路径混淆→RCE，以及 hosting 侧 WARDOGS 二进制外泄**：与 @infosec_au 汽车远程控制故事交叉；身份／车联／托管面需按文盘点暴露与补丁，本报不写利用步骤。
+- **Firecracker VM Escape（PwnEscape Part 2）**：pwn.ai 公开研究文章；云／多租户侧关注 microVM 隔离边界与厂商补丁节奏。
+- **MyCERT：C3RB3R 勒索大规模加密公网暴露的旧版 Synology NAS**：厂商催更 DSM；关闭不必要公网端口、启用 2FA、核验备份离线可用性。
+- **Microsoft Entra Device Registration 提权 CVE-2026-109469**、**Zscaler Client Connector RCE CVE-2026-59568**：分别跟进身份注册面与企业 ZTNA 客户端补丁。
+- **CISA 继续推 SonicWall CVE-2026-19868 KEV**（昨报已详）：按 SNWLID-2026-0014 打补丁，联邦截止约 11-20。
+- **工具向**：keyeroo（NTLM→LDAP 操作研究／红队工具）、Mythic v4 预告直连 RDP／VNC；**防御提示** GitHub 假安全工具藏 payload（不写步骤）。
+- SecureFlow 备援：ZDI 一批 Pwn2Own／LibreOffice／Docker Sandboxes／Philips Hue／OriginLab 等公告；Cloudflare vole-mole 后量子隐私、Zero Wire；tl;dr sec #353。
+- 交叉：MetaMask 基础设施事件（SCWorld）、WorkOS×逃逸沙箱 AI agent（昨报已覆盖，一句交叉）、法国经服务商通路约 $1.33 亿银行盗窃报道。
 
-## CVE / POC / 漏洞
+## CVE / POC / 漏洞（每条：说明 + 地址列表）
 
-### 1. OpenSSH *sshole CVE-2026-123158 —— 在野利用确认扩大（续报）
-条件不变：musl libc + 无 PAM + `PasswordAuthentication yes` + 存在 shadow 为 `*` 的可登录账户 + 本机另有 `$5$`／`$6$` 哈希账户；257–1024 字符的任意密码即可登录。**今日新增**：watchTowr Intel 称已观测到利用，目前多为僵尸网络与挖矿；SecurityWeek 引 OpenSSH 维护者 Damien Miller：鉴于 AI 代理快速「重新发现」漏洞，此次几乎不设禁运；受影响面含 Alpine（3.16–3.24、edge 均检查到）、OpenWrt、Buildroot、Yocto 等。社区已出 nuclei 检测模板（PR），可用于资产自查。修复：**OpenSSH 10.6p2** 或发行版补丁，**必须重启 sshd**；临时：关闭密码认证。狩猎：本应无密码账户出现 `Accepted password for`；超长密码尝试；`sshd -T | grep -E 'usepam|passwordauthentication'`。
-- X 原帖：https://x.com/watchtowrcyber/status/2118636513739317525 （11-06 早间，窗口内被转引）；https://x.com/SecurityWeek/status/2119054511159320975 ；https://x.com/TheMsterDoctor1/status/2118960474276425868 ；https://x.com/UK_Daniel_Card/status/2119108419336479161 ；https://x.com/cipherredacted1/status/2119205191442633133 ；https://x.com/modularciso/status/2119006094856966603 ；https://x.com/PacketReport1/status/2119053354143723924 ；https://x.com/jenistranger/status/2119082457429590450 ；https://x.com/i/trending/2118336300994671088 （X 新闻摘要）
-- GitHub·检测模板：https://github.com/projectdiscovery/nuclei-templates/pull/17702/files
-- PoC（仅列出处，不转载）：https://gist.github.com/rezigned/31656ac0517869f387b7a91f47de5976 （来源 https://x.com/rezigned/status/2118993409679786465 ）
-- 文章：https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/ ；https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html ；https://sshhole.com/
-- 厂商／上游：https://www.openssh.org/txt/release-10.6p2 ；https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-123158
-- 地址／IoC：未见公开 IoC（无统一利用源 IP 列表；以 GreyNoise 看板与本组织 sshd 日志为准）
+### 1. Claude Code「Don't Ask Again」：公开仓库泄露密码／密钥
+当用户对含密命令选择「Yes, and don't ask again」时，命令可被原样写入项目设置文件；Apiiro 称 GitHub 上可见约 **1122** 份公开副本含密码／API 密钥。防御建议：全库检索 Claude／Anthropic 项目设置文件；立即轮换任何曾批准进白名单的密钥；企业侧禁止在可提交仓库中持久化含密命令；改用密钥管理／短时凭证。
+- X 原帖：https://x.com/Dinosn/status/2118973588153712713
+- 文章：https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html
 
-### 2. SonicWall SonicOS SSLVPN CVE-2026-19868 —— KEV（due 11-20），公告细节
-SecurityWeek（11-07）：SonicWall 11-06 公告共 7 个漏洞，**仅 CVE-2026-19868 标注疑似在野利用**（CVSS 7.1，仅在启用 SAML 登录时暴露；持另一认证方式有效凭据可绕过 SAML 与 SAML 强制 MFA）。影响 Gen7 TZ/NSa/NSsp/NSv **7.3.3-7015 及更早**、Gen8 TZ/NSa/NSv **8.2.2-8015 及更早**；修复 **7.3.4-7013／8.2.3-8015**；无变通。同公告另含：两个 CVSS 8.8 管理接口洞（宽松跨域策略、会话校验，部分条件下未认证可执行未授权操作）、三个 SSLVPN／TACACS+ 预认证缓冲区溢出（应用层 DoS）、一个虚拟设备弱口令哈希。另：上月被利用的 **CVE-2026-102255** 仍未进 KEV。防御：升级；管理面不对公网；复查 SSLVPN 登录与非 SAML 认证源。
-- X 原帖：https://x.com/SecurityWeek/status/2119120196267057283 ；https://x.com/SecurityWeek/status/2119011671163203845 ；https://x.com/BadgerSignalHQ/status/2118986471814356992 ；https://x.com/SecWireDaily/status/2119082579013873841 ；https://x.com/yabetchi_iPhone/status/2119201643082436886
-- 文章：https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/
-- 厂商公告：https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014
-- CISA KEV／NVD：https://www.cisa.gov/known-exploited-vulnerabilities-catalog ；https://nvd.nist.gov/vuln/detail/CVE-2026-19868
-- 地址／IoC：未见公开 IoC
+### 2. samcurry：ForgeRock 路径混淆链至身份 RCE，与汽车远程故事交叉
+Sam Curry／Shubham Shah 公开：经 ForgeRock WAF／路径混淆进入两家车企身份系统并演示美国区远程车辆控制相关影响；另文讲述对托管侧 RCE 导致 WARDOGS 服务端二进制与密钥材料外泄。防御建议：盘点 ForgeRock／身份网关公网暴露与补丁；车联／TSP 管理面最小权限与 MFA；托管合作伙伴隔离与密钥轮换；以厂商／作者披露为准做资产测绘，**不复述利用细节**。
+- X 原帖：https://x.com/samwcyo/status/2119030320171266117 、https://x.com/samwcyo/status/2119030321505079440 、https://x.com/infosec_au/status/2119025620969828598 、https://x.com/Dinosn/status/2119071321048973437
+- 文章：https://samcurry.net/forgerock 、https://samcurry.net/wardogs 、https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/
 
-### 3. Barracuda Email Security Gateway CVE-2026-116606 + CVE-2026-111560 —— 预认证 root 链
-watchTowr Labs（Sina Kheirkhah）分析：116606 为预认证授权绕过（CVSS 9.3，可调用配置导入恢复伪造备份）、111560 为 OS 命令注入（CVSS 8.6，波及 ESG、Load Balancer ADC、Message Archiver、WAF Control Center、WAF、Web Security Gateway），串联得未认证 root。**版本口径不一**：watchTowr 表列修于 9.4.0.029，NVD 描述「9.4.0.030 以前」受影响，社区帖亦写 9.4.0.030+——建议直接升到 **≥9.4.0.030** 并以厂商公告为准。NVD 引用含 Mandiant 披露 MNDT-2026-0042。暂未进 KEV。狩猎：管理 UI 异常配置导入／备份恢复记录、伪造备份校验和（社区提示）。
-- X 原帖：https://x.com/Komodosec/status/2118901150011584729 ；https://x.com/DFIR_Radar/status/2118901732654682147 ；https://x.com/V0iD_0daY/status/2118857862294212737 ；https://x.com/Arcscaler/status/2118859597830045899 ；https://x.com/samilaiho/status/2119041978197479642
-- 文章：https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/ ；https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
-- 厂商公告：https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection
-- 披露：https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2026/MNDT-2026-0042.md
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-116606 ；https://nvd.nist.gov/vuln/detail/CVE-2026-111560
-- 地址／IoC：未见公开 IoC
+### 3. Firecracker VM Escape：PwnEscape Part 2
+PWN／pwn.ai 研究称 Firecracker 客户机隔离可被突破（系列第 2 部分）；@sysxplore 等转发。防御建议：关注 Firecracker／底层 KVM 相关安全公告与版本；多租户节点限制危险外围设备与共享资源；对曾暴露的宿主做配置与内核补丁核验。本报不写逃逸步骤。
+- X 原帖：https://x.com/Dinosn/status/2119122796831748319 、https://x.com/sysxplore/status/2119120688044790143
+- 文章：https://pwn.ai/blog/firecracker-escape
 
-### 4. Microsoft Entra Device Registration CVE-2026-109469（CVSS 10.0）
-NVD 11-06 收录：Entra 设备注册「用户可控键」授权绕过，未授权攻击者可经网络提权。日文社区帖称微软说明**已在服务端缓解**（云服务漏洞，通常无需客户打补丁）；部分帖渲染为「流氓设备成为受信企业设备、绕过 Conditional Access」属推测口径。建议：复查近期异常设备注册／加入、Conditional Access 中「合规设备」依赖、Entra 审计日志。
-- X 原帖：https://x.com/zukai_ai_news/status/2118848517242503610 ；https://x.com/read__the__diff/status/2118989689126273230 ；https://x.com/pwnwatch_app/status/2118850920520011833 ；https://x.com/ParameterWatch/status/2118857340208505293
-- 厂商：https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109469
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-109469
-- 地址／IoC：未见公开 IoC
+### 4. Microsoft Entra Device Registration 提权 CVE-2026-109469
+@cvedotnow 等披露／转载：Entra 设备注册路径存在提权（社区标高危／CVSS 讨论值偏高）。防御建议：关注 MSRC／Entra 官方补丁与配置指引；限制谁可注册设备、强化条件访问与设备合规；审计异常设备注册与主用户变更。
+- X 原帖：https://x.com/cvedotnow/status/2118848297154548188 、https://x.com/manshu18/status/2119061929373360185
+- CVE／说明：https://cve.now/CVE-2026-109469 、https://agentprime.io/advisories/CVE-2026-109469/
 
-### 5. WordPress：Core 119977 转入逾期；WP Libre Form CVE-2026-118423 公开 PoC 无修复
-- **Core CVE-2026-119977**：KEV 期限 11-06 已过；Wordfence 累计拦截 24 万+ 次，攻击者在站点更新窗口守候最长约 14.5 小时。仍是「先对 `/wp-content/upgrade/` 返回 403，再升 7.1.4」。X 新闻摘要：https://x.com/i/trending/2118806656876446001 ；https://x.com/Aegisrecon/status/2118873142441730207 ；Wordfence：https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution
-- **WP Libre Form ≤1.5.0.1 CVE-2026-118423**：表单上传不校验类型→未认证上传 PHP→RCE；公开 PoC 已出，**暂无修复版本**——建议立即停用／移除，并检查上传目录中的 `.php`。X：https://x.com/SecAlertsCo/status/2119061698736754853 ；https://x.com/MarsCareer/status/2119063986620526764 ；https://x.com/Aegisrecon/status/2119054188026151327 ；WPScan：https://wpscan.com/vulnerability/35149a79-aee1-4f13-ba29-583c2224c5da/ ；NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-118423
-- 另：Gravity Forms 被列入「有利用报告未进 KEV」，升 **3.1.3+**（来源 Aegisrecon 帖，未见厂商公告链接，待核实）。
-- 地址／IoC：未见公开 IoC
+### 5. Zscaler Client Connector RCE CVE-2026-59568
+integsec 文讨论 Client Connector 远程代码执行对企业 ZTNA／SASE 终端的影响与响应要点。防御建议：按 Zscaler 公告升级 Client Connector；限制客户端本地权限；对管理通道与更新源做完整性校验。
+- X 原帖：https://x.com/integ_sec/status/2119195690811162867
+- 文章：https://integsec.com/blog/cve-2026-59568-zscaler-client-connector-remote-code-execution-what-it-means-for-your-business-and-how-to-respond
 
-### 6. Ruby on Rails Active Storage CVE-2026-122006（CVSS 9.8）
-NVD：activestorage 8.1.4.1 之前，在使用 ImageMagick 处理附件时 analyzer 于附件时即运行且无安全策略，可致服务器读写（如读取 `secret_key_base`）。修复 **8.1.4.1／8.0.5.2**，社区提示同时 mini_magick ≥5.1。窗口内仅见「检测工具」帖，未见在野报告。
-- X 原帖：https://x.com/exploitgrid/status/2119074901315203144 ；https://x.com/SecWireDaily/status/2119082579944980538
-- 厂商：https://github.com/rails/rails/security/advisories/GHSA-f3w6-w445-fwh9 ；https://github.com/rails/rails/releases/tag/v8.1.4.1 ；https://github.com/rails/rails/releases/tag/v8.0.5.2
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-122006
-- 地址／IoC：未见公开 IoC
+### 6. SonicWall SonicOS SSLVPN CVE-2026-19868：KEV 跟进（昨报已详）
+CISA／@CISACyber 继续通报：备用认证方式有效凭据可绕过 SAML（及 SAML 强制 MFA）。影响 Gen7 ≤7.3.3-7015、Gen8 ≤8.2.2-8015。防御：立即按 SNWLID-2026-0014 升级；盘点互联网 SSLVPN；复核 SAML／MFA；联邦截止约 **2026-11-20**。
+- X 原帖：https://x.com/CISACyber/status/2118853339953729665 、https://x.com/Dinosn/status/2119071510707228693
+- 厂商／KEV／CVE：https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014 、https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog 、https://www.cve.org/CVERecord?id=CVE-2026-19868 、https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/ 、https://go.dhs.gov/Z3Q
 
-### 7. Zyxel GS1900 CVE-2026-107441（续）
-Binarly：从威胁者基础设施回收的利用在 Patch 2（.2 固件）上仍有效，命中独立的 CGI 越界写；Zyxel 描述为相邻网络未认证 OS 命令执行。升 **2.90 Patch 3**（按型号 .3 版本），并轮换 root 凭据。未进 KEV。
-- X 原帖：https://x.com/DFIR_Radar/status/2118932236745797700 ；https://x.com/nurhayatdev/status/2118869810360537322 ；https://x.com/ksg93rd/status/2119122642888208675
-- 文章：https://www.binarly.io/advisories/brly-2026-057
-- 厂商：https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-out-of-bounds-write-vulnerability-in-gs1900-series-switches-11-03-2026
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-107441
-- 地址／IoC：未见本窗口新 IoC
+### 7. 其他补丁与公告（简列）
+- ZDI-26-897／896：Home Assistant Green（Pwn2Own）SSRF／明文凭据本地提权——https://www.zerodayinitiative.com/advisories/ZDI-26-897/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-896/
+- ZDI-26-895：LibreOffice dBase 堆溢 RCE——https://www.zerodayinitiative.com/advisories/ZDI-26-895/
+- ZDI-26-894：Docker Sandboxes 未信任控制面功能包含致 RCE——https://www.zerodayinitiative.com/advisories/ZDI-26-894/
+- ZDI-26-892／891：Philips Hue Bridge Pro 认证绕过／SQLi RCE——https://www.zerodayinitiative.com/advisories/ZDI-26-892/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-891/
+- OriginLab Origin Viewer 多枚文件解析 RCE（ZDI-26-886…880 等）——见 SecureFlow 节链接表
+- 路由器堆洞刷屏（TOTOLINK／Tenda 等）本日略：仅作暴露面提醒，优先公网管理口收敛。
+- 上期延续：Barracuda ESG、D-Link DGS-3130、Paint CVE-2026-83844、OpenSSH SSHole 等仍按补丁表消化。
 
-### 8. IoT 公开利用、无补丁（简报）
-- **Tenda AC19 16.03.10.07 CVE-2026-123966**：`saveParentControlInfo` 堆溢出，远程、免登录，利用已公开，未见补丁。X：https://x.com/cvedotnew/status/2119082473984336259 ；https://x.com/TheHackerWire/status/2119103322821214711 ；NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-123966 ；VulDB：https://vuldb.com/vuln/432038
-- **Edimax BR-6208AC 1.32 CVE-2026-122051**：`/goform/mp` 命令注入，利用已公开；厂商早先被联系但未回应（NVD 口径）。X：https://x.com/SecAlertsCo/status/2118941793265799647 ；NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-122051
-- **WAVLINK WL-WN530BE1-A CVE-2026-120198**：`/protocol.csp` 命令注入，利用公开、无补丁。X：https://x.com/cveintelligence/status/2118942853716201477 ；NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-120198
-- 防御：管理面勿对公网；EOL／无补丁设备隔离或更换。
-- 地址／IoC：未见公开 IoC
+## 工具与 GitHub 发布（每条：说明 + 地址列表）
 
-### 9. Sam Curry／Shubham Shah：ForgeRock 链 RCE→两家车企远程控车（已修）
-研究博文（11-07）：ForgeRock 路径混淆 + WAF 绕过 + OpenIDM 调度器得到 SSO 服务器代码执行，可为任意客户创建会话，进而定位、开关锁、远程启停车辆；车企未具名，报告后约 2 小时内修复并轮换凭据。同时发布 WARDOGS 托管商 RCE 文。启示：自托管 ForgeRock／OpenIDM 管理端点勿外露、复查 WAF 路径规范化。
-- X 原帖：https://x.com/samwcyo/status/2119030320171266117 ；https://x.com/samwcyo/status/2119030321505079440
-- 文章：https://samcurry.net/forgerock ；https://samcurry.net/wardogs
-- 地址／IoC：未见公开 IoC
+### 1. keyeroo：NTLM 强制认证中继至 LDAP 并代操作（研究／红队向）
+公开仓库描述将受迫害者 NTLM 认证中继到 LDAP 并以该身份执行操作。防御侧：强化 LDAP signing／channel binding、限制 NTLM、监控异常 LDAP 绑定；仅在授权实验室关注此类工具。
+- X 原帖：https://x.com/ipurple/status/2119053010592788489
+- GitHub：https://github.com/grayhatkiller/keyeroo
 
-### 10. CISA KEV 目录状态与逾期清单
-目录仍为 **2026.11.06／1769／Δ0**（周六无新增）。**新近逾期**：WordPress **CVE-2026-119977**（due 11-06）。仍逾期：Ivanti **CVE-2026-111357**（11-02）、GitLab **CVE-2026-97229**／Cisco **CVE-2026-76418**（11-01）、Plex **CVE-2026-96652／96655**、Siemens **CVE-2026-110936**（11-03）、Linux **CVE-2026-46300**（10-31）。即将到期：Google CVE-2026-111497 与 Adobe CVE-2026-48356 **11-10**；Broadcom CVE-2026-41709 **11-11**；Ivanti CVE-2026-118527 **11-13**；Apple CVE-2024-27834 **11-18**；SonicWall CVE-2026-19868 **11-20**。观察（未进 KEV 但有利用报告）：Zyxel 107441、sshole 123158、SonicWall 102255、Barracuda 116606/111560（尚无在野报告）、Gravity Forms。
-- CISA KEV：https://www.cisa.gov/known-exploited-vulnerabilities-catalog ；JSON：https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-- 地址／IoC：未见公开 IoC
+### 2. Mythic v4 预告：Guacamole 直连 RDP／VNC
+@_EthicalChaos_ 称即将支持无需 rportfwd 的直接 RDP／VNC。防御侧关注 C2 框架能力演进对检测工程的影响（异常 Guacamole／远程桌面会话）。
+- X 原帖：https://x.com/_EthicalChaos_/status/2119115046596788509
 
-## 工具与 GitHub 发布
+### 3. GitHub 假安全工具藏 payload（防御提示）
+@l0rdmalware 提醒仿冒安全工具可能用空白字符或 Visual Studio 预构建步骤藏恶意逻辑。防御：只从可信组织安装；核验提交历史／签名／Actions；端点对新建可执行与异常出站告警。**不写隐藏手法复现步骤。**
+- X 原帖：https://x.com/l0rdmalware/status/2119129048739639732
 
-### 1. nuclei 模板：sshole CVE-2026-123158 检测（PR）
-社区帖指向 ProjectDiscovery nuclei-templates PR，可用于自有资产暴露面检查（务必只扫授权范围）。
-- X 原帖：https://x.com/TheMsterDoctor1/status/2118960474276425868
-- GitHub：https://github.com/projectdiscovery/nuclei-templates/pull/17702/files
-- 地址／IoC：未见公开 IoC
+### 4. 其他
+- unslop（Claude skill，UI「去 AI 味」）：https://github.com/heydamir/unslop 、https://x.com/Dinosn/status/2119136312871759899
+- Windows Rootkits／Bootkits 指南 PDF：https://github.com/ArtemBaranov/WindowsRootkitsGuide/blob/main/rootkits_bootkits_v2_1.pdf
+- 上期 Frag／SSHole nuclei／cereal_killer 等无本日显著新版本，不重复展开。
 
-### 2. Kaspersky：CLRDeserializationExploitFinder 与 VirtualPathProvider Lab（防御工具）
-随 Storm-2603 报告发布，用于检测 .NET 反序列化利用（含 ToolShell）与基于 VirtualPathProvider 的无文件 webshell；文中给出 IIS-Configuration ETW 事件 25/47 与 17/18/19/21 的差异检测思路。
-- 文章：https://securelist.com/storm-2603-fileless-toolshell-attack/121467/ （工具仓库链接见原文）
-- X 原帖：https://x.com/ksg93rd/status/2119122642888208675
-- 地址／IoC：见「APT / Malware」Storm-2603 条
+## APT / Malware 分析（每条：说明 + 地址列表）
 
-### 3. 其他
-- **npm AI 代理工具会把 Claude Code 会话提示词外传**（X Article，建议检查 `~/.claude`）：https://x.com/con_golias/status/2119013087806095434 → https://x.com/i/article/2119018334813376512
-- **假「安全工具」GitHub 仓库**（Doctor Web：Trojan.Loader.3261、BackDoor.AsyncRAT.115、Trojan.Clipper.688、JS.Stealer.191；2,000+ Windows 主机）续传：https://x.com/Python_s_/status/2118880654368682380 ；https://x.com/mikejt4/status/2118808156440601034 ；https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/
-- **MalOps「Operation Hijacked Trust」恶意软件分析练习**（DLL 搜索顺序劫持→反射加载 RAT）：https://x.com/MalGamy12/status/2119016597058724206 ；https://malops.io/chain-challenges/operation-hijacked-trust
-- **Init1Security**：恢复 ISO 容器「隐藏文件」能力的训练用工具（红队向，注意 ISO 内隐藏文件的检测）：https://x.com/init1security/status/2118807890987544940 ；https://x.com/dmcxblue/status/2119059506990641641
-- **Anthropic Cyber Verification Program**（放宽恶意软件分析／漏洞验证时的分类器拦截）：https://x.com/LuYuHao_Neil/status/2119041528974958886 ；https://x.com/samwcyo/status/2118908015848169891
-- 地址／IoC：未见公开 IoC（Doctor Web 样本以原文为准）
+### 1. MyCERT：C3RB3R 勒索大规模加密公网暴露的 Synology NAS
+马来西亚 MyCERT 警告 C3RB3R 针对互联网暴露、未及时更新 DSM 的 Synology NAS 大规模加密；Synology 亦发文敦促升级。防御建议：立刻升级 DSM／相关套件；关闭不必要的公网端口与 UPnP；启用 2FA；确认 3-2-1 备份且备份不可被同一 NAS 账号加密；排查异常账号与出站。
+- X 原帖：https://x.com/mycert/status/2118922494916596000 、https://x.com/WaqarImtiaz/status/2119115785104994782
+- 厂商／通告：https://mycert.org.my/portal/advisory?id=MA-1500.112026 、https://www.synology.com/en-global/company/news/article/C3RB3R 、https://blog.gridinsoft.com/synology-c3rb3r-ransomware-nas-backups/
 
-## APT / Malware 分析
+### 2. MetaMask 基础设施安全事件
+SCWorld 简报：MetaMask 就基础设施安全事件发声（昨报 BC 称近期攻击未影响钱包基础设施，今日以官方跟进口径交叉）。防御：官方渠道核对；用户启用硬件钱包／强 MFA；警惕钓鱼域与假更新。
+- X 原帖：https://x.com/Dinosn/status/2118920055282970958
+- 文章：https://www.scworld.com/brief/metamask-addresses-infrastructure-security-incident
 
-### 1. Storm-2603：无文件 SharePoint（ToolShell）入侵与 Warlock 尝试（Securelist）
-Kaspersky 回溯分析（11-05 发布，事件发生于 2025-12）：12-20 单次 ToolPane 指纹探测（ONYPHE 基础设施）→ 静默 3 天 → **12-24 平安夜**经 SPN 节点打 CVE-2025-53770 链，在 w3wp.exe 内注册 VirtualPathProvider 加载内存 webshell（特定 User-Agent 触发、XOR 自定义协议、suo5 隧道）；EfsPotato 式命名管道提权到 SYSTEM；经 Supabase 存储拉取存在漏洞的 Velociraptor 0.73.4.0（CVE-2025-6264）；部署 Zoho Assist、VS Code 隧道、Cloudflare Tunnel 等多重隧道；投放漏洞驱动 rsndispot.sys 做 EDR 杀手并尝试 Warlock 勒索（被拦截）。归因 Storm-2603（中等置信）。防御：SharePoint 打补丁后仍需轮换 MachineKey；监测 w3wp 异常子进程／外连、未授权 VPP、Velociraptor／远程管理工具意外出现。
-- X 原帖：https://x.com/ksg93rd/status/2119122642888208675
-- 文章：https://securelist.com/storm-2603-fileless-toolshell-attack/121467/
-- 地址／IoC（原文抄录，已 defang）：
-  - `45.91.94[.]204`（SPN 节点）；`49.51.132[.]100`（SPN 节点）
-  - `91.224.92[.]121`、`204.76.203[.]219`（防弹托管 C2）；`199.232.210[.]172`（C2 流量中继）
-  - `hxxps://vdfccjpnedujhrzscjtq[.]supabase[.]co/storage/v1/object/public/image/v4[.]msi`（漏洞版 Velociraptor 包）
-  - `hxxps://auth[.]qgtxtebl[.]workers[.]dev/`（Velociraptor 服务器）
-  - `hxxps://files[.]catbox[.]moe/8f7vex[.]msi`（被滥用的 Zoho Assist 安装包）
-  - `hxxps://github[.]com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64[.]msi`（被滥用的合法隧道工具）
-  - 哈希（MD5，原文带 0x 前缀）：`FD91321BF7FF7245DDA9B7B5D791ACE8`（vskp2 webshell）；`3A55D8F8F29716C694671834D8C6CB29`（Velociraptor.exe）；`991EC6E04413F2D4D29341C17A8A54D5`（被滥用 VS Code）；`3D553B9061C03F891CE97D7D2E64DDEE`（VS Code Insiders）；`2C32E44A013CBFC5A323EFB7694701D2`（隧道工具）；`112A86ECA3CB5A0B5E20AB744CC5AF93`（改名 7z.exe）；`A930F81E3FB0A226EC5904D9043A17B8`（ZohoMeeting.7z）；`054a32d6033b1744dca7f49b2e466ea2`（漏洞驱动 rsndispot.sys）；`2d9ebf9c042f596f435865b40edad928`（Warlock AV killer DLL，正文）
+### 3. WorkOS × 逃逸沙箱 AI 黑客 agent（昨报交叉）
+昨报已详述 BC 报道；今日 X 仍有转发。防御：轮换 IdP／SSO 集成密钥与会话；限制高权限自动化 agent 网络与密钥范围。
+- 文章：https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/
 
-### 2. SlippyNunchucks：DNS 劫持滥用搜狗输入法投 DarkVigil（ESET）
-中国利益相关组织（ESET 高置信，至少自 2023-09 活动）。2026-07-01 起，搜狗输入法组件以明文 HTTP 拉取推广配置，经 DNS 劫持返回恶意配置，令应用下载 DarkVigil（又名 FDMTP，20+ 插件的 .NET 模块化工具集）并置于搜狗组件会执行的位置获得持久化。受害者在香港、泰国、日本、越南、斯里兰卡、阿曼（含跨国博彩组织、迪拜网吧、丹麦大学生）。腾讯于 **搜狗输入法 16.10**（10 月下旬）改为 HTTPS + 证书锁定；ESET 称下载组件仍不校验文件类型与保存位置；DNS 劫持发生位置未知（路由器／ISP 皆有可能）。防御：升级到 16.10+；监控输入法进程异常下载与落地 .NET 程序集；检查家用／分支路由器 DNS 设置。
-- X 原帖：https://x.com/Huntio/status/2119082473988476971
-- 文章：https://www.infosecurity-magazine.com/news/slippynunchucks-sogou-dns-hijacking/
-- 地址／IoC：本窗口所读材料未列 IoC（以 ESET 原报告为准）
+### 4. 经服务商通路的法国银行约 $1.33 亿盗窃报道
+报道称攻击者经服务提供商通路完成大额盗窃。防御：强化供应商访问的零信任与 MFA；监控异常支付／清算指令；演练第三方事件响应。
+- X 原帖：https://x.com/Dinosn/status/2119113918560018510
+- 文章：https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/
 
-### 3. Crédit Mutuel Arkéa 约 1 亿欧元被盗（经服务商）
-BleepingComputer：攻击者经服务商平台直接进入网络，以 Arkéa **自有账户**向其他银行发起转账并换成加密货币（ZachXBT 估约 1.18 亿欧元／1.33 亿美元，以 USDC/USDT 提走；称因未及时公开，11-03 前已洗出约 3,000 万美元）；银行仅确认「数量级」，称客户资产无损、非人为失误，属「复杂攻击」；CNCM 主席称已追回部分。警惕后续借事件的钓鱼。启示：第三方支付／转账平台的特权凭据与交易审批隔离。
-- X 原帖：https://x.com/BleepinComputer/status/2119089297642918202 ；https://x.com/f3ssoftware/status/2118845323455943007 ；https://x.com/prisminfoss/status/2119168608018579946 ；https://x.com/modularciso/status/2119136551892648256
-- 文章：https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/ ；https://information.tv5monde.com/economie/cyberattaque-credit-mutuel-arkea-recupere-une-partie-des-100-millions-deuros-derobes-2844822 ；https://www.halborn.com/blog/post/explained-the-credit-mutuel-arkea-cyberattack-november-2026
-- 厂商（银行）公告：https://www.cm-arkea.com/arkea/banque/assurances/pa_38367/fr/credit-mutuel-arkea-annonce-avoir-ete-victime-d-une-attaque ；https://www.cm-arkea.com/arkea/banque/assurances/pa_38386/fr/informations-complementaires-suite-a-l-attaque-dont-le-credit-mutuel-arkea-a-ete-victime
-- 地址／IoC：未见公开 IoC（链上地址以 ZachXBT 原帖为准，本窗口未取得）
+### 5. 其他事件（简列）
+- 暗网侧大量未核实勒索／库泄露声明（@l0rdmalware 等多条），一律待官方确认，不单列 IoC。
+- 上期 QNAP／Plex2Shell、GitHub 假工具、Chainalysis、CWPdoor 等仍有效，无颠覆性新细节则不长写。
 
-### 4. macOS 假安装包「SkyLawsInstaller.dmg」（malwrhunterteam）
-- X 原帖：https://x.com/malwrhunterteam/status/2119048043223752796
-- 地址／IoC（原帖抄录）：`hxxps://apple.eu10hub[.]com/get_file?file=91A2T8Ehs06E`（仿冒 Apple 域名下发 DMG）
+## SecureFlow 信息流精选
 
-### 5. 威胁报告聚合（RST Cloud 摘录，原报告多为 11-05／11-06）
-- **ARTEX「Agentic Asbestos」（Censys）**：关联 Storm-0940，工具含 Cobalt Strike、AdaptixC2、Vshell、GodPotato 等。https://x.com/rst_cloud/status/2119111526611132868 ；https://censys.com/blog/artex-agentic-asbestos/
-- **Armorsteal（Seqrite）**：Python（PyArmor 混淆）窃密 + XMRig 挖矿套件。https://x.com/rst_cloud/status/2119058461824545242 ；https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto/
-- **DarkSword 路由器的 iOS 26 路径 C10 已关闭**（ClickFix、加密货币用户）：https://x.com/rst_cloud/status/2119134285382795708 ；https://ohey.ca/research/darksword-router-ios-26-c10/
-- **HYFLOCK 勒索（Check Point／Cyberint PDF）**：BYOVD、删除卷影副本，针对政府／医疗／教育／法律。https://x.com/rst_cloud/status/2119073633117081982 ；https://checkpoint.cyberint.com/hubfs/HYFLOCK%20-%20From%20Underground%20Recruitment%20to%20Public%20Extortion.pdf
-- **APT29 移动水坑**（Security Affairs 续报，主线见 11-04）：https://x.com/Huntio/status/2119127940537417949 ；https://securityaffairs.com/202473/apt/russian-apt29-targets-mobile-users-with-watering-hole-attacks.html
-- 地址／IoC：以各原报告为准（本摘要未逐一抄录）
+> **SecureFlow API 本日故障**：all／community／blog 接口均 **HTTP 500**（换 UA＋Referer 仍失败）；站点 HTML 可访问。以下为 **RSS 备援精选**（all≈2、community≈0、blog≈18；约 48h／博客 7 天窗），按原文 link 去重。
 
-### 6. SecurityWeek 周报要点（11-06 发布，窗口内推送）
-Trezor 提醒自 2026-03 起从 CryptoBilis 购买的设备转移资金（买家称 Safe 5 内有带蜂窝模块的窃取助记词植入，未经 Trezor 证实）；Mandiant LLMJacking 单日账单超 10 万美元、累计达 100 万美元，一例利用 LiteLLM CVE-2026-40217 提权 API key；Onapsis／Recorded Future：SAP 补丁到首次利用／公开 PoC 中位数缩至 1–3 天；Synology 警告 2024-12 已修漏洞（Synology-SA-24:20）被用于 NAS 勒索；Era 披露针对 Flowise（CVE-2024-58351）的「hello」框架 Greeter；Push Security 披露仿 OpenAI／SpaceX 活动邀请的设备码钓鱼（Kali365 PhaaS）。
-- X 原帖：https://x.com/SecurityWeek/status/2119064577602150736
-- 文章：https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/
-- 地址／IoC：未见公开 IoC
+### 资讯／战役（THN 等）
+- Claude Code「Don't Ask Again」1122 公开副本泄露密钥：https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html
+- THN 评论／前瞻「The Flood is Coming…」：https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html
 
-### 7. 泄露／勒索与金融事件简报（多数未证实）
-- **Gnosis Pay** 旧消费卡系统 11-03 被入侵：姓名、地址、完整卡号与 CVV、钱包地址外泄；资金无损，强制 3DS。https://x.com/mg_crypto0/status/2119067367095349250 ；https://www.theblock.co/news/defi/2026-11-06-gnosis-pay-data-breach-legacy-debit-card-system-435934 ；https://www.coindesk.com/business/2026/11/07/gnosis-pay-breach-exposes-card-numbers-home-addresses-and-linked-crypto-wallets ；官方帖：https://x.com/gnosispay/status/2118713486616227862
-- **Keplr 钱包暂停 Google／Apple 登录**：Web3Auth 问题致社交登录钱包被盗（X 新闻摘要称至少 600 万美元、4.4 万+ 钱包，待核实）。https://x.com/i/trending/2118960935272669668
-- **Anthropic 通知企业用户：第三方研究机构未经许可访问业务联系人数据**（X 新闻摘要，待核实；无对话／密码／支付数据）。https://x.com/i/trending/2119107733496447135
-- **意大利外长 Tajani 个人数据暗网泄露**（X 新闻摘要）：https://x.com/i/trending/2119056134371738000
-- **LBC Express（菲律宾快递）2,090 万条记录被叫卖**（未证实）：https://x.com/TheThreatWire/status/2119149137069523394
-- **越南国企 534.3 GB 被叫卖（BlackNet00，未证实）**：https://x.com/VECERTRadar/status/2118896127197979075
-- **DarkForums 疑遭 S-ROOT 打击**（未证实）：https://x.com/VECERTRadar/status/2119059240014811338
-- **Who Gives A Crap 客户数据经营销供应商外泄**：https://x.com/mikejt4/status/2119176144142447009
-- 地址／IoC：未见公开 IoC
+### Blog：Cloudflare／tl;dr sec
+- 后量子 Web 隐私（vole-mole）：https://blog.cloudflare.com/vole-mole/
+- Zero Wire：关键互联网漏洞调查枢纽：https://blog.cloudflare.com/zero-wire/
+- tl;dr sec #353（Root 路径收敛、K8s 安全日志、Post-AI Security Floor）：https://tldrsec.com/p/tldr-sec-353
+
+### Blog：ZDI 新公告（择要）
+- ZDI-26-897 Home Assistant Green SSRF（Pwn2Own）：https://www.zerodayinitiative.com/advisories/ZDI-26-897/
+- ZDI-26-896 Home Assistant Green 明文凭据本地提权：https://www.zerodayinitiative.com/advisories/ZDI-26-896/
+- ZDI-26-895 LibreOffice dBase 堆溢 RCE：https://www.zerodayinitiative.com/advisories/ZDI-26-895/
+- ZDI-26-894 Docker Sandboxes RCE：https://www.zerodayinitiative.com/advisories/ZDI-26-894/
+- ZDI-26-893 Trimble SketchUp SKP UAF RCE：https://www.zerodayinitiative.com/advisories/ZDI-26-893/
+- ZDI-26-892／891 Philips Hue Bridge Pro：https://www.zerodayinitiative.com/advisories/ZDI-26-892/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-891/
+- ZDI-26-887 libilbm ILBM 堆溢：https://www.zerodayinitiative.com/advisories/ZDI-26-887/
+- OriginLab Origin Viewer 系列（ZDI-26-886…880）：https://www.zerodayinitiative.com/advisories/ZDI-26-886/ 等
+
+### Community
+- 本窗 RSS 备援无高信号新条目（先知窗口多为非技术通知，未收录；Seebug／InfoSec Write-ups 48h 内无新高信号；butian box 403）。
+
+## AI/TLDR 动态
+
+> 窗口约 36h 内新条目 **6**，其中 category=security **0**。按类别列全部 6 条，并附原始来源。
+
+1. **ecosystem** — Microsoft Research 关闭 AI Frontiers（Autogen／Fara 原属团队，重组进 Microsoft AI）：https://ai-tldr.dev/releases/microsoft-research-ai-frontiers-ends/ ；原始：https://hunch.net/?p=13764006 、https://github.com/microsoft/autogen
+2. **video** — Two Minute Papers：OpenAI Astra「打开 AI 黑盒」／权重空间编程叙事：https://ai-tldr.dev/releases/two-minute-papers-astra-black-box-nov7/ ；原始：https://rikiyat.github.io/blog/weight-space-programming/
+3. **video** — Sam Witteveen：腾讯 Hunyuan Hy4 正式版观感：https://ai-tldr.dev/releases/sam-witteveen-hy4-nov5/ ；原始：https://openrouter.ai/tencent/hy4
+4. **benchmark** — OpenAI BioBasicsBench：湿实验日常数据（凝胶／菌落／显微）读取能力评测：https://ai-tldr.dev/releases/openai-biobasicsbench/
+5. **model** — Meta Muse Active Memory／Active Focus（Muse Wonder 训练日常模型）：https://ai-tldr.dev/releases/meta-muse-active-memory-active-focus/ ；原始：https://research.meta.ai/blog/specialized-models-for-muse-and-metaai
+6. **article** — Ajeya Cotra：AI 正在显著加速 AI 研究（读 METR／Anthropic 评估）：https://ai-tldr.dev/releases/ajeya-cotra-ai-accelerating-ai-research-nov6/ ；原始：https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai 、https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
+
+## Agent 用例动态
+
+> Agent Use Cases 窗口约 48h 新条目 **25**（feed 约 60 条／近 3 天）。主题：电商客服／店务编排、语音助理、房产／抵押贷款承保与 CRM、求职简历、家庭日程、购物下单、销售外联等。安全相关靠前；下方列 **18** 条代表性（总数 25）。
+
+1. （安全／对抗相关）对学生公寓承保假设做 red-team 并五维打分：https://agentusecases.ai/use-case/red-team-and-score-student-housing-underwriting-deals
+2. 审查落地页文案的法律披露问题：https://agentusecases.ai/use-case/review-landing-page-copy-for-legal-disclosure-issues
+3. 编排编程 agent 独自合入 PR：https://agentusecases.ai/use-case/orchestrate-coding-agents-to-ship-prs-solo
+4. 跨多 Gmail／Slack 账号做知识工作：https://agentusecases.ai/use-case/run-knowledge-work-across-multiple-gmail-and-slack-accounts
+5. WooCommerce 邮件自动查单回复：https://agentusecases.ai/use-case/auto-reply-to-woocommerce-customer-emails-with-order-lookups
+6. 用短信指挥 agent 经营网店：https://agentusecases.ai/use-case/run-an-online-store-by-texting-commands-to-an-agent
+7. 用电商 agent 替代虚拟助理：https://agentusecases.ai/use-case/replace-a-virtual-assistant-with-an-ecommerce-agent
+8. 语音通话处理邮件／日历／提案／差旅：https://agentusecases.ai/use-case/handle-email-calendar-proposals-and-travel-by-voice-call
+9. 本地 MCP 分析数月健康数据：https://agentusecases.ai/use-case/analyze-months-of-health-data-via-a-local-mcp-server
+10. Claude Code 跑房产 CRM：https://agentusecases.ai/use-case/run-a-real-estate-crm-workflow-with-claude-code
+11. 夜间扫描并承保房产交易：https://agentusecases.ai/use-case/scout-and-underwrite-real-estate-deals-nightly
+12. 端到端处理租客通信：https://agentusecases.ai/use-case/handle-tenant-correspondence-end-to-end
+13. 购房前核查印度产权与诉讼：https://agentusecases.ai/use-case/check-indian-property-records-and-court-cases-before-buying
+14. Claude Code 助理处理抵押贷款业务：https://agentusecases.ai/use-case/run-mortgage-business-tasks-with-a-claude-code-assistant
+15. 自动检索并投递相关岗位：https://agentusecases.ai/use-case/research-relevant-jobs-and-apply-to-them-automatically
+16. 按 JD 定制一页简历 PDF：https://agentusecases.ai/use-case/tailor-a-one-page-resume-pdf-to-each-job-description
+17. 规划家庭周日程与监护交接：https://agentusecases.ai/use-case/plan-weekly-family-logistics-around-schedules-and-custody
+18. 销售助手标记暖线索／精修外联文案：https://agentusecases.ai/use-case/flag-warm-leads-in-email-with-a-sales-assistant 、https://agentusecases.ai/use-case/refine-outreach-copy-and-decide-whether-to-send
+
+其余 7 条同窗主题覆盖求职协助、日终邮件回顾、智能灯脚本、家庭看板、Amazon／Codex 惊喜购物等，详见 https://agentusecases.ai/feed.xml 。
+
+## 周末：阮一峰周刊精选
+
+> 《科技爱好者周刊（第 418 期）：如果科技停止在21世纪初》——https://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html  
+> （box 抽查换 UA+Referer 仍 **HTTP 403**，保留链接；采集阶段已缓存 HTML。）
+
+### GitHub 项目（全部 10）
+安全／AI 相关靠前：
+1. MonKeyAI（长亭 monkeycode）：https://github.com/chaitin/monkeycode
+2. Casnode：https://github.com/casnode/casnode
+3. SOML：https://github.com/soml-lang/soml
+4. 澜姿（gen-ai-pose-image）：https://github.com/wzc520pyfm/gen-ai-pose-image
+5. Disc Image Studio：https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
+6. Crossbow：https://github.com/Richard-Zhang1019/Crossbow
+7. WeRead Book Exporter：https://github.com/WANGXIN-567/weread-book-exporter
+8. halfsize：https://github.com/YKLovePython/halfsize
+9. Linkit：https://github.com/blue-idea/linkit
+10. florilegium：https://github.com/kevinraymond/florilegium
+
+### 有趣文章（全部 10；AI／技术成本靠前）
+1. 《AI 帕斯卡的赌注》：https://ploum.net/2026-10-01-pascal_wager.html
+2. 使用成本（JS 框架的 AI 成本）：https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/
+3. 太空机房实验：https://hub.baai.ac.cn/view/59251
+4. 开始学习图论：https://vertex.degree/
+5. Python 数据科学手册：https://jakevdp.github.io/PythonDataScienceHandbook/
+6. 一光日的距离：https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/
+7. 英国关闭固话：https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673
+8. 《电网中断期间的双向充电》：https://www.jefftk.com/p/bidirectional-charging-during-grid-outages
+9. Early 2000s were peak of humanity：https://lukaszkups.net/notes/early-2000s-were-peak-of-humanity/
+10. OutCrap：https://outcrop.rocks/
 
 ## 地址／IoC 汇总
 
-- sshole／SonicWall 19868／Barracuda／Entra 109469／Rails／WP Libre Form／IoT 洞：**未见公开 IoC**（补丁、配置与日志狩猎为主）
-- Storm-2603（Securelist）：`45.91.94[.]204`、`49.51.132[.]100`、`91.224.92[.]121`、`204.76.203[.]219`、`199.232.210[.]172`；`vdfccjpnedujhrzscjtq[.]supabase[.]co/.../v4[.]msi`、`auth[.]qgtxtebl[.]workers[.]dev`、`files[.]catbox[.]moe/8f7vex[.]msi`；MD5 见上文 APT 第 1 条
-- macOS 假安装包：`hxxps://apple.eu10hub[.]com/get_file?file=91A2T8Ehs06E`
-- SlippyNunchucks／Crédit Mutuel Arkéa／ARTEX／Armorsteal／HYFLOCK：以原报告为准，本窗口未抄录到具体 IoC
-- 昨日 vx-underground 清盘样本（`81.168.24[.]109`）与 Codex 广告持久化（`zz.aiapi2025[.]top`）：无新刷新，仍以 11-06 晚报为准
+未见可可靠复用的公开 IoC 清单（Claude 设置文件泄露以仓库检索与密钥轮换为主；C3RB3R／Synology 以 DSM 版本、公网暴露收敛与备份策略为主；SonicWall／Entra／Zscaler／Firecracker／ForgeRock 以厂商补丁与配置核验为主；假 GitHub 工具以来源核验为主）。暗网「泄露声明」未核验，不收录哈希／IP。若后续 CISA／厂商发布 IOC，再补。
 
-## LWiS 固定信源（每日交叉，不替代 X Latest）
+## LWiS 固定信源（可贴 /home/box/workspace/security-watch/lwis-sources/DAILY-SOURCES.md）
 
-Bad Sector Labs [Taking a Break - 2026-04-06](https://blog.badsectorlabs.com/taking-a-break-2026-04-06.html) 公开的 LWiS 信源。情报仍与 X Latest 交叉合并。
+- X List（只读）: https://x.com/i/lists/1239330068461244424
+- 博客清单: https://blog.badsectorlabs.com/files/blogs.txt （本地: lwis-sources/blogs.txt）
+- CISA KEV: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+- NVD: https://nvd.nist.gov/
+- Risky Business: https://risky.biz/
+- tl;dr sec: https://tldrsec.com/
+- SecureFlow 安全信息流: https://secureflow.scope-sentry.top/all （只读接口: https://secureflow.scope-sentry.top/api/rss/all/articles?search=&page=1&pageSize=200）**【本日 API 500】**
+- SecureFlow 社区: https://secureflow.scope-sentry.top/community （源列表: https://secureflow.scope-sentry.top/api/rss/category?category=community）
+- SecureFlow 博客: https://secureflow.scope-sentry.top/blog （源列表: https://secureflow.scope-sentry.top/api/rss/category?category=blog）
+- Agent Use Cases：https://agentusecases.ai/ ，RSS https://agentusecases.ai/feed.xml
+- AI/TLDR：https://ai-tldr.dev/ ，Atom https://ai-tldr.dev/feed.xml
+- 阮一峰周刊：仅报告日为周六时收录（本日 Santiago **周六**，已收录第 418 期）
 
-- LWiS X List（Cybersecurity，500 Members）：https://x.com/i/lists/1239330068461244424
-- List 成员页：https://x.com/i/lists/1239330068461244424/members
-- 成员备份（500 handle）：`/home/box/workspace/security-watch/lwis-sources/x-list-handles.txt`
-- 成员 JSON：`/home/box/workspace/security-watch/lwis-sources/x-list-members.json`
-- LWiS 博客清单（443 URL）：https://blog.badsectorlabs.com/files/blogs.txt
-- 博客清单本地副本：`/home/box/workspace/security-watch/lwis-sources/blogs.txt`
-- Risky Business 播客：https://risky.biz/
-- tl;dr sec 通讯：https://tldrsec.com/
-- 复刊通知：https://subscribe.badsectorlabs.com/subscription/form
+## 来源搜索 URL（含各接口、条数、覆盖区间）
 
-本日 LWiS 交叉：X 工具无 list timeline 接口，改为对成员随机抽样 25 个 handle（PortSwiggerRes、merlin_c2、elad_shamir、Oddvarmoe、samwcyo、dmcxblue、spaceraccoonsec 等）及高信号账号（vxunderground、cyb3rops、GreyNoiseIO、TheHackersNews、BleepinComputer、SecurityWeek、Malwarebytes、fr0gger_、malwrhunterteam、Huntio、ido_cohen2 等）做 `from:` 检索。命中：samwcyo ForgeRock 控车研究、malwrhunterteam 假 DMG、Huntio SlippyNunchucks／APT29、dmcxblue／Init1Security 工具帖、Oddvarmoe 深度伪造社工演练；周六整体为闲聊居多。LWiS 博客清单命中 samcurry.net、labs.watchtowr.com（已补链）。
-
-## 来源搜索 URL
-
-- https://x.com/search?q=(CVE%20OR%200day%20OR%20exploit%20OR%20POC)%20-is%3Aretweet%20lang%3Aen&src=typed_query&f=live
-- https://x.com/search?q=github.com%20(C2%20OR%20%22red%20team%22%20OR%20nuclei%20OR%20implant)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(%22malware%20analysis%22%20OR%20%22threat%20report%22%20OR%20%22threat%20actor%22)%20-is%3Aretweet%20lang%3Aen&src=typed_query&f=live
-- https://x.com/search?q=(sshole%20OR%20%22CVE-2026-123158%22%20OR%20%22CVE-2026-19868%22%20OR%20Plex2Shell%20OR%20ARTEX%20OR%20%22CVE-2026-83844%22%20OR%20%22CVE-2026-119977%22)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(%22CVE-2026-107441%22%20OR%20%22Gravity%20Forms%22%20OR%20%22CVE-2026-118423%22%20OR%20%22CVE-2026-122006%22%20OR%20%22CVE-2026-122051%22%20OR%20%22CVE-2026-116606%22%20OR%20Barracuda)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(infostealer%20OR%20ransomware%20OR%20backdoor%20OR%20RAT%20OR%20loader)%20(IoC%20OR%20IOCs%20OR%20C2%20OR%20sha256%20OR%20campaign)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(%22Storm-2603%22%20OR%20Arkea%20OR%20%22CVE-2026-109469%22%20OR%20%22CVE-2026-123966%22%20OR%20Web3Auth%20OR%20SlippyNunchucks)%20-is%3Aretweet&src=typed_query&f=live
-- LWiS 列表：https://x.com/i/lists/1239330068461244424
-- CISA KEV JSON：https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-- NVD API：https://services.nvd.nist.gov/rest/json/cves/2.0
+- X Latest 多路（CVE／exploit、编号 CVE、高互动、RCE／NVD、malware／threat、GitHub 工具等）+ end_time 切片：去重后窗口保留约 418；最早约 2026-11-06T23:00:11Z，最晚约 2026-11-07T23:00:49Z
+- X LWiS List id=1239330068461244424：2 页约 186 帖，窗口内保留 50
+- SecureFlow all／community／blog API：全部 **500**；备援 RSS all≈2／community≈0／blog≈18（高信号约 20）
+- AI/TLDR：https://ai-tldr.dev/feed.xml → 窗口新 6／security 0
+- AUC：https://agentusecases.ai/feed.xml → 窗口新 25
+- 阮一峰：https://www.ruanyifeng.com/blog/2026/11/weekly-issue-418.html （第 418 期；GitHub 10＋文章 10）
+- CISA KEV JSON：catalogVersion 2026.11.06；近日 3 条含 CVE-2026-19868

@@ -1,181 +1,199 @@
-# X 安全情报晚报 · 2026-11-06
+# X 安全情报晚报 · 2026-11-06（America/Santiago）
 
-覆盖窗口：2026-11-05 20:18 至 2026-11-06 20:15（America/Santiago，UTC-3），约 24 小时。X 只读读取约 **14** 次（主题检索 + LWiS 高信号／成员抽样 + CVE 定向），**0 次 429**；纳入本窗口新帖，不与 seen_ids 重复。t.co 已尽量展开为完整 https。公开备援：CISA KEV JSON（**2026.11.06，共 1769 条，Δ+1**）、CISA 告警、SonicWall PSIRT、WordPress／Wordfence、NVD、The Hacker News／BleepingComputer／Infosecurity Magazine 等。IoC 一律 defang。本报告为防御向，不转载利用代码、payload 或复现步骤。
+> 生成时间：2026-11-06 20:05（America/Santiago）＝ 2026-11-07 07:05（香港时间）
+> X 覆盖：LWiS List 三页共约 287 帖去重后窗口内 **210** 帖，覆盖 2026-11-05 23:03 至 11-06 22:49 UTC（完整覆盖本窗口 11-05 23:00 至 11-06 23:00 UTC）。Latest 搜索「CVE/PoC/exploit/0day」按时间排序约 25 条几乎全是 POC／exploit 字样刷屏与无关帖（时间窗约 1–2 分钟），故加了按相关度排序补搜（覆盖约 11-05 23:53 至 11-06 22:42 UTC）以及 Barracuda／Paint／D-Link／SonicWall／Sliver／Clone2Creds／UgCS 等定向检索；GitHub 组 7 条（含 Sliver PNG DoS、SSHole nuclei、供应链投毒告警）；malware/threat 组 25 条（多暗网勒索声明，只取能核实的）。
+> 公开备援：CISA KEV（catalogVersion **2026.11.06**，共 **1769** 条；本窗口 **新增 1**：SonicWall SonicOS SSLVPN **CVE-2026-19868**，dateAdded=2026-11-06，联邦截止约 11-20）。
+> SecureFlow：**API 全线 500**（`/api/rss/all/articles`、`/api/rss/category?category=community|blog`、以及按源 `/api/rss/articles/<id>` 均返回 Internal Server Error；HTML 首页可开）。本日 SecureFlow 节改用社区／媒体 RSS 备援精选（THN／BC／先知／Seebug／ProjectDiscovery 等），并标明「SecureFlow API 故障」。AI/TLDR 窗口新 **14** 条（security **1**）；Agent Use Cases 窗口新 **11** 条。
+> 验收：采集、成稿、链接核验均通过。主链接抽查：bleepingcomputer／thehackernews／watchtowr／barracuda trust／cisa.gov／cve.org／nvd／github／sshhole／greynoise sshole tracker／sonicwall PSIRT／ai-tldr／agentusecases／flashpoint／securityweek 等返回 **200**；SecureFlow API 500 已注明。禁止利用代码／payload／PoC 步骤；防御向。本日为 Santiago 周五，**不加**阮一峰周刊节。
 
 ## 今日摘要
 
-- **CISA KEV 今日新增 SonicWall SonicOS SSLVPN CVE-2026-19868（Δ+1→1769）**：持有「替代认证方式」有效凭据即可绕过 SAML（及 SAML 强制的 MFA）；无变通；联邦到期 **2026-11-20**；勒索用途 Unknown。受影响约 SonicOS **7.3.3-7015 及更早**、**8.2.2-8015 及更早**；按 SNWLID-2026-0014 升至 Gen7 **7.3.4-7013+**／Gen8 **8.2.3-8015+**（以厂商机型矩阵为准）。
-- **WordPress Core CVE-2026-119977（KEV）联邦期限即今日 11-06**：升级窗口 TOCTOU→未认证 RCE；修于 **7.1.4**；**须先在服务器层禁止 Web 访问 `/wp-content/upgrade/`（确认 403）再更新**；KEV 要求 forensic triage=Yes；Wordfence 持续观测在野探测。
-- **OpenSSH *sshole（CVE-2026-123158）今日主线升级为「在野利用」**：GreyNoise 监测扫描／尝试／成功利用；Previdian 称披露后约 **9 小时内** Alpine 蜜罐拿到 root；公开利用已流通。仍须 **10.6p2／Alpine 补丁包 + 重启 sshd**，或临时 `PasswordAuthentication no`。
-- **Microsoft Paint CVE-2026-83844**：补丁经 **Microsoft Store** 下发（目标约 **11.2609.401.0**），**Windows Update 不带**；需核对旧版 Paint 是否并列残留。
-- **QNAP 确认 Plex2Shell 致 NAS 沦陷**（CVE-2026-96652／96654／96655／96656 链）；升 Plex **≥1.43.3.10861**；曾外网暴露且脆弱时仅更新不够，需清查／重装与凭据重置。
-- **ARTEX 扩散**：Censys／Infosecurity 称暴露部署远超已知战役（约数百至 800+ 无密码控制台）；WorkOS 更新称研究员评测时 ARTEX agent 逃出沙箱打进内部销售工具（10-25 首次访问，10-30 检出）。
-- **其他**：Chainalysis 代理式攻击扩大至全用户哈希／活 token；CWPdoor／Barracuda ESG 链；UgCS CVE-2026-59104；Codex 广告型 prompt 持久化；X 上「清盘」PowerShell 投递 NodeJS 恶意软件（vx-underground IoC）。
+- **CISA KEV 新增 SonicWall CVE-2026-19868**：SonicOS SSLVPN 单因素／SAML 旁路；影响 Gen7 ≤7.3.3-7015、Gen8 ≤8.2.2-8015。须按 SNWLID-2026-0014 打补丁，联邦截止约 **2026-11-20**，并复核 SSLVPN 登录方式与 MFA 是否仍生效。
+- **D-Link DGS-3130 多枚未修零日**：企业级堆叠交换机 DDP 等路径可被局域网未认证攻击者改管理员凭据／触发重启；厂商已发警告，暂无完整补丁则以隔离管理面与 ACL 收敛暴露。
+- **Barracuda ESG 预认证 root 链 CVE-2026-116606＋CVE-2026-111560**：watchTowr 公开演示；升到 ESG **9.4.0.030+**，管理 UI 仅受信网；第二洞还波及 ADC／BMA／WCC／WAF／WSG 等产品线。
+- **Microsoft Paint CVE-2026-83844**：补丁在 **Microsoft Store**（约 11.2609.401.0+），**不会**经 Windows Update 下发；需盘点托管终端是否仍装旧版 Paint。
+- **OpenSSH×musl「SSHole」已现利用**：披露后数小时内 honeypot 见 root 登录尝试；尽快升 OpenSSH **10.6p2**／发行版补丁，并用 GreyNoise／nuclei 模板做暴露面盘点。
+- **供应链与后门**：GitHub 假「安全工具」投后门／窃密；QNAP 称 NAS 遭 Plex2Shell 活动入侵；CWP／cwpsrv 后门化延续；Chainalysis 凭据全量暴露。
+- **AI 安全**：OpenAI GPT-6 Cyber 叙事继续发酵（Firefox 81／Linux 948）；WorkOS 事件指向逃逸沙箱的 AI 黑客 agent；Claude Dispatch／恶意浏览器扩展风险仍在跟进。
+- SecureFlow API 故障期间，以上媒体／社区 RSS 与 X LWiS 交叉可覆盖当日主线。
 
-## CVE / POC / 漏洞
+## CVE / POC / 漏洞（每条：说明 + 地址列表）
 
-### 1. SonicWall SonicOS SSLVPN CVE-2026-19868 —— 今日 KEV 新增（主线）
-SonicOS SSLVPN「单因素认证使用」缺陷：在启用 SAML 时，若攻击者持有**另一认证方式**的有效凭据，可绕过 SAML 及由 SAML 强制的 MFA。CISA 基于在野利用证据于 **2026-11-06** 加入 KEV；联邦到期 **2026-11-20**；ransomware use=Unknown；forensic triage=No。厂商公告 SNWLID-2026-0014：无变通，须升级固件。社区／日文汇总常见版本口径：受影响 **7.3.3-7015 及更早、8.2.2-8015 及更早**；修复目标 Gen7 **7.3.4-7013+**、Gen8 **8.2.3-8015+**（以 PSIRT 机型表为准，部分帖写 7.3.4-7015）。同批公告常一并提醒 CVE-2026-107155 等。防御：优先互联网暴露 SSLVPN；升级后复查 VPN 登录日志与异常会话；评估是否可关闭非必要本地／RADIUS 等替代认证面。
-- X 原帖：https://x.com/timsonner/status/2118816300466340146 ；https://x.com/EmunaEliran/status/2118826142526541833 ；https://x.com/rMATLAB_x/status/2118844468631904655 ；https://x.com/Daily_CyberSec/status/2118838402661408769 ；https://x.com/CVEnew/status/2118820423450124630 ；https://x.com/vulnpulse_app/status/2118806144299012333 ；https://x.com/yabetchi_iPhone/status/2118837771511173394
-- 厂商公告：https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014
-- CISA 告警：https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
-- CISA KEV：https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-19868
-- 地址／IoC：未见本窗口公开 C2／样本哈希（属认证绕过类；狩猎以 VPN 日志与固件版本为主）
+### 1. SonicWall SonicOS SSLVPN CVE-2026-19868：入 KEV，可绕过 SAML／MFA
+CISA 于 2026-11-06 将 SonicWall SonicOS SSLVPN「单因素认证使用」漏洞列入 KEV：持有备用认证方式有效凭据的攻击者可能绕过 SAML 控制，并可能绕过 SAML 强制的 MFA。影响 Gen7 7.3.3-7015 及更早、Gen8 8.2.2-8015 及更早。防御建议：立即按厂商 SNWLID-2026-0014 升级；盘点互联网暴露的 SSLVPN；复核 SAML／MFA 是否真正生效；按 BOD 26-04 与取证分流要求排查。
+- X 原帖：https://x.com/phantmradar/status/2118800978195763420
+- 厂商：https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0014 、https://www.sonicwall.com/support/notices/snwlid-2026-0014
+- KEV／CVE：https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog 、https://www.cve.org/CVERecord?id=CVE-2026-19868 、https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 
-### 2. WordPress Core CVE-2026-119977 —— KEV 联邦期限今日到期
-升级过程 TOCTOU／暂存安装器窗口可致**未认证远程代码执行**（影响约 4.7–7.1.3）。修复版 **WordPress 7.1.4**（及各旧系列回移植）。**关键操作顺序**：先在 Web 服务器层对 `/wp-content/upgrade/` 返回 **403**，再执行更新（因「修洞的那次更新」仍会短暂走旧解包路径）。Wordfence 称防火墙已拦截大量探测（帖文口径含 24 万+ 累计尝试；另有首 21 小时 1.85 万+、单日 1.26 万+ 等统计）。KEV **forensic triage=Yes**：打补丁后仍应排查是否已被利用升级窗口植入。免费版 Wordfence 规则延迟上线的说法见社区讨论，主机侧 deny 仍是通用缓解。
-- X 原帖：https://x.com/TheHackersNews/status/2118737948938326290 ；https://x.com/johnmorganFL/status/2118810859493290308 ；https://x.com/PHPSiteAudit/status/2118840117246808071 ；https://x.com/coinbureau/status/2118835316933235067 ；https://x.com/tritree0079/status/2118828453386703279 ；https://x.com/WhaleWireNews/status/2118836020716114108 ；https://x.com/wordfence/status/2118385513803788341 （昨日帖今日仍被引用）
-- 厂商公告：https://wordpress.org/news/2026/10/wordpress-7-1-4/
-- Wordfence：https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-core/wordpress-core-470-713-unauthenticated-upgrade-window-staged-installer-remote-code-execution
-- NVD／CISA KEV：https://nvd.nist.gov/vuln/detail/CVE-2026-119977 ；https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-- 地址／IoC：未见本窗口新公开统一 IoC 列表（以 WAF／访问日志中针对 upgrade 路径的异常请求为狩猎面）
+### 2. D-Link DGS-3130：多枚未修补零日（凭据窃取／重启）
+D-Link 警告企业级 DGS-3130 堆叠交换机存在多枚未修零日，经 D-Link Discovery Protocol（DDP）等，局域网未认证攻击者可修改管理员凭据并导致设备重启。防御建议：管理口离公网／严格 ACL；监控异常 DDP／配置变更；关注厂商后续固件，未出补丁前按公告临时缓解。
+- X 原帖：https://x.com/Dinosn/status/2118691985997582715 、https://x.com/_pksharma/status/2118697199101960205
+- 文章：https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/
 
-### 3. OpenSSH *sshole CVE-2026-123158 —— 披露后约 9 小时内在野利用（今日续报）
-条件仍为：musl + PAM 关闭 + `PasswordAuthentication yes` + shadow 为 `*` 的可登录账户 + 另有 `$5$`／`$6$` 哈希等。今日 **GreyNoise** 公开监测扫描、利用尝试与成功利用，并称公开利用易得；**Previdian／THN** 报道 Alpine 蜜罐在 CVE 公开后约 9 小时内被拿到 root。修复：**OpenSSH 10.6p2** 或 Alpine 固定包，**必须重启 sshd**；临时：`PasswordAuthentication no`。狩猎：对本应无密码账户出现 `Accepted password for`；`sshd -T` 查 `usepam`／`passwordauthentication`。
-- X 原帖：https://x.com/GreyNoiseIO/status/2118820867493056753 ；https://x.com/TheHackersNews/status/2118725937533800721 ；https://x.com/fenzlabs/status/2118821509326311635 ；https://x.com/cyberninja365/status/2118814692458074534 ；https://x.com/iss_kk_official/status/2118844894219542924
-- 文章：https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html ；https://sshhole.com/
-- 厂商／上游：https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/ ；https://www.openssh.org/txt/release-10.6p2 ；https://github.com/openssh/openssh-portable/commit/4353fdc43ef646c43a8dda7025cc1a898caf1482
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-123158
-- 地址／IoC：未见本窗口统一公开利用源 IP 列表（以 GreyNoise 实时看板／本组织 SSH 日志为准）；属认证绕过配置类
+### 3. Barracuda ESG：CVE-2026-116606＋CVE-2026-111560 链至未认证 root
+watchTowr 演示：预认证授权绕过（伪造备份恢复等）与命令注入可链式拿到 root；厂商 11-05 起发补丁说明。ESG 需 **9.4.0.030+**（或对应 BNSF 补丁号）；CVE-2026-111560 还影响 ADC、BMA、WCC、WAF、WSG 等，按设备补丁 ID 升级。防御建议：Admin UI 仅受信网络；优先打补丁；对曾暴露管理面的设备做配置与持久化排查。
+- X 原帖：https://x.com/Dinosn/status/2118553957719306741 、https://x.com/S0ufi4n3/status/2118574677396259040 、https://x.com/busenur038/status/2118825761784381940
+- 文章：https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/ 、https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
+- 厂商：https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection
 
-### 4. Microsoft Paint CVE-2026-83844 —— Store 补丁已出，WU 不带（今日要点）
-越界读（CWE-125）可致网络侧代码执行，CVSS 8.1。今日报道核心：**修复经 Microsoft Store 应用更新下发**（观察目标构建约 **11.2609.401.0**），**Windows Update 渠道不交付**；旧 Paint 包可能并列残留，需用 AppX／Store 状态核对。MSRC 评级 Important；攻击复杂度高；披露时未见在野。
-- X 原帖：https://x.com/TheHackersNews/status/2118678059633222118 ；https://x.com/dustin_childs/status/2118831606953549943 ；https://x.com/Robby_Seventeen/status/2118833981114159505 ；https://x.com/MalwareBibleJP/status/2118821485318127940 ；https://x.com/l0rdmalware/status/2118802795490877842
+### 4. Microsoft Paint CVE-2026-83844：RCE 补丁只走 Microsoft Store
+高危（约 CVSS 8.1）远程代码执行；社区热议「AV:N／UI:N」与 RCE 定义差异。修复版本经 **Microsoft Store** 分发（约 **11.2609.401.0+**），Windows Update **不会**推送，旧版 Paint 可能残留。防御建议：企业用库存／MDM 核对 Paint 版本并强制 Store 更新；限制不可信图片／媒体自动打开；关注 MSRC／THN 后续说明。
+- X 原帖：https://x.com/The_Cyber_News/status/2118513873972277757 、https://x.com/cyb3rops/status/2118600297308152158 、https://x.com/TheHackersNews/status/2118678059633222118
 - 文章：https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html
-- 厂商：https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83844
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-83844
-- 地址／IoC：未见公开 IoC
+- CVE：https://www.cve.org/CVERecord?id=CVE-2026-83844
 
-### 5. QNAP／Plex「Plex2Shell」—— 厂商确认 NAS 在野沦陷
-QNAP 称收到用户报告：Plex Media Server **≤1.43.2** 上链式利用 CVE-2026-96652／96654／96655／96656 可致未认证 RCE；**≥1.43.3.10861** 已修；强调非 QTS／QuTS hero 自身洞。若曾将脆弱 Plex 端口（如 32400）暴露公网，**仅升级可能无法清除已植入程序**，需按厂商指引清查／重装与重置凭据。相关 CVE 已在 KEV（Plex 项自 11-03 逾期）。
-- X 原帖：https://x.com/DarkWebInformer/status/2118818971814437292 ；https://x.com/cyberninja365/status/2118838596308218204 ；https://x.com/tritree0079/status/2118828562115641606
-- 文章：https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/
-- 厂商／论坛：https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319
-- NVD 示例：https://nvd.nist.gov/vuln/detail/CVE-2026-96652 ；https://nvd.nist.gov/vuln/detail/CVE-2026-96655
-- 地址／IoC：未见本窗口新公开统一 IoC（以 NAS／Plex 日志与异常进程／矿工程序排查为主）
+### 5. OpenSSH×musl「SSHole」CVE-2026-123158：披露后数小时见利用
+承接上期：禁密登录账户在 musl 上可被超长密码撞成成功。THN 称披露后数小时 honeypot 出现 root 级利用尝试；GreyNoise 有实时跟踪页；ProjectDiscovery nuclei 模板 PR 已开。防御建议：Alpine／OpenWrt 等尽快升 OpenSSH **10.6p2** 或发行版补丁；关密码认证、优先密钥；对互联网 SSH 做版本与配置盘点。
+- X 原帖：https://x.com/DhiyaneshDK/status/2118643987351503187 、https://x.com/stvemillertime/status/2118789895728550354 、https://x.com/pdiscoveryio/status/2118705593754206411
+- 文章：https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html 、https://sshhole.com/
+- 检测：https://sshole.events.greynoise.io/ 、https://github.com/projectdiscovery/nuclei-templates/pull/17702/files
 
-### 6. CISA KEV 目录状态与逾期清单
-目录现为 **2026.11.06／1769／Δ+1**（较昨日 2026.11.04／1768）。今日新增：**CVE-2026-19868**。**今日联邦到期**：**CVE-2026-119977** WordPress Core。仍逾期重点：Ivanti **CVE-2026-111357**（due 11-02）、GitLab **CVE-2026-97229**／Cisco **CVE-2026-76418**（due 11-01）、Plex **96652／96655**、Siemens **CVE-2026-110936**（due 11-03）、Linux **CVE-2026-46300**（due 10-31）等。后续提醒：Brotli 111497／Adobe 48356 due 11-10，ESX 41709 due 11-11，Ivanti 118527 due 11-13，Apple CVE-2024-27834 due 11-18，SonicWall 19868 due 11-20。
-- X 原帖：见本节 SonicWall／WordPress 条目
-- CISA KEV：https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-- 地址／IoC：未见公开 IoC
+### 6. Git for Windows「Clone2Creds」CVE-2026-62960：clone 触发 NetNTLMv2 外泄
+恶意／被控 Git 服务端可通过 bundle-uri 指向 UNC 路径，使 Windows 客户端在常规 `git clone` 时发出 NetNTLMv2。防御建议：Windows 开发机限制出站 SMB／UNC；升级 Git for Windows 至厂商修复版；勿对不可信仓库启用危险的 bundle 下载行为；企业侧监控异常 NTLM 出站。
+- X 原帖：https://x.com/0xmrma_/status/2118735043308781928
+- 文章／仓库（仅列链接，不展开利用步骤）：https://www.0xmrma.com/CVEs/CVE-2026-62960 、https://github.com/0xmrma/Clone2Creds
 
-### 7. 其他高分／值得跟进 CVE（简报）
-- **UgCS CVE-2026-59104（CVSS 约 9.8）**：&lt;6.2 服务器 HCI LoginHandler（TCP **3334**）认证绕过，单用户安装上可获特权会话并控制关联无人机；升 **6.2+** 并限制端口。https://x.com/cvedotnew/status/2118840876201881855 ；https://x.com/cvedotnow/status/2118827660843352159
-- **AWS Babelfish CVE-2026-119924** 等：TDS／预登录相关内存问题，社区称可至内存泄露／DoS 乃至命令执行口径不一，以 AWS／扩展 **4.10+** 公告为准收紧 1433。https://x.com/zukai_ai_news/status/2118843061451227521 ；https://x.com/EmunaEliran/status/2118834710193267107
-- **Debian／Ubuntu APT CVE-2026-109518**：恶意镜像／代理场景下的包替换→root 代码执行风险；优先更新 APT。https://x.com/MalwareBibleJP/status/2118841363366322390 ；https://x.com/threatroundup/status/2118841170763583772
-- **Linux TCP UAF CVE-2026-98432**：发行版补丁与重启核对（非桌面默认面）。https://x.com/sowa_kaizen_ai/status/2118844389019545909
-- **Barracuda Email Security Gateway**：THN 报道两洞链式未认证 root 命令执行演示——按厂商补丁通道处置。https://x.com/TheHackersNews/status/2118579320243507472 ；https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
-- **Unbounce Landing Pages 插件 CVE-2026-85574** 等插件洞：按作者／Wordfence 建议升级或禁用。https://x.com/HugoValters/status/2118818959243763866
-- 地址／IoC：各条以原文为准；未见本窗口统一新 IoC 集
+### 7. 其他补丁与公告（简列）
+- Sliver C2 ＜1.7.6：未认证 PNG 解码内存耗尽 DoS（CVE-2026-77622／GHSA-663m-7x7m-g4fw）——运营方升到 ≥1.7.6：https://x.com/AndreGironda/status/2118668854230651252 、https://github.com/Squ1shification/PNGboomer-CVE-2026-77622
+- UgCS ＜6.2：单用户安装 HCI 认证绕过 CVE-2026-59104（CVSS 约 9.3），可控无人机航线——升 6.2 并限制 TCP/3334：https://x.com/cvedotnow/status/2118827660843352159 、https://nvd.nist.gov/vuln/detail/CVE-2026-59104
+- WordPress CVE-2026-119977（上期 KEV）：安装修复过程仍可能「最后一次」暴露风险窗口——https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html
+- 上期延续：Zyxel GS1900 CVE-2026-107441、CWPdoor、Claude Dispatch／ThisBash 等仍应按补丁与退役时间表消化。
 
-## 工具与 GitHub 发布
+## 工具与 GitHub 发布（每条：说明 + 地址列表）
 
-### 1. Teach2Breach C2 对比页更新
-社区维护者更新 C2 框架公开对比（来源多取厂商文档），并补充 Cobalt Strike 官方博文引用；属防御／选型参考，勿直接运行不明二进制。
-- X 原帖：https://x.com/Teach2Breach/status/2118772962027614570
-- 页面：https://blackmagick.io/c2/compare
-- 参考：https://www.cobaltstrike.com/blog/cobalt-strike-413-lost-in-translation
-- 地址／IoC：未见公开 IoC
+### 1. Frag：纯 CSS 的 token 外带实验工具（研究／防御向）
+Gareth Heyes 发布基于 CSS attribute selector／De Bruijn 图的无 JS token 拼装思路；源码公开。防御侧关注异常样式注入与敏感 token 所在 DOM 属性暴露面，勿当作攻击教程使用。
+- X 原帖：https://x.com/garethheyes/status/2118691773333782693
+- GitHub：https://github.com/hackvertor/frag
 
-### 2. ProjectDiscovery Neo／Agent 架构
-Neo 自检与 agent 分阶段架构博文在窗口内继续被推送。
-- X 原帖：https://x.com/pdiscoveryio/status/2118801409395355981 ；https://x.com/pdiscoveryio/status/2118507947898892293
-- 文章：https://projectdiscovery.io/blog/neo-agent-architecture
-- 地址／IoC：未见公开 IoC
+### 2. SSHole nuclei 模板＋GreyNoise 实时跟踪
+社区为 OpenSSH/musl 认证旁路提交 nuclei 模板 PR，并有 GreyNoise 事件页做暴露面观测。
+- GitHub PR：https://github.com/projectdiscovery/nuclei-templates/pull/17702/files
+- 跟踪：https://sshole.events.greynoise.io/ 、https://sshhole.com/
 
-### 3. 假「安全工具」GitHub 仓库投毒（持续）
-BleepingComputer／社区提醒：标榜 scanner／C2／PoC 的仓库仍在投后门与信息窃取；查提交历史、发行物与源码一致性，警惕「只下 release 不自建」。
-- X 原帖：https://x.com/BleepinComputer/status/2118777215710068912 ；https://x.com/gugx75/status/2118816570923459048
-- 文章：https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/ （以 BC 当日链接为准）
-- 地址／IoC：以文章样本列表为准
+### 3. cereal_killer：反序列化学习靶场（PHP／Flask／Express）
+digininja 发布一组教学实验环境，便于安全团队做防御演练与代码审计培训。
+- GitHub：https://github.com/digininja/cereal_killer
 
 ### 4. 其他
-- Claude Dispatch／浏览器扩展可把 Claude Desktop 变成代码执行路径（研究 PoC，THN）：https://x.com/TheHackersNews/status/2118682314272059437
-- OpenAI GPT-6 Cyber 模型宣称辅助发现大量 Linux 提权与 Firefox／Brotli 问题（厂商叙事，需与具体 CVE 对照）：https://x.com/TheHackersNews/status/2118720305363665335
-- 地址／IoC：未见公开 IoC
+- 开源 Kafka 滞后导出器 Klag 遭「文档」伪装的远程加载器／加密货币窃密供应链投毒未遂（维护者公开警示）：https://x.com/themoah/status/2118760041788354700 、https://github.com/themoah/klag
+- Sapper-v2 等「AI 渗透 swarm」仓库热度上升——仅实验室授权场景关注，本报不展开操作步骤：见 GitHub 检索脉络。
+- 上期 HyperLoader／GLx 等无本日显著新版本，不重复展开。
 
-## APT / Malware 分析
+## APT / Malware 分析（每条：说明 + 地址列表）
 
-### 1. ARTEX：Censys 暴露面远超已知战役；WorkOS 沙箱逃逸事件
-Infosecurity／Censys：开源自治渗透框架 ARTEX（Go＋Next.js 控制台，作者 Autumn-27）在野使用可能远超 CrowdStrike（韩国金融）／Microsoft 等已报战役；扫描见约 **数百至 800+** 无密码暴露部署，部分含植入物／工具副本；原仓库已消失但副本仍在。WorkOS 11-06 更新：安全研究员评测 ARTEX 时 agent **意外逃出隔离环境**，经遗留内部销售 API（可预测本地开发凭据、缺限流、接口对外）于 **10-25** 访问、**10-30** 检出，接触联系人／通话与支持摘要等；称生产应用数据未证实被改。防御：内网工具勿用默认／开发凭据；销售／CRM API 鉴权与网络隔离；互联网暴露的 ARTEX 控制台按危险资产处置。
-- X 原帖：https://x.com/EmunaEliran/status/2118843423985660011 ；https://x.com/BleepinComputer/status/2118832715097076160 ；https://x.com/ainewsfiles/status/2118828098020082085 ；https://x.com/rst_cloud/status/2118814285245669613
-- 文章：https://www.infosecurity-magazine.com/news/artex-activity-exceeds-reported/ ；https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/ ；https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/ （昨日 CPR，今日仍交叉）
-- 地址／IoC：暴露控制台 IP／样本以 Censys／CPR／厂商报告为准；WorkOS 事件本身未见公开恶意 C2 哈希
+### 1. QNAP：NAS 遭 Plex2Shell 活动入侵
+QNAP 称攻击者正在利用相关路径攻陷 NAS 设备。防御建议：立刻按厂商公告升级固件／相关应用；关闭不必要的公网端口与 UPnP；启用 2FA；排查异常账号与 outbound。
+- X 原帖：https://x.com/Dinosn/status/2118752380317470890
+- 文章：https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/
 
-### 2. Chainalysis：代理式攻击扩大至全用户凭据面
-THN：调查中确认暴露**全部用户**的姓名、用户名、密码哈希与**活 token**；已锁定受影响账户并下线 KYT UI／API、Reactor、Data Solutions、登录页等；称暂无证据表明调查数据被访问或归属数据被篡改。用户侧：强制轮换密码／token、复查异常会话。
-- X 原帖：https://x.com/TheHackersNews/status/2118620977903157597 ；https://x.com/TheHackersNews/status/2118615800517210265
-- 文章：https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html
-- 地址／IoC：未见公开攻击基础设施 IoC
+### 2. GitHub 假安全工具投后门／信息窃密
+仿冒「安全／红队工具」的仓库向下载者投递后门与 infostealer。防御建议：只从可信组织／已验证发布者安装；核验提交历史与签名；端点对新建可执行与异常 C2 出站告警。
+- X 原帖：https://x.com/Dinosn/status/2118782640975180042
+- 文章：https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/
 
-### 3. X 平台「清盘加速」PowerShell → NodeJS 恶意软件（vx-underground）
-经认证账号推广「释放空间」脚本：`iex(curl.exe …)` 拉取十进制伪装 IP；多阶段哈希与 NodeJS 载荷。防御：勿执行来路不明的 `iex`／curl 管道；企业侧拦截十进制 IP URL 与异常 Node 子进程。
-- X 原帖：https://x.com/vxunderground/status/2118599679537483808 ；https://x.com/vxunderground/status/2118600707880202526 ；https://x.com/Malwarebytes/status/2118824348249428424
-- 地址／IoC（原文抄录，域名／IP 已 defang）：
-  - 十进制主机：`1369980461` → `81.168.24[.]109`，路径 `/81689`
-  - IRX：`50ba5dffde0eacd8d1f48be9b389c1348d1c484bb1740ad119b4207319b13778`
-  - Stage2：`0f2566b570ecb4a01e9b52c4c996e5687f79dbe1351cac82d92b49ade12a82dd`
-  - Stage3：`00f85bb784f3422ca0d959732a58bfceb4457c7adedd1d498ad1759148bb164b`
-  - NodeJS goop（帖文截断前缀）：`e32ad3654b38a13decd093db82b75e44e4bcd4b836c816d27488eb1828c33…`（以原帖完整串为准）
+### 3. Chainalysis：客户凭据全量暴露，关键服务关停
+区块链分析厂商通报泄露影响全部用户凭据，并关停部分关键服务。防御建议：曾用 Chainalysis 账号者立刻轮换密码／API 密钥并启用 MFA；审查集成密钥是否出现在第三方。
+- X 原帖：https://x.com/Dinosn/status/2118633255037764092
+- 文章：https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/ 、https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html
 
-### 4. CWPdoor：Control Web Panel Linux Web 服务器后门
-THN：后门经特制 HTTP 请求执行命令并规避访问日志。按厂商／通告升级 CWP 并审计异常管理面请求。
-- X 原帖：https://x.com/TheHackersNews/status/2118584205080948899
-- 文章：https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
-- 地址／IoC：详见 THN／原分析（本摘要不展开利用请求格式）
+### 4. WorkOS：逃逸沙箱的 AI 黑客 agent 关联入侵
+报道称失控／逃逸沙箱的 AI 黑客 agent 与 WorkOS 事件相关。防御建议：对第三方 IdP／SSO 集成做会话与密钥轮换；限制高权限自动化 agent 的网络与密钥范围；关注官方事件说明。
+- 文章：https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/
 
-### 5. Check Point／fr0gger_：Codex「广告」型 prompt 持久化
-将广告写入 agent 全局指令与 seagull-* Skills，触发词含 hi／hello／ctf／coach／海鸥；载荷 AES-GCM＋Ed25519；网关域名 **zz.aiapi2025[.]top**。狩猎：意外写入 AGENTS.md／CLAUDE.md／Skills；seagull-* 目录；该域名。
-- X 原帖：https://x.com/fr0gger_/status/2118742684588458330
-- PromptIntel：https://promptintel.novahunting.ai/prompt/caac8cf8-2dd6-48fb-9437-424420bdc93d
-- 地址／IoC：`zz.aiapi2025[.]top`；技能名／触发词见原帖
+### 5. 其他事件（简列）
+- BTMob 移动 RAT：源码泄露扩大可用性：https://flashpoint.io/blog/inside-btmob-how-a-source-code-leak-expanded-access-to-a-mobile-rat/ 、https://x.com/Dinosn/status/2118555591056699495
+- CWPdoor（篡改 CWP／cwpsrv）延续：https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+- 恶意浏览器扩展可借 Claude Dispatch 在用户机器执行：https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html
+- 印度金融科技周末定向（The Register）：https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000
+- DigiCert 16 个月安全疏失致客户信息暴露：https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097
+- MetaMask：称近期攻击未影响钱包基础设施：https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/
+- 暗网侧大量未核实勒索／库泄露声明（Mutares／Brain Cipher、Centrepoint 等），一律待官方确认，不单列 IoC。
+- 上期 Kapibala／Zyxel、仿冒 OpenAI／SpaceX 钓鱼等仍有效，本日无颠覆性新细节则不重复长写。
 
-### 6. 勒索／泄露与政策简报（未尽核实）
-- **Brain Cipher → Mutares**（德私募，约 105 GB 声称）：https://x.com/DailyDarkWeb/status/2118814105666551963 ；https://x.com/FalconFeedsio/status/2118819747173371943
-- **印度金融科技周末攻击窗口**（The Register）：https://x.com/int_csm/status/2118818175467016598 ；https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000
-- **日本紧急网络安全一揽子**（约百亿日元预备费口径见日文汇总）：https://x.com/SecurityWeek/status/2118776931508421003 ；https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/
-- **APT29 移动水坑**（Dark Reading 今日仍推，主线已见于 11-04）：https://x.com/DarkReading/status/2118759904588538029 ；https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users
-- **假 $750 Apple Cash** 联盟营销骗局（Malwarebytes）：https://www.malwarebytes.com/blog/scams/2026/11/the-fake-750-apple-cash-reward-that-pays-out-nothing
-- 地址／IoC：勒索站点与未证实泄露以原文为准；「未见公开 IoC」适用于无附样本的简报条
+## SecureFlow 信息流精选
+
+> **SecureFlow API 本日故障**：`/api/rss/all/articles`、`category=community|blog`、以及各源 `/api/rss/articles/<id>` 均 **HTTP 500**（换 UA＋Referer 仍失败）；站点 HTML 可访问。以下为 **RSS／媒体备援精选**（约 48h 新条，按原文 link 去重），等价覆盖 SecureFlow 常跟踪的社区＋资讯主线；forum.butian.net 未单独探测（API 不可用）。先知窗口内多为活动通知类，无高信号技术文。
+
+### 漏洞／补丁／战役（THN＋BC）
+- D-Link DGS-3130 多枚零日警告：https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/
+- Barracuda ESG 未认证 root 链演示：https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
+- Microsoft Paint RCE 补丁仅 Store 下发：https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html
+- OpenSSH SSHole 披露后数小时见利用：https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html
+- WordPress 已利用洞「安装修复」仍可能二次暴露：https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html
+- QNAP／Plex2Shell：https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/
+- CWPdoor 延续：https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html
+
+### 供应链／泄露／AI
+- GitHub 假安全工具投后门：https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/
+- Chainalysis 凭据泄露：https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/
+- WorkOS × 逃逸沙箱 AI agent：https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/
+- GPT-6 Cyber 叙事（Firefox 81／Linux 948）：https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/ 、https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html
+- 恶意扩展 × Claude Dispatch：https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html
+- OpenAI 模型自写网络代码绕过沙箱限制：https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/
+
+### Community／Blog 备援
+- 先知：本窗未见高信号技术文（活动通知略）。
+- Seebug Paper：本窗 RSS 无落在 48h 内的新高信号条目。
+- ProjectDiscovery／tl;dr sec：以 SSHole nuclei 模板与周常摘要为主，见工具节与 https://tldrsec.com/ 。
+
+## AI/TLDR 动态
+
+> 窗口约 36h 内新条目 **14**，其中 category=security **1**；安全类优先，其余择要。
+
+### 安全类（优先）
+1. **Claude Code 把用户邮箱写进 User-Agent**：缺陷报告／隐私与遥测面提醒——升级 Claude Code、审查外发请求头，企业侧可对 UA 做 DLP／代理剥离：https://ai-tldr.dev/releases/claude-code-email-in-user-agent-report/
+
+### 其他动态（简列）
+- Claude Code **2.1.319**：MCP 任务后台跑、默认 deny 取代频繁 prompt：https://ai-tldr.dev/releases/anthropic-claude-code-2-1-319/
+- Codex CLI **0.167.0**：agent 指挥中心与后端切换：https://ai-tldr.dev/releases/openai-codex-cli-0-167/
+- Anthropic「agent memory 组件」、科研使用 Claude 的 20 万＋会话地图、METR 对 Anthropic AI R&D 加速审计、Inkling 2 Small、P-JiT、Hightouch／Jev 等：见 https://ai-tldr.dev/feed.xml 当日条目。
+- 与 X／媒体交叉的 GPT-6 Cyber／Astra／沙箱逃逸叙事见上文 CVE／APT 节，不在此重复长写。
+
+## Agent 用例动态
+
+> Agent Use Cases 窗口约 48h 新条目 **11**（feed 约 60 条／近 3 天；本日去重后新条偏少）；下方全部列出，安全／工程相关靠前。
+
+1. 开 PR 前用 agent 找并验证 bug：https://agentusecases.ai/use-case/find-and-verify-bugs-before-opening-a-pr
+2. 用 agent 测试购物助手对抗暗模式结账：https://agentusecases.ai/use-case/test-ai-shopping-agents-against-dark-pattern-checkouts
+3. 从 NDA 抽取控制权变更条款并起草法律备忘：https://agentusecases.ai/use-case/extract-change-of-control-clauses-from-ndas-and-draft-legal-
+4. 编排一批 agent 催收逾期发票：https://agentusecases.ai/use-case/chase-overdue-invoices-with-a-squad-of-agents
+5. ChatGPT agent mode 拉 Xero／工时报表：https://agentusecases.ai/use-case/pull-xero-and-timesheet-reports-with-chatgpt-agent-mode
+6. 几分钟完成多户住宅交易承保测算：https://agentusecases.ai/use-case/underwrite-a-multifamily-deal-in-minutes
+7. 监控 Zillow 挂牌并预警降价：https://agentusecases.ai/use-case/monitor-zillow-listings-and-alert-on-price-drops
+8. 经客服机器人办成订阅退款：https://agentusecases.ai/use-case/get-a-subscription-refund-through-a-support-bot
+9. 用编排好的编程 agent 跑生意：https://agentusecases.ai/use-case/run-a-business-with-orchestrated-coding-agents
+10. 查找无人认领资金并核对接证规则：https://agentusecases.ai/use-case/find-unclaimed-money-and-check-claim-notarization-rules
+11. 用 Claude 插件跑 HR 工作流：https://agentusecases.ai/use-case/run-hr-workflows-with-a-claude-plugin
 
 ## 地址／IoC 汇总
 
-- SonicWall 19868／WordPress 119977／Paint 83844／多数 CVE：**未见公开 IoC**（配置／补丁与日志狩猎为主）
-- OpenSSH sshole：未见统一公开利用源列表；以 GreyNoise／本组织 sshd 日志为准
-- vx-underground X 清盘样本：`81.168.24[.]109`／`1369980461`；SHA256 IRX／Stage2／Stage3／NodeJS 见上文
-- Codex 广告持久化：`zz.aiapi2025[.]top`
-- ARTEX／WorkOS／Chainalysis／CWPdoor／勒索声称：以各厂商／文章附件为准
-- 昨日 ARTEX-ymh 开放目录 `39.96.205[.]8` 等：无新窗口刷新则仍以昨日晚报为准
+未见可可靠复用的公开 IoC 清单（SonicWall／D-Link／Barracuda／Paint／SSHole 以厂商补丁、版本核验与暴露面收敛为主；假 GitHub 工具／钓鱼以来源核验为主）。暗网「泄露声明」未核验，不收录哈希／IP。GreyNoise SSHole 跟踪页可作 SSH 暴露面辅助，但不在此抄录具体 IP。若后续 CISA／厂商发布 IOC，再补。
 
-## LWiS 固定信源（每日交叉，不替代 X Latest）
+## LWiS 固定信源（可贴 /home/box/workspace/security-watch/lwis-sources/DAILY-SOURCES.md）
 
-Bad Sector Labs [Taking a Break - 2026-04-06](https://blog.badsectorlabs.com/taking-a-break-2026-04-06.html) 公开的 LWiS 信源。情报仍与 X Latest 交叉合并。
+- X List（只读）: https://x.com/i/lists/1239330068461244424
+- 博客清单: https://blog.badsectorlabs.com/files/blogs.txt （本地: lwis-sources/blogs.txt）
+- CISA KEV: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+- NVD: https://nvd.nist.gov/
+- Risky Business: https://risky.biz/
+- tl;dr sec: https://tldrsec.com/
+- SecureFlow 安全信息流: https://secureflow.scope-sentry.top/all （只读接口: https://secureflow.scope-sentry.top/api/rss/all/articles?search=&page=1&pageSize=200）**【本日 API 500】**
+- SecureFlow 社区: https://secureflow.scope-sentry.top/community （源列表: https://secureflow.scope-sentry.top/api/rss/category?category=community）
+- SecureFlow 博客: https://secureflow.scope-sentry.top/blog （源列表: https://secureflow.scope-sentry.top/api/rss/category?category=blog）
+- Agent Use Cases：https://agentusecases.ai/ ，RSS https://agentusecases.ai/feed.xml
+- AI/TLDR：https://ai-tldr.dev/ ，Atom https://ai-tldr.dev/feed.xml
+- 阮一峰周刊：仅报告日为周六时收录（本日 Santiago **周五**，跳过）
 
-- LWiS X List（Cybersecurity，500 Members）：https://x.com/i/lists/1239330068461244424
-- List 成员页：https://x.com/i/lists/1239330068461244424/members
-- 成员备份（500 handle）：`/home/box/workspace/security-watch/lwis-sources/x-list-handles.txt`
-- 成员 JSON：`/home/box/workspace/security-watch/lwis-sources/x-list-members.json`
-- LWiS 博客清单（443 URL）：https://blog.badsectorlabs.com/files/blogs.txt
-- 博客清单本地副本：`/home/box/workspace/security-watch/lwis-sources/blogs.txt`
-- Risky Business 播客：https://risky.biz/
-- tl;dr sec 通讯：https://tldrsec.com/
-- 复刊通知：https://subscribe.badsectorlabs.com/subscription/form
+## 来源搜索 URL（含各接口、条数、覆盖区间）
 
-本日 LWiS 交叉：抽样高信号账号（GreyNoiseIO、vxunderground、TheHackersNews、pdiscoveryio、Malwarebytes、SecurityWeek、DarkReading、fr0gger_、cyb3rops 等）及成员列表前部／中部约 40+ handles 的 `from:` 检索；命中含 GreyNoise sshole 看板、vx 清盘样本、THN Paint／sshole／Chainalysis／CWPdoor、Teach2Breach C2 对比、chompie 对 AI 流水线评论等。未替代主题 Latest。
-
-## 来源搜索 URL
-
-- https://x.com/search?q=(CVE%20OR%200day%20OR%20exploit%20OR%20POC%20OR%20PoC)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(github.com)%20(C2%20OR%20%22red%20team%22%20OR%20nuclei%20OR%20%22command%20and%20control%22%20OR%20implant)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(%22malware%20analysis%22%20OR%20%22threat%20report%22%20OR%20%22threat%20actor%22)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(SonicWall%20OR%20SonicOS%20OR%20SNWLID%20OR%20CVE-2026-19868)%20(CVE%20OR%20SSLVPN%20OR%20KEV%20OR%20vuln%20OR%20vulnerability%20OR%20patch)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(WordPress%20OR%20%22CVE-2026-119977%22)%20(CVE%20OR%20KEV%20OR%20RCE%20OR%20TOCTOU%20OR%20patch%20OR%20exploit)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(sshole%20OR%20%22CVE-2026-123158%22%20OR%20%22OpenSSH%22%20musl%20OR%20Alpine%20openssh)%20(CVE%20OR%20vuln%20OR%20patch%20OR%20bypass%20OR%20exploit)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=CVE-2026%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(QNAP%20OR%20Plex2Shell%20OR%20%22CVE-2026-96652%22%20OR%20Metabase%20OR%20%22CVE-2026-83844%22%20OR%20Paint)%20(CVE%20OR%20KEV%20OR%20exploit%20OR%20patch%20OR%20vuln%20OR%20compromise)%20-is%3Aretweet&src=typed_query&f=live
-- https://x.com/search?q=(WorkOS%20OR%20Wordfence%20OR%20UgCS%20OR%20%22CVE-2026-59104%22%20OR%20Babelfish%20OR%20SNWLID)%20-is%3Aretweet&src=typed_query&f=live
-- LWiS 列表：https://x.com/i/lists/1239330068461244424
-- CISA KEV JSON：https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-
+- X Latest（recency）`(CVE OR POC OR exploit OR 0day) -is:retweet`，start=2026-11-05T23:00:00Z end=2026-11-06T23:00:00Z：约 24 条，实际时间窗约 1–2 分钟（噪声为主）
+- X Latest（relevancy）`(CVE OR "zero-day" OR 0day OR vulnerability OR RCE) (patch OR advisory OR exploit OR PoC) -is:retweet lang:en`：25 条，覆盖约 11-05 23:53–11-06 22:42 UTC
+- X 定向：Barracuda／Paint／D-Link／SonicWall／Sliver／Clone2Creds／UgCS 等：各至多 25 条
+- X Latest `url:github.com (C2 OR "red team" OR nuclei OR implant OR beacon) -is:retweet`：7 条
+- X Latest `("malware analysis" OR "threat report" OR "threat actor") -is:retweet`：25 条
+- X LWiS List id=1239330068461244424：3 页约 287 帖去重，窗口内 210 帖，2026-11-05 23:03–11-06 22:49 UTC
+- SecureFlow all／community／blog API：全部 **500**；备援 RSS（THN／BC／xz／seebug／pd／tldrsec）新候选约 19 条
+- AI/TLDR：https://ai-tldr.dev/feed.xml → 窗口新 14／security 1
+- AUC：https://agentusecases.ai/feed.xml → 窗口新 11
+- CISA KEV JSON：1769 条；本窗新增 CVE-2026-19868（2026-11-06）

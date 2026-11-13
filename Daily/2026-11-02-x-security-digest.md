@@ -1,186 +1,238 @@
-# X 安全情报晚报 · 2026-11-02
+# X 安全情报晚报 · 2026-11-02（America/Santiago）
 
-覆盖窗口：2026-11-01 20:15 至 2026-11-02 20:15（America/Santiago，UTC-3），约 24 小时。X 只读读取 11 次（主题检索、LWiS 成员检索 3 次、指定帖批量查询 2 次），0 次 429；所收帖子均为本窗口新帖，不与 seen_ids 重复。t.co 均已从卡片展开（只有图片的帖只列原帖）。公开备援：CISA KEV JSON（2026.10.30，共 1766 条，截至 20:15 本日未更新，Δ0）、NVD、厂商与研究机构页面。IoC 一律 defang。本报告为防御向，不转载利用代码、payload 或复现步骤。
+> 生成时间：2026-11-02 20:10（America/Santiago）＝ 2026-11-03 07:10（香港时间）
+> X 覆盖：LWiS List 时间线两页约 191 帖，覆盖 2026-11-02 02:58–22:56 UTC（约 20 小时）；Latest 搜索三组 + 高互动 CVE 补搜一组。Latest「CVE/PoC/exploit/0day」按时间排序仅覆盖约 45 分钟（22:24–23:10 UTC，被自动 CVE 机器人刷屏），所以加了一组 min_likes:20 的相关度补搜，覆盖完整 24 小时；GitHub 组覆盖 01:08–22:47 UTC；malware/threat 组覆盖 13:35–23:01 UTC（约 9.5 小时）。
+> 公开备援：CISA KEV（目录 2026-10-30 发布，本窗口无新增；最近新增是 10-30 的两条 Ivanti）、厂商公告、ZDI。
+> 验收：采集、链接核验、成稿均通过；本机副本见文末交付说明。
 
 ## 今日摘要
 
-- **Ivanti Connect Secure CVE-2026-111357 今日（11-02）KEV 到期**：X 上 DFIR Radar 整理 Volexity 狩猎要点——10-13 的 25.1.1.2／22.8R2.5 只修了 104935，**必须升级到 25.1.1.3 或 22.8R2.6**；Ivanti ICT 完整性检查在已失陷设备上也会显示干净。118527 截止 11-13。
-- **WordPress CryptoPayment Gateway CVE-2026-81648（CVSS 10）首次观测到在野利用尝试**（Defused 蜜罐），可读取明文钱包凭据并覆盖网关设置；未进 KEV。
-- **Citrix NetScaler ADC/Gateway CVE-2026-88773（CVSS 9.3，HTTP 请求走私）研究员公开 PoC**；未进 KEV、未见在野；修复 14.1-73.37／13.1-64.23（建议 14.1-73.49／13.1-64.32）。
-- **Linux TCP UAF CVE-2026-98432 后续**：Ubuntu 与 RHEL 8/9/10 截至 11-01 19:30 UTC 仍有版本无修复，Red Hat 公告 RHSB-2026-016 给出 nftables 临时缓解；仍未进 KEV，未见在野。
-- **GTIG／Mandiant「LLMJacking」报告（11-02）**：攻击者窃取云 IAM／GitHub PAT／LLM API key，用 max_tokens=1 的小请求验证 key，再经「LLM Mixer」转卖配额，单日盗刷超 10 万美元。
-- **Cisco Talos：VOLTA-AUTODOXER 窃密木马**把偷到的数据经 OpenRouter 交给大模型评估「受害者价值」；Talos 未确认在野部署。
-- **智利相关**：FalconFeeds 称 Isapre Consalud 被列上 Qilin 勒索泄露站（未经证实）。
-- **工具**：Impacket-IoCs（Impacket 检测特征）、NWH Stealer 静态分析仓库、Quarry（Claude Code 渗透插件）、PortSwigger 官方 Burp MCP Server。
+- **Ivanti Connect Secure 又有两枚 0day 在野利用**（CVE-2026-111357、CVE-2026-118527），已进 KEV，其中 111357 的 KEV 截止日就是今天 11-02。Rapid7 给出了 UTA0576 的利用 IP。
+- **Palo Alto PAN-OS CVE-2026-0322 在野利用**：能访问管理接口的攻击者可以 root 执行命令，先把管理面收窄到可信 IP。
+- **Google GTIG 发布 LLMJacking 报告**：攻击者用 max_tokens=1 的请求验证偷来的 LLM key，再通过「LLM mixer」转卖额度；GTIG 同时公布了对 XCPE 百万级 Android 电视盒僵尸网络的处置。
+- **伊朗系 DarkBlinders** 攻击以色列与伊拉克库尔德地区政府云；**Unit 42 CL-UNK-1211** 用 SysGoRAT 打政府 Linux 服务器。
+- Linux 内核方向：a13xp0p0v 发了 CVE-2026-31695 的深度分析；CVE-2026-98432（MPTCP/TCP UAF）讨论持续，Ubuntu 补丁仍滞后。
+- SecureFlow：ZDI 新公开 3 个 Microsoft Qlib 反序列化 RCE（ZDI-26-848/849/850）；近 7 天还有 MLflow、Ultralytics、Alpine 车机（Pwn2Own）、Safari、Valkey 等一批 ZDI 公告。
 
-## CVE / POC / 漏洞
+## CVE / POC / 漏洞（每条：说明 + 地址列表）
 
-### 1. Ivanti Connect Secure 三连 0day（104935／111357／118527）：111357 今日 KEV 到期
-UTA0576 自 10-03 起利用链式漏洞拿到未认证 root，行动不落 webshell，每条命令都重跑整条链；落地后用自制 Python LDAP 工具查询 LAPS 密码、BitLocker 恢复密钥，并做 Kerberos 凭据测试与密码喷洒。关键补丁缺口：10-13 发布的 25.1.1.2／22.8R2.5 只修 CVE-2026-104935，**111357 与 118527 要到 25.1.1.3 或 22.8R2.6 才修**。Ivanti Integrity Checker 可能漏报（内存补丁、事后恢复 DSCache 条目、删日志）。狩猎：至少回溯到 10-01；查 `/dana-na/auth/url_default/welcome.cgi` 请求中 URL 路径与 `X-DSCGI-PATH` 头不一致；查 `/data/.icscap` 隐藏目录、`/home/runtime/tmp/ics-root-*` 文件、名为 `dsstatmond` 的进程；疑似失陷则恢复出厂、重置 AD 服务账号、轮换所有可读到的 LAPS／BitLocker 秘密。KEV：111357 due 11-02（今日），118527 due 11-13。
-- X 原帖：https://x.com/DFIR_Radar/status/2117316361240084825
-- X 原帖：https://x.com/DFIR_Radar/status/2117346460723269668
-- X 原帖：https://x.com/Dinosn/status/2117240316545650928
-- X 原帖：https://x.com/exploitgrid/status/2117268620992753711
-- 文章（Volexity，含 IoC 与 YARA）：https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/
-- 文章（Rapid7）：https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527/
-- 文章（THN）：https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-111357
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-118527
-- CISA KEV：https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111357
-- 地址／IoC（引自 DFIR Radar 转述 Volexity）：`108.165.147[.]64`（攻击者 OpenVPN VPS，9-30 至 10-07 活跃）；主机文件名 `/tmp/ml[.]py`、`/tmp/rq5[.]py`、`/tmp/mk[.]py`、`/tmp/rr[.]py`、`/tmp/pu.txt`、`/tmp/sp_out.txt`、`/tmp/spray_hits.json`、`/data/.icscap/dsstatmond`、`/data/.icscap/h[.]py`、`/home/runtime/tmp/ics-root-run-inband-*.pl`、`/home/runtime/tmp/ics-root-result-inband-*`
+### 1. Ivanti Connect Secure 新增两枚在野 0day（CVE-2026-111357 / CVE-2026-118527）
+Ivanti 10-29 更新 ICS 公告，新增两个已在野利用的漏洞（认证缺失、可预测标识符），常与此前的漏洞串联使用。KEV 10-30 已收录，CVE-2026-111357 联邦截止日 11-02，CVE-2026-118527 截止 11-13。建议立即升级，并按 Rapid7 给的日志路径（debuglog、audit.log）排查有选择性删日志的痕迹。（昨天晚报已提过一轮，今天是 Rapid7 的详细跟进。）
+- X 原帖：https://x.com/rapid7/status/2117255308288680209 、https://x.com/Dinosn/status/2117240316545650928 、https://x.com/Dinosn/status/2117189203511627917
+- 厂商／KEV：https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+- 文章：https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527 、https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/
 
-### 2. WordPress CryptoPayment Gateway CVE-2026-81648（CVSS 10）：首次观测到在野利用尝试
-Defused 称其蜜罐记录到针对该插件的利用尝试，此前无公开在野报告。漏洞可让未认证者读取站点保存的支付网关设置（含明文钱包凭据）并覆盖配置。攻击来源为自称「Anonymous KYC-Free VPS Hosting」的基础设施。未进 KEV。处置：确认插件是否使用、升级或停用插件，并轮换网关里存过的钱包／API 凭据。
-- X 原帖：https://x.com/DefusedCyber/status/2117325160608870613
-- 厂商／IoC 平台（需注册）：http://console.defusedcyber.com/signup
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-81648
-- 地址／IoC：Defused 称完整 IoC 在其 Radar 平台（需注册），帖内未公开，故未抄录
-
-### 3. Citrix NetScaler ADC & Gateway CVE-2026-88773（CVSS 9.3）：公开 PoC
-HTTP/SSL vserver 上的 HTTP 请求走私。受影响 14.1 < 14.1-73.37、13.1 < 13.1-64.23（含 FIPS/NDcPP）。ThreatWire 称研究员已发布 PoC（未经 Citrix 确认），无缓解措施，未进 KEV，未见在野。建议直接升到 14.1-73.49／13.1-64.32。
-- X 原帖：https://x.com/ThreatWire_/status/2117171954058764792
-- 文章：https://www.threatwire.tech/news/upgrade-netscaler-researchers-publish-poc-for-request-smuggling-flaw-cve-2026-88773
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-88773
-- 地址／IoC：未见公开 IoC
-
-### 4. Linux 内核 TCP UAF CVE-2026-98432 后续（未进 KEV）
-X 上 Roland Gorczynski 整理的补丁状态（截至 11-01 19:30 UTC）：已修 Debian bookworm/trixie、SLES 16.0／15 SP4–SP6 LTSS、openSUSE Leap 16.0、Oracle UEK、Amazon Linux 2/2023；未修 Ubuntu 22.04–26.10（修复进行中）与 RHEL 8/9/10（公告 RHSB-2026-016）；AlmaLinux 只在 testing 源有修复。上游修复版本 5.10.272、5.15.223、6.1.190、6.6.159、6.12.113、6.18.56、7.2.10、7.3。临时缓解见 Red Hat 公告中的 nftables 规则（不能完全防护）；装完内核必须重启。Liran Tal 等人质疑为何仍未进 KEV——目前无在野证据。
-- X 原帖：https://x.com/RGorczynskiOPS/status/2117136195989713170
-- X 原帖：https://x.com/TweetThreatNews/status/2117373326750285936
-- X 原帖：https://x.com/liran_tal/status/2117181170383278517
-- 文章：https://cyber.hendryadrian.com/article/14144/linux-kernel-tcp-flaw-cve-2026-98432-may-enable-remote-code-execution
-- 厂商公告：https://ubuntu.com/security/CVE-2026-98432
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-98432
-- 地址／IoC：未见公开 IoC
-
-### 5. 其他：PAN-OS CVE-2026-0322 提醒；OpenAirInterface 5G 核心网一批 CVE
-EMITS 再次提醒 PAN-OS CVE-2026-0322（8.6，需管理接口访问即可 root 执行命令，KEV 中自 10-17 逾期）：限制管理面到可信 IP 并打补丁。Kaitan 自动账号把 OpenAirInterface CN5G AMF/UDM v2.2.1 的 CVE-2026-117067／117068／117069／106808 标为「Exploit in the wild」，但未给出一手来源，KEV 中也没有，**可信度低，仅作观察**。
+### 2. Palo Alto PAN-OS CVE-2026-0322（CVSS 8.6，在野利用）
+能访问管理接口的攻击者可以 root 身份执行命令。处置：管理接口只放可信 IP，按公告升级。
 - X 原帖：https://x.com/emits_ca/status/2117330428797559011
-- X 原帖：https://x.com/KaitanSecurity/status/2117368663028154878
-- 文章：https://emits.ca/advisories.html
-- 文章：https://sec.kaitan.id/cves/CVE-2026-117069
-- 文章：https://sec.kaitan.id/cves/CVE-2026-117067
-- 文章：https://sec.kaitan.id/cves/CVE-2026-117068
-- 文章：https://sec.kaitan.id/cves/CVE-2026-106808
-- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-0322
-- 地址／IoC：未见公开 IoC
+- 厂商公告：https://security.paloaltonetworks.com/CVE-2026-0322
 
-### 6. KEV 到期提醒（本日无新增）
-新出现 CVE 推送账号 EnclaveRadar（仅作补充源）。目录仍为 2026.10.30／1766 条（截至 20:15 周一未更新，Δ0）。**今日 11-02 到期**：Ivanti Connect Secure CVE-2026-111357。**11-03**：Plex Media Server CVE-2026-96652／96655、Siemens Software Center CVE-2026-110936。之后：11-10 Magento 48356、Brotli 111497；11-11 VMware ESX 41709；11-13 Ivanti 118527。**昨日起逾期**：GitLab 97229、Cisco ASA/FTD 76418；更早逾期：Fragnesia 46300（10-31）、PHP2Shell 109618/109619（10-29）等。
-- CISA KEV JSON：https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-- CISA KEV：https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-- 文章：https://threatpodium.com/threat-intelligence-report-2026-11-01/
-- X 原帖：https://x.com/EnclaveAI/status/2117232863552958597
-- 文章：https://app.enclave.ai/threat-feed
-- 地址／IoC：未见公开 IoC
+### 3. Linux 内核 CVE-2026-31695（struct device 相关竞争条件）深度分析
+Alexander Popov 发布长文，介绍如何把一个难以稳定触发的竞争条件做成稳定利用，附内核加固讨论。防御向：关注发行版内核更新。
+- X 原帖：https://x.com/a13xp0p0v/status/2117227603161735232
+- 文章：https://a13xp0p0v.tech/2026/11/02/CVE-2026-31695.html
+- NVD：https://nvd.nist.gov/vuln/detail/CVE-2026-31695
 
-## 工具与 GitHub 发布
+### 4. Linux 内核 CVE-2026-98432（IPv4 TCP UAF，MPTCP 条件下可远程提权）后续
+Red Hat 11-01 已推 RHEL 8/9/10 内核修复；有帖子指出 Ubuntu 仍无修复内核，Go 1.24+ 服务默认监听 Multipath TCP；还有人发现宿主机加固后容器命名空间里 MPTCP 仍开着。AWS 称未见在野利用。
+- X 原帖：https://x.com/CobaltHere/status/2117285606086562247 、https://x.com/DailyCyberNews_/status/2117217164050530679 、https://x.com/Ghourchiani/status/2117390016938680763
+- 文章：https://ghourchiani.ir/blog/cve-2026-98432-docker-container-namespaces
 
-### 1. Impacket-IoCs：Impacket 检测特征整理
-作者内部重写 Impacket 时整理出库内固有的可检测特征（IoC），对蓝队写 Impacket 检测规则、红队评估暴露面都有用。
+### 5. PHP2Shell（CVE-2026-109618 / CVE-2026-109619）披露风波与在野利用
+ReversingLabs 称 AI 辅助研究把两个沉睡的 PHP 漏洞串成 PHP2Shell，披露前泄露导致补丁前就有利用尝试；HN 讨论引述一个 AI 辅助攻击活动在 10-25 拿下 25 台服务器，其中包括美国政府关联环境。
+- X 原帖：https://x.com/LiveOverflow/status/2117281363200201033 、https://x.com/TweetThreatNews/status/2117382289730490581 、https://x.com/LiveOverflow/status/2117110101160993264
+- 文章：https://cyber.hendryadrian.com/article/14168/php2shell-disclosure-turmoil-follows-ai-assisted-exploit-discovery 、https://news.ycombinator.com/item?id=50286987 、https://pavursec.com/blog/stealmybitcoin/
+
+### 6. WordPress pingback + Brotli RCE（CVE-2026-111497）复现分析，及 Project Zero 的 Brotli 解码器越界读写
+Fortbridge 发布 CVE-2026-111497 复现分析；Project Zero 同日公开 Brotli 解码器内部输入缓冲区的堆越界读写（DecodeBlockTypeAndLength）。WordPress 站点升级到最新版本，并关注依赖 Brotli 的组件。
+- X 原帖：https://x.com/Dinosn/status/2117186693677875492 、https://x.com/ProjectZeroBugs/status/2117225924492181996
+- 文章：https://fortbridge.co.uk/research/cve-2026-111497-wordpress-pingback-rce-reproduction/
+- 厂商／跟踪单：https://project-zero.issues.chromium.org/issues/565308158 、https://nvd.nist.gov/vuln/detail/CVE-2026-111497
+
+### 7. Project Zero：Apple RawCamera 两个堆溢出（Phase One、Canon sRAW 解码器）
+- X 原帖：https://x.com/ProjectZeroBugs/status/2117210525344124989 、https://x.com/ProjectZeroBugs/status/2117209976259375527
+- 跟踪单：https://project-zero.issues.chromium.org/issues/552305156 、https://project-zero.issues.chromium.org/issues/552300026
+
+### 8. Langflow 1.0.0–1.12.8 多个严重漏洞（无需账号即可绕过认证或执行代码）
+IBM 10-28 发布公告（列出 CVE-2026-93680 等多个 CVE），唯一修复版本是 1.13.0，目前不在 KEV 里。
+- X 原帖：https://x.com/Dinosn/status/2117250287274717216
+- 文章：https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html
+
+### 9. GitLab 在野 RCE：超过 1,000 台服务器仍暴露；补丁在 Ruby 层
+有受害方指出 10-22 升级到 GitLab 19.3.6 并没有修掉漏洞，因为修复在 GitLab 附带的 Ruby 补丁里。请核对实际的 Ruby 补丁是否生效。（昨天晚报已提过 GitLab 在野利用。）
+- X 原帖：https://x.com/N3mes1s/status/2117260494230729098 、https://x.com/Dinosn/status/2117239903717314797 、https://x.com/CIDC_Ops/status/2117089667300687877
+- 文章：https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/
+
+### 10. VMware ESXi CVE-2026-41709（CVSS 2.7，已进 KEV）被 Warp Panda 利用
+这是一个日志记录不足的漏洞：拥有管理员权限的攻击者可以做某些操作而不留日志。CrowdStrike 称 Warp Panda 用它攻击美国机构，包括律所。处置：升级，并把日志外送。
+- X 原帖：https://x.com/EvergreenCS117/status/2117390388415824235
+- 文章：https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html
+
+### 11. OpenAirInterface CN5G AMF/UDM 多个漏洞（标注有在野利用）
+包括 CVE-2026-117067、117068、117069 和 106808，影响 OAI CN5G v2.2.1；来源是自动化 CVE 帖，可信度一般，自建 5G 核心网的话应关注。
+- X 原帖：https://x.com/KaitanSecurity/status/2117368663028154878 、https://x.com/KaitanSecurity/status/2117338461929631952
+
+### 12. Microsoft Qlib 三个反序列化 RCE（ZDI-26-848/849/850，SecureFlow 与 ZDI）
+StaticDataLoader、RestrictedUnpickler、MLflowRecorder 处理 pickle 数据时可被利用（需要用户打开恶意文件，CVSS 7.8）。X 上暂未见讨论。
+- 厂商／ZDI：https://www.zerodayinitiative.com/advisories/ZDI-26-848/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-849/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-850/
+
+## 工具与 GitHub 发布（每条：说明 + 地址列表）
+
+### 1. CredGuardRuntimeShutdown（Win11 24H2 上运行时关闭 Credential Guard）
+防御向：关注 LSA_ISO 相关的注册表和服务变更，以及 LSASS 访问。
+- X 原帖：https://x.com/ipurple/status/2117372679015514187
+- GitHub：https://github.com/S12cybersecurity/CredGuardRuntimeShutdown
+
+### 2. tprtdll-Injection（用 tprtdll.dll 替代 ntdll 的导出来规避 EDR hook）
+- X 原帖：https://x.com/ipurple/status/2117250385509241153
+- GitHub：https://github.com/ivancabrera02/tprtdll-Injection
+
+### 3. HorusEye（AD 攻击路径映射 + 修复方案对比，红蓝通用）
+- X 原帖：https://x.com/ipurple/status/2117356667788578908
+- GitHub：https://github.com/Omar-tamerr/HorusEye/
+
+### 4. blackmagick C2 发布与更新（Teach2Breach），附 stargate、moonwalk
+平台新增 Horus loader、RRCfg 恶意软件分析文章和 C2 发布视频；作者同时提到 API 解析不走 PEB walk、改用内存扫描的思路。
+- X 原帖：https://x.com/Teach2Breach/status/2117367115590115728 、https://x.com/Teach2Breach/status/2117376744357351580
+- GitHub：https://github.com/Teach2Breach/stargate 、https://github.com/Teach2Breach/moonwalk
+- 站点：https://blackmagick.io
+
+### 5. Impacket-IoCs（重写 impacket 时整理出的特征，适合写检测）
 - X 原帖：https://x.com/CyberWarship/status/2117265506851791245
 - GitHub：https://github.com/ThatTotallyRealMyth/Impacket-IoCs
-- 地址／IoC：仓库本身即特征清单，未逐条抄录
 
-### 2. NWH Stealer 静态分析仓库（ipurple 转发）
-分析 NWH Stealer：借 Bun JavaScript 运行时无文件执行、内存中窃取剪贴板图片、滥用 AWS／Cloudflare R2 作 C2 外传。
+### 6. SmartScreen 自定义扩展名绕过（ipurple 文章）
+- X 原帖：https://x.com/ipurple/status/2117381386239701411
+- 文章：https://ipurple.team/2026/10/22/custom-extensions/
+
+### 7. Trail of Bits：用 Codex 大规模回移安全补丁
+- X 原帖：https://x.com/Dinosn/status/2117240570456518671
+- 文章：https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/
+
+### 8. Mac Monitor v3.0 发布（macOS 动态分析，新增 CLI）
+- X 原帖：https://x.com/L0Psec/status/2117298773713977466 、https://x.com/_D00mfist/status/2117324448055566789
+
+## APT / Malware 分析（每条：说明 + 地址列表）
+
+### 1. Google GTIG：LLMJacking，盗用云上大模型额度变现
+初始访问主要靠窃取 IAM 凭据、服务账号密钥、GitHub PAT；用 max_tokens=1 或 temperature=0 的小请求验证 key，避开用量告警；通过「LLM mixer」转卖，jet-night 月费约 60 美元，有一个用户 8 小时内调用 50 万次以上，造成近 100 万美元的 token 费用；还有人用基于 Manus 的容器化 agent 做后门。狩猎：查 LLM 网关日志里的 max_tokens=1 探测、异常 Bedrock 和 Vertex 调用、伪装成计费优化的服务账号。
+- X 原帖：https://x.com/fr0gger_/status/2117335710781079893 、https://x.com/fr0gger_/status/2117335719878561837 、https://x.com/fr0gger_/status/2117335717756178700
+- 文章：https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models 、https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967
+
+### 2. Google 处置 XCPE 百万级 Android 电视盒僵尸网络
+- X 原帖：https://x.com/Dinosn/status/2117249213541060730 、https://x.com/Dinosn/status/2117332181823484303
+- 文章：https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/ 、https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/
+
+### 3. DarkBlinders（伊朗国家背景）攻击以色列与伊拉克库尔德地区政府云
+据 Dream Research Labs 报告，活动时间是 2026 年 8 月至 10 月，已攻陷以色列一位高知名度人士和库尔德地区的政府云环境。同文提到另一个伊朗组织在美国境内运营 Tornado（Tonnerre 变种）的二级 C2。
+- X 原帖：https://x.com/Dinosn/status/2117281385459380522
+- 文章：https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html
+
+### 4. Unit 42 CL-UNK-1211：SysGoRAT 攻击政府 Linux 服务器（疑似用了 AI 生成的脚本）
+活动时间是 2025 年 10 月至 2026 年 4 月；SysGoRAT 通过 WebSocket 连硬编码 C2，支持命令执行、交互 shell、截屏和外传。
+- X 原帖：https://x.com/Dinosn/status/2117240192629412232
+- 文章：https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html
+
+### 5. VOLTA（VOLTA-AUTODOXER）信息窃取器：用 Claude、Gemini、Kimi 按财务价值给受害者排序
+Talos 发现它最多串三个模型应对拒答，并通过 Telegram 外传数据。
+- X 原帖：https://x.com/Dinosn/status/2117160879208964344
+- 文章：https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html
+
+### 6. 冒充 IT 支持走 Microsoft Teams 社工 + 滥用 AD CS（ESC1/ESC8）窃取数据
+- X 原帖：https://x.com/Dinosn/status/2117240332308062294
+- 文章：https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html
+
+### 7. NWH Stealer 静态分析（Bun 运行时无文件执行、剪贴板图片窃取、借 AWS 和 Cloudflare R2 做 C2）
 - X 原帖：https://x.com/ipurple/status/2117388030063612318
 - GitHub：https://github.com/kaandemir993/NWH-Stealer-Analysis-Fileless-Bun-Runtime-Execution-Clipboard-Image-Theft-Cloud-C2-AWS-R2-
-- 地址／IoC：帖文未列具体 IoC，请看仓库；未抄录
 
-### 3. Quarry：Claude Code 渗透测试插件
-开源全流程渗透插件，强调哈希链证据与防「幻觉漏洞」规则；作者自称在 DVWA／crAPI／Juice Shop 上 100% 召回（未独立验证）。
-- X 原帖：https://x.com/myco_razon/status/2117281338114048427
-- GitHub：https://github.com/mahumadad/quarry
-- 地址／IoC：未见公开 IoC
+### 8. Synology 警告 C3RB3R 勒索攻击 NAS
+- X 原帖：https://x.com/Dinosn/status/2117239965264556267
+- 文章：https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/
 
-### 4. PortSwigger 官方 Burp Suite MCP Server
-把 Burp 暴露给 MCP 客户端，让模型直接基于被测流量工作。
-- X 原帖：https://x.com/PentestAIStack/status/2117269829199818798
-- GitHub：https://github.com/PortSwigger/mcp-server
-- 地址／IoC：未见公开 IoC
+### 9. 欧洲超市冷柜遭远程「解冻」攻击第二波（比利时、卢森堡、瑞典、爱沙尼亚）
+暴露在公网上的冷柜控制面板被用于远程操作。vx-underground 指出几个月前就有人讨论过这类暴露面。
+- X 原帖：https://x.com/Dinosn/status/2117243716138381448 、https://x.com/Dinosn/status/2117250162443567394 、https://x.com/vxunderground/status/2117335140313780446
+- 文章：https://securityaffairs.com/202260/security/another-fridge-cyberattack-hits-european-supermarkets-this-time-in-belgium-luxembourg-sweden-and-estonia.html 、https://www.theregister.com/cyber-crime/2026/11/02/frozen-part-ii-hackers-remotely-defrost-produce-in-euro-supermarkets-again/5306924
 
-### 5. LWiS 成员动态（低信号）
-ProjectDiscovery 继续推 neo AI 渗透（Skyscanner 案例）；runZero 的 HD Moore 节目谈 5k 个暴露 BACnet 设备；Rad 讨论给攻击工具植入后门的问题。
-- X 原帖：https://x.com/pdiscoveryio/status/2117310687273992455
-- X 原帖：https://x.com/runZeroInc/status/2117272552691171486
-- X 原帖：https://x.com/rad9800/status/2117115193864102232
-- 地址／IoC：未见公开 IoC
+### 10. Binance 大额被盗：FBI 公布 600 多个与朝鲜相关的地址；BTCPay 旧版热钱包被盗
+- X 原帖：https://x.com/Dinosn/status/2117186779732418654 、https://x.com/Dinosn/status/2117278211243683981 、https://x.com/vxunderground/status/2117379973904310654
+- 文章：https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/、https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/
 
-## APT / Malware 分析
+### 11. 其他
+Trigger.dev 云端 AI 工作流工具的环境变量被窃，所有密钥都要轮换；Check Point 11-02 威胁情报周报；Phantom Stealer 配置失误的样本（ANY.RUN）；勒索帖：Qilin 声称攻击智利 Isapre Consalud，Akira 声称攻击多家美国公司（均为未核实的声称）。
+- X 原帖：https://x.com/Dinosn/status/2117311920755912983 、https://x.com/Dinosn/status/2117306974509424911 、https://x.com/James_inthe_box/status/2117326298058277027 、https://x.com/FalconFeedsio/status/2117364792784794002
+- 文章：https://www.theregister.com/security/2026/11/02/cloud-hosted-ai-workflow-tool-has-environment-variables-snatched-in-security-incident/5306998 、https://research.checkpoint.com/2026/2nd-november-threat-intelligence-report/ 、https://app.any.run/tasks/52088266-db7d-4e22-9edb-d5d6215c355c
 
-### 1. GTIG／Mandiant：LLMJacking 报告（11-02）
-Mandiant 2026 年处理多起企业 LLM 访问被劫持事件（北美、南美、亚太；金融、零售、科技、运输）。初始访问主要是云身份被盗：IAM 凭据、服务账号密钥、GitHub PAT、会话令牌；随后克隆仓库找秘密、创建高权限服务账号令牌、注入 SSH 密钥、伪装成「计费优化工具」的后门服务账号。用 max_tokens=1 的极小请求验证偷来的 LLM key 以避开用量告警，再通过「LLM Mixer」网关以约 60 美元/月转卖配额；单日盗刷超 10 万美元，累计可达 100 万美元。报告点名 UNC6993 等集群。防御：集中轮换秘密、最小权限 IAM、代码秘密扫描、API 配额与支出上限、把「未授权启用 LLM 服务」视为高危告警。
-- X 原帖：https://x.com/fr0gger_/status/2117335710781079893
-- X 原帖：https://x.com/fr0gger_/status/2117335712714588509
-- X 原帖：https://x.com/fr0gger_/status/2117335714400731212
-- 文章（GTIG）：https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/
-- 文章：https://siliconangle.com/2026/11/02/google-finds-llmjacking-attackers-running-up-100k-a-day-in-fraudulent-cloud-charges/
-- 文章：https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967
-- IoC 汇总（第三方）：https://ioc.socradar.io/reports/the-rise-of-llmjacking-how-threat-actors-monetize-compromised-cloud-and-model-resources-fd209ff2917c
-- 地址／IoC（SOCRadar 摘自报告）：SHA256 `4377d2403ea17a04744ca871113c1313b0162f190f0b785f5a10b744e8528245`；域名 `newapi[.]pro`；代号 `D1337-KAIROS`
+## SecureFlow 信息流精选（X 上未出现的高信号条目）
 
-### 2. Cisco Talos：VOLTA-AUTODOXER 窃密木马用大模型给受害者「估价」
-Windows 窃密木马，窃取浏览器密码、银行卡、加密钱包助记词、会话令牌与云凭据，汇总成受害者档案，再经 OpenRouter 发给大模型（配置默认 Claude Opus 4.6，被拒时依次换 Kimi K2、Gemini 2.5 Flash）生成「WHAT THEY'RE WORTH」评估；也可跳过 AI 步骤并自删除。**Talos 未确认在野投放**。狩猎建议（X 帖转述）：告警无头 Chrome、保留 `volta_debug.txt`、吊销令牌。
-- X 原帖：https://x.com/arcXonline/status/2117190212862235007
-- X 原帖：https://x.com/AndruEdwards/status/2117035490209603922
-- X 原帖：https://x.com/tsnmediahub/status/2117259204025016392
-- 文章（Talos）：https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
-- 文章（WIRED）：https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/
-- 文章：https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely
-- 地址／IoC：X 帖仅提到文件名 `volta_debug.txt`；哈希等请看 Talos 原文，本报告未抄录
+### community
+- 奇安信攻防社区：「Java 反序列化从 Redis 开始 RCE」，一篇反序列化利用链的分析文章。链接：https://forum.butian.net/share/5255 （box 网络无法连接该站，浏览器可开）
+- （已过滤：先知社区「双倍积分和稿费的活动通知」，非技术帖）
 
-### 3. Volt Typhoon「Silent Train」后续报道（CyberScoop）
-CyberScoop 引 Lumen Black Lotus Labs：Volt Typhoon 自 2023 年底起不断轮换被控 SOHO 路由器、IoT 与企业设备，组成一次性中继网络掩护对关键基础设施的 0day 攻击（10-28 晚报已收录首发）。另：X 上流传「五眼＋日本联合预警 Salt Typhoon」「100 万部美国手机被黑」等帖，均无一手来源链接，**未核实，不采信**。
-- X 原帖：https://x.com/CyberScoopNews/status/2117394072063111496
-- X 原帖：https://x.com/Security_PLo/status/2117244895740215311
-- 文章：https://scoopmedia.co/47Pjdgn
-- 地址／IoC：未见公开 IoC
+### blog（ZDI，近 7 天首次出现、昨天晚报未列的）
+- ZDI Blog：「CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft」 https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft
+- MLflow 一组（SSRF、越权、反序列化）：https://www.zerodayinitiative.com/advisories/ZDI-26-840/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-841/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-842/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-843/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-844/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-846/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-847/
+- Ultralytics（0Day，未修补）：https://www.zerodayinitiative.com/advisories/ZDI-26-812/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-814/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-815/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-816/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-817/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-818/
+- Alpine iLX-F511 车机（Pwn2Own 0Day）：https://www.zerodayinitiative.com/advisories/ZDI-26-819/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-820/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-822/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-823/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-824/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-825/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-826/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-827/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-829/
+- Apple Safari jsToWasm 类型混淆 RCE：https://www.zerodayinitiative.com/advisories/ZDI-26-830/ ；macOS CoreText 越界读：https://www.zerodayinitiative.com/advisories/ZDI-26-831/
+- AVG Internet Security 本地提权：https://www.zerodayinitiative.com/advisories/ZDI-26-832/
+- MailEnable XXE 与明文存储：https://www.zerodayinitiative.com/advisories/ZDI-26-810/ 、https://www.zerodayinitiative.com/advisories/ZDI-26-811/
 
-### 4. 勒索与数据泄露（未经证实，仅受害方公告）
-FalconFeeds 等称：**智利 Isapre Consalud 被 Qilin 列上泄露站**；另有 Michigan State University（Byod）、阿根廷 REFSA（NightSpire）及 Akira、SAFEPAY 新增受害者帖。欧洲超市冷链系统被攻击的说法（WarMonitor）缺来源，vx-underground 称暴露在网上的冷柜控制面板被滥用。
-- X 原帖：https://x.com/FalconFeedsio/status/2117364792784794002
-- X 原帖：https://x.com/FalconFeedsio/status/2117124554413985810
-- X 原帖：https://x.com/FalconFeedsio/status/2117226808299139155
-- X 原帖：https://x.com/vxunderground/status/2117335140313780446
-- X 原帖：https://x.com/WarMonitor3/status/2117227376077676887
-- 受害方网站：https://www.consalud.cl/
-- 地址／IoC：未见公开 IoC
+### BugBounty
+- HackerOne：monero-wallet-rpc 的 rescan_spent 接受不可信 daemon 提供的花费状态，可用于环交集去匿名。链接：https://hackerone.com/reports/3719670
 
 ## 地址／IoC 汇总
 
-全部已 defang，抄自所引来源：
-- Ivanti ICS（UTA0576，经 DFIR Radar 转述 Volexity）：IP `108.165.147[.]64`；主机路径 `/tmp/ml[.]py`、`/tmp/rq5[.]py`、`/tmp/mk[.]py`、`/tmp/rr[.]py`、`/tmp/pu.txt`、`/tmp/sp_out.txt`、`/tmp/spray_hits.json`、`/data/.icscap/`（含 `dsstatmond`、`cap*`、`h[.]py`）、`/home/runtime/tmp/ics-root-run-inband-*.pl`、`/home/runtime/tmp/ics-root-result-inband-*`；进程名 `dsstatmond`；请求特征为 `welcome.cgi` 路径与 `X-DSCGI-PATH` 头不一致。完整列表：https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/
-- LLMJacking（GTIG，经 SOCRadar）：SHA256 `4377d2403ea17a04744ca871113c1313b0162f190f0b785f5a10b744e8528245`；域名 `newapi[.]pro`
-- VOLTA：文件名 `volta_debug.txt`（哈希见 Talos 原文）
-- CryptoPayment Gateway 81648、NWH Stealer：IoC 在 Defused 平台／GitHub 仓库，帖内未公开
-- 其余条目：未见公开 IoC
+以下原样抄录自公开报告，已去武装化（defanged），仅供检测与封堵：
+
+- **Ivanti ICS（UTA0576 利用 IP，来源 Rapid7 引 Volexity）**：108.165.147[.]64
+- **SysGoRAT C2（Unit 42 / THN）**：104.194.158[.]65:443（WebSocket）
+- **DarkBlinders 相关基础设施（THN 引 Dream Research Labs）**：gcc-sg[.]cloud、mfakuwait[.]online、moelcloud[.]online、stark-meet[.]com、stark-meet[.]online、stark-meet[.]website；伊朗系 Tornado 二级 C2：68.65.122[.]203
+- **XCPE 僵尸网络（GTIG）**：运营服务器 38.145.197[.]135、23.94.49[.]57；broker 节点 219.134.163[.]210、219.134.163[.]211（设备走 3885–3887 端口；管理面走 8082/8083 端口）。部分样本 SHA256：
+  - 0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9
+  - 01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde
+  - 02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62
+  - （完整列表见 GTIG 原文）
+- **LLMJacking 转卖平台（GTIG / @fr0gger_）**：newapi[.]pro、jet-night[.]com
+- **Teams 冒充 IT 支持 + AD CS 活动样本 SHA256（THN）**：
+  - 06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7
+  - 85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17
+  - f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001
+- **Binance 被盗相关钱包**：FBI 公布了 600 多个地址，见 SecurityWeek 原文，本报告不逐一抄录。
+- 其余条目未见公开 IoC。
 
 ## LWiS 固定信源（每日交叉，不替代 X Latest）
 
-Bad Sector Labs [Taking a Break - 2026-04-06](https://blog.badsectorlabs.com/taking-a-break-2026-04-06.html) 公开的 LWiS 信源。情报仍与 X Latest 交叉合并。
+- X List（只读）：https://x.com/i/lists/1239330068461244424 （本次读取约 191 帖，覆盖约 20 小时）
+- 博客清单：https://blog.badsectorlabs.com/files/blogs.txt （本地：lwis-sources/blogs.txt）
+- CISA KEV：https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+- NVD：https://nvd.nist.gov/
+- Risky Business：https://risky.biz/
+- tl;dr sec：https://tldrsec.com/
+- SecureFlow 安全信息流：https://secureflow.scope-sentry.top/all （只读接口：https://secureflow.scope-sentry.top/api/rss/all/articles?search=&page=1&pageSize=200）
+- SecureFlow 社区：https://secureflow.scope-sentry.top/community （源列表：https://secureflow.scope-sentry.top/api/rss/category?category=community）
+- SecureFlow 博客：https://secureflow.scope-sentry.top/blog （源列表：https://secureflow.scope-sentry.top/api/rss/category?category=blog）
 
-- LWiS X List（Cybersecurity，500 Members）：https://x.com/i/lists/1239330068461244424
-- List 成员页：https://x.com/i/lists/1239330068461244424/members
-- 成员备份（500 handle）：`/home/box/workspace/security-watch/lwis-sources/x-list-handles.txt`
-- 成员 JSON：`/home/box/workspace/security-watch/lwis-sources/x-list-members.json`
-- LWiS 博客清单（443 URL）：https://blog.badsectorlabs.com/files/blogs.txt
-- 博客清单本地副本：`/home/box/workspace/security-watch/lwis-sources/blogs.txt`
-- Risky Business 播客：https://risky.biz/
-- tl;dr sec 通讯：https://tldrsec.com/
-- 复刊通知：https://subscribe.badsectorlabs.com/subscription/form
+## 来源搜索 URL（含 SecureFlow 三个接口、各分类条数与覆盖区间）
 
+- X Latest：
+  - https://x.com/search?q=CVE%20OR%20PoC%20OR%20exploit%20OR%200day&f=live
+  - https://x.com/search?q=url%3Agithub.com%20(C2%20OR%20%22red%20team%22%20OR%20nuclei%20OR%20BOF)&f=live
+  - https://x.com/search?q=%22malware%20analysis%22%20OR%20%22threat%20report%22%20OR%20%22threat%20actor%22&f=live
+  - 补搜：https://x.com/search?q=(CVE%20OR%20exploit%20OR%200day%20OR%20%22in%20the%20wild%22)%20min_faves%3A20
+- X List：https://x.com/i/lists/1239330068461244424
+- SecureFlow all：https://secureflow.scope-sentry.top/api/rss/all/articles?search=&page=1&pageSize=200
+  - 返回 200 条，最早一条是 2026-10-19；近 48 小时（2026-11-01 07:10 至 11-03 07:10，北京时间）新条目 6 条。其中 BugBounty 1 条、ZDI 3 条、community 2 条，过滤了 1 条活动通知。
+- SecureFlow community：https://secureflow.scope-sentry.top/api/rss/category?category=community
+  - 7 个源，跳过长期不更新的吾爱破解，其余 6 个逐源拉取 /api/rss/articles/<id>。
+  - 近 48 小时内、all 接口之外的新条目 0 条。
+- SecureFlow blog：https://secureflow.scope-sentry.top/api/rss/category?category=blog
+  - 12 个源，跳过长期不更新的「微信公众号」源，其余逐源拉取。
+  - 近 7 天（2026-10-27 至 11-03，北京时间）不在 seen_ids 里的条目 39 条，全部来自 ZDI。
+  - 去掉昨天晚报已列的 11 条后，本报告列出 28 条，其余源本周无新文。
+- 各接口均请求成功，无失败。
+- CISA KEV：https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json （共 1766 条，2026-10-30 发布；本窗口无新增）
 
-本日对 LWiS List 成员做了 3 次检索，大多为非安全内容；有用的 vx-underground（Base64 编码的 Python 恶意代码提醒：https://x.com/vxunderground/status/2117316330193858817 ）、ProjectDiscovery、runZero、Rad 数条已并入上文。
-
-## 来源搜索 URL
-
-- https://x.com/search?q=CVE%20PoC%20exploit%200day&f=live
-- https://x.com/search?q=github.com%20(C2%20OR%20%22red%20team%22%20OR%20nuclei)&f=live
-- https://x.com/search?q=%22malware%20analysis%22%20OR%20%22threat%20report%22%20OR%20%22threat%20actor%22&f=live
-- https://x.com/i/lists/1239330068461244424
-- https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
-- https://nvd.nist.gov/vuln/search
-- https://blog.badsectorlabs.com/files/blogs.txt
-- https://risky.biz/
-- https://tldrsec.com/
+---
+本机保存路径：~/Desktop/X安全情报晚报/2026-11-02-x-security-digest.md（kenny1337s-MacBook-Pro.local），box 副本：/home/box/workspace/security-watch/reports/2026-11-02-x-security-digest.md

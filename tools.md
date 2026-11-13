@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Silverseal](https://github.com/Idov31/Silverseal) | Rust写的UEFI bootkit框架 |
+| [impacket-rs](https://github.com/nestho/impacket-rs) | Impacket的纯Rust重写版 |
+| [Behavioral-Living-off-the-Land-LOLBins-Detection-System](https://github.com/nimesh895/Behavioral-Living-off-the-Land-LOLBins-Detection-System) | 基于行为的LOLBins检测系统 |
+| [Quick-Shift](https://github.com/Ossipher/Quick-Shift) | 改LNK文件触发NTLM哈希窃取 |
+| [Lure](https://github.com/SilentMesh-Systems/Lure) | Lure蜜罐凭据被用即告警工具 |
+| [llama-modchip](https://github.com/synchopate/llama-modchip) | 64GB内存CPU跑284B模型 |
+| [s1l3nc3r](https://github.com/unicornofhunt/s1l3nc3r) | 让Linux版MDE消音的工具 |
+| [linux-live](https://github.com/wesmar/linux-live) | Win11盘上单文件启动Debian |
 | [lkm4ctr](https://github.com/cyanmint/lkm4ctr) | 用内核模块让安卓跑Docker |
 | [awesome-osint](https://github.com/jivoi/awesome-osint) | OSINT情报搜集精选资源清单 |
 | [ai-ref-library-cn](https://github.com/sleepy-zone/ai-ref-library-cn) | AI作图中文参考素材库（脸姿势服装） |

@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [worse_query](https://github.com/forcequitOS/worse_query) | iOS26与27沙箱逃逸PoC |
 | [CVE-2026-98260-Analysis](https://github.com/villager1314/CVE-2026-98260-Analysis) | Linux内核POSIX定时器UAF分析 |
 | [CVE-2026-83844-public](https://github.com/HackingLZ/CVE-2026-83844-public) | MS Paint C2PA解析越界读PoC |
 | [CVE-2026-50679](https://github.com/h4urek/CVE-2026-50679) | Windows Search堆溢出漏洞PoC |

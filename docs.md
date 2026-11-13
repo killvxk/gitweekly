@@ -2,6 +2,51 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GG ARTEX 之外](https://blog.gitguardian.com/ai-pentesting-tools-beyond-artex/) | ARTEX之外的AI渗透工具盘点 |
+| [GG antifox 凭据](https://blog.gitguardian.com/another-new-ai-hacking-agent-vs-the-same-credential-problem-antifox-targeting-aws-credentials/) | GG分析antifox窃取AWS凭据 |
+| [Expel 绅士 0day](https://expel.com/blog/not-very-gentlemanly-analyzing-a-zero-day-exploit-used-by-the-gentlemen-ransomware-to-disable-targets-edrs/) | 绅士勒索用0day打EDR的分析 |
+| [Codex 后门研究](https://depi.security/blog/20261111-backdooring-codex/) | 给Codex投毒后门的研究分析 |
+| [AI 攻击者研究](https://ella-bakshi.github.io/ai-attacker-threat-research/) | AI攻击者威胁行为追踪研究报告 |
+| [Insinuator 令牌四](https://insinuator.net/2026/11/token-theft-in-microsoft-entra-id-part-4-of-4-oauth-2-0-standard-gaps/) | Entra ID OAuth令牌窃取系列四 |
+| [脚本块走私](https://ipurple.team/2026/11/11/scriptblock-smuggling/) | PowerShell脚本块走私分析 |
+| [krbtgt 重置](https://jorgequestforknowledge.wordpress.com/2026/11/12/what-happens-under-the-hood-when-resetting-the-password-of-a-krbtgt-account/) | 重置krbtgt密码底层机制解析 |
+| [Ince PG RCE](https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/) | PostgreSQL类型混淆到RCE研究 |
+| [PS CSP 盲信任](https://portswigger.net/research/blind-trust-stealing-credentials-through-csp) | CSP盲信任窃取凭据的漏洞研究 |
+| [PD 可利用性](https://projectdiscovery.io/blog/probably-not-exploitable) | 关于漏洞可利用性判定的误区研究 |
+| [MPEngineDB 取证](https://protokol-7.github.io/dfir/2026/11/10/defenders-hidden-flight-recorder-mpenginedb.html) | MDE飞行记录器MPEngineDB取证 |
+| [SpecterOps Sage](https://specterops.io/blog/2026/11/10/sage-ai-for-assumed-breach-operations-built-into-mythic/) | Mythic内置Sage AI攻击模拟 |
+| [Dreadnode 索引](https://www.dreadnode.io/research/dreadindex/) | Dreadnode开源情报索引工具集 |
+| [CP CopperDragon](https://research.checkpoint.com/2026/not-all-that-glitters-is-gold-tracking-copperdragons-sparrow-framework-around-the-globe/) | CopperDragon框架全球扩散追踪 |
+| [Secquill 暴露服务器](https://secquill.com/articles/exposed-server-reveals-14-months-of-a-hacker-s-operations-against-european-targets/) | 暴露服务器揭露14个月攻击行动 |
+| [盲鹰 SVG](https://sh3llc0d3.com/blog/blind-eagle-apt-c-36-weaponizes-judicial-svg-smuggling-to-deploy-asyncrat-across-latin-america/) | 盲鹰APT借司法SVG投毒的分析 |
+| [socket bee-js](https://socket.dev/blog/bee-js-compromise) | bee-js供应链以太坊钱包投毒 |
+| [ESET Turla 谷麦](https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids/) | Turla谷麦Exchange入侵分析 |
+| [Krebs Qilin](https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/) | Krebs调查勒索组织Qilin内幕 |
+| [MSFT 神经元后门](https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/) | 休眠神经元后门攻击AI代理研究 |
+| [MSFT Forge Lab](https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/) | Forge Lab智能体挖Rust内存问题 |
+| [MSFT 内核复盘](https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/) | 59份Linux内核漏洞报告复盘 |
+| [etw-rs](https://www.originhq.com/research/introducing-etw-rs) | Rust版ETW遥测库etw-rs介绍 |
+| [huntback N-Central](https://huntback.io/blog/ncentral-4everable2shell-miners-on-live-servers) | N-Central漏洞链挖矿入侵分析 |
+| [Huntress N-able](https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains) | N-able漏洞链应急处置复盘 |
+| [Huntress sckit](https://www.huntress.com/blog/sckit-worm-rogue-screenconnect) | sckit蠕虫与ScreenConnect研究 |
+| [Jamf 假面试](https://www.jamf.com/blog/contagious-interview-trojanized-macos-installers/) | 假面试木马化macOS安装包分析 |
+| [HA Mosquitto RCE](https://born0monday.me/posts/ha-green-mosquitto-rce/) | 隔离网Mosquitto RCE实战 |
+| [Previdian N-Central](https://blog.previdian.com/n-able-n-central-critical-vulnerabilities-what-we-know-so-far/) | N-Central高危漏洞信息汇总 |
+| [Qlik 反弹壳](https://kylesinvestigation.com/2026/11/11/qlik-sense-servers-hit-with-powershell-reverse-shells-attacker-server-holds-activemq-and-veeam-exploits/) | Qlik服务器PowerShell反弹分析 |
+| [CloudSEK Silent Lynx](https://www.cloudsek.com/blog/off-the-rails-inside-an-exposed-silent-lynx-server) | 暴露的Silent Lynx服务器分析 |
+| [Elastic Sansar](https://www.elastic.co/security-labs/threat-command/sansar-linux-cryptomining-malware) | Sansar Linux挖矿木马分析 |
+| [Todyl 凭据](https://www.todyl.com/blog/stolen-app-credentials-real-access-an-actor-is-signing-into-entra-id-and-azure-devops-as-your-workloads) | 被窃应用凭据登Entra的分析 |
+| [Railway 事件](https://blog.railway.com/p/incident-report-october-security-incident) | Railway十月安全事件报告 |
+| [PEB 之外](https://blog.jaytiwari.me/posts/Beyond-PEB-Walking-Alternative-Ways-to-Find-DLL-Base-Addresses-and-Resolve-Functions-at-Runtime/) | PEB之外的DLL基址定位方法 |
+| [NTLMv1 SSP](https://hunio.org/security/ntlmv1-ssp-cracking/) | NTLMv1 SSP哈希破解研究 |
+| [MetalClaw 1.2](https://combat.theater/blog/v1-2-metal-claw) | MetalClaw工具v1.2发布文 |
+| [MalDocTrace](https://debugactiveprocess.medium.com/maldoctrace-emulating-malicious-office-macros-without-running-them-fcd98245a087) | 免运行仿真恶意Office宏工具 |
+| [Barracuda 注入](https://pwn.watch/i/barracuda-authorization-bypass-command-injection-cve-2026-116606) | Barracuda授权绕过命令注入分析 |
+| [FreeSWITCH RCE](https://pwn.watch/i/freeswitch-api-chat-rce-cve-2026-116779) | FreeSWITCH API聊天RCE分析 |
+| [SonicWall SAML](https://pwn.watch/i/sonicwall-sonicos-sslvpn-saml-bypass-cve-2026-19868) | SonicWall SSLVPN SAML绕过 |
+| [ASEC 96477](https://asec.ahnlab.com/en/96477/) | 安铁ASEC的恶意软件分析报告 |
+| [Wiz Apache RCE](https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability) | Apache HTTP Server RCE分析 |
+| [Kaspersky BO 团队](https://ics-cert.kaspersky.ru/publications/reports/2026/11/05/supply-chain-attack-bo-team-in-a-software-developers-infrastructure/) | BO团队供应链攻击基础设施调查 |
 | [HackNexus](https://d1se0.github.io/hacknexus/#/) | HackNexus西语道德黑客资源套件 |
 | [Delayed OTAs](https://dhinakg.github.io/delayed-otas.html) | 苹果iOS延迟OTA更新机制分析 |
 | [Rails GHSA-f3w6-w445-fwh9](https://github.com/rails/rails/security/advisories/GHSA-f3w6-w445-fwh9) | Rails任意文件读写CVSS9.8通告 |

@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [SignDrop](https://github.com/MSNightmare/SignDrop) | Windows CLFS认证0day提权PoC |
+| [SWEP1RCR-exploit](https://github.com/synacktiv/SWEP1RCR-exploit) | 星球大战赛车的N64漏洞利用PoC |
 | [worse_query](https://github.com/forcequitOS/worse_query) | iOS26与27沙箱逃逸PoC |
 | [CVE-2026-98260-Analysis](https://github.com/villager1314/CVE-2026-98260-Analysis) | Linux内核POSIX定时器UAF分析 |
 | [CVE-2026-83844-public](https://github.com/HackingLZ/CVE-2026-83844-public) | MS Paint C2PA解析越界读PoC |

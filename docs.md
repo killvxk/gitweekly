@@ -2,6 +2,37 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MSFT 后训练背叛](https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/) | 后训练供应链攻击劫持编码智能体 |
+| [NVISO LiteLLM](https://blog.nviso.eu/2026/11/12/breaking-the-semantic-cache-a-litellm-case-study-cve-2026-89032/) | LiteLLM语义缓存污染案例研究 |
+| [Securelist 云渗透](https://securelist.com/how-a-cloud-pentest-works/121921/) | 云渗透测试如何跨越信任边界讲解 |
+| [doyensec ProtoSpector](https://blog.doyensec.com/2026/11/12/protospector.html) | Burp的Protobuf/gRPC测试扩展 |
+| [flare ClickFix 深挖](https://flare.io/learn/resources/blog/hunting-clickfix-attacks-deep-dive) | ClickFix四类载荷深挖与狩猎 |
+| [Hacktive XSS](https://www.hacktivesecurity.com/blog/2026/11/05/digging-into-html-to-find-more-elements-and-event-handlers-for-xss-attacks/) | 挖掘HTML元素事件处理XSS攻击面 |
+| [Cyble 智能体钓鱼](https://cyble.com/blog/can-agentic-ai-investigate-phishing-campaign/) | 智能体AI调查钓鱼活动实证演练 |
+| [Infostealers 炸弹威胁](https://www.infostealers.com/article/school-bomb-threats-hudson-rock-finds-reported-sender-accounts-in-infostealer-data/) | 学校炸弹威胁邮箱失窃数据的溯源 |
+| [ISC GPUStack](https://isc.sans.edu/diary/rss/33514) | GPUStack绕过漏洞利用尝试观测 |
+| [先知 happy-dom](https://xz.aliyun.com/news/93265) | happy-dom服务端SSRF全链分析 |
+| [先知 Zip Slip](https://xz.aliyun.com/news/93262) | Gohttpserver的Zip Slip剖析 |
+| [MSFT GSocket](https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/) | GSocket被武器化为隐蔽C2的研究 |
+| [Securelist Citrus](https://securelist.com/citrus-ransomware/121879/) | Citrus勒索VLESS与LLM协助分析 |
+| [BHIS 日志指南](https://www.blackhillsinfosec.com/log-analysis-guide/) | 日志分析实战找模式与红旗的指南 |
+| [MMD KinsingBot](https://blog.malwaremustdie.org/2026/11/mmd-071-2026-kinsingbot-well-designed.html) | KinsingBot僵尸网络设计逆向分析 |
+| [MMD Hajime](https://blog.malwaremustdie.org/2026/11/once-upon-time-linuxhajime-hexstring.html) | Hajime十六进制推送下载器分析 |
+| [先知 Dify](https://xz.aliyun.com/news/93260) | Dify默认配置沙箱RCE利用链 |
+| [先知 GPT Academic](https://xz.aliyun.com/news/93253) | GPT Academic软链任意文件读取 |
+| [先知 GStreamer](https://xz.aliyun.com/news/93251) | GStreamer H.266 DCI越界写复现 |
+| [MSFT 休眠代理](https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/) | 检测AI模型神经元中的休眠代理 |
+| [rtl-sdr 干扰检测](https://www.rtl-sdr.com/esp-wifi-jam-detector-a-standalone-2-4-and-5-ghz-interference-detector-built-on-an-esp32-c5-touchscreen-board/) | ESP32的WiFi干扰检测器 |
+| [rtl-sdr SatHunter](https://www.rtl-sdr.com/sathuntersdr-an-open-source-android-app-for-hunting-cubesats-with-an-rtl-sdr/) | 安卓RTL-SDR追踪CubeSat应用 |
+| [Mozilla 指纹](https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/) | 让Firefox更难被指纹识别的研究 |
+| [Shielder K8s](https://www.shielder.com/blog/2026/11/kubernetes-non-core-security-audit/) | K8s非核心组件的安全审计研究 |
+| [Silent Signal IBMi](https://blog.silentsignal.eu/2026/11/10/Beyond-the-compiler-Making-IBM-i-run-modified-native-code-PVV/) | 让IBMi跑修改版原生代码研究 |
+| [Bordergate Pickle](https://www.bordergate.co.uk/weaponised-models-pickle-deserialisation-in-pytorch/) | PyTorch模型pickle反序列化武器化 |
+| [先知 SSHole](https://xz.aliyun.com/news/93220) | OpenSSH musl认证绕过复现分析 |
+| [hasherezade DGX](https://hshrzd.wordpress.com/2026/11/09/debugging-a-boot-loop-on-nvidia-dgx-os/) | DGX OS系统引导循环调试记录 |
+| [zeltser SIFT](https://zeltser.com/sift-workstation-and-remnux) | 同机安装SIFT与REMnux的方法 |
+| [andpalmier ARTEX](https://andpalmier.com/posts/artex-source-behind-iocs/) | 读ARTEX源码溯源IoC的研究 |
+| [ISC SSHole 扫描](https://isc.sans.edu/diary/rss/33498) | SSHole漏洞互联网扫描观测 |
 | [GG ARTEX 之外](https://blog.gitguardian.com/ai-pentesting-tools-beyond-artex/) | ARTEX之外的AI渗透工具盘点 |
 | [GG antifox 凭据](https://blog.gitguardian.com/another-new-ai-hacking-agent-vs-the-same-credential-problem-antifox-targeting-aws-credentials/) | GG分析antifox窃取AWS凭据 |
 | [Expel 绅士 0day](https://expel.com/blog/not-very-gentlemanly-analyzing-a-zero-day-exploit-used-by-the-gentlemen-ransomware-to-disable-targets-edrs/) | 绅士勒索用0day打EDR的分析 |

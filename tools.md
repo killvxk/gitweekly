@@ -2,6 +2,25 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Cyllex-Argus](https://github.com/Cyllex-Framework/Cyllex-Argus) | Cyllex的AI对手情报引擎 |
+| [AboutSecurity](https://github.com/wgpsec/AboutSecurity) | AI代理可执行的渗透测试知识库 |
+| [beatbox](https://github.com/0xthearchitect/beatbox) | beatbox本机一次性即弃环境工具 |
+| [WQFiles](https://github.com/kolbicz/WQFiles) | worse_query免越狱iOS文件管理 |
+| [Erosion](https://github.com/jailbreakdotparty/Erosion) | worse_query沙箱逃逸定制工具箱 |
+| [binkeep](https://github.com/kano92-dir/binkeep) | 浏览器内PE/ELF/MachO反汇编 |
+| [estorides](https://github.com/grisuno/estorides) | 开源OSINT聚合与关联分析引擎 |
+| [Arise-XTI](https://github.com/piratesshield/Arise-XTI) | AI驱动28模块外部攻击面管线 |
+| [meles](https://github.com/movray/meles) | 容器镜像ClamAV与YARA扫描器 |
+| [redforge](https://github.com/CyberSecurity91/redforge) | IT-TOOLS的红队武器库版 |
+| [Vyrulix](https://github.com/bakhishovism/Vyrulix) | Windows恶意样本静态分诊台 |
+| [cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 安卓电视WiFi去广告精简工具 |
+| [ReAgentLive](https://github.com/Krixx1337/ReAgentLive) | 让AI代理活体探索运行中的游戏 |
+| [Copperhound](https://github.com/BenTheCyberOne/Copperhound) | Rust的AD与Entra攻击路径分析 |
+| [cage](https://github.com/jrice-ai/cage) | CAGE4网络防御基准审计论文工件 |
+| [RAS-Eval](https://github.com/lanzer-tree/RAS-Eval) | 长程任务智能体工具调用安全评测 |
+| [FuckCaptcha](https://github.com/vsmutok/FuckCaptcha) | 39类验证码识别信号与绕过指南 |
+| [cerber4rc](https://github.com/synacktiv/cerber4rc) | 隐蔽收割ASREQ哈希的红队工具 |
+| [gogo](https://github.com/chainreactors/gogo) | 面向红队的高拓展自动化扫描引擎 |
 | [Silverseal](https://github.com/Idov31/Silverseal) | Rust写的UEFI bootkit框架 |
 | [impacket-rs](https://github.com/nestho/impacket-rs) | Impacket的纯Rust重写版 |
 | [Behavioral-Living-off-the-Land-LOLBins-Detection-System](https://github.com/nimesh895/Behavioral-Living-off-the-Land-LOLBins-Detection-System) | 基于行为的LOLBins检测系统 |

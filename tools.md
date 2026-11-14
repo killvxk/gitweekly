@@ -2,6 +2,38 @@
 
 | 文章 | 简介 |
 |------|------|
+| [omarchnix](https://github.com/Th0rgal/omarchnix) | Asahi的NixOS声明式工作站 |
+| [psd2live](https://github.com/tsunehimatoi/psd2live) | PSD分层转Live2D模型工具 |
+| [airhand](https://github.com/sqlpxc/airhand) | QUIC低延迟的远程桌面传输协议 |
+| [Awesome-Jailbreak-on-LLMs](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs) | LLM越狱攻击方法论文代码合集 |
+| [ServerStatus-Rust](https://github.com/zdz/ServerStatus-Rust) | Rust版服务器探针监控加强版 |
+| [Termcp](https://github.com/open-mcp-ai/Termcp) | 把界面视作终端的多机MCP管理 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | 多平台IM接入的AI代理助手框架 |
+| [rx8ecu](https://github.com/davtur19/rx8ecu) | 马自达RX-8 ECU逆向工程 |
+| [WQGuard](https://github.com/Kianuni/WQGuard) | iOS沙盒越权逃逸的只读检测工具 |
+| [NucleiFuzzer](https://github.com/0xKayala/NucleiFuzzer) | Nuclei结果驱动模糊测试工具 |
+| [Enkard](https://github.com/Kianuni/Enkard) | 绑定Apple安全芯片的离线卡包 |
+| [switch2-system-language-changer](https://github.com/hrvtuirvw/switch2-system-language-changer) | 借文明7改Switch2系统语言 |
+| [kiri](https://github.com/libracoder/kiri) | 跨平台小容器运行时自带隧道工具 |
+| [LEAKSFORUMS](https://github.com/FSECDEV/LEAKSFORUMS) | 来自黑客论坛的泄露数据系列归档 |
+| [HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) | 健康学习到150岁人体调优指南 |
+| [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | Chrome现代Web最佳实践指南 |
+| [tradecraft-garden-rs](https://github.com/laachy/tradecraft-garden-rs) | Tradecraft Garden的Rust移植 |
+| [crystal-grotto](https://github.com/sliverarmory/crystal-grotto) | Crystal Palace的Go移植版 |
+| [Astral_Projection](https://github.com/KuwaitiSt/Astral_Projection) | CS的模块踩踏式UDRL加载器 |
+| [BingusLdr](https://github.com/Sizeable-Bingus/BingusLdr) | CET兼容栈欺骗的DLL加载器 |
+| [Crystal-Havoc](https://github.com/calv004/Crystal-Havoc) | Havoc Demon的水晶宫加载器 |
+| [Dress](https://github.com/Cute-Dress/Dress) | 以女装照片练习Git的社区项目 |
+| [rea-video](https://github.com/JuneYaooo/rea-video) | 逐镜头逆向拆解视频的AI技能包 |
+| [ZZS-IPA-Store](https://github.com/zrhtop/ZZS-IPA-Store) | GitHub Pages自托管AltStore源 |
+| [FluentRead](https://github.com/FluentRead/FluentRead) | 开源的浏览器沉浸式双语翻译插件 |
+| [cult-ui](https://github.com/nolly-studio/cult-ui) | 150+免费shadcn动画组件库 |
+| [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | AI产品宣传片制作的视频技能包 |
+| [VPeeN](https://github.com/SirBNL/VPeeN) | 把VeePN免费网络变系统VPN |
+| [msrc-dashboard](https://github.com/xaitax/msrc-dashboard) | MSRC研究员门户的看板浏览器扩展 |
+| [handraw-style](https://github.com/yang0/handraw-style) | 手绘风编号画廊双语提示词技能包 |
+| [impeccable](https://github.com/pbakaus/impeccable) | 给编码代理的设计词汇与审查指南 |
+| [ipadn](https://github.com/mengangs/ipadn) | iOS历史版本与下架应用安装器 |
 | [Cyllex-Argus](https://github.com/Cyllex-Framework/Cyllex-Argus) | Cyllex的AI对手情报引擎 |
 | [AboutSecurity](https://github.com/wgpsec/AboutSecurity) | AI代理可执行的渗透测试知识库 |
 | [beatbox](https://github.com/0xthearchitect/beatbox) | beatbox本机一次性即弃环境工具 |

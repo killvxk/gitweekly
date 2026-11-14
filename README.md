@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [tg-widget-rce](https://github.com/davtur19/tg-widget-rce) | Telegram组件引擎原生代码执行研究 |
+| [BTR_CLI](https://github.com/Dump-GUY/BTR_CLI) | Defender BTR.sys攻击PoC工具 |
 | [SignDrop](https://github.com/MSNightmare/SignDrop) | Windows CLFS认证0day提权PoC |
 | [SWEP1RCR-exploit](https://github.com/synacktiv/SWEP1RCR-exploit) | 星球大战赛车的N64漏洞利用PoC |
 | [worse_query](https://github.com/forcequitOS/worse_query) | iOS26与27沙箱逃逸PoC |

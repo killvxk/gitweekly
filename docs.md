@@ -2,6 +2,26 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Cloudflare PHP WAF](https://blog.cloudflare.com/php-vulnerabilities-waf-protection/) | Cloudflare PHP漏洞WAF防护解析 |
+| [MMD ARTEX 检测特征](https://blog.malwaremustdie.org/2026/11/mmd-072-2026-artex-detection-signature.html) | MMD发布ARTEX恶意样本检测特征 |
+| [SwarmerZ](https://blog.secorizon.com/2026/11/secorizonai-research-swarmerz-release.html) | SwarmerZ蜂群代理工具发布 |
+| [Cisco FMC 零日](https://blog.securelayer7.net/cve-2026-20131-cisco-fmc-rce/) | Cisco FMC零日遭勒索组利用分析 |
+| [服务恢复防御规避](https://hackers-arise.com/defense-evasion-recoverit-using-windows-service-failure-recovery-to-evade-detection/) | Windows服务恢复机制防御规避 |
+| [Zip Trap: git status](https://igumnoff.com/2026/11/14/zip-trap-git-status.html) | git status解压陷阱代码执行研究 |
+| [Defender 时间线内部机制](https://kqlquery.com/posts/defender-endpoint-timeline-internals/) | Defender终端时间线内部机制解析 |
+| [PHP2Shell](https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/) | Check Point网关漏洞被利用复盘 |
+| [万物开源时代](https://research.intezer.com/blog/2026/11/when-everything-becomes-open-source/) | 万物开源时代的供应链安全风险分析 |
+| [ESXi 勒索专题](https://securelist.com/esxi-ransomware/121959/) | ESXi vCenter勒索软件攻击链分析 |
+| [NetScaler 认证绕过](https://systemforce.co.uk/blog/2026/11/15/citrix-netscaler-cve-2026-19490-authentication-bypass-attack/) | NetScaler认证绕过漏洞遭在野利用 |
+| [CyberStrikeAI AWS 入侵](https://www.elastic.co/security-labs/threat-command/cyberstrikeai-aws-cloudtrail-intrusion) | CyberStrikeAI首次用于AWS入侵 |
+| [Liminal Panda](https://www.enea.com/insights/the-enemy-within-tracking-liminal-panda-and-silentair-through-mobile-networks/) | Liminal Panda移动网攻击追踪 |
+| [Corrupting the Hive Mind](https://www.praetorian.com/blog/corrupting-the-hive-mind-persistence-through-forgotten-windows-internals/) | Windows遗留内部机制持久化研究 |
+| [先知：DollarTicket](https://xz.aliyun.com/news/93281) | 红队SPN劫持RBCD横向复盘 |
+| [先知：Fastjson](https://xz.aliyun.com/news/93279) | Fastjson反序列化实战复盘 |
+| [先知：安卓组件](https://xz.aliyun.com/news/93278) | Android四大组件安全基础剖析 |
+| [先知：反AI CTF](https://xz.aliyun.com/news/93270) | 反AI检测机制的CTF题目解析 |
+| [先知：rConfig](https://xz.aliyun.com/news/93271) | rConfig反序列化RCE漏洞分析 |
+| [先知：WordPress](https://xz.aliyun.com/news/93320) | WordPress升级窗口竞争条件RCE |
 | [MSFT 后训练背叛](https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/) | 后训练供应链攻击劫持编码智能体 |
 | [NVISO LiteLLM](https://blog.nviso.eu/2026/11/12/breaking-the-semantic-cache-a-litellm-case-study-cve-2026-89032/) | LiteLLM语义缓存污染案例研究 |
 | [Securelist 云渗透](https://securelist.com/how-a-cloud-pentest-works/121921/) | 云渗透测试如何跨越信任边界讲解 |

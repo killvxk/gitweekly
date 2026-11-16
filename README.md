@@ -2,6 +2,9 @@
 
 | 链接 | 描述 |
 |------|------|
+| [NoisyTCP](https://github.com/V4bel/NoisyTCP) | Linux内核TCP收包竞争条件漏洞披露 |
+| [AdminToSystem-HTTP.sys](https://github.com/ivancabrera02/AdminToSystem-HTTP.sys) | 利用HTTP.sys从管理员提权SYSTEM |
+| [intro_to_com](https://github.com/yo-yo-yo-jbo/intro_to_com) | Windows COM机制与CVE漏洞解析 |
 | [tg-widget-rce](https://github.com/davtur19/tg-widget-rce) | Telegram组件引擎原生代码执行研究 |
 | [BTR_CLI](https://github.com/Dump-GUY/BTR_CLI) | Defender BTR.sys攻击PoC工具 |
 | [SignDrop](https://github.com/MSNightmare/SignDrop) | Windows CLFS认证0day提权PoC |

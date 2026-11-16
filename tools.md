@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [CipherStrike](https://github.com/Cursed271/CipherStrike) | 勒索软件事件防御演练模拟测试工具 |
+| [NEBULA](https://github.com/MHaggis/NEBULA) | Windows执行技术检测验证TUI |
+| [ShareHound](https://github.com/p0dalirius/ShareHound) | 网络共享权限导入BloodHound的工具 |
+| [TokenSmith](https://github.com/JumpsecLabs/TokenSmith) | 授权测试生成Entra ID令牌工具 |
+| [appboundkatz](https://github.com/Harrison-Wells-Cyber/appboundkatz) | Rust版AppBound加密绕过演示 |
+| [idasignwriter](https://github.com/crackinglandia/idasignwriter) | IDA Pro函数签名生成辅助工具 |
+| [prodsec-skills](https://github.com/RedHatProductSecurity/prodsec-skills) | Red Hat面向AI助手的安全技能集 |
+| [md-vault](https://github.com/xiangc579/md-vault) | Markdown管理2FA动态码种子工具 |
+| [malwaremustdie](https://github.com/unixfreaxjp/malwaremustdie) | MMD恶意样本检测签名规则集合 |
+| [EnableWindowsLogSettings](https://github.com/Yamato-Security/EnableWindowsLogSettings) | Windows审计日志启用配置工具 |
 | [omarchnix](https://github.com/Th0rgal/omarchnix) | Asahi的NixOS声明式工作站 |
 | [psd2live](https://github.com/tsunehimatoi/psd2live) | PSD分层转Live2D模型工具 |
 | [airhand](https://github.com/sqlpxc/airhand) | QUIC低延迟的远程桌面传输协议 |

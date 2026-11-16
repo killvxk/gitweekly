@@ -2,6 +2,19 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MSFT SCKit](https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/) | 微软披露SCKit蠕虫攻击MSP |
+| [NVISO 检测工程 Part 3](https://blog.nviso.eu/2026/11/13/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-3-validation-and-future-possibilities/) | Detection as Code落地验证系列 |
+| [Talos ARTEX 生态](https://blog.talosintelligence.com/artex-and-beyond/) | Talos剖析AI渗透测试平台生态 |
+| [Beyond ARTEX](https://andpalmier.com/posts/agentic-frameworks-beyond-artex/) | 14个AI渗透工具泄露情报分析 |
+| [flare 币安失窃](https://flare.io/learn/resources/blog/binance-hack-infostealers-ai-powered-social-engineering) | 币安失窃案的信息窃取与社工分析 |
+| [Qilin 管理员溯源](https://www.suspectfile.com/haise-qilins-administrator-how-solid-is-the-identification-of-alexey-yakovtsev-qilin-denies-the-claims-and-accuses-gangexposed-of-asking-for-20000/) | Qilin勒索组管理员身份溯源质疑 |
+| [ISC Macfinger](https://isc.sans.edu/diary/rss/33518) | ClickFix投递macOS窃密木马 |
+| [HaxorSec 壳](https://lukeleal.com/research/posts/haxorsec-jsdelivr-loader-webshell/) | jsDelivr下发Webshell加载器 |
+| [Aqua 壳](https://lukeleal.com/research/posts/aqua-hex-loader-remote-site-management-agent/) | Aqua十六进制壳内存运行远控 |
+| [Focal Router Orb](https://lukeleal.com/research/posts/focal-router-orb-wordpress-implant/) | 可猜令牌的WordPress植入体分析 |
+| [cPanel 沦陷](https://lukeleal.com/research/posts/hacked-cpanel-five-phishing-kits-and-a-shell-zoo/) | 一个cPanel沦陷后的钓鱼Kits剖析 |
+| [Den1xxx 伪装壳](https://lukeleal.com/research/posts/den1xxx-filemanager-wp-xmlrpc-costume/) | 伪装XML-RPC的文件管理后门 |
+| [PHP File Manager Mini](https://lukeleal.com/research/posts/php-file-manager-mini-mass-deface/) | goto混淆webshell批量挂马分析 |
 | [Cloudflare PHP WAF](https://blog.cloudflare.com/php-vulnerabilities-waf-protection/) | Cloudflare PHP漏洞WAF防护解析 |
 | [MMD ARTEX 检测特征](https://blog.malwaremustdie.org/2026/11/mmd-072-2026-artex-detection-signature.html) | MMD发布ARTEX恶意样本检测特征 |
 | [SwarmerZ](https://blog.secorizon.com/2026/11/secorizonai-research-swarmerz-release.html) | SwarmerZ蜂群代理工具发布 |

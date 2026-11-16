@@ -2,6 +2,15 @@
 
 | 文章 | 简介 |
 |------|------|
+| [OsintHunter](https://github.com/letox4/OsintHunter) | 多模块OSINT情报调查工具包 |
+| [gsocket](https://github.com/hackerschoice/gsocket) | Global Socket加密互联后门工具 |
+| [sony-a6400-research](https://github.com/ivica00/sony-a6400-research) | Sony a6400固件逆向仿真研究 |
+| [keydra](https://github.com/drau6/keydra) | 轻量级API密钥与令牌泄露扫描 |
+| [griffon](https://github.com/GriffonAV/griffon) | GriffonAV安全检测引擎工具 |
+| [ph4ntom-vitrum](https://github.com/ph4ntom-rev/ph4ntom-vitrum) | 恶意样本静态解剖IDA Pro管线 |
+| [justniffer](https://gitlab.com/onotelli/justniffer) | 网络流量协议分析与定制日志工具 |
+| [mailAuthCheck](https://gitlab.com/brn1337/mailAuthCheck) | 邮件SPF DKIM认证检查工具 |
+| [NSEC3-X](https://gitlab.com/cyberdev-tools/nsec3-x) | DNS NSEC3区收割哈希逆转工具 |
 | [CipherStrike](https://github.com/Cursed271/CipherStrike) | 勒索软件事件防御演练模拟测试工具 |
 | [NEBULA](https://github.com/MHaggis/NEBULA) | Windows执行技术检测验证TUI |
 | [ShareHound](https://github.com/p0dalirius/ShareHound) | 网络共享权限导入BloodHound的工具 |

@@ -2,6 +2,21 @@
 
 | 文章 | 简介 |
 |------|------|
+| [cui-rs](https://github.com/Inokinoki/cui-rs) | C99 即时模式 UI 库的 Rust 绑定 |
+| [impossible-os](https://github.com/rizonesoft/impossible-os) | 从零自研支持 Win32 API 的 x64 系统 |
+| [Diffusers_minimax-h3](https://github.com/animede/Diffusers_minimax-h3) | MiniMax-H3 视频生成加速复现仓 |
+| [niricapture](https://github.com/waraku-chise/niricapture) | Niri 合成器的多功能截图工具 |
+| [msime-windows](https://github.com/metasequoiaime/msime-windows) | 水杉输入法的 Windows 端产品 |
+| [msime](https://github.com/metasequoiaime/msime) | 水杉开源中文输入法核心实现仓库 |
+| [labs-molt](https://github.com/NVIDIA-NeMo/labs-molt) | NVIDIA 智能体优先的 RL 研究框架 |
+| [posewear](https://github.com/atuizz/posewear) | 姿势服装人像参考图库与AI试穿 |
+| [sheprd](https://github.com/sheprd-labs/sheprd) | Herdr 会话与智能体活动本地客户端 |
+| [AHA](https://github.com/Eppy-EpHard/AHA) | 无 LLM 的权重空间编程研究 |
+| [BeautifulRust](https://github.com/morganlinton/BeautifulRust) | 教编码代理写地道 Rust 的技能集 |
+| [CMvarDecrypt](https://github.com/1njected/CMvarDecrypt) | 解密SCCM Variables.dat提凭据 |
+| [KozDbg](https://github.com/ivanpotatoes/KozDbg) | x64dbg对抗VMProtect反调试插件 |
+| [Findomain](https://github.com/Findomain/Findomain) | 多源聚合子域名枚举监控告警工具 |
+| [Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | 隔离Claude防网络泄露的轻量虚拟机 |
 | [OsintHunter](https://github.com/letox4/OsintHunter) | 多模块OSINT情报调查工具包 |
 | [gsocket](https://github.com/hackerschoice/gsocket) | Global Socket加密互联后门工具 |
 | [sony-a6400-research](https://github.com/ivica00/sony-a6400-research) | Sony a6400固件逆向仿真研究 |

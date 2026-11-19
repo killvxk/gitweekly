@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [awesome-bof](https://github.com/chryzsh/awesome-bof) | Beacon Object File 工具精选清单 |
+| [CopyUnlocker-BOF](https://github.com/strozfriedberg/CopyUnlocker-BOF) | Lockless锁定文件复制工具BOF版 |
+| [entraconnectdump-bof](https://github.com/Jamjim01/entraconnectdump-bof) | 转储Entra Connect凭据的BOF |
+| [BOF-entra-authcode-flow](https://github.com/sudonoodle/BOF-entra-authcode-flow) | 经授权码流程获取Entra令牌BOF |
+| [bofhound](https://github.com/coffeegist/bofhound) | BOF日志生成BloodHound数据工具 |
 | [Tendril](https://github.com/Whispergate/Tendril) | C#与BOF的持久化后渗透工具 |
 | [BOF-coerce-ipp](https://github.com/sudonoodle/BOF-coerce-ipp) | IPP打印机强制认证可中继的BOF |
 | [COM_Hijack_BOF](https://github.com/bsdrip/COM_Hijack_BOF) | COM劫持持久化BOF，兼容CS与Mythic |

@@ -2,6 +2,37 @@
 
 | 文章 | 简介 |
 |------|------|
+| [先知：ThingsBoard](https://xz.aliyun.com/news/93399) | ThingsBoard远程JS执行器沙箱逃逸分析 |
+| [先知：AI固件审计](https://xz.aliyun.com/news/93403) | AI agent固件审计工具的工程经验 |
+| [Horizon3 Drupal](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-132165/) | Drupal安装器RCE漏洞技术分析 |
+| [Horizon3 Oracle EBS](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-114924-cve-2026-114925/) | Oracle EBS认证绕过与RCE漏洞分析 |
+| [phpAfterShell](https://depthfirst.com/phpaftershell) | phpAfterShell反序列化RCE漏洞解析 |
+| [ISC 蜜罐工程化](https://isc.sans.edu/diary/rss/33534) | 把蜜罐分析当代码管理的工程实践 |
+| [PortSwigger innerHTML XSS](https://portswigger.net/research/achieving-the-impossible-xss-in-innerhtml-without-equals) | innerHTML无等号的XSS利用研究 |
+| [Securelist OpsAgent](https://securelist.com/auditteam-opsagent-forced-audit/122031/) | OpsAgent框架把勒索伪装成咨询的分析 |
+| [ddanchev Salat](https://ddanchev.blogspot.com/2026/11/what-does-sandboxing-and-reverse.html) | Salat窃密木马643样本与作者溯源 |
+| [Intel471 访问经纪人](https://www.intel471.com/blog/aerospace-to-chemicals-why-manufacturers-are-easy-targets-for-access-brokers) | 制造业缘何成访问经纪人首选目标 |
+| [ThreatFabric Bazuka](https://www.threatfabric.com/blogs/bazuka-the-fraud-framework-that-can-do-it-all) | Bazuka全能欺诈框架的分析报告 |
+| [Talos UAT-12643](https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/) | 朝鲜背景UAT-12643定向窃密活动分析 |
+| [Talos 死投递点](https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/) | 公共区块链防删投递点的防御研究 |
+| [qideng Java4Shell](https://qideng.substack.com/p/java4shell-from-avx-512-integer-underflow) | Java4Shell从整数下溢到堆破坏利用 |
+| [ISC 黄色警报](https://isc.sans.edu/diary/rss/33532) | 为何两大RCE漏洞未升黄色警报讨论 |
+| [先知：JDWP](https://xz.aliyun.com/news/93382) | OpenJDK JDWP调试代理越界漏洞复现 |
+| [先知：LibreOffice](https://xz.aliyun.com/news/93387) | LibreOffice的JDBC加载RCE链分析 |
+| [先知：巴别语破甲](https://xz.aliyun.com/news/93389) | 巴别语中间表示绕过大模型对齐研究 |
+| [先知：LiteLLM命令注入](https://xz.aliyun.com/news/93356) | LiteLLM的MCP接口命令注入复现审计 |
+| [MS 设备码认证](https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/) | 微软分析AI编码代理的设备码认证风险 |
+| [MS 宕机钓鱼](https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/) | 微软通告M365宕机主题钓鱼活动 |
+| [ShadowCloud 上篇](https://securelist.com/operation-shadowcloud-gitdoor/122004/) | ShadowCloud行动云后门报告上篇 |
+| [ShadowCloud 下篇](https://securelist.com/operation-shadowcloud-graphdoor/122005/) | ShadowCloud行动云后门报告下篇 |
+| [NVISO Sentinel成本](https://blog.nviso.eu/2026/11/17/reducing-microsoft-sentinel-costs-without-compromising-detection-part-3-the-dns-quest/) | 降低Sentinel成本的检测工程第三篇 |
+| [TrustedSec 掌机破解](https://trustedsec.com/blog/hacking-the-my-arcade-contra-pocket-player-part-ii) | 复古掌机硬件破解研究系列第二篇 |
+| [bartblaze 假钱包](https://bartblaze.blogspot.com/2026/11/crypto-hardware-wallet-users-under.html) | 假加密钱包下载投放ScreenConnect的分析 |
+| [Retadup 复活](https://securelist.com/retadup-delivers-coffeeloader/121908/) | Retadup复活再次投递恶意加载器分析 |
+| [智能体渗透默认值](https://guage.cool/gocurl-two-defaults.html) | 智能体渗透的UA与TLS指纹默认值研究 |
+| [CodeScan 实战](https://www.pa55w0rd.online/codescan-00/) | CodeScan实战00：AI代码审计工程实践 |
+| [Hexacorn Anti-AI](https://www.hexacorn.com/blog/2026/11/15/anti-ai-tricks-part-1/) | 对抗AI分析的反检测技巧系列文 |
+| [zsec 报告写作](https://blog.zsec.uk/below-the-waterline-reporting/) | 红队报告写作方法论系列第三阶段 |
 | [GTIG ARMORY CASTLE](https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere) | vCenter零日认证绕过被在野利用的追踪报告 |
 | [AetherC2 Yad2](https://cyberapp.co.il/research/aetherc2-yad2-delivery-android-attack-chain) | AetherC2安卓银行木马Yad2钓鱼活动分析 |
 | [OBTS toolchain-is-the-loader](https://0x4d31.github.io/toolchain-is-the-loader/) | 0x4D31的OBTS幻灯：工具链即加载器研究 |

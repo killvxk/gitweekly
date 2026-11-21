@@ -2,6 +2,8 @@
 
 | 链接 | 描述 |
 |------|------|
+| [FastUnlock](https://github.com/MSNightmare/FastUnlock) | Win11锁屏BitLocker绕过零日PoC |
+| [FortiLess](https://github.com/mein-0/FortiLess) | FortiClient驱动缓冲区溢出PoC |
 | [NoisyTCP](https://github.com/V4bel/NoisyTCP) | Linux内核TCP收包竞争条件漏洞披露 |
 | [AdminToSystem-HTTP.sys](https://github.com/ivancabrera02/AdminToSystem-HTTP.sys) | 利用HTTP.sys从管理员提权SYSTEM |
 | [intro_to_com](https://github.com/yo-yo-yo-jbo/intro_to_com) | Windows COM机制与CVE漏洞解析 |

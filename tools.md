@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [iottack](https://github.com/inradii/iottack) | Rust编写的IoT协议测试与调试框架 |
+| [anglerphish](https://github.com/geopetro/anglerphish) | 钓鱼演练平台含附件打开与宏执行追踪 |
+| [pass-the-device](https://github.com/crypt0p3g/pass-the-device) | SASE与VPN信任移植攻击的测试与检测工具集 |
+| [starshield-forensics](https://github.com/Ziqi/starshield-forensics) | Chromium LevelDB日志离线取证工具 |
+| [virustotal-mcp](https://github.com/VirusTotal/virustotal-mcp) | VirusTotal官方MCP服务器 |
+| [KittyLoader](https://github.com/tlsbollei/KittyLoader) | C++编写的shellcode加载器工具 |
+| [BloodTrail](https://github.com/MihhailSokolov/BloodTrail) | BloodHound内存图引擎加速AD攻击路径分析 |
+| [email-security-header-analyzer](https://github.com/0xAnalyst/email-security-header-analyzer) | Python邮件安全头分析工具 |
 | [agent-redteam](https://github.com/edbrdi/agent-redteam) | 对自己AI agent做注入滥用测试的skill |
 | [LoaderVille](https://github.com/Nuf1p/LoaderVille) | 面向加固环境的初始访问loader集合 |
 | [RESX](https://github.com/Ryftenius/RESX) | Windows二进制逆向与恶意软件分析工具 |

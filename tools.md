@@ -2,6 +2,13 @@
 
 | 文章 | 简介 |
 |------|------|
+| [agent-redteam](https://github.com/edbrdi/agent-redteam) | 对自己AI agent做注入滥用测试的skill |
+| [LoaderVille](https://github.com/Nuf1p/LoaderVille) | 面向加固环境的初始访问loader集合 |
+| [RESX](https://github.com/Ryftenius/RESX) | Windows二进制逆向与恶意软件分析工具 |
+| [SOC-Log-Analysis-Datasets](https://github.com/mahialjaber/SOC-Log-Analysis-Datasets/) | 含模拟攻击的SOC日志分析练习数据集 |
+| [Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 网站游戏固件协议逆向学习资源合集 |
+| [Orca-AI-Incident-Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) | 真实AI agent事故的公开档案数据库 |
+| [Cyber-Monster](https://github.com/W4L33Dx/Cyber-Monster) | 面向AI agent的785个安全技能合集 |
 | [cui-rs](https://github.com/Inokinoki/cui-rs) | C99 即时模式 UI 库的 Rust 绑定 |
 | [impossible-os](https://github.com/rizonesoft/impossible-os) | 从零自研支持 Win32 API 的 x64 系统 |
 | [Diffusers_minimax-h3](https://github.com/animede/Diffusers_minimax-h3) | MiniMax-H3 视频生成加速复现仓 |

@@ -2,6 +2,39 @@
 
 | 文章 | 简介 |
 |------|------|
+| [GTIG ARMORY CASTLE](https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere) | vCenter零日认证绕过被在野利用的追踪报告 |
+| [AetherC2 Yad2](https://cyberapp.co.il/research/aetherc2-yad2-delivery-android-attack-chain) | AetherC2安卓银行木马Yad2钓鱼活动分析 |
+| [OBTS toolchain-is-the-loader](https://0x4d31.github.io/toolchain-is-the-loader/) | 0x4D31的OBTS幻灯：工具链即加载器研究 |
+| [OBTS XNU](https://justdionysus.github.io/slides/2026-obts-v9-blazakis-exploiting-xnu.pdf) | XNU利用技术的OBTS会议幻灯片 |
+| [Wiz nginx2root](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities) | Wiz对nginx HTTP/2预认证RCE的分析 |
+| [Xint nginx2root](https://xint.io/blog/nginx2root-remote-code-execution) | nginx2root五枚RCE缺陷链的完整分析 |
+| [Hunt.io 战利品库](https://hunt.io/blog/us-bank-irs-ssa-logins-stolen-russian-speaking-operator) | 荷兰VPS上暴露的凭据盗窃战利品库研究 |
+| [socket agent-framework](https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer) | 微软PyPI供应链投毒事件的技术分析 |
+| [Vals autonomous warfare](https://www.vals.ai/blogs/autonomous-warfare) | 大模型军事目标选择自主性的测试研究 |
+| [InfoGuard Airlock](https://labs.infoguard.ch/advisories/cve-2026-19707_airlock-gateway_remote-code-execution/) | Airlock网关WAF预认证堆溢出RCE公告 |
+| [X41 LiteLLM](https://www.x41-dsec.de/lab/advisories/x41-2026-001-litellm/) | LiteLLM自定义护栏沙箱逃逸通告 |
+| [Calif Java4Shell](https://calif.io/java4shell/) | OpenJDK Base64解码越界写RCE披露 |
+| [Sign2Shell](https://amibeingpwned.com/blog/how-we-hacked-brazil) | 巴西电子签名浏览器扩展的驱动式RCE研究 |
+| [Team Cymru APT](https://www.team-cymru.com/post/china-nexus-advanced-persistent-threat-financial-services) | 与中国相关APT对金融服务业的活动分析 |
+| [Windows编码agent遥测](https://xusheng.dev/posts/windows-coding-agent-telemetry/) | Windows11上报编码agent的遥测研究 |
+| [Phrack linenoise](https://phrack.org/issues/73/linenoise_md) | Phrack73：Outlook无交互数据写入研究 |
+| [Phrack word machines](https://phrack.org/issues/73/word-machines-for-weird-machines_md) | Phrack73：用小模型识别Linux内核UAF |
+| [先知：LiteLLM MCP](https://xz.aliyun.com/news/93346) | LiteLLM的MCP认证绕过复现分析 |
+| [先知：CNO/VCO](https://xz.aliyun.com/news/93351) | CNO/VCO集群票据复用场景分析 |
+| [先知：Parse Server](https://xz.aliyun.com/news/93353) | Parse Server的OAuth2认证绕过复现 |
+| [GTIG exploit agent](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold) | GTIG：全自动exploit agent在野出现 |
+| [OPTIMJACK](https://amirulcyber.com/2026/11/16/optimjack-optimizely-skimmer/) | Optimizely标签层供应链投毒与窃卡分析 |
+| [Thalium BinQL](https://blog.thalium.re/posts/binql-a-codeql-extension-for-binary-formats/) | BinQL：查询二进制格式的CodeQL扩展介绍 |
+| [spaceraccoon Defender](https://spaceraccoon.dev/race-against-the-machine-defender-macos-lpe/) | Defender的macOS本地提权变种分析 |
+| [Meta CVE-2026-65339](https://rtx.meta.security/exploitation/2026/11/09/CVE-2026-65339.html) | App冒充系统音频服务绕过麦克风权限的研究 |
+| [ii4gsp LibreOffice](https://ii4gsp.github.io/libreoffice-rce) | LibreOffice打开表格即执行代码的漏洞分析 |
+| [tranquac Firefox](https://tranquac.github.io/posts/firefox-sandbox-escape-cve-2026-124855/) | Firefox沙箱逃逸漏洞分析与利用研究 |
+| [valtersit IBM MQ](https://www.valtersit.com/cve/CVE-2026-10027/) | IBM MQ压缩通道缓冲区溢出漏洞分析 |
+| [maltrak AMSI](https://www.maltrak.com/blog/powershell-amsi-etw-bypass-function-pointer-cache-hijacking) | AMSI与ETW绕过的函数指针缓存劫持研究 |
+| [Hudson Rock 机器画像](https://www.infostealers.com/article/inside-the-ai-powered-marketplace-turning-infected-computers-into-searchable-profiles/) | 窃密日志被AI整理成可搜索画像出售的调查 |
+| [POC 2026 幻灯](https://www.blackstormsecurity.com/research/#poc-2026) | POC2026可利用性八度演讲幻灯 |
+| [先知：FastMCP SSRF](https://xz.aliyun.com/news/93344) | FastMCP路径穿越导致带认证SSRF的分析 |
+| [先知：Craft CMS](https://xz.aliyun.com/news/93336) | Craft CMS Twig沙箱逃逸到RCE的复现 |
 | [MSFT SCKit](https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/) | 微软披露SCKit蠕虫攻击MSP |
 | [NVISO 检测工程 Part 3](https://blog.nviso.eu/2026/11/13/detection-engineering-implementing-detection-as-code-in-an-existing-environment-part-3-validation-and-future-possibilities/) | Detection as Code落地验证系列 |
 | [Talos ARTEX 生态](https://blog.talosintelligence.com/artex-and-beyond/) | Talos剖析AI渗透测试平台生态 |

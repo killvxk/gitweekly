@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [BOFbird](https://github.com/Whispergate/BOFbird) | 把NetBird客户端打包成C2内BOF-PE模块 |
 | [awesome-bof](https://github.com/chryzsh/awesome-bof) | Beacon Object File 工具精选清单 |
 | [CopyUnlocker-BOF](https://github.com/strozfriedberg/CopyUnlocker-BOF) | Lockless锁定文件复制工具BOF版 |
 | [entraconnectdump-bof](https://github.com/Jamjim01/entraconnectdump-bof) | 转储Entra Connect凭据的BOF |

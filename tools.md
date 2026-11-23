@@ -2,6 +2,10 @@
 
 | 文章 | 简介 |
 |------|------|
+| [nginx2root](https://github.com/Censys-Research/nginx2root) | Censys的nginx2root检测与研究仓库 |
+| [kernel-krop-smep-bypass](https://github.com/exploitbey/kernel-krop-smep-bypass) | Linux内核KROP绕过SMEP的利用研究 |
+| [icsScanner](https://github.com/BishopFox/icsScanner) | BishopFox的ICS工业控制系统扫描工具 |
+| [SSHLogCleaner](https://github.com/gmh5225/SSHLogCleaner) | 清除SSH登录与操作日志的红队工具 |
 | [iottack](https://github.com/inradii/iottack) | Rust编写的IoT协议测试与调试框架 |
 | [anglerphish](https://github.com/geopetro/anglerphish) | 钓鱼演练平台含附件打开与宏执行追踪 |
 | [pass-the-device](https://github.com/crypt0p3g/pass-the-device) | SASE与VPN信任移植攻击的测试与检测工具集 |

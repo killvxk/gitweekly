@@ -2,6 +2,11 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Hexacorn Anti-AI P3](https://www.hexacorn.com/blog/2026/11/21/anti-ai-tricks-part-3/) | 对抗AI分析的反检测技巧第三篇 |
+| [BorderGate LoRa后门](https://www.bordergate.co.uk/backdooring-llms-with-lora-adapters/) | 用LoRa适配器给大模型植入后门 |
+| [Krebs RansomwareHelp](https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/) | 勒索解密服务商CTO诈骗起诉调查 |
+| [Hexacorn Anti-AI P2](https://www.hexacorn.com/blog/2026/11/20/anti-ai-tricks-part-2/) | 对抗AI分析的反检测技巧第二篇 |
+| [Bitdefender GTA投毒](https://www.bitdefender.com/en-us/blog/labs/fake-gta-vi-pc-client-malware-clickfix) | 假GTA客户端借ClickFix投毒的分析 |
 | [先知：ThingsBoard](https://xz.aliyun.com/news/93399) | ThingsBoard远程JS执行器沙箱逃逸分析 |
 | [先知：AI固件审计](https://xz.aliyun.com/news/93403) | AI agent固件审计工具的工程经验 |
 | [Horizon3 Drupal](https://horizon3.ai/attack-research/vulnerabilities/cve-2026-132165/) | Drupal安装器RCE漏洞技术分析 |

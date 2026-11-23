@@ -5160,5 +5160,14 @@
   "https://github.com/VirusTotal/virustotal-mcp": "VirusTotal官方MCP服务器",
   "https://github.com/tlsbollei/KittyLoader": "C++编写的shellcode加载器工具",
   "https://github.com/MihhailSokolov/BloodTrail": "BloodHound内存图引擎加速AD攻击路径分析",
-  "https://github.com/0xAnalyst/email-security-header-analyzer": "Python邮件安全头分析工具"
+  "https://github.com/0xAnalyst/email-security-header-analyzer": "Python邮件安全头分析工具",
+  "https://www.hexacorn.com/blog/2026/11/21/anti-ai-tricks-part-3/": "对抗AI分析的反检测技巧第三篇",
+  "https://www.bordergate.co.uk/backdooring-llms-with-lora-adapters/": "用LoRa适配器给大模型植入后门",
+  "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/": "勒索解密服务商CTO诈骗起诉调查",
+  "https://www.hexacorn.com/blog/2026/11/20/anti-ai-tricks-part-2/": "对抗AI分析的反检测技巧第二篇",
+  "https://www.bitdefender.com/en-us/blog/labs/fake-gta-vi-pc-client-malware-clickfix": "假GTA客户端借ClickFix投毒的分析",
+  "https://github.com/Censys-Research/nginx2root": "Censys的nginx2root检测与研究仓库",
+  "https://github.com/exploitbey/kernel-krop-smep-bypass": "Linux内核KROP绕过SMEP的利用研究",
+  "https://github.com/BishopFox/icsScanner": "BishopFox的ICS工业控制系统扫描工具",
+  "https://github.com/gmh5225/SSHLogCleaner": "清除SSH登录与操作日志的红队工具"
 }

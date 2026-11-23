@@ -5184,5 +5184,9 @@
   "https://github.com/gravion-ux/llm-redteam-kit": "评估大模型应用的红队测试工具包",
   "https://github.com/Maldev-Academy/WhisperLoader": "MalDev学院发布的隐蔽shellcode加载器",
   "https://github.com/nullthrix/AgentsAllTheThings": "面向红队的AI代理攻击工具集合",
-  "https://github.com/S12cybersecurity/LogonStealer": "窃取Windows登录凭据的红队工具"
+  "https://github.com/S12cybersecurity/LogonStealer": "窃取Windows登录凭据的红队工具",
+  "https://www.digitalocean.com/blog/cve-2026-99312-kvm-patch": "AMD KVM嵌套虚拟化宿主机内存泄露修复",
+  "https://signal.org/blog/protecting-your-privacy/": "Signal阻止系统AI截取聊天画面的说明",
+  "https://github.com/irsdl/BurpSuiteSharpenerEx": "增强Burp Suite界面与测试操作的扩展",
+  "https://github.com/mandiant/capa": "FLARE出品的二进制恶意能力识别工具"
 }

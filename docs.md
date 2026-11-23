@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [DigitalOcean KVM](https://www.digitalocean.com/blog/cve-2026-99312-kvm-patch) | AMD KVM嵌套虚拟化宿主机内存泄露修复 |
+| [Signal 截屏防护](https://signal.org/blog/protecting-your-privacy/) | Signal阻止系统AI截取聊天画面的说明 |
 | [AWS Cairn 0day](https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/) | 中国关联攻击者用Cairn自挖0day的分析 |
 | [Google Mirror Dimension](https://blog.google/security/mirror-dimension-for-agents/) | 谷歌为AI代理设计的镜像隔离机制 |
 | [eMudhra 证书事件](https://eclecticlight.co/2026/11/22/compromised-emudhra-certificates-an-update/) | eMudhra中间CA私钥泄露事件跟进 |

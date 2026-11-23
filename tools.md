@@ -2,6 +2,8 @@
 
 | 文章 | 简介 |
 |------|------|
+| [BurpSuiteSharpenerEx](https://github.com/irsdl/BurpSuiteSharpenerEx) | 增强Burp Suite界面与测试操作的扩展 |
+| [capa](https://github.com/mandiant/capa) | FLARE出品的二进制恶意能力识别工具 |
 | [SpringBoot-Scan](https://github.com/AabyssZG/SpringBoot-Scan) | SpringBoot框架漏洞扫描检测工具 |
 | [EdgeShot](https://github.com/Fir3n0x/edgeshot) | 针对Edge浏览器的红队凭据提取工具 |
 | [llm-redteam-kit](https://github.com/gravion-ux/llm-redteam-kit) | 评估大模型应用的红队测试工具包 |

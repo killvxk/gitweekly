@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [AWS Cairn 0day](https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/) | 中国关联攻击者用Cairn自挖0day的分析 |
+| [Google Mirror Dimension](https://blog.google/security/mirror-dimension-for-agents/) | 谷歌为AI代理设计的镜像隔离机制 |
+| [eMudhra 证书事件](https://eclecticlight.co/2026/11/22/compromised-emudhra-certificates-an-update/) | eMudhra中间CA私钥泄露事件跟进 |
+| [Neodyme Etherpad](https://neodyme.io/advisories/cve-2026-114516/) | Etherpad预认证任意文件读取通告 |
+| [pwn.ai Upload2Shell](https://pwn.ai/upload2shell/research.html) | Ghostscript沙箱逃逸的利用研究 |
+| [dotSec 白名单绕过](https://www.dotsec.com/insecure-deserialisation-app-control-bypass/) | 反序列化绕过Windows应用白名单 |
+| [Dragos canary](https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens) | AI供应链安全金丝雀令牌检测研究 |
+| [Lava 提示词暴露](https://lava.security/blog/ai-inference-canary-research-prompts-exposed) | AI推理金丝雀提示词暴露的研究 |
 | [Hexacorn Anti-AI P3](https://www.hexacorn.com/blog/2026/11/21/anti-ai-tricks-part-3/) | 对抗AI分析的反检测技巧第三篇 |
 | [BorderGate LoRa后门](https://www.bordergate.co.uk/backdooring-llms-with-lora-adapters/) | 用LoRa适配器给大模型植入后门 |
 | [Krebs RansomwareHelp](https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/) | 勒索解密服务商CTO诈骗起诉调查 |

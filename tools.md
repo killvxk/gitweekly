@@ -2,6 +2,12 @@
 
 | 文章 | 简介 |
 |------|------|
+| [SpringBoot-Scan](https://github.com/AabyssZG/SpringBoot-Scan) | SpringBoot框架漏洞扫描检测工具 |
+| [EdgeShot](https://github.com/Fir3n0x/edgeshot) | 针对Edge浏览器的红队凭据提取工具 |
+| [llm-redteam-kit](https://github.com/gravion-ux/llm-redteam-kit) | 评估大模型应用的红队测试工具包 |
+| [WhisperLoader](https://github.com/Maldev-Academy/WhisperLoader) | MalDev学院发布的隐蔽shellcode加载器 |
+| [AgentsAllTheThings](https://github.com/nullthrix/AgentsAllTheThings) | 面向红队的AI代理攻击工具集合 |
+| [LogonStealer](https://github.com/S12cybersecurity/LogonStealer) | 窃取Windows登录凭据的红队工具 |
 | [nginx2root](https://github.com/Censys-Research/nginx2root) | Censys的nginx2root检测与研究仓库 |
 | [kernel-krop-smep-bypass](https://github.com/exploitbey/kernel-krop-smep-bypass) | Linux内核KROP绕过SMEP的利用研究 |
 | [icsScanner](https://github.com/BishopFox/icsScanner) | BishopFox的ICS工业控制系统扫描工具 |

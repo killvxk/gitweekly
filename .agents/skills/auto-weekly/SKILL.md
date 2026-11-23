@@ -337,6 +337,19 @@ yarb（`Vu1nT0tal/yarb`）是每日安全资讯 RSS 聚合机器人，每日发�
 4. Kitploit 还原：`kitploit.com/en/tools/github/<o>/<r>` → `https://github.com/<o>/<r>`（gitlab 同理），按类别入表；存在性用普通 GET 校验（避开 API 60/hr 限流）。
 5. 去重、描述、插行、缓存规则同模式 3 步骤 3-5。
 
+## Push 后总结（硬性要求，2026-11-23 主人指示）
+
+每次 `git push` 成功后，必须立即向主人输出一份本次推送内容的完整总结，格式固定：
+
+1. **推送范围**：commit SHA 与单行文案（多笔按时间正序列全），tag 有则列 tag 对象与 peeled SHA。
+2. **数据行变化**：按目标文件分列（README.md / docs.md / C2.md / BOF.md / tools.md）各自新增行数，合计总行数；周报（模式 1/补行）单列行数与终态。
+3. **缓存变化**：`links_cache/descriptions_cache.json` 键数 before → after。
+4. **素材跟踪**：本次新入库的 Daily / yarb 快照文件。
+5. **验证结果**：断言 eval 是否全过（描述码点、碰撞、垃圾键）、`ls-remote` 双 SHA 验证（若推了 tag）。
+6. **遗留事项**：下一窗状态（today.md 版头、待收素材、待打 tag）。
+
+总结用中文、表格优先；`origin/main` 与工作区状态一并确认。未 push 前不得输出该总结。
+
 ---
 
 ## 附加资源

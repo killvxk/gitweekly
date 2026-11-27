@@ -2,6 +2,7 @@
 
 | 链接 | 描述 |
 |------|------|
+| [opcua-exploit-framework](https://github.com/claroty/opcua-exploit-framework) | Claroty的OPC-UA漏洞研究利用框架 |
 | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | nginx2root双CVE的PoC与利用 |
 | [CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477) | IOSurfaceRoot注册表UAF的PoC |
 | [CVE-2026-66373-poc](https://git.mio2shell.com/mio/CVE-2026-66373-poc/) | CVE-2026-66373 PoC脚本 |

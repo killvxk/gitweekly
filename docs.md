@@ -2,6 +2,16 @@
 
 | 文章 | 简介 |
 |------|------|
+| [先知：DT_RELR盲区](https://xz.aliyun.com/news/93459) | DT_RELR压缩重定位致objdump审计盲区 |
+| [theflow0 PS5 Linux讲稿](https://github.com/TheOfficialFloW/Presentations/blob/master/2026-sascon-ps5-linux.pdf) | theflow0讲如何让PS5跑Linux |
+| [DIVD 取证报告](https://www.divd.nl/documents/DIVD-2026-00014-forensics-report.pdf) | DIVD公布被ARTEX入侵的取证报告 |
+| [LessWrong 隐蔽信道](https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being-sandboxed) | 沙箱模型经共享推理服务器隐蔽通信 |
+| [Anthropic Siren](https://safeguards.anthropic.com/2026/siren/) | Anthropic的Siren代理沙箱逃逸评测 |
+| [先知：Dagu RCE](https://xz.aliyun.com/news/93419) | Dagu未授权远程命令执行复现审计 |
+| [先知：WAF检测错位](https://xz.aliyun.com/news/93415) | 防御AI Agent任务链攻击的WAF检测方案 |
+| [Florian Roth AOF讲稿](https://github.com/Neo23x0/Talks/blob/master/AOFs-and-Defensive-Minimalism-Slides-EN.pdf) | Florian Roth谈AOF与防御极简主义讲稿 |
+| [Censys Expressway](https://censys.com/advisory/cve-2026-76466/) | Censys的Expressway RCE漏洞顾问 |
+| [Unit 42 Com vishing](https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/) | Unit 42剖析Com关联团伙vishing攻击 |
 | [POJIA](https://cve.pojia.ai/) | HackerOne公开报告分类交互地图 |
 | [DigitalOcean KVM](https://www.digitalocean.com/blog/cve-2026-99312-kvm-patch) | AMD KVM嵌套虚拟化宿主机内存泄露修复 |
 | [Signal 截屏防护](https://signal.org/blog/protecting-your-privacy/) | Signal阻止系统AI截取聊天画面的说明 |

@@ -2,6 +2,14 @@
 
 | 文章 | 简介 |
 |------|------|
+| [Athar](https://github.com/Athar-HQ/Athar) | YAML规则的服务指纹标准与扫描器 |
+| [TKNet](https://github.com/BridgerAlderson/TKNet) | 盘点SMB共享与账户权限的桌面扫描器 |
+| [phantom-seeker](https://github.com/FarrimWildaxe/phantom-seeker) | 按Elastic与Defender检测规则扫文件 |
+| [RedAgent](https://github.com/yasindce1998/RedAgent) | 基于RedHands工具面的自主进攻安全agent |
+| [GraphCLI](https://github.com/Ethical-Kaizoku/GraphCLI) | 面向Entra ID与M365的交互式侦察壳 |
+| [SnowCLI](https://github.com/Ethical-Kaizoku/SnowCLI) | 面向ServiceNow的授权测试交互式命令行 |
+| [dnsanity](https://github.com/nil0x42/dnsanity) | 大规模校验DNS解析器列表的工具 |
+| [DetectRaptor](https://github.com/mgreen27/DetectRaptor) | 可批量导入的Velociraptor检测规则集 |
 | [MogVMP](https://github.com/eversinc33/MogVMP) | 基于Remill的VMProtect去虚拟化工具 |
 | [apk-reverse](https://git.nite07.com/nite/apk-reverse) | 安卓APK逆向参考与工具验证知识库 |
 | [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 一键单图实时换脸与视频深伪工具 |

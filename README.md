@@ -2,6 +2,9 @@
 
 | 链接 | 描述 |
 |------|------|
+| [fastx32shell](https://github.com/bandrel/fastx32shell) | FastX文件读取与命令执行复现工具 |
+| [netgear-r8500-preauth-rce](https://github.com/ejfkdev/netgear-r8500-preauth-rce) | Netgear R8500未认证到root的利用链 |
+| [redmi_wifi_ssh](https://github.com/ejfkdev/redmi_wifi_ssh) | 红米AX6000路由一键开启root SSH |
 | [opcua-exploit-framework](https://github.com/claroty/opcua-exploit-framework) | Claroty的OPC-UA漏洞研究利用框架 |
 | [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | nginx2root双CVE的PoC与利用 |
 | [CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477) | IOSurfaceRoot注册表UAF的PoC |

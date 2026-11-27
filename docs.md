@@ -2,6 +2,22 @@
 
 | 文章 | 简介 |
 |------|------|
+| [先知：Jpom RCE](https://xz.aliyun.com/news/93469) | Jpom认证绕过到命令执行全链路分析 |
+| [Bitdefender SYS010](https://www.bitdefender.com/en-us/blog/labs/sys010-reloaded-malvertising-campaign-targeting-meta-business-accounts) | SYS010恶意广告窃取Meta商家账号 |
+| [Talos 智能体蜂群](https://blog.talosintelligence.com/the-great-escape-tradecraft-insights-from-an-agentic-swarm/) | 智能体蜂群攻击手法的公开记录分析 |
+| [Compass Pwn2Own Alpine](https://blog.compass-security.com/2026/11/pwn2own-tokyo-2026-alpine-ilx-f511/) | Pwn2Own东京车载主机Alpine利用 |
+| [Praetorian mod_http2](https://www.praetorian.com/blog/cve-2026-119618-2/) | mod_http2单头部写入致堆破坏根因 |
+| [TrustedSec FastX](https://trustedsec.com/blog/fastx-in-a-box) | 用Docker复现FastX预认证RCE差异 |
+| [先知：Ollama侧信道](https://xz.aliyun.com/news/93435) | Ollama流式响应包长侧信道推断对话 |
+| [NVISO ZQAgent](https://blog.nviso.eu/2026/11/23/artex-fog0003-zqagent-backdoor/) | ARTEX部署ZQAgent持久后门的分析 |
+| [Project Zero VirtualBox](https://projectzero.google/2026/11/virtualbox-process-hardening.html) | VirtualBox进程保护机制的单比特缺陷研究 |
+| [Flare 地下AI渗透工具](https://flare.io/learn/resources/blog/ai-powered-pentesting-tools) | 地下AI渗透工具的深潜与可用性测试 |
+| [Flare 工业串口网关](https://flare.io/learn/resources/blog/exposed-industrial-serial-gateways) | 工业串口网关暴露面与77%无认证研究 |
+| [SecJuice APT模拟](https://secjuice.com/adversary-emulation-of-a-state-backed-apt-cl-sta-1020-with-serverless-functions/) | 用无服务器函数模拟国家背景APT攻击 |
+| [zsec SSH Pt1](https://blog.zsec.uk/ssh-ghost-1/) | 经Cloudflare隧道保护SSH的加固篇一 |
+| [zsec SSH Pt2](https://blog.zsec.uk/ssh-ghost-2/) | 经Cloudflare隧道保护SSH的加固篇二 |
+| [zsec SSH Pt3](https://blog.zsec.uk/ssh-ghost-3/) | 经Cloudflare隧道保护SSH的加固篇三 |
+| [ISC syslog时间戳](https://isc.sans.edu/diary/rss/33530) | syslog时间戳格式演变简史 |
 | [先知：DT_RELR盲区](https://xz.aliyun.com/news/93459) | DT_RELR压缩重定位致objdump审计盲区 |
 | [theflow0 PS5 Linux讲稿](https://github.com/TheOfficialFloW/Presentations/blob/master/2026-sascon-ps5-linux.pdf) | theflow0讲如何让PS5跑Linux |
 | [DIVD 取证报告](https://www.divd.nl/documents/DIVD-2026-00014-forensics-report.pdf) | DIVD公布被ARTEX入侵的取证报告 |

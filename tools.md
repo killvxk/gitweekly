@@ -2,6 +2,21 @@
 
 | 文章 | 简介 |
 |------|------|
+| [kneejerk](https://github.com/mattmillerai/kneejerk) | 扫描JS包提取密钥端点与主机名 |
+| [awtest](https://github.com/mattmillerai/awtest) | 枚举AWS凭据权限的渗透测试工具 |
+| [ai-security-labs](https://github.com/pwnedlabs/ai-security-labs) | LLM与RAG及智能体安全实战实验室 |
+| [AIGoat](https://github.com/AISecurityConsortium/AIGoat) | 故意脆弱的AI应用供LLM红队演练 |
+| [prompt-injection-ctf](https://github.com/ppradyoth/prompt-injection-ctf) | 提示注入CTF与智能体安全靶场 |
+| [php-webvpn](https://github.com/zenkdom/php-webvpn) | 把PHP虚拟主机变成隐蔽VPN隧道 |
+| [vidaa-tv-spyware](https://github.com/gwerneckp/vidaa-tv-spyware) | 海信VIDAA电视后台追踪流量分析 |
+| [autoswagger](https://github.com/intruder-io/autoswagger) | 按OpenAPI文档检测未认证接口 |
+| [VulnDog](https://github.com/Keutonim/VulnDog) | 本地代理给挖洞请求匹配漏洞特征 |
+| [shirudo](https://github.com/shirudo-dev/shirudo) | 基于eBPF的Linux安全微补丁平台 |
+| [epistemic-guard](https://github.com/AlienatedAliens/epistemic-guard) | 用签名回执核验AI代理工具调用 |
+| [libreOSINT](https://github.com/cyberkristaps/libreOSINT) | 本地优先的OSINT关联图谱工作台 |
+| [zapret](https://github.com/bol-van/zapret) | 跨平台对抗DPI审查的多功能绕过工具 |
+| [cybedefend](https://github.com/CybeDefend/cybedefend) | 代理式应用安全审计的开源Snyk替代 |
+| [vouch-proxy](https://github.com/vouch/vouch-proxy) | 基于Nginx的SSO与OAuth登录代理 |
 | [Athar](https://github.com/Athar-HQ/Athar) | YAML规则的服务指纹标准与扫描器 |
 | [TKNet](https://github.com/BridgerAlderson/TKNet) | 盘点SMB共享与账户权限的桌面扫描器 |
 | [phantom-seeker](https://github.com/FarrimWildaxe/phantom-seeker) | 按Elastic与Defender检测规则扫文件 |

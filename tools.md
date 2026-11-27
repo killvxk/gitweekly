@@ -2,6 +2,58 @@
 
 | 文章 | 简介 |
 |------|------|
+| [MogVMP](https://github.com/eversinc33/MogVMP) | 基于Remill的VMProtect去虚拟化工具 |
+| [apk-reverse](https://git.nite07.com/nite/apk-reverse) | 安卓APK逆向参考与工具验证知识库 |
+| [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 一键单图实时换脸与视频深伪工具 |
+| [self-media-guide](https://github.com/lonely-dance-lab/self-media-guide) | 自媒体二创方法模板与Skill合集 |
+| [Threat-Broadcast-Plus](https://github.com/Aabyss-Team/Threat-Broadcast-Plus) | 渊龙Sec威胁情报聚合播报平台 |
+| [xiaoyu](https://github.com/hsuehly/xiaoyu) | Flutter开发的数字人陪伴互动应用 |
+| [scriptc](https://github.com/vercel-labs/scriptc) | 编译TypeScript为原生可执行文件 |
+| [VoWiFiX](https://github.com/iniwex5/VoWiFiX) | 高通基带VoWiFi与漫游增强方案 |
+| [MakeMePPL](https://github.com/dobin/MakeMePPL) | 授予进程PPL保护的Windows驱动 |
+| [mygo](https://github.com/egoist/mygo) | 用Go构建原生UI的桌面应用框架 |
+| [Swipterm](https://github.com/swipt-automation/Swipterm) | iOS上的Linux环境与终端应用 |
+| [context1337](https://github.com/wgpsec/context1337) | 为AI代理提供安全知识的MCP服务 |
+| [globalhackmap](https://github.com/yorkeccak/globalhackmap) | 全球攻击漏洞与泄露事件的实时地球 |
+| [cb-exec](https://github.com/pwn2nice/cb-exec) | 扫描PE回调执行位点的防御工具 |
+| [SideInstaller](https://github.com/FrizzleM/SideInstaller) | 免电脑安装SideStore的iOS工具 |
+| [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) | 股票ETF基金等30万金融品种数据库 |
+| [PathTracker](https://github.com/lxyeternal/PathTracker) | 后台记录行动足迹的iOS小工具 |
+| [Stela](https://github.com/garvitsurana271/Stela) | x86电脑上模拟Apple Silicon翻译层 |
+| [cobalt](https://github.com/imputnet/cobalt) | 无广告追踪与付费墙的媒体下载器 |
+| [zte-e2631-openwrt](https://github.com/Zlion-Y/zte-e2631-openwrt) | 中兴E2631路由刷OpenWrt方案 |
+| [xcl](https://github.com/xcl-dev/xcl) | 在Windows原生运行主机游戏的层 |
+| [squid5090](https://github.com/tensorfish/squid5090) | RTX5090单二进制LLM推理引擎 |
+| [ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack) | ComfyUI的3D生成节点包 |
+| [Resin](https://github.com/Resinat/Resin) | 聚合大量代理订阅的统一代理入口 |
+| [wechat-selkies](https://github.com/nickrunning/wechat-selkies) | Docker封装微信供浏览器访问的项目 |
+| [ClaudeMom](https://github.com/BigPizzaV3/ClaudeMom) | 把API Key转为登录解锁Claude桌面 |
+| [appine](https://github.com/mthli/appine) | 安卓免Root的Linux终端环境 |
+| [XiaoAiSwitch](https://github.com/SeimoDev/XiaoAiSwitch) | LSPosed模块自定义超级小爱模型 |
+| [xiaozao-os](https://github.com/chuspeeism/xiaozao-os) | 模拟桌面OS的多人在线个人主页 |
+| [zlib](https://github.com/heartleo/zlib) | 面向AI代理的Z-Library命令行 |
+| [rustrak](https://github.com/rustrak/rustrak) | Rust写的自托管错误追踪平台 |
+| [kinetic](https://github.com/Veloresearch/kinetic) | Rust编写的本地GGUF推理引擎 |
+| [tailnet-do](https://github.com/littledivy/tailnet-do) | Cloudflare边缘运行Tailscale节点 |
+| [DragGAN](https://github.com/XingangPan/DragGAN) | 拖拽控制点编辑图像的GAN研究 |
+| [winedroid](https://github.com/sohzm/winedroid) | 受Wine启发的安卓APK兼容层 |
+| [opentaskbar](https://github.com/alztrk/opentaskbar) | Windows悬浮任务栏与小组件 |
+| [whisker](https://github.com/whiskerrs/whisker) | 用Rust构建跨平台桌面应用框架 |
+| [Shark](https://github.com/kpgc10kai/Shark) | 安卓一键临时Root与管理切换 |
+| [Byepervisor-Awake](https://github.com/mastersword64/Byepervisor-Awake) | PS5固件6.02管理程序逃逸工具 |
+| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | AI驱动的全自动短视频生成引擎 |
+| [Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) | 博导科研经验炼成的AI副导师技能 |
+| [kensaku](https://github.com/yjid/kensaku) | 按记忆中的方式搜索本机全部文件 |
+| [cfsolve](https://github.com/chris124567/cfsolve) | 免浏览器求解Turnstile验证码 |
+| [cubepod](https://github.com/cubeplexai/cubepod) | 为长驻AI代理提供的云原生执行层 |
+| [Resurface](https://github.com/lilysttail/Resurface) | 多会话记忆检索与证据排序的服务 |
+| [app-store-compliance](https://github.com/mjmirza/app-store-compliance) | App与Play上架审核合规手册 |
+| [Jiumi](https://github.com/ybblab/Jiumi) | 免Root查看应用前后台行为工具 |
+| [Regitela](https://github.com/ichitaso/Regitela) | 基于沙箱逃逸的iOS文件管理器 |
+| [rust-anything](https://github.com/erkamyaman/rust-anything) | Rust重写并验证行为一致性工具 |
+| [bombadil](https://github.com/antithesishq/bombadil) | Web与终端UI的属性测试工具 |
+| [holy-videcode-project](https://github.com/Vibecode-organization/holy-videcode-project) | 全球vibecoder项目开放合集 |
+| [phonebox](https://github.com/ersinkoc/phonebox) | 把旧安卓手机变成电脑桌面控制台 |
 | [BurpSuiteSharpenerEx](https://github.com/irsdl/BurpSuiteSharpenerEx) | 增强Burp Suite界面与测试操作的扩展 |
 | [capa](https://github.com/mandiant/capa) | FLARE出品的二进制恶意能力识别工具 |
 | [SpringBoot-Scan](https://github.com/AabyssZG/SpringBoot-Scan) | SpringBoot框架漏洞扫描检测工具 |

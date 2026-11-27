@@ -2,6 +2,10 @@
 
 | 链接 | 描述 |
 |------|------|
+| [nginx-exploits](https://github.com/Ghost-Bx1/nginx-exploits) | nginx2root双CVE的PoC与利用 |
+| [CVE-2026-112477](https://github.com/Rust505/CVE-2026-112477) | IOSurfaceRoot注册表UAF的PoC |
+| [CVE-2026-66373-poc](https://git.mio2shell.com/mio/CVE-2026-66373-poc/) | CVE-2026-66373 PoC脚本 |
+| [DirtyFrag](https://github.com/mitschud/DirtyFrag) | 三星安卓临时Root的漏洞利用 |
 | [FastUnlock](https://github.com/MSNightmare/FastUnlock) | Win11锁屏BitLocker绕过零日PoC |
 | [FortiLess](https://github.com/mein-0/FortiLess) | FortiClient驱动缓冲区溢出PoC |
 | [NoisyTCP](https://github.com/V4bel/NoisyTCP) | Linux内核TCP收包竞争条件漏洞披露 |

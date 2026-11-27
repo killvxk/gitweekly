@@ -2,6 +2,7 @@
 
 | 文章 | 简介 |
 |------|------|
+| [POJIA](https://cve.pojia.ai/) | HackerOne公开报告分类交互地图 |
 | [DigitalOcean KVM](https://www.digitalocean.com/blog/cve-2026-99312-kvm-patch) | AMD KVM嵌套虚拟化宿主机内存泄露修复 |
 | [Signal 截屏防护](https://signal.org/blog/protecting-your-privacy/) | Signal阻止系统AI截取聊天画面的说明 |
 | [AWS Cairn 0day](https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/) | 中国关联攻击者用Cairn自挖0day的分析 |
